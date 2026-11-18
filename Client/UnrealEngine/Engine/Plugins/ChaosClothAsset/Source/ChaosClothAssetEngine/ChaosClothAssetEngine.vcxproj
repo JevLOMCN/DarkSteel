@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{4E58F2C4-5144-547E-B7A6-CED7CBB20DE2}</ProjectGuid><RootNamespace>ChaosClothAssetEngine</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AActor.cpp" />
+    <ClCompile Include="Private\ClothSimulationProxy.ispc.cpp" />
+    <ClCompile Include="Private\ClothSimulationProxy.ispc_avx.cpp" />
+    <ClCompile Include="Private\ClothSimulationProxy.ispc_avx2.cpp" />
+    <ClCompile Include="Private\ClothSimulationProxy.ispc_avx512skx.cpp" />
+    <ClCompile Include="Private\ClothSimulationProxy.ispc_sse4.cpp" />
+    <ClCompile Include="Private\FChaosClothAssetLodTransitionDataCache.cpp" />
+    <ClCompile Include="Private\FChaosClothSimulationLodModel.cpp" />
+    <ClCompile Include="Private\FChaosClothSimulationModel.cpp" />
+    <ClCompile Include="Private\FChaosClothSimulationProperties.cpp" />
+    <ClCompile Include="Private\FClothAssetEngineModule.cpp" />
+    <ClCompile Include="Private\FClothComponentCacheAdapter.cpp" />
+    <ClCompile Include="Private\FClothEngineTools.cpp" />
+    <ClCompile Include="Private\FClothSimulationAccessoryMesh.cpp" />
+    <ClCompile Include="Private\FClothSimulationContext.cpp" />
+    <ClCompile Include="Private\FClothSimulationMesh.cpp" />
+    <ClCompile Include="Private\FClothSimulationProxy.cpp" />
+    <ClCompile Include="Private\FClothSimulationProxyParallelTask.cpp" />
+    <ClCompile Include="Private\FClothingSimulationCloth.cpp" />
+    <ClCompile Include="Private\FCollectionPropertyFacade.cpp" />
+    <ClCompile Include="Private\FCollisionSource.cpp" />
+    <ClCompile Include="Private\FCollisionSources.cpp" />
+    <ClCompile Include="Private\FCollisionSourcesProxy.cpp" />
+    <ClCompile Include="Private\FMemoryCounterArchive.cpp" />
+    <ClCompile Include="Private\FMultiComponentReregisterContext.cpp" />
+    <ClCompile Include="Private\FSKMClothingSimulation.cpp" />
+    <ClCompile Include="Private\FSKMClothingSimulationContext.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FThreadSafeStaticStatInner.cpp" />
+    <ClCompile Include="Private\IClothComponentAdapter.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDefaultDelete.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TGraphTask.cpp" />
+    <ClCompile Include="Private\TInlineComponentArray.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TObjectIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSetPrivateFriend.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UChaosClothAsset.cpp" />
+    <ClCompile Include="Private\UChaosClothAssetBase.cpp" />
+    <ClCompile Include="Private\UChaosClothAssetInteractor.cpp" />
+    <ClCompile Include="Private\UChaosClothAssetSKMClothingAsset.cpp" />
+    <ClCompile Include="Private\UChaosClothAssetSKMClothingInteractor.cpp" />
+    <ClCompile Include="Private\UChaosClothAssetSKMClothingSimulationFactory.cpp" />
+    <ClCompile Include="Private\UChaosClothAssetSKMClothingSimulationInteractor.cpp" />
+    <ClCompile Include="Private\UChaosClothComponent.cpp" />
+    <ClCompile Include="Private\UClothAssetSkeletalMeshConverter.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.ChaosClothAssetEngine.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

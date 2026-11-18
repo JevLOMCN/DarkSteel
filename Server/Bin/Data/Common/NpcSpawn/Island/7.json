@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "7",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcSpawn/Island/7",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "70010001": {
+        "ID": 70010001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          100000002
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 7002,
+        "Location": {
+          "X": -2353800.0,
+          "Y": -1833700.0,
+          "Z": 67204.29
+        },
+        "RotateYaw": 0.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 1.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 10.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 3.0,
+        "WanderingWaitTimeMax": 5.0,
+        "WanderingMaxTime": 5.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": false,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      }
+    }
+  }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{33B5BAA3-6A97-5331-86E6-7C9F7C41E2BA}</ProjectGuid><RootNamespace>GameplayTasks</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AActor.cpp" />
+    <ClCompile Include="Private\FEventLock.cpp" />
+    <ClCompile Include="Private\FGameplayResourceSet.cpp" />
+    <ClCompile Include="Private\FGameplayTasksModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTimerManager.cpp" />
+    <ClCompile Include="Private\FVisualLogStatusCategory.cpp" />
+    <ClCompile Include="Private\IGameplayTaskOwnerInterface.cpp" />
+    <ClCompile Include="Private\IVisualLoggerDebugSnapshotInterface.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TContainerElementTypeCompatibility_DefaultOperatorFunc.cpp" />
+    <ClCompile Include="Private\TDestructorCaller.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UGameplayTask.cpp" />
+    <ClCompile Include="Private\UGameplayTaskOwnerInterface.cpp" />
+    <ClCompile Include="Private\UGameplayTaskResource.cpp" />
+    <ClCompile Include="Private\UGameplayTask_ClaimResource.cpp" />
+    <ClCompile Include="Private\UGameplayTask_SpawnActor.cpp" />
+    <ClCompile Include="Private\UGameplayTask_TimeLimitedExecution.cpp" />
+    <ClCompile Include="Private\UGameplayTask_WaitDelay.cpp" />
+    <ClCompile Include="Private\UGameplayTasksComponent.cpp" />
+    <ClCompile Include="Private\_Free\Module.GameplayTasks.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

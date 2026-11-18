@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{40F6B097-E9E7-5AA2-85E6-A43E7CBEC8E0}</ProjectGuid><RootNamespace>Navmesh</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.Navmesh.1.cpp" />
+    <ClCompile Include="Private\_Free\Module.Navmesh.2.cpp" />
+    <ClCompile Include="Private\_Free\Module.Navmesh.3.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

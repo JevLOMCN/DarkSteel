@@ -1,0 +1,24 @@
+syntax = "proto3";
+package ds_mail;
+option csharp_namespace = "MirProto.DsMail";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+import "_options.proto";
+import "_unique_id.proto";
+
+message SqlMailTable {
+  int64 receiver_player_uid = 1;
+  UniqueId mail_uid = 2;
+  int64 sender_player_uid = 3;
+  string mail_sender_name = 4;
+  string mail_title = 5;
+  string mail_content = 6;
+  google.protobuf.Timestamp send_dt = 7;
+  google.protobuf.Timestamp remove_dt = 8;
+  int32 mail_type = 9;
+  int32 mail_category_type = 10;
+  string reward_values = 11;
+  bool is_read = 12;
+  bool is_reward = 13;
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommonGrade",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CommonGrade",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CommonGradeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "0": {
+        "ID": "EDS_GradeType::None",
+        "DataStage": 23,
+        "ID_GradeName": {
+          "ID": 0
+        },
+        "ID_GradeColor": 0,
+        "ID_ItemSlotGradeBg": 0,
+        "ID_ItemEquipSlotGradeBg": 0,
+        "ID_ItemDetailGradeBgColor": 0,
+        "ID_TagStyleS": "0",
+        "ID_TagStyleM": "0",
+        "ID_TagStyleL": "0",
+        "ID_ResourceStyleS": 0,
+        "ID_ResourceStyleM": 0,
+        "ID_ResourceStyleL": 0,
+        "ID_RelationGradeName": {
+          "ID": 0
+        },
+        "ID_ItemDetailGradeBg": 0,
+        "ID_ItemDetailGradeNameBg": 0,
+        "ID_ItemNameGrade": "0",
+        "ID_DropGradeBg": 0,
+        "ID_SkillGradeName": {
+          "ID": 0
+        },
+        "ID_SkillGradeColor": 0,
+        "ID_SkillLvGradeBg": 0,
+        "ID_SkillSlotGradeBg": 0
+      },
+      "1": {
+        "ID": "EDS_GradeType::Normal",
+        "DataStage": 23,
+        "ID_GradeName": {
+          "ID": 1001
+        },
+        "ID_GradeColor": 10001,
+        "ID_ItemSlotGradeBg": 2111,
+        "ID_ItemEquipSlotGradeBg": 2141,
+        "ID_ItemDetailGradeBgColor": 10011,
+        "ID_TagStyleS": "Normal_S",
+        "ID_TagStyleM": "Normal_M",
+        "ID_TagStyleL": "Normal_L",
+        "ID_ResourceStyleS": 2011,
+        "ID_ResourceStyleM": 2012,
+        "ID_ResourceStyleL": 2013,
+        "ID_RelationGradeName": {
+          "ID": 250101
+        },
+        "ID_ItemDetailGradeBg": 0,
+        "ID_ItemDetailGradeNameBg": 0,
+        "ID_ItemNameGrade": "0",
+        "ID_DropGradeBg": 0,
+        "ID_SkillGradeName": {
+          "ID": 0
+        },
+        "ID_SkillGradeColor": 0,
+        "ID_SkillLvGradeBg": 0,
+        "ID_SkillSlotGradeBg": 0
+      },
+      "2": {
+        "ID": "EDS_GradeType::High",
+        "DataStage": 23,
+        "ID_GradeName": {
+          "ID": 1002
+        },
+        "ID_GradeColor": 10002,
+        "ID_ItemSlotGradeBg": 2112,
+        "ID_ItemEquipSlotGradeBg": 2142,
+        "ID_ItemDetailGradeBgColor": 10012,
+        "ID_TagStyleS": "High_S",
+        "ID_TagStyleM": "High_M",
+        "ID_TagStyleL": "High_L",
+        "ID_ResourceStyleS": 2021,
+        "ID_ResourceStyleM": 2022,
+        "ID_ResourceStyleL": 2023,
+        "ID_RelationGradeName": {
+          "ID": 250102
+        },
+        "ID_ItemDetailGradeBg": 0,
+        "ID_ItemDetailGradeNameBg": 0,
+        "ID_ItemNameGrade": "0",
+        "ID_DropGradeBg": 0,
+        "ID_SkillGradeName": {
+          "ID": 0
+        },
+        "ID_SkillGradeColor": 0,
+        "ID_SkillLvGradeBg": 0,
+        "ID_SkillSlotGradeBg": 0
+      },
+      "3": {
+        "ID": "EDS_GradeType::Rare",
+        "DataStage": 23,
+        "ID_GradeName": {
+          "ID": 1003
+        },
+        "ID_GradeColor": 10003,
+        "ID_ItemSlotGradeBg": 2113,
+        "ID_ItemEquipSlotGradeBg": 2143,
+        "ID_ItemDetailGradeBgColor": 10013,
+        "ID_TagStyleS": "Rare_S",
+        "ID_TagStyleM": "Rare_M",
+        "ID_TagStyleL": "Rare_L",
+        "ID_ResourceStyleS": 2031,
+        "ID_ResourceStyleM": 2032,
+        "ID_ResourceStyleL": 2033,
+        "ID_RelationGradeName": {
+          "ID": 250103
+        },
+        "ID_ItemDetailGradeBg": 0,
+        "ID_ItemDetailGradeNameBg": 0,
+        "ID_ItemNameGrade": "0",
+        "ID_DropGradeBg": 0,
+        "ID_SkillGradeName": {
+          "ID": 0
+        },
+        "ID_SkillGradeColor": 0,
+        "ID_SkillLvGradeBg": 0,
+        "ID_SkillSlotGradeBg": 0
+      },
+      "4": {
+        "ID": "EDS_GradeType::Epic",
+        "DataStage": 23,
+        "ID_GradeName": {
+          "ID": 1004
+        },
+        "ID_GradeColor": 10004,
+        "ID_ItemSlotGradeBg": 2114,
+        "ID_ItemEquipSlotGradeBg": 2144,
+        "ID_ItemDetailGradeBgColor": 10014,
+        "ID_TagStyleS": "Epic_S",
+        "ID_TagStyleM": "Epic_M",
+        "ID_TagStyleL": "Epic_L",
+        "ID_ResourceStyleS": 2041,
+        "ID_ResourceStyleM": 2042,
+        "ID_ResourceStyleL": 2043,
+        "ID_RelationGradeName": {
+          "ID": 250104
+        },
+        "ID_ItemDetailGradeBg": 0,
+        "ID_ItemDetailGradeNameBg": 0,
+        "ID_ItemNameGrade": "0",
+        "ID_DropGradeBg": 0,
+        "ID_SkillGradeName": {
+          "ID": 0
+        },
+        "ID_SkillGradeColor": 0,
+        "ID_SkillLvGradeBg": 0,
+        "ID_SkillSlotGradeBg": 0
+      },
+      "5": {
+        "ID": "EDS_GradeType::Legendary",
+        "DataStage": 23,
+        "ID_GradeName": {
+          "ID": 1005
+        },
+        "ID_GradeColor": 10005,
+        "ID_ItemSlotGradeBg": 2115,
+        "ID_ItemEquipSlotGradeBg": 2145,
+        "ID_ItemDetailGradeBgColor": 10015,
+        "ID_TagStyleS": "Legendary_S",
+        "ID_TagStyleM": "Legendary_M",
+        "ID_TagStyleL": "Legendary_L",
+        "ID_ResourceStyleS": 2051,
+        "ID_ResourceStyleM": 2052,
+        "ID_ResourceStyleL": 2053,
+        "ID_RelationGradeName": {
+          "ID": 250105
+        },
+        "ID_ItemDetailGradeBg": 0,
+        "ID_ItemDetailGradeNameBg": 0,
+        "ID_ItemNameGrade": "0",
+        "ID_DropGradeBg": 0,
+        "ID_SkillGradeName": {
+          "ID": 0
+        },
+        "ID_SkillGradeColor": 0,
+        "ID_SkillLvGradeBg": 0,
+        "ID_SkillSlotGradeBg": 0
+      },
+      "6": {
+        "ID": "EDS_GradeType::Myth",
+        "DataStage": 23,
+        "ID_GradeName": {
+          "ID": 1006
+        },
+        "ID_GradeColor": 10006,
+        "ID_ItemSlotGradeBg": 2116,
+        "ID_ItemEquipSlotGradeBg": 2146,
+        "ID_ItemDetailGradeBgColor": 10016,
+        "ID_TagStyleS": "Myth_S",
+        "ID_TagStyleM": "Myth_M",
+        "ID_TagStyleL": "Myth_L",
+        "ID_ResourceStyleS": 2061,
+        "ID_ResourceStyleM": 2062,
+        "ID_ResourceStyleL": 2063,
+        "ID_RelationGradeName": {
+          "ID": 250106
+        },
+        "ID_ItemDetailGradeBg": 0,
+        "ID_ItemDetailGradeNameBg": 0,
+        "ID_ItemNameGrade": "0",
+        "ID_DropGradeBg": 0,
+        "ID_SkillGradeName": {
+          "ID": 0
+        },
+        "ID_SkillGradeColor": 0,
+        "ID_SkillLvGradeBg": 0,
+        "ID_SkillSlotGradeBg": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{2D1FCE65-03D8-5FD1-90ED-02BE7CB50D37}</ProjectGuid><RootNamespace>AudioGameplayVolume</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AActor.cpp" />
+    <ClCompile Include="Private\AAudioGameplayVolume.cpp" />
+    <ClCompile Include="Private\FAudioDevice.cpp" />
+    <ClCompile Include="Private\FAudioGameplayActiveSoundInfo.cpp" />
+    <ClCompile Include="Private\FAudioGameplayVolumeListener.cpp" />
+    <ClCompile Include="Private\FAudioGameplayVolumeModule.cpp" />
+    <ClCompile Include="Private\FAudioGameplayVolumeProxyInfo.cpp" />
+    <ClCompile Include="Private\FAudioProxyActiveSoundParams.cpp" />
+    <ClCompile Include="Private\FAudioProxyMutatorSearchObject.cpp" />
+    <ClCompile Include="Private\FAudioProxyMutatorSearchResult.cpp" />
+    <ClCompile Include="Private\FInterpolatedInteriorSettings.cpp" />
+    <ClCompile Include="Private\FProxyMutator_Attenuation.cpp" />
+    <ClCompile Include="Private\FProxyMutator_Filter.cpp" />
+    <ClCompile Include="Private\FProxyMutator_Reverb.cpp" />
+    <ClCompile Include="Private\FProxyMutator_SubmixOverride.cpp" />
+    <ClCompile Include="Private\FProxyMutator_SubmixSend.cpp" />
+    <ClCompile Include="Private\FProxyVolumeMutator.cpp" />
+    <ClCompile Include="Private\FSoundSubmixSendInfo.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IAudioGameplayVolumeInteraction.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseDynamicDelegate.cpp" />
+    <ClCompile Include="Private\TBaseDynamicMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TContainerElementTypeCompatibility_DefaultOperatorFunc.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TInlineComponentArray.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UAGVConditionProxy.cpp" />
+    <ClCompile Include="Private\UAGVPrimitiveComponentProxy.cpp" />
+    <ClCompile Include="Private\UAttenuationVolumeComponent.cpp" />
+    <ClCompile Include="Private\UAudioGameplayVolumeComponent.cpp" />
+    <ClCompile Include="Private\UAudioGameplayVolumeComponentBase.cpp" />
+    <ClCompile Include="Private\UAudioGameplayVolumeMutator.cpp" />
+    <ClCompile Include="Private\UAudioGameplayVolumeProxy.cpp" />
+    <ClCompile Include="Private\UAudioGameplayVolumeSubsystem.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UFilterVolumeComponent.cpp" />
+    <ClCompile Include="Private\UObject.cpp" />
+    <ClCompile Include="Private\UReverbVolumeComponent.cpp" />
+    <ClCompile Include="Private\USubmixOverrideVolumeComponent.cpp" />
+    <ClCompile Include="Private\USubmixSendVolumeComponent.cpp" />
+    <ClCompile Include="Private\_Free\Module.AudioGameplayVolume.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

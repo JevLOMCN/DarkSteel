@@ -1,0 +1,682 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillConditionCheck",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SkillConditionCheck",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SkillConditionCheckTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11035,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfMaxHp",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          50,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          110003,
+          110004
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11036,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfMinHp",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          50,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          110003,
+          110004
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11037,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::TargetBuff",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          1500,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          110003,
+          110004
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11038,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfMaxHp",
+          "EDS_SkillConditionCheckType::TargetBuff",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          50,
+          1500,
+          0
+        ],
+        "ID_Skill": [
+          110003
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11038,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfMinHp",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          50,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          110004
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11039,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::TargetAbnormal",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          14,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          110004
+        ]
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 110123,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfBuff",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          70001,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          111003
+        ]
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 110126,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfMaxHp",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          90,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109013
+        ]
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 110126,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfMaxHp",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          80,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109009
+        ]
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 110126,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfMaxHp",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          50,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109010
+        ]
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11043,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109001,
+          109002,
+          109003,
+          109004,
+          109005
+        ]
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11043,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::SelfMaxHp",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          0,
+          75,
+          0
+        ],
+        "ID_Skill": [
+          109016,
+          109017,
+          109021,
+          22
+        ]
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11043,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::SelfMaxHp",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          2,
+          75,
+          0
+        ],
+        "ID_Skill": [
+          109018,
+          109019,
+          109020
+        ]
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8004,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109001,
+          109002,
+          109003,
+          109004,
+          109005,
+          900101,
+          900102,
+          900103,
+          900104,
+          900105,
+          900106,
+          900107,
+          900108,
+          900109,
+          900110,
+          900111,
+          900112,
+          900113,
+          900114,
+          900115,
+          900116,
+          900117,
+          900121,
+          900122,
+          900123,
+          900127
+        ]
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8004,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          1,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          900128,
+          900129,
+          900130,
+          900131
+        ]
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8004,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          2,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          900124,
+          900125,
+          900126
+        ]
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11063,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          900132
+        ]
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11064,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109025
+        ]
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11064,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          1,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109026
+        ]
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8003,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109001,
+          109002,
+          109003,
+          109004,
+          109005,
+          109006,
+          109007,
+          109008,
+          109009,
+          109010,
+          109011,
+          109013,
+          109014,
+          109015,
+          109016,
+          109017,
+          109021,
+          109022,
+          109023,
+          109024,
+          109025,
+          109031
+        ]
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8003,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          1,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109026,
+          109027,
+          109028,
+          109029,
+          109030
+        ]
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8003,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          2,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          109018,
+          109019,
+          109020
+        ]
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8005,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          1800501,
+          1800502,
+          1800503,
+          1800504,
+          1800505,
+          1800506,
+          1800507,
+          1800508,
+          1800511,
+          1800512,
+          1800513,
+          1800514,
+          1800515,
+          1800516,
+          1800517,
+          1800518,
+          1800519,
+          1800520,
+          1800524,
+          1800525,
+          1800526,
+          1800527,
+          1800528,
+          1800529,
+          1800530,
+          1800531,
+          1800532,
+          1800533,
+          1800534
+        ]
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8005,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          1,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          1800521,
+          1800522,
+          1800523
+        ]
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8005,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          2,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          1800509,
+          1800510,
+          1800535
+        ]
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8007,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          1800701,
+          1800702,
+          1800703,
+          1800704,
+          1800705,
+          1800706,
+          1800707,
+          1800708,
+          1800711,
+          1800712,
+          1800713,
+          1800714,
+          1800715,
+          1800716,
+          1800717,
+          1800718,
+          1800719,
+          1800720,
+          1800724,
+          1800725,
+          1800726,
+          1800727,
+          1800728,
+          1800729,
+          1800730,
+          1800731,
+          1800732,
+          1800733,
+          1800734
+        ]
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8007,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          1,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          1800721,
+          1800722,
+          1800723
+        ]
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8007,
+        "SkillUseConditionType": [
+          "EDS_SkillConditionCheckType::SelfHeightCondition",
+          "EDS_SkillConditionCheckType::None",
+          "EDS_SkillConditionCheckType::None"
+        ],
+        "SkillUseConditionValue": [
+          2,
+          0,
+          0
+        ],
+        "ID_Skill": [
+          1800709,
+          1800710,
+          1800735
+        ]
+      }
+    }
+  }
+]

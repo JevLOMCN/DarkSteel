@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "7003",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PatrolBase/Dungeon/7003",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PatrolBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "70006": {
+        "ID": 70006,
+        "DataStage": 23,
+        "DataStageString": "",
+        "PatrolDesc": "",
+        "PatrolPath": [
+          {
+            "X": -1958707.0,
+            "Y": -1861523.4,
+            "Z": 7921.4517
+          },
+          {
+            "X": -1958707.0,
+            "Y": -1864488.4,
+            "Z": 7921.525
+          }
+        ],
+        "Location": {
+          "X": -1958707.0,
+          "Y": -1861523.4,
+          "Z": 7871.4653
+        },
+        "RotateYaw": -90.0,
+        "PatrolStepGID": 70006,
+        "ID_PatrolFormation": 1,
+        "PatrolType": "EDS_PatrolType::RoundTrip",
+        "PatrolEscortValue1": 0,
+        "PatrolEscortValue2": 0
+      },
+      "70008": {
+        "ID": 70008,
+        "DataStage": 23,
+        "DataStageString": "",
+        "PatrolDesc": "",
+        "PatrolPath": [
+          {
+            "X": -1930777.0,
+            "Y": -1849934.5,
+            "Z": 8311.539
+          },
+          {
+            "X": -1928791.0,
+            "Y": -1849934.5,
+            "Z": 8310.481
+          }
+        ],
+        "Location": {
+          "X": -1930777.0,
+          "Y": -1849934.6,
+          "Z": 8264.831
+        },
+        "RotateYaw": 0.0,
+        "PatrolStepGID": 70008,
+        "ID_PatrolFormation": 1,
+        "PatrolType": "EDS_PatrolType::RoundTrip",
+        "PatrolEscortValue1": 0,
+        "PatrolEscortValue2": 0
+      },
+      "70010": {
+        "ID": 70010,
+        "DataStage": 23,
+        "DataStageString": "",
+        "PatrolDesc": "",
+        "PatrolPath": [
+          {
+            "X": -1928373.1,
+            "Y": -1849926.6,
+            "Z": 8310.52
+          },
+          {
+            "X": -1926647.1,
+            "Y": -1849926.6,
+            "Z": 8324.624
+          }
+        ],
+        "Location": {
+          "X": -1928373.1,
+          "Y": -1849926.6,
+          "Z": 8263.831
+        },
+        "RotateYaw": 0.0,
+        "PatrolStepGID": 70010,
+        "ID_PatrolFormation": 1,
+        "PatrolType": "EDS_PatrolType::RoundTrip",
+        "PatrolEscortValue1": 0,
+        "PatrolEscortValue2": 0
+      },
+      "70011": {
+        "ID": 70011,
+        "DataStage": 23,
+        "DataStageString": "",
+        "PatrolDesc": "",
+        "PatrolPath": [
+          {
+            "X": -1926531.1,
+            "Y": -1848769.6,
+            "Z": 8310.56
+          },
+          {
+            "X": -1926550.1,
+            "Y": -1849955.6,
+            "Z": 8324.624
+          },
+          {
+            "X": -1927717.1,
+            "Y": -1849924.6,
+            "Z": 8310.518
+          }
+        ],
+        "Location": {
+          "X": -1926531.1,
+          "Y": -1848769.6,
+          "Z": 8263.721
+        },
+        "RotateYaw": -90.0,
+        "PatrolStepGID": 70011,
+        "ID_PatrolFormation": 1,
+        "PatrolType": "EDS_PatrolType::RoundTrip",
+        "PatrolEscortValue1": 0,
+        "PatrolEscortValue2": 0
+      },
+      "70007": {
+        "ID": 70007,
+        "DataStage": 23,
+        "DataStageString": "",
+        "PatrolDesc": "",
+        "PatrolPath": [
+          {
+            "X": -1958729.0,
+            "Y": -1865395.4,
+            "Z": 7931.3706
+          },
+          {
+            "X": -1957264.0,
+            "Y": -1865395.4,
+            "Z": 7921.4194
+          }
+        ],
+        "Location": {
+          "X": -1958729.0,
+          "Y": -1865395.4,
+          "Z": 7881.413
+        },
+        "RotateYaw": 0.0,
+        "PatrolStepGID": 70007,
+        "ID_PatrolFormation": 1,
+        "PatrolType": "EDS_PatrolType::RoundTrip",
+        "PatrolEscortValue1": 0,
+        "PatrolEscortValue2": 0
+      }
+    }
+  }
+]

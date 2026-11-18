@@ -1,0 +1,801 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcGroggy",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcGroggy",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcGroggyTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 1,
+        "IsCheckHitDamage": true,
+        "NormalHitDamageRate": 500000,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": false,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate1": 0,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 1,
+        "IsCheckHitDamage": true,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 500000,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": false,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate1": 0,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 1,
+        "IsCheckHitDamage": true,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 500000,
+        "IsCheckAbnormal": false,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate1": 0,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 1,
+        "IsCheckHitDamage": true,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 500000,
+        "SmiteHitDamageRate": 500000,
+        "IsCheckAbnormal": false,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate1": 0,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 1,
+        "IsCheckHitDamage": true,
+        "NormalHitDamageRate": 1000000,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": true,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::Stun"
+        ],
+        "AbnormalGroupRate1": 500000,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 1,
+        "IsCheckHitDamage": false,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": true,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::Stun"
+        ],
+        "AbnormalGroupRate1": 500000,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 1,
+        "IsCheckHitDamage": false,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": true,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::KnockDown"
+        ],
+        "AbnormalGroupRate1": 500000,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 1,
+        "IsCheckHitDamage": false,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": true,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::Stun",
+          "EDS_AbnormalType::KnockDown"
+        ],
+        "AbnormalGroupRate1": 500000,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 1,
+        "IsCheckHitDamage": false,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": true,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::Stun"
+        ],
+        "AbnormalGroupRate1": 500000,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::KnockDown"
+        ],
+        "AbnormalGroupRate2": 1000000,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 2,
+        "IsCheckHitDamage": false,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": false,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate1": 0,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": true,
+        "ID_Skill": [
+          109001,
+          109002,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          202,
+          202,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          100,
+          200,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "11040": {
+        "ID": 11040,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 10.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 3,
+        "IsCheckHitDamage": true,
+        "NormalHitDamageRate": 1000000,
+        "CriticalHitDamageRate": 1000000,
+        "SmiteHitDamageRate": 1000000,
+        "IsCheckAbnormal": false,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate1": 0,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "11063": {
+        "ID": 11063,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 5.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 50,
+        "IsCheckHitDamage": true,
+        "NormalHitDamageRate": 1000000,
+        "CriticalHitDamageRate": 1000000,
+        "SmiteHitDamageRate": 1000000,
+        "IsCheckAbnormal": false,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate1": 0,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "8004": {
+        "ID": 8004,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 10.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 100,
+        "IsCheckHitDamage": true,
+        "NormalHitDamageRate": 1000000,
+        "CriticalHitDamageRate": 1000000,
+        "SmiteHitDamageRate": 1000000,
+        "IsCheckAbnormal": false,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate1": 0,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": true,
+        "ID_Skill": [
+          900120,
+          900107,
+          900119
+        ],
+        "AtkNpcId": [
+          42,
+          42,
+          42
+        ],
+        "AtkCollide": [
+          5001,
+          5001,
+          5001
+        ],
+        "AtkNpcValue": [
+          8000,
+          8000,
+          8000
+        ],
+        "AtkCollideIdValue": [
+          8000,
+          8000,
+          8000
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "8003": {
+        "ID": 8003,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 10.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 100,
+        "IsCheckHitDamage": false,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": false,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate1": 0,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": true,
+        "ID_Skill": [
+          109008,
+          109009,
+          109010
+        ],
+        "AtkNpcId": [
+          42,
+          42,
+          42
+        ],
+        "AtkCollide": [
+          5001,
+          5001,
+          5001
+        ],
+        "AtkNpcValue": [
+          12000,
+          12000,
+          12000
+        ],
+        "AtkCollideIdValue": [
+          12000,
+          12000,
+          12000
+        ],
+        "GroggyStartAniIndex": 1
+      },
+      "8005": {
+        "ID": 8005,
+        "DataStage": 23,
+        "Version": "*",
+        "GroggyTime": 10.0,
+        "GroggyGetUpTime": 2.16,
+        "ResetGroggyCount": 5,
+        "IsCheckHitDamage": false,
+        "NormalHitDamageRate": 0,
+        "CriticalHitDamageRate": 0,
+        "SmiteHitDamageRate": 0,
+        "IsCheckAbnormal": true,
+        "AbnormalGroup1": [
+          "EDS_AbnormalType::Stun",
+          "EDS_AbnormalType::Hold",
+          "EDS_AbnormalType::KnockFront",
+          "EDS_AbnormalType::KnockDown"
+        ],
+        "AbnormalGroupRate1": 10000,
+        "AbnormalGroup2": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate2": 0,
+        "AbnormalGroup3": [
+          "EDS_AbnormalType::None"
+        ],
+        "AbnormalGroupRate3": 0,
+        "IsCheckSkillUse": false,
+        "ID_Skill": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcId": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollide": [
+          0,
+          0,
+          0
+        ],
+        "AtkNpcValue": [
+          0,
+          0,
+          0
+        ],
+        "AtkCollideIdValue": [
+          0,
+          0,
+          0
+        ],
+        "GroggyStartAniIndex": 1
+      }
+    }
+  }
+]

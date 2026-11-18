@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{4C92D297-1EA1-5D4B-BEE4-8A84E7031C9C}</ProjectGuid><RootNamespace>OpenExrWrapper</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FBaseOutputFile.cpp" />
+    <ClCompile Include="Private\FOpenExr.cpp" />
+    <ClCompile Include="Private\FOpenExrHeaderReader.cpp" />
+    <ClCompile Include="Private\FRgbaInputFile.cpp" />
+    <ClCompile Include="Private\FTiledOutputFile.cpp" />
+    <ClCompile Include="Private\FTiledRgbaOutputFile.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\_Free\Module.OpenExrWrapper.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

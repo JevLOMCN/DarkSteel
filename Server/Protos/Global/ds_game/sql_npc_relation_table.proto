@@ -1,0 +1,12 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlNpcRelationTable {
+  int64 player_uid = 1;
+  int32 npc_id = 2;
+  int32 grade = 3;
+  int32 point = 4;
+}

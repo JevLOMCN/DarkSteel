@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{A1048BBE-AFBF-51D5-B79B-6A1FCA105C4C}</ProjectGuid><RootNamespace>RewindDebuggerRuntime</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FRewindDebuggerAnimationRuntime.cpp" />
+    <ClCompile Include="Private\FRewindDebuggerRuntime.cpp" />
+    <ClCompile Include="Private\FRewindDebuggerRuntimeModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TActorIteratorBase.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.RewindDebuggerRuntime.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

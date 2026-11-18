@@ -1,0 +1,5489 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestObjective",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestObjective",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestObjectiveTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10000021": {
+        "ID": 10000021,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1000000008
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ItemAppointCraft",
+        "QuestDefineTarget": 3016,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -190840.0,
+          "Y": -76170.0,
+          "Z": 9100.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "10000031": {
+        "ID": 10000031,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1000000009
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ItemAppointCraft",
+        "QuestDefineTarget": 3016,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -190840.0,
+          "Y": -76170.0,
+          "Z": 9100.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "10000041": {
+        "ID": 10000041,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1000000010
+        },
+        "QuestDefineType": "EDS_QuestDefineType::WarpDeviceActivate",
+        "QuestDefineTarget": 200001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -190840.0,
+          "Y": -76170.0,
+          "Z": 9100.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "10000141": {
+        "ID": 10000141,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1000000010
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PlayerGrade",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2787810.0,
+          "Y": -2737960.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "10000154": {
+        "ID": 10000154,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991019005
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PhasingClearProgressEnter",
+        "QuestDefineTarget": 20000003,
+        "QuestDefineParameter": 150,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2839530.0,
+          "Y": -2725080.0,
+          "Z": 500.0
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "10000155": {
+        "ID": 10000155,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991019006
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PhasingClearProgressEnter",
+        "QuestDefineTarget": 20000004,
+        "QuestDefineParameter": 150,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2801750.0,
+          "Y": -2712220.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "100000001": {
+        "ID": 100000001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1000000052
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2811970.0,
+          "Y": -2736920.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40201,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "100000101": {
+        "ID": 100000101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1000000052
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2811970.0,
+          "Y": -2737340.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40201,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "100000201": {
+        "ID": 100000201,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1000000052
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2811970.0,
+          "Y": -2737700.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40201,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "100000301": {
+        "ID": 100000301,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1000000052
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2811970.0,
+          "Y": -2738040.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40201,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "100000401": {
+        "ID": 100000401,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1000000052
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2811970.0,
+          "Y": -2738370.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40201,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "100000501": {
+        "ID": 100000501,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991005003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAppointKill",
+        "QuestDefineTarget": 29001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1000,
+        "CountSmallTalk": [
+          5,
+          10,
+          15
+        ],
+        "ID_CountSmallTalk": [
+          4,
+          5,
+          6
+        ],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809730.0,
+          "Y": -2731860.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          29001
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "100000502": {
+        "ID": 100000502,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991005003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAppointKill",
+        "QuestDefineTarget": 29001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1000,
+        "CountSmallTalk": [
+          5,
+          10,
+          15
+        ],
+        "ID_CountSmallTalk": [
+          7,
+          8,
+          9
+        ],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809730.0,
+          "Y": -2731860.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          29001
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "10200011": {
+        "ID": 10200011,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 1020001003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PlayerGrade",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1010101,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910011": {
+        "ID": 29910011,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991001003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809540.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 40201,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910021": {
+        "ID": 29910021,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991002003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::TalkAppointNpc",
+        "QuestDefineTarget": 20005,
+        "QuestDefineParameter": 20005101,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 20005,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          20005
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910031": {
+        "ID": 29910031,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991003003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ItemAppointTake",
+        "QuestDefineTarget": 100110001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809730.0,
+          "Y": -2731860.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910041": {
+        "ID": 29910041,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991004003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ItemAppointUse",
+        "QuestDefineTarget": 100110001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910051": {
+        "ID": 29910051,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991005003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAppointKill",
+        "QuestDefineTarget": 29001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809730.0,
+          "Y": -2731860.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 3000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          29001
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910061": {
+        "ID": 29910061,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991006003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGroupKill",
+        "QuestDefineTarget": 2002001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808900.0,
+          "Y": -2731730.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGroupId",
+        "QuestTargetValue": [
+          2002001
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910071": {
+        "ID": 29910071,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910081": {
+        "ID": 29910081,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991008003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffGroupGather",
+        "QuestDefineTarget": 2002001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2806450.0,
+          "Y": -2733340.0,
+          "Z": 480.4672
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffGroupId",
+        "QuestTargetValue": [
+          2002001
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910091": {
+        "ID": 29910091,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991009003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2806100.0,
+          "Y": -2738200.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          3
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910101": {
+        "ID": 29910101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991010003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809540.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910111": {
+        "ID": 29910111,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991011003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::TalkAppointNpc",
+        "QuestDefineTarget": 20008,
+        "QuestDefineParameter": 20008101,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 20008,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2810280.0,
+          "Y": -2740320.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          20008
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910121": {
+        "ID": 29910121,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991012003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::TalkAppointNpc",
+        "QuestDefineTarget": 20009,
+        "QuestDefineParameter": 20009101,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 20009,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809260.0,
+          "Y": -2739680.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          20009
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910131": {
+        "ID": 29910131,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991013003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PlayerGrade",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809260.0,
+          "Y": -2739680.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910141": {
+        "ID": 29910141,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991014003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::LevelAppointChar",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 20010,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2814690.0,
+          "Y": -2735940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910151": {
+        "ID": 29910151,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991015003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ItemAppointCraft",
+        "QuestDefineTarget": 3016,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 20011,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2814090.0,
+          "Y": -2735170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910161": {
+        "ID": 29910161,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991016003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ItemAppointTake",
+        "QuestDefineTarget": 100110001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 20007,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2811520.0,
+          "Y": -2740740.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910171": {
+        "ID": 29910171,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991017003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAppointKill",
+        "QuestDefineTarget": 29002,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 20013,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2810850.0,
+          "Y": -2732700.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          29002
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910181": {
+        "ID": 29910181,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991018003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ItemAppointTake",
+        "QuestDefineTarget": 100110001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 15,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910191": {
+        "ID": 29910191,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991019003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ItemAppointTake",
+        "QuestDefineTarget": 100110001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 15,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2810850.0,
+          "Y": -2732700.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910192": {
+        "ID": 29910192,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2825930.0,
+          "Y": -2722170.0,
+          "Z": 1481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 3000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910241": {
+        "ID": 29910241,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991020003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809540.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 40201,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 3000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910251": {
+        "ID": 29910251,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991021003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809540.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 40201,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910261": {
+        "ID": 29910261,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991022003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::MoveProgressCoordinate",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": false,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809540.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910271": {
+        "ID": 29910271,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991023003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAllKill",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808300.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910272": {
+        "ID": 29910272,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991024003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGradeKill",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808300.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          1
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910273": {
+        "ID": 29910273,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991025003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGradeKill",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808300.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910274": {
+        "ID": 29910274,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991026003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGradeKill",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808300.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          3
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910275": {
+        "ID": 29910275,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991027003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAllGather",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910276": {
+        "ID": 29910276,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991028003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffGradeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffGrade",
+        "QuestTargetValue": [
+          1
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910277": {
+        "ID": 29910277,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991029003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffGradeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffGrade",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910278": {
+        "ID": 29910278,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991030003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffGradeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffGrade",
+        "QuestTargetValue": [
+          3
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910279": {
+        "ID": 29910279,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991031003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestAppointComplete",
+        "QuestDefineTarget": 1000000,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910280": {
+        "ID": 29910280,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991032003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 5,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910281": {
+        "ID": 29910281,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991033003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::DungeonAppointClear",
+        "QuestDefineTarget": 7001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 1000,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 10000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910282": {
+        "ID": 29910282,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991034003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910283": {
+        "ID": 29910283,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991035003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2805060.0,
+          "Y": -2733340.0,
+          "Z": 480.46683
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          1
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910284": {
+        "ID": 29910284,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991036003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804250.0,
+          "Y": -2738450.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          3
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910285": {
+        "ID": 29910285,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991037003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2805350.0,
+          "Y": -2734850.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          4
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910286": {
+        "ID": 29910286,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991038003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyNpcAppointKill",
+        "QuestDefineTarget": 29001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809730.0,
+          "Y": -2731860.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          29001
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910287": {
+        "ID": 29910287,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991039003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyNpcGroupKill",
+        "QuestDefineTarget": 2002001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808900.0,
+          "Y": -2731730.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGroupId",
+        "QuestTargetValue": [
+          2002001
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910288": {
+        "ID": 29910288,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991040003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyNpcGradeKill",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808300.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          1
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910289": {
+        "ID": 29910289,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991041003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyNpcGradeKill",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808300.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910290": {
+        "ID": 29910290,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991042003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyNpcGradeKill",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808300.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          3
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910291": {
+        "ID": 29910291,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991043003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyNpcAllKill",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808300.0,
+          "Y": -2733270.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910292": {
+        "ID": 29910292,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991044003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910293": {
+        "ID": 29910293,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991045003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffGroupGather",
+        "QuestDefineTarget": 2002001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2806450.0,
+          "Y": -2733340.0,
+          "Z": 480.4672
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffGroupId",
+        "QuestTargetValue": [
+          2002001
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910294": {
+        "ID": 29910294,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991046003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffTypeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2806100.0,
+          "Y": -2738200.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          3
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910295": {
+        "ID": 29910295,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991047003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffGradeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffGrade",
+        "QuestTargetValue": [
+          1
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910296": {
+        "ID": 29910296,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991048003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffGradeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffGrade",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910297": {
+        "ID": 29910297,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991049003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffGradeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffGrade",
+        "QuestTargetValue": [
+          3
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910298": {
+        "ID": 29910298,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991050003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffAllGather",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910299": {
+        "ID": 29910299,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991051003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffTypeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2803980.0,
+          "Y": -2736170.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910300": {
+        "ID": 29910300,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991052003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffTypeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2805060.0,
+          "Y": -2733340.0,
+          "Z": 480.46683
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          1
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910301": {
+        "ID": 29910301,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991053003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffTypeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804250.0,
+          "Y": -2738450.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          3
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910302": {
+        "ID": 29910302,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991054003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PartyStuffTypeGather",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2805350.0,
+          "Y": -2734850.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          4
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910303": {
+        "ID": 29910303,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910304": {
+        "ID": 29910304,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910305": {
+        "ID": 29910305,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910306": {
+        "ID": 29910306,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910307": {
+        "ID": 29910307,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910308": {
+        "ID": 29910308,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910309": {
+        "ID": 29910309,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910310": {
+        "ID": 29910310,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910311": {
+        "ID": 29910311,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910312": {
+        "ID": 29910312,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910313": {
+        "ID": 29910313,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910314": {
+        "ID": 29910314,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910315": {
+        "ID": 29910315,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910316": {
+        "ID": 29910316,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910317": {
+        "ID": 29910317,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": true
+      },
+      "29910318": {
+        "ID": 29910318,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055006
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PhasingClearProgressEnter",
+        "QuestDefineTarget": 20000001,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2825330.0,
+          "Y": -2737830.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910319": {
+        "ID": 29910319,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055008
+        },
+        "QuestDefineType": "EDS_QuestDefineType::BreachAppointClear",
+        "QuestDefineTarget": 20000102,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2806992.0,
+          "Y": -2689219.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910320": {
+        "ID": 29910320,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2024003003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::AppointTamingSuccess",
+        "QuestDefineTarget": 77,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910321": {
+        "ID": 29910321,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2024004003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::AppointPlayerSkillUse",
+        "QuestDefineTarget": 12,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910322": {
+        "ID": 29910322,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055011
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PhasingClearProgressEnter",
+        "QuestDefineTarget": 20000001,
+        "QuestDefineParameter": 150,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2825620.0,
+          "Y": -2741310.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910323": {
+        "ID": 29910323,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055011
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PhasingClearProgressEnter",
+        "QuestDefineTarget": 20000002,
+        "QuestDefineParameter": 150,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2818300.0,
+          "Y": -2722480.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910324": {
+        "ID": 29910324,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055011
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PhasingClearProgressEnter",
+        "QuestDefineTarget": 20000003,
+        "QuestDefineParameter": 150,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2837930.0,
+          "Y": -2724790.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910325": {
+        "ID": 29910325,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055011
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PhasingClearProgressEnter",
+        "QuestDefineTarget": 20000004,
+        "QuestDefineParameter": 150,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2801150.0,
+          "Y": -2712180.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910326": {
+        "ID": 29910326,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055011
+        },
+        "QuestDefineType": "EDS_QuestDefineType::PhasingClearProgressEnter",
+        "QuestDefineTarget": 20000005,
+        "QuestDefineParameter": 150,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2771801.0,
+          "Y": -2702997.0,
+          "Z": 480.46875
+        },
+        "ID_ResourceEffect": 40202,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910327": {
+        "ID": 29910327,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055013
+        },
+        "QuestDefineType": "EDS_QuestDefineType::GateAppointClear",
+        "QuestDefineTarget": 20000301,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2893600.5,
+          "Y": -2689209.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910328": {
+        "ID": 29910328,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055026
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityNpcAppointKill",
+        "QuestDefineTarget": 29001,
+        "QuestDefineParameter": 1000000,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2809730.0,
+          "Y": -2731860.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          29001
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910329": {
+        "ID": 29910329,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055027
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityNpcGroupKill",
+        "QuestDefineTarget": 2002001,
+        "QuestDefineParameter": 500000,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2808900.0,
+          "Y": -2731730.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGroupId",
+        "QuestTargetValue": [
+          2002001
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910330": {
+        "ID": 29910330,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055028
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityStuffAppointGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 1000000,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2804970.0,
+          "Y": -2736940.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::StuffId",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910331": {
+        "ID": 29910331,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055029
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityStuffGroupGather",
+        "QuestDefineTarget": 2002001,
+        "QuestDefineParameter": 750000,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2806450.0,
+          "Y": -2733340.0,
+          "Z": 480.4672
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::StuffGroupId",
+        "QuestTargetValue": [
+          2002001
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910332": {
+        "ID": 29910332,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055030
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityStuffTypeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 50000,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2805060.0,
+          "Y": -2733340.0,
+          "Z": 480.46683
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::StuffType",
+        "QuestTargetValue": [
+          1
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910333": {
+        "ID": 29910333,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055031
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ArchaeologyAllDiscovery",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910334": {
+        "ID": 29910334,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055032
+        },
+        "QuestDefineType": "EDS_QuestDefineType::BreachAllDiscovery",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910335": {
+        "ID": 29910335,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055033
+        },
+        "QuestDefineType": "EDS_QuestDefineType::GateAllDiscovery",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 100,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910336": {
+        "ID": 29910336,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055034
+        },
+        "QuestDefineType": "EDS_QuestDefineType::AppointNpcRelationGrade",
+        "QuestDefineTarget": 900068,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2829725.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::NpcId",
+        "QuestTargetValue": [
+          900068
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910337": {
+        "ID": 29910337,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055035
+        },
+        "QuestDefineType": "EDS_QuestDefineType::AppointAchievementComplete",
+        "QuestDefineTarget": 2051502,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910338": {
+        "ID": 29910338,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055037
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityNpcGradeKill",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 1000000,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2707320.0,
+          "Y": -2753320.0,
+          "Z": 670.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          1
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910339": {
+        "ID": 29910339,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055038
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityNpcGradeKill",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 500000,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2707320.0,
+          "Y": -2753320.0,
+          "Z": 670.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          1
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910340": {
+        "ID": 29910340,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055039
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityNpcGradeKill",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 1000000,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2707320.0,
+          "Y": -2753320.0,
+          "Z": 670.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910341": {
+        "ID": 29910341,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055040
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityNpcGradeKill",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 500000,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2707320.0,
+          "Y": -2753320.0,
+          "Z": 670.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGrade",
+        "QuestTargetValue": [
+          2
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910342": {
+        "ID": 29910342,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055042
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityNpcAllKill",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 1000000,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2707320.0,
+          "Y": -2753320.0,
+          "Z": 670.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910343": {
+        "ID": 29910343,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055043
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityNpcAllKill",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 500000,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2707320.0,
+          "Y": -2753320.0,
+          "Z": 670.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910344": {
+        "ID": 29910344,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055045
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityStuffAllGather",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 1000000,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2709100.0,
+          "Y": -2746990.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910345": {
+        "ID": 29910345,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055046
+        },
+        "QuestDefineType": "EDS_QuestDefineType::ProbabilityStuffAllGather",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 500000,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2709100.0,
+          "Y": -2746990.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910346": {
+        "ID": 29910346,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055048
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGradeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 1,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2709100.0,
+          "Y": -2746990.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910347": {
+        "ID": 29910347,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055049
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGradeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 2,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2709100.0,
+          "Y": -2746990.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910348": {
+        "ID": 29910348,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055051
+        },
+        "QuestDefineType": "EDS_QuestDefineType::CoordinateUseDetection",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 100,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2705590.0,
+          "Y": -2750340.0,
+          "Z": 680.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910349": {
+        "ID": 29910349,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055052
+        },
+        "QuestDefineType": "EDS_QuestDefineType::DetectionSuccess",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2713270.0,
+          "Y": -2750340.0,
+          "Z": 680.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910350": {
+        "ID": 29910350,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055053
+        },
+        "QuestDefineType": "EDS_QuestDefineType::TamingSuccess",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2708670.0,
+          "Y": -2746160.0,
+          "Z": 480.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910351": {
+        "ID": 29910351,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055055
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGroupKill",
+        "QuestDefineTarget": 19999,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2707320.0,
+          "Y": -2753320.0,
+          "Z": 670.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGroupId",
+        "QuestTargetValue": [
+          19999
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "29910352": {
+        "ID": 29910352,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 2991055056
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGroupKill",
+        "QuestDefineTarget": 29999,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 999,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2707320.0,
+          "Y": -2753320.0,
+          "Z": 670.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 10000,
+        "IsNavigationInfo": 7500,
+        "QuestTargetType": "EDS_QuestTargetType::NpcGroupId",
+        "QuestTargetValue": [
+          29999
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501100801": {
+        "ID": 501100801,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5011008003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAllKill",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1002,
+        "ProgressCoordinate": {
+          "X": -69880.0,
+          "Y": -137550.0,
+          "Z": 8000.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501100901": {
+        "ID": 501100901,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5011009003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAllGather",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1002,
+        "ProgressCoordinate": {
+          "X": -69880.0,
+          "Y": -137550.0,
+          "Z": 8000.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501102501": {
+        "ID": 501102501,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5011025003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1002,
+        "ProgressCoordinate": {
+          "X": -69880.0,
+          "Y": -137550.0,
+          "Z": 8000.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501102601": {
+        "ID": 501102601,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5011026003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1002,
+        "ProgressCoordinate": {
+          "X": -69880.0,
+          "Y": -137550.0,
+          "Z": 8000.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501102701": {
+        "ID": 501102701,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5011027003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1002,
+        "ProgressCoordinate": {
+          "X": -69880.0,
+          "Y": -137550.0,
+          "Z": 8000.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501102801": {
+        "ID": 501102801,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5011028003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1002,
+        "ProgressCoordinate": {
+          "X": -69880.0,
+          "Y": -137550.0,
+          "Z": 8000.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501200601": {
+        "ID": 501200601,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5012006003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAllKill",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1003,
+        "ProgressCoordinate": {
+          "X": -89770.0,
+          "Y": -12220.0,
+          "Z": 1460.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501200701": {
+        "ID": 501200701,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5012007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAllGather",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1003,
+        "ProgressCoordinate": {
+          "X": -89770.0,
+          "Y": -12220.0,
+          "Z": 1460.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501201801": {
+        "ID": 501201801,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5012018003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1003,
+        "ProgressCoordinate": {
+          "X": -89770.0,
+          "Y": -12220.0,
+          "Z": 1460.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501201901": {
+        "ID": 501201901,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5012019003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1003,
+        "ProgressCoordinate": {
+          "X": -89770.0,
+          "Y": -12220.0,
+          "Z": 1460.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501202001": {
+        "ID": 501202001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5012020003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1003,
+        "ProgressCoordinate": {
+          "X": -89770.0,
+          "Y": -12220.0,
+          "Z": 1460.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501202101": {
+        "ID": 501202101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5012021003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1003,
+        "ProgressCoordinate": {
+          "X": -89770.0,
+          "Y": -12220.0,
+          "Z": 1460.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501500701": {
+        "ID": 501500701,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5015007003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAllKill",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1004,
+        "ProgressCoordinate": {
+          "X": -273790.0,
+          "Y": -84300.0,
+          "Z": 1640.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501500801": {
+        "ID": 501500801,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5015008003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAllGather",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1004,
+        "ProgressCoordinate": {
+          "X": -273790.0,
+          "Y": -84300.0,
+          "Z": 1640.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501502001": {
+        "ID": 501502001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5015020003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1004,
+        "ProgressCoordinate": {
+          "X": -273790.0,
+          "Y": -84300.0,
+          "Z": 1640.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501601101": {
+        "ID": 501601101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5016011003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAllKill",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1005,
+        "ProgressCoordinate": {
+          "X": -129120.0,
+          "Y": -152230.0,
+          "Z": 9070.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501601201": {
+        "ID": 501601201,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5016012003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAllGather",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1005,
+        "ProgressCoordinate": {
+          "X": -129120.0,
+          "Y": -152230.0,
+          "Z": 9070.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501603401": {
+        "ID": 501603401,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5016034003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1005,
+        "ProgressCoordinate": {
+          "X": -129120.0,
+          "Y": -152230.0,
+          "Z": 9070.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501603501": {
+        "ID": 501603501,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5016035003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1005,
+        "ProgressCoordinate": {
+          "X": -129120.0,
+          "Y": -152230.0,
+          "Z": 9070.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501603601": {
+        "ID": 501603601,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5016036003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1005,
+        "ProgressCoordinate": {
+          "X": -129120.0,
+          "Y": -152230.0,
+          "Z": 9070.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "501603701": {
+        "ID": 501603701,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 5016037003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 55,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 1005,
+        "ProgressCoordinate": {
+          "X": -129120.0,
+          "Y": -152230.0,
+          "Z": 9070.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000001": {
+        "ID": 600000001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000014
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAllKill",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 750,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000002": {
+        "ID": 600000002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000015
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGradeKill",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 500,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000003": {
+        "ID": 600000003,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000016
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGradeKill",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 50,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000004": {
+        "ID": 600000004,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000017
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGradeKill",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000005": {
+        "ID": 600000005,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000018
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 350,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000006": {
+        "ID": 600000006,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000019
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 350,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000007": {
+        "ID": 600000007,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000020
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 350,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000008": {
+        "ID": 600000008,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000021
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffTypeGather",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 350,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000009": {
+        "ID": 600000009,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000022
+        },
+        "QuestDefineType": "EDS_QuestDefineType::DungeonTypeClear",
+        "QuestDefineTarget": 1,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 25,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000010": {
+        "ID": 600000010,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000023
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 5,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 30,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000011": {
+        "ID": 600000011,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000024
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 6,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000012": {
+        "ID": 600000012,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000024
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 6,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000013": {
+        "ID": 600000013,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000024
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 6,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 12,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000014": {
+        "ID": 600000014,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000026
+        },
+        "QuestDefineType": "EDS_QuestDefineType::BreachAllClear",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 50,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "600000015": {
+        "ID": 600000015,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000028
+        },
+        "QuestDefineType": "EDS_QuestDefineType::GateAllClear",
+        "QuestDefineTarget": 0,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 50,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000001": {
+        "ID": 700000001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000016
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGradeKill",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000002": {
+        "ID": 700000002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000017
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGradeKill",
+        "QuestDefineTarget": 5,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000003": {
+        "ID": 700000003,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000018
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcGradeKill",
+        "QuestDefineTarget": 6,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000004": {
+        "ID": 700000004,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000019
+        },
+        "QuestDefineType": "EDS_QuestDefineType::DungeonTypeClear",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000005": {
+        "ID": 700000005,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000020
+        },
+        "QuestDefineType": "EDS_QuestDefineType::DungeonTypeClear",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000006": {
+        "ID": 700000006,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 6000000024
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 6,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 70,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000007": {
+        "ID": 700000007,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000022
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffGradeGather",
+        "QuestDefineTarget": 2,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 300,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000008": {
+        "ID": 700000008,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000023
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffGradeGather",
+        "QuestDefineTarget": 3,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 150,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000009": {
+        "ID": 700000009,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000024
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffGradeGather",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 75,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000010": {
+        "ID": 700000010,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000025
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffGradeGather",
+        "QuestDefineTarget": 5,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 30,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000011": {
+        "ID": 700000011,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000026
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 7,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000012": {
+        "ID": 700000012,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000026
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 7,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 3,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000013": {
+        "ID": 700000013,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000026
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 7,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 5,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000014": {
+        "ID": 700000014,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000026
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 7,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 10,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "700000015": {
+        "ID": 700000015,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 7000000026
+        },
+        "QuestDefineType": "EDS_QuestDefineType::QuestTypeComplete",
+        "QuestDefineTarget": 7,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 14,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 0,
+        "ProgressCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 0,
+        "IsNavigationDistance": 0,
+        "IsNavigationInfo": 0,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "800000001": {
+        "ID": 800000001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 8000099003
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAppointKill",
+        "QuestDefineTarget": 29003,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2797280.0,
+          "Y": -2731300.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "800000002": {
+        "ID": 800000002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 8000099004
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAppointKill",
+        "QuestDefineTarget": 29002,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2797280.0,
+          "Y": -2730310.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "800000003": {
+        "ID": 800000003,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 8000099006
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 10,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2796420.0,
+          "Y": -2731420.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "800000004": {
+        "ID": 800000004,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 8000099007
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 6,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2796420.0,
+          "Y": -2730410.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "800000005": {
+        "ID": 800000005,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 8000099008
+        },
+        "QuestDefineType": "EDS_QuestDefineType::NpcAppointKill",
+        "QuestDefineTarget": 29005,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2797390.0,
+          "Y": -2745380.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      },
+      "800000006": {
+        "ID": 800000006,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestObjectiveId": {
+          "ID": 8000099009
+        },
+        "QuestDefineType": "EDS_QuestDefineType::StuffAppointGather",
+        "QuestDefineTarget": 4,
+        "QuestDefineParameter": 0,
+        "QuestDefineCount": 1,
+        "CountSmallTalk": [],
+        "ID_CountSmallTalk": [],
+        "IsCountIndication": true,
+        "ID_ProgressNpc": 0,
+        "ID_ProgressZone": 2001,
+        "ProgressCoordinate": {
+          "X": -2794200.0,
+          "Y": -2745230.0,
+          "Z": 481.0
+        },
+        "ID_ResourceEffect": 0,
+        "NavigationInvisibleRange": 500,
+        "IsNavigationDistance": 5000,
+        "IsNavigationInfo": 5000,
+        "QuestTargetType": "EDS_QuestTargetType::None",
+        "QuestTargetValue": [
+          0
+        ],
+        "IsProgressMapIconVisible": false
+      }
+    }
+  }
+]

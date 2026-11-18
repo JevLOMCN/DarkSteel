@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AccelWaitComplete",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/AccelWaitComplete",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_AccelWaitCompleteTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_WaitCompleteType::ItemCraft",
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::AccelItemCraft",
+          "EDS_ItemType::AccelAll"
+        ]
+      },
+      "2": {
+        "ID": "EDS_WaitCompleteType::ItemAscend",
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::AccelItemAscend",
+          "EDS_ItemType::AccelAll"
+        ]
+      },
+      "3": {
+        "ID": "EDS_WaitCompleteType::ChrAscend",
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::AccelChrAscend",
+          "EDS_ItemType::AccelAll"
+        ]
+      },
+      "4": {
+        "ID": "EDS_WaitCompleteType::SkillAscend",
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::AccelSkillAscend",
+          "EDS_ItemType::AccelAll"
+        ]
+      },
+      "5": {
+        "ID": "EDS_WaitCompleteType::ChrEvolve",
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::AccelChrAscend",
+          "EDS_ItemType::AccelAll"
+        ]
+      },
+      "8": {
+        "ID": "EDS_WaitCompleteType::ItemRestore",
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::AccelItemRestore",
+          "EDS_ItemType::AccelAll"
+        ]
+      }
+    }
+  }
+]

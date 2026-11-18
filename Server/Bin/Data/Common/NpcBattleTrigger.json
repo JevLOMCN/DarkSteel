@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcBattleTrigger",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcBattleTrigger",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcBattleTriggerTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10301": {
+        "ID": 10301,
+        "DataStage": 23,
+        "NpcBattleTriggerCheckType": "EDS_NpcBattleTriggerCheckType::BattleStart",
+        "NpcBattleTriggerCheckTypeValue": 0,
+        "NpcBattleTriggerActionType": "EDS_NpcBattleTriggerActionType::BattleTriggerVariablePointAdd",
+        "NpcBattleTriggerActionTypeValue": 1
+      },
+      "10302": {
+        "ID": 10302,
+        "DataStage": 23,
+        "NpcBattleTriggerCheckType": "EDS_NpcBattleTriggerCheckType::BattleTimer",
+        "NpcBattleTriggerCheckTypeValue": 10,
+        "NpcBattleTriggerActionType": "EDS_NpcBattleTriggerActionType::BattleTriggerVariablePointChange",
+        "NpcBattleTriggerActionTypeValue": 10
+      },
+      "10303": {
+        "ID": 10303,
+        "DataStage": 23,
+        "NpcBattleTriggerCheckType": "EDS_NpcBattleTriggerCheckType::UseSkill",
+        "NpcBattleTriggerCheckTypeValue": 0,
+        "NpcBattleTriggerActionType": "EDS_NpcBattleTriggerActionType::BattleTriggerVariablePointAdd",
+        "NpcBattleTriggerActionTypeValue": 1
+      },
+      "10304": {
+        "ID": 10304,
+        "DataStage": 23,
+        "NpcBattleTriggerCheckType": "EDS_NpcBattleTriggerCheckType::CriticalDamage",
+        "NpcBattleTriggerCheckTypeValue": 0,
+        "NpcBattleTriggerActionType": "EDS_NpcBattleTriggerActionType::BattleTriggerVariablePointAdd",
+        "NpcBattleTriggerActionTypeValue": 2
+      },
+      "10305": {
+        "ID": 10305,
+        "DataStage": 23,
+        "NpcBattleTriggerCheckType": "EDS_NpcBattleTriggerCheckType::UseNormalAttack",
+        "NpcBattleTriggerCheckTypeValue": 1,
+        "NpcBattleTriggerActionType": "EDS_NpcBattleTriggerActionType::BattleTriggerVariablePointAdd",
+        "NpcBattleTriggerActionTypeValue": 1
+      },
+      "10306": {
+        "ID": 10306,
+        "DataStage": 23,
+        "NpcBattleTriggerCheckType": "EDS_NpcBattleTriggerCheckType::EnemyDie",
+        "NpcBattleTriggerCheckTypeValue": 0,
+        "NpcBattleTriggerActionType": "EDS_NpcBattleTriggerActionType::BattleTriggerVariablePointAdd",
+        "NpcBattleTriggerActionTypeValue": 1
+      },
+      "10307": {
+        "ID": 10307,
+        "DataStage": 23,
+        "NpcBattleTriggerCheckType": "EDS_NpcBattleTriggerCheckType::NpcDie",
+        "NpcBattleTriggerCheckTypeValue": 110106,
+        "NpcBattleTriggerActionType": "EDS_NpcBattleTriggerActionType::BattleTriggerVariablePointAdd",
+        "NpcBattleTriggerActionTypeValue": 1
+      },
+      "10308": {
+        "ID": 10308,
+        "DataStage": 23,
+        "NpcBattleTriggerCheckType": "EDS_NpcBattleTriggerCheckType::SkillUseFail",
+        "NpcBattleTriggerCheckTypeValue": 0,
+        "NpcBattleTriggerActionType": "EDS_NpcBattleTriggerActionType::BattleTriggerVariablePointAdd",
+        "NpcBattleTriggerActionTypeValue": 1
+      }
+    }
+  }
+]

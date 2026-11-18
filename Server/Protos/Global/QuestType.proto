@@ -1,0 +1,14 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum QuestType {
+  QuestType_None = 0;
+  QuestType_Main = 1;
+  QuestType_Local = 2;
+  QuestType_Daily = 5;
+  QuestType_MissionWeekly = 6;
+  QuestType_MissionMonthly = 7;
+  QuestType_Instance = 8;
+  QuestType_Repeat = 9;
+}

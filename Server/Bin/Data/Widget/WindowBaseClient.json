@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WindowBaseClient",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Widget/WindowBaseClient",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_WindowBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "-4": {
+        "ID": "EDS_WindowWidget::None",
+        "DataStage": 7,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUnder",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Debug_N/W_DebugCamera.W_DebugCamera",
+          "SubPathString": ""
+        },
+        "TestID": -4,
+        "WindowOverDelay": "",
+        "WindowHideDelay": "",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "-10": {
+        "ID": "EDS_WindowWidget::None",
+        "DataStage": 7,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP/Contents/Dungeon/W_Dungeon_Result.W_Dungeon_Result",
+          "SubPathString": ""
+        },
+        "TestID": -10,
+        "WindowOverDelay": "",
+        "WindowHideDelay": "",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "-20": {
+        "ID": "EDS_WindowWidget::None",
+        "DataStage": 7,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Boss_Ai/HUD_Boss_Ai.HUD_Boss_Ai",
+          "SubPathString": ""
+        },
+        "TestID": -20,
+        "WindowOverDelay": "",
+        "WindowHideDelay": "",
+        "InputMappingType": "EDS_InputMappingType::None"
+      }
+    }
+  }
+]

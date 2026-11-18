@@ -1,0 +1,17 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+enum SqlPlayerUpdateType {
+  SqlPlayerUpdateType_None = 0;
+  SqlPlayerUpdateType_Nickname = 1;
+}
+message SqlPlayerTable {
+  int64 player_uid = 1;
+  string nickname = 2;
+  google.protobuf.Timestamp create_dt = 7;
+  repeated ds_game.SqlPlayerUpdateType update_types = 100;
+}

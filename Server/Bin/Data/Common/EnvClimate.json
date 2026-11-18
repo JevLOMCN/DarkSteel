@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EnvClimate",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/EnvClimate",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_EnvClimateTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Mild",
+        "ClimateValue": 0,
+        "ID_ClimateCharBuff": 0,
+        "ID_ClimateMountBuff": 0
+      },
+      "1101": {
+        "ID": 1101,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Hot",
+        "ClimateValue": 10,
+        "ID_ClimateCharBuff": 110001,
+        "ID_ClimateMountBuff": 110002
+      },
+      "1102": {
+        "ID": 1102,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Hot",
+        "ClimateValue": 20,
+        "ID_ClimateCharBuff": 110001,
+        "ID_ClimateMountBuff": 110002
+      },
+      "1103": {
+        "ID": 1103,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Hot",
+        "ClimateValue": 30,
+        "ID_ClimateCharBuff": 110001,
+        "ID_ClimateMountBuff": 110002
+      },
+      "1201": {
+        "ID": 1201,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Cold",
+        "ClimateValue": 10,
+        "ID_ClimateCharBuff": 110001,
+        "ID_ClimateMountBuff": 110002
+      },
+      "1202": {
+        "ID": 1202,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Cold",
+        "ClimateValue": 20,
+        "ID_ClimateCharBuff": 110001,
+        "ID_ClimateMountBuff": 110002
+      },
+      "1203": {
+        "ID": 1203,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Cold",
+        "ClimateValue": 30,
+        "ID_ClimateCharBuff": 110001,
+        "ID_ClimateMountBuff": 110002
+      },
+      "1301": {
+        "ID": 1301,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Humid",
+        "ClimateValue": 10,
+        "ID_ClimateCharBuff": 110001,
+        "ID_ClimateMountBuff": 110002
+      },
+      "1302": {
+        "ID": 1302,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Humid",
+        "ClimateValue": 20,
+        "ID_ClimateCharBuff": 110001,
+        "ID_ClimateMountBuff": 110002
+      },
+      "1303": {
+        "ID": 1303,
+        "DataStage": 23,
+        "ClimateType": "EDS_ClimateType::Humid",
+        "ClimateValue": 30,
+        "ID_ClimateCharBuff": 110001,
+        "ID_ClimateMountBuff": 110002
+      }
+    }
+  }
+]

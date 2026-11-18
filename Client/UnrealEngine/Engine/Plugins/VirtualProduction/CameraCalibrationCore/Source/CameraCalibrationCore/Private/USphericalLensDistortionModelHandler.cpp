@@ -1,0 +1,786 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: CameraCalibrationCore
+// Functions: 15
+
+// StaticClass @ 14d67d720
+
+UClass * __cdecl USphericalLensDistortionModelHandler::StaticClass(void)
+
+{
+  FUObjectCppClassStaticFunctions local_res8 [4];
+  
+  if (Z_Registration_Info_UClass_USphericalLensDistortionModelHandler.InnerSingleton ==
+      (UClass *)0x0) {
+    local_res8[0].AddReferencedObjects = UObject::AddReferencedObjects;
+    GetPrivateStaticClassBody
+              (L"/Script/CameraCalibrationCore",L"SphericalLensDistortionModelHandler",
+               &Z_Registration_Info_UClass_USphericalLensDistortionModelHandler.InnerSingleton,
+               StaticRegisterNativesUSphericalLensDistortionModelHandler,0xe8,8,CLASS_Intrinsic,
+               CASTCLASS_None,L"Engine",InternalConstructor<USphericalLensDistortionModelHandler>,
+               InternalVTableHelperCtorCaller<USphericalLensDistortionModelHandler>,local_res8,
+               ULensDistortionModelHandlerBase::StaticClass,UObject::StaticClass);
+  }
+  return Z_Registration_Info_UClass_USphericalLensDistortionModelHandler.InnerSingleton;
+}
+
+// USphericalLensDistortionModelHandler @ 14d6ab5e0
+
+USphericalLensDistortionModelHandler * __thiscall
+USphericalLensDistortionModelHandler::USphericalLensDistortionModelHandler
+          (USphericalLensDistortionModelHandler *this,FVTableHelper *param_1)
+
+{
+  ULensDistortionModelHandlerBase::ULensDistortionModelHandlerBase
+            ((ULensDistortionModelHandlerBase *)this,param_1);
+  this->_padding_ = (longlong)&___7USphericalLensDistortionModelHandler__6B_;
+  (this->SphericalParameters).K1 = 0.0;
+  (this->SphericalParameters).K2 = 0.0;
+  (this->SphericalParameters).K3 = 0.0;
+  (this->SphericalParameters).P1 = 0.0;
+  (this->SphericalParameters).P2 = 0.0;
+  return this;
+}
+
+// USphericalLensDistortionModelHandler @ 14d6ab620
+
+USphericalLensDistortionModelHandler * __thiscall
+USphericalLensDistortionModelHandler::USphericalLensDistortionModelHandler
+          (USphericalLensDistortionModelHandler *this)
+
+{
+  ULensDistortionModelHandlerBase::ULensDistortionModelHandlerBase
+            ((ULensDistortionModelHandlerBase *)this);
+  this->_padding_ = (longlong)&___7USphericalLensDistortionModelHandler__6B_;
+  (this->SphericalParameters).K1 = 0.0;
+  (this->SphericalParameters).K2 = 0.0;
+  (this->SphericalParameters).K3 = 0.0;
+  (this->SphericalParameters).P1 = 0.0;
+  (this->SphericalParameters).P2 = 0.0;
+  return this;
+}
+
+// ~USphericalLensDistortionModelHandler @ 14d6ad150
+
+void __thiscall
+USphericalLensDistortionModelHandler::~USphericalLensDistortionModelHandler
+          (USphericalLensDistortionModelHandler *this)
+
+{
+  this->_padding_ = (longlong)&___7ULensDistortionModelHandlerBase__6B_;
+  if ((void *)this->_padding_ != (void *)0x0) {
+    FMemory::Free((void *)this->_padding_);
+  }
+  if ((void *)this->_padding_ != (void *)0x0) {
+    FMemory::Free((void *)this->_padding_);
+  }
+  UObject::~UObject((UObject *)this);
+  return;
+}
+
+// operator() @ 14d6b1ae0
+
+void __thiscall
+`USphericalLensDistortionModelHandler::UpdateMaterialParameters'::__l2::<lambda_1>::operator()
+          (void *this,UMaterialInstanceDynamic *param_1)
+
+{
+  float fVar1;
+  double dVar2;
+  FName *pFVar3;
+  FName local_res8;
+  
+  fVar1 = *(float *)(*(longlong *)this + 0xd0);
+  pFVar3 = ::FName::FName(&local_res8,"k1");
+  UMaterialInstanceDynamic::SetScalarParameterValue(param_1,*pFVar3,fVar1);
+  fVar1 = *(float *)(*(longlong *)this + 0xd4);
+  pFVar3 = ::FName::FName(&local_res8,"k2");
+  UMaterialInstanceDynamic::SetScalarParameterValue(param_1,*pFVar3,fVar1);
+  fVar1 = *(float *)(*(longlong *)this + 0xd8);
+  pFVar3 = ::FName::FName(&local_res8,"k3");
+  UMaterialInstanceDynamic::SetScalarParameterValue(param_1,*pFVar3,fVar1);
+  fVar1 = *(float *)(*(longlong *)this + 0xdc);
+  pFVar3 = ::FName::FName(&local_res8,"p1");
+  UMaterialInstanceDynamic::SetScalarParameterValue(param_1,*pFVar3,fVar1);
+  fVar1 = *(float *)(*(longlong *)this + 0xe0);
+  pFVar3 = ::FName::FName(&local_res8,"p2");
+  UMaterialInstanceDynamic::SetScalarParameterValue(param_1,*pFVar3,fVar1);
+  dVar2 = *(double *)(*(longlong *)this + 0x58);
+  pFVar3 = ::FName::FName(&local_res8,"cx");
+  UMaterialInstanceDynamic::SetScalarParameterValue(param_1,*pFVar3,(float)dVar2);
+  dVar2 = *(double *)(*(longlong *)this + 0x60);
+  pFVar3 = ::FName::FName(&local_res8,"cy");
+  UMaterialInstanceDynamic::SetScalarParameterValue(param_1,*pFVar3,(float)dVar2);
+  dVar2 = *(double *)(*(longlong *)this + 0x48);
+  pFVar3 = ::FName::FName(&local_res8,"fx");
+  UMaterialInstanceDynamic::SetScalarParameterValue(param_1,*pFVar3,(float)dVar2);
+  dVar2 = *(double *)(*(longlong *)this + 0x50);
+  pFVar3 = ::FName::FName(&local_res8,"fy");
+  UMaterialInstanceDynamic::SetScalarParameterValue(param_1,*pFVar3,(float)dVar2);
+  return;
+}
+
+// ComputeDistortedUV @ 14d6bb6e0
+
+TVector2<double> * __thiscall
+USphericalLensDistortionModelHandler::ComputeDistortedUV
+          (USphericalLensDistortionModelHandler *this,TVector2<double> *__return_storage_ptr__,
+          TVector2<double> *param_1)
+
+{
+  float fVar1;
+  float fVar2;
+  float fVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  uint uVar9;
+  uint uVar10;
+  float fVar11;
+  double dVar12;
+  
+  uVar4 = this->_padding_;
+  uVar5 = this->_padding_;
+  dVar8 = (double)this->_padding_;
+  uVar9 = (uint)uVar4 & (uint)__xmm_7fffffffffffffff7fffffffffffffff;
+  uVar10 = (uint)((ulonglong)uVar4 >> 0x20) & __xmm_7fffffffffffffff7fffffffffffffff._4_4_;
+  if (((double)CONCAT44(uVar10,uVar9) < __real_3e45798ee2308c3a ||
+       (double)CONCAT44(uVar10,uVar9) == __real_3e45798ee2308c3a) ||
+     (uVar9 = (uint)uVar5 & (uint)__xmm_7fffffffffffffff7fffffffffffffff,
+     uVar10 = (uint)((ulonglong)uVar5 >> 0x20) & __xmm_7fffffffffffffff7fffffffffffffff._4_4_,
+     (double)CONCAT44(uVar10,uVar9) < __real_3e45798ee2308c3a ||
+     (double)CONCAT44(uVar10,uVar9) == __real_3e45798ee2308c3a)) {
+    dVar8 = (param_1->field0_0x0)._s_0.Y;
+    (__return_storage_ptr__->field0_0x0)._s_0.X = (param_1->field0_0x0)._s_0.X;
+    (__return_storage_ptr__->field0_0x0)._s_0.Y = dVar8;
+  }
+  else {
+    fVar1 = (this->SphericalParameters).P2;
+    dVar6 = ((param_1->field0_0x0)._s_0.X - (double)this->_padding_) / (double)uVar4;
+    dVar7 = ((param_1->field0_0x0)._s_0.Y - dVar8) / (double)uVar5;
+    fVar11 = (float)(dVar7 * dVar7 + dVar6 * dVar6);
+    fVar2 = (this->SphericalParameters).P1;
+    dVar12 = (double)(fVar11 * fVar11 * fVar11 * (this->SphericalParameters).K3 +
+                      fVar11 * fVar11 * (this->SphericalParameters).K2 +
+                     fVar11 * (this->SphericalParameters).K1 + __real_3f800000);
+    fVar3 = (this->SphericalParameters).P1;
+    (__return_storage_ptr__->field0_0x0)._s_0.X =
+         (((dVar6 + dVar6) * dVar6 + (double)fVar11) * (double)fVar1 +
+          (double)(fVar2 + fVar2) * dVar6 * dVar7 + dVar12 * dVar6) * (double)uVar4 +
+         (double)this->_padding_;
+    (__return_storage_ptr__->field0_0x0)._s_0.Y =
+         (((double)(fVar1 + fVar1) * dVar6 + dVar12) * dVar7 +
+         ((dVar7 + dVar7) * dVar7 + (double)fVar11) * (double)fVar3) * (double)uVar5 + dVar8;
+  }
+  return __return_storage_ptr__;
+}
+
+// ComputeUndistortedUV @ 14d6bd1d0
+
+TVector2<double> * __thiscall
+USphericalLensDistortionModelHandler::ComputeUndistortedUV
+          (USphericalLensDistortionModelHandler *this,TVector2<double> *__return_storage_ptr__,
+          TVector2<double> *param_1)
+
+{
+  float fVar1;
+  float fVar2;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  double dVar7;
+  double dVar8;
+  double dVar9;
+  double dVar10;
+  uint uVar11;
+  float fVar12;
+  uint uVar13;
+  float fVar14;
+  float fVar15;
+  double dVar16;
+  double dVar17;
+  double dVar18;
+  double dVar19;
+  double dVar20;
+  float fVar21;
+  float fVar22;
+  
+  uVar3 = this->_padding_;
+  uVar5 = this->_padding_;
+  uVar4 = this->_padding_;
+  uVar6 = this->_padding_;
+  uVar11 = (uint)uVar3 & (uint)__xmm_7fffffffffffffff7fffffffffffffff;
+  uVar13 = (uint)((ulonglong)uVar3 >> 0x20) & __xmm_7fffffffffffffff7fffffffffffffff._4_4_;
+  if (((double)CONCAT44(uVar13,uVar11) < __real_3e45798ee2308c3a ||
+       (double)CONCAT44(uVar13,uVar11) == __real_3e45798ee2308c3a) ||
+     (uVar11 = (uint)uVar5 & (uint)__xmm_7fffffffffffffff7fffffffffffffff,
+     uVar13 = (uint)((ulonglong)uVar5 >> 0x20) & __xmm_7fffffffffffffff7fffffffffffffff._4_4_,
+     (double)CONCAT44(uVar13,uVar11) < __real_3e45798ee2308c3a ||
+     (double)CONCAT44(uVar13,uVar11) == __real_3e45798ee2308c3a)) {
+    dVar7 = (param_1->field0_0x0)._s_0.Y;
+    (__return_storage_ptr__->field0_0x0)._s_0.X = (param_1->field0_0x0)._s_0.X;
+    (__return_storage_ptr__->field0_0x0)._s_0.Y = dVar7;
+  }
+  else {
+    fVar12 = (this->SphericalParameters).P1;
+    fVar15 = (this->SphericalParameters).P2;
+    fVar22 = (this->SphericalParameters).K1;
+    dVar9 = ((param_1->field0_0x0)._s_0.X - (double)uVar4) / (double)uVar3;
+    dVar10 = ((param_1->field0_0x0)._s_0.Y - (double)uVar6) / (double)uVar5;
+    fVar1 = (this->SphericalParameters).K3;
+    fVar2 = (this->SphericalParameters).K2;
+    fVar14 = (float)(dVar10 * dVar10 + dVar9 * dVar9);
+    dVar16 = (double)fVar15;
+    fVar21 = fVar14 * fVar14 * fVar14 * fVar1 + fVar14 * fVar14 * fVar2 +
+             fVar22 * fVar14 + __real_3f800000;
+    dVar7 = (double)(fVar12 + fVar12);
+    dVar8 = (double)fVar12;
+    dVar17 = (double)(fVar15 + fVar15);
+    fVar12 = __real_3f800000;
+    if (__real_38d1b717 < (float)((uint)fVar21 & __xmm_7fffffff7fffffff7fffffff7fffffff)) {
+      fVar12 = __real_3f800000 / fVar21;
+    }
+    dVar19 = (dVar9 - (((dVar9 + dVar9) * dVar9 + (double)fVar14) * dVar16 + dVar9 * dVar7 * dVar10)
+             ) * (double)fVar12;
+    dVar18 = (dVar10 - (((dVar10 + dVar10) * dVar10 + (double)fVar14) * dVar8 +
+                       dVar9 * dVar17 * dVar10)) * (double)fVar12;
+    fVar15 = (float)(dVar18 * dVar18 + dVar19 * dVar19);
+    fVar14 = fVar15 * fVar15 * fVar15 * fVar1 + fVar15 * fVar15 * fVar2 +
+             fVar22 * fVar15 + __real_3f800000;
+    fVar12 = __real_3f800000;
+    if (__real_38d1b717 < (float)((uint)fVar14 & __xmm_7fffffff7fffffff7fffffff7fffffff)) {
+      fVar12 = __real_3f800000 / fVar14;
+    }
+    dVar20 = (dVar9 - (((dVar19 + dVar19) * dVar19 + (double)fVar15) * dVar16 +
+                      dVar19 * dVar7 * dVar18)) * (double)fVar12;
+    dVar18 = (dVar10 - (((dVar18 + dVar18) * dVar18 + (double)fVar15) * dVar8 +
+                       dVar19 * dVar17 * dVar18)) * (double)fVar12;
+    fVar15 = (float)(dVar18 * dVar18 + dVar20 * dVar20);
+    fVar14 = fVar15 * fVar15 * fVar15 * fVar1 + fVar15 * fVar15 * fVar2 +
+             fVar22 * fVar15 + __real_3f800000;
+    fVar12 = __real_3f800000;
+    if (__real_38d1b717 < (float)((uint)fVar14 & __xmm_7fffffff7fffffff7fffffff7fffffff)) {
+      fVar12 = __real_3f800000 / fVar14;
+    }
+    dVar19 = (dVar9 - (((dVar20 + dVar20) * dVar20 + (double)fVar15) * dVar16 +
+                      dVar20 * dVar7 * dVar18)) * (double)fVar12;
+    dVar18 = (dVar10 - (((dVar18 + dVar18) * dVar18 + (double)fVar15) * dVar8 +
+                       dVar20 * dVar17 * dVar18)) * (double)fVar12;
+    fVar15 = (float)(dVar18 * dVar18 + dVar19 * dVar19);
+    fVar14 = fVar15 * fVar15 * fVar15 * fVar1 + fVar15 * fVar15 * fVar2 +
+             fVar22 * fVar15 + __real_3f800000;
+    fVar12 = __real_3f800000;
+    if (__real_38d1b717 < (float)((uint)fVar14 & __xmm_7fffffff7fffffff7fffffff7fffffff)) {
+      fVar12 = __real_3f800000 / fVar14;
+    }
+    dVar20 = (dVar9 - (((dVar19 + dVar19) * dVar19 + (double)fVar15) * dVar16 +
+                      dVar19 * dVar7 * dVar18)) * (double)fVar12;
+    dVar18 = (dVar10 - (((dVar18 + dVar18) * dVar18 + (double)fVar15) * dVar8 +
+                       dVar19 * dVar17 * dVar18)) * (double)fVar12;
+    fVar15 = (float)(dVar18 * dVar18 + dVar20 * dVar20);
+    fVar22 = fVar15 * fVar15 * fVar15 * fVar1 + fVar15 * fVar15 * fVar2 +
+             fVar22 * fVar15 + __real_3f800000;
+    fVar12 = __real_3f800000;
+    if (__real_38d1b717 < (float)((uint)fVar22 & __xmm_7fffffff7fffffff7fffffff7fffffff)) {
+      fVar12 = __real_3f800000 / fVar22;
+    }
+    (__return_storage_ptr__->field0_0x0)._s_0.X =
+         (dVar9 - (((dVar20 + dVar20) * dVar20 + (double)fVar15) * dVar16 + dVar20 * dVar7 * dVar18)
+         ) * (double)fVar12 * (double)uVar3 + (double)uVar4;
+    (__return_storage_ptr__->field0_0x0)._s_0.Y =
+         (dVar10 - (((dVar18 + dVar18) * dVar18 + (double)fVar15) * dVar8 + dVar20 * dVar17 * dVar18
+                   )) * (double)fVar12 * (double)uVar5 + (double)uVar6;
+  }
+  return __return_storage_ptr__;
+}
+
+// ExecuteDistortionShader @ 14d6c81a0
+
+/* WARNING: Enum "ERHIAccess": Some values do not have unique names */
+/* WARNING: Enum "EResourceTransitionFlags": Some values do not have unique names */
+/* WARNING: Enum "ERHIPipeline": Some values do not have unique names */
+/* WARNING: Enum "Type": Some values do not have unique names */
+/* WARNING: Enum "ERenderTargetLoadAction": Some values do not have unique names */
+/* WARNING: Enum "ERenderTargetStoreAction": Some values do not have unique names */
+/* WARNING: Enum "EShaderPlatform": Some values do not have unique names */
+/* WARNING: Enum "EShaderFrequency": Some values do not have unique names */
+/* WARNING: Enum "EHandshakeVersion": Some values do not have unique names */
+/* WARNING: Enum "ELightComponentType": Some values do not have unique names */
+/* WARNING: Enum "ETranslucencyType": Some values do not have unique names */
+/* WARNING: Enum "EStreamingSourcePriority": Some values do not have unique names */
+/* WARNING: Enum "EPingType": Some values do not have unique names */
+/* WARNING: Enum "EPrimitiveIdMode": Some values do not have unique names */
+/* WARNING: Enum "ERHIBindlessSupport": Some values do not have unique names */
+
+void __thiscall
+USphericalLensDistortionModelHandler::ExecuteDistortionShader
+          (USphericalLensDistortionModelHandler *this,FRDGBuilder *param_1,
+          FLensDistortionState *param_2,float param_3,float param_4,TVector2<double> *param_5,
+          FRDGTexture **param_6)
+
+{
+  int *piVar1;
+  code *pcVar2;
+  TVector2<float>_u_0 TVar3;
+  float fVar4;
+  bool bVar5;
+  int iVar6;
+  undefined8 *puVar7;
+  FRDGTextureUAV *pFVar8;
+  FGlobalShaderMap *this_00;
+  FShaderType *pFVar9;
+  FName this_01;
+  FRDGEventName *pFVar10;
+  FShaderParametersMetadata *pFVar11;
+  int iVar12;
+  undefined8 *puVar13;
+  undefined4 uVar14;
+  undefined8 *local_c8;
+  float local_c0;
+  float fStack_bc;
+  float local_b8;
+  float fStack_b4;
+  undefined8 local_b0;
+  TIntVector3<int>_u_0 local_a8;
+  TShaderRefBase<FShader,FShaderMapPointerTable> local_98;
+  undefined1 local_88 [8];
+  FString local_80;
+  TShaderRefBase<FSphericalDistortionCS,FShaderMapPointerTable> local_68;
+  FRDGEventName local_58 [2];
+  
+  puVar13 = (undefined8 *)0x0;
+  local_b0 = *(undefined8 *)&((*param_6)->Desc).field_0x24;
+  iVar12 = (int)local_b0;
+  if ((iVar12 < 1) || ((int)((ulonglong)local_b0 >> 0x20) < 1)) {
+    if (2 < (byte)LogCameraCalibrationCore._0_1_) {
+      UE::Logging::Private::BasicLog<3>(&::LOG_Static,(FLogCategoryBase *)&LogCameraCalibrationCore)
+      ;
+    }
+  }
+  else {
+    puVar7 = FMemStackBase::Alloc((FMemStackBase *)&param_1->_padding_,0x60,0x10);
+    if (puVar7 == (undefined8 *)0x0) {
+      bVar5 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Object",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\RenderCore\\Public\\RenderGraphAllocator.h"
+                         ,0x61,L"");
+      if (bVar5) {
+        pcVar2 = (code *)swi(3);
+        (*pcVar2)();
+        return;
+      }
+    }
+    else {
+      puVar7[10] = 0;
+      *puVar7 = &___7__TObject_VFParameters_FSphericalDistortionCS___FRDGAllocator__6B_;
+      puVar13 = puVar7;
+    }
+    local_c8 = puVar13;
+    if ((((undefined8 **)param_1->_padding_ <= &local_c8) &&
+        (&local_c8 < (undefined8 **)param_1->_padding_ + *(int *)((longlong)&param_1->_padding_ + 4)
+        )) && (bVar5 = ::FDebug::CheckVerifyFailedImpl2
+                                 ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                                  "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                                  ,0x7a5,
+                                  L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                                 ), bVar5)) {
+      pcVar2 = (code *)swi(3);
+      (*pcVar2)();
+      return;
+    }
+    iVar6 = (int)param_1->_padding_;
+    piVar1 = (int *)((longlong)&param_1->_padding_ + 4);
+    if (iVar6 == *piVar1) {
+      iVar6 = UE::Core::Private::
+              ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                        (0x808,(ForAnyElementType *)&param_1->_padding_,piVar1);
+    }
+    *(int *)&param_1->_padding_ = iVar6 + 1;
+    *(undefined8 **)(param_1->_padding_ + (longlong)iVar6 * 8) = local_c8;
+    pFVar8 = FRDGBuilder::CreateUAV(param_1,*param_6,None,PF_Unknown);
+    fVar4 = __real_3f800000;
+    iVar6 = local_b0._4_4_;
+    puVar13[10] = pFVar8;
+    *(float *)(puVar13 + 3) = param_3;
+    *(float *)((longlong)puVar13 + 0x1c) = param_4;
+    TVar3._s_0.Y = fVar4 / (float)local_b0._4_4_;
+    TVar3._s_0.X = fVar4 / (float)iVar12;
+    (((FParameters *)(puVar13 + 2))->ThreadIdToUV).field0_0x0 = TVar3;
+    local_c0 = (float)(param_2->ImageCenter).PrincipalPoint.field0_0x0._s_0.X;
+    fStack_bc = (float)(param_2->ImageCenter).PrincipalPoint.field0_0x0._s_0.Y;
+    puVar13[5] = CONCAT44(fStack_bc,local_c0);
+    local_b8 = (float)(param_2->FocalLengthInfo).FxFy.field0_0x0._s_0.X;
+    fStack_b4 = (float)(param_2->FocalLengthInfo).FxFy.field0_0x0._s_0.Y;
+    puVar13[4] = CONCAT44(fStack_b4,local_b8);
+    if ((param_2->DistortionInfo).Parameters.ArrayNum == 5) {
+      *(undefined4 *)(puVar13 + 6) =
+           *(undefined4 *)(param_2->DistortionInfo).Parameters.AllocatorInstance.Data;
+      if (((param_2->DistortionInfo).Parameters.ArrayNum < 2) &&
+         (bVar5 = ::FDebug::CheckVerifyFailedImpl2
+                            ("(Index >= 0) & (Index < ArrayNum)",
+                             "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                             ,0x447,L"Array index out of bounds: %lld into an array of size %lld"),
+         bVar5)) {
+        pcVar2 = (code *)swi(3);
+        (*pcVar2)();
+        return;
+      }
+      *(undefined4 *)((longlong)puVar13 + 0x34) =
+           *(undefined4 *)((param_2->DistortionInfo).Parameters.AllocatorInstance.Data + 4);
+      if (((param_2->DistortionInfo).Parameters.ArrayNum < 3) &&
+         (bVar5 = ::FDebug::CheckVerifyFailedImpl2
+                            ("(Index >= 0) & (Index < ArrayNum)",
+                             "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                             ,0x447,L"Array index out of bounds: %lld into an array of size %lld"),
+         bVar5)) {
+        pcVar2 = (code *)swi(3);
+        (*pcVar2)();
+        return;
+      }
+      *(undefined4 *)(puVar13 + 7) =
+           *(undefined4 *)((param_2->DistortionInfo).Parameters.AllocatorInstance.Data + 8);
+      if (((param_2->DistortionInfo).Parameters.ArrayNum < 4) &&
+         (bVar5 = ::FDebug::CheckVerifyFailedImpl2
+                            ("(Index >= 0) & (Index < ArrayNum)",
+                             "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                             ,0x447,L"Array index out of bounds: %lld into an array of size %lld"),
+         bVar5)) {
+        pcVar2 = (code *)swi(3);
+        (*pcVar2)();
+        return;
+      }
+      *(undefined4 *)((longlong)puVar13 + 0x3c) =
+           *(undefined4 *)((param_2->DistortionInfo).Parameters.AllocatorInstance.Data + 0xc);
+      if (((param_2->DistortionInfo).Parameters.ArrayNum < 5) &&
+         (bVar5 = ::FDebug::CheckVerifyFailedImpl2
+                            ("(Index >= 0) & (Index < ArrayNum)",
+                             "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                             ,0x447,L"Array index out of bounds: %lld into an array of size %lld"),
+         bVar5)) {
+        pcVar2 = (code *)swi(3);
+        (*pcVar2)();
+        return;
+      }
+      uVar14 = *(undefined4 *)((param_2->DistortionInfo).Parameters.AllocatorInstance.Data + 0x10);
+    }
+    else {
+      if (2 < (byte)LogCameraCalibrationCore._0_1_) {
+        UE::Logging::Private::BasicLog<3>
+                  (&::LOG_Static,(FLogCategoryBase *)&LogCameraCalibrationCore);
+      }
+      puVar13[6] = 0;
+      uVar14 = 0;
+      puVar13[7] = 0;
+    }
+    *(undefined4 *)(puVar13 + 8) = uVar14;
+    this_00 = GetGlobalShaderMap(GRHIGlobals.ShaderPlatformForFeatureLevel[(int)GMaxRHIFeatureLevel]
+                                );
+    pFVar9 = (FShaderType *)FSphericalDistortionCS::GetStaticType();
+    FGlobalShaderMap::GetShader(this_00,&local_98,pFVar9,0);
+    if (local_98.ShaderContent == (FShader *)0x0) {
+      this_01 = LegacyShaderPlatformToShaderFormat((EShaderPlatform)local_88);
+      ::FName::ToString((FName *)this_01,&local_80);
+      FSphericalDistortionCS::GetStaticType();
+      bVar5 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Shader.IsValid()",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\RenderCore\\Public\\GlobalShader.h"
+                         ,0xc0,L"Failed to find shader type %s in Platform %s");
+      if (local_80.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+        FMemory::Free(local_80.Data.AllocatorInstance.Data);
+      }
+      if (bVar5) {
+        pcVar2 = (code *)swi(3);
+        (*pcVar2)();
+        return;
+      }
+    }
+    FSphericalDistortionCS::GetStaticType();
+    local_68.ShaderContent = (FSphericalDistortionCS *)local_98.ShaderContent;
+    local_68.ShaderMap = local_98.ShaderMap;
+    pFVar10 = FRDGEventName::FRDGEventName(local_58,1,L"SphericalDistortionDisplacementMap");
+    pFVar11 = FSphericalDistortionCS::FParameters::FTypeInfo::GetStructMetadata();
+    local_a8._s_0.Z = 1;
+    local_a8._s_0.X = (int)(iVar12 + 7 + (iVar12 + 7 >> 0x1f & 7U)) >> 3;
+    local_a8._s_0.Y = (int)(iVar6 + 7 + (iVar6 + 7 >> 0x1f & 7U)) >> 3;
+    FComputeShaderUtils::AddPass<FSphericalDistortionCS>
+              (param_1,pFVar10,Compute,&local_68,pFVar11,(FParameters *)(puVar13 + 2),
+               (TIntVector3<int> *)&local_a8._s_0);
+    if (local_58[0].FormattedEventName.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0
+       ) {
+      FMemory::Free(local_58[0].FormattedEventName.Data.AllocatorInstance.Data);
+    }
+  }
+  return;
+}
+
+// GetDistortionShaderPath @ 14d6d3aa0
+
+FString * __thiscall
+USphericalLensDistortionModelHandler::GetDistortionShaderPath
+          (USphericalLensDistortionModelHandler *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,
+                     L"/Plugin/CameraCalibrationCore/Private/SphericalDistortion.usf");
+  return __return_storage_ptr__;
+}
+
+// GetPrivateStaticClass @ 14d6d8810
+
+UClass * __cdecl USphericalLensDistortionModelHandler::GetPrivateStaticClass(void)
+
+{
+  FUObjectCppClassStaticFunctions local_res8 [4];
+  
+  if (Z_Registration_Info_UClass_USphericalLensDistortionModelHandler.InnerSingleton ==
+      (UClass *)0x0) {
+    local_res8[0].AddReferencedObjects = UObject::AddReferencedObjects;
+    GetPrivateStaticClassBody
+              (L"/Script/CameraCalibrationCore",L"SphericalLensDistortionModelHandler",
+               &Z_Registration_Info_UClass_USphericalLensDistortionModelHandler.InnerSingleton,
+               StaticRegisterNativesUSphericalLensDistortionModelHandler,0xe8,8,CLASS_Intrinsic,
+               CASTCLASS_None,L"Engine",InternalConstructor<USphericalLensDistortionModelHandler>,
+               InternalVTableHelperCtorCaller<USphericalLensDistortionModelHandler>,local_res8,
+               ULensDistortionModelHandlerBase::StaticClass,UObject::StaticClass);
+  }
+  return Z_Registration_Info_UClass_USphericalLensDistortionModelHandler.InnerSingleton;
+}
+
+// InitDistortionMaterials @ 14d6de630
+
+void __thiscall
+USphericalLensDistortionModelHandler::InitDistortionMaterials
+          (USphericalLensDistortionModelHandler *this)
+
+{
+  UObject *pUVar1;
+  UTexture *pUVar2;
+  UClass *pUVar3;
+  FName FVar4;
+  TSoftObjectPtr<UMaterialInterface> *pTVar5;
+  UMaterialInstanceDynamic *pUVar6;
+  UMaterialInterface *pUVar7;
+  UMaterialInterface *pUVar8;
+  FName *pFVar9;
+  FName local_res8;
+  
+  pUVar8 = (UMaterialInterface *)0x0;
+  if (this->_padding_ == 0) {
+    pUVar3 = UCameraCalibrationSettings::StaticClass();
+    if ((pUVar3->ClassDefaultObject).field0_0x0.DebugPtr == (UObject *)0x0) {
+      UClass::InternalCreateDefaultObjectWrapper(pUVar3);
+    }
+    pUVar1 = (pUVar3->ClassDefaultObject).field0_0x0.DebugPtr;
+    FVar4 = (FName)StaticClass();
+    if (UE::GC::GIsIncrementalReachabilityPending != false) {
+      if (FVar4 != (FName)0x0) {
+        UE::GC::MarkAsReachable((UObject *)FVar4);
+      }
+      if ((UE::GC::GIsIncrementalReachabilityPending != false) && (FVar4 != (FName)0x0)) {
+        UE::GC::MarkAsReachable((UObject *)FVar4);
+      }
+    }
+    local_res8 = FVar4;
+    if ((UE::GC::GIsIncrementalReachabilityPending != false) && (FVar4 != (FName)0x0)) {
+      UE::GC::MarkAsReachable((UObject *)FVar4);
+    }
+    pTVar5 = TMapBase<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,0>_>
+             ::Find((TMapBase<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,0>_>
+                     *)&pUVar1[6].field_0x20,
+                    (TSubclassOf<ULensDistortionModelHandlerBase_const_>)&local_res8);
+    pUVar7 = pUVar8;
+    if (pTVar5 != (TSoftObjectPtr<UMaterialInterface> *)0x0) {
+      pUVar7 = TSoftObjectPtr<UMaterialInterface>::LoadSynchronous(pTVar5);
+    }
+    local_res8.ComparisonIndex.Value = 0;
+    local_res8.Number = 0;
+    pUVar6 = UMaterialInstanceDynamic::Create(pUVar7,(UObject *)this,(FName)0x0);
+    if ((UE::GC::GIsIncrementalReachabilityPending != false) &&
+       (pUVar6 != (UMaterialInstanceDynamic *)0x0)) {
+      UE::GC::MarkAsReachable((UObject *)pUVar6);
+    }
+    this->_padding_ = (longlong)pUVar6;
+  }
+  if (this->_padding_ == 0) {
+    pUVar3 = UCameraCalibrationSettings::StaticClass();
+    if ((pUVar3->ClassDefaultObject).field0_0x0.DebugPtr == (UObject *)0x0) {
+      UClass::InternalCreateDefaultObjectWrapper(pUVar3);
+    }
+    pUVar1 = (pUVar3->ClassDefaultObject).field0_0x0.DebugPtr;
+    FVar4 = (FName)StaticClass();
+    if (UE::GC::GIsIncrementalReachabilityPending != false) {
+      if (FVar4 != (FName)0x0) {
+        UE::GC::MarkAsReachable((UObject *)FVar4);
+      }
+      if ((UE::GC::GIsIncrementalReachabilityPending != false) && (FVar4 != (FName)0x0)) {
+        UE::GC::MarkAsReachable((UObject *)FVar4);
+      }
+    }
+    local_res8 = FVar4;
+    if ((UE::GC::GIsIncrementalReachabilityPending != false) && (FVar4 != (FName)0x0)) {
+      UE::GC::MarkAsReachable((UObject *)FVar4);
+    }
+    pTVar5 = TMapBase<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,0>_>
+             ::Find((TMapBase<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,0>_>
+                     *)&pUVar1[2].field_0x20,
+                    (TSubclassOf<ULensDistortionModelHandlerBase_const_>)&local_res8);
+    pUVar7 = pUVar8;
+    if (pTVar5 != (TSoftObjectPtr<UMaterialInterface> *)0x0) {
+      pUVar7 = TSoftObjectPtr<UMaterialInterface>::LoadSynchronous(pTVar5);
+    }
+    local_res8.ComparisonIndex.Value = 0;
+    local_res8.Number = 0;
+    pUVar6 = UMaterialInstanceDynamic::Create(pUVar7,(UObject *)this,(FName)0x0);
+    if ((UE::GC::GIsIncrementalReachabilityPending != false) &&
+       (pUVar6 != (UMaterialInstanceDynamic *)0x0)) {
+      UE::GC::MarkAsReachable((UObject *)pUVar6);
+    }
+    this->_padding_ = (longlong)pUVar6;
+  }
+  if (this->_padding_ == 0) {
+    pUVar3 = UCameraCalibrationSettings::StaticClass();
+    if ((pUVar3->ClassDefaultObject).field0_0x0.DebugPtr == (UObject *)0x0) {
+      UClass::InternalCreateDefaultObjectWrapper(pUVar3);
+    }
+    pUVar1 = (pUVar3->ClassDefaultObject).field0_0x0.DebugPtr;
+    FVar4 = (FName)StaticClass();
+    if (UE::GC::GIsIncrementalReachabilityPending != false) {
+      if (FVar4 != (FName)0x0) {
+        UE::GC::MarkAsReachable((UObject *)FVar4);
+      }
+      if ((UE::GC::GIsIncrementalReachabilityPending != false) && (FVar4 != (FName)0x0)) {
+        UE::GC::MarkAsReachable((UObject *)FVar4);
+      }
+    }
+    local_res8 = FVar4;
+    if ((UE::GC::GIsIncrementalReachabilityPending != false) && (FVar4 != (FName)0x0)) {
+      UE::GC::MarkAsReachable((UObject *)FVar4);
+    }
+    pTVar5 = TMapBase<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,0>_>
+             ::Find((TMapBase<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<TSubclassOf<ULensDistortionModelHandlerBase>,TSoftObjectPtr<UMaterialInterface>,0>_>
+                     *)&pUVar1[4].field_0x20,
+                    (TSubclassOf<ULensDistortionModelHandlerBase_const_>)&local_res8);
+    if (pTVar5 != (TSoftObjectPtr<UMaterialInterface> *)0x0) {
+      pUVar8 = TSoftObjectPtr<UMaterialInterface>::LoadSynchronous(pTVar5);
+    }
+    local_res8.ComparisonIndex.Value = 0;
+    local_res8.Number = 0;
+    pUVar6 = UMaterialInstanceDynamic::Create(pUVar8,(UObject *)this,(FName)0x0);
+    if ((UE::GC::GIsIncrementalReachabilityPending != false) &&
+       (pUVar6 != (UMaterialInstanceDynamic *)0x0)) {
+      UE::GC::MarkAsReachable((UObject *)pUVar6);
+    }
+    this->_padding_ = (longlong)pUVar6;
+  }
+  pUVar6 = (UMaterialInstanceDynamic *)this->_padding_;
+  pUVar2 = (UTexture *)this->_padding_;
+  pFVar9 = ::FName::FName(&local_res8,"UndistortionDisplacementMap");
+  UMaterialInstanceDynamic::SetTextureParameterValue(pUVar6,*pFVar9,pUVar2);
+  pUVar6 = (UMaterialInstanceDynamic *)this->_padding_;
+  pUVar2 = (UTexture *)this->_padding_;
+  pFVar9 = ::FName::FName(&local_res8,"DistortionDisplacementMap");
+  UMaterialInstanceDynamic::SetTextureParameterValue(pUVar6,*pFVar9,pUVar2);
+  ULensDistortionModelHandlerBase::SetDistortionState
+            ((ULensDistortionModelHandlerBase *)this,(FLensDistortionState *)&this->_padding_);
+  return;
+}
+
+// InitializeHandler @ 14d6dec40
+
+void __thiscall
+USphericalLensDistortionModelHandler::InitializeHandler(USphericalLensDistortionModelHandler *this)
+
+{
+  UClass *pUVar1;
+  
+  pUVar1 = USphericalLensModel::StaticClass();
+  if ((UE::GC::GIsIncrementalReachabilityPending != false) && (pUVar1 != (UClass *)0x0)) {
+    UE::GC::MarkAsReachable((UObject *)pUVar1);
+  }
+  this->_padding_ = (longlong)pUVar1;
+  return;
+}
+
+// InterpretDistortionParameters @ 14d6e1040
+
+void __thiscall
+USphericalLensDistortionModelHandler::InterpretDistortionParameters
+          (USphericalLensDistortionModelHandler *this)
+
+{
+  int iVar1;
+  longlong lVar2;
+  code *UNRECOVERED_JUMPTABLE;
+  bool bVar3;
+  UClass *pUVar4;
+  ULensModel *pUVar5;
+  UPackage *pUVar6;
+  
+  lVar2 = this->_padding_;
+  if (lVar2 != 0) {
+    pUVar4 = ULensModel::StaticClass();
+    if (pUVar4 != (UClass *)0x0) {
+      iVar1 = (int)pUVar4->_padding_;
+      if ((*(int *)(lVar2 + 0x38) < iVar1) ||
+         ((longlong *)*(undefined1 **)(*(longlong *)(lVar2 + 0x30) + (longlong)iVar1 * 8) !=
+          &pUVar4->_padding_)) {
+        bVar3 = false;
+      }
+      else {
+        bVar3 = true;
+      }
+      if (bVar3) {
+        pUVar4 = (UClass *)this->_padding_;
+        goto LAB_14d6e1091;
+      }
+    }
+  }
+  pUVar4 = (UClass *)0x0;
+LAB_14d6e1091:
+  pUVar5 = UClass::GetDefaultObject<ULensModel>(pUVar4);
+  UNRECOVERED_JUMPTABLE = *(code **)(*(longlong *)pUVar5 + 0x2d8);
+  if (Z_Registration_Info_UScriptStruct_FSphericalDistortionParameters.OuterSingleton ==
+      (UScriptStruct *)0x0) {
+    pUVar6 = Z_Construct_UPackage__Script_CameraCalibrationCore();
+    Z_Registration_Info_UScriptStruct_FSphericalDistortionParameters.OuterSingleton =
+         GetStaticStruct(Z_Construct_UScriptStruct_FSphericalDistortionParameters,(UObject *)pUVar6,
+                         L"SphericalDistortionParameters");
+  }
+                    /* WARNING: Could not recover jumptable at 0x00014d6e10f4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*UNRECOVERED_JUMPTABLE)
+            (pUVar5,Z_Registration_Info_UScriptStruct_FSphericalDistortionParameters.OuterSingleton,
+             &this->_padding_,&this->SphericalParameters);
+  return;
+}
+
+// StaticRegisterNativesUSphericalLensDistortionModelHandler @ 14d6f0250
+
+void __cdecl
+USphericalLensDistortionModelHandler::StaticRegisterNativesUSphericalLensDistortionModelHandler
+          (void)
+
+{
+  return;
+}
+
+// UpdateMaterialParameters @ 14d6f53b0
+
+void __thiscall
+USphericalLensDistortionModelHandler::UpdateMaterialParameters
+          (USphericalLensDistortionModelHandler *this)
+
+{
+  USphericalLensDistortionModelHandler *local_res8 [4];
+  
+  local_res8[0] = this;
+  `USphericalLensDistortionModelHandler::UpdateMaterialParameters'::__l2::<lambda_1>::operator()
+            (local_res8,(UMaterialInstanceDynamic *)this->_padding_);
+  `USphericalLensDistortionModelHandler::UpdateMaterialParameters'::__l2::<lambda_1>::operator()
+            (local_res8,(UMaterialInstanceDynamic *)this->_padding_);
+  return;
+}
+

@@ -1,0 +1,14 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlPlayerActionPointTable {
+  int64 player_uid = 1;
+  int32 ticket_type = 2;
+  int32 value = 3;
+  int32 charge_count = 4;
+  google.protobuf.Timestamp update_dt = 5;
+}

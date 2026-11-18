@@ -1,0 +1,3041 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "IconEnum",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/IconEnum",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_IconEnumTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "EDS_BagType_Weapon": {
+        "ID": "EDS_BagType_Weapon",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Armor": {
+        "ID": "EDS_BagType_Armor",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Accessory": {
+        "ID": "EDS_BagType_Accessory",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Consumables": {
+        "ID": "EDS_BagType_Consumables",
+        "DataStage": 23,
+        "ID_Resourceid": 200009,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Tool": {
+        "ID": "EDS_BagType_Tool",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ActionTool": {
+        "ID": "EDS_BagType_ActionTool",
+        "DataStage": 23,
+        "ID_Resourceid": 200003,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Materials": {
+        "ID": "EDS_BagType_Materials",
+        "DataStage": 23,
+        "ID_Resourceid": 200016,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Gem": {
+        "ID": "EDS_BagType_Gem",
+        "DataStage": 23,
+        "ID_Resourceid": 200011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Stuff": {
+        "ID": "EDS_BagType_Stuff",
+        "DataStage": 23,
+        "ID_Resourceid": 200019,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_MountItem": {
+        "ID": "EDS_BagType_MountItem",
+        "DataStage": 23,
+        "ID_Resourceid": 190006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Talisman": {
+        "ID": "EDS_BagType_Talisman",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Emblem": {
+        "ID": "EDS_BagType_Emblem",
+        "DataStage": 23,
+        "ID_Resourceid": 200072,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemEnhance": {
+        "ID": "EDS_BagType_ItemEnhance",
+        "DataStage": 23,
+        "ID_Resourceid": 200022,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemEnhanceMaterial": {
+        "ID": "EDS_BagType_ItemEnhanceMaterial",
+        "DataStage": 23,
+        "ID_Resourceid": 200022,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemGem": {
+        "ID": "EDS_BagType_ItemGem",
+        "DataStage": 23,
+        "ID_Resourceid": 200011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemDismantle": {
+        "ID": "EDS_BagType_ItemDismantle",
+        "DataStage": 23,
+        "ID_Resourceid": 200022,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemFusion": {
+        "ID": "EDS_BagType_ItemFusion",
+        "DataStage": 23,
+        "ID_Resourceid": 200022,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemFusionMaterial": {
+        "ID": "EDS_BagType_ItemFusionMaterial",
+        "DataStage": 23,
+        "ID_Resourceid": 200022,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Exp": {
+        "ID": "EDS_BagType_Exp",
+        "DataStage": 23,
+        "ID_Resourceid": 200022,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Helmet": {
+        "ID": "EDS_BagType_Helmet",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Chest": {
+        "ID": "EDS_BagType_Chest",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Pants": {
+        "ID": "EDS_BagType_Pants",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Glove": {
+        "ID": "EDS_BagType_Glove",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Shoes": {
+        "ID": "EDS_BagType_Shoes",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Necklace": {
+        "ID": "EDS_BagType_Necklace",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Bracelet": {
+        "ID": "EDS_BagType_Bracelet",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Ring": {
+        "ID": "EDS_BagType_Ring",
+        "DataStage": 23,
+        "ID_Resourceid": 200071,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CharGrow": {
+        "ID": "EDS_BagType_CharGrow",
+        "DataStage": 23,
+        "ID_Resourceid": 200007,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemGrow": {
+        "ID": "EDS_BagType_ItemGrow",
+        "DataStage": 23,
+        "ID_Resourceid": 200015,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CharacterInfoEquip": {
+        "ID": "EDS_BagType_CharacterInfoEquip",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_NpcCraft": {
+        "ID": "EDS_BagType_NpcCraft",
+        "DataStage": 23,
+        "ID_Resourceid": 200022,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Gift": {
+        "ID": "EDS_BagType_Gift",
+        "DataStage": 23,
+        "ID_Resourceid": 200022,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Cooking": {
+        "ID": "EDS_BagType_Cooking",
+        "DataStage": 23,
+        "ID_Resourceid": 220013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CookShare": {
+        "ID": "EDS_BagType_CookShare",
+        "DataStage": 23,
+        "ID_Resourceid": 200069,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Equipment": {
+        "ID": "EDS_BagType_Equipment",
+        "DataStage": 23,
+        "ID_Resourceid": 200010,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CookingAll": {
+        "ID": "EDS_BagType_CookingAll",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_GiftAll": {
+        "ID": "EDS_BagType_GiftAll",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_GiftAType": {
+        "ID": "EDS_BagType_GiftAType",
+        "DataStage": 23,
+        "ID_Resourceid": 200012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_GiftBType": {
+        "ID": "EDS_BagType_GiftBType",
+        "DataStage": 23,
+        "ID_Resourceid": 200012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_GiftCType": {
+        "ID": "EDS_BagType_GiftCType",
+        "DataStage": 23,
+        "ID_Resourceid": 200012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CharMountGearAType": {
+        "ID": "EDS_BagType_CharMountGearAType",
+        "DataStage": 23,
+        "ID_Resourceid": 200035,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CharMountGearBType": {
+        "ID": "EDS_BagType_CharMountGearBType",
+        "DataStage": 23,
+        "ID_Resourceid": 200036,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CharMountGearCType": {
+        "ID": "EDS_BagType_CharMountGearCType",
+        "DataStage": 23,
+        "ID_Resourceid": 200037,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CharMountFoodAType": {
+        "ID": "EDS_BagType_CharMountFoodAType",
+        "DataStage": 23,
+        "ID_Resourceid": 200038,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CharMountFoodBType": {
+        "ID": "EDS_BagType_CharMountFoodBType",
+        "DataStage": 23,
+        "ID_Resourceid": 200039,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CharMountFoodCType": {
+        "ID": "EDS_BagType_CharMountFoodCType",
+        "DataStage": 23,
+        "ID_Resourceid": 200040,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CharMountAll": {
+        "ID": "EDS_BagType_CharMountAll",
+        "DataStage": 23,
+        "ID_Resourceid": 200041,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_MountInventory": {
+        "ID": "EDS_BagType_MountInventory",
+        "DataStage": 23,
+        "ID_Resourceid": 200042,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnhanceAll": {
+        "ID": "EDS_BagType_EnhanceAll",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FusionAll": {
+        "ID": "EDS_BagType_FusionAll",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_DismantleAll": {
+        "ID": "EDS_BagType_DismantleAll",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnhanceMaterialAll": {
+        "ID": "EDS_BagType_EnhanceMaterialAll",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetTotalBag": {
+        "ID": "EDS_BagType_EnTargetTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetWeaponBag": {
+        "ID": "EDS_BagType_EnTargetWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargethelmetBag": {
+        "ID": "EDS_BagType_EnTargethelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetChestBag": {
+        "ID": "EDS_BagType_EnTargetChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetPantsBag": {
+        "ID": "EDS_BagType_EnTargetPantsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetGloveBag": {
+        "ID": "EDS_BagType_EnTargetGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetShoesBag": {
+        "ID": "EDS_BagType_EnTargetShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetNecklaceBag": {
+        "ID": "EDS_BagType_EnTargetNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetBraceletBag": {
+        "ID": "EDS_BagType_EnTargetBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetRingBag": {
+        "ID": "EDS_BagType_EnTargetRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200071,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetTalismanBag": {
+        "ID": "EDS_BagType_EnTargetTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetEmblemBag": {
+        "ID": "EDS_BagType_EnTargetEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200072,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnTargetToolBag": {
+        "ID": "EDS_BagType_EnTargetToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialTotalBag": {
+        "ID": "EDS_BagType_EnMaterialTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialWeaponBag": {
+        "ID": "EDS_BagType_EnMaterialWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialhelmetBag": {
+        "ID": "EDS_BagType_EnMaterialhelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialChestBag": {
+        "ID": "EDS_BagType_EnMaterialChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialPantsBag": {
+        "ID": "EDS_BagType_EnMaterialPantsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialGloveBag": {
+        "ID": "EDS_BagType_EnMaterialGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialShoesBag": {
+        "ID": "EDS_BagType_EnMaterialShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialnlNecklaceBag": {
+        "ID": "EDS_BagType_EnMaterialnlNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialBraceletBag": {
+        "ID": "EDS_BagType_EnMaterialBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialRingBag": {
+        "ID": "EDS_BagType_EnMaterialRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200071,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialTalismanBag": {
+        "ID": "EDS_BagType_EnMaterialTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialEmblemBag": {
+        "ID": "EDS_BagType_EnMaterialEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200072,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialToolBag": {
+        "ID": "EDS_BagType_EnMaterialToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnMaterialGrowBag": {
+        "ID": "EDS_BagType_EnMaterialGrowBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200015,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetTotalBag": {
+        "ID": "EDS_BagType_FuTargetTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetWeaponBag": {
+        "ID": "EDS_BagType_FuTargetWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargethelmetBag": {
+        "ID": "EDS_BagType_FuTargethelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetChestBag": {
+        "ID": "EDS_BagType_FuTargetChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetGloveBag": {
+        "ID": "EDS_BagType_FuTargetGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetShoesBag": {
+        "ID": "EDS_BagType_FuTargetShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetNecklaceBag": {
+        "ID": "EDS_BagType_FuTargetNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetBraceletBag": {
+        "ID": "EDS_BagType_FuTargetBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetRingBag": {
+        "ID": "EDS_BagType_FuTargetRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200071,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetTalismanBag": {
+        "ID": "EDS_BagType_FuTargetTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetEmblemBag": {
+        "ID": "EDS_BagType_FuTargetEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200072,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuTargetToolBag": {
+        "ID": "EDS_BagType_FuTargetToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialTotalBag": {
+        "ID": "EDS_BagType_FuMaterialTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialWeaponBag": {
+        "ID": "EDS_BagType_FuMaterialWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialhelmetBag": {
+        "ID": "EDS_BagType_FuMaterialhelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialChestBag": {
+        "ID": "EDS_BagType_FuMaterialChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialGloveBag": {
+        "ID": "EDS_BagType_FuMaterialGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialShoesBag": {
+        "ID": "EDS_BagType_FuMaterialShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialnlNecklaceBag": {
+        "ID": "EDS_BagType_FuMaterialnlNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialBraceletBag": {
+        "ID": "EDS_BagType_FuMaterialBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialRingBag": {
+        "ID": "EDS_BagType_FuMaterialRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200071,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialTalismanBag": {
+        "ID": "EDS_BagType_FuMaterialTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialEmblemBag": {
+        "ID": "EDS_BagType_FuMaterialEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200072,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_FuMaterialToolBag": {
+        "ID": "EDS_BagType_FuMaterialToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ShopTotalBag": {
+        "ID": "EDS_BagType_ShopTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_CraftTotalBag": {
+        "ID": "EDS_BagType_CraftTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_DismatleEquipment": {
+        "ID": "EDS_BagType_DismatleEquipment",
+        "DataStage": 23,
+        "ID_Resourceid": 200010,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_DismantleConsumables": {
+        "ID": "EDS_BagType_DismantleConsumables",
+        "DataStage": 23,
+        "ID_Resourceid": 200009,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_DismantleMaterials": {
+        "ID": "EDS_BagType_DismantleMaterials",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_DismantleStuff": {
+        "ID": "EDS_BagType_DismantleStuff",
+        "DataStage": 23,
+        "ID_Resourceid": 200019,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantTotalBag": {
+        "ID": "EDS_BagType_EnchantTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantWeaponBag": {
+        "ID": "EDS_BagType_EnchantWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchanthelmetBag": {
+        "ID": "EDS_BagType_EnchanthelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantChestBag": {
+        "ID": "EDS_BagType_EnchantChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantPantsBag": {
+        "ID": "EDS_BagType_EnchantPantsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantGloveBag": {
+        "ID": "EDS_BagType_EnchantGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantShoesBag": {
+        "ID": "EDS_BagType_EnchantShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantNecklaceBag": {
+        "ID": "EDS_BagType_EnchantNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantBraceletBag": {
+        "ID": "EDS_BagType_EnchantBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantRingBag": {
+        "ID": "EDS_BagType_EnchantRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200071,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_EnchantScrollBag": {
+        "ID": "EDS_BagType_EnchantScrollBag",
+        "DataStage": 23,
+        "ID_Resourceid": 190005,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Mining": {
+        "ID": "EDS_BagType_Mining",
+        "DataStage": 23,
+        "ID_Resourceid": 200055,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Harvesting": {
+        "ID": "EDS_BagType_Harvesting",
+        "DataStage": 23,
+        "ID_Resourceid": 200056,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Logging": {
+        "ID": "EDS_BagType_Logging",
+        "DataStage": 23,
+        "ID_Resourceid": 200057,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Linguistic": {
+        "ID": "EDS_BagType_Linguistic",
+        "DataStage": 23,
+        "ID_Resourceid": 200058,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Archaeology": {
+        "ID": "EDS_BagType_Archaeology",
+        "DataStage": 23,
+        "ID_Resourceid": 200059,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_OpenLock": {
+        "ID": "EDS_BagType_OpenLock",
+        "DataStage": 23,
+        "ID_Resourceid": 200060,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Cook": {
+        "ID": "EDS_BagType_Cook",
+        "DataStage": 23,
+        "ID_Resourceid": 200061,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_Farming": {
+        "ID": "EDS_BagType_Farming",
+        "DataStage": 23,
+        "ID_Resourceid": 200062,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_PlayerSkillToolAll": {
+        "ID": "EDS_BagType_PlayerSkillToolAll",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetTotalBag": {
+        "ID": "EDS_FilterType_EnTargetTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetWeaponBag": {
+        "ID": "EDS_FilterType_EnTargetWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargethelmetBag": {
+        "ID": "EDS_FilterType_EnTargethelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetChestBag": {
+        "ID": "EDS_FilterType_EnTargetChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetPantsBag": {
+        "ID": "EDS_FilterType_EnTargetPantsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetGloveBag": {
+        "ID": "EDS_FilterType_EnTargetGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetShoesBag": {
+        "ID": "EDS_FilterType_EnTargetShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetNecklaceBag": {
+        "ID": "EDS_FilterType_EnTargetNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetBraceletBag": {
+        "ID": "EDS_FilterType_EnTargetBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetRingBag": {
+        "ID": "EDS_FilterType_EnTargetRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200073,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetTalismanBag": {
+        "ID": "EDS_FilterType_EnTargetTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetEmblemBag": {
+        "ID": "EDS_FilterType_EnTargetEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200074,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnTargetToolBag": {
+        "ID": "EDS_FilterType_EnTargetToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialTotalBag": {
+        "ID": "EDS_FilterType_EnMaterialTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialWeaponBag": {
+        "ID": "EDS_FilterType_EnMaterialWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialhelmetBag": {
+        "ID": "EDS_FilterType_EnMaterialhelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialChestBag": {
+        "ID": "EDS_FilterType_EnMaterialChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialPantsBag": {
+        "ID": "EDS_FilterType_EnMaterialPantsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialGloveBag": {
+        "ID": "EDS_FilterType_EnMaterialGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialShoesBag": {
+        "ID": "EDS_FilterType_EnMaterialShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialnlNecklaceBag": {
+        "ID": "EDS_FilterType_EnMaterialnlNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialBraceletBag": {
+        "ID": "EDS_FilterType_EnMaterialBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialRingBag": {
+        "ID": "EDS_FilterType_EnMaterialRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200073,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialTalismanBag": {
+        "ID": "EDS_FilterType_EnMaterialTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialEmblemBag": {
+        "ID": "EDS_FilterType_EnMaterialEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200074,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialToolBag": {
+        "ID": "EDS_FilterType_EnMaterialToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialGrowBag": {
+        "ID": "EDS_FilterType_EnMaterialGrowBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200015,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetTotalBag": {
+        "ID": "EDS_FilterType_FuTargetTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetWeaponBag": {
+        "ID": "EDS_FilterType_FuTargetWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargethelmetBag": {
+        "ID": "EDS_FilterType_FuTargethelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetChestBag": {
+        "ID": "EDS_FilterType_FuTargetChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetGloveBag": {
+        "ID": "EDS_FilterType_FuTargetGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetShoesBag": {
+        "ID": "EDS_FilterType_FuTargetShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetNecklaceBag": {
+        "ID": "EDS_FilterType_FuTargetNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetBraceletBag": {
+        "ID": "EDS_FilterType_FuTargetBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetRingBag": {
+        "ID": "EDS_FilterType_FuTargetRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200073,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetTalismanBag": {
+        "ID": "EDS_FilterType_FuTargetTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetEmblemBag": {
+        "ID": "EDS_FilterType_FuTargetEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200074,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuTargetToolBag": {
+        "ID": "EDS_FilterType_FuTargetToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialTotalBag": {
+        "ID": "EDS_FilterType_FuMaterialTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialWeaponBag": {
+        "ID": "EDS_FilterType_FuMaterialWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialhelmetBag": {
+        "ID": "EDS_FilterType_FuMaterialhelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialChestBag": {
+        "ID": "EDS_FilterType_FuMaterialChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialGloveBag": {
+        "ID": "EDS_FilterType_FuMaterialGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialShoesBag": {
+        "ID": "EDS_FilterType_FuMaterialShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialnlNecklaceBag": {
+        "ID": "EDS_FilterType_FuMaterialnlNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialBraceletBag": {
+        "ID": "EDS_FilterType_FuMaterialBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialRingBag": {
+        "ID": "EDS_FilterType_FuMaterialRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200073,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialTalismanBag": {
+        "ID": "EDS_FilterType_FuMaterialTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialEmblemBag": {
+        "ID": "EDS_FilterType_FuMaterialEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200074,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FuMaterialToolBag": {
+        "ID": "EDS_FilterType_FuMaterialToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_GemBag": {
+        "ID": "EDS_FilterType_GemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_WeaponBag": {
+        "ID": "EDS_FilterType_WeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ArmorBag": {
+        "ID": "EDS_FilterType_ArmorBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_TalismanBag": {
+        "ID": "EDS_FilterType_TalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_AccessoryBag": {
+        "ID": "EDS_FilterType_AccessoryBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EmblemBag": {
+        "ID": "EDS_FilterType_EmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200072,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ToolBag": {
+        "ID": "EDS_FilterType_ToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ActionBag": {
+        "ID": "EDS_FilterType_ActionBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200003,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EXPBag": {
+        "ID": "EDS_FilterType_EXPBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EquipmentBag": {
+        "ID": "EDS_FilterType_EquipmentBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200010,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ConsumablesBag": {
+        "ID": "EDS_FilterType_ConsumablesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200009,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MaterialsBag": {
+        "ID": "EDS_FilterType_MaterialsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_GrowBag": {
+        "ID": "EDS_FilterType_GrowBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_GarbageBag": {
+        "ID": "EDS_FilterType_GarbageBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_QuestBag": {
+        "ID": "EDS_FilterType_QuestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MountItem": {
+        "ID": "EDS_FilterType_MountItem",
+        "DataStage": 23,
+        "ID_Resourceid": 200053,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MaterialGrow": {
+        "ID": "EDS_FilterType_MaterialGrow",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MaterialEnhance": {
+        "ID": "EDS_FilterType_MaterialEnhance",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_WeaponArtifact": {
+        "ID": "EDS_FilterType_WeaponArtifact",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ArmorHelmet": {
+        "ID": "EDS_FilterType_ArmorHelmet",
+        "DataStage": 23,
+        "ID_Resourceid": 200029,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ArmorChest": {
+        "ID": "EDS_FilterType_ArmorChest",
+        "DataStage": 23,
+        "ID_Resourceid": 200026,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ArmorPants": {
+        "ID": "EDS_FilterType_ArmorPants",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ArmorGlobe": {
+        "ID": "EDS_FilterType_ArmorGlobe",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ArmorShoes": {
+        "ID": "EDS_FilterType_ArmorShoes",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Accessory1": {
+        "ID": "EDS_FilterType_Accessory1",
+        "DataStage": 23,
+        "ID_Resourceid": 200031,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Accessory2": {
+        "ID": "EDS_FilterType_Accessory2",
+        "DataStage": 23,
+        "ID_Resourceid": 200025,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Accessory3": {
+        "ID": "EDS_FilterType_Accessory3",
+        "DataStage": 23,
+        "ID_Resourceid": 200071,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_TokenEquipTalisman": {
+        "ID": "EDS_FilterType_TokenEquipTalisman",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ToolPickax": {
+        "ID": "EDS_FilterType_ToolPickax",
+        "DataStage": 23,
+        "ID_Resourceid": 200032,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ToolHoe": {
+        "ID": "EDS_FilterType_ToolHoe",
+        "DataStage": 23,
+        "ID_Resourceid": 200030,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ToolAxe": {
+        "ID": "EDS_FilterType_ToolAxe",
+        "DataStage": 23,
+        "ID_Resourceid": 200024,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ActionGearFlying": {
+        "ID": "EDS_FilterType_ActionGearFlying",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ActionGearDiving": {
+        "ID": "EDS_FilterType_ActionGearDiving",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Consumables": {
+        "ID": "EDS_FilterType_Consumables",
+        "DataStage": 23,
+        "ID_Resourceid": 200009,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Quest": {
+        "ID": "EDS_FilterType_Quest",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MaterialMake": {
+        "ID": "EDS_FilterType_MaterialMake",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Rainbow": {
+        "ID": "EDS_FilterType_Rainbow",
+        "DataStage": 23,
+        "ID_Resourceid": 200011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Red": {
+        "ID": "EDS_FilterType_Red",
+        "DataStage": 23,
+        "ID_Resourceid": 200011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Blue": {
+        "ID": "EDS_FilterType_Blue",
+        "DataStage": 23,
+        "ID_Resourceid": 200011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Garbage": {
+        "ID": "EDS_FilterType_Garbage",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Talisman": {
+        "ID": "EDS_FilterType_Talisman",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Emblem": {
+        "ID": "EDS_FilterType_Emblem",
+        "DataStage": 23,
+        "ID_Resourceid": 200072,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnhanceWeaponBag": {
+        "ID": "EDS_FilterType_EnhanceWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnhanceArmorBag": {
+        "ID": "EDS_FilterType_EnhanceArmorBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnhanceTalismanBag": {
+        "ID": "EDS_FilterType_EnhanceTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnhanceAccessoryBag": {
+        "ID": "EDS_FilterType_EnhanceAccessoryBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnhanceEmblemBag": {
+        "ID": "EDS_FilterType_EnhanceEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200074,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnhanceToolBag": {
+        "ID": "EDS_FilterType_EnhanceToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleTotalBag": {
+        "ID": "EDS_FilterType_DismantleTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FusionWeaponBag": {
+        "ID": "EDS_FilterType_FusionWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FusionArmorBag": {
+        "ID": "EDS_FilterType_FusionArmorBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FusionAccessoryBag": {
+        "ID": "EDS_FilterType_FusionAccessoryBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_FusionTotalBag": {
+        "ID": "EDS_FilterType_FusionTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EXPCharacter": {
+        "ID": "EDS_FilterType_EXPCharacter",
+        "DataStage": 23,
+        "ID_Resourceid": 200028,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EXPItem": {
+        "ID": "EDS_FilterType_EXPItem",
+        "DataStage": 23,
+        "ID_Resourceid": 200044,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Green": {
+        "ID": "EDS_FilterType_Green",
+        "DataStage": 23,
+        "ID_Resourceid": 200011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Yellow": {
+        "ID": "EDS_FilterType_Yellow",
+        "DataStage": 23,
+        "ID_Resourceid": 200011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_GiftAType": {
+        "ID": "EDS_FilterType_GiftAType",
+        "DataStage": 23,
+        "ID_Resourceid": 200012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_GiftBType": {
+        "ID": "EDS_FilterType_GiftBType",
+        "DataStage": 23,
+        "ID_Resourceid": 200012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_GiftCType": {
+        "ID": "EDS_FilterType_GiftCType",
+        "DataStage": 23,
+        "ID_Resourceid": 200012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MountGearAType": {
+        "ID": "EDS_FilterType_MountGearAType",
+        "DataStage": 23,
+        "ID_Resourceid": 200047,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MountGearBType": {
+        "ID": "EDS_FilterType_MountGearBType",
+        "DataStage": 23,
+        "ID_Resourceid": 200048,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MountGearCType": {
+        "ID": "EDS_FilterType_MountGearCType",
+        "DataStage": 23,
+        "ID_Resourceid": 200049,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MountFoodAType": {
+        "ID": "EDS_FilterType_MountFoodAType",
+        "DataStage": 23,
+        "ID_Resourceid": 200050,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MountFoodBType": {
+        "ID": "EDS_FilterType_MountFoodBType",
+        "DataStage": 23,
+        "ID_Resourceid": 200051,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MountFoodCType": {
+        "ID": "EDS_FilterType_MountFoodCType",
+        "DataStage": 23,
+        "ID_Resourceid": 200052,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_CharMountAll": {
+        "ID": "EDS_FilterType_CharMountAll",
+        "DataStage": 23,
+        "ID_Resourceid": 200053,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_MountInventory": {
+        "ID": "EDS_FilterType_MountInventory",
+        "DataStage": 23,
+        "ID_Resourceid": 200054,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Mining": {
+        "ID": "EDS_FilterType_Mining",
+        "DataStage": 23,
+        "ID_Resourceid": 200063,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Harvesting": {
+        "ID": "EDS_FilterType_Harvesting",
+        "DataStage": 23,
+        "ID_Resourceid": 200064,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Logging": {
+        "ID": "EDS_FilterType_Logging",
+        "DataStage": 23,
+        "ID_Resourceid": 200065,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Detection": {
+        "ID": "EDS_FilterType_Detection",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Linguistic": {
+        "ID": "EDS_FilterType_Linguistic",
+        "DataStage": 23,
+        "ID_Resourceid": 200066,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Camp": {
+        "ID": "EDS_FilterType_Camp",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Archaeology": {
+        "ID": "EDS_FilterType_Archaeology",
+        "DataStage": 23,
+        "ID_Resourceid": 200067,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_OpenLock": {
+        "ID": "EDS_FilterType_OpenLock",
+        "DataStage": 23,
+        "ID_Resourceid": 200068,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_NaturalHistory": {
+        "ID": "EDS_FilterType_NaturalHistory",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Cook": {
+        "ID": "EDS_FilterType_Cook",
+        "DataStage": 23,
+        "ID_Resourceid": 200069,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Mount": {
+        "ID": "EDS_FilterType_Mount",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_Farming": {
+        "ID": "EDS_FilterType_Farming",
+        "DataStage": 23,
+        "ID_Resourceid": 200070,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_AccelChrEvolve": {
+        "ID": "EDS_FilterType_AccelChrEvolve",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_AccelItemFusion": {
+        "ID": "EDS_FilterType_AccelItemFusion",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_AccelPlayerSkillAscend": {
+        "ID": "EDS_FilterType_AccelPlayerSkillAscend",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_AccelItemRestore": {
+        "ID": "EDS_FilterType_AccelItemRestore",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_PlayerSkillCooking": {
+        "ID": "EDS_FilterType_PlayerSkillCooking",
+        "DataStage": 23,
+        "ID_Resourceid": 220013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_PlayerSkillCookingShare": {
+        "ID": "EDS_FilterType_PlayerSkillCookingShare",
+        "DataStage": 23,
+        "ID_Resourceid": 200069,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialArmorBag": {
+        "ID": "EDS_FilterType_EnMaterialArmorBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnMaterialAccesoryBag": {
+        "ID": "EDS_FilterType_EnMaterialAccesoryBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleWeaponBag": {
+        "ID": "EDS_FilterType_DismantleWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleArmorBag": {
+        "ID": "EDS_FilterType_DismantleArmorBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleTalismanBag": {
+        "ID": "EDS_FilterType_DismantleTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleEmblemBag": {
+        "ID": "EDS_FilterType_DismantleEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200074,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleAccessoryBag": {
+        "ID": "EDS_FilterType_DismantleAccessoryBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleToolBag": {
+        "ID": "EDS_FilterType_DismantleToolBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleActionBag": {
+        "ID": "EDS_FilterType_DismantleActionBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleConsumables": {
+        "ID": "EDS_FilterType_DismantleConsumables",
+        "DataStage": 23,
+        "ID_Resourceid": 200009,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleMaterialsBag": {
+        "ID": "EDS_FilterType_DismantleMaterialsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 190003,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleGarbage": {
+        "ID": "EDS_FilterType_DismantleGarbage",
+        "DataStage": 23,
+        "ID_Resourceid": 200019,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_DismantleEquipmentBag": {
+        "ID": "EDS_FilterType_DismantleEquipmentBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200010,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantTotalBag": {
+        "ID": "EDS_FilterType_EnchantTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantWeaponBag": {
+        "ID": "EDS_FilterType_EnchantWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchanthelmetBag": {
+        "ID": "EDS_FilterType_EnchanthelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantChestBag": {
+        "ID": "EDS_FilterType_EnchantChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantPantsBag": {
+        "ID": "EDS_FilterType_EnchantPantsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantGloveBag": {
+        "ID": "EDS_FilterType_EnchantGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantShoesBag": {
+        "ID": "EDS_FilterType_EnchantShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantNecklaceBag": {
+        "ID": "EDS_FilterType_EnchantNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantBraceletBag": {
+        "ID": "EDS_FilterType_EnchantBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantRingBag": {
+        "ID": "EDS_FilterType_EnchantRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200073,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantScrollBag": {
+        "ID": "EDS_FilterType_EnchantScrollBag",
+        "DataStage": 23,
+        "ID_Resourceid": 190005,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantArmorBag": {
+        "ID": "EDS_FilterType_EnchantArmorBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_EnchantAccessoryBag": {
+        "ID": "EDS_FilterType_EnchantAccessoryBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200002,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ElementType_NormalType": {
+        "ID": "EDS_ElementType_NormalType",
+        "DataStage": 23,
+        "ID_Resourceid": 2006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ElementType_FireType": {
+        "ID": "EDS_ElementType_FireType",
+        "DataStage": 23,
+        "ID_Resourceid": 2007,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ElementType_WaterType": {
+        "ID": "EDS_ElementType_WaterType",
+        "DataStage": 23,
+        "ID_Resourceid": 2008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ElementType_ElectroType": {
+        "ID": "EDS_ElementType_ElectroType",
+        "DataStage": 23,
+        "ID_Resourceid": 2009,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ElementType_WindType": {
+        "ID": "EDS_ElementType_WindType",
+        "DataStage": 23,
+        "ID_Resourceid": 2010,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ElementType_LightType": {
+        "ID": "EDS_ElementType_LightType",
+        "DataStage": 23,
+        "ID_Resourceid": 2011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ElementType_DarkType": {
+        "ID": "EDS_ElementType_DarkType",
+        "DataStage": 23,
+        "ID_Resourceid": 2012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ElementType_EtherType": {
+        "ID": "EDS_ElementType_EtherType",
+        "DataStage": 23,
+        "ID_Resourceid": 2006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Fly": {
+        "ID": "EDS_PlayerSkillType_Fly",
+        "DataStage": 23,
+        "ID_Resourceid": 180001,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Dive": {
+        "ID": "EDS_PlayerSkillType_Dive",
+        "DataStage": 23,
+        "ID_Resourceid": 180002,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Mount": {
+        "ID": "EDS_PlayerSkillType_Mount",
+        "DataStage": 23,
+        "ID_Resourceid": 180003,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Camp": {
+        "ID": "EDS_PlayerSkillType_Camp",
+        "DataStage": 23,
+        "ID_Resourceid": 180004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Harvesting": {
+        "ID": "EDS_PlayerSkillType_Harvesting",
+        "DataStage": 23,
+        "ID_Resourceid": 180005,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Mining": {
+        "ID": "EDS_PlayerSkillType_Mining",
+        "DataStage": 23,
+        "ID_Resourceid": 180006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Logging": {
+        "ID": "EDS_PlayerSkillType_Logging",
+        "DataStage": 23,
+        "ID_Resourceid": 180007,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_OpenLocks": {
+        "ID": "EDS_PlayerSkillType_OpenLocks",
+        "DataStage": 23,
+        "ID_Resourceid": 180008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Smelting": {
+        "ID": "EDS_PlayerSkillType_Smelting",
+        "DataStage": 23,
+        "ID_Resourceid": 180009,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Manufacturing": {
+        "ID": "EDS_PlayerSkillType_Manufacturing",
+        "DataStage": 23,
+        "ID_Resourceid": 180010,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Building": {
+        "ID": "EDS_PlayerSkillType_Building",
+        "DataStage": 23,
+        "ID_Resourceid": 180011,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Cooking": {
+        "ID": "EDS_PlayerSkillType_Cooking",
+        "DataStage": 23,
+        "ID_Resourceid": 180012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Ling": {
+        "ID": "EDS_PlayerSkillType_Ling",
+        "DataStage": 23,
+        "ID_Resourceid": 180013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_NaturalHistory": {
+        "ID": "EDS_PlayerSkillType_NaturalHistory",
+        "DataStage": 23,
+        "ID_Resourceid": 180014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Archaeology": {
+        "ID": "EDS_PlayerSkillType_Archaeology",
+        "DataStage": 23,
+        "ID_Resourceid": 180015,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_PlayerSkillType_Detection": {
+        "ID": "EDS_PlayerSkillType_Detection",
+        "DataStage": 23,
+        "ID_Resourceid": 180016,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_TicketType_ActionPoint": {
+        "ID": "EDS_TicketType_ActionPoint",
+        "DataStage": 23,
+        "ID_Resourceid": 140002,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_CraftCategoryType_Weapon": {
+        "ID": "EDS_CraftCategoryType_Weapon",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_CraftCategoryType_Armor": {
+        "ID": "EDS_CraftCategoryType_Armor",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_CraftCategoryType_Accessory": {
+        "ID": "EDS_CraftCategoryType_Accessory",
+        "DataStage": 23,
+        "ID_Resourceid": 200034,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_CraftCategoryType_Tool": {
+        "ID": "EDS_CraftCategoryType_Tool",
+        "DataStage": 23,
+        "ID_Resourceid": 200021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_CraftCategoryType_Jewel": {
+        "ID": "EDS_CraftCategoryType_Jewel",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_CraftCategoryType_Consume": {
+        "ID": "EDS_CraftCategoryType_Consume",
+        "DataStage": 23,
+        "ID_Resourceid": 200009,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_CraftCategoryType_Ticket": {
+        "ID": "EDS_CraftCategoryType_Ticket",
+        "DataStage": 23,
+        "ID_Resourceid": 200019,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_CraftCategoryType_Material": {
+        "ID": "EDS_CraftCategoryType_Material",
+        "DataStage": 23,
+        "ID_Resourceid": 190003,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_CraftCategoryType_Random": {
+        "ID": "EDS_CraftCategoryType_Random",
+        "DataStage": 23,
+        "ID_Resourceid": 200012,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_MountBodyType_Bio": {
+        "ID": "EDS_MountBodyType_Bio",
+        "DataStage": 23,
+        "ID_Resourceid": 220016,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_MountBodyType_Craft": {
+        "ID": "EDS_MountBodyType_Craft",
+        "DataStage": 23,
+        "ID_Resourceid": 220017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_SeaterType_One": {
+        "ID": "EDS_SeaterType_One",
+        "DataStage": 23,
+        "ID_Resourceid": 220018,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_SeaterType_Two": {
+        "ID": "EDS_SeaterType_Two",
+        "DataStage": 23,
+        "ID_Resourceid": 220019,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ClimateType_Mild": {
+        "ID": "EDS_ClimateType_Mild",
+        "DataStage": 23,
+        "ID_Resourceid": 7206,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ClimateType_Hot": {
+        "ID": "EDS_ClimateType_Hot",
+        "DataStage": 23,
+        "ID_Resourceid": 7207,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ClimateType_Cold": {
+        "ID": "EDS_ClimateType_Cold",
+        "DataStage": 23,
+        "ID_Resourceid": 7208,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ClimateType_Humid": {
+        "ID": "EDS_ClimateType_Humid",
+        "DataStage": 23,
+        "ID_Resourceid": 7209,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_WeatherType_Rain": {
+        "ID": "EDS_WeatherType_Rain",
+        "DataStage": 23,
+        "ID_Resourceid": 7210,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_WeatherType_Snow": {
+        "ID": "EDS_WeatherType_Snow",
+        "DataStage": 23,
+        "ID_Resourceid": 7211,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_WeatherType_RainStorm": {
+        "ID": "EDS_WeatherType_RainStorm",
+        "DataStage": 23,
+        "ID_Resourceid": 7212,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_WeatherType_SandStorm": {
+        "ID": "EDS_WeatherType_SandStorm",
+        "DataStage": 23,
+        "ID_Resourceid": 7213,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_WeatherType_Clear": {
+        "ID": "EDS_WeatherType_Clear",
+        "DataStage": 23,
+        "ID_Resourceid": 7220,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FlooringType_Road": {
+        "ID": "EDS_FlooringType_Road",
+        "DataStage": 23,
+        "ID_Resourceid": 7214,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FlooringType_Plain": {
+        "ID": "EDS_FlooringType_Plain",
+        "DataStage": 23,
+        "ID_Resourceid": 7215,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FlooringType_Rough": {
+        "ID": "EDS_FlooringType_Rough",
+        "DataStage": 23,
+        "ID_Resourceid": 7216,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FlooringType_Swamp": {
+        "ID": "EDS_FlooringType_Swamp",
+        "DataStage": 23,
+        "ID_Resourceid": 7217,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FlooringType_Snow": {
+        "ID": "EDS_FlooringType_Snow",
+        "DataStage": 23,
+        "ID_Resourceid": 7218,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FlooringType_Sand": {
+        "ID": "EDS_FlooringType_Sand",
+        "DataStage": 23,
+        "ID_Resourceid": 7219,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_MountCategoryType_All": {
+        "ID": "EDS_MountCategoryType_All",
+        "DataStage": 23,
+        "ID_Resourceid": 220020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_MountCategoryType_Ground": {
+        "ID": "EDS_MountCategoryType_Ground",
+        "DataStage": 23,
+        "ID_Resourceid": 220021,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_MountCategoryType_Air": {
+        "ID": "EDS_MountCategoryType_Air",
+        "DataStage": 23,
+        "ID_Resourceid": 220022,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_MountCategoryType_Water": {
+        "ID": "EDS_MountCategoryType_Water",
+        "DataStage": 23,
+        "ID_Resourceid": 220023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_ItemType_PlayerSkillOpenLocks": {
+        "ID": "EDS_ItemType_PlayerSkillOpenLocks",
+        "DataStage": 23,
+        "ID_Resourceid": 260001,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairTotalBag": {
+        "ID": "EDS_BagType_ItemRepairTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairWeaponBag": {
+        "ID": "EDS_BagType_ItemRepairWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairhelmetBag": {
+        "ID": "EDS_BagType_ItemRepairhelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairChestBag": {
+        "ID": "EDS_BagType_ItemRepairChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairPantsBag": {
+        "ID": "EDS_BagType_ItemRepairPantsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairGloveBag": {
+        "ID": "EDS_BagType_ItemRepairGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairShoesBag": {
+        "ID": "EDS_BagType_ItemRepairShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairNecklaceBag": {
+        "ID": "EDS_BagType_ItemRepairNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairBraceletBag": {
+        "ID": "EDS_BagType_ItemRepairBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairRingBag": {
+        "ID": "EDS_BagType_ItemRepairRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200073,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairTalismanBag": {
+        "ID": "EDS_BagType_ItemRepairTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairEmblemBag": {
+        "ID": "EDS_BagType_ItemRepairEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200074,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_BagType_ItemRepairMaterialBag": {
+        "ID": "EDS_BagType_ItemRepairMaterialBag",
+        "DataStage": 23,
+        "ID_Resourceid": 190003,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairTotalBag": {
+        "ID": "EDS_FilterType_ItemRepairTotalBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200004,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairWeaponBag": {
+        "ID": "EDS_FilterType_ItemRepairWeaponBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200023,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairhelmetBag": {
+        "ID": "EDS_FilterType_ItemRepairhelmetBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200014,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairChestBag": {
+        "ID": "EDS_FilterType_ItemRepairChestBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairPantsBag": {
+        "ID": "EDS_FilterType_ItemRepairPantsBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200075,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairGloveBag": {
+        "ID": "EDS_FilterType_ItemRepairGloveBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200013,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairShoesBag": {
+        "ID": "EDS_FilterType_ItemRepairShoesBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200033,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairNecklaceBag": {
+        "ID": "EDS_FilterType_ItemRepairNecklaceBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200017,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairBraceletBag": {
+        "ID": "EDS_FilterType_ItemRepairBraceletBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200006,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairRingBag": {
+        "ID": "EDS_FilterType_ItemRepairRingBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200073,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairTalismanBag": {
+        "ID": "EDS_FilterType_ItemRepairTalismanBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200020,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairEmblemBag": {
+        "ID": "EDS_FilterType_ItemRepairEmblemBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200074,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairMaterialBag": {
+        "ID": "EDS_FilterType_ItemRepairMaterialBag",
+        "DataStage": 23,
+        "ID_Resourceid": 190003,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairArmorBag": {
+        "ID": "EDS_FilterType_ItemRepairArmorBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200008,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      },
+      "EDS_FilterType_ItemRepairAccessoryBag": {
+        "ID": "EDS_FilterType_ItemRepairAccessoryBag",
+        "DataStage": 23,
+        "ID_Resourceid": 200002,
+        "LanguageEnum": [],
+        "ID_Iconid": [],
+        "IconPath": []
+      }
+    }
+  }
+]

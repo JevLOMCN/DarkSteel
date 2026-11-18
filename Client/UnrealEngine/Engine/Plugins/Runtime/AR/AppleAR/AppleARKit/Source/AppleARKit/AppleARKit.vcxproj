@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{30BA4F8B-06B7-507D-88F3-9413D4344B79}</ProjectGuid><RootNamespace>AppleARKit</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\ARKitUtil.cpp" />
+    <ClCompile Include="Private\FARKitCameraVideoResource.cpp" />
+    <ClCompile Include="Private\FARKitMeshData.cpp" />
+    <ClCompile Include="Private\FARKitPostProcessMaterialParameters.cpp" />
+    <ClCompile Include="Private\FARKitTextureResource.cpp" />
+    <ClCompile Include="Private\FARPose2D.cpp" />
+    <ClCompile Include="Private\FAppleARKitCamera.cpp" />
+    <ClCompile Include="Private\FAppleARKitFrame.cpp" />
+    <ClCompile Include="Private\FAppleARKitLightEstimate.cpp" />
+    <ClCompile Include="Private\FAppleARKitModule.cpp" />
+    <ClCompile Include="Private\FAppleARKitSystem.cpp" />
+    <ClCompile Include="Private\FAppleARKitVideoOverlay.cpp" />
+    <ClCompile Include="Private\FAppleARKitXRCamera.cpp" />
+    <ClCompile Include="Private\FComputeShaderYCbCrToRGB.cpp" />
+    <ClCompile Include="Private\FParameters.cpp" />
+    <ClCompile Include="Private\FPostBasePassViewExtensionParameters.cpp" />
+    <ClCompile Include="Private\FRDGAllocator.cpp" />
+    <ClCompile Include="Private\FRDGBuilder.cpp" />
+    <ClCompile Include="Private\FReferenceCollector.cpp" />
+    <ClCompile Include="Private\FStaticStateResource.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTypeInfo.cpp" />
+    <ClCompile Include="Private\IARSystemSupport.cpp" />
+    <ClCompile Include="Private\IAppleImageInterface.cpp" />
+    <ClCompile Include="Private\TARKitCameraOverlayPS.cpp" />
+    <ClCompile Include="Private\TARKitCameraOverlayVS.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseSPMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TRDGLambdaPass.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TShaderParameterStructTypeInfo.cpp" />
+    <ClCompile Include="Private\TSharedFromThis.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TStaticBlendState.cpp" />
+    <ClCompile Include="Private\UARKitCameraOverlayMaterialLoader.cpp" />
+    <ClCompile Include="Private\UARKitGeoTrackingSupport.cpp" />
+    <ClCompile Include="Private\UARKitMeshGeometry.cpp" />
+    <ClCompile Include="Private\UAppleARKitCameraVideoTexture.cpp" />
+    <ClCompile Include="Private\UAppleARKitEnvironmentCaptureProbe.cpp" />
+    <ClCompile Include="Private\UAppleARKitEnvironmentCaptureProbeTexture.cpp" />
+    <ClCompile Include="Private\UAppleARKitOcclusionTexture.cpp" />
+    <ClCompile Include="Private\UAppleARKitSettings.cpp" />
+    <ClCompile Include="Private\UAppleARKitTextureCameraDepth.cpp" />
+    <ClCompile Include="Private\UAppleARKitTextureCameraImage.cpp" />
+    <ClCompile Include="Private\UAppleARKitTimecodeProvider.cpp" />
+    <ClCompile Include="Private\UDEPRECATED_MaterialExpressionARKitPassthroughCamera.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.AppleARKit.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

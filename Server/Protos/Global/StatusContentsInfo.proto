@@ -1,0 +1,19 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum StatusContentsInfo {
+  StatusContentsInfo_None = 0;
+  StatusContentsInfo_Player_Level = 100;
+  StatusContentsInfo_Player_Skill = 101;
+  StatusContentsInfo_Character_Level = 201;
+  StatusContentsInfo_Character_Evolution = 202;
+  StatusContentsInfo_Item_Basic = 301;
+  StatusContentsInfo_Item_Level = 304;
+  StatusContentsInfo_Item_Evolution = 307;
+  StatusContentsInfo_Item_Gem = 310;
+  StatusContentsInfo_Item_Fusion = 313;
+  StatusContentsInfo_Item_Set = 316;
+  StatusContentsInfo_Item_PreFix = 317;
+  StatusContentsInfo_System_Buff = 401;
+}

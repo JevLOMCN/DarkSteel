@@ -1,0 +1,72 @@
+syntax = "proto3";
+package api_session;
+option csharp_namespace = "MirProto.ApiSession";
+
+import "_unique_id.proto";
+import "_api_common.proto";
+import "ErrorCode.proto";
+import "misc.proto";
+
+message RegisterPlayerRequest {
+  string id = 1;
+  string password = 2;
+}
+message RegisterPlayerResponse {
+  ResponseBase response_base = 1;
+  int64 new_player_uid = 2;
+}
+message LoginAndCreateSessionRequest {
+  string id = 1;
+  string password = 2;
+  int32 sdk_type = 3;
+  int32 os_type = 4;
+  string device_description = 5;
+}
+message LoginAndCreateSessionResponse {
+  ResponseBase response_base = 1;
+  UniqueId player_session_uid = 2;
+}
+message ExternalLoginAndCreateSessionRequest {
+  string id = 1;
+  string password = 2;
+  int32 sdk_type = 3;
+  int32 os_type = 4;
+  string device_description = 5;
+}
+message ExternalLoginAndCreateSessionResponse {
+  ResponseBase response_base = 1;
+  UniqueId player_session_uid = 2;
+}
+message LogoutAndRemoveSessionRequest {
+  RequestBase request_base = 1;
+}
+message LogoutAndRemoveSessionResponse {
+  ResponseBase response_base = 1;
+}
+message LoginAndRegisterPlayerRequest {
+  string id = 1;
+  int32 sdk_type = 3;
+  int32 os_type = 4;
+  string device_description = 5;
+  int32 prefer_world_id = 6;
+}
+message LoginAndRegisterPlayerResponse {
+  ResponseBase response_base = 1;
+  int64 new_player_uid = 2;
+  UniqueId player_session_uid = 3;
+  bool is_new_player = 4;
+  int32 world_id = 5;
+  string jwt_key = 6;
+}
+message InvalidHttpResponse {
+  ResponseBase response_base = 1;
+}
+message JwtRefreshResponse {
+  int64 player_uid = 1;
+  string refresh_jwt_key = 2;
+}
+message SearchNicknameResponse {
+  ErrorCode error_code = 1;
+  string nickname = 2;
+  misc.NicknameData data = 3;
+}

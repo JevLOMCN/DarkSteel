@@ -1,0 +1,547 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcCamera",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcCamera",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcCameraTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 250.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": -30.0,
+        "FieldOfView": 55.0
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 250.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": -30.0,
+        "FieldOfView": 55.0
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 250.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": -30.0,
+        "FieldOfView": 55.0
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 250.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 420.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 10.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 50.0
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 420.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 5.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 53.0
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 400.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 50.0
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 320.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 25.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 50.0
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 320.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 25.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 35.0
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 320.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 15.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 50.0
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 320.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 35.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 45.0
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 320.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 35.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 43.0
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 300.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 35.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 35.0
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 100.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 100.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 90.0
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 200.0,
+        "Pitch": 45.0,
+        "TargetHeightOffset": 200.0,
+        "TargetWidthOffset": 250.0,
+        "FieldOfView": 90.0
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 300.0,
+        "Pitch": 90.0,
+        "TargetHeightOffset": 300.0,
+        "TargetWidthOffset": 500.0,
+        "FieldOfView": 90.0
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 400.0,
+        "Pitch": 125.0,
+        "TargetHeightOffset": 400.0,
+        "TargetWidthOffset": 750.0,
+        "FieldOfView": 90.0
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 500.0,
+        "Pitch": -45.0,
+        "TargetHeightOffset": 500.0,
+        "TargetWidthOffset": 1000.0,
+        "FieldOfView": 90.0
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 600.0,
+        "Pitch": -90.0,
+        "TargetHeightOffset": 600.0,
+        "TargetWidthOffset": -250.0,
+        "FieldOfView": 90.0
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 700.0,
+        "Pitch": -125.0,
+        "TargetHeightOffset": 700.0,
+        "TargetWidthOffset": -500.0,
+        "FieldOfView": 90.0
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 800.0,
+        "Pitch": -180.0,
+        "TargetHeightOffset": 800.0,
+        "TargetWidthOffset": -750.0,
+        "FieldOfView": 90.0
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 250.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": -80.0,
+        "FieldOfView": 55.0
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 240.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 35.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 240.0,
+        "Pitch": 3.0,
+        "TargetHeightOffset": 35.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 220.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 22.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -7.0,
+        "TargetHeightOffset": 50.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -10.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -5.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 45.0
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -10.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -5.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 45.0
+      },
+      "33": {
+        "ID": 33,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "34": {
+        "ID": 34,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 220.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 28.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "35": {
+        "ID": 35,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "36": {
+        "ID": 36,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 220.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 22.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "37": {
+        "ID": 37,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "38": {
+        "ID": 38,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 220.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 22.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "39": {
+        "ID": 39,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 0.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "40": {
+        "ID": 40,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 220.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 22.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 55.0
+      },
+      "41": {
+        "ID": 41,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -5.0,
+        "TargetHeightOffset": 50.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 60.0
+      },
+      "42": {
+        "ID": 42,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -5.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 45.0
+      },
+      "43": {
+        "ID": 43,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -10.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 50.0
+      },
+      "44": {
+        "ID": 44,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -7.0,
+        "TargetHeightOffset": 85.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 40.0
+      },
+      "45": {
+        "ID": 45,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -10.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 50.0
+      },
+      "46": {
+        "ID": 46,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -7.0,
+        "TargetHeightOffset": 85.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 40.0
+      },
+      "47": {
+        "ID": 47,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": -10.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 50.0
+      },
+      "48": {
+        "ID": 48,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 35.0,
+        "TargetWidthOffset": -90.0,
+        "FieldOfView": 40.0
+      },
+      "49": {
+        "ID": 49,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 280.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 70.0
+      },
+      "50": {
+        "ID": 50,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 280.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 70.0,
+        "TargetWidthOffset": 0.0,
+        "FieldOfView": 70.0
+      },
+      "51": {
+        "ID": 51,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 15.0,
+        "TargetWidthOffset": -85.0,
+        "FieldOfView": 50.0
+      },
+      "52": {
+        "ID": 52,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 15.0,
+        "TargetWidthOffset": -90.0,
+        "FieldOfView": 50.0
+      },
+      "53": {
+        "ID": 53,
+        "DataStage": 23,
+        "Version": "*",
+        "Distance": 360.0,
+        "Pitch": 0.0,
+        "TargetHeightOffset": 15.0,
+        "TargetWidthOffset": -100.0,
+        "FieldOfView": 50.0
+      }
+    }
+  }
+]

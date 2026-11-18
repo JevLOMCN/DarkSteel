@@ -1,0 +1,11 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+import "messages.proto";
+import "RingCmdType.proto";
+
+message RingCommandSet {
+  messages.SlotDeck slot_deck = 1;
+  RingCmdType cmd_type = 2;
+  int32 cmd_value = 3;
+}

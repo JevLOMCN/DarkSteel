@@ -1,0 +1,17 @@
+syntax = "proto3";
+package ds_config;
+option csharp_namespace = "MirProto.DsConfig";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlDbAgentServerListTable {
+  int32 world_id = 1;
+  int32 region_index = 2;
+  string address = 4;
+  string database_address = 5;
+  string database_user = 6;
+  string database_name = 7;
+  int32 server_state = 8;
+  google.protobuf.Timestamp server_refresh_dt = 9;
+}

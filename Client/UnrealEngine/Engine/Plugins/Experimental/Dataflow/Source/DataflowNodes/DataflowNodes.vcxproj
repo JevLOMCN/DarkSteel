@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{174BD6B3-82D8-545B-97A8-A41A3B34DA0A}</ProjectGuid><RootNamespace>DataflowNodes</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FBreakAttributeKeyDataflowNode.cpp" />
+    <ClCompile Include="Private\FCollectionAttributeKey.cpp" />
+    <ClCompile Include="Private\FContext.cpp" />
+    <ClCompile Include="Private\FContextCacheElementBase.cpp" />
+    <ClCompile Include="Private\FContextCacheElementUStruct.cpp" />
+    <ClCompile Include="Private\FDataflowAddScalarVertexPropertyCallbackRegistry.cpp" />
+    <ClCompile Include="Private\FDataflowCollectionAddScalarVertexPropertyNode.cpp" />
+    <ClCompile Include="Private\FDataflowCollectionEditSkeletonBonesNode.cpp" />
+    <ClCompile Include="Private\FDataflowCollectionEditSkinWeightsNode.cpp" />
+    <ClCompile Include="Private\FDataflowCollectionSetSkinningSkeletalMesh.cpp" />
+    <ClCompile Include="Private\FDataflowDebugDrawSkeletonObject.cpp" />
+    <ClCompile Include="Private\FDataflowFunctionProperty.cpp" />
+    <ClCompile Include="Private\FDataflowGeometrySelection.cpp" />
+    <ClCompile Include="Private\FDataflowInput.cpp" />
+    <ClCompile Include="Private\FDataflowNode.cpp" />
+    <ClCompile Include="Private\FDataflowPrimitiveNode.cpp" />
+    <ClCompile Include="Private\FDataflowSkinWeightData.cpp" />
+    <ClCompile Include="Private\FDataflowTools.cpp" />
+    <ClCompile Include="Private\FDataflowVertexAttributeEditableNode.cpp" />
+    <ClCompile Include="Private\FDataflowVertexSkinWeightData.cpp" />
+    <ClCompile Include="Private\FEditNodeToolChange.cpp" />
+    <ClCompile Include="Private\FFloatOverrideDataflowNode.cpp" />
+    <ClCompile Include="Private\FGeometryCollectionAddScalarVertexPropertyCallbacks.cpp" />
+    <ClCompile Include="Private\FGetPhysicsAssetFromSkeletalMeshDataflowNode.cpp" />
+    <ClCompile Include="Private\FGetSkeletalMeshDataflowNode.cpp" />
+    <ClCompile Include="Private\FGetSkeletonDataflowNode.cpp" />
+    <ClCompile Include="Private\FGetStaticMeshBoundingBoxDataflowNode.cpp" />
+    <ClCompile Include="Private\FGetStaticMeshDataflowNode.cpp" />
+    <ClCompile Include="Private\FLazySingleton.cpp" />
+    <ClCompile Include="Private\FMakeAttributeKeyDataflowNode.cpp" />
+    <ClCompile Include="Private\FManagedArrayCollection.cpp" />
+    <ClCompile Include="Private\FNodeFactory.cpp" />
+    <ClCompile Include="Private\FRenderingParameter.cpp" />
+    <ClCompile Include="Private\FScalarVertexPropertyGroup.cpp" />
+    <ClCompile Include="Private\FSelectionSetDataflowNode.cpp" />
+    <ClCompile Include="Private\FSkeletalMeshBoneDataflowNode.cpp" />
+    <ClCompile Include="Private\FSkeletalMeshReferenceTransformDataflowNode.cpp" />
+    <ClCompile Include="Private\FSkeletonAssetTerminalNode.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IDataflowAddScalarVertexPropertyCallbacks.cpp" />
+    <ClCompile Include="Private\IDataflowNodesPlugin.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseStructureBase.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TContextCacheElement.cpp" />
+    <ClCompile Include="Private\TContextCacheElementUObject.cpp" />
+    <ClCompile Include="Private\TContextCacheElementUObjectArray.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateBase.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.DataflowNodes.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

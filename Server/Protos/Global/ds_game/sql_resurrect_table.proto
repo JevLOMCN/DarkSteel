@@ -1,0 +1,22 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+import "DeathType.proto";
+import "DeadZoneType.proto";
+
+message SqlResurrectTable {
+  int64 player_uid = 1;
+  DeathType death_type = 3;
+  google.protobuf.Timestamp died_time = 4;
+  float wait_resurrect = 5;
+  float wait_auto_resurrect = 6;
+  repeated int32 acc_count = 7;
+  repeated google.protobuf.Timestamp reset_time = 8;
+  int64 attacker_uid = 9;
+  string attacker_name = 10;
+  DeadZoneType dead_zone = 11;
+  int32 penalty_id = 12;
+}

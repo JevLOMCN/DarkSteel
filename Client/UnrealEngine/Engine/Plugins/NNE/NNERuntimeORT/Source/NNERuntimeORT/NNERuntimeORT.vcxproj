@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{ECC453C1-0622-544C-8B97-8F9A99457015}</ProjectGuid><RootNamespace>NNERuntimeORT</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FEnvironment.cpp" />
+    <ClCompile Include="Private\FModelInstanceORTBase.cpp" />
+    <ClCompile Include="Private\FModelInstanceORTCpu.cpp" />
+    <ClCompile Include="Private\FModelInstanceORTDmlGPU.cpp" />
+    <ClCompile Include="Private\FModelInstanceORTDmlRDG.cpp" />
+    <ClCompile Include="Private\FModelInstanceORTNpu.cpp" />
+    <ClCompile Include="Private\FModelInstanceORTRunSync.cpp" />
+    <ClCompile Include="Private\FModelORTCpu.cpp" />
+    <ClCompile Include="Private\FModelORTDmlGPU.cpp" />
+    <ClCompile Include="Private\FModelORTDmlRDG.cpp" />
+    <ClCompile Include="Private\FModelORTNpu.cpp" />
+    <ClCompile Include="Private\FNNERuntimeORTDmlImpl.cpp" />
+    <ClCompile Include="Private\FNNERuntimeORTModule.cpp" />
+    <ClCompile Include="Private\FORTModelInstanceRDGParameters.cpp" />
+    <ClCompile Include="Private\FProxy.cpp" />
+    <ClCompile Include="Private\FRDGBuilder.cpp" />
+    <ClCompile Include="Private\FRDGScope_RHI.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTensorDesc.cpp" />
+    <ClCompile Include="Private\FThreadingOptions.cpp" />
+    <ClCompile Include="Private\IModelCPU.cpp" />
+    <ClCompile Include="Private\IModelGPU.cpp" />
+    <ClCompile Include="Private\IModelInstanceRunSync.cpp" />
+    <ClCompile Include="Private\IModelNPU.cpp" />
+    <ClCompile Include="Private\IModelRDG.cpp" />
+    <ClCompile Include="Private\INNERuntime.cpp" />
+    <ClCompile Include="Private\INNERuntimeCPU.cpp" />
+    <ClCompile Include="Private\INNERuntimeGPU.cpp" />
+    <ClCompile Include="Private\INNERuntimeNPU.cpp" />
+    <ClCompile Include="Private\INNERuntimeRDG.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayPrivateFriend.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TRDGLambdaPass.cpp" />
+    <ClCompile Include="Private\TRHILambdaCommand.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSetPrivateFriend.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TUniquePtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTCpu.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTDmlProxy.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTDml_GPU.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTDml_GPU_NPU.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTDml_GPU_RDG.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTDml_GPU_RDG_NPU.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTDml_NPU.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTDml_RDG.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTDml_RDG_NPU.cpp" />
+    <ClCompile Include="Private\UNNERuntimeORTSettings.cpp" />
+    <ClCompile Include="Private\_Free\Module.NNERuntimeORT.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

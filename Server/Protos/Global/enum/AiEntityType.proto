@@ -1,0 +1,9 @@
+syntax = "proto3";
+package nvidia_message;
+option csharp_namespace = "MirProto.NvidiaMessage";
+
+
+enum AiEntityType {
+  Character = 0;
+  Npc = 1;
+}

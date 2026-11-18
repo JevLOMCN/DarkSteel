@@ -1,0 +1,279 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillPassive",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SkillPassive",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SkillPassiveTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10101": {
+        "ID": 10101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 100102
+        },
+        "ID_Explain": {
+          "ID": 100102
+        },
+        "ID_Icon": 0,
+        "PassiveContentsType": "EDS_SkillPassiveContentsType::SkillUsePassive",
+        "ContentsSubValue": 0,
+        "PassiveCheckType": "EDS_PassiveCheckType::SkillDamage",
+        "PassiveCastingCondition": "EDS_PassiveCastingCondition::SkillAttack",
+        "ConditionValue1": 0,
+        "ConditionValue2": 0,
+        "ConditionPer": 100,
+        "LvConditionPer": 0,
+        "CoolTime": 30.0,
+        "LvCoolTime": 0.0,
+        "PassiveMaxLv": 1,
+        "PassiveLv": 1,
+        "PassiveTargetType": "EDS_PassiveTargetType::MySelf",
+        "ID_PassiveBuff": [
+          1700
+        ],
+        "PassiveAbilityType": [],
+        "AbilityValue": [],
+        "LevelUpAbilityValue": [],
+        "PassiveSpecialAbilityType": "EDS_PassiveSpecialAbilityType::None",
+        "SpecialAbilityValue1": 0,
+        "SpecialAbilityValue2": 0
+      },
+      "10102": {
+        "ID": 10102,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 100102
+        },
+        "ID_Explain": {
+          "ID": 100102
+        },
+        "ID_Icon": 0,
+        "PassiveContentsType": "EDS_SkillPassiveContentsType::SkillPassive",
+        "ContentsSubValue": 0,
+        "PassiveCheckType": "EDS_PassiveCheckType::SkillHit",
+        "PassiveCastingCondition": "EDS_PassiveCastingCondition::HitCheck",
+        "ConditionValue1": 0,
+        "ConditionValue2": 0,
+        "ConditionPer": 100,
+        "LvConditionPer": 0,
+        "CoolTime": 30.0,
+        "LvCoolTime": 0.0,
+        "PassiveMaxLv": 1,
+        "PassiveLv": 1,
+        "PassiveTargetType": "EDS_PassiveTargetType::MySelf",
+        "ID_PassiveBuff": [
+          1900
+        ],
+        "PassiveAbilityType": [],
+        "AbilityValue": [],
+        "LevelUpAbilityValue": [],
+        "PassiveSpecialAbilityType": "EDS_PassiveSpecialAbilityType::None",
+        "SpecialAbilityValue1": 0,
+        "SpecialAbilityValue2": 0
+      },
+      "10103": {
+        "ID": 10103,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 100102
+        },
+        "ID_Explain": {
+          "ID": 100102
+        },
+        "ID_Icon": 0,
+        "PassiveContentsType": "EDS_SkillPassiveContentsType::SkillUsePassive",
+        "ContentsSubValue": 0,
+        "PassiveCheckType": "EDS_PassiveCheckType::SkillHit",
+        "PassiveCastingCondition": "EDS_PassiveCastingCondition::HitCheckRangeIn",
+        "ConditionValue1": 450,
+        "ConditionValue2": 0,
+        "ConditionPer": 100,
+        "LvConditionPer": 0,
+        "CoolTime": 9.0,
+        "LvCoolTime": 0.0,
+        "PassiveMaxLv": 1,
+        "PassiveLv": 1,
+        "PassiveTargetType": "EDS_PassiveTargetType::MySelf",
+        "ID_PassiveBuff": [
+          1900
+        ],
+        "PassiveAbilityType": [],
+        "AbilityValue": [],
+        "LevelUpAbilityValue": [],
+        "PassiveSpecialAbilityType": "EDS_PassiveSpecialAbilityType::AutoUseSkill",
+        "SpecialAbilityValue1": 10211,
+        "SpecialAbilityValue2": 0
+      },
+      "1000001": {
+        "ID": 1000001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 100101
+        },
+        "ID_Explain": {
+          "ID": 101101
+        },
+        "ID_Icon": 0,
+        "PassiveContentsType": "EDS_SkillPassiveContentsType::ItemPassive",
+        "ContentsSubValue": 0,
+        "PassiveCheckType": "EDS_PassiveCheckType::SkillUse",
+        "PassiveCastingCondition": "EDS_PassiveCastingCondition::SelfUseSkill",
+        "ConditionValue1": 0,
+        "ConditionValue2": 0,
+        "ConditionPer": 0,
+        "LvConditionPer": 0,
+        "CoolTime": 0.0,
+        "LvCoolTime": 0.0,
+        "PassiveMaxLv": 0,
+        "PassiveLv": 0,
+        "PassiveTargetType": "EDS_PassiveTargetType::MySelf",
+        "ID_PassiveBuff": [],
+        "PassiveAbilityType": [],
+        "AbilityValue": [],
+        "LevelUpAbilityValue": [],
+        "PassiveSpecialAbilityType": "EDS_PassiveSpecialAbilityType::None",
+        "SpecialAbilityValue1": 0,
+        "SpecialAbilityValue2": 0
+      },
+      "1000002": {
+        "ID": 1000002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 100102
+        },
+        "ID_Explain": {
+          "ID": 101102
+        },
+        "ID_Icon": 0,
+        "PassiveContentsType": "EDS_SkillPassiveContentsType::ItemPassive",
+        "ContentsSubValue": 0,
+        "PassiveCheckType": "EDS_PassiveCheckType::SkillUse",
+        "PassiveCastingCondition": "EDS_PassiveCastingCondition::SelfUseSkill",
+        "ConditionValue1": 0,
+        "ConditionValue2": 0,
+        "ConditionPer": 0,
+        "LvConditionPer": 0,
+        "CoolTime": 0.0,
+        "LvCoolTime": 0.0,
+        "PassiveMaxLv": 0,
+        "PassiveLv": 0,
+        "PassiveTargetType": "EDS_PassiveTargetType::MySelf",
+        "ID_PassiveBuff": [],
+        "PassiveAbilityType": [],
+        "AbilityValue": [],
+        "LevelUpAbilityValue": [],
+        "PassiveSpecialAbilityType": "EDS_PassiveSpecialAbilityType::None",
+        "SpecialAbilityValue1": 0,
+        "SpecialAbilityValue2": 0
+      },
+      "1000003": {
+        "ID": 1000003,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 100103
+        },
+        "ID_Explain": {
+          "ID": 101103
+        },
+        "ID_Icon": 0,
+        "PassiveContentsType": "EDS_SkillPassiveContentsType::ItemPassive",
+        "ContentsSubValue": 0,
+        "PassiveCheckType": "EDS_PassiveCheckType::SkillUse",
+        "PassiveCastingCondition": "EDS_PassiveCastingCondition::SelfUseSkill",
+        "ConditionValue1": 0,
+        "ConditionValue2": 0,
+        "ConditionPer": 0,
+        "LvConditionPer": 0,
+        "CoolTime": 0.0,
+        "LvCoolTime": 0.0,
+        "PassiveMaxLv": 0,
+        "PassiveLv": 0,
+        "PassiveTargetType": "EDS_PassiveTargetType::MySelf",
+        "ID_PassiveBuff": [],
+        "PassiveAbilityType": [],
+        "AbilityValue": [],
+        "LevelUpAbilityValue": [],
+        "PassiveSpecialAbilityType": "EDS_PassiveSpecialAbilityType::None",
+        "SpecialAbilityValue1": 0,
+        "SpecialAbilityValue2": 0
+      },
+      "1000004": {
+        "ID": 1000004,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 100104
+        },
+        "ID_Explain": {
+          "ID": 101104
+        },
+        "ID_Icon": 0,
+        "PassiveContentsType": "EDS_SkillPassiveContentsType::ItemPassive",
+        "ContentsSubValue": 0,
+        "PassiveCheckType": "EDS_PassiveCheckType::SkillUse",
+        "PassiveCastingCondition": "EDS_PassiveCastingCondition::SelfUseSkill",
+        "ConditionValue1": 0,
+        "ConditionValue2": 0,
+        "ConditionPer": 0,
+        "LvConditionPer": 0,
+        "CoolTime": 0.0,
+        "LvCoolTime": 0.0,
+        "PassiveMaxLv": 0,
+        "PassiveLv": 0,
+        "PassiveTargetType": "EDS_PassiveTargetType::MySelf",
+        "ID_PassiveBuff": [],
+        "PassiveAbilityType": [],
+        "AbilityValue": [],
+        "LevelUpAbilityValue": [],
+        "PassiveSpecialAbilityType": "EDS_PassiveSpecialAbilityType::None",
+        "SpecialAbilityValue1": 0,
+        "SpecialAbilityValue2": 0
+      },
+      "1000005": {
+        "ID": 1000005,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 100105
+        },
+        "ID_Explain": {
+          "ID": 101105
+        },
+        "ID_Icon": 0,
+        "PassiveContentsType": "EDS_SkillPassiveContentsType::ItemPassive",
+        "ContentsSubValue": 0,
+        "PassiveCheckType": "EDS_PassiveCheckType::SkillUse",
+        "PassiveCastingCondition": "EDS_PassiveCastingCondition::SelfUseSkill",
+        "ConditionValue1": 0,
+        "ConditionValue2": 0,
+        "ConditionPer": 0,
+        "LvConditionPer": 0,
+        "CoolTime": 0.0,
+        "LvCoolTime": 0.0,
+        "PassiveMaxLv": 0,
+        "PassiveLv": 0,
+        "PassiveTargetType": "EDS_PassiveTargetType::MySelf",
+        "ID_PassiveBuff": [],
+        "PassiveAbilityType": [],
+        "AbilityValue": [],
+        "LevelUpAbilityValue": [],
+        "PassiveSpecialAbilityType": "EDS_PassiveSpecialAbilityType::None",
+        "SpecialAbilityValue1": 0,
+        "SpecialAbilityValue2": 0
+      }
+    }
+  }
+]

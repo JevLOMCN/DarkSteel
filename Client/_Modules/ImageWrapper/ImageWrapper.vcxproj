@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{9E580944-62D5-5F9D-89C0-E8A85ED4EAF4}</ProjectGuid><RootNamespace>ImageWrapper</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FBmpImageWrapper.cpp" />
+    <ClCompile Include="Private\FDdsImageWrapper.cpp" />
+    <ClCompile Include="Private\FDecompressedImageOutput.cpp" />
+    <ClCompile Include="Private\FEventScope.cpp" />
+    <ClCompile Include="Private\FExrImageWrapper.cpp" />
+    <ClCompile Include="Private\FHdrImageWrapper.cpp" />
+    <ClCompile Include="Private\FIcnsImageWrapper.cpp" />
+    <ClCompile Include="Private\FIcoImageWrapper.cpp" />
+    <ClCompile Include="Private\FImage.cpp" />
+    <ClCompile Include="Private\FImageWrapperBase.cpp" />
+    <ClCompile Include="Private\FImageWrapperModule.cpp" />
+    <ClCompile Include="Private\FInheritedContextScope.cpp" />
+    <ClCompile Include="Private\FJpegImageWrapper.cpp" />
+    <ClCompile Include="Private\FMemFileIn.cpp" />
+    <ClCompile Include="Private\FMemFileOut.cpp" />
+    <ClCompile Include="Private\FMipMapImage.cpp" />
+    <ClCompile Include="Private\FOversubscriptionAllowedScope.cpp" />
+    <ClCompile Include="Private\FPNGImageCRCError.cpp" />
+    <ClCompile Include="Private\FPngImageWrapper.cpp" />
+    <ClCompile Include="Private\FPrerequisites.cpp" />
+    <ClCompile Include="Private\FScopeCycleCounter.cpp" />
+    <ClCompile Include="Private\FSharedReferencer.cpp" />
+    <ClCompile Include="Private\FStatMessageLock.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FSubsequents.cpp" />
+    <ClCompile Include="Private\FTIFFReadMemoryFile.cpp" />
+    <ClCompile Include="Private\FTask.cpp" />
+    <ClCompile Include="Private\FTaskBase.cpp" />
+    <ClCompile Include="Private\FTgaImageWrapper.cpp" />
+    <ClCompile Include="Private\FTiffImageWrapper.cpp" />
+    <ClCompile Include="Private\FUEJpegImageWrapper.cpp" />
+    <ClCompile Include="Private\IImageWrapper.cpp" />
+    <ClCompile Include="Private\IImageWrapperModule.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TConcurrentLinearObject.cpp" />
+    <ClCompile Include="Private\TDefaultAdapter.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGraphTask.cpp" />
+    <ClCompile Include="Private\TGuardedInt.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TPaletteBaseAdapter.cpp" />
+    <ClCompile Include="Private\TQueue.cpp" />
+    <ClCompile Include="Private\TReadBitsBaseAdapter.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSizedHeapAllocator.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TStringConversion.cpp" />
+    <ClCompile Include="Private\TTaskDelegate.cpp" />
+    <ClCompile Include="Private\TTupleBaseElement.cpp" />
+    <ClCompile Include="Private\TUniqueFunction.cpp" />
+    <ClCompile Include="Private\TUniqueLock.cpp" />
+    <ClCompile Include="Private\TUniquePtr.cpp" />
+    <ClCompile Include="Private\TWriteBitsToUint8Adaptor.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.ImageWrapper.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

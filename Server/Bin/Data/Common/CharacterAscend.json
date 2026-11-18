@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CharacterAscend",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CharacterAscend",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CharacterAscendTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Group": 1,
+        "AscendLevel": 1,
+        "ID_NextAscend": 1002,
+        "ReqCharLevel": 19,
+        "ReqPlayerLevel": 20,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500,
+        "ID_MoneyExchange": 110,
+        "ReqItem": [
+          250120001
+        ],
+        "ReqItemCnt": [
+          5
+        ]
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "Group": 1,
+        "AscendLevel": 2,
+        "ID_NextAscend": 1003,
+        "ReqCharLevel": 39,
+        "ReqPlayerLevel": 30,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 1000,
+        "ID_MoneyExchange": 110,
+        "ReqItem": [
+          250120001
+        ],
+        "ReqItemCnt": [
+          15
+        ]
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "Group": 1,
+        "AscendLevel": 3,
+        "ID_NextAscend": 1004,
+        "ReqCharLevel": 49,
+        "ReqPlayerLevel": 40,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 2000,
+        "ID_MoneyExchange": 110,
+        "ReqItem": [
+          250120001
+        ],
+        "ReqItemCnt": [
+          30
+        ]
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "Group": 1,
+        "AscendLevel": 4,
+        "ID_NextAscend": 1005,
+        "ReqCharLevel": 59,
+        "ReqPlayerLevel": 50,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 4000,
+        "ID_MoneyExchange": 110,
+        "ReqItem": [
+          250120001
+        ],
+        "ReqItemCnt": [
+          50
+        ]
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "Group": 1,
+        "AscendLevel": 5,
+        "ID_NextAscend": 1006,
+        "ReqCharLevel": 69,
+        "ReqPlayerLevel": 60,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 10000,
+        "ID_MoneyExchange": 110,
+        "ReqItem": [
+          250120001
+        ],
+        "ReqItemCnt": [
+          100
+        ]
+      },
+      "1006": {
+        "ID": 1006,
+        "DataStage": 23,
+        "Group": 1,
+        "AscendLevel": 6,
+        "ID_NextAscend": 1007,
+        "ReqCharLevel": 79,
+        "ReqPlayerLevel": 70,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 16000,
+        "ID_MoneyExchange": 110,
+        "ReqItem": [
+          250120001
+        ],
+        "ReqItemCnt": [
+          150
+        ]
+      },
+      "1007": {
+        "ID": 1007,
+        "DataStage": 23,
+        "Group": 1,
+        "AscendLevel": 7,
+        "ID_NextAscend": 0,
+        "ReqCharLevel": 89,
+        "ReqPlayerLevel": 80,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 24000,
+        "ID_MoneyExchange": 110,
+        "ReqItem": [
+          250120001
+        ],
+        "ReqItemCnt": [
+          200
+        ]
+      }
+    }
+  }
+]

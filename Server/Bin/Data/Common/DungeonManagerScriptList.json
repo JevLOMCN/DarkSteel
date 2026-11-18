@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DungeonManagerScriptList",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/DungeonManagerScriptList",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_DungeonManagerScriptListTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "ScriptFileName": "stage001"
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "ScriptFileName": "stage002"
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "ScriptFileName": "stage003_special"
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "ScriptFileName": "stage004"
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "ScriptFileName": "7003"
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "ScriptFileName": "7003_B1"
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "ScriptFileName": "7003_B2"
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "ScriptFileName": "7003_B3"
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "ScriptFileName": "7003_NormalBoss"
+      }
+    }
+  }
+]

@@ -1,0 +1,425 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CameraCommonParam",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CameraCommonParam",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CameraCommonParamTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_CameraCommonParamType::MarginWidthRatioDef",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "18"
+      },
+      "2": {
+        "ID": "EDS_CameraCommonParamType::MarginWidthRatioMin",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "10"
+      },
+      "3": {
+        "ID": "EDS_CameraCommonParamType::MarginWidthRatioMax",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "30"
+      },
+      "4": {
+        "ID": "EDS_CameraCommonParamType::MouseSensitivityDef",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "0.2"
+      },
+      "5": {
+        "ID": "EDS_CameraCommonParamType::MouseSensitivityMin",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "0.1"
+      },
+      "6": {
+        "ID": "EDS_CameraCommonParamType::MouseSensitivityMax",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "5"
+      },
+      "7": {
+        "ID": "EDS_CameraCommonParamType::MouseZoomSensitivityDef",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "45"
+      },
+      "8": {
+        "ID": "EDS_CameraCommonParamType::MouseZoomSensitivityMin",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "30"
+      },
+      "9": {
+        "ID": "EDS_CameraCommonParamType::MouseZoomSensitivityMax",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "150"
+      },
+      "10": {
+        "ID": "EDS_CameraCommonParamType::GamepadSensitivityDef",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "0.4"
+      },
+      "11": {
+        "ID": "EDS_CameraCommonParamType::GamepadSensitivityMin",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "0.1"
+      },
+      "12": {
+        "ID": "EDS_CameraCommonParamType::GamepadSensitivityMax",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "5"
+      },
+      "13": {
+        "ID": "EDS_CameraCommonParamType::GamepadZoomSensitivityDef",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "70"
+      },
+      "14": {
+        "ID": "EDS_CameraCommonParamType::GamepadZoomSensitivityMin",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "50"
+      },
+      "15": {
+        "ID": "EDS_CameraCommonParamType::GamepadZoomSensitivityMax",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "150"
+      },
+      "16": {
+        "ID": "EDS_CameraCommonParamType::CamChangeSpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "0.5"
+      },
+      "17": {
+        "ID": "EDS_CameraCommonParamType::SlopeLagSpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "0.5"
+      },
+      "18": {
+        "ID": "EDS_CameraCommonParamType::SlopeDefaultPitch",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "-10"
+      },
+      "19": {
+        "ID": "EDS_CameraCommonParamType::LockOnMinPitch",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "-35"
+      },
+      "31": {
+        "ID": "EDS_CameraCommonParamType::LockOnMaxPitch",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "15"
+      },
+      "20": {
+        "ID": "EDS_CameraCommonParamType::LockOnMinDistance",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "100"
+      },
+      "21": {
+        "ID": "EDS_CameraCommonParamType::RecoveryWaiting",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "1"
+      },
+      "22": {
+        "ID": "EDS_CameraCommonParamType::CamTrackingAllowAngle",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "150"
+      },
+      "23": {
+        "ID": "EDS_CameraCommonParamType::CameraBattleMedian",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "130"
+      },
+      "24": {
+        "ID": "EDS_CameraCommonParamType::CameraBattleDistance",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "20"
+      },
+      "25": {
+        "ID": "EDS_CameraCommonParamType::CameraBattleRotationSpeed1",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "35"
+      },
+      "26": {
+        "ID": "EDS_CameraCommonParamType::CameraBattleRotationSpeed2",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "12"
+      },
+      "28": {
+        "ID": "EDS_CameraCommonParamType::FovLerpSpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "250"
+      },
+      "29": {
+        "ID": "EDS_CameraCommonParamType::TargetOffsetLerpSpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "230"
+      },
+      "30": {
+        "ID": "EDS_CameraCommonParamType::SocketOffsetLerpSpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "0.2"
+      },
+      "32": {
+        "ID": "EDS_CameraCommonParamType::DecelerationFactor",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "0.25"
+      },
+      "33": {
+        "ID": "EDS_CameraCommonParamType::InterpSpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "1"
+      },
+      "34": {
+        "ID": "EDS_CameraCommonParamType::CameraBattleRotationLerpSpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "100"
+      },
+      "35": {
+        "ID": "EDS_CameraCommonParamType::CameraBattleCurvePath",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::String",
+        "ParamValue": "/Game/Datas/Curve/Curve_CameraBattle.Curve_CameraBattle"
+      },
+      "36": {
+        "ID": "EDS_CameraCommonParamType::CameraZoomInCorrectionSpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "540"
+      },
+      "37": {
+        "ID": "EDS_CameraCommonParamType::CameraBattleRotationInterpTime",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "3"
+      },
+      "38": {
+        "ID": "EDS_CameraCommonParamType::SocketOffsetInterpTime",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "3"
+      },
+      "39": {
+        "ID": "EDS_CameraCommonParamType::CameraBattleFrontalRadius",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "45"
+      },
+      "40": {
+        "ID": "EDS_CameraCommonParamType::CameraBattleMarginMin",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "40"
+      },
+      "41": {
+        "ID": "EDS_CameraCommonParamType::CameraZoomCurvePath",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::String",
+        "ParamValue": "/Game/Datas/Curve/Curve_CameraZoom.Curve_CameraZoom"
+      },
+      "42": {
+        "ID": "EDS_CameraCommonParamType::LockOnMarginAngle",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "15"
+      },
+      "43": {
+        "ID": "EDS_CameraCommonParamType::MarginRecoverySpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "2"
+      },
+      "44": {
+        "ID": "EDS_CameraCommonParamType::LockOnMarginCircle",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "5"
+      },
+      "45": {
+        "ID": "EDS_CameraCommonParamType::RotationalMaxVelocity",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "20"
+      },
+      "46": {
+        "ID": "EDS_CameraCommonParamType::LockOnHeightMinRatio",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "40"
+      },
+      "47": {
+        "ID": "EDS_CameraCommonParamType::LockOnHeightMaxRatio",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "90"
+      },
+      "48": {
+        "ID": "EDS_CameraCommonParamType::MaxRotateAnglePerSec",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "120"
+      },
+      "49": {
+        "ID": "EDS_CameraCommonParamType::MaxMouseRotate",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "10"
+      },
+      "50": {
+        "ID": "EDS_CameraCommonParamType::LockOnMaxHeight",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "500"
+      },
+      "51": {
+        "ID": "EDS_CameraCommonParamType::LockOnMarginPitchCircle",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "5"
+      },
+      "52": {
+        "ID": "EDS_CameraCommonParamType::LockOnMarginPitchAngle",
+        "DataStage": 23,
+        "Version": "*",
+        "ParamName": "",
+        "DataType": "EDS_ColumnDataType::Float",
+        "ParamValue": "100"
+      }
+    }
+  }
+]

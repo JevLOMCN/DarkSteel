@@ -1,0 +1,21 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum WarpType {
+  WarpType_None = 0;
+  WarpType_Common = 1;
+  WarpType_ReturnHome = 2;
+  WarpType_Resurrect = 3;
+  WarpType_Device = 4;
+  WarpType_Portal = 5;
+  WarpType_Dungeon = 11;
+  WarpType_EnterPhasingQuest = 51;
+  WarpType_ExitPhasingQuest = 52;
+  WarpType_EnterPhasingInn = 53;
+  WarpType_ExitPhasingInn = 54;
+  WarpType_EnterPhasingBreach = 55;
+  WarpType_ExitPhasingBreach = 56;
+  WarpType_EnterPhasingGate = 57;
+  WarpType_ExitPhasingGate = 89;
+}

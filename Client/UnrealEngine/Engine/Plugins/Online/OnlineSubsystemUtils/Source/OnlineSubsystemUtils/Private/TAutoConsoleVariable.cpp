@@ -1,0 +1,35 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: OnlineSubsystemUtils
+// Functions: 1
+
+// GetValueOnGameThread @ 14ec79ab0
+
+float __thiscall
+TAutoConsoleVariable<float>::GetValueOnGameThread(TAutoConsoleVariable<float> *this)
+
+{
+  TConsoleVariableData<float> *pTVar1;
+  code *pcVar2;
+  bool bVar3;
+  float fVar4;
+  
+  pTVar1 = this->Ref;
+  bVar3 = IsInParallelGameThread();
+  if (!bVar3) {
+    bVar3 = IsInGameThread();
+    if (!bVar3) {
+      bVar3 = UE::Assert::Private::ExecCheckImplInternal
+                        (&bGEnsureHasExecuted<6409875433831007945>,false,
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\HAL\\IConsoleManager.h"
+                         ,0x6c9,"GetShadowIndex() == 0");
+      if (bVar3) {
+        pcVar2 = (code *)swi(3);
+        fVar4 = (float)(*pcVar2)();
+        return fVar4;
+      }
+    }
+  }
+  return pTVar1->ShadowedValue[0];
+}
+

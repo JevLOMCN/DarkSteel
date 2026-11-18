@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum AccountAuthority {
+  AccountAuthority_None = 0;
+  AccountAuthority_Normal = 11;
+  AccountAuthority_Gm = 21;
+  AccountAuthority_GmInvisible = 22;
+  AccountAuthority_Official = 31;
+  AccountAuthority_Premium = 41;
+  AccountAuthority_Parametrix = 51;
+}

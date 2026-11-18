@@ -1,0 +1,717 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemDismantleCost",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemDismantleCost",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemDismantleCostTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1011": {
+        "ID": 1011,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::WeaponArtifact",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "1012": {
+        "ID": 1012,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::WeaponArtifact",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "1013": {
+        "ID": 1013,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::WeaponArtifact",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "1014": {
+        "ID": 1014,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::WeaponArtifact",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "1015": {
+        "ID": 1015,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::WeaponArtifact",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2011": {
+        "ID": 2011,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorHelmet",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2012": {
+        "ID": 2012,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorHelmet",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2013": {
+        "ID": 2013,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorHelmet",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2014": {
+        "ID": 2014,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorHelmet",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2015": {
+        "ID": 2015,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorHelmet",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2021": {
+        "ID": 2021,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorChest",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2022": {
+        "ID": 2022,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorChest",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2023": {
+        "ID": 2023,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorChest",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2024": {
+        "ID": 2024,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorChest",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2025": {
+        "ID": 2025,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorChest",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2031": {
+        "ID": 2031,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorGlobe",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2032": {
+        "ID": 2032,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorGlobe",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2033": {
+        "ID": 2033,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorGlobe",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2034": {
+        "ID": 2034,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorGlobe",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2035": {
+        "ID": 2035,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorGlobe",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2041": {
+        "ID": 2041,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorShoes",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2042": {
+        "ID": 2042,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorShoes",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2043": {
+        "ID": 2043,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorShoes",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2044": {
+        "ID": 2044,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorShoes",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "2045": {
+        "ID": 2045,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ArmorShoes",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3011": {
+        "ID": 3011,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory1",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3012": {
+        "ID": 3012,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory1",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3013": {
+        "ID": 3013,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory1",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3014": {
+        "ID": 3014,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory1",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3015": {
+        "ID": 3015,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory1",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3021": {
+        "ID": 3021,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory2",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3022": {
+        "ID": 3022,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory2",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3023": {
+        "ID": 3023,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory2",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3024": {
+        "ID": 3024,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory2",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3025": {
+        "ID": 3025,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory2",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3031": {
+        "ID": 3031,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory3",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3032": {
+        "ID": 3032,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory3",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3033": {
+        "ID": 3033,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory3",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3034": {
+        "ID": 3034,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory3",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "3035": {
+        "ID": 3035,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Accessory3",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "4011": {
+        "ID": 4011,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::TokenEquipTalisman",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "4012": {
+        "ID": 4012,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::TokenEquipTalisman",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "4013": {
+        "ID": 4013,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::TokenEquipTalisman",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "4014": {
+        "ID": 4014,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::TokenEquipTalisman",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "4015": {
+        "ID": 4015,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::TokenEquipTalisman",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5011": {
+        "ID": 5011,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolMining",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5012": {
+        "ID": 5012,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolMining",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5013": {
+        "ID": 5013,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolMining",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5014": {
+        "ID": 5014,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolMining",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5015": {
+        "ID": 5015,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolMining",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5021": {
+        "ID": 5021,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolHarvesting",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5022": {
+        "ID": 5022,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolHarvesting",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5023": {
+        "ID": 5023,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolHarvesting",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5024": {
+        "ID": 5024,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolHarvesting",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5025": {
+        "ID": 5025,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolHarvesting",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5031": {
+        "ID": 5031,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolLogging",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5032": {
+        "ID": 5032,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolLogging",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5033": {
+        "ID": 5033,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolLogging",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5034": {
+        "ID": 5034,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolLogging",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "5035": {
+        "ID": 5035,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::ToolLogging",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25021": {
+        "ID": 25021,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::MaterialMake",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25022": {
+        "ID": 25022,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::MaterialMake",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25023": {
+        "ID": 25023,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::MaterialMake",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25024": {
+        "ID": 25024,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::MaterialMake",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25025": {
+        "ID": 25025,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::MaterialMake",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25026": {
+        "ID": 25026,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Garbage",
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25027": {
+        "ID": 25027,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Garbage",
+        "ID_GradeType": "EDS_GradeType::High",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25028": {
+        "ID": 25028,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Garbage",
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25029": {
+        "ID": 25029,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Garbage",
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      },
+      "25030": {
+        "ID": 25030,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "ID_ItemType": "EDS_ItemType::Garbage",
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "MoneyType": "EDS_MoneyType::Copper",
+        "MoneyValue": 100
+      }
+    }
+  }
+]

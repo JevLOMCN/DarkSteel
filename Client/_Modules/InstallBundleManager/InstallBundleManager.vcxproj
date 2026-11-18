@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{F7E2A097-5A2E-51D0-B700-1C97916D3E13}</ProjectGuid><RootNamespace>InstallBundleManager</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAsyncTask.cpp" />
+    <ClCompile Include="Private\FAutoDeleteAsyncTask.cpp" />
+    <ClCompile Include="Private\FBundlePersistentStats.cpp" />
+    <ClCompile Include="Private\FCacheSortPredicate.cpp" />
+    <ClCompile Include="Private\FCombinedProgress.cpp" />
+    <ClCompile Include="Private\FContentRequestStatsMap.cpp" />
+    <ClCompile Include="Private\FInstallBundleCache.cpp" />
+    <ClCompile Include="Private\FInstallBundleCombinedContentState.cpp" />
+    <ClCompile Include="Private\FInstallBundleCombinedInstallState.cpp" />
+    <ClCompile Include="Private\FInstallBundleCombinedProgressTracker.cpp" />
+    <ClCompile Include="Private\FInstallBundleManagerModule.cpp" />
+    <ClCompile Include="Private\FInstallBundleManagerScreenSaverControl.cpp" />
+    <ClCompile Include="Private\FInstallBundleProgress.cpp" />
+    <ClCompile Include="Private\FInstallBundleReport.cpp" />
+    <ClCompile Include="Private\FInstallBundleSourceReport.cpp" />
+    <ClCompile Include="Private\FInstallBundleSourceType.cpp" />
+    <ClCompile Include="Private\FInstallBundleSourceTypeNameTable.cpp" />
+    <ClCompile Include="Private\FInstallBundleSourceUpdateContentResultInfo.cpp" />
+    <ClCompile Include="Private\FInstallBundleSuppressAnalytics.cpp" />
+    <ClCompile Include="Private\FInstallBundleWork.cpp" />
+    <ClCompile Include="Private\FInstallManagerBundleReport.cpp" />
+    <ClCompile Include="Private\FInstallManagerBundleReportCache.cpp" />
+    <ClCompile Include="Private\FPersistentStatContainerBase.cpp" />
+    <ClCompile Include="Private\FPersistentStatsBase.cpp" />
+    <ClCompile Include="Private\FPersistentTimerData.cpp" />
+    <ClCompile Include="Private\FSessionPersistentStats.cpp" />
+    <ClCompile Include="Private\FStateInstalling.cpp" />
+    <ClCompile Include="Private\FStateUpdatable.cpp" />
+    <ClCompile Include="Private\FStateUpdated.cpp" />
+    <ClCompile Include="Private\FStateUpdating.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IInstallBundleManager.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TCopyConstructorCaller.cpp" />
+    <ClCompile Include="Private\TDefaultDelete.cpp" />
+    <ClCompile Include="Private\TDestructorCaller.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TOptional.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\TTupleBase.cpp" />
+    <ClCompile Include="Private\TUnion.cpp" />
+    <ClCompile Include="Private\TVariant.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.InstallBundleManager.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

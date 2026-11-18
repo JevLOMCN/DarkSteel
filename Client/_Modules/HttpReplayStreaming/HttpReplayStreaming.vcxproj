@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{BE16F0DB-3ACF-5683-8340-A9FBBE269CFC}</ProjectGuid><RootNamespace>HttpReplayStreaming</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\EQueuedHttpRequestType.cpp" />
+    <ClCompile Include="Private\FHttpNetworkReplayStreamer.cpp" />
+    <ClCompile Include="Private\FHttpNetworkReplayStreamingFactory.cpp" />
+    <ClCompile Include="Private\FHttpStreamFArchive.cpp" />
+    <ClCompile Include="Private\FNetworkReplayList.cpp" />
+    <ClCompile Include="Private\FNetworkReplayListItem.cpp" />
+    <ClCompile Include="Private\FNetworkReplayStartDownloadingResponse.cpp" />
+    <ClCompile Include="Private\FNetworkReplayStartUploadingResponse.cpp" />
+    <ClCompile Include="Private\FNetworkReplayUserList.cpp" />
+    <ClCompile Include="Private\FQueuedGotoFakeCheckpoint.cpp" />
+    <ClCompile Include="Private\FQueuedHttpRequest.cpp" />
+    <ClCompile Include="Private\FQueuedHttpRequestAddEvent.cpp" />
+    <ClCompile Include="Private\FQueuedHttpRequestAddUser.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FUniqueNetIdRepl.cpp" />
+    <ClCompile Include="Private\FUniqueNetIdWrapper.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TDestructorCaller.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.HttpReplayStreaming.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

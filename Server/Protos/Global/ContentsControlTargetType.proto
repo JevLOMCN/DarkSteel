@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum ContentsControlTargetType {
+  ContentsControlTargetType_Universe = 0;
+  ContentsControlTargetType_TimeZone = 1;
+  ContentsControlTargetType_Region = 2;
+  ContentsControlTargetType_World = 3;
+}

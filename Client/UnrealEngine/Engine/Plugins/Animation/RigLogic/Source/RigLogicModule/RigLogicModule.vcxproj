@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{7A8C9193-C85C-58AE-90BF-645BDDA6FA20}</ProjectGuid><RootNamespace>RigLogicModule</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAnimNode_RigLogic.cpp" />
+    <ClCompile Include="Private\FArchiveMemoryStream.cpp" />
+    <ClCompile Include="Private\FBoneIndexControlAttributeMapping.cpp" />
+    <ClCompile Include="Private\FCoordinateSystem.cpp" />
+    <ClCompile Include="Private\FDNAIndexMapping.cpp" />
+    <ClCompile Include="Private\FDNAReader.cpp" />
+    <ClCompile Include="Private\FDNAToSkelMeshMap.cpp" />
+    <ClCompile Include="Private\FMemoryResource.cpp" />
+    <ClCompile Include="Private\FMeshBlendShapeChannelMapping.cpp" />
+    <ClCompile Include="Private\FRigInstance.cpp" />
+    <ClCompile Include="Private\FRigInstanceDeleter.cpp" />
+    <ClCompile Include="Private\FRigLogic.cpp" />
+    <ClCompile Include="Private\FRigLogicConfiguration.cpp" />
+    <ClCompile Include="Private\FRigLogicDeleter.cpp" />
+    <ClCompile Include="Private\FRigLogicMemoryStream.cpp" />
+    <ClCompile Include="Private\FRigLogicModule.cpp" />
+    <ClCompile Include="Private\FRigUnit_RigLogic.cpp" />
+    <ClCompile Include="Private\FRigUnit_RigLogicTest.cpp" />
+    <ClCompile Include="Private\FRigUnit_RigLogic_Data.cpp" />
+    <ClCompile Include="Private\FRigUnit_RigLogic_IntArray.cpp" />
+    <ClCompile Include="Private\FRigVMExtendedExecuteContext.cpp" />
+    <ClCompile Include="Private\FSharedRigRuntimeContext.cpp" />
+    <ClCompile Include="Private\FSkelMeshDNAReader.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTextureCoordinate.cpp" />
+    <ClCompile Include="Private\FVertexLayout.cpp" />
+    <ClCompile Include="Private\FWrappedReaderDeleter.cpp" />
+    <ClCompile Include="Private\IBehaviorReader.cpp" />
+    <ClCompile Include="Private\IDNAReader.cpp" />
+    <ClCompile Include="Private\IDNAReaderBase.cpp" />
+    <ClCompile Include="Private\IDefinitionReader.cpp" />
+    <ClCompile Include="Private\IDescriptorReader.cpp" />
+    <ClCompile Include="Private\IGeometryReader.cpp" />
+    <ClCompile Include="Private\IHeaderReader.cpp" />
+    <ClCompile Include="Private\IJointBehaviorMetadataReader.cpp" />
+    <ClCompile Include="Private\IMachineLearnedBehaviorReader.cpp" />
+    <ClCompile Include="Private\IRBFBehaviorReader.cpp" />
+    <ClCompile Include="Private\ITwistSwingBehaviorReader.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UDEPRECATED_DNAIndexMapping.cpp" />
+    <ClCompile Include="Private\UDNAAsset.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\URigHierarchy.cpp" />
+    <ClCompile Include="Private\USkelMeshDNAUtils.cpp" />
+    <ClCompile Include="Private\_Free\Module.RigLogicModule.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

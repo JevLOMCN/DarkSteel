@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{6F587740-2752-5635-B70A-B45208E606C8}</ProjectGuid><RootNamespace>GeometryAlgorithms</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AABBWrapper.cpp" />
+    <ClCompile Include="Private\AMIPS_energy.cpp" />
+    <ClCompile Include="Private\ETManifoldMesh.cpp" />
+    <ClCompile Include="Private\ETNonmanifoldMesh.cpp" />
+    <ClCompile Include="Private\FArrangement2d.cpp" />
+    <ClCompile Include="Private\FGeometryAlgorithmsModule.cpp" />
+    <ClCompile Include="Private\FMeshTriInfoCache.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTetWild.cpp" />
+    <ClCompile Include="Private\FTriTreeWrapper.cpp" />
+    <ClCompile Include="Private\FUVMetrics.cpp" />
+    <ClCompile Include="Private\IEEEBinary.cpp" />
+    <ClCompile Include="Private\IEEEBinary16.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TBooleanPolygon2Polygon2.cpp" />
+    <ClCompile Include="Private\TBox2.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TConstrainedDelaunay2.cpp" />
+    <ClCompile Include="Private\TDistLine3Circle3.cpp" />
+    <ClCompile Include="Private\TDynamicVector.cpp" />
+    <ClCompile Include="Private\TDynamicVectorN.cpp" />
+    <ClCompile Include="Private\TExactIntrTriangle3Triangle3.cpp" />
+    <ClCompile Include="Private\TFastWindingTree.cpp" />
+    <ClCompile Include="Private\TFitCapsule3.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGeneralPolygon2.cpp" />
+    <ClCompile Include="Private\TIQuery.cpp" />
+    <ClCompile Include="Private\TIndexVectorMeshArrayAdapter.cpp" />
+    <ClCompile Include="Private\TMeshAABBTree3.cpp" />
+    <ClCompile Include="Private\TMeshQueries.cpp" />
+    <ClCompile Include="Private\TMinVolumeBox3.cpp" />
+    <ClCompile Include="Private\TMinVolumeBox3Internal.cpp" />
+    <ClCompile Include="Private\TMinVolumeSphere3.cpp" />
+    <ClCompile Include="Private\TOffsetPolygon2.cpp" />
+    <ClCompile Include="Private\TPCA3.cpp" />
+    <ClCompile Include="Private\TPolygon2.cpp" />
+    <ClCompile Include="Private\TSManifoldMesh.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTetrahedron3.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UIntegerALU32.cpp" />
+    <ClCompile Include="Private\UIntegerAP32.cpp" />
+    <ClCompile Include="Private\UIntegerFP32.cpp" />
+    <ClCompile Include="Private\UVMetricsLocals.cpp" />
+    <ClCompile Include="Private\_Free\Module.GeometryAlgorithms.1.cpp" />
+    <ClCompile Include="Private\_Free\Module.GeometryAlgorithms.2.cpp" />
+    <ClCompile Include="Private\_Free\Module.GeometryAlgorithms.3.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

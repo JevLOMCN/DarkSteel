@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{E2659F74-9C24-55D6-A45C-5BC063788D52}</ProjectGuid><RootNamespace>SequencerScripting</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FMovieSceneTextChannel.cpp" />
+    <ClCompile Include="Private\FSequencerScriptingModule.cpp" />
+    <ClCompile Include="Private\FSequencerScriptingRange.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTransformRetiming.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TMovieSceneChannelData.cpp" />
+    <ClCompile Include="Private\TMovieSceneChannelHandle.cpp" />
+    <ClCompile Include="Private\TMovieSceneScriptingChannel.cpp" />
+    <ClCompile Include="Private\TMovieSceneScriptingKey.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMovieSceneBindingExtensions.cpp" />
+    <ClCompile Include="Private\UMovieSceneDoubleVectorTrackExtensions.cpp" />
+    <ClCompile Include="Private\UMovieSceneEventTrackExtensions.cpp" />
+    <ClCompile Include="Private\UMovieSceneFloatVectorTrackExtensions.cpp" />
+    <ClCompile Include="Private\UMovieSceneFolderExtensions.cpp" />
+    <ClCompile Include="Private\UMovieSceneMaterialTrackExtensions.cpp" />
+    <ClCompile Include="Private\UMovieScenePrimitiveMaterialTrackExtensions.cpp" />
+    <ClCompile Include="Private\UMovieScenePropertyTrackExtensions.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingActorReferenceChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingActorReferenceKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingActualFloatKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingBoolChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingBoolKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingByteChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingByteKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingDoubleAsFloatKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingDoubleChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingDoubleKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingEventChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingEventKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingFloatChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingFloatKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingIntegerChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingIntegerKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingObjectPathChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingObjectPathKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingParticleChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingParticleKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingStringChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingStringKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingTextChannel.cpp" />
+    <ClCompile Include="Private\UMovieSceneScriptingTextKey.cpp" />
+    <ClCompile Include="Private\UMovieSceneSectionExtensions.cpp" />
+    <ClCompile Include="Private\UMovieSceneSequenceExtensions.cpp" />
+    <ClCompile Include="Private\UMovieSceneTimeWarpExtensions.cpp" />
+    <ClCompile Include="Private\UMovieSceneTrackExtensions.cpp" />
+    <ClCompile Include="Private\USequencerScriptingRangeExtensions.cpp" />
+    <ClCompile Include="Private\_Free\Module.SequencerScripting.1.cpp" />
+    <ClCompile Include="Private\_Free\Module.SequencerScripting.2.cpp" />
+    <ClCompile Include="Private\_Free\Module.SequencerScripting.3.cpp" />
+    <ClCompile Include="Private\_Free\Module.SequencerScripting.4.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

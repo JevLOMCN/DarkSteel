@@ -1,0 +1,277 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ActionSwim",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ActionSwim",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ActionSwimTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "SwimStep": "EDS_SwimStep::Swim",
+        "KeyActionType": "EDS_KeyActionType::None",
+        "IsToggle": false,
+        "ID_SwimStepIcon": 0,
+        "CoolTime": 0.0,
+        "UseCostStamina": 0,
+        "CostStaminaPerSec": 0,
+        "ExpMagnification": 0,
+        "StandardSpeed": 500.0,
+        "Duration": 0.0,
+        "UnableTime": 0.0,
+        "NextUseStep": [
+          3,
+          4
+        ],
+        "AvailableTime": [
+          0.0,
+          0.0
+        ],
+        "SwimMotionBlur": false,
+        "SwimRightAngleSpeed": 300.0,
+        "SwimLeftAngleSpeed": 300.0,
+        "DiveSwimRotationLeftTime": 0.2,
+        "DiveSwimRotationRightTime": 0.2,
+        "DiveSwimRotation180Time": 0.5,
+        "RateFirstDiveHpPenalty": 0,
+        "RateSecondDiveHpPenalty": 0,
+        "RateOverLevelDiveHpPenalty": 0,
+        "PlayerSkillBase": "EDS_PlayerSkillType::None"
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "SwimStep": "EDS_SwimStep::SwimSubmerge",
+        "KeyActionType": "EDS_KeyActionType::None",
+        "IsToggle": false,
+        "ID_SwimStepIcon": 0,
+        "CoolTime": 0.0,
+        "UseCostStamina": 30,
+        "CostStaminaPerSec": 30,
+        "ExpMagnification": 1,
+        "StandardSpeed": 500.0,
+        "Duration": 0.0,
+        "UnableTime": 0.0,
+        "NextUseStep": [
+          1,
+          5,
+          6
+        ],
+        "AvailableTime": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "SwimMotionBlur": false,
+        "SwimRightAngleSpeed": 300.0,
+        "SwimLeftAngleSpeed": 300.0,
+        "DiveSwimRotationLeftTime": 0.2,
+        "DiveSwimRotationRightTime": 0.2,
+        "DiveSwimRotation180Time": 0.5,
+        "RateFirstDiveHpPenalty": 10,
+        "RateSecondDiveHpPenalty": 20,
+        "RateOverLevelDiveHpPenalty": 30,
+        "PlayerSkillBase": "EDS_PlayerSkillType::None"
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "SwimStep": "EDS_SwimStep::SwimSurfaceSprint",
+        "KeyActionType": "EDS_KeyActionType::IA_SwimSurfaceSprint",
+        "IsToggle": false,
+        "ID_SwimStepIcon": 10031,
+        "CoolTime": 0.0,
+        "UseCostStamina": 0,
+        "CostStaminaPerSec": 0,
+        "ExpMagnification": 0,
+        "StandardSpeed": 800.0,
+        "Duration": 4.0,
+        "UnableTime": 0.0,
+        "NextUseStep": [
+          1,
+          4
+        ],
+        "AvailableTime": [
+          0.0,
+          0.0
+        ],
+        "SwimMotionBlur": false,
+        "SwimRightAngleSpeed": 300.0,
+        "SwimLeftAngleSpeed": 300.0,
+        "DiveSwimRotationLeftTime": 0.2,
+        "DiveSwimRotationRightTime": 0.2,
+        "DiveSwimRotation180Time": 0.5,
+        "RateFirstDiveHpPenalty": 0,
+        "RateSecondDiveHpPenalty": 0,
+        "RateOverLevelDiveHpPenalty": 0,
+        "PlayerSkillBase": "EDS_PlayerSkillType::None"
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "SwimStep": "EDS_SwimStep::SwimDown",
+        "KeyActionType": "EDS_KeyActionType::IA_SwimDown",
+        "IsToggle": false,
+        "ID_SwimStepIcon": 10032,
+        "CoolTime": 0.0,
+        "UseCostStamina": 30,
+        "CostStaminaPerSec": 30,
+        "ExpMagnification": 1,
+        "StandardSpeed": 500.0,
+        "Duration": 0.0,
+        "UnableTime": 0.2,
+        "NextUseStep": [
+          2
+        ],
+        "AvailableTime": [
+          0.0
+        ],
+        "SwimMotionBlur": false,
+        "SwimRightAngleSpeed": 300.0,
+        "SwimLeftAngleSpeed": 300.0,
+        "DiveSwimRotationLeftTime": 0.2,
+        "DiveSwimRotationRightTime": 0.2,
+        "DiveSwimRotation180Time": 0.5,
+        "RateFirstDiveHpPenalty": 10,
+        "RateSecondDiveHpPenalty": 20,
+        "RateOverLevelDiveHpPenalty": 30,
+        "PlayerSkillBase": "EDS_PlayerSkillType::None"
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "SwimStep": "EDS_SwimStep::SwimSubmergeSprint",
+        "KeyActionType": "EDS_KeyActionType::IA_SwimSubmergeSprint",
+        "IsToggle": true,
+        "ID_SwimStepIcon": 10033,
+        "CoolTime": 0.2,
+        "UseCostStamina": 60,
+        "CostStaminaPerSec": 60,
+        "ExpMagnification": 2,
+        "StandardSpeed": 800.0,
+        "Duration": 0.0,
+        "UnableTime": 0.2,
+        "NextUseStep": [
+          1,
+          2,
+          6
+        ],
+        "AvailableTime": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "SwimMotionBlur": true,
+        "SwimRightAngleSpeed": 300.0,
+        "SwimLeftAngleSpeed": 300.0,
+        "DiveSwimRotationLeftTime": 0.2,
+        "DiveSwimRotationRightTime": 0.2,
+        "DiveSwimRotation180Time": 0.5,
+        "RateFirstDiveHpPenalty": 10,
+        "RateSecondDiveHpPenalty": 20,
+        "RateOverLevelDiveHpPenalty": 30,
+        "PlayerSkillBase": "EDS_PlayerSkillType::None"
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "SwimStep": "EDS_SwimStep::SwimUp",
+        "KeyActionType": "EDS_KeyActionType::IA_SwimUp",
+        "IsToggle": true,
+        "ID_SwimStepIcon": 10034,
+        "CoolTime": 0.0,
+        "UseCostStamina": 0,
+        "CostStaminaPerSec": 30,
+        "ExpMagnification": 1,
+        "StandardSpeed": 500.0,
+        "Duration": 0.0,
+        "UnableTime": 0.2,
+        "NextUseStep": [
+          1,
+          2,
+          5
+        ],
+        "AvailableTime": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "SwimMotionBlur": false,
+        "SwimRightAngleSpeed": 300.0,
+        "SwimLeftAngleSpeed": 300.0,
+        "DiveSwimRotationLeftTime": 0.2,
+        "DiveSwimRotationRightTime": 0.2,
+        "DiveSwimRotation180Time": 0.5,
+        "RateFirstDiveHpPenalty": 10,
+        "RateSecondDiveHpPenalty": 20,
+        "RateOverLevelDiveHpPenalty": 30,
+        "PlayerSkillBase": "EDS_PlayerSkillType::None"
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "SwimStep": "EDS_SwimStep::SwimForceUp",
+        "KeyActionType": "EDS_KeyActionType::None",
+        "IsToggle": false,
+        "ID_SwimStepIcon": 0,
+        "CoolTime": 0.0,
+        "UseCostStamina": 0,
+        "CostStaminaPerSec": 0,
+        "ExpMagnification": 0,
+        "StandardSpeed": 500.0,
+        "Duration": 0.0,
+        "UnableTime": 0.0,
+        "NextUseStep": [],
+        "AvailableTime": [],
+        "SwimMotionBlur": false,
+        "SwimRightAngleSpeed": 300.0,
+        "SwimLeftAngleSpeed": 300.0,
+        "DiveSwimRotationLeftTime": 0.2,
+        "DiveSwimRotationRightTime": 0.2,
+        "DiveSwimRotation180Time": 0.5,
+        "RateFirstDiveHpPenalty": 0,
+        "RateSecondDiveHpPenalty": 0,
+        "RateOverLevelDiveHpPenalty": 0,
+        "PlayerSkillBase": "EDS_PlayerSkillType::None"
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "SwimStep": "EDS_SwimStep::SwimServerFailForceUp",
+        "KeyActionType": "EDS_KeyActionType::None",
+        "IsToggle": false,
+        "ID_SwimStepIcon": 0,
+        "CoolTime": 0.0,
+        "UseCostStamina": 0,
+        "CostStaminaPerSec": 0,
+        "ExpMagnification": 0,
+        "StandardSpeed": 500.0,
+        "Duration": 0.0,
+        "UnableTime": 0.0,
+        "NextUseStep": [
+          6
+        ],
+        "AvailableTime": [
+          0.0
+        ],
+        "SwimMotionBlur": false,
+        "SwimRightAngleSpeed": 300.0,
+        "SwimLeftAngleSpeed": 300.0,
+        "DiveSwimRotationLeftTime": 0.2,
+        "DiveSwimRotationRightTime": 0.2,
+        "DiveSwimRotation180Time": 0.5,
+        "RateFirstDiveHpPenalty": 0,
+        "RateSecondDiveHpPenalty": 0,
+        "RateOverLevelDiveHpPenalty": 0,
+        "PlayerSkillBase": "EDS_PlayerSkillType::None"
+      }
+    }
+  }
+]

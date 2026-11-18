@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerTicket",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PlayerTicket",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PlayerTicketTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "TicketType": "EDS_TicketType::ActionPoint",
+        "ID_Name": {
+          "ID": 6001
+        },
+        "IsTicketFullonCreate": true,
+        "IsMaxResetType": false,
+        "ResetDefaultMax": 0,
+        "ID_ResetTime": 0,
+        "ChargeValuePerTerm": 1,
+        "ChargeTerm": "EDS_CoolDownType::PlayerActionPointChargeTerm",
+        "PlayerMax": 200,
+        "SystemMax": 2000,
+        "ID_ChargeGroup": 2
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "TicketType": "EDS_TicketType::DungeonTicket",
+        "ID_Name": {
+          "ID": 6000
+        },
+        "IsTicketFullonCreate": false,
+        "IsMaxResetType": true,
+        "ResetDefaultMax": 3,
+        "ID_ResetTime": 1,
+        "ChargeValuePerTerm": 0,
+        "ChargeTerm": "EDS_CoolDownType::None",
+        "PlayerMax": 3,
+        "SystemMax": 99,
+        "ID_ChargeGroup": 0
+      }
+    }
+  }
+]

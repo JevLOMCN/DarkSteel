@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "10501008",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StuffSpawn/Phasing/10501008",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StuffSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_Stuff": [
+          42101004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260316.44,
+          "Y": -439481.53,
+          "Z": 16644.344
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 1.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      }
+    }
+  }
+]

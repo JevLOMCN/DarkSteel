@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{F8DB64BE-6F81-5774-81B3-8F263F6EBE80}</ProjectGuid><RootNamespace>AudioGameplay</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AActor.cpp" />
+    <ClCompile Include="Private\FAudioComponentGroupDebug.cpp" />
+    <ClCompile Include="Private\FAudioGameplayModule.cpp" />
+    <ClCompile Include="Private\FAudioGameplayRequirements.cpp" />
+    <ClCompile Include="Private\FAudioParameter.cpp" />
+    <ClCompile Include="Private\FBoolParamCallback.cpp" />
+    <ClCompile Include="Private\FFilteredGameplayTagContainer.cpp" />
+    <ClCompile Include="Private\FShuffleUtil.cpp" />
+    <ClCompile Include="Private\FSoundCallback.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FStringParamCallback.cpp" />
+    <ClCompile Include="Private\IActiveSoundUpdateInterface.cpp" />
+    <ClCompile Include="Private\IActorSoundParameterInterface.cpp" />
+    <ClCompile Include="Private\IAudioGameplayCondition.cpp" />
+    <ClCompile Include="Private\IAudioGameplayVolumeInteraction.cpp" />
+    <ClCompile Include="Private\ISoundHandleSystem.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIndexedContainerIterator.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UAudioAssetUserData.cpp" />
+    <ClCompile Include="Private\UAudioComponentGroup.cpp" />
+    <ClCompile Include="Private\UAudioComponentGroupExtension.cpp" />
+    <ClCompile Include="Private\UAudioGameplayComponent.cpp" />
+    <ClCompile Include="Private\UAudioGameplayCondition.cpp" />
+    <ClCompile Include="Private\UAudioGameplayTagCacheSubsystem.cpp" />
+    <ClCompile Include="Private\UAudioGameplayVolumeInteraction.cpp" />
+    <ClCompile Include="Private\UAudioParameterComponent.cpp" />
+    <ClCompile Include="Private\UAudioRequirementPreset.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\USoundHandleSubsystem.cpp" />
+    <ClCompile Include="Private\_Free\Module.AudioGameplay.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

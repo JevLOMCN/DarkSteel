@@ -1,0 +1,19 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: OpenGLDrv
+// Functions: 1
+
+// FOpenGLCachedAttr @ 145be0710
+
+FOpenGLCachedAttr * __thiscall FOpenGLCachedAttr::FOpenGLCachedAttr(FOpenGLCachedAttr *this)
+
+{
+  this->StreamIndex = 0xffffffff;
+  this->Size = 0;
+  this->Type = 0;
+  this->StreamOffset = 0;
+  this->bNormalized = '\0';
+  this->bShouldConvertToFloat = '\0';
+  return this;
+}
+

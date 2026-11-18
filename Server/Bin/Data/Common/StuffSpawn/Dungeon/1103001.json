@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1103001",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StuffSpawn/Dungeon/1103001",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StuffSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          67003001
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -1954098.6,
+          "Y": -1839962.8,
+          "Z": 11341.497
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 100.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          67003002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -1953456.2,
+          "Y": -1840013.9,
+          "Z": 11341.497
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 100.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          67003003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -1953048.5,
+          "Y": -1840034.6,
+          "Z": 11341.497
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 100.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          67003004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -1952433.8,
+          "Y": -1840012.8,
+          "Z": 11341.497
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 100.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      }
+    }
+  }
+]

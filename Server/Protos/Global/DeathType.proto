@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum DeathType {
+  DeathType_Alive = 0;
+  DeathType_NPC = 1;
+  DeathType_Player = 2;
+  DeathType_Drown = 3;
+  DeathType_Fall = 4;
+  DeathType_Trigger = 5;
+  DeathType_System = 6;
+}

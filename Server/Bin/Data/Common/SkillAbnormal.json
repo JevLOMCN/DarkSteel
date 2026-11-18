@@ -1,0 +1,233 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillAbnormal",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SkillAbnormal",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SkillAbnormalTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_AbnormalType::Hit",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7001
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::None",
+        "ControlGrade": 15000,
+        "ActionGrade": 0,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "11": {
+        "ID": "EDS_AbnormalType::Stiffen",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7002
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::StateControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 1,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "12": {
+        "ID": "EDS_AbnormalType::Parrying",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7003
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 3,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "13": {
+        "ID": "EDS_AbnormalType::Sleep",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7004
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::StateControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 1,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "14": {
+        "ID": "EDS_AbnormalType::Stun",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7005
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::StateControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 2,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "15": {
+        "ID": "EDS_AbnormalType::Hold",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7006
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::StateControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 5,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "16": {
+        "ID": "EDS_AbnormalType::Lapidification",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7007
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::StateControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 8,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "21": {
+        "ID": "EDS_AbnormalType::Attackback",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7008
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::NonStateMoveControl",
+        "ControlGrade": 10000,
+        "ActionGrade": 1,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "22": {
+        "ID": "EDS_AbnormalType::HitMove1",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7009
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 15000,
+        "ActionGrade": 1,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "23": {
+        "ID": "EDS_AbnormalType::HitMove2",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7010
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 15000,
+        "ActionGrade": 1,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "24": {
+        "ID": "EDS_AbnormalType::KnockBack",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7011
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 15000,
+        "ActionGrade": 2,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "25": {
+        "ID": "EDS_AbnormalType::PushToPoint",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7012
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 2,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "26": {
+        "ID": "EDS_AbnormalType::MoveBlock",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7013
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 3,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "27": {
+        "ID": "EDS_AbnormalType::KnockFront",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7014
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 4,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": true
+      },
+      "28": {
+        "ID": "EDS_AbnormalType::KnockDown",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7015
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 4,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": true
+      },
+      "29": {
+        "ID": "EDS_AbnormalType::Throw",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7016
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 4,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "30": {
+        "ID": "EDS_AbnormalType::Airborne",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7017
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 2,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": false
+      },
+      "31": {
+        "ID": "EDS_AbnormalType::MagicAirborne",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 7018
+        },
+        "AbnormalGroup": "EDS_AbnormalGroup::MoveControl",
+        "ControlGrade": 20000,
+        "ActionGrade": 2,
+        "ImmuneAbnormalType": [],
+        "IsDeadAbnormalCheck": true
+      }
+    }
+  }
+]

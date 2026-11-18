@@ -1,0 +1,206 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ZoneIsland",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ZoneIsland",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ZoneIslandTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "DataStage": 16,
+        "ID_NavMesh": 1,
+        "ID_CellDataMap": 1,
+        "ID_Zone3dVolume": 0,
+        "ID_ConnectedSkyMap": 0,
+        "ID_Zone": [
+          1002,
+          1010102,
+          1003,
+          1010103,
+          1004,
+          1010104,
+          1005,
+          1010105,
+          1001,
+          1010101,
+          1010201
+        ],
+        "ID_ReturnWarpLocation": 0,
+        "TextureOrthoWidth": 100000,
+        "DefaultMapCenterPosition": {
+          "X": -168231.23,
+          "Y": -507016.72,
+          "Z": 15848.355
+        },
+        "MapResourcePath": "/Game/UIs/MIR_FIVE/Atlas_Resources_N/MiniMap/1",
+        "ID": 1,
+        "ID_IslandName": 110001,
+        "StartPos": {
+          "X": -822000.0,
+          "Y": -1334000.0
+        },
+        "EndPos": {
+          "X": 835500.0,
+          "Y": 1613500.0
+        }
+      },
+      "2": {
+        "DataStage": 16,
+        "ID_NavMesh": 2,
+        "ID_CellDataMap": 2,
+        "ID_Zone3dVolume": 0,
+        "ID_ConnectedSkyMap": 2501,
+        "ID_Zone": [
+          2001,
+          2002,
+          2003,
+          2501,
+          2502,
+          2503,
+          2504
+        ],
+        "ID_ReturnWarpLocation": 19991,
+        "TextureOrthoWidth": 100000,
+        "DefaultMapCenterPosition": {
+          "X": -2825450.0,
+          "Y": -2712040.0,
+          "Z": 1531.0391
+        },
+        "MapResourcePath": "/Game/UIs/MIR_FIVE/Atlas_Resources_N/MiniMap/2",
+        "ID": 2,
+        "ID_IslandName": 110002,
+        "StartPos": {
+          "X": -3128600.0,
+          "Y": -2990400.0
+        },
+        "EndPos": {
+          "X": -2195800.0,
+          "Y": -2492400.0
+        }
+      },
+      "6": {
+        "DataStage": 23,
+        "ID_NavMesh": 6,
+        "ID_CellDataMap": 6,
+        "ID_Zone3dVolume": 0,
+        "ID_ConnectedSkyMap": 0,
+        "ID_Zone": [
+          6001,
+          6002,
+          6003,
+          6004
+        ],
+        "ID_ReturnWarpLocation": 0,
+        "TextureOrthoWidth": 100000,
+        "DefaultMapCenterPosition": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MapResourcePath": "/Game/UIs/MIR_FIVE/Atlas_Resources_N/MiniMap/6",
+        "ID": 6,
+        "ID_IslandName": 110004,
+        "StartPos": {
+          "X": -1645000.0,
+          "Y": -195740.0
+        },
+        "EndPos": {
+          "X": -1176700.0,
+          "Y": 318372.0
+        }
+      },
+      "7": {
+        "DataStage": 16,
+        "ID_NavMesh": 7,
+        "ID_CellDataMap": 7,
+        "ID_Zone3dVolume": 0,
+        "ID_ConnectedSkyMap": 0,
+        "ID_Zone": [
+          7001,
+          7002,
+          7003
+        ],
+        "ID_ReturnWarpLocation": 0,
+        "TextureOrthoWidth": 100000,
+        "DefaultMapCenterPosition": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MapResourcePath": "",
+        "ID": 7,
+        "ID_IslandName": 110005,
+        "StartPos": {
+          "X": -2457700.0,
+          "Y": -2252600.0
+        },
+        "EndPos": {
+          "X": -1228700.0,
+          "Y": -1023100.0
+        }
+      },
+      "9": {
+        "DataStage": 16,
+        "ID_NavMesh": 9,
+        "ID_CellDataMap": 9,
+        "ID_Zone3dVolume": 0,
+        "ID_ConnectedSkyMap": 0,
+        "ID_Zone": [
+          9001
+        ],
+        "ID_ReturnWarpLocation": 0,
+        "TextureOrthoWidth": 100000,
+        "DefaultMapCenterPosition": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MapResourcePath": "",
+        "ID": 9,
+        "ID_IslandName": 119141,
+        "StartPos": {
+          "X": -2974400.0,
+          "Y": -115800.0
+        },
+        "EndPos": {
+          "X": -2859000.0,
+          "Y": 127900.0
+        }
+      },
+      "11": {
+        "DataStage": 16,
+        "ID_NavMesh": 11,
+        "ID_CellDataMap": 11,
+        "ID_Zone3dVolume": 0,
+        "ID_ConnectedSkyMap": 0,
+        "ID_Zone": [
+          11001
+        ],
+        "ID_ReturnWarpLocation": 0,
+        "TextureOrthoWidth": 100000,
+        "DefaultMapCenterPosition": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MapResourcePath": "",
+        "ID": 11,
+        "ID_IslandName": 0,
+        "StartPos": {
+          "X": -3626700.0,
+          "Y": -2012400.0
+        },
+        "EndPos": {
+          "X": -3288100.0,
+          "Y": -1735100.0
+        }
+      }
+    }
+  }
+]

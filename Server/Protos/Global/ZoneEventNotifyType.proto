@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum ZoneEventNotifyType {
+  ZoneEventNotifyType_None = 0;
+  ZoneEventNotifyType_CutScene = 1;
+  ZoneEventNotifyType_SmallTalk = 2;
+  ZoneEventNotifyType_BubbleTalk = 3;
+  ZoneEventNotifyType_Cinematic = 4;
+  ZoneEventNotifyType_MissionTracker = 5;
+  ZoneEventNotifyType_MoviePlay = 6;
+}

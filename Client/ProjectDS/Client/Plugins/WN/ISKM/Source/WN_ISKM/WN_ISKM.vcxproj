@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{0E9408B1-10DB-5F65-9836-2DF18B41008A}</ProjectGuid><RootNamespace>WN_ISKM</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AWN_ISKM_BoidsActor.cpp" />
+    <ClCompile Include="Private\AWN_ISKM_Character.cpp" />
+    <ClCompile Include="Private\AWN_ISKM_CharacterBase.cpp" />
+    <ClCompile Include="Private\AWN_ISKM_ISKMActor.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWN_DummyFloatBuffer.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_AnimBlendInfo.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_AnimationInfo.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_BoidInfo.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_BoidRandomSpawnInfo.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_BoidRandomSpawner.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_BoneTransformBuffer.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_BoneWeightsBuffer.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_Buffers.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_CharacterAnimationInfo.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_CharacterPartInfo.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_DataArrayPool.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_DynamicData.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_MeshGenerator.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_MeshLODData.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_MeshRenderData.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_Module.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_Proxy.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_ProxyLODData.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_ShaderParameters.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_SkeletalMeshInfo.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_SkeletonInfo.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_SocketInfo.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_VertexFactory.cpp" />
+    <ClCompile Include="Private\FWN_ISKM_VertexFactoryParameters.cpp" />
+    <ClCompile Include="Private\FWN_UniqueIndexAllocator.cpp" />
+    <ClCompile Include="Private\ISKM_UpdateAnimation_AnyThread.cpp" />
+    <ClCompile Include="Private\IWN_ISKM_Controller.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayPrivateFriend.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseStaticDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TGlobalResource.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TObject.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TResourceArray.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSoftObjectPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TStaticGetTypeLayoutHelper.cpp" />
+    <ClCompile Include="Private\TStaticMeshVertexData.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UWN_ISKM_AnimComponent.cpp" />
+    <ClCompile Include="Private\UWN_ISKM_CharacterCore.cpp" />
+    <ClCompile Include="Private\UWN_ISKM_ISKMComponent.cpp" />
+    <ClCompile Include="Private\UWN_ISKM_Profile.cpp" />
+    <ClCompile Include="Private\UWN_ISKM_Subsystem.cpp" />
+    <ClCompile Include="Private\UWorld.cpp" />
+    <ClCompile Include="Private\_Free\Module.WN_ISKM.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

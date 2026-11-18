@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum GuildMemberGradeType {
+  GuildMemberGradeType_None = 0;
+  GuildMemberGradeType_Master = 1;
+  GuildMemberGradeType_SubMaster = 2;
+  GuildMemberGradeType_Manager = 3;
+  GuildMemberGradeType_Member = 4;
+  GuildMemberGradeType_Newcomer = 5;
+  GuildMemberGradeType_System = 100;
+}

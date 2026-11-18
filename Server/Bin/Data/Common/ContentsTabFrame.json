@@ -1,0 +1,1489 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ContentsTabFrame",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ContentsTabFrame",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ContentsTabFrameTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": "EDS_ContentsTabFrameType::CreateCharacter",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 100,
+        "MainTab": 0,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_WindowBase": "EDS_WindowWidget::CreateCharacter",
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ActiveBackgroundEvent": true,
+        "HistoryGroup": 0,
+        "MoneyDisplayCount": 0,
+        "DisplayMoney": [
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "ID_KeyMappingData": 50000,
+        "IsPlayerInfo": false
+      },
+      "1003": {
+        "ID": "EDS_ContentsTabFrameType::CharacterMain",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 1,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 300006
+        },
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ActiveBackgroundEvent": true,
+        "HistoryGroup": 1,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "1000": {
+        "ID": "EDS_ContentsTabFrameType::Character",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 1,
+        "MainTab": 1,
+        "SubTab": 1,
+        "ID_Name": {
+          "ID": 310007
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Character",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterEquipBattle",
+        "ActiveBackgroundEvent": true,
+        "HistoryGroup": 1,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "3000": {
+        "ID": "EDS_ContentsTabFrameType::Skill",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 1,
+        "MainTab": 1,
+        "SubTab": 2,
+        "ID_Name": {
+          "ID": 310008
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Skill",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterCombatSkill",
+        "ActiveBackgroundEvent": true,
+        "HistoryGroup": 1,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "1004": {
+        "ID": "EDS_ContentsTabFrameType::CharacterEvolving",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 1,
+        "MainTab": 1,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 310009
+        },
+        "ID_WindowBase": "EDS_WindowWidget::CharacterEvolving",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterEvolving",
+        "ActiveBackgroundEvent": true,
+        "HistoryGroup": 1,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "2000": {
+        "ID": "EDS_ContentsTabFrameType::Inventory",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 4,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 300009
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Inventory",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterInventory",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 2,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 40000,
+        "IsPlayerInfo": true
+      },
+      "4000": {
+        "ID": "EDS_ContentsTabFrameType::GameOption",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 5,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 301002
+        },
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 4,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 10000,
+        "IsPlayerInfo": true
+      },
+      "4004": {
+        "ID": "EDS_ContentsTabFrameType::GameOptionGame",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 5,
+        "MainTab": 1,
+        "SubTab": 1,
+        "ID_Name": {
+          "ID": 415109
+        },
+        "ID_WindowBase": "EDS_WindowWidget::OptionMenu",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 4,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 10000,
+        "IsPlayerInfo": true
+      },
+      "4005": {
+        "ID": "EDS_ContentsTabFrameType::GameOptionControl",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 5,
+        "MainTab": 1,
+        "SubTab": 2,
+        "ID_Name": {
+          "ID": 415110
+        },
+        "ID_WindowBase": "EDS_WindowWidget::OptionMenu",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 4,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 10000,
+        "IsPlayerInfo": true
+      },
+      "4006": {
+        "ID": "EDS_ContentsTabFrameType::GameOptionUi",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 5,
+        "MainTab": 1,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 415107
+        },
+        "ID_WindowBase": "EDS_WindowWidget::OptionMenu",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 4,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 10000,
+        "IsPlayerInfo": true
+      },
+      "4002": {
+        "ID": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 5,
+        "MainTab": 1,
+        "SubTab": 4,
+        "ID_Name": {
+          "ID": 415005
+        },
+        "ID_WindowBase": "EDS_WindowWidget::OptionMenu",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 4,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 10000,
+        "IsPlayerInfo": true
+      },
+      "4003": {
+        "ID": "EDS_ContentsTabFrameType::GameOptionSound",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 5,
+        "MainTab": 1,
+        "SubTab": 5,
+        "ID_Name": {
+          "ID": 415006
+        },
+        "ID_WindowBase": "EDS_WindowWidget::OptionMenu",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 4,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 10000,
+        "IsPlayerInfo": true
+      },
+      "4007": {
+        "ID": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 5,
+        "MainTab": 1,
+        "SubTab": 6,
+        "ID_Name": {
+          "ID": 415113
+        },
+        "ID_WindowBase": "EDS_WindowWidget::OptionMenu",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 4,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 10000,
+        "IsPlayerInfo": true
+      },
+      "5500": {
+        "ID": "EDS_ContentsTabFrameType::QuestMain",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 6,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 430001
+        },
+        "ID_WindowBase": "EDS_WindowWidget::QuestMain",
+        "ID_ContentsBase": "EDS_ContentsBaseType::QuestMain",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 6,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "5000": {
+        "ID": "EDS_ContentsTabFrameType::QuestLocal",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 6,
+        "MainTab": 2,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 430002
+        },
+        "ID_WindowBase": "EDS_WindowWidget::QuestLocal",
+        "ID_ContentsBase": "EDS_ContentsBaseType::QuestLocal",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 5,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "5530": {
+        "ID": "EDS_ContentsTabFrameType::QuestRepeat",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 6,
+        "MainTab": 3,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 430009
+        },
+        "ID_WindowBase": "EDS_WindowWidget::QuestRepeatAccept",
+        "ID_ContentsBase": "EDS_ContentsBaseType::QuestRepeat",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 5,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "5510": {
+        "ID": "EDS_ContentsTabFrameType::QuestWeekly",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 6,
+        "MainTab": 4,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 430005
+        },
+        "ID_WindowBase": "EDS_WindowWidget::QuestWeekly",
+        "ID_ContentsBase": "EDS_ContentsBaseType::QuestWeekly",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 5,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "5520": {
+        "ID": "EDS_ContentsTabFrameType::QuestMonthly",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 6,
+        "MainTab": 5,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 430006
+        },
+        "ID_WindowBase": "EDS_WindowWidget::QuestMonthly",
+        "ID_ContentsBase": "EDS_ContentsBaseType::QuestMonthly",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 5,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "6000": {
+        "ID": "EDS_ContentsTabFrameType::NormalDungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 7,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 5133
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Dungeon",
+        "ID_ContentsBase": "EDS_ContentsBaseType::NormalDungeon",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 7,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "6010": {
+        "ID": "EDS_ContentsTabFrameType::HeroicDungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 7,
+        "MainTab": 2,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 310010
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Dungeon",
+        "ID_ContentsBase": "EDS_ContentsBaseType::HeroicDungeon",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 7,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "6020": {
+        "ID": "EDS_ContentsTabFrameType::RaidDungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 7,
+        "MainTab": 3,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 310011
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Dungeon",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RaidDungeon",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 7,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "6030": {
+        "ID": "EDS_ContentsTabFrameType::FindDungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 7,
+        "MainTab": 4,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 310012
+        },
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::FindDungeon",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 8,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "6031": {
+        "ID": "EDS_ContentsTabFrameType::FindDungeon_Normal",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 7,
+        "MainTab": 4,
+        "SubTab": 1,
+        "ID_Name": {
+          "ID": 5133
+        },
+        "ID_WindowBase": "EDS_WindowWidget::RaidPartyFind",
+        "ID_ContentsBase": "EDS_ContentsBaseType::FindDungeon",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 8,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "6032": {
+        "ID": "EDS_ContentsTabFrameType::FindDungeon_Heroic",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 7,
+        "MainTab": 4,
+        "SubTab": 2,
+        "ID_Name": {
+          "ID": 310010
+        },
+        "ID_WindowBase": "EDS_WindowWidget::RaidPartyFind",
+        "ID_ContentsBase": "EDS_ContentsBaseType::FindDungeon",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 8,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "6033": {
+        "ID": "EDS_ContentsTabFrameType::FindDungeon_Raid",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 7,
+        "MainTab": 4,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 310011
+        },
+        "ID_WindowBase": "EDS_WindowWidget::RaidPartyFind",
+        "ID_ContentsBase": "EDS_ContentsBaseType::FindDungeon",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 8,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "7000": {
+        "ID": "EDS_ContentsTabFrameType::RingCmd_Setting",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 8,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 301001
+        },
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RingCmdSetting",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 9,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 20000,
+        "IsPlayerInfo": true
+      },
+      "7001": {
+        "ID": "EDS_ContentsTabFrameType::RingCmd_Setting_Item",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 8,
+        "MainTab": 1,
+        "SubTab": 1,
+        "ID_Name": {
+          "ID": 310013
+        },
+        "ID_WindowBase": "EDS_WindowWidget::RingCommandSetting",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RingCmdSetting",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 9,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 20001,
+        "IsPlayerInfo": true
+      },
+      "7002": {
+        "ID": "EDS_ContentsTabFrameType::RingCmd_Setting_Menu",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 8,
+        "MainTab": 1,
+        "SubTab": 2,
+        "ID_Name": {
+          "ID": 310014
+        },
+        "ID_WindowBase": "EDS_WindowWidget::RingCommandSetting",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RingCmdSetting",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 9,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 20002,
+        "IsPlayerInfo": true
+      },
+      "7003": {
+        "ID": "EDS_ContentsTabFrameType::RingCmd_Setting_Skill",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 8,
+        "MainTab": 1,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 310015
+        },
+        "ID_WindowBase": "EDS_WindowWidget::RingCommandSetting",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RingCmdSetting",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 9,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 20003,
+        "IsPlayerInfo": true
+      },
+      "8000": {
+        "ID": "EDS_ContentsTabFrameType::Gacha",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 9,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 310016
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Gacha",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Gacha",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 10,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "9001": {
+        "ID": "EDS_ContentsTabFrameType::ItemDismantle",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 11,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 230007
+        },
+        "ID_WindowBase": "EDS_WindowWidget::ItemDismantle",
+        "ID_ContentsBase": "EDS_ContentsBaseType::ItemDismantle",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 12,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "10000": {
+        "ID": "EDS_ContentsTabFrameType::Map",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 12,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 300021
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Map",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Map",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 13,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 30000,
+        "IsPlayerInfo": true
+      },
+      "11000": {
+        "ID": "EDS_ContentsTabFrameType::PlayerSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 13,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 5138
+        },
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 14,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "11002": {
+        "ID": "EDS_ContentsTabFrameType::PlayerSkill_Life",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 13,
+        "MainTab": 1,
+        "SubTab": 1,
+        "ID_Name": {
+          "ID": 310021
+        },
+        "ID_WindowBase": "EDS_WindowWidget::PlayerSkillInfo",
+        "ID_ContentsBase": "EDS_ContentsBaseType::PlayerSkill",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 14,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "11003": {
+        "ID": "EDS_ContentsTabFrameType::PlayerSkill_Action",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 13,
+        "MainTab": 1,
+        "SubTab": 2,
+        "ID_Name": {
+          "ID": 310015
+        },
+        "ID_WindowBase": "EDS_WindowWidget::PlayerSkillInfo",
+        "ID_ContentsBase": "EDS_ContentsBaseType::PlayerSkill",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 14,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "2500": {
+        "ID": "EDS_ContentsTabFrameType::Achievement",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 14,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 300016
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Achievement",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Achievement",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 15,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "2501": {
+        "ID": "EDS_ContentsTabFrameType::Achievement_Adventure",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 14,
+        "MainTab": 1,
+        "SubTab": 1,
+        "ID_Name": {
+          "ID": 310017
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Achievement",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Achievement",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 15,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "2502": {
+        "ID": "EDS_ContentsTabFrameType::Achievement_Upgrade",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 14,
+        "MainTab": 1,
+        "SubTab": 2,
+        "ID_Name": {
+          "ID": 310018
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Achievement",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Achievement",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 15,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "2503": {
+        "ID": "EDS_ContentsTabFrameType::Achievement_Challenge",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 14,
+        "MainTab": 1,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 310019
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Achievement",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Achievement",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 15,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "2504": {
+        "ID": "EDS_ContentsTabFrameType::Achievement_Sever",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 14,
+        "MainTab": 1,
+        "SubTab": 4,
+        "ID_Name": {
+          "ID": 310020
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Achievement",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Achievement",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 15,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "11033": {
+        "ID": "EDS_ContentsTabFrameType::PlayerSkillCooking",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 15,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 440012
+        },
+        "ID_WindowBase": "EDS_WindowWidget::PlayerSkillCooking",
+        "ID_ContentsBase": "EDS_ContentsBaseType::PlayerSkillCooking",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 16,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "12001": {
+        "ID": "EDS_ContentsTabFrameType::Mail",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 16,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 300020
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Mail",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Mail",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 17,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "12002": {
+        "ID": "EDS_ContentsTabFrameType::MailSystem",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 16,
+        "MainTab": 1,
+        "SubTab": 1,
+        "ID_Name": {
+          "ID": 310022
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Mail",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Mail",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 17,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "12003": {
+        "ID": "EDS_ContentsTabFrameType::MailPersonal",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 0,
+        "MainTab": 0,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 310023
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Mail",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Mail",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 17,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": true
+      },
+      "13000": {
+        "ID": "EDS_ContentsTabFrameType::MountManagement",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 17,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 300017
+        },
+        "ID_WindowBase": "EDS_WindowWidget::MountManagement",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Mounts",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 18,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": true
+      },
+      "14000": {
+        "ID": "EDS_ContentsTabFrameType::SummonBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 18,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 460001
+        },
+        "ID_WindowBase": "EDS_WindowWidget::SummonBoss",
+        "ID_ContentsBase": "EDS_ContentsBaseType::SummonBoss",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 18,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "15000": {
+        "ID": "EDS_ContentsTabFrameType::Breach",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 19,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 470001
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Breach",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Breach",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 19,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "16000": {
+        "ID": "EDS_ContentsTabFrameType::WorldBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 20,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 300032
+        },
+        "ID_WindowBase": "EDS_WindowWidget::WorldBoss",
+        "ID_ContentsBase": "EDS_ContentsBaseType::WorldBoss",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 20,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "17000": {
+        "ID": "EDS_ContentsTabFrameType::Gate",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 21,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 480001
+        },
+        "ID_WindowBase": "EDS_WindowWidget::Gate",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Gate",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 21,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "13001": {
+        "ID": "EDS_ContentsTabFrameType::MountInteraction",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 22,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 300017
+        },
+        "ID_WindowBase": "EDS_WindowWidget::MountInteraction",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Mounts",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 22,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18000": {
+        "ID": "EDS_ContentsTabFrameType::GuildList",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 23,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 5141
+        },
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildList",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 23,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "18001": {
+        "ID": "EDS_ContentsTabFrameType::GuildJoinList",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 23,
+        "MainTab": 1,
+        "SubTab": 1,
+        "ID_Name": {
+          "ID": 5143
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildList",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildList",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 23,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18003": {
+        "ID": "EDS_ContentsTabFrameType::GuildCreate",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 23,
+        "MainTab": 1,
+        "SubTab": 2,
+        "ID_Name": {
+          "ID": 5144
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildCreate",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildList",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 23,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18002": {
+        "ID": "EDS_ContentsTabFrameType::GuildInviteList",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 23,
+        "MainTab": 1,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 5146
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildInvited",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildList",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 23,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18004": {
+        "ID": "EDS_ContentsTabFrameType::GuildJoinWaiting",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 23,
+        "MainTab": 1,
+        "SubTab": 4,
+        "ID_Name": {
+          "ID": 5145
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildJoinWaiting",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildList",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 23,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18100": {
+        "ID": "EDS_ContentsTabFrameType::Guild",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 24,
+        "MainTab": 1,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 281006
+        },
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildMain",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 24,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "18101": {
+        "ID": "EDS_ContentsTabFrameType::GuildMain",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 24,
+        "MainTab": 1,
+        "SubTab": 1,
+        "ID_Name": {
+          "ID": 5142
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildMain",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildMain",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 24,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18102": {
+        "ID": "EDS_ContentsTabFrameType::GuildMemberList",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 24,
+        "MainTab": 1,
+        "SubTab": 2,
+        "ID_Name": {
+          "ID": 5148
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildMemberList",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildMain",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 24,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18103": {
+        "ID": "EDS_ContentsTabFrameType::GuildHistroy",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 24,
+        "MainTab": 1,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 5149
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildHistroy",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildMain",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 24,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18200": {
+        "ID": "EDS_ContentsTabFrameType::GuildManagert",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::Horizon",
+        "MenuOrder": 24,
+        "MainTab": 2,
+        "SubTab": 0,
+        "ID_Name": {
+          "ID": 5147
+        },
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildManagert",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 24,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 0,
+        "IsPlayerInfo": false
+      },
+      "18201": {
+        "ID": "EDS_ContentsTabFrameType::GuildSetting",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 24,
+        "MainTab": 2,
+        "SubTab": 2,
+        "ID_Name": {
+          "ID": 5150
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildSetting",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildManagert",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 24,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18202": {
+        "ID": "EDS_ContentsTabFrameType::GuildSettingMember",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 24,
+        "MainTab": 2,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 5151
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildSettingMember",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildManagert",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 24,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18203": {
+        "ID": "EDS_ContentsTabFrameType::GuildSettingJoin",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 24,
+        "MainTab": 2,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 5152
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildSettingJoinWatting",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildManagert",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 24,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      },
+      "18204": {
+        "ID": "EDS_ContentsTabFrameType::GuildSettingInviteList",
+        "DataStage": 23,
+        "Version": "*",
+        "SubTabType": "EDS_SubTabType::None",
+        "MenuOrder": 24,
+        "MainTab": 2,
+        "SubTab": 3,
+        "ID_Name": {
+          "ID": 5153
+        },
+        "ID_WindowBase": "EDS_WindowWidget::GuildSettingInvite",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildManagert",
+        "ActiveBackgroundEvent": false,
+        "HistoryGroup": 24,
+        "MoneyDisplayCount": 2,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ],
+        "ID_KeyMappingData": 1,
+        "IsPlayerInfo": false
+      }
+    }
+  }
+]

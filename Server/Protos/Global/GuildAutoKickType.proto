@@ -1,0 +1,9 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum GuildAutoKickType {
+  GuildAutoKickType_None = 0;
+  GuildAutoKickType_OneWeek = 1;
+  GuildAutoKickType_OneMonth = 2;
+}

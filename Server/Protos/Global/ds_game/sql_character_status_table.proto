@@ -1,0 +1,14 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlCharacterStatusTable {
+  int64 player_uid = 1;
+  int32 hp = 3;
+  int32 mp = 4;
+  int32 stamina = 5;
+  int32 hunger = 6;
+  int32 fatigue = 7;
+}

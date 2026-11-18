@@ -1,0 +1,526 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CustomizingComponent",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CustomizingComponent",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CustomizingComponentTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Order": 1,
+        "ID_Title": {
+          "ID": 401
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::ListGender",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::MediumSlotList",
+        "DefaultValueInt": 1,
+        "DefaultValueFloat": 0.0,
+        "Value": [
+          1,
+          2
+        ],
+        "ID_ValueIcon": [
+          1081,
+          1082
+        ],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "2001": {
+        "ID": 2001,
+        "DataStage": 23,
+        "Order": 1,
+        "ID_Title": {
+          "ID": 402
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::ListPreset",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::LongSlotList",
+        "DefaultValueInt": 1001,
+        "DefaultValueFloat": 0.0,
+        "Value": [
+          1001,
+          1002,
+          1003,
+          1004,
+          1005,
+          1006
+        ],
+        "ID_ValueIcon": [
+          1101,
+          1101,
+          1101,
+          1101,
+          1101,
+          1101
+        ],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "2002": {
+        "ID": 2002,
+        "DataStage": 23,
+        "Order": 1,
+        "ID_Title": {
+          "ID": 402
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::ListPreset",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::LongSlotList",
+        "DefaultValueInt": 2001,
+        "DefaultValueFloat": 0.0,
+        "Value": [
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006
+        ],
+        "ID_ValueIcon": [
+          1201,
+          1201,
+          1201,
+          1201,
+          1201,
+          1201
+        ],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "3001": {
+        "ID": 3001,
+        "DataStage": 23,
+        "Order": 2,
+        "ID_Title": {
+          "ID": 403
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::ListVoice",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::MediumSlotList",
+        "DefaultValueInt": 10001,
+        "DefaultValueFloat": 0.0,
+        "Value": [
+          10001,
+          10002,
+          10003
+        ],
+        "ID_ValueIcon": [
+          1091,
+          1092,
+          1093
+        ],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "3002": {
+        "ID": 3002,
+        "DataStage": 23,
+        "Order": 2,
+        "ID_Title": {
+          "ID": 403
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::ListVoice",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::MediumSlotList",
+        "DefaultValueInt": 10101,
+        "DefaultValueFloat": 0.0,
+        "Value": [
+          10101,
+          10102,
+          10103
+        ],
+        "ID_ValueIcon": [
+          1091,
+          1092,
+          1093
+        ],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "3101": {
+        "ID": 3101,
+        "DataStage": 23,
+        "Order": 3,
+        "ID_Title": {
+          "ID": 0
+        },
+        "ID_ComponentName": {
+          "ID": 501
+        },
+        "CustomizingType": "EDS_CustomizingType::VoiceTone",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::Slider",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.8,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Float",
+        "SliderMinValue": 0.8,
+        "SliderMaxValue": 1.4,
+        "SliderUnitValue": 0.06
+      },
+      "3102": {
+        "ID": 3102,
+        "DataStage": 23,
+        "Order": 3,
+        "ID_Title": {
+          "ID": 0
+        },
+        "ID_ComponentName": {
+          "ID": 501
+        },
+        "CustomizingType": "EDS_CustomizingType::VoiceTone",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::Slider",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.8,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Float",
+        "SliderMinValue": 0.8,
+        "SliderMaxValue": 1.4,
+        "SliderUnitValue": 0.06
+      },
+      "4001": {
+        "ID": 4001,
+        "DataStage": 23,
+        "Order": 4,
+        "ID_Title": {
+          "ID": 404
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::ListWeapon",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::MediumSlotList",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ID_ValueIcon": [
+          23001,
+          23001,
+          23001,
+          23001,
+          23001,
+          23001,
+          23001,
+          23001
+        ],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "5001": {
+        "ID": 5001,
+        "DataStage": 23,
+        "Order": 1,
+        "ID_Title": {
+          "ID": 405
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "5002": {
+        "ID": 5002,
+        "DataStage": 23,
+        "Order": 2,
+        "ID_Title": {
+          "ID": 406
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "6001": {
+        "ID": 6001,
+        "DataStage": 23,
+        "Order": 1,
+        "ID_Title": {
+          "ID": 407
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "6002": {
+        "ID": 6002,
+        "DataStage": 23,
+        "Order": 2,
+        "ID_Title": {
+          "ID": 408
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "6003": {
+        "ID": 6003,
+        "DataStage": 23,
+        "Order": 3,
+        "ID_Title": {
+          "ID": 409
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "6004": {
+        "ID": 6004,
+        "DataStage": 23,
+        "Order": 4,
+        "ID_Title": {
+          "ID": 410
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "7001": {
+        "ID": 7001,
+        "DataStage": 23,
+        "Order": 1,
+        "ID_Title": {
+          "ID": 411
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "7002": {
+        "ID": 7002,
+        "DataStage": 23,
+        "Order": 2,
+        "ID_Title": {
+          "ID": 412
+        },
+        "ID_ComponentName": {
+          "ID": 502
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "7003": {
+        "ID": 7003,
+        "DataStage": 23,
+        "Order": 3,
+        "ID_Title": {
+          "ID": 0
+        },
+        "ID_ComponentName": {
+          "ID": 503
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "7004": {
+        "ID": 7004,
+        "DataStage": 23,
+        "Order": 4,
+        "ID_Title": {
+          "ID": 0
+        },
+        "ID_ComponentName": {
+          "ID": 504
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "7005": {
+        "ID": 7005,
+        "DataStage": 23,
+        "Order": 5,
+        "ID_Title": {
+          "ID": 0
+        },
+        "ID_ComponentName": {
+          "ID": 505
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "8001": {
+        "ID": 8001,
+        "DataStage": 23,
+        "Order": 1,
+        "ID_Title": {
+          "ID": 413
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      },
+      "8002": {
+        "ID": 8002,
+        "DataStage": 23,
+        "Order": 2,
+        "ID_Title": {
+          "ID": 414
+        },
+        "ID_ComponentName": {
+          "ID": 0
+        },
+        "CustomizingType": "EDS_CustomizingType::None",
+        "CustomizingComponentType": "EDS_CustomizingComponentType::None",
+        "DefaultValueInt": 0,
+        "DefaultValueFloat": 0.0,
+        "Value": [],
+        "ID_ValueIcon": [],
+        "SliderValueFormat": "EDS_InfoViewValueFormat::Integer",
+        "SliderMinValue": 0.0,
+        "SliderMaxValue": 0.0,
+        "SliderUnitValue": 0.0
+      }
+    }
+  }
+]

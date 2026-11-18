@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CustomizingGenderCategory",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CustomizingGenderCategory",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CustomizingGenderCategoryTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID_GenderType": "EDS_GenderType::Male",
+        "DataStage": 23,
+        "ID_CustomizingCategoryGroup": [
+          1,
+          2
+        ]
+      },
+      "2": {
+        "ID_GenderType": "EDS_GenderType::Female",
+        "DataStage": 23,
+        "ID_CustomizingCategoryGroup": [
+          3,
+          4
+        ]
+      }
+    }
+  }
+]

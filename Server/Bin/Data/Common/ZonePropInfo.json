@@ -1,0 +1,336 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ZonePropInfo",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ZonePropInfo",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ZonePropInfoTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1010101": {
+        "ID": 1010101,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Building",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "1010102": {
+        "ID": 1010102,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity",
+          "EDS_ZonePropType::SustainDecayItem"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1100
+      },
+      "1010103": {
+        "ID": 1010103,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity",
+          "EDS_ZonePropType::SustainDecayItem"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1200
+      },
+      "1010104": {
+        "ID": 1010104,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity",
+          "EDS_ZonePropType::SustainDecayItem"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1500
+      },
+      "1010105": {
+        "ID": 1010105,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity",
+          "EDS_ZonePropType::SustainDecayItem"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1500
+      },
+      "1010201": {
+        "ID": 1010201,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Building",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "2001": {
+        "ID": 2001,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity",
+          "EDS_ZonePropType::CapsuleNoCollision",
+          "EDS_ZonePropType::SustainDecayItem"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "2002": {
+        "ID": 2002,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::CapsuleNoCollision"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 9999,
+        "ID_RamdomWeather": 1001,
+        "ID_Flooring": 0
+      },
+      "2501": {
+        "ID": 2501,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "2502": {
+        "ID": 2502,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "2503": {
+        "ID": 2503,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "2504": {
+        "ID": 2504,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "6001": {
+        "ID": 6001,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "6002": {
+        "ID": 6002,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "6003": {
+        "ID": 6003,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Pk",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "6004": {
+        "ID": 6004,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Pk",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "7001": {
+        "ID": 7001,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Pk",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "7002": {
+        "ID": 7002,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Pk",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "7003": {
+        "ID": 7003,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "9001": {
+        "ID": 9001,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Village",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      },
+      "11001": {
+        "ID": 11001,
+        "DataStage": 23,
+        "ZoneProp": [
+          "EDS_ZonePropType::Safety",
+          "EDS_ZonePropType::Gravity"
+        ],
+        "ID_ZoneBuff": [],
+        "Id_ZoneDeathPenalty": 11,
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0
+      }
+    }
+  }
+]

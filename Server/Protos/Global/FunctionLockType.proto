@@ -1,0 +1,9 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum FunctionLockType {
+  FunctionLockType_None = 0;
+  FunctionLockType_All = 1;
+  FunctionLockType_LockValue = 2;
+}

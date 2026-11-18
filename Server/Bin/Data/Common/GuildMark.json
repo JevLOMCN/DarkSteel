@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GuildMark",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/GuildMark",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_GuildMarkTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::Emblem",
+        "ID_ResourceImage": 50001
+      },
+      "1000": {
+        "ID": 1000,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::BackGround",
+        "ID_ResourceImage": 51001
+      }
+    }
+  }
+]

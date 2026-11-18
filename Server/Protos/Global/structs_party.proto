@@ -1,0 +1,33 @@
+syntax = "proto3";
+package ds_proto;
+option csharp_namespace = "MirProto.DsProto";
+
+
+message PartyInvitedInfo {
+  int64 party_id = 1;
+  double end_time = 2;
+  int64 sender_uid = 3;
+  int32 sender_level = 4;
+  string sender_name = 5;
+}
+message PartyInviteRejectInfo {
+  int64 sender_uid = 1;
+  bool is_timeout = 2;
+}
+message PartyMemberInfo {
+  int64 player_uid = 2;
+  string name = 3;
+  int32 level = 4;
+  bool online = 7;
+  int32 char_id = 8;
+  bool dead = 9;
+  int32 game_server_index = 11;
+}
+message PartySlotInfo {
+  uint32 slot_index = 1;
+  ds_proto.PartyMemberInfo member = 3;
+}
+message PartyInfo {
+  int64 party_uid = 1;
+  int64 leader_uid = 2;
+}

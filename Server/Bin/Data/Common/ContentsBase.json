@@ -1,0 +1,1632 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ContentsBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ContentsBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ContentsBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_ContentsBaseType::UseCombatSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 310008
+        },
+        "ID_OpenIcon": 5003,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "101": {
+        "ID": "EDS_ContentsBaseType::AutoUseCombatSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5001
+        },
+        "ID_OpenIcon": 5003,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "201": {
+        "ID": "EDS_ContentsBaseType::AirWalkStep01",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5002
+        },
+        "ID_OpenIcon": 5003,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "202": {
+        "ID": "EDS_ContentsBaseType::AirWalkStep02",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5003
+        },
+        "ID_OpenIcon": 5003,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "203": {
+        "ID": "EDS_ContentsBaseType::AirWalkStep05",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5004
+        },
+        "ID_OpenIcon": 5003,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "301": {
+        "ID": "EDS_ContentsBaseType::FastSwim",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5005
+        },
+        "ID_OpenIcon": 5003,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "2011": {
+        "ID": "EDS_ContentsBaseType::CharacterEquipBattle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5101
+        },
+        "ID_OpenIcon": 5001,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "2012": {
+        "ID": "EDS_ContentsBaseType::CharacterEquipTool",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "2015": {
+        "ID": "EDS_ContentsBaseType::CharacterEvolving",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5137
+        },
+        "ID_OpenIcon": 5001,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::CharacterEvolving"
+        ]
+      },
+      "3001": {
+        "ID": "EDS_ContentsBaseType::CharacterCombatSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5103
+        },
+        "ID_OpenIcon": 5003,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "5001": {
+        "ID": "EDS_ContentsBaseType::UnitedDeck",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5104
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "5101": {
+        "ID": "EDS_ContentsBaseType::DeckQuickSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5105
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "5201": {
+        "ID": "EDS_ContentsBaseType::DeckQuickEtc",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5106
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "5301": {
+        "ID": "EDS_ContentsBaseType::DeckEquipBattle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5101
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "5401": {
+        "ID": "EDS_ContentsBaseType::DeckEquipTool",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5102
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "6001": {
+        "ID": "EDS_ContentsBaseType::ItemDecomposition",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5107
+        },
+        "ID_OpenIcon": 3003,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ItemDecomposition"
+        ]
+      },
+      "6002": {
+        "ID": "EDS_ContentsBaseType::ItemDismantle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5107
+        },
+        "ID_OpenIcon": 3003,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ItemDismantle"
+        ]
+      },
+      "6011": {
+        "ID": "EDS_ContentsBaseType::ItemDestruction",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5108
+        },
+        "ID_OpenIcon": 3004,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ItemDestroy"
+        ]
+      },
+      "6021": {
+        "ID": "EDS_ContentsBaseType::ItemUse",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5109
+        },
+        "ID_OpenIcon": 3008,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ItemUse"
+        ]
+      },
+      "6031": {
+        "ID": "EDS_ContentsBaseType::ItemJewelSlot",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5110
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "7101": {
+        "ID": "EDS_ContentsBaseType::ItemIdentify",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5140
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "7301": {
+        "ID": "EDS_ContentsBaseType::ItemRepair",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 230009
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ItemRepair"
+        ]
+      },
+      "8001": {
+        "ID": "EDS_ContentsBaseType::CharacterInventory",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 300009
+        },
+        "ID_OpenIcon": 5002,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "9001": {
+        "ID": "EDS_ContentsBaseType::Gather",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5111
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::StuffGatherStart"
+        ]
+      },
+      "9101": {
+        "ID": "EDS_ContentsBaseType::AutoGather",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5112
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::StuffAutoGatherStart"
+        ]
+      },
+      "10001": {
+        "ID": "EDS_ContentsBaseType::CraftFactory",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5113
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "10101": {
+        "ID": "EDS_ContentsBaseType::NpcCraft",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5114
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ItemCraft"
+        ]
+      },
+      "12001": {
+        "ID": "EDS_ContentsBaseType::NpcShopBuy",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5115
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ItemBuy"
+        ]
+      },
+      "12002": {
+        "ID": "EDS_ContentsBaseType::NpcShopSell",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5116
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ItemSell"
+        ]
+      },
+      "15003": {
+        "ID": "EDS_ContentsBaseType::Pk",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5117
+        },
+        "ID_OpenIcon": 5001,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::PkModeChange",
+          "EDS_ContentsFunctionType::ForceAttackAdd"
+        ]
+      },
+      "15002": {
+        "ID": "EDS_ContentsBaseType::ForceAttack",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5118
+        },
+        "ID_OpenIcon": 5001,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ForceAttackAdd"
+        ]
+      },
+      "15011": {
+        "ID": "EDS_ContentsBaseType::PkPenalty",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5119
+        },
+        "ID_OpenIcon": 5001,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "18001": {
+        "ID": "EDS_ContentsBaseType::Party",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5139
+        },
+        "ID_OpenIcon": 5028,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::PartyCreate",
+          "EDS_ContentsFunctionType::PartyJoin",
+          "EDS_ContentsFunctionType::PartyInvitation"
+        ]
+      },
+      "19001": {
+        "ID": "EDS_ContentsBaseType::ChattingRegion",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5120
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "19002": {
+        "ID": "EDS_ContentsBaseType::ChattingWorld",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5121
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "19003": {
+        "ID": "EDS_ContentsBaseType::ChattingZone",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5122
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ChatZone"
+        ]
+      },
+      "19004": {
+        "ID": "EDS_ContentsBaseType::ChattingArea",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5123
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ChatArea"
+        ]
+      },
+      "19005": {
+        "ID": "EDS_ContentsBaseType::ChattingParty",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5124
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ChatParty"
+        ]
+      },
+      "19006": {
+        "ID": "EDS_ContentsBaseType::ChattingContents",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5125
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "19012": {
+        "ID": "EDS_ContentsBaseType::ChattingRaidParty",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5125
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ChatRaidParty"
+        ]
+      },
+      "19007": {
+        "ID": "EDS_ContentsBaseType::ChattingGuild",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5126
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ChatGuild"
+        ]
+      },
+      "19008": {
+        "ID": "EDS_ContentsBaseType::ChattingUnion",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5127
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "19009": {
+        "ID": "EDS_ContentsBaseType::ChattingSystem",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5128
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "19013": {
+        "ID": "EDS_ContentsBaseType::ChattingBattle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5154
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "19010": {
+        "ID": "EDS_ContentsBaseType::ChattingWhisper",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5129
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ChatWhisper"
+        ]
+      },
+      "19011": {
+        "ID": "EDS_ContentsBaseType::ChattingOrganization",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5130
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::ChatOrganization"
+        ]
+      },
+      "20001": {
+        "ID": "EDS_ContentsBaseType::DropZone",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5131
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::DropZone"
+        ]
+      },
+      "20002": {
+        "ID": "EDS_ContentsBaseType::DropNpc",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5131
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::DropNpc"
+        ]
+      },
+      "20003": {
+        "ID": "EDS_ContentsBaseType::DropFixed",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5131
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::DropFixed"
+        ]
+      },
+      "20004": {
+        "ID": "EDS_ContentsBaseType::DropStuff",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5131
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::DropStuff"
+        ]
+      },
+      "21001": {
+        "ID": "EDS_ContentsBaseType::BaseQuest",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 430008
+        },
+        "ID_OpenIcon": 5014,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::QuestAccept",
+          "EDS_ContentsFunctionType::QuestComplete"
+        ]
+      },
+      "21002": {
+        "ID": "EDS_ContentsBaseType::QuestLocal",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 430002
+        },
+        "ID_OpenIcon": 5014,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::QuestAccept",
+          "EDS_ContentsFunctionType::QuestComplete"
+        ]
+      },
+      "21003": {
+        "ID": "EDS_ContentsBaseType::QuestMain",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 430001
+        },
+        "ID_OpenIcon": 5014,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::QuestAccept",
+          "EDS_ContentsFunctionType::QuestComplete"
+        ]
+      },
+      "21006": {
+        "ID": "EDS_ContentsBaseType::QuestRepeat",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 430009
+        },
+        "ID_OpenIcon": 5014,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::QuestAccept",
+          "EDS_ContentsFunctionType::QuestComplete"
+        ]
+      },
+      "30001": {
+        "ID": "EDS_ContentsBaseType::Mail",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 300020
+        },
+        "ID_OpenIcon": 5047,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::MailSend",
+          "EDS_ContentsFunctionType::MailRewardGet"
+        ]
+      },
+      "40001": {
+        "ID": "EDS_ContentsBaseType::GameOption",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 301002
+        },
+        "ID_OpenIcon": 5509,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::GameOption"
+        ]
+      },
+      "50001": {
+        "ID": "EDS_ContentsBaseType::NormalDungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5133
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "50002": {
+        "ID": "EDS_ContentsBaseType::HeroicDungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5133
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "50003": {
+        "ID": "EDS_ContentsBaseType::RaidDungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5133
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "50004": {
+        "ID": "EDS_ContentsBaseType::FindDungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5133
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "60001": {
+        "ID": "EDS_ContentsBaseType::RingCmdSetting",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 301001
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::RingCmdUpdate"
+        ]
+      },
+      "22001": {
+        "ID": "EDS_ContentsBaseType::Gacha",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 310016
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19001
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "23001": {
+        "ID": "EDS_ContentsBaseType::Map",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 300021
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "70001": {
+        "ID": "EDS_ContentsBaseType::HudMenu",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 302004
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "24001": {
+        "ID": "EDS_ContentsBaseType::PlayerSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5138
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "25001": {
+        "ID": "EDS_ContentsBaseType::Achievement",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 300016
+        },
+        "ID_OpenIcon": 5014,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "21004": {
+        "ID": "EDS_ContentsBaseType::QuestWeekly",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 430005
+        },
+        "ID_OpenIcon": 5014,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "21005": {
+        "ID": "EDS_ContentsBaseType::QuestMonthly",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 430006
+        },
+        "ID_OpenIcon": 5014,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "24033": {
+        "ID": "EDS_ContentsBaseType::PlayerSkillCooking",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 440012
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "4101": {
+        "ID": "EDS_ContentsBaseType::Mounts",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 300017
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": [
+          "EDS_ContentsFunctionType::MountManagement",
+          "EDS_ContentsFunctionType::MountLostReclaim"
+        ]
+      },
+      "80001": {
+        "ID": "EDS_ContentsBaseType::SummonBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 460001
+        },
+        "ID_OpenIcon": 150001,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "90001": {
+        "ID": "EDS_ContentsBaseType::Breach",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 470001
+        },
+        "ID_OpenIcon": 210001,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "100001": {
+        "ID": "EDS_ContentsBaseType::WorldBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 300032
+        },
+        "ID_OpenIcon": 210001,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "110001": {
+        "ID": "EDS_ContentsBaseType::Gate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 480001
+        },
+        "ID_OpenIcon": 230001,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "26001": {
+        "ID": "EDS_ContentsBaseType::GuildList",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5141
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "26002": {
+        "ID": "EDS_ContentsBaseType::GuildMain",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5142
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      },
+      "26003": {
+        "ID": "EDS_ContentsBaseType::GuildManagert",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 5147
+        },
+        "ID_OpenIcon": 0,
+        "ID_OpenString": {
+          "ID": 19002
+        },
+        "OpenLevel": 0,
+        "OpenPlayerLevel": 0,
+        "OpenTemplateType": "EDS_Template::None",
+        "OpenValue": 0,
+        "ID_ContentsLockString": {
+          "ID": 1407
+        },
+        "ContentsFunction": []
+      }
+    }
+  }
+]

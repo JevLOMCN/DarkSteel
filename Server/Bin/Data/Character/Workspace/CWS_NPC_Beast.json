@@ -1,0 +1,1349 @@
+[
+  {
+    "Type": "WN_CS_CharacterWorkspace",
+    "Name": "CWS_NPC_Beast",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WN_CS_CharacterWorkspace'",
+    "Package": "/Game/Datas/Character/Workspace/CWS_NPC_Beast",
+    "Properties": {
+      "CharacterDescs": [
+        {
+          "ID": 1,
+          "Name": "WildBoar01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_WildBoar_NA11/SKEL_NPC_Beast_WildBoar_NA11_Skeleton.SKEL_NPC_Beast_WildBoar_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::Soul",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_WildBoar_NA11",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_WildBoar_NA11/SK_NPC_Beast_WildBoar_NA11.SK_NPC_Beast_WildBoar_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_WildBoar_NA12",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_WildBoar_NA12/SK_NPC_Beast_WildBoar_NA12.SK_NPC_Beast_WildBoar_NA12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_WildBoar_NA11",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_823C0AC34E270FA6F62E6AAF6D4C4A5E.SKM_Soul_823C0AC34E270FA6F62E6AAF6D4C4A5E",
+                "SubPathString": ""
+              },
+              "Guid": "823C0AC3-4E270FA6-F62E6AAF-6D4C4A5E",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_WildBoar_NA12",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_718EB2F8448EF9EA8D76198741046855.SKM_Soul_718EB2F8448EF9EA8D76198741046855",
+                "SubPathString": ""
+              },
+              "Guid": "718EB2F8-448EF9EA-8D761987-41046855",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 2,
+          "Name": "Spider01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BlackSpider_NA11/SKEL_NPC_Beast_BlackSpider_NA11_Skeleton.SKEL_NPC_Beast_BlackSpider_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::Soul",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BlackSpider_NA11",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BlackSpider_NA11/SK_NPC_Beast_BlackSpider_NA11.SK_NPC_Beast_BlackSpider_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BlackSpider_NA11",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_78C345A34E4F2EFCA0956CB7952C54E9.SKM_Soul_78C345A34E4F2EFCA0956CB7952C54E9",
+                "SubPathString": ""
+              },
+              "Guid": "78C345A3-4E4F2EFC-A0956CB7-952C54E9",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        },
+        {
+          "ID": 3,
+          "Name": "Ant01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BattleAnt_NA11/SKEL_NPC_Beast_BattleAnt_NA11_Skeleton.SKEL_NPC_Beast_BattleAnt_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::Soul",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BattleAnt_NA11",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BattleAnt_NA11/SK_NPC_Beast_BattleAnt_NA11.SK_NPC_Beast_BattleAnt_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BattleAnt_NA11",
+              "ID_Character": 3,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_D61AD67B46F721ECDD173F96C47B5D37.SKM_Soul_D61AD67B46F721ECDD173F96C47B5D37",
+                "SubPathString": ""
+              },
+              "Guid": "D61AD67B-46F721EC-DD173F96-C47B5D37",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 3,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        },
+        {
+          "ID": 4,
+          "Name": "Ecotitans01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Ecotitans_NA11/SKEL_NPC_Beast_Ecotitans_NA11_Skeleton.SKEL_NPC_Beast_Ecotitans_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::Soul",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Ecotitans01_GallantStrider11",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Ecotitans_NA11/SK_NPC_Beast_Ecotitans_NA11.SK_NPC_Beast_Ecotitans_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Ecotitans01_GallantStrider11",
+              "ID_Character": 4,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_94536378482B1F14D63B99BD2D14CA25.SKM_Soul_94536378482B1F14D63B99BD2D14CA25",
+                "SubPathString": ""
+              },
+              "Guid": "94536378-482B1F14-D63B99BD-2D14CA25",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 4,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 11
+            }
+          ]
+        },
+        {
+          "ID": 5,
+          "Name": "Feldar01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Feldar_NA11/SKEL_NPC_Beast_Feldar01_PlainCow11_Skeleton.SKEL_NPC_Beast_Feldar01_PlainCow11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "SK_NPC_Beast_Feldar01_PlainCow11",
+              "ID_Character": 5,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Feldar_NA11/SK_NPC_Beast_Feldar01_PlainCow11.SK_NPC_Beast_Feldar01_PlainCow11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "SK_NPC_Beast_Feldar01_PlainCow11",
+              "ID_Character": 5,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_A1414E3E4400890CCDD78B8D5056FFAA.SKM_Soul_A1414E3E4400890CCDD78B8D5056FFAA",
+                "SubPathString": ""
+              },
+              "Guid": "A1414E3E-4400890C-CDD78B8D-5056FFAA",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 5,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            }
+          ]
+        },
+        {
+          "ID": 6,
+          "Name": "Wolf01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Wolf011/SKEL_NPC_Beast_Wolf011_Skeleton.SKEL_NPC_Beast_Wolf011_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Wolf01_NA11",
+              "ID_Character": 6,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Wolf011/SK_NPC_Beast_Wolf011.SK_NPC_Beast_Wolf011",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Wolf01_NA11",
+              "ID_Character": 6,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_E7C9D98C44C3D3820386F4BF90302FD7.SKM_Soul_E7C9D98C44C3D3820386F4BF90302FD7",
+                "SubPathString": ""
+              },
+              "Guid": "E7C9D98C-44C3D382-0386F4BF-90302FD7",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 6,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 8
+            }
+          ]
+        },
+        {
+          "ID": 7,
+          "Name": "Scorpion01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Scorpion_NA11/SKEL_NPC_Beast_Scorpion_NA11_Skeleton.SKEL_NPC_Beast_Scorpion_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Scorpion_NA11",
+              "ID_Character": 7,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Scorpion_NA11/SK_NPC_Beast_Scorpion_NA11.SK_NPC_Beast_Scorpion_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Scorpion_NA11",
+              "ID_Character": 7,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_8BC8BE9D40EF381B0F67DFACE78A5673.SKM_Soul_8BC8BE9D40EF381B0F67DFACE78A5673",
+                "SubPathString": ""
+              },
+              "Guid": "8BC8BE9D-40EF381B-0F67DFAC-E78A5673",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 7,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            }
+          ]
+        },
+        {
+          "ID": 8,
+          "Name": "DeathWorm01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_DeathWorm_NA11/SKEL_NPC_Beast_DeathWorm_NA11_Skeleton.SKEL_NPC_Beast_DeathWorm_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_DeathWorm01_Desert11",
+              "ID_Character": 8,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_DeathWorm_NA11/SK_NPC_Beast_DeathWorm_NA11.SK_NPC_Beast_DeathWorm_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_DeathWorm01_Desert11",
+              "ID_Character": 8,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_01CDDE8844625FBAF49867AB03D5FEDB.SKM_Soul_01CDDE8844625FBAF49867AB03D5FEDB",
+                "SubPathString": ""
+              },
+              "Guid": "01CDDE88-44625FBA-F49867AB-03D5FEDB",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 8,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            }
+          ]
+        },
+        {
+          "ID": 9,
+          "Name": "Hyena01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Hyena_NA11/SKEL_NPC_Beast_Hyena_NA11_Skeleton.SKEL_NPC_Beast_Hyena_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Hyena01_NA11",
+              "ID_Character": 9,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Hyena_NA11/SK_NPC_Beast_Hyena_NA11.SK_NPC_Beast_Hyena_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_Hyena01_NA12",
+              "ID_Character": 9,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Hyena01_NA12/SK_NPC_Beast_Hyena01_NA12.SK_NPC_Beast_Hyena01_NA12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Hyena01_NA11",
+              "ID_Character": 9,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_C26E8C2B410F1A6692E2739AF96236E6.SKM_Soul_C26E8C2B410F1A6692E2739AF96236E6",
+                "SubPathString": ""
+              },
+              "Guid": "C26E8C2B-410F1A66-92E2739A-F96236E6",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 9,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 10
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_Hyena01_NA12",
+              "ID_Character": 9,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_F3537BDE425958A2904C5ABD8102A4C9.SKM_Soul_F3537BDE425958A2904C5ABD8102A4C9",
+                "SubPathString": ""
+              },
+              "Guid": "F3537BDE-425958A2-904C5ABD-8102A4C9",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 9,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 10,
+          "Name": "Gigathorax01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Gigathorax_NA11/SKEL_NPC_Beast_Gigathorax_NA11_Skeleton.SKEL_NPC_Beast_Gigathorax_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Gigathorax_NA11",
+              "ID_Character": 10,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Gigathorax_NA11/SK_NPC_Beast_Gigathorax_NA11.SK_NPC_Beast_Gigathorax_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_Gigathorax_NA12",
+              "ID_Character": 10,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Gigathorax_NA12/SK_NPC_Beast_Gigathorax_NA12.SK_NPC_Beast_Gigathorax_NA12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Gigathorax_NA11",
+              "ID_Character": 10,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_2693844C49E6C0E8041A92B930B0CCCE.SKM_Soul_2693844C49E6C0E8041A92B930B0CCCE",
+                "SubPathString": ""
+              },
+              "Guid": "2693844C-49E6C0E8-041A92B9-30B0CCCE",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 10,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_Gigathorax_NA12",
+              "ID_Character": 10,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_69526C27452F6BD6C5C23F871B8179C0.SKM_Soul_69526C27452F6BD6C5C23F871B8179C0",
+                "SubPathString": ""
+              },
+              "Guid": "69526C27-452F6BD6-C5C23F87-1B8179C0",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 10,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 11,
+          "Name": "Lizard01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Liz_1_N_01/SKEL_NPC_Ani_Liz_1_N_01_Skeleton.SKEL_NPC_Ani_Liz_1_N_01_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Lizard01_NA11",
+              "ID_Character": 11,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Liz_1_N_01/SK_NPC_Ani_Liz_1_N_01.SK_NPC_Ani_Liz_1_N_01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_Lizard01_NA12",
+              "ID_Character": 11,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Liz_1_N_02/SK_NPC_Ani_Liz_1_N_02.SK_NPC_Ani_Liz_1_N_02",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 3,
+              "Name": "NPC_Beast_Lizard01_NA13",
+              "ID_Character": 11,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Liz_1_N_03/SK_NPC_Ani_Liz_1_N_03.SK_NPC_Ani_Liz_1_N_03",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 4,
+              "Name": "NPC_Beast_Lizard01_NA14",
+              "ID_Character": 11,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Lizard01_NA14/SK_NPC_Beast_Lizard01_NA14.SK_NPC_Beast_Lizard01_NA14",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Lizard01_NA11",
+              "ID_Character": 11,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_446523FC4631C774E0BB27BDA979530C.SKM_Soul_446523FC4631C774E0BB27BDA979530C",
+                "SubPathString": ""
+              },
+              "Guid": "446523FC-4631C774-E0BB27BD-A979530C",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 11,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 8
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_Lizard01_NA12",
+              "ID_Character": 11,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_75DC6370407D5644D79D68B829F3BD8A.SKM_Soul_75DC6370407D5644D79D68B829F3BD8A",
+                "SubPathString": ""
+              },
+              "Guid": "75DC6370-407D5644-D79D68B8-29F3BD8A",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 11,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            },
+            {
+              "ID": 3,
+              "Name": "NPC_Beast_Lizard01_NA13",
+              "ID_Character": 11,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_2964FD9E429717E6905042981E210FBA.SKM_Soul_2964FD9E429717E6905042981E210FBA",
+                "SubPathString": ""
+              },
+              "Guid": "2964FD9E-429717E6-90504298-1E210FBA",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 11,
+                  "ID_Preset": 3,
+                  "ID_Part": 3,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            },
+            {
+              "ID": 4,
+              "Name": "NPC_Beast_Lizard01_NA14",
+              "ID_Character": 11,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_FD9F5410491DAC12BF9178B78A22AACE.SKM_Soul_FD9F5410491DAC12BF9178B78A22AACE",
+                "SubPathString": ""
+              },
+              "Guid": "FD9F5410-491DAC12-BF9178B7-8A22AACE",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 11,
+                  "ID_Preset": 4,
+                  "ID_Part": 4,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 12,
+          "Name": "BattleGigathorax01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Gigathorax_NA11/SKEL_NPC_Beast_Gigathorax_NA11_Skeleton.SKEL_NPC_Beast_Gigathorax_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BattleGigathorax01_11",
+              "ID_Character": 12,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BattleGigathorax01_11/SK_NPC_Beast_BattleGigathorax01_11.SK_NPC_Beast_BattleGigathorax01_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_BattleGigathorax01_12",
+              "ID_Character": 12,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BattleGigathorax01_12/SK_NPC_Beast_BattleGigathorax01_12.SK_NPC_Beast_BattleGigathorax01_12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BattleGigathorax01_11",
+              "ID_Character": 12,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_2BE1FF654BBDC90FE1AFF4A5B766D022.SKM_Soul_2BE1FF654BBDC90FE1AFF4A5B766D022",
+                "SubPathString": ""
+              },
+              "Guid": "2BE1FF65-4BBDC90F-E1AFF4A5-B766D022",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 12,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 11
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_BattleGigathorax01_12",
+              "ID_Character": 12,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_979311D049885F3B3BC160AED8BEBC7F.SKM_Soul_979311D049885F3B3BC160AED8BEBC7F",
+                "SubPathString": ""
+              },
+              "Guid": "979311D0-49885F3B-3BC160AE-D8BEBC7F",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 12,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 13,
+          "Name": "BattleFeldar01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Feldar_NA11/SKEL_NPC_Beast_Feldar01_PlainCow11_Skeleton.SKEL_NPC_Beast_Feldar01_PlainCow11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BattleFeldar01_PlainCow11",
+              "ID_Character": 13,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BattleFeldar01_PlainCow11/SK_NPC_Beast_BattleFeldar01_PlainCow11.SK_NPC_Beast_BattleFeldar01_PlainCow11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BattleFeldar01_PlainCow11",
+              "ID_Character": 13,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_32CD90C44486E6A59F9E3FA752FC704A.SKM_Soul_32CD90C44486E6A59F9E3FA752FC704A",
+                "SubPathString": ""
+              },
+              "Guid": "32CD90C4-4486E6A5-9F9E3FA7-52FC704A",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 13,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            }
+          ]
+        },
+        {
+          "ID": 14,
+          "Name": "Bear01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Bear_NA12/SKEL_NPC_Beast_Bear_NA12_Skeleton.SKEL_NPC_Beast_Bear_NA12_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Bear_NA12",
+              "ID_Character": 14,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Bear_NA12/SK_NPC_Beast_Bear_NA12.SK_NPC_Beast_Bear_NA12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_Bear_NA12",
+              "ID_Character": 14,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_E5CEA5E143B25BF561C70AB78B178CB1.SKM_Soul_E5CEA5E143B25BF561C70AB78B178CB1",
+                "SubPathString": ""
+              },
+              "Guid": "E5CEA5E1-43B25BF5-61C70AB7-8B178CB1",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 14,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 15,
+          "Name": "BattleEcotitans01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_Ecotitans_NA11/SKEL_NPC_Beast_Ecotitans_NA11_Skeleton.SKEL_NPC_Beast_Ecotitans_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BattleEcotitans01_11",
+              "ID_Character": 15,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BattleEcotitans01_11/SK_NPC_Beast_BattleEcotitans01_11.SK_NPC_Beast_BattleEcotitans01_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_BattleEcotitans01_12",
+              "ID_Character": 15,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BattleEcotitans01_12/SK_NPC_Beast_BattleEcotitans01_12.SK_NPC_Beast_BattleEcotitans01_12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Beast_BattleEcotitans01_11",
+              "ID_Character": 15,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_492CFD14428853375A2DE3BAB6AC4D2F.SKM_Soul_492CFD14428853375A2DE3BAB6AC4D2F",
+                "SubPathString": ""
+              },
+              "Guid": "492CFD14-42885337-5A2DE3BA-B6AC4D2F",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 15,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 11
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Beast_BattleEcotitans01_12",
+              "ID_Character": 15,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_0ACD2F3248EC0815B1F128B04A34CA45.SKM_Soul_0ACD2F3248EC0815B1F128B04A34CA45",
+                "SubPathString": ""
+              },
+              "Guid": "0ACD2F32-48EC0815-B1F128B0-4A34CA45",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 15,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 11
+            }
+          ]
+        }
+      ],
+      "Version": "EWN_CS_CharacterWorkspaceVersion::Latest"
+    }
+  }
+]

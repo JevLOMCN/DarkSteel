@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{73113E3A-E1EF-51CF-B382-E3523EF401A4}</ProjectGuid><RootNamespace>LiveLinkMovieScene</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FLiveLinkPropertyData.cpp" />
+    <ClCompile Include="Private\FLiveLinkStructPropertyBindings.cpp" />
+    <ClCompile Include="Private\FLiveLinkSubSectionData.cpp" />
+    <ClCompile Include="Private\FLiveLinkSubjectPreset.cpp" />
+    <ClCompile Include="Private\FLiveLinkTransformKeys.cpp" />
+    <ClCompile Include="Private\FMovieSceneLiveLinkEnumHandler.cpp" />
+    <ClCompile Include="Private\FMovieSceneLiveLinkPropertyHandler.cpp" />
+    <ClCompile Include="Private\FMovieSceneLiveLinkSectionTemplate.cpp" />
+    <ClCompile Include="Private\FMovieSceneLiveLinkSource.cpp" />
+    <ClCompile Include="Private\FMovieSceneLiveLinkTransformHandler.cpp" />
+    <ClCompile Include="Private\FPersistentEvaluationData.cpp" />
+    <ClCompile Include="Private\FPropertyWrapper.cpp" />
+    <ClCompile Include="Private\IMovieSceneLiveLinkPropertyHandler.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TInlineValue.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMovieSceneLiveLinkSection.cpp" />
+    <ClCompile Include="Private\UMovieSceneLiveLinkSubSection.cpp" />
+    <ClCompile Include="Private\UMovieSceneLiveLinkSubSectionAnimation.cpp" />
+    <ClCompile Include="Private\UMovieSceneLiveLinkSubSectionBasicRole.cpp" />
+    <ClCompile Include="Private\UMovieSceneLiveLinkSubSectionProperties.cpp" />
+    <ClCompile Include="Private\UMovieSceneLiveLinkTrack.cpp" />
+    <ClCompile Include="Private\UMovieSceneSection.cpp" />
+    <ClCompile Include="Private\_Free\Module.LiveLinkMovieScene.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

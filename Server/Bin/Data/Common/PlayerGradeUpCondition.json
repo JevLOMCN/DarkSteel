@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerGradeUpCondition",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PlayerGradeUpCondition",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PlayerGradeUpConditionTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ReqMoney": "EDS_MoneyType::Gold",
+        "ReqMoneyValue": 10,
+        "ID_MoneyExchange": 210,
+        "ReqItem": [],
+        "ReqItemCnt": [],
+        "ReqContents": [],
+        "ReqContentsValue": []
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ReqMoney": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 10000,
+        "ID_MoneyExchange": 110,
+        "ReqItem": [],
+        "ReqItemCnt": [],
+        "ReqContents": [],
+        "ReqContentsValue": []
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ReqMoney": "EDS_MoneyType::None",
+        "ReqMoneyValue": 0,
+        "ID_MoneyExchange": 0,
+        "ReqItem": [
+          250210001,
+          250210002
+        ],
+        "ReqItemCnt": [
+          10,
+          10
+        ],
+        "ReqContents": [],
+        "ReqContentsValue": []
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "ReqMoney": "EDS_MoneyType::None",
+        "ReqMoneyValue": 0,
+        "ID_MoneyExchange": 0,
+        "ReqItem": [],
+        "ReqItemCnt": [],
+        "ReqContents": [
+          "EDS_Template::Quest",
+          "EDS_Template::Quest"
+        ],
+        "ReqContentsValue": [
+          2991001,
+          2991002
+        ]
+      }
+    }
+  }
+]

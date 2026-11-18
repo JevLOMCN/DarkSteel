@@ -1,0 +1,16 @@
+syntax = "proto3";
+package ds_config;
+option csharp_namespace = "MirProto.DsConfig";
+
+import "_db.proto";
+import "ContentsFunctionType.proto";
+import "ContentsControlTargetType.proto";
+import "FunctionLockType.proto";
+
+message SqlContentsFunctionTable {
+  ContentsFunctionType index = 1;
+  ContentsControlTargetType control_target = 2;
+  int32 control_target_value = 3;
+  FunctionLockType function_lock_type = 4;
+  repeated int32 function_lock_value = 5;
+}

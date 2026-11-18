@@ -1,0 +1,16 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlItemStackableTable {
+  int64 player_uid = 1;
+  int32 item_id = 2;
+  int32 quantity = 3;
+  int32 quantity_trade = 4;
+  int32 ware_house_quantity = 5;
+  int32 ware_house_quantity_trade = 6;
+  int32 mount_quantity = 7;
+  int32 mount_quantity_trade = 8;
+}

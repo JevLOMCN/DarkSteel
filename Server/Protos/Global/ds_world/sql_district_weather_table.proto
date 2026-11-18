@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ds_world;
+option csharp_namespace = "MirProto.DsWorld";
+
+import "_db.proto";
+
+message SqlDistrictWeatherTable {
+  int32 district_id = 1;
+  int32 today_weather_probability = 2;
+  repeated int32 today_weather = 3;
+  int32 tomorrow_weather_probability = 4;
+  repeated int32 tomorrow_weather = 5;
+}

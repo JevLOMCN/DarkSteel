@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{C2534898-5D84-5619-9508-584C11AF68DB}</ProjectGuid><RootNamespace>InterchangeDispatcher</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FBackPingCommand.cpp" />
+    <ClCompile Include="Private\FCommandQueue.cpp" />
+    <ClCompile Include="Private\FCompletedQueryTaskProgressCommand.cpp" />
+    <ClCompile Include="Private\FCompletedTaskCommand.cpp" />
+    <ClCompile Include="Private\FErrorCommand.cpp" />
+    <ClCompile Include="Private\FInterchangeDispatcher.cpp" />
+    <ClCompile Include="Private\FInterchangeDispatcherModule.cpp" />
+    <ClCompile Include="Private\FInterchangeWorkerHandler.cpp" />
+    <ClCompile Include="Private\FJsonFBXLoadSourceCmd.cpp" />
+    <ClCompile Include="Private\FJsonFetchAnimationQueriesCmd.cpp" />
+    <ClCompile Include="Private\FJsonFetchMeshPayloadCmd.cpp" />
+    <ClCompile Include="Private\FJsonFetchPayloadCmd.cpp" />
+    <ClCompile Include="Private\FJsonLoadSourceCmd.cpp" />
+    <ClCompile Include="Private\FNetworkClientNode.cpp" />
+    <ClCompile Include="Private\FNetworkNode.cpp" />
+    <ClCompile Include="Private\FNetworkServerNode.cpp" />
+    <ClCompile Include="Private\FPingCommand.cpp" />
+    <ClCompile Include="Private\FQueryTaskProgressCommand.cpp" />
+    <ClCompile Include="Private\FRunTaskCommand.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTerminateCommand.cpp" />
+    <ClCompile Include="Private\ICommand.cpp" />
+    <ClCompile Include="Private\IJsonCmdBase.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayPrivateFriend.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDefaultDelete.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.InterchangeDispatcher.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

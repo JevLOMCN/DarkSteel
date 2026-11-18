@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{4BA11CA2-4D45-5F38-A596-049C58A29FFD}</ProjectGuid><RootNamespace>AnimationSharing</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AActor.cpp" />
+    <ClCompile Include="Private\FAdditiveAnimationInstance.cpp" />
+    <ClCompile Include="Private\FAnimSharingModule.cpp" />
+    <ClCompile Include="Private\FAnimationSetup.cpp" />
+    <ClCompile Include="Private\FAnimationSharingScalability.cpp" />
+    <ClCompile Include="Private\FAnimationStateEntry.cpp" />
+    <ClCompile Include="Private\FInstanceStack.cpp" />
+    <ClCompile Include="Private\FPerSkeletonAnimationSharingSetup.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTickAnimationSharingFunction.cpp" />
+    <ClCompile Include="Private\FTransitionBlendInstance.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UAnimSharingAdditiveInstance.cpp" />
+    <ClCompile Include="Private\UAnimSharingInstance.cpp" />
+    <ClCompile Include="Private\UAnimSharingStateInstance.cpp" />
+    <ClCompile Include="Private\UAnimSharingTransitionInstance.cpp" />
+    <ClCompile Include="Private\UAnimationSharingManager.cpp" />
+    <ClCompile Include="Private\UAnimationSharingSetup.cpp" />
+    <ClCompile Include="Private\UAnimationSharingStateProcessor.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.AnimationSharing.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

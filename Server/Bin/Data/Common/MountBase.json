@@ -1,0 +1,906 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MountBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MountBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MountBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "77": {
+        "ID": 77,
+        "DataStage": 23,
+        "MountShapeType": "EDS_MountShapeType::Ravanos",
+        "StandardSpeed": 1100.0,
+        "StandardSprintSpeed": 1400.0,
+        "AirSpeed": 1800.0,
+        "AirSprintSpeed": 2300.0,
+        "BackMoveSpeed": 600.0,
+        "DashSpeed": 4000.0,
+        "DashTime": 4.0,
+        "DashSkill": 19020,
+        "ID_AttachBuff": [
+          1510
+        ],
+        "ID_AttachCharacterBuff": [
+          1510
+        ],
+        "ID_AttachMountBuff": [],
+        "MountActionType": [
+          "EDS_MountActionType::Air",
+          "EDS_MountActionType::Ground"
+        ],
+        "AdditionalHeadCount": 0,
+        "IsJump": false,
+        "IsAirSprint": true,
+        "IsGroundSprint": true,
+        "IsWaterSprint": false,
+        "MountRotateAngle": 15.0,
+        "MountHeadRotateConst": 1.7,
+        "TamingGameType": "EDS_MiniGameType::MiniGameKeyTimeAttack",
+        "TamingGameTypeValue": 1,
+        "MinThinkTime": 2.0,
+        "MaxThinkTime": 6.0,
+        "MealTime": 10.0,
+        "MountFoodType": [
+          "EDS_MountFoodType::Meat"
+        ],
+        "MountFoodGradeType": [
+          "EDS_MountFoodGradeType::Normal"
+        ],
+        "TamingOffset": 350.0,
+        "TamingMountSocketName": [
+          "MountAni_R",
+          "MountAni_L"
+        ],
+        "CharacterDismountCourseValue": [
+          200.0,
+          400.0
+        ],
+        "CharacterTamingFailCourseValue": [
+          211.0,
+          344.0
+        ],
+        "TamingMountingTime": 1.0,
+        "MountingTime": 1.0,
+        "DismountingTime": 0.54,
+        "MountingLocation": {
+          "X": -0.540968,
+          "Y": 3.766533,
+          "Z": 141.1553
+        },
+        "SuccessDismountingTime": 2.94,
+        "FailDismountingTime": 0.78,
+        "LeapHeight": 2.0,
+        "LeapTime": 1.0,
+        "ID_Portrait": 222001,
+        "ID_OutGameResourcePreset": 1100001,
+        "ID_DefaultName": {
+          "ID": 180001
+        },
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "CategoryType": "EDS_MountCategoryType::Air",
+        "RequiredSkill": "EDS_PlayerSkillType::Air",
+        "RequiredSkillValue": 1,
+        "MountBodyType": "EDS_MountBodyType::Bio",
+        "MountClimateType": [
+          "EDS_ClimateType::Mild"
+        ],
+        "MountFlooringType": [
+          "EDS_FlooringType::Road"
+        ],
+        "SeaterType": "EDS_SeaterType::One",
+        "MountFoodItemType": [
+          "EDS_ItemType::MountFoodBType"
+        ],
+        "StatusType": [
+          "EDS_StatusType::ClimateResistMild",
+          "EDS_StatusType::FlooringResistRoad",
+          "EDS_StatusType::Fatigue",
+          "EDS_StatusType::Hunger",
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          10000,
+          10000,
+          6000,
+          4000,
+          5000
+        ],
+        "InventorySlot": 50,
+        "ID_RestoreItem": [
+          240210001,
+          240220001
+        ],
+        "RestoreItemCount": [
+          2,
+          3
+        ],
+        "ID_NpcBase": 110000001
+      },
+      "78": {
+        "ID": 78,
+        "DataStage": 23,
+        "MountShapeType": "EDS_MountShapeType::Ravanos",
+        "StandardSpeed": 1100.0,
+        "StandardSprintSpeed": 1400.0,
+        "AirSpeed": 1800.0,
+        "AirSprintSpeed": 2300.0,
+        "BackMoveSpeed": 600.0,
+        "DashSpeed": 4000.0,
+        "DashTime": 4.0,
+        "DashSkill": 19020,
+        "ID_AttachBuff": [
+          1510
+        ],
+        "ID_AttachCharacterBuff": [
+          1510
+        ],
+        "ID_AttachMountBuff": [],
+        "MountActionType": [
+          "EDS_MountActionType::Air",
+          "EDS_MountActionType::Ground"
+        ],
+        "AdditionalHeadCount": 0,
+        "IsJump": false,
+        "IsAirSprint": true,
+        "IsGroundSprint": true,
+        "IsWaterSprint": false,
+        "MountRotateAngle": 15.0,
+        "MountHeadRotateConst": 1.7,
+        "TamingGameType": "EDS_MiniGameType::MiniGameKeyTimeAttack",
+        "TamingGameTypeValue": 1,
+        "MinThinkTime": 2.0,
+        "MaxThinkTime": 6.0,
+        "MealTime": 10.0,
+        "MountFoodType": [
+          "EDS_MountFoodType::None"
+        ],
+        "MountFoodGradeType": [
+          "EDS_MountFoodGradeType::None"
+        ],
+        "TamingOffset": 350.0,
+        "TamingMountSocketName": [
+          "MountAni_R",
+          "MountAni_L"
+        ],
+        "CharacterDismountCourseValue": [
+          200.0,
+          400.0
+        ],
+        "CharacterTamingFailCourseValue": [
+          211.0,
+          344.0
+        ],
+        "TamingMountingTime": 1.0,
+        "MountingTime": 1.0,
+        "DismountingTime": 0.54,
+        "MountingLocation": {
+          "X": -0.540968,
+          "Y": 3.766533,
+          "Z": 141.1553
+        },
+        "SuccessDismountingTime": 2.94,
+        "FailDismountingTime": 0.78,
+        "LeapHeight": 2.0,
+        "LeapTime": 1.0,
+        "ID_Portrait": 222002,
+        "ID_OutGameResourcePreset": 1100002,
+        "ID_DefaultName": {
+          "ID": 180002
+        },
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "CategoryType": "EDS_MountCategoryType::Air",
+        "RequiredSkill": "EDS_PlayerSkillType::Air",
+        "RequiredSkillValue": 1,
+        "MountBodyType": "EDS_MountBodyType::Craft",
+        "MountClimateType": [
+          "EDS_ClimateType::Mild"
+        ],
+        "MountFlooringType": [
+          "EDS_FlooringType::Road"
+        ],
+        "SeaterType": "EDS_SeaterType::One",
+        "MountFoodItemType": [
+          "EDS_ItemType::MountFoodCType"
+        ],
+        "StatusType": [
+          "EDS_StatusType::ClimateResistMild",
+          "EDS_StatusType::FlooringResistRoad",
+          "EDS_StatusType::Fatigue",
+          "EDS_StatusType::Hunger",
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          10000,
+          10000,
+          6000,
+          4000,
+          5000
+        ],
+        "InventorySlot": 50,
+        "ID_RestoreItem": [
+          240210001,
+          240220001
+        ],
+        "RestoreItemCount": [
+          2,
+          3
+        ],
+        "ID_NpcBase": 110000002
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "MountShapeType": "EDS_MountShapeType::Ravanos",
+        "StandardSpeed": 1100.0,
+        "StandardSprintSpeed": 1400.0,
+        "AirSpeed": 1800.0,
+        "AirSprintSpeed": 2300.0,
+        "BackMoveSpeed": 600.0,
+        "DashSpeed": 4000.0,
+        "DashTime": 4.0,
+        "DashSkill": 0,
+        "ID_AttachBuff": [
+          1510
+        ],
+        "ID_AttachCharacterBuff": [
+          1510
+        ],
+        "ID_AttachMountBuff": [],
+        "MountActionType": [
+          "EDS_MountActionType::Air",
+          "EDS_MountActionType::Ground"
+        ],
+        "AdditionalHeadCount": 1,
+        "IsJump": true,
+        "IsAirSprint": true,
+        "IsGroundSprint": false,
+        "IsWaterSprint": false,
+        "MountRotateAngle": 15.0,
+        "MountHeadRotateConst": 1.7,
+        "TamingGameType": "EDS_MiniGameType::MiniGameKeyTimeAttack",
+        "TamingGameTypeValue": 1,
+        "MinThinkTime": 2.0,
+        "MaxThinkTime": 6.0,
+        "MealTime": 10.0,
+        "MountFoodType": [
+          "EDS_MountFoodType::Vegetable"
+        ],
+        "MountFoodGradeType": [
+          "EDS_MountFoodGradeType::Normal"
+        ],
+        "TamingOffset": 350.0,
+        "TamingMountSocketName": [
+          "MountAni_R",
+          "MountAni_L"
+        ],
+        "CharacterDismountCourseValue": [
+          200.0,
+          400.0
+        ],
+        "CharacterTamingFailCourseValue": [
+          211.0,
+          344.0
+        ],
+        "TamingMountingTime": 1.0,
+        "MountingTime": 1.0,
+        "DismountingTime": 0.54,
+        "MountingLocation": {
+          "X": -0.540968,
+          "Y": 3.766533,
+          "Z": 141.1553
+        },
+        "SuccessDismountingTime": 2.94,
+        "FailDismountingTime": 0.78,
+        "LeapHeight": 2.0,
+        "LeapTime": 1.0,
+        "ID_Portrait": 222002,
+        "ID_OutGameResourcePreset": 1100002,
+        "ID_DefaultName": {
+          "ID": 180002
+        },
+        "ID_GradeType": "EDS_GradeType::High",
+        "CategoryType": "EDS_MountCategoryType::Air",
+        "RequiredSkill": "EDS_PlayerSkillType::Air",
+        "RequiredSkillValue": 3,
+        "MountBodyType": "EDS_MountBodyType::Craft",
+        "MountClimateType": [
+          "EDS_ClimateType::Hot",
+          "EDS_ClimateType::Cold"
+        ],
+        "MountFlooringType": [
+          "EDS_FlooringType::Plain",
+          "EDS_FlooringType::Snow"
+        ],
+        "SeaterType": "EDS_SeaterType::Two",
+        "MountFoodItemType": [
+          "EDS_ItemType::MountFoodCType"
+        ],
+        "StatusType": [
+          "EDS_StatusType::ClimateResistHot",
+          "EDS_StatusType::ClimateResistCold",
+          "EDS_StatusType::FlooringResistPlain",
+          "EDS_StatusType::FlooringResistSnow",
+          "EDS_StatusType::Fatigue",
+          "EDS_StatusType::Hunger",
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          10000,
+          10000,
+          10000,
+          10000,
+          6000,
+          4000,
+          5000
+        ],
+        "InventorySlot": 50,
+        "ID_RestoreItem": [
+          240210001,
+          240220001
+        ],
+        "RestoreItemCount": [
+          2,
+          3
+        ],
+        "ID_NpcBase": 110000002
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "MountShapeType": "EDS_MountShapeType::Ravanos",
+        "StandardSpeed": 1100.0,
+        "StandardSprintSpeed": 1400.0,
+        "AirSpeed": 1800.0,
+        "AirSprintSpeed": 2300.0,
+        "BackMoveSpeed": 600.0,
+        "DashSpeed": 4000.0,
+        "DashTime": 4.0,
+        "DashSkill": 0,
+        "ID_AttachBuff": [
+          1510
+        ],
+        "ID_AttachCharacterBuff": [
+          1510
+        ],
+        "ID_AttachMountBuff": [],
+        "MountActionType": [
+          "EDS_MountActionType::Ground"
+        ],
+        "AdditionalHeadCount": 0,
+        "IsJump": true,
+        "IsAirSprint": false,
+        "IsGroundSprint": true,
+        "IsWaterSprint": false,
+        "MountRotateAngle": 15.0,
+        "MountHeadRotateConst": 1.7,
+        "TamingGameType": "EDS_MiniGameType::MiniGameKeyTimeAttack",
+        "TamingGameTypeValue": 1,
+        "MinThinkTime": 2.0,
+        "MaxThinkTime": 6.0,
+        "MealTime": 10.0,
+        "MountFoodType": [
+          "EDS_MountFoodType::Meat"
+        ],
+        "MountFoodGradeType": [
+          "EDS_MountFoodGradeType::Normal"
+        ],
+        "TamingOffset": 350.0,
+        "TamingMountSocketName": [
+          "MountAni_R",
+          "MountAni_L"
+        ],
+        "CharacterDismountCourseValue": [
+          200.0,
+          400.0
+        ],
+        "CharacterTamingFailCourseValue": [
+          211.0,
+          344.0
+        ],
+        "TamingMountingTime": 1.0,
+        "MountingTime": 1.0,
+        "DismountingTime": 0.54,
+        "MountingLocation": {
+          "X": -0.540968,
+          "Y": 3.766533,
+          "Z": 141.1553
+        },
+        "SuccessDismountingTime": 2.94,
+        "FailDismountingTime": 0.78,
+        "LeapHeight": 2.0,
+        "LeapTime": 1.0,
+        "ID_Portrait": 222003,
+        "ID_OutGameResourcePreset": 1100001,
+        "ID_DefaultName": {
+          "ID": 180003
+        },
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "CategoryType": "EDS_MountCategoryType::Ground",
+        "RequiredSkill": "EDS_PlayerSkillType::Ground",
+        "RequiredSkillValue": 1,
+        "MountBodyType": "EDS_MountBodyType::Bio",
+        "MountClimateType": [
+          "EDS_ClimateType::Cold"
+        ],
+        "MountFlooringType": [
+          "EDS_FlooringType::Rough"
+        ],
+        "SeaterType": "EDS_SeaterType::One",
+        "MountFoodItemType": [
+          "EDS_ItemType::MountFoodAType",
+          "EDS_ItemType::MountFoodBType"
+        ],
+        "StatusType": [
+          "EDS_StatusType::ClimateResistCold",
+          "EDS_StatusType::FlooringResistRough",
+          "EDS_StatusType::Fatigue",
+          "EDS_StatusType::Hunger",
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          10000,
+          10000,
+          8000,
+          7000,
+          10000
+        ],
+        "InventorySlot": 100,
+        "ID_RestoreItem": [
+          240210001,
+          240220001
+        ],
+        "RestoreItemCount": [
+          2,
+          3
+        ],
+        "ID_NpcBase": 110000003
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "MountShapeType": "EDS_MountShapeType::Ravanos",
+        "StandardSpeed": 1100.0,
+        "StandardSprintSpeed": 1400.0,
+        "AirSpeed": 1800.0,
+        "AirSprintSpeed": 2300.0,
+        "BackMoveSpeed": 600.0,
+        "DashSpeed": 4000.0,
+        "DashTime": 4.0,
+        "DashSkill": 0,
+        "ID_AttachBuff": [
+          1510
+        ],
+        "ID_AttachCharacterBuff": [
+          1510
+        ],
+        "ID_AttachMountBuff": [],
+        "MountActionType": [
+          "EDS_MountActionType::Ground"
+        ],
+        "AdditionalHeadCount": 0,
+        "IsJump": true,
+        "IsAirSprint": false,
+        "IsGroundSprint": true,
+        "IsWaterSprint": false,
+        "MountRotateAngle": 15.0,
+        "MountHeadRotateConst": 1.7,
+        "TamingGameType": "EDS_MiniGameType::MiniGameKeyTimeAttack",
+        "TamingGameTypeValue": 1,
+        "MinThinkTime": 2.0,
+        "MaxThinkTime": 6.0,
+        "MealTime": 10.0,
+        "MountFoodType": [
+          "EDS_MountFoodType::Meat"
+        ],
+        "MountFoodGradeType": [
+          "EDS_MountFoodGradeType::Normal"
+        ],
+        "TamingOffset": 350.0,
+        "TamingMountSocketName": [
+          "MountAni_R",
+          "MountAni_L"
+        ],
+        "CharacterDismountCourseValue": [
+          200.0,
+          400.0
+        ],
+        "CharacterTamingFailCourseValue": [
+          211.0,
+          344.0
+        ],
+        "TamingMountingTime": 1.0,
+        "MountingTime": 1.0,
+        "DismountingTime": 0.54,
+        "MountingLocation": {
+          "X": -0.540968,
+          "Y": 3.766533,
+          "Z": 141.1553
+        },
+        "SuccessDismountingTime": 2.94,
+        "FailDismountingTime": 0.78,
+        "LeapHeight": 2.0,
+        "LeapTime": 1.0,
+        "ID_Portrait": 222004,
+        "ID_OutGameResourcePreset": 1100002,
+        "ID_DefaultName": {
+          "ID": 180004
+        },
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "CategoryType": "EDS_MountCategoryType::Ground",
+        "RequiredSkill": "EDS_PlayerSkillType::Ground",
+        "RequiredSkillValue": 3,
+        "MountBodyType": "EDS_MountBodyType::Craft",
+        "MountClimateType": [
+          "EDS_ClimateType::Humid",
+          "EDS_ClimateType::Mild"
+        ],
+        "MountFlooringType": [
+          "EDS_FlooringType::Swamp",
+          "EDS_FlooringType::Sand"
+        ],
+        "SeaterType": "EDS_SeaterType::Two",
+        "MountFoodItemType": [
+          "EDS_ItemType::MountFoodCType"
+        ],
+        "StatusType": [
+          "EDS_StatusType::ClimateResistHumid",
+          "EDS_StatusType::ClimateResistMild",
+          "EDS_StatusType::FlooringResistSwamp",
+          "EDS_StatusType::FlooringResistSand",
+          "EDS_StatusType::Fatigue",
+          "EDS_StatusType::Hunger",
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          10000,
+          10000,
+          10000,
+          10000,
+          8000,
+          7000,
+          10000
+        ],
+        "InventorySlot": 100,
+        "ID_RestoreItem": [
+          240210001,
+          240220001
+        ],
+        "RestoreItemCount": [
+          2,
+          3
+        ],
+        "ID_NpcBase": 110000004
+      },
+      "10001": {
+        "ID": 10001,
+        "DataStage": 23,
+        "MountShapeType": "EDS_MountShapeType::Horse",
+        "StandardSpeed": 1100.0,
+        "StandardSprintSpeed": 1400.0,
+        "AirSpeed": 0.0,
+        "AirSprintSpeed": 0.0,
+        "BackMoveSpeed": 200.0,
+        "DashSpeed": 0.0,
+        "DashTime": 0.0,
+        "DashSkill": 0,
+        "ID_AttachBuff": [],
+        "ID_AttachCharacterBuff": [],
+        "ID_AttachMountBuff": [],
+        "MountActionType": [
+          "EDS_MountActionType::Ground"
+        ],
+        "AdditionalHeadCount": 0,
+        "IsJump": true,
+        "IsAirSprint": false,
+        "IsGroundSprint": true,
+        "IsWaterSprint": false,
+        "MountRotateAngle": 15.0,
+        "MountHeadRotateConst": 1.7,
+        "TamingGameType": "EDS_MiniGameType::MiniGameKeyTimeAttack",
+        "TamingGameTypeValue": 101,
+        "MinThinkTime": 3.0,
+        "MaxThinkTime": 7.0,
+        "MealTime": 10.0,
+        "MountFoodType": [
+          "EDS_MountFoodType::Vegetable"
+        ],
+        "MountFoodGradeType": [
+          "EDS_MountFoodGradeType::Normal"
+        ],
+        "TamingOffset": 120.0,
+        "TamingMountSocketName": [
+          "MountAni_R",
+          "MountAni_L"
+        ],
+        "CharacterDismountCourseValue": [
+          110.0,
+          220.0
+        ],
+        "CharacterTamingFailCourseValue": [
+          211.0,
+          344.0
+        ],
+        "TamingMountingTime": 0.5,
+        "MountingTime": 1.15,
+        "DismountingTime": 0.5,
+        "MountingLocation": {
+          "X": -0.540968,
+          "Y": 3.766533,
+          "Z": 141.1553
+        },
+        "SuccessDismountingTime": 2.07,
+        "FailDismountingTime": 0.74,
+        "LeapHeight": 0.0,
+        "LeapTime": 0.0,
+        "ID_Portrait": 222003,
+        "ID_OutGameResourcePreset": 1100001,
+        "ID_DefaultName": {
+          "ID": 180003
+        },
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "CategoryType": "EDS_MountCategoryType::Ground",
+        "RequiredSkill": "EDS_PlayerSkillType::Ground",
+        "RequiredSkillValue": 1,
+        "MountBodyType": "EDS_MountBodyType::Bio",
+        "MountClimateType": [
+          "EDS_ClimateType::Mild"
+        ],
+        "MountFlooringType": [
+          "EDS_FlooringType::Road"
+        ],
+        "SeaterType": "EDS_SeaterType::One",
+        "MountFoodItemType": [
+          "EDS_ItemType::MountFoodBType"
+        ],
+        "StatusType": [
+          "EDS_StatusType::ClimateResistMild",
+          "EDS_StatusType::FlooringResistRoad",
+          "EDS_StatusType::Fatigue",
+          "EDS_StatusType::Hunger",
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          10000,
+          10000,
+          6000,
+          4000,
+          5000
+        ],
+        "InventorySlot": 100,
+        "ID_RestoreItem": [
+          240210001,
+          240220001
+        ],
+        "RestoreItemCount": [
+          2,
+          3
+        ],
+        "ID_NpcBase": 110001001
+      },
+      "10002": {
+        "ID": 10002,
+        "DataStage": 23,
+        "MountShapeType": "EDS_MountShapeType::Horse",
+        "StandardSpeed": 1100.0,
+        "StandardSprintSpeed": 1400.0,
+        "AirSpeed": 0.0,
+        "AirSprintSpeed": 0.0,
+        "BackMoveSpeed": 200.0,
+        "DashSpeed": 0.0,
+        "DashTime": 0.0,
+        "DashSkill": 0,
+        "ID_AttachBuff": [],
+        "ID_AttachCharacterBuff": [],
+        "ID_AttachMountBuff": [],
+        "MountActionType": [
+          "EDS_MountActionType::Ground"
+        ],
+        "AdditionalHeadCount": 0,
+        "IsJump": true,
+        "IsAirSprint": false,
+        "IsGroundSprint": true,
+        "IsWaterSprint": false,
+        "MountRotateAngle": 15.0,
+        "MountHeadRotateConst": 1.7,
+        "TamingGameType": "EDS_MiniGameType::MiniGameKeyTimeAttack",
+        "TamingGameTypeValue": 101,
+        "MinThinkTime": 3.0,
+        "MaxThinkTime": 7.0,
+        "MealTime": 10.0,
+        "MountFoodType": [
+          "EDS_MountFoodType::Vegetable"
+        ],
+        "MountFoodGradeType": [
+          "EDS_MountFoodGradeType::Normal"
+        ],
+        "TamingOffset": 120.0,
+        "TamingMountSocketName": [
+          "MountAni_R",
+          "MountAni_L"
+        ],
+        "CharacterDismountCourseValue": [
+          110.0,
+          220.0
+        ],
+        "CharacterTamingFailCourseValue": [
+          211.0,
+          344.0
+        ],
+        "TamingMountingTime": 0.5,
+        "MountingTime": 1.15,
+        "DismountingTime": 0.5,
+        "MountingLocation": {
+          "X": -0.540968,
+          "Y": 3.766533,
+          "Z": 141.1553
+        },
+        "SuccessDismountingTime": 2.07,
+        "FailDismountingTime": 0.74,
+        "LeapHeight": 0.0,
+        "LeapTime": 0.0,
+        "ID_Portrait": 222004,
+        "ID_OutGameResourcePreset": 1100001,
+        "ID_DefaultName": {
+          "ID": 180004
+        },
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "CategoryType": "EDS_MountCategoryType::Ground",
+        "RequiredSkill": "EDS_PlayerSkillType::Ground",
+        "RequiredSkillValue": 1,
+        "MountBodyType": "EDS_MountBodyType::Bio",
+        "MountClimateType": [
+          "EDS_ClimateType::Mild"
+        ],
+        "MountFlooringType": [
+          "EDS_FlooringType::Road"
+        ],
+        "SeaterType": "EDS_SeaterType::One",
+        "MountFoodItemType": [
+          "EDS_ItemType::MountFoodBType"
+        ],
+        "StatusType": [
+          "EDS_StatusType::ClimateResistMild",
+          "EDS_StatusType::FlooringResistRoad",
+          "EDS_StatusType::Fatigue",
+          "EDS_StatusType::Hunger",
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          10000,
+          10000,
+          6000,
+          4000,
+          5000
+        ],
+        "InventorySlot": 100,
+        "ID_RestoreItem": [
+          240210001,
+          240220001
+        ],
+        "RestoreItemCount": [
+          2,
+          3
+        ],
+        "ID_NpcBase": 110001002
+      },
+      "999": {
+        "ID": 999,
+        "DataStage": 23,
+        "MountShapeType": "EDS_MountShapeType::Ravanos",
+        "StandardSpeed": 1100.0,
+        "StandardSprintSpeed": 1400.0,
+        "AirSpeed": 1800.0,
+        "AirSprintSpeed": 2300.0,
+        "BackMoveSpeed": 600.0,
+        "DashSpeed": 4000.0,
+        "DashTime": 4.0,
+        "DashSkill": 19020,
+        "ID_AttachBuff": [
+          1510
+        ],
+        "ID_AttachCharacterBuff": [
+          1510
+        ],
+        "ID_AttachMountBuff": [],
+        "MountActionType": [
+          "EDS_MountActionType::Air",
+          "EDS_MountActionType::Ground"
+        ],
+        "AdditionalHeadCount": 0,
+        "IsJump": false,
+        "IsAirSprint": true,
+        "IsGroundSprint": true,
+        "IsWaterSprint": false,
+        "MountRotateAngle": 15.0,
+        "MountHeadRotateConst": 1.7,
+        "TamingGameType": "EDS_MiniGameType::MiniGameKeyTimeAttack",
+        "TamingGameTypeValue": 1,
+        "MinThinkTime": 2.0,
+        "MaxThinkTime": 6.0,
+        "MealTime": 10.0,
+        "MountFoodType": [
+          "EDS_MountFoodType::Meat"
+        ],
+        "MountFoodGradeType": [
+          "EDS_MountFoodGradeType::Normal"
+        ],
+        "TamingOffset": 350.0,
+        "TamingMountSocketName": [
+          "MountAni_R",
+          "MountAni_L"
+        ],
+        "CharacterDismountCourseValue": [
+          200.0,
+          400.0
+        ],
+        "CharacterTamingFailCourseValue": [
+          211.0,
+          344.0
+        ],
+        "TamingMountingTime": 1.0,
+        "MountingTime": 1.0,
+        "DismountingTime": 0.54,
+        "MountingLocation": {
+          "X": -0.540968,
+          "Y": 3.766533,
+          "Z": 141.1553
+        },
+        "SuccessDismountingTime": 2.94,
+        "FailDismountingTime": 0.78,
+        "LeapHeight": 2.0,
+        "LeapTime": 1.0,
+        "ID_Portrait": 222001,
+        "ID_OutGameResourcePreset": 1100001,
+        "ID_DefaultName": {
+          "ID": 180001
+        },
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "CategoryType": "EDS_MountCategoryType::Air",
+        "RequiredSkill": "EDS_PlayerSkillType::Air",
+        "RequiredSkillValue": 1,
+        "MountBodyType": "EDS_MountBodyType::Bio",
+        "MountClimateType": [
+          "EDS_ClimateType::Mild"
+        ],
+        "MountFlooringType": [
+          "EDS_FlooringType::Road"
+        ],
+        "SeaterType": "EDS_SeaterType::One",
+        "MountFoodItemType": [
+          "EDS_ItemType::MountFoodBType"
+        ],
+        "StatusType": [
+          "EDS_StatusType::ClimateResistMild",
+          "EDS_StatusType::FlooringResistRoad",
+          "EDS_StatusType::Fatigue",
+          "EDS_StatusType::Hunger",
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          10000,
+          10000,
+          6000,
+          4000,
+          5000
+        ],
+        "InventorySlot": 50,
+        "ID_RestoreItem": [
+          240210001,
+          240220001
+        ],
+        "RestoreItemCount": [
+          2,
+          3
+        ],
+        "ID_NpcBase": 30049
+      }
+    }
+  }
+]

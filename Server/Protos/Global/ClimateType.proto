@@ -1,0 +1,11 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum ClimateType {
+  ClimateType_None = 0;
+  ClimateType_Mild = 1;
+  ClimateType_Hot = 2;
+  ClimateType_Cold = 3;
+  ClimateType_Humid = 4;
+}

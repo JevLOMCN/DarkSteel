@@ -1,0 +1,1652 @@
+syntax = "proto3";
+package server_msg;
+option csharp_namespace = "MirProto.ServerMsg";
+
+import "_options.proto";
+import "_vector.proto";
+import "ability.proto";
+import "ChattingType.proto";
+import "DeathType.proto";
+import "ds_game.proto";
+import "ErrorCode.proto";
+import "google/protobuf/timestamp.proto";
+import "messages.proto";
+import "MoveMode.proto";
+import "MoveState.proto";
+import "PkModeType.proto";
+import "PvpChangeType.proto";
+import "RewardType.proto";
+import "role_register.proto";
+import "StatusType.proto";
+import "structs_character.proto";
+import "structs_team.proto";
+import "structs_pk_data.proto";
+import "SyncState.proto";
+import "VelocityState.proto";
+import "Shape.proto";
+import "DamageMessage.proto";
+import "ContentsBaseType.proto";
+import "ContentsFunctionType.proto";
+import "FunctionLockType.proto";
+import "ZoneEventNotifyType.proto";
+import "structs_party.proto";
+import "structs_raid_party.proto";
+import "structs_warp.proto";
+import "HeightConditionType.proto";
+import "PlayerSkillType.proto";
+import "GradeType.proto";
+import "WarpType.proto";
+import "TamingMountSide.proto";
+import "ds_guild/sql_guild.proto";
+import "ds_guild/sql_guild_member.proto";
+import "ds_game/sql_pvp_table.proto";
+import "RaidPartyNotifyType.proto";
+import "RaidMemberState.proto";
+import "GimmickActionType.proto";
+import "AccountAuthority.proto";
+import "StuffSpawnType.proto";
+import "InstanceQuestGraceType.proto";
+import "nvidia_command.proto";
+import "WorldBossNotifyType.proto";
+import "ClimateType.proto";
+import "FlooringType.proto";
+import "ResurrectType.proto";
+import "enum/Winner.proto";
+import "enum/JoinMapType.proto";
+import "enum/EntityDeadType.proto";
+import "enum/BattleNpcTargetingType.proto";
+import "enum/AggroEntityType.proto";
+import "enum/TamingState.proto";
+import "structs_item.proto";
+import "api_guild.proto";
+import "GuildMemberGradeType.proto";
+import "GuildAutoKickType.proto";
+import "GuildJoinType.proto";
+
+message ServerMessages {
+  oneof ServerMessage {
+    server_msg.ErrorCodeResponse ErrorCodeRes = 1;
+    server_msg.LogOutSuccess LogOutRes = 2;
+    server_msg.JoinMapResponse JoinMapRes = 3;
+    server_msg.SpawnCharacterResponse SpawnCharacterRes = 4;
+    server_msg.RemoveEntitiesResponse RemoveEntitiesRes = 5;
+    server_msg.GroupDamageEventResponse GroupDamageEventRes = 6;
+    server_msg.TencentUserSigResponse TencentUserSigRes = 8;
+    server_msg.NetSyncResponse NetSyncRes = 9;
+    server_msg.FacingPitchUpdateResponse FacingPitchUpdateRes = 7;
+    server_msg.NetSkillAttackSyncResponse NetSkillAttackSyncRes = 10;
+    server_msg.PrintNetSyncResponse PrintNetSyncRes = 11;
+    server_msg.SpawnNpcResponse SpawnNpcRes = 12;
+    server_msg.CastSkillTargetSelfResponse CastSkillTargetSelfRes = 13;
+    server_msg.CastSkillTargetEntityResponse CastSkillTargetEntityRes = 14;
+    server_msg.CastSkillTargetPositionResponse CastSkillTargetPositionRes = 15;
+    server_msg.CastSkillResponse CastSkillRes = 18;
+    server_msg.EffectBuffUpdateResponse EffectBuffUpdateRes = 19;
+    server_msg.BattleStateResponse BattleStateRes = 20;
+    server_msg.PrintColliderResponse PrintColliderRes = 22;
+    server_msg.StatusUpdateResponse StatusUpdateRes = 23;
+    server_msg.EntityInfoResponse EntityInfoRes = 24;
+    server_msg.MoveSyncResponse MoveSyncRes = 25;
+    server_msg.HeightSyncResponse HeightSyncRes = 26;
+    server_msg.TimeSyncResponse TimeSyncRes = 27;
+    server_msg.GetAllCharactersResponse GetAllCharactersRes = 31;
+    server_msg.UpdateMyInfoResponse UpdateMyInfoRes = 34;
+    server_msg.MyCharacterInfoResponseComplete MyCharacterInfoResComplete = 35;
+    server_msg.ExpChangeResponse ExpChangeRes = 36;
+    server_msg.MyStatusResponse MyStatusRes = 37;
+    server_msg.MyCurrentStatusResponse MyCurrentStatusRes = 38;
+    server_msg.BuffTargetListResponse BuffTargetListRes = 39;
+    server_msg.ItemUseResponse ItemUseRes = 43;
+    server_msg.SpawnStuffResponse SpawnStuffRes = 45;
+    server_msg.StuffGatherStartResponse StuffGatherStartRes = 46;
+    server_msg.StuffGatherCancelResponse StuffGatherCancelRes = 47;
+    server_msg.StuffGatherCompleteResponse StuffGatherCompleteRes = 48;
+    server_msg.UpdateTeamInfoResponse UpdateTeamInfoRes = 49;
+    server_msg.DiedResponse DiedRes = 50;
+    server_msg.CurrentStatusResponse CurrentStatusRes = 57;
+    server_msg.OriginStatusResponse OriginStatusRes = 59;
+    server_msg.HealBuffCurrentStatusResponse HealBuffCurrentStatusRes = 58;
+    server_msg.BuffDamageResponse BuffDamageRes = 56;
+    server_msg.SpawnTransportResponse SpawnTransportRes = 60;
+    server_msg.InvalidPositionUpdateResponse InvalidMovePositionRes = 61;
+    server_msg.TransportWarpNotify TransportWarpNoti = 63;
+    server_msg.TransportWarpResponse TransportWarpRes = 64;
+    server_msg.ZoneIdChangeResponse ZoneIdChangeRes = 65;
+    server_msg.ResultUiResponse ResultUiRes = 66;
+    server_msg.RewardResponse RewardRes = 67;
+    server_msg.LevelChangeResponse LevelChangeRes = 68;
+    server_msg.CombatPowerResponse CombatPowerRes = 69;
+    server_msg.TransportWarpMapLoadingNotify TransportWarpMapLoadingNoti = 70;
+    server_msg.SpawnTotemResponse SpawnTotemRes = 80;
+    server_msg.SkillModeStartResponse SkillModeStartRes = 81;
+    server_msg.SkillModeEndResponse SkillModeEndRes = 82;
+    server_msg.PkModeChangeResponse PkModeChangeRes = 110;
+    server_msg.ForceAttackCommandResponse ForceAttackCommandRes = 111;
+    server_msg.PkHistoryResponse PkHistoryRes = 112;
+    server_msg.UpdatePvpInfoNotify UpdatePvpInfoNoti = 115;
+    server_msg.AbnormalEventResponse AbnormalEventRes = 120;
+    server_msg.GroggyEventResponse GroggyEventRes = 121;
+    server_msg.AbnormalCancelResponse AbnormalCancelRes = 122;
+    server_msg.SkillCancelResponse SkillCancelRes = 123;
+    server_msg.AutoSkillUseResponse AutoSkillUseRes = 124;
+    server_msg.ItemEnhanceResponse ItemEnhanceRes = 130;
+    server_msg.ItemCampCookingPopupResponse ItemCampCookingPopupRes = 133;
+    server_msg.ItemCampCookingUseAnimationResponse ItemCampCookingUseAnimationRes = 134;
+    server_msg.ContentsDataResponse ContentsDataRes = 140;
+    server_msg.ZoneEventNotifyResponse ZoneEventNotifyRes = 150;
+    server_msg.ZoneEventMessageResponse ZoneEventMessageRes = 151;
+    server_msg.ScriptMissionTrackerStartResponse ScriptMissionTrackerStartRes = 155;
+    server_msg.ScriptMissionTrackerUpdateResponse ScriptMissionTrackerUpdateRes = 156;
+    server_msg.ScriptMissionTrackerEndResponse ScriptMissionTrackerEndRes = 157;
+    server_msg.ScriptPhasingContinuousCallStartResponse ScriptPhasingContinuousCallStartRes = 158;
+    server_msg.ScriptBlockingWallStateResponse ScriptBlockingWallStateRes = 159;
+    server_msg.ClimateResponse ClimateRes = 160;
+    server_msg.FlooringResponse flooringRes = 162;
+    server_msg.GameServerChangeResponse GameServerChangeRes = 172;
+    server_msg.ItemActionCastingResponse ItemActionCastingRes = 173;
+    server_msg.SkillMoveRandomAnglesResponse SkillMoveRandomAnglesRes = 210;
+    server_msg.InitSkillMoveRandomAnglesResponse InitSkillMoveRandomAnglesRes = 211;
+    server_msg.SkillNpcRotationEndTimeResponse SkillNpcRotationEndTimeRes = 212;
+    server_msg.SkillMoveDestinationResponse SkillMoveDestinationRes = 213;
+    server_msg.HeightMoveResponse HeightMoveRes = 214;
+    server_msg.ProjectileResponse ProjectileRes = 215;
+    server_msg.CreateNicknameResponse CreateNicknameRes = 320;
+    server_msg.CreateCharacterResponse CreateCharacterRes = 321;
+    server_msg.SpawnStuffWarpDeviceResponse SpawnStuffWarpDeviceRes = 400;
+    server_msg.SpawnStuffPortalResponse SpawnStuffPortalRes = 430;
+    server_msg.SpawnStuffQuestBoardResponse SpawnStuffQuestBoardRes = 450;
+    server_msg.SpawnStuffQuestResponse SpawnStuffQuestRes = 470;
+    server_msg.PatrolStepNumberResponse PatrolStepRes = 490;
+    server_msg.GimmickInteractionResponse GimmickInteractionRes = 500;
+    server_msg.GimmickActionResponse GimmickActionRes = 501;
+    server_msg.ComeBackStartResponse ComeBackStartRes = 520;
+    server_msg.BattleNpcTargetingResponse BattleNpcTargetingRes = 521;
+    server_msg.ShowAggroListResponse ShowAggroListRes = 530;
+    server_msg.NpcRelationGrowResponse NpcRelationGrowRes = 550;
+    server_msg.NpcRelationGradeEvolveResponse NpcRelationGradeEvolveRes = 551;
+    server_msg.FlyModeCancelResponse FlyModeCancelRes = 590;
+    server_msg.MountResponse MountRes = 591;
+    server_msg.DisMountResponse DisMountRes = 592;
+    server_msg.SealStateEnteredResponse SealStateEnteredRes = 610;
+    server_msg.SealStateExitedResponse SealStateExitedRes = 611;
+    server_msg.AltarBossSummonResponse AltarBossSummonRes = 612;
+    server_msg.HandlingStartResponse HandlingStartRes = 620;
+    server_msg.HandlingEndResponse HandlingEndRes = 621;
+    server_msg.GravityFallResponse GravityFallRes = 622;
+    server_msg.EventAnimControlResponse EventAnimControlRes = 623;
+    server_msg.EquipResponse EquipRes = 700;
+    server_msg.ItemOpenBoxResponse ItemOpenBoxRes = 701;
+    server_msg.QuestLeaveGraceResponse QuestLeaveGraceRes = 20000;
+    server_msg.QuestAcceptResponse QuestAcceptRes = 20001;
+    server_msg.QuestCompleteResponse QuestCompleteRes = 20002;
+    server_msg.QuestCancelResponse QuestCancelRes = 20003;
+    server_msg.QuestTrackingResponse QuestTrackingRes = 20004;
+    server_msg.QuestObjectiveResponse QuestObjectiveRes = 20005;
+    server_msg.QuestFailureResponse QuestFailureRes = 20006;
+    server_msg.QuestDailyResetResponse QuestDailyResetRes = 20007;
+    server_msg.QuestAutoTrackingResponse QuestAutoTrackingRes = 200008;
+    server_msg.QuestWeeklyResetResponse QuestWeeklyResetRes = 20009;
+    server_msg.QuestMonthlyResetResponse QuestMonthlyResetRes = 20010;
+    server_msg.QuestRepeatResetResponse QuestRepeatResetRes = 20011;
+    server_msg.QuestInstanceActiveResponse QuestInstanceActiveRes = 20012;
+    server_msg.QuestInstanceFinishResponse QuestInstanceFinishRes = 20013;
+    server_msg.PartyInfoResponse PartyInfoRes = 20100;
+    server_msg.PartySlotChangeResponse PartySlotChangeRes = 20101;
+    server_msg.PartyInvitedResponse PartyInvitedRes = 20102;
+    server_msg.PartyLeaderChangeResponse PartyLeaderChangeRes = 20103;
+    server_msg.PartyMemberSyncResponse PartyMemberSyncRes = 20104;
+    server_msg.PartyDismissResponse PartyDismissRes = 20105;
+    server_msg.PartyKickedResponse PartyKickedRes = 20106;
+    server_msg.PartyRejectInfoResponse PartyRejectInfoRes = 20107;
+    server_msg.PlayerExpChangeResponse PlayerExpChangeRes = 20200;
+    server_msg.PlayerGradeChangeResponse PlayerGradeChangeRes = 20201;
+    server_msg.PlayerSkillDetectResponse PlayerSkillDetectRes = 20202;
+    server_msg.PlayerSkillPreservedListNotify PlayerSkillPreservedListNoti = 20203;
+    server_msg.GetPartGuildsInfoResponse GetPartGuildsInfoRes = 20300;
+    server_msg.GetGuildResponse GetGuildRes = 20301;
+    server_msg.CreateGuildResponse CreateGuildRes = 20302;
+    server_msg.UpdateGuildResponse UpdateGuildRes = 20303;
+    server_msg.DeleteGuildResponse DeleteGuildRes = 20304;
+    server_msg.GetGuildMembersResponse GetGuildMembersRes = 20305;
+    server_msg.JoinGuildResponse JoinGuildRes = 20306;
+    server_msg.ApproveJoinGuildResponse ApproveJoinGuildRes = 20307;
+    server_msg.DelegateGuildMasterResponse DelegateGuildMasterRes = 20308;
+    server_msg.ChangeGuildMemberGradeResponse ChangeGuildMemberGradeRes = 20309;
+    server_msg.DeleteGuildMemberResponse DeleteGuildMemberRes = 20310;
+    server_msg.GetGuildListResponse GetGuildListRes = 20311;
+    api_guild.GuildFullInfoResponse GuildFullInfoRes = 20312;
+    api_guild.NotifyGuildMessage NotifyGuildMsg = 20313;
+    server_msg.LeaveGuildResponse LeaveGuildRes = 20314;
+    server_msg.InviteGuildResponse InviteGuildRes = 20315;
+    server_msg.AcceptGuildInvitationResponse AcceptGuildInvitationRes = 20316;
+    server_msg.GetGuildPendingListResponse GetGuildPendingListRes = 20317;
+    server_msg.GetMyPendingListResponse GetMyPendingListRes = 20318;
+    server_msg.CancelGuildInvitationResponse CancelGuildInvitationRes = 20319;
+    server_msg.CancelJoinGuildResponse CancelJoinGuildRes = 20320;
+    server_msg.UpdateGuildMarkResponse UpdateGuildMarkRes = 20321;
+    server_msg.UpdateGuildNameResponse UpdateGuildNameRes = 20322;
+    server_msg.UpdateGuildSettingResponse UpdateGuildSettingRes = 20323;
+    server_msg.CheckGuildNameExistResponse CheckGuildNameExistRes = 20324;
+    server_msg.JoinGuildResultResponse JoinGuildResultRes = 20350;
+    server_msg.ResurrectResponse ResurrectRes = 20401;
+    server_msg.PrepareWarpResponse PrepareWarpRes = 20413;
+    server_msg.WarpCastingResponse WarpCastingRes = 20414;
+    server_msg.WarpStartResponse WarpStartRes = 20415;
+    server_msg.WarpArriveResponse WarpArriveRes = 20416;
+    server_msg.WarpCancelResponse WarpCancelRes = 20417;
+    server_msg.WarpFailResponse WarpFailRes = 20418;
+    server_msg.OpenLockSkillUseResponse OpenLockSkillUseRes = 20500;
+    server_msg.OpenLockSkillCancelResponse OpenLockSkillCancelRes = 20501;
+    server_msg.OpenLockCompleteResponse OpenLockCompleteRes = 20502;
+    server_msg.LingSkillUseResponse LingSkillUseRes = 20600;
+    server_msg.LingSkillCancelResponse LingSkillCancelRes = 20601;
+    server_msg.LingCompleteResponse LingCompleteRes = 20602;
+    server_msg.LingSuccessNpcTalkStartResponse LingSuccessNpcTalkStartRes = 20603;
+    server_msg.LingSuccessNpcTalkEndResponse LingSuccessNpcTalkEndRes = 20604;
+    server_msg.CampInstallCastingResponse CampInstallCastingRes = 20700;
+    server_msg.CampInstallCancelResponse CampInstallCancelRes = 20701;
+    server_msg.CampSeatSitDownResponse CampSeatSitDownRes = 20702;
+    server_msg.CampSeatStandUpResponse CampSeatStandUpRes = 20703;
+    server_msg.SubMergeCancelResponse SubMergeCancelRes = 20704;
+    server_msg.RaidPartyMemberUpdateStateNotify RaidPartyMemberUpdateStateNoti = 20800;
+    server_msg.RaidPartyKickVoteNotify RaidPartyKickVoteNoti = 20801;
+    server_msg.RaidPartyInviteAlarm RaidPartyInviteAlm = 20802;
+    server_msg.RaidPartyDungeonStartNotify RaidPartyDungeonStartNoti = 20803;
+    server_msg.RaidPartyInfoNotify RaidPartyInfoNoti = 20804;
+    server_msg.RaidPartyMemberInfoNotify RaidPartyMemberInfoNoti = 20805;
+    server_msg.RaidPartyVoteStartNotify RaidPartyVoteStartNoti = 20806;
+    server_msg.DungeonResultNotify DungeonResultNoti = 20807;
+    server_msg.RaidPartyClearExitNotify RaidPartyClearExitNoti = 20808;
+    server_msg.RaidPartyDeleteNotify RaidPartyDeleteNoti = 20809;
+    server_msg.RaidPartyListResponse RaidPartyListRes = 20810;
+    server_msg.GetRaidPartyInfoSearchResponse GetRaidPartyInfoSearchRes = 20811;
+    server_msg.RaidPartyMemberSyncResponse RaidPartyMemberSyncRes = 20812;
+    server_msg.RaidPartyAllDungeonOutResponse RaidPartyAllDungeonOutRes = 20813;
+    server_msg.DungeonFirstClearMailNotify DungeonFirstClearMailNoti = 20814;
+    server_msg.ChatResponse ChatRes = 21000;
+    server_msg.ChatAllResponse ChatAllRes = 21001;
+    server_msg.TamingStateResponse TamingStateRes = 21100;
+    server_msg.WorldBossInfoNotify WorldBossInfoNoti = 21300;
+    server_msg.WorldBossNotify WorldBossNoti = 21301;
+    server_msg.MountLostViewResponse MountLostViewRes = 21400;
+    server_msg.MountLostReclaimResponse MountLostReclaimRes = 21401;
+    server_msg.ItemDurabilityAlertResponse ItemDurabilityAlertRes = 21501;
+    server_msg.MailAlertResponse MailAlertRes = 21600;
+    server_msg.WeatherCheatResponse weatherCheatRes = 22000;
+    server_msg.AiTrainingRoundResponse AiTrainingRoundRes = 30000;
+    server_msg.AiTrainingRoundResultResponse AiTrainingRoundResultRes = 30001;
+    server_msg.HpChangeResponse HpChangeRes = 30002;
+    server_msg.ColliderDestructionResponse ColliderDestructionRes = 30003;
+    server_msg.PlayerAiRoundRecords PlayerAiRoundRecordsRes = 30004;
+    server_msg.AvailableSkillsResponse AvailableSkillsRes = 30010;
+    nvidia_command.NvidiaCommandRequest AiCommandRes = 30011;
+    server_msg.DespawnAllEntitiesResponse DespawnAllEntitiesRes = 30020;
+    server_msg.PhasingStartResponse PhasingStartRes = 40050;
+    server_msg.PhasingEndResponse PhasingEndRes = 40051;
+    server_msg.PhasingResultNotify PhasingResultNoti = 40052;
+    server_msg.HeartbeatResponse HeartbeatRes = 99998;
+    protocol.ServerRoleRegister RoleRegister = 99999;
+  }
+}
+message CreateNicknameResponse {
+  ErrorCode error_code = 1;
+  messages.FrontEndClientSession front_end_client_session = 100;
+  messages.PlayerEntity player = 102;
+  messages.MainCharacter main_character = 103;
+  int64 player_uid = 104;
+}
+message CreateCharacterResponse {
+  ErrorCode error_code = 1;
+  messages.FrontEndClientSession front_end_client_session = 100;
+  messages.PlayerEntity player = 102;
+  messages.MainCharacter main_character = 103;
+  int64 player_uid = 104;
+}
+message TencentUserSigResponse {
+  string user_sig = 1;
+  uint32 sdk_app_id = 2;
+}
+message AiTrainingRoundResponse {
+  uint64 round = 1;
+}
+message AiTrainingRoundResultResponse {
+  server_msg.Winner winner = 1;
+  uint64 round_number = 2;
+  uint64 round_duration_secs = 3;
+  uint32 alive_character_count = 4;
+  uint64 total_character_hp = 5;
+  uint32 alive_boss_count = 6;
+  uint64 total_boss_hp = 7;
+  uint32 server_id = 8;
+}
+message NetSyncResponse {
+  uint64 entity_id = 1;
+  Vector position = 2;
+  VectorF direction = 3;
+  VectorF velocity = 4;
+  VelocityState velocity_state = 5;
+  float acceleration = 6;
+  double ticks = 7;
+  components.MoveMode move_mode = 8;
+  SyncState sync_state = 9;
+  Vector destination = 10;
+  server_msg.SkillInfo skill_info = 11;
+  server_msg.BuffInfo buff_info = 12;
+  messages.MyTransport my_transport = 13;
+  server_msg.NonGroundHeight height_type = 15;
+}
+message NonGroundHeight {
+  HeightConditionType height = 1;
+}
+message BattleState {
+  bool is_battle_state = 1;
+}
+message InvalidPositionUpdateResponse {
+  ErrorCode error_code = 1;
+}
+message NetSkillAttackSyncResponse {
+  uint64 entity_id = 1;
+  Vector position = 2;
+  float direction = 3;
+  VectorF velocity = 4;
+  double ticks = 5;
+  int32 skill_attack_id = 6;
+  Vector predicted_arrival_position = 7;
+}
+message PrintNetSyncResponse {
+  uint64 entity_id = 1;
+  Vector position = 2;
+  float direction = 3;
+  VectorF velocity = 4;
+  double ticks = 5;
+  components.MoveMode move_mode = 6;
+}
+message PrintColliderResponse {
+  Vector position = 1;
+  float direction = 2;
+  Vector extents = 3;
+  float radius = 4;
+  Shape shape = 5;
+  Color color = 6;
+  CollisionEventType collision_type = 7;
+}
+message JoinMapResponse {
+  ErrorCode error_code = 1;
+  repeated server_msg.CharacterEntityPair entity_pair = 2;
+  double world_ticks = 4;
+  google.protobuf.Timestamp server_time = 5;
+  uint32 zone_id = 6;
+  uint64 player_entity_id = 7;
+  server_msg.JoinMapType event_type = 8;
+  uint32 district_id = 9;
+  uint32 island_id = 10;
+  string nickname = 11;
+}
+message CharacterEntityPair {
+  messages.CharacterEntityType entity_type = 1;
+  int32 char_id = 2;
+  optional uint64 old_entity = 3;
+}
+message MyCharacterInfoResponse {
+  repeated ds_game.DbWorkItem db_work_items = 1;
+}
+message StatusInteger {
+  StatusType status_type = 1;
+  int32 status_value = 2;
+}
+message StatusFloat {
+  StatusType status_type = 1;
+  float status_value = 2;
+}
+message MyStatusResponse {
+  repeated server_msg.StatusInteger status_list = 1;
+  int32 char_id = 2;
+}
+message MyCurrentStatusResponse {
+  repeated server_msg.StatusFloat status_list = 1;
+  int32 char_id = 2;
+}
+message HealBuffCurrentStatusResponse {
+  uint64 trigger_entity = 1;
+  uint64 target_entity = 2;
+  StatusType stat_type = 3;
+  int32 delta_value = 4;
+  int32 buff_id = 5;
+}
+message BuffDamageResponse {
+  uint64 trigger_entity = 1;
+  uint64 target_entity = 2;
+  StatusType stat_type = 3;
+  int32 delta_value = 4;
+  int32 buff_id = 5;
+}
+message CurrentStatusResponse {
+  map<uint64, server_msg.StatusIntegers> stats = 1;
+}
+message OriginStatusResponse {
+  map<uint64, server_msg.StatusIntegers> stats = 1;
+}
+message StatusIntegers {
+  repeated server_msg.StatusInteger status_list = 1;
+}
+message StatusFloats {
+  repeated server_msg.StatusFloat status_list = 1;
+}
+message AbnormalInfo {
+  int32 abnormal_id = 1;
+  Vector destination = 2;
+}
+message MyCharacterInfoResponseComplete {
+  float direction = 1;
+  Vector destination = 2;
+  TeamInfo team = 3;
+  bool is_bot = 4;
+  components.MoveMode move_mode = 5;
+  int32 event_type = 6;
+}
+message NpcData {
+  int32 npc_id = 1;
+  Vector position = 2;
+  VectorF direction = 3;
+  int32 level = 4;
+  TeamInfo team = 5;
+  Vector destination = 6;
+  VectorF velocity = 7;
+  server_msg.StatusIntegers current_status = 8;
+  server_msg.StatusFloats max_status = 9;
+  server_msg.NpcSpawnId npc_spawn_id = 10;
+}
+message NpcSpawnId {
+  int32 npc_spawn_id = 1;
+}
+message AttackEntityResponse {
+  uint64 entity_id = 1;
+  uint64 target_entity_id = 2;
+  double distance = 3;
+  Vector position = 4;
+}
+message DamageEvent {
+  uint64 attacker_entity_id = 1;
+  uint64 defender_entity_id = 2;
+  Damage damage = 3;
+  int32 skill_attack_id = 4;
+  DamageMessage damage_info = 5;
+  double execute_time = 6;
+  double event_time = 7;
+  server_msg.MultiHitInfo multi_hit_info = 8;
+}
+message MultiHitInfo {
+  int32 hit_point_index = 1;
+}
+message GroupDamageEventResponse {
+  repeated server_msg.DamageEvent damage_events = 1;
+}
+message AbnormalEventResponse {
+  uint64 entity_id = 1;
+  uint64 target_entity_id = 2;
+  server_msg.AbnormalInfo abnormal_info = 3;
+  double event_time = 4;
+}
+message GroggyEventResponse {
+  uint64 entity_id = 1;
+  double end_time = 2;
+}
+message SpawnCharacterResponse {
+  uint64 player_entity = 1;
+  uint64 entity_id = 2;
+  string nickname = 3;
+  int32 char_id = 4;
+  uint32 island_id = 7;
+  Vector position = 8;
+  VectorF direction = 9;
+  int32 level = 10;
+  TeamInfo team = 11;
+  components.MoveMode move_mode = 12;
+  VectorF velocity = 13;
+  VelocityState velocity_state = 14;
+  float acceleration = 15;
+  Vector destination = 16;
+  bool is_bot = 17;
+  bool battle_State = 18;
+  SyncState sync_state = 19;
+  server_msg.BuffInfo buff_info = 20;
+  server_msg.StatusIntegers current_status = 21;
+  server_msg.StatusFloats max_status = 22;
+  messages.MyTransport my_transport = 23;
+  optional messages.PkSpawnInfo pk_spawn_info = 24;
+  int32 skin_id = 25;
+  int32 collide_block_defence_point = 26;
+  int64 player_uid = 27;
+  server_msg.CampSitting camp_sitting_info = 28;
+  AccountAuthority account_authority = 29;
+  server_msg.MountInfo mount_info = 30;
+  server_msg.SkillModeInfo skill_mode_info = 32;
+  server_msg.HandlingState handling_info = 33;
+  repeated int32 equip_visual_item_id_vec = 34;
+  string custom_info = 35;
+}
+message SpawnNpcResponse {
+  uint64 entity_id = 1;
+  server_msg.NpcData npc_data = 2;
+  components.MoveMode move_mode = 3;
+  uint64 target_entity_id = 4;
+  TeamInfo team = 5;
+  bool battle_State = 6;
+  SyncState sync_state = 7;
+  bool is_lapidification = 8;
+  bool is_new = 9;
+  server_msg.BuffInfo buff_info = 10;
+  double init_unbeatable_dt = 11;
+  server_msg.NonGroundHeight height_type = 12;
+  int32 collide_block_defence_point = 13;
+  server_msg.GimmickState gimmick_State = 14;
+  bool is_come_back = 15;
+  Vector destination = 16;
+  server_msg.CampInfo camp_info = 17;
+  server_msg.PatrolStepNumber patrol_step_no = 18;
+  bool seal_state = 19;
+  server_msg.TamingInfo taming_info = 20;
+  server_msg.RiderStatus rider_info = 21;
+  server_msg.SummonBoss summon_boss_info = 22;
+  Vector handling_npc_spawn_position = 23;
+  server_msg.MeshVisibility mesh_visibility = 24;
+  optional string nick_name = 25;
+  optional string owner_nickname = 26;
+  optional server_msg.PlayEventAnim play_event_anim = 27;
+}
+message MeshVisibility {
+  bool is_show = 1;
+  optional float duration_secs = 2;
+}
+message PatrolStepNumber {
+  int32 patrol_step_no = 1;
+}
+message CampInfo {
+  uint64 player_uid = 2;
+  repeated server_msg.CampSeat seats = 3;
+  double camp_end_time = 4;
+  int32 camp_owner_power = 5;
+}
+message CampSeat {
+  int32 index = 1;
+  Vector position = 2;
+  uint64 occupant_entity_id = 3;
+}
+message CampSitting {
+  uint64 camp_entity_id = 1;
+  int32 seat_index = 2;
+}
+message RemoveEntitiesResponse {
+  repeated uint64 entity_ids = 1;
+  uint64 target_entity_id = 2;
+}
+message GimmickState {
+  bool is_on = 1;
+  bool is_enabled = 2;
+}
+message ErrorCodeResponse {
+  ErrorCode error_code = 1;
+}
+message LogOutSuccess {
+  bool phantom = 1;
+}
+message ChatResponse {
+  string text = 2;
+  ChattingType chatting_type = 3;
+  string sender_name = 4;
+  int64 sender_player_uid = 5;
+}
+message ChatAllResponse {
+  uint64 entity_id = 1;
+  string text = 2;
+  ChattingType chatting_type = 3;
+  string sender_name = 4;
+}
+message DiedResponse {
+  oneof Item {
+    server_msg.MainDied main_died = 1;
+    server_msg.EntityDied entity_died = 2;
+  }
+}
+message MainDied {
+  int32 warp_name_id = 1;
+  int32 acc_count = 2;
+  float wait_resurrect = 3;
+  float auto_resurrect = 4;
+  DeathType death_type = 5;
+  int64 attacker_uid = 6;
+  string attacker_name = 7;
+  int32 resurrect_wait_id = 9;
+}
+message EntityDied {
+  uint64 entity_id = 1;
+  server_msg.EntityDead entity_dead = 3;
+}
+message EntityDead {
+  server_msg.EntityDeadType dead_type = 1;
+}
+message CastSkillResponse {
+  int32 skill_id = 1;
+  ErrorCode error_code = 2;
+}
+message CastSkillTargetSelfResponse {
+  int32 skill_id = 1;
+  Vector position = 2;
+  float direction = 3;
+  uint64 caster_id = 4;
+  double client_ticks = 5;
+  double server_ticks = 6;
+}
+message CastSkillTargetEntityResponse {
+  int32 skill_id = 1;
+  Vector position = 2;
+  float direction = 3;
+  uint64 caster_id = 4;
+  uint64 target_id = 5;
+  double client_ticks = 6;
+  double server_ticks = 7;
+}
+message CastSkillTargetPositionResponse {
+  int32 skill_id = 1;
+  Vector position = 2;
+  float direction = 3;
+  uint64 caster_id = 4;
+  double client_ticks = 5;
+  double server_ticks = 6;
+}
+message EffectBuffUpdateResponse {
+  uint64 entity_id = 1;
+  ErrorCode error_code = 2;
+  int32 effect_buff_type = 3;
+  int32 effect_buff_add_value = 4;
+  int32 effect_buff_result_value = 5;
+}
+message StatusUpdateResponse {
+  uint64 entity_id = 1;
+  int32 status_type = 2;
+  bool is_enable = 3;
+}
+message JoinZoneReadyComplete {
+  bool ready = 1;
+}
+message BattleStateResponse {
+  uint64 entity_id = 1;
+  bool battle_state = 2;
+}
+message EntityInfoResponse {
+  uint64 entity_id = 1;
+  Vector position = 2;
+  ErrorCode error_code = 3;
+}
+message MoveSyncResponse {
+  uint64 entity_id = 1;
+  Vector input_direction = 2;
+  Vector input_rotation = 3;
+  Vector position = 4;
+  Vector rotation = 5;
+  Vector direction = 6;
+  double velocity = 7;
+  double accelerate = 8;
+  MoveState move_state = 9;
+  double real_ticks = 10;
+}
+message HeightSyncResponse {
+  uint64 entity_id = 1;
+  double height = 2;
+}
+message TimeSyncResponse {
+  uint64 entity_id = 1;
+  double server_ticks = 2;
+  double client_ticks = 3;
+}
+message SkillInfo {
+  int32 skill_id = 1;
+  uint64 target_entity_id = 2;
+  double end_ticks = 3;
+  Vector start_position = 4;
+  server_msg.SkillMoveAngles skill_move_random_angles = 5;
+  VectorF start_direction = 6;
+  messages.MultiTargetHitPoint multi_target_hit_point = 7;
+  double start_ticks = 8;
+  messages.ProjectileInfo projectile_info = 9;
+}
+message BuffInfo {
+  repeated server_msg.Buff buffs = 1;
+}
+message GetAllCharactersResponse {
+  ErrorCode error_code = 1;
+  repeated CharacterInfo character_info = 2;
+}
+message ExpChangeResponse {
+  int32 char_id = 1;
+  int64 delta_exp = 2;
+  int64 exp = 3;
+}
+message Buff {
+  int32 buff_id = 1;
+  int32 buff_level = 3;
+  int32 buff_overlap_count = 4;
+  uint64 trigger_entity_id = 5;
+  double start_ticks = 6;
+}
+message BuffTargetList {
+  uint64 entity_id = 1;
+  repeated server_msg.Buff buff_list = 2;
+}
+message BuffTargetListResponse {
+  repeated server_msg.BuffTargetList buff_target_list = 1;
+  int32 char_id = 2;
+}
+message EquipResponse {
+  ErrorCode error_code = 1;
+  uint64 entity_id = 2;
+  int32 slot_type = 3;
+  int32 slot_index = 4;
+  int64 item_uid = 5;
+  int32 item_id = 6;
+}
+message ItemOpenBoxResponse {
+  ErrorCode error_code = 1;
+  int32 item_id = 2;
+  int32 try_quantity = 3;
+  int32 success_quantity = 4;
+}
+message ItemCampCookingPopupResponse {
+  int32 item_id = 1;
+  double expire_time = 2;
+}
+message ItemCampCookingUseAnimationResponse {
+  uint64 entity_id = 1;
+}
+message ItemUseResponse {
+  ErrorCode error_code = 1;
+  uint64 target_id = 2;
+  ds_game.DbWorkItem db_work_item = 3;
+}
+message SpawnStuffResponse {
+  uint64 entity_id = 1;
+  int32 stuff_id = 2;
+  Vector position = 3;
+  VectorF direction = 4;
+  bool is_new = 5;
+  int32 gather_remain_count = 6;
+  int32 gather_total_count = 7;
+  double gather_init_time = 9;
+  server_msg.StuffSpawnId stuff_spawn_id = 10;
+  repeated server_msg.GatherInfo gatherer_infos = 11;
+  StuffSpawnType stuff_spawn_type = 12;
+  server_msg.MeshVisibility mesh_visibility = 24;
+}
+message StuffSpawnId {
+  int32 stuff_spawn_id = 1;
+}
+message GatherInfo {
+  uint64 gatherer_entity_id = 1;
+  double gathering_time = 2;
+}
+message StuffGatherStartResponse {
+  ErrorCode error_code = 1;
+  uint64 entity_id = 2;
+  uint64 stuff_entity_id = 3;
+  double gathering_time = 4;
+}
+message StuffGatherCancelResponse {
+  ErrorCode error_code = 1;
+  uint64 entity_id = 2;
+  uint64 stuff_entity_id = 3;
+}
+message StuffGatherCompleteResponse {
+  ErrorCode error_code = 1;
+  uint64 entity_id = 2;
+  uint64 stuff_entity_id = 3;
+  int32 gather_remain_count = 4;
+  bool is_continuous = 5;
+}
+message SpawnStuffWarpDeviceResponse {
+  uint64 entity_id = 1;
+  int32 stuff_id = 2;
+  Vector position = 3;
+  VectorF direction = 4;
+  bool is_new = 5;
+  server_msg.StuffSpawnId stuff_spawn_id = 6;
+  StuffSpawnType stuff_spawn_type = 7;
+  server_msg.MeshVisibility mesh_visibility = 8;
+}
+message SpawnStuffPortalResponse {
+  uint64 entity_id = 1;
+  int32 stuff_id = 2;
+  Vector position = 3;
+  VectorF direction = 4;
+  bool is_new = 5;
+  server_msg.StuffSpawnId stuff_spawn_id = 6;
+  StuffSpawnType stuff_spawn_type = 7;
+  server_msg.MeshVisibility mesh_visibility = 8;
+}
+message SpawnStuffQuestBoardResponse {
+  uint64 entity_id = 1;
+  int32 stuff_id = 2;
+  Vector position = 3;
+  VectorF direction = 4;
+  bool is_new = 5;
+  server_msg.StuffSpawnId stuff_spawn_id = 6;
+  StuffSpawnType stuff_spawn_type = 7;
+  server_msg.MeshVisibility mesh_visibility = 8;
+}
+message SpawnStuffQuestResponse {
+  uint64 entity_id = 1;
+  int32 stuff_id = 2;
+  Vector position = 3;
+  VectorF direction = 4;
+  bool is_new = 5;
+  server_msg.StuffSpawnId stuff_spawn_id = 6;
+  StuffSpawnType stuff_spawn_type = 7;
+  server_msg.MeshVisibility mesh_visibility = 8;
+}
+message UpdateMyInfoResponse {
+  ErrorCode error_code = 1;
+  RewardType reward_type = 2;
+  repeated ds_game.DbWorkItem db_work_items = 3;
+}
+message ItemEnhanceResponse {
+  ErrorCode error_code = 1;
+  int32 enhance_result = 2;
+  repeated ds_game.DbWorkItem db_work_items_cost = 3;
+  ds_game.DbWorkItem db_work_item_enhance = 4;
+}
+message ResurrectResponse {
+  ErrorCode error_code = 1;
+  uint64 entity_id = 2;
+  ResurrectType resurrect_type = 3;
+}
+message PrepareWarpResponse {
+  uint64 entity_id = 1;
+  ds_proto.Warp warp_info = 2;
+}
+message WarpCastingResponse {
+}
+message WarpStartResponse {
+}
+message WarpArriveResponse {
+  uint64 entity_id = 1;
+  WarpType warp_type = 2;
+}
+message WarpCancelResponse {
+  WarpType warp_type = 1;
+}
+message WarpFailResponse {
+}
+message UpdateTeamInfoResponse {
+  uint64 entity_id = 1;
+  TeamInfo team = 2;
+}
+message SpawnTransportResponse {
+  uint64 entity_id = 1;
+  int32 transport_id = 2;
+  components.MoveMode move_mode = 3;
+  Vector position = 4;
+  VectorF direction = 5;
+  bool is_new = 6;
+}
+message TransportWarpNotify {
+  uint64 transport_entity_id = 1;
+  uint32 warp_island_id = 2;
+  Vector warp_location = 3;
+  double real_ticks = 4;
+  bool is_success = 5;
+  Vector relative_position = 6;
+}
+message TransportWarpResponse {
+  ErrorCode error_code = 1;
+  Vector transport_cur_location = 2;
+}
+message TransportWarpMapLoadingNotify {
+  uint64 transport_entity_id = 1;
+  uint32 warp_island_id = 2;
+  Vector warp_location = 3;
+  uint32 server_wait_time = 4;
+}
+message ZoneIdChangeResponse {
+  uint32 zone_id = 1;
+  uint32 district_id = 2;
+  uint32 island_id = 3;
+}
+message RewardResponse {
+  RewardType reward_type = 1;
+  repeated ds_game.DbWorkItem db_work_items = 2;
+}
+message ResultUiResponse {
+  RewardType reward_type = 1;
+  repeated ds_game.DbWorkItem db_work_items = 2;
+}
+message LevelChangeResponse {
+  uint64 entity_id = 1;
+  int32 level = 2;
+  int32 char_id = 3;
+}
+message SpawnTotemResponse {
+  uint64 totem_entity_id = 1;
+  uint64 owner_entity_id = 2;
+  int32 totem_id = 3;
+  Vector position = 4;
+  VectorF direction = 5;
+  server_msg.SkillInfo skill_info = 6;
+  bool is_new = 7;
+  int32 evolve_level = 8;
+  optional uint64 totem_clone_target = 9;
+}
+message CombatPowerResponse {
+  ErrorCode error_code = 1;
+  uint64 entity_id = 2;
+  int32 char_id = 3;
+  float combat_power = 4;
+}
+message QuestAcceptResponse {
+  ErrorCode error_code = 1;
+}
+message QuestCompleteResponse {
+  ErrorCode error_code = 1;
+  int32 quest_id = 2;
+}
+message QuestCancelResponse {
+  ErrorCode error_code = 1;
+  int32 quest_id = 2;
+}
+message QuestTrackingResponse {
+  ErrorCode error_code = 1;
+  int32 quest_id = 2;
+}
+message QuestObjectiveResponse {
+}
+message QuestFailureResponse {
+}
+message QuestDailyResetResponse {
+}
+message QuestWeeklyResetResponse {
+}
+message QuestMonthlyResetResponse {
+}
+message QuestRepeatResetResponse {
+}
+message QuestInstanceActiveResponse {
+  int32 quest_id = 1;
+}
+message QuestInstanceFinishResponse {
+  int32 quest_id = 1;
+}
+message QuestLeaveGraceResponse {
+  int32 quest_id = 1;
+  InstanceQuestGraceType grace_type = 2;
+}
+message QuestAutoTrackingResponse {
+  ErrorCode error_code = 1;
+  int32 quest_id = 2;
+  bool auto_tracking = 3;
+}
+message PkModeChangeResponse {
+  ErrorCode error_code = 1;
+  PkModeType pk_mode_type = 2;
+}
+message UpdatePvpInfoNotify {
+  uint64 attacker_eid = 1;
+  uint64 defender_eid = 2;
+  PvpChangeType pvp_change_type = 3;
+  int32 change_criminal_point = 4;
+  ds_game.SqlPvpTable char_pvp_table = 5;
+  int64 recent_first_attack_player_uid = 6;
+  double recent_first_attack_valid_real_ticks = 7;
+}
+message ForceAttackCommandResponse {
+  ErrorCode error_code = 1;
+}
+message PkHistoryResponse {
+  ErrorCode error_code = 1;
+  int32 total_kill_count = 2;
+  int32 total_death_count = 3;
+  int32 day_kill_count = 4;
+  int32 day_death_count = 5;
+  repeated PkData pk_datas = 6;
+}
+message ContentsFunctionInfo {
+  ContentsFunctionType contents_function_type = 1;
+  FunctionLockType function_lock_type = 3;
+  repeated int32 function_values = 4;
+}
+message ContentsDataResponse {
+  repeated ContentsBaseType contents_base_table = 1;
+  repeated server_msg.ContentsFunctionInfo contents_function_table = 2;
+}
+message ZoneEventNotifyResponse {
+  ZoneEventNotifyType notify_type = 1;
+  int32 id = 2;
+}
+message ZoneEventMessageResponse {
+  int32 message_define_id = 1;
+  int64 string_ui_id = 2;
+  repeated string message_params = 4;
+}
+message ScriptMissionTrackerStartResponse {
+  int32 script_mission_tracker_id = 1;
+}
+message ScriptMissionTrackerUpdateResponse {
+  int32 script_mission_tracker_id = 1;
+  repeated server_msg.ScriptMissionTrackerInfo script_mission_tracker_info_list = 2;
+}
+message ScriptMissionTrackerInfo {
+  int32 index = 1;
+  int32 value = 2;
+}
+message ScriptMissionTrackerEndResponse {
+  int32 script_mission_tracker_id = 1;
+}
+message ScriptBlockingWallStateInfo {
+  int32 group_id = 1;
+  bool state = 2;
+}
+message ScriptBlockingWallStateResponse {
+  repeated server_msg.ScriptBlockingWallStateInfo info_list = 1;
+}
+message PartyInfoResponse {
+  ErrorCode error_code = 1;
+  ds_proto.PartyInfo party = 2;
+  repeated ds_proto.PartySlotInfo slots = 3;
+}
+message PartySlotChangeResponse {
+  ErrorCode error_code = 1;
+  ds_proto.PartySlotInfo slot = 2;
+}
+message PartyInvitedResponse {
+  ds_proto.PartyInvitedInfo invited = 1;
+}
+message PartyLeaderChangeResponse {
+  ErrorCode error_code = 1;
+  int64 leader_uid = 3;
+}
+message PartyMemberSyncResponse {
+  int32 char_id = 2;
+  Vector position = 4;
+  server_msg.StatusFloats cur_stats = 5;
+  server_msg.StatusIntegers max_stats = 6;
+  server_msg.BuffInfo buffs = 7;
+  int64 player_uid = 8;
+  uint32 zone_id = 9;
+}
+message PartyDismissResponse {
+  ErrorCode error_code = 1;
+}
+message PartyKickedResponse {
+}
+message PartyRejectInfoResponse {
+  ds_proto.PartyInviteRejectInfo reject_info = 2;
+}
+message PlayerExpChangeResponse {
+  ErrorCode error_code = 1;
+  int64 delta_exp = 2;
+  int64 exp = 3;
+}
+message PlayerGradeChangeResponse {
+  uint64 entity_id = 1;
+  int32 grade = 2;
+  bool is_party = 3;
+}
+message GetPartGuildsInfoResponse {
+  ErrorCode error_code = 1;
+  uint32 page = 2;
+  repeated ds_guild.SqlGuildTable guild_infos = 3;
+  uint32 total_guild_count = 4;
+}
+message GetGuildResponse {
+  ErrorCode error_code = 1;
+  ds_guild.SqlGuildTable guild_info = 2;
+}
+message GetGuildListResponse {
+  ErrorCode error_code = 1;
+  repeated ds_guild.SqlGuildTable guild_infos = 2;
+  int64 cursor = 3;
+}
+message CreateGuildResponse {
+  ErrorCode error_code = 1;
+  api_guild.GuildRes guild_info_res = 2;
+  api_guild.GuildMemberRes guild_member_res = 3;
+}
+message UpdateGuildResponse {
+  ErrorCode error_code = 1;
+  ds_guild.SqlGuildTable guild_info = 2;
+  bool is_request = 3;
+}
+message DeleteGuildResponse {
+  ErrorCode error_code = 1;
+}
+message GetGuildMembersResponse {
+  ErrorCode error_code = 1;
+  repeated api_guild.GuildMemberRes guild_members_res = 2;
+}
+message JoinGuildResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 player_uid = 3;
+  oneof result_data {
+    api_guild.PendingResult pending_result = 10;
+    server_msg.JoinedResult joined_result = 11;
+  }
+}
+message InviteGuildResponse {
+  ErrorCode error_code = 1;
+}
+message AcceptGuildInvitationResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  bool accept_flag = 3;
+  api_guild.GuildFullInfoResponse guild_full_info = 4;
+}
+message JoinedResult {
+  api_guild.GuildFullInfoResponse guild_full_info = 1;
+}
+message ApproveJoinGuildResponse {
+  ErrorCode error_code = 1;
+  bool accept_flag = 2;
+  int64 player_uid = 3;
+}
+message JoinGuildResultResponse {
+  ErrorCode error_code = 1;
+  bool accept_flag = 2;
+  api_guild.GuildFullInfoResponse guild_full_info = 3;
+}
+message DelegateGuildMasterResponse {
+  ErrorCode error_code = 1;
+  int64 new_master_uid = 2;
+}
+message ChangeGuildMemberGradeResponse {
+  ErrorCode error_code = 1;
+  repeated api_guild.ChangeGuildMemberGradeInfo changed_grade_member_list = 5;
+}
+message DeleteGuildMemberResponse {
+  ErrorCode error_code = 1;
+  int64 player_uid = 2;
+}
+message LeaveGuildResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+}
+message GetGuildPendingListResponse {
+  ErrorCode error_code = 1;
+  int32 join_type = 2;
+  repeated api_guild.GuildPendingInfo guild_pending_list = 3;
+}
+message GetMyPendingListResponse {
+  ErrorCode error_code = 1;
+  int32 join_type = 2;
+  repeated api_guild.PlayerPendingInfo player_pending_list = 3;
+}
+message CancelGuildInvitationResponse {
+  ErrorCode error_code = 1;
+  int64 player_uid = 2;
+}
+message CancelJoinGuildResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+}
+message GetGuildMemberListResponse {
+  int64 guild_uid = 1;
+  repeated server_msg.GuildMemberInfo guild_member_info_list = 2;
+}
+message GuildMemberInfo {
+  int64 player_uid = 1;
+  string nickname = 2;
+  bool is_logged_in = 3;
+  int32 level = 4;
+  google.protobuf.Timestamp logout_dt = 5;
+  uint32 zone_id = 6;
+}
+message UpdateGuildMarkResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  string mark_info = 3;
+}
+message UpdateGuildNameResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  string guild_name = 3;
+}
+message UpdateGuildSettingResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  GuildAutoKickType kick_auto_type = 3;
+  GuildJoinType recruit_type = 4;
+  int32 recruit_level = 5;
+  string recruit_message = 6;
+  string notice = 7;
+}
+message CheckGuildNameExistResponse {
+  ErrorCode error_code = 1;
+}
+message ClimateResponse {
+  uint32 zone_id = 1;
+  int32 climate_value = 2;
+  ClimateType climate_type = 3;
+}
+message FlooringResponse {
+  uint32 zone_id = 1;
+  int32 flooring_value = 2;
+  FlooringType Flooring_type = 3;
+}
+message SkillMoveAngles {
+  repeated server_msg.SkillMoveAngle random_move_angles = 1;
+}
+message SkillMoveRandomAnglesResponse {
+  int32 skill_id = 1;
+  repeated server_msg.SkillMoveAngle random_move_angles = 2;
+}
+message SkillMoveAngle {
+  int32 skill_attack_id = 1;
+  int32 move_angle = 2;
+}
+message InitSkillMoveRandomAnglesResponse {
+  repeated server_msg.SkillMoveRandomAnglesResponse skill_move_random_angles = 1;
+}
+message SkillNpcRotationEndTimeResponse {
+  uint64 entity_id = 1;
+  double end_ticks = 2;
+}
+message SkillMoveDestinationResponse {
+  uint64 entity_id = 1;
+  int32 skill_attack_id = 2;
+  Vector destination = 3;
+}
+message HeightMoveResponse {
+  uint64 entity_id = 1;
+  repeated server_msg.HeightMove height_moves = 2;
+}
+message HeightMove {
+  double start_time = 1;
+  double end_time = 2;
+  double distance = 3;
+  HeightConditionType destination_height_type = 4;
+}
+message ProjectileResponse {
+  uint64 attacker_entity_id = 1;
+  int32 skill_attack_id = 2;
+  repeated server_msg.Projectile projectiles = 3;
+}
+message Projectile {
+  uint64 target_entity_id = 1;
+  double arrival_time = 2;
+  messages.MultiTargetHitPoint multi_target_hit_point = 3;
+}
+message RaidPartyMemberUpdateStateNotify {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  RaidMemberState member_state = 3;
+}
+message RaidPartyKickVoteNotify {
+  int64 raid_party_uid = 1;
+  int64 vote_player_uid = 2;
+  int32 agreement_count = 3;
+  int32 reject_count = 4;
+}
+message RaidPartyInviteAlarm {
+  string invite_player_nick_name = 1;
+  ds_proto.RaidPartyInfo raid_party_info = 2;
+}
+message RaidPartyDungeonStartNotify {
+  int64 raid_party_uid = 1;
+}
+message RaidPartyInfoNotify {
+  RaidPartyNotifyType notify_type = 1;
+  ds_proto.RaidPartyInfo raid_party_info = 2;
+  int64 target_player_uid = 3;
+}
+message RaidPartyVoteStartNotify {
+  ds_proto.RaidPartyInfo raid_party_info = 1;
+  int64 suggest_player_uid = 2;
+  int64 target_player_uid = 3;
+}
+message RaidPartyMemberInfoNotify {
+  RaidPartyNotifyType notify_type = 1;
+  ds_proto.RaidPartyMemberInfo raid_member_info = 2;
+}
+message DungeonResultNotify {
+  int64 raid_party_uid = 1;
+  bool is_clear = 2;
+  int32 clear_grade = 3;
+  repeated int64 reward_player_uid_list = 4;
+}
+message RaidPartyClearExitNotify {
+}
+message RaidPartyDeleteNotify {
+}
+message RaidPartyListResponse {
+  bool is_last = 1;
+  repeated ds_proto.RaidPartySimpleInfo raid_party_simple_list = 2;
+}
+message GetRaidPartyInfoSearchResponse {
+  string search_text = 1;
+  bool is_last = 2;
+  repeated ds_proto.RaidPartySimpleInfo raid_party_simple_list = 3;
+}
+message RaidPartyMemberSyncResponse {
+  uint64 player_entity_id = 1;
+  int64 player_uid = 2;
+  int32 char_id = 3;
+  Vector position = 4;
+  server_msg.StatusFloats cur_stats = 5;
+  server_msg.StatusIntegers max_stats = 6;
+  server_msg.BuffInfo buffs = 7;
+  uint64 char_entity_id = 8;
+  bool is_dead = 9;
+  uint32 zone_id = 10;
+}
+message RaidPartyAllDungeonOutResponse {
+  ErrorCode error_code = 1;
+}
+message DungeonFirstClearMailNotify {
+}
+message PhasingStartResponse {
+  int32 phasing_id = 1;
+}
+message PhasingEndResponse {
+  int32 phasing_id = 1;
+  bool is_success = 2;
+}
+message PhasingResultNotify {
+  int32 phasing_id = 1;
+  bool is_success = 2;
+}
+message WorldBossInfo {
+  int32 table_id = 1;
+  bool is_exist = 2;
+  uint32 remain_appear_time = 3;
+  uint32 remain_life_time = 4;
+}
+message WorldBossInfoNotify {
+  repeated server_msg.WorldBossInfo info = 1;
+}
+message WorldBossNotifyData {
+  WorldBossNotifyType notify_type = 1;
+  int32 world_boss_table_id = 2;
+  int32 left_time_sec = 3;
+}
+message WorldBossNotify {
+  server_msg.WorldBossNotifyData notify_data = 1;
+}
+message PatrolStepNumberResponse {
+  repeated uint64 play_entity_ids = 1;
+  int32 step_number = 2;
+}
+message GimmickInteractionResponse {
+  ErrorCode error_code = 1;
+  uint64 entity_id = 2;
+  uint64 interaction_entity_id = 3;
+  int32 gimmick_event_id = 4;
+}
+message GimmickActionResponse {
+  uint64 entity_id = 1;
+  GimmickActionType action_type = 2;
+  float action_value = 3;
+  int32 gimmick_event_id = 4;
+}
+message ComeBackStartResponse {
+  uint64 entity_id = 1;
+  Vector destination = 2;
+}
+message BattleNpcTargetingResponse {
+  uint64 entity_id = 1;
+  uint64 npc_entity_id = 2;
+  server_msg.BattleNpcTargetingType targeting_type = 3;
+}
+message GameServerChangeResponse {
+  messages.PlayerEntity old_player_entity = 1;
+  messages.PlayerEntity player_entity = 2;
+  int32 game_server_index = 4;
+  messages.ServerChangeType server_change_type = 5;
+}
+message ShowAggroListResponse {
+  uint64 entity_id = 1;
+  repeated server_msg.AggroEntity aggro_list = 2;
+}
+message AggroEntity {
+  uint64 entity_id = 1;
+  uint32 aggro_point = 2;
+  server_msg.AggroEntityType entity_type = 3;
+}
+message AbnormalCancelResponse {
+  uint64 entity_id = 1;
+  repeated int32 abnormal_ids = 2;
+}
+message SkillCancelResponse {
+  uint64 entity_id = 1;
+  int32 skill_id = 2;
+}
+message ScriptPhasingContinuousCallStartResponse {
+  int32 uid = 1;
+  int32 limit_sec = 2;
+}
+message NpcRelationGrowResponse {
+  bool is_grade_evolve = 1;
+  int32 npc_id = 2;
+}
+message NpcRelationGradeEvolveResponse {
+  int32 npc_id = 1;
+  GradeType prev_grade_type = 2;
+  GradeType cur_grade_type = 3;
+}
+message PlayerSkillDetectResponse {
+  ErrorCode error_code = 1;
+}
+message PlayerSkillPreservedInfo {
+  uint64 entity_id = 1;
+  bool is_stuff = 2;
+  int32 target_id = 3;
+  Vector position = 5;
+  double end_time = 6;
+  uint32 zone_id = 7;
+}
+message PlayerSkillPreservedListNotify {
+  PlayerSkillType skill_type = 1;
+  repeated server_msg.PlayerSkillPreservedInfo add_preserved_infos = 2;
+  repeated server_msg.PlayerSkillPreservedInfo remove_preserved_infos = 3;
+}
+message OpenLockSkillUseResponse {
+  ErrorCode error_code = 1;
+  uint64 target_entity_id = 2;
+  double interaction_end_time = 3;
+}
+message OpenLockSkillCancelResponse {
+  ErrorCode error_code = 1;
+  uint64 target_entity_id = 2;
+}
+message OpenLockCompleteResponse {
+  ErrorCode error_code = 1;
+  uint64 stuff_entity_id = 2;
+}
+message LingSkillUseResponse {
+  ErrorCode error_code = 1;
+  uint64 target_entity_id = 2;
+  double interaction_end_time = 3;
+}
+message LingSkillCancelResponse {
+  ErrorCode error_code = 1;
+  uint64 target_entity_id = 2;
+}
+message LingCompleteResponse {
+  ErrorCode error_code = 1;
+  uint64 target_entity_id = 2;
+}
+message LingSuccessNpcTalkStartResponse {
+  ErrorCode error_code = 1;
+  uint64 target_entity_id = 2;
+}
+message LingSuccessNpcTalkEndResponse {
+  ErrorCode error_code = 1;
+}
+message CampSeatSitDownResponse {
+  uint64 sitting_entity_id = 1;
+  uint64 camp_npc_entity_id = 4;
+  int32 camp_seat_index = 2;
+  ErrorCode error_code = 3;
+}
+message CampSeatStandUpResponse {
+  uint64 standing_entity_id = 1;
+  ErrorCode error_code = 2;
+}
+message CampInstallCancelResponse {
+  uint64 install_entity_id = 1;
+  ErrorCode error_code = 2;
+}
+message CampInstallCastingResponse {
+  uint64 installing_entity_id = 1;
+  ErrorCode error_code = 2;
+  int32 item_id = 3;
+  Vector position = 4;
+}
+message SubMergeCancelResponse {
+  uint64 entity_id = 1;
+  int32 water_volume_id = 2;
+  ErrorCode error_code = 3;
+}
+message FlyModeCancelResponse {
+  uint64 entity_id = 1;
+  int32 zone_id = 2;
+  ErrorCode error_code = 3;
+}
+message MountResponse {
+  uint64 entity_id = 1;
+  ErrorCode error_code = 2;
+  server_msg.MountInfo mount_info = 3;
+}
+message MountInfo {
+  uint64 mount_entity = 1;
+  uint32 seat_index = 2;
+}
+message DisMountResponse {
+  uint64 entity = 1;
+  bool is_despawn = 2;
+}
+message ColliderDestructionResponse {
+  uint64 entity_id = 1;
+}
+message HpChangeResponse {
+  uint64 entity_id = 1;
+  bool is_heal = 2;
+  int32 deltal_hp = 3;
+  uint64 trigger_entity_id = 4;
+}
+message PlayerAiRoundRecords {
+  uint64 player_entity_id = 1;
+  uint64 win_count = 2;
+  uint64 lose_count = 3;
+}
+message HeartbeatResponse {
+  double server_ticks = 1;
+  double client_ticks = 2;
+}
+message DespawnAllEntitiesResponse {
+}
+message SealStateEnteredResponse {
+  uint64 entity_id = 1;
+}
+message SealStateExitedResponse {
+  uint64 entity_id = 1;
+}
+message AvailableSkillsResponse {
+  uint64 entity_id = 1;
+  repeated int32 skill_ids = 2;
+}
+message AltarBossSummonResponse {
+  uint64 altar_entity_id = 1;
+  uint64 summoner_entity_id = 2;
+  ErrorCode error_code = 3;
+  int32 boss_npc_id = 4;
+}
+message ItemActionCastingResponse {
+  uint64 entity_id = 1;
+  int32 item_action_id = 2;
+  double end_time = 3;
+}
+message TamingStateResponse {
+  uint64 taming_entity_id = 1;
+  server_msg.TamingState state = 2;
+  optional uint64 taming_character_entity = 3;
+  optional TamingMountSide taming_mount_side = 4;
+}
+message TamingInfo {
+  server_msg.TamingState state = 1;
+  optional uint64 taming_character_entity = 2;
+}
+message AutoSkillUseResponse {
+  int32 skill_id = 1;
+}
+message RiderStatus {
+  repeated server_msg.Rider riders = 1;
+}
+message Rider {
+  uint64 entity_id = 1;
+  uint32 seat_index = 2;
+}
+message SummonBoss {
+  uint64 summon_altar_entity_id = 1;
+}
+message SkillModeStartResponse {
+  uint64 entity_id = 1;
+  int32 skill_mode_id = 2;
+}
+message SkillModeEndResponse {
+  uint64 entity_id = 1;
+}
+message SkillModeInfo {
+  int32 skill_mode_id = 1;
+  double start_time = 2;
+}
+message HandlingState {
+  uint64 handling_npc_entity_id = 1;
+  int32 action_handling_id = 2;
+}
+message HandlingStartResponse {
+  uint64 entity_id = 1;
+  uint64 handling_npc_entity_id = 2;
+  int32 interaction_id = 4;
+  ErrorCode error_code = 3;
+}
+message HandlingEndResponse {
+  uint64 entity_id = 1;
+}
+message GravityFallResponse {
+  uint64 entity_id = 1;
+  Vector gravity_landing_pos = 2;
+  double falling_start_time = 3;
+}
+message FacingPitchUpdateResponse {
+  uint64 entity_id = 1;
+  float pitch_degree = 2;
+}
+message MountLostViewResponse {
+  repeated MountLostInfo mount_lost_list = 1;
+}
+message MountLostReclaimResponse {
+  int64 list_id = 1;
+  ErrorCode error_code = 2;
+}
+message WeatherCheatResponse {
+  int32 today_weather_probability = 1;
+  repeated int32 today_weather = 2;
+  int32 tomorrow_weather_probability = 3;
+  repeated int32 tomorrow_weather = 4;
+}
+message ItemDurabilityAlertResponse {
+  int32 id_restore = 1;
+}
+message MailAlertResponse {
+  bool is_reward = 1;
+}
+message EventAnimControlResponse {
+  uint64 entity_id = 1;
+  oneof command {
+    server_msg.PlayEventAnim play = 2;
+    server_msg.StopEventAnim stop = 3;
+  }
+}
+message PlayEventAnim {
+  int32 anim_id = 1;
+  double end_time = 2;
+}
+message StopEventAnim {
+}

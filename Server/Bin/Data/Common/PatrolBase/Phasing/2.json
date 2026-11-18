@@ -1,0 +1,179 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "2",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PatrolBase/Phasing/2",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PatrolBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "20000": {
+        "ID": 20000,
+        "DataStage": 16,
+        "DataStageString": "",
+        "PatrolDesc": "0",
+        "PatrolPath": [
+          {
+            "X": -2822650.0,
+            "Y": -2728150.0,
+            "Z": 731.0
+          },
+          {
+            "X": -2821820.0,
+            "Y": -2728140.0,
+            "Z": 1031.0
+          },
+          {
+            "X": -2820270.0,
+            "Y": -2728140.0,
+            "Z": 1031.0
+          },
+          {
+            "X": -2816670.0,
+            "Y": -2728120.0,
+            "Z": 1031.0
+          },
+          {
+            "X": -2816648.0,
+            "Y": -2724550.0,
+            "Z": 1031.0
+          },
+          {
+            "X": -2821639.0,
+            "Y": -2724600.0,
+            "Z": 1031.0
+          }
+        ],
+        "Location": {
+          "X": -2822650.0,
+          "Y": -2728150.0,
+          "Z": 681.0389
+        },
+        "RotateYaw": 0.0,
+        "PatrolStepGID": 20000,
+        "ID_PatrolFormation": 0,
+        "PatrolType": "EDS_PatrolType::OneWay",
+        "PatrolEscortValue1": 0,
+        "PatrolEscortValue2": 0
+      },
+      "20002": {
+        "ID": 20002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "PatrolDesc": "0",
+        "PatrolPath": [
+          {
+            "X": -2822760.0,
+            "Y": -2720910.0,
+            "Z": 731.0
+          },
+          {
+            "X": -2822770.0,
+            "Y": -2719689.0,
+            "Z": 1031.0
+          },
+          {
+            "X": -2822770.0,
+            "Y": -2718969.0,
+            "Z": 1031.0
+          },
+          {
+            "X": -2817208.0,
+            "Y": -2718970.0,
+            "Z": 1031.0
+          },
+          {
+            "X": -2817189.0,
+            "Y": -2722529.0,
+            "Z": 1031.0
+          }
+        ],
+        "Location": {
+          "X": -2822760.0,
+          "Y": -2720910.0,
+          "Z": 680.0
+        },
+        "RotateYaw": 90.0,
+        "PatrolStepGID": 20002,
+        "ID_PatrolFormation": 0,
+        "PatrolType": "EDS_PatrolType::RoundTrip",
+        "PatrolEscortValue1": 0,
+        "PatrolEscortValue2": 0
+      },
+      "20003": {
+        "ID": 20003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "PatrolDesc": "0",
+        "PatrolPath": [
+          {
+            "X": -2823840.0,
+            "Y": -2724760.0,
+            "Z": 731.0
+          },
+          {
+            "X": -2823859.0,
+            "Y": -2723669.0,
+            "Z": 1031.0
+          },
+          {
+            "X": -2824219.0,
+            "Y": -2719699.0,
+            "Z": 1031.0
+          },
+          {
+            "X": -2825349.0,
+            "Y": -2719709.0,
+            "Z": 1101.0
+          },
+          {
+            "X": -2825319.0,
+            "Y": -2720769.0,
+            "Z": 1531.0
+          },
+          {
+            "X": -2825299.0,
+            "Y": -2723369.0,
+            "Z": 1531.0
+          },
+          {
+            "X": -2826389.0,
+            "Y": -2723369.0,
+            "Z": 1531.0
+          },
+          {
+            "X": -2826409.0,
+            "Y": -2721239.0,
+            "Z": 1531.0
+          },
+          {
+            "X": -2826749.0,
+            "Y": -2721239.0,
+            "Z": 1531.0
+          },
+          {
+            "X": -2828009.0,
+            "Y": -2721239.0,
+            "Z": 1031.0
+          }
+        ],
+        "Location": {
+          "X": -2823840.0,
+          "Y": -2724760.0,
+          "Z": 680.0
+        },
+        "RotateYaw": 90.0,
+        "PatrolStepGID": 20003,
+        "ID_PatrolFormation": 0,
+        "PatrolType": "EDS_PatrolType::RingTrip",
+        "PatrolEscortValue1": 0,
+        "PatrolEscortValue2": 0
+      }
+    }
+  }
+]

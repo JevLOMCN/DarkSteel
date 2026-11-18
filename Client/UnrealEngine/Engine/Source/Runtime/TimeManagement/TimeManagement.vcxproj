@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{F456D8A5-A23E-5F11-A171-A3C6307E6E91}</ProjectGuid><RootNamespace>TimeManagement</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FArguments.cpp" />
+    <ClCompile Include="Private\FCachedLinearRegressionSums.cpp" />
+    <ClCompile Include="Private\FCommonFrameRateInfo.cpp" />
+    <ClCompile Include="Private\FCommonFrameRates.cpp" />
+    <ClCompile Include="Private\FExpressionGrammar.cpp" />
+    <ClCompile Include="Private\FExpressionNode.cpp" />
+    <ClCompile Include="Private\FFrameNumberTimeEvaluator.cpp" />
+    <ClCompile Include="Private\FFrameRate.cpp" />
+    <ClCompile Include="Private\FFrameRateMultiplesTest.cpp" />
+    <ClCompile Include="Private\FFrameTimeAdditionTest.cpp" />
+    <ClCompile Include="Private\FFrameTimeComparisonTest.cpp" />
+    <ClCompile Include="Private\FFrameTimeConversionTest.cpp" />
+    <ClCompile Include="Private\FFrameTimeSubtractionTest.cpp" />
+    <ClCompile Include="Private\FFrameTimeToSecondsConversionTest.cpp" />
+    <ClCompile Include="Private\FFrameTimeToSecondsTest.cpp" />
+    <ClCompile Include="Private\FInlineDataStorage.cpp" />
+    <ClCompile Include="Private\FLinearRegressionSpec.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTimeManagementModule.cpp" />
+    <ClCompile Include="Private\FTimecode.cpp" />
+    <ClCompile Include="Private\FTimecodeEstimator.cpp" />
+    <ClCompile Include="Private\FTimedDataChannelSampleTime.cpp" />
+    <ClCompile Include="Private\FTimedDataInputEvaluationData.cpp" />
+    <ClCompile Include="Private\IClockedTimeStep.cpp" />
+    <ClCompile Include="Private\ITimedDataInput.cpp" />
+    <ClCompile Include="Private\SFrameRateEntryBox.cpp" />
+    <ClCompile Include="Private\SFrameRatePicker.cpp" />
+    <ClCompile Include="Private\STimecode.cpp" />
+    <ClCompile Include="Private\TAttribute.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseSPMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TDestructorCaller.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TModuloCircularBuffer.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSlateDecl.cpp" />
+    <ClCompile Include="Private\UCatchupFixedRateCustomTimeStep.cpp" />
+    <ClCompile Include="Private\UClockedTimeStep.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UEngineCustomTimeStep.cpp" />
+    <ClCompile Include="Private\UFixedFrameRateCustomTimeStep.cpp" />
+    <ClCompile Include="Private\UGenlockedCustomTimeStep.cpp" />
+    <ClCompile Include="Private\UGenlockedFixedRateCustomTimeStep.cpp" />
+    <ClCompile Include="Private\UGenlockedTimecodeProvider.cpp" />
+    <ClCompile Include="Private\UMusicalTimeFunctionLibrary.cpp" />
+    <ClCompile Include="Private\UObject.cpp" />
+    <ClCompile Include="Private\UTimeManagementBlueprintLibrary.cpp" />
+    <ClCompile Include="Private\UTimeSynchronizationSource.cpp" />
+    <ClCompile Include="Private\UTimecodeProvider.cpp" />
+    <ClCompile Include="Private\UTimecodeRegressionProvider.cpp" />
+    <ClCompile Include="Private\_Free\Module.TimeManagement.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

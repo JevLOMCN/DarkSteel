@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{E7C83DCE-95E3-5AA8-AB34-980F9D8C55F8}</ProjectGuid><RootNamespace>LocalizableMessage</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FLocalizableMessage.cpp" />
+    <ClCompile Include="Private\FLocalizableMessageModule.cpp" />
+    <ClCompile Include="Private\FLocalizableMessageParameterEntry.cpp" />
+    <ClCompile Include="Private\FLocalizableMessageParameterFloat.cpp" />
+    <ClCompile Include="Private\FLocalizableMessageParameterInt.cpp" />
+    <ClCompile Include="Private\FLocalizableMessageParameterMessage.cpp" />
+    <ClCompile Include="Private\FLocalizableMessageParameterString.cpp" />
+    <ClCompile Include="Private\FLocalizableMessageProcessor.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\ILocalizableMessageModule.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.LocalizableMessage.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

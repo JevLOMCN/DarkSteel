@@ -1,0 +1,1309 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillTotem",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SkillTotem",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SkillTotemTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10204": {
+        "ID": 10204,
+        "DataStage": 23,
+        "ID_TotemSkill": 10904,
+        "AttackDelay": 9.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 8.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Kairos_Btl_Skl04.NPC_Tot_Bas_Kairos_Btl_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10206": {
+        "ID": 10206,
+        "DataStage": 23,
+        "ID_TotemSkill": 10906,
+        "AttackDelay": 8.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 7.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Kairos_Btl_Skl06.NPC_Tot_Bas_Kairos_Btl_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "20202": {
+        "ID": 20202,
+        "DataStage": 23,
+        "ID_TotemSkill": 20902,
+        "AttackDelay": 8.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 7.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_SeoYoung_Skl02.NPC_Tot_Bas_SeoYoung_Skl02",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "20204": {
+        "ID": 20204,
+        "DataStage": 23,
+        "ID_TotemSkill": 20904,
+        "AttackDelay": 8.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 7.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 200,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_SeoYoung_Skl04.NPC_Tot_Bas_SeoYoung_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "20206": {
+        "ID": 20206,
+        "DataStage": 23,
+        "ID_TotemSkill": 20916,
+        "AttackDelay": 7.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 6.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 700,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_SeoYoung_Skl06_01.NPC_Tot_Bas_SeoYoung_Skl06_01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "20207": {
+        "ID": 20207,
+        "DataStage": 23,
+        "ID_TotemSkill": 20906,
+        "AttackDelay": 7.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 6.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 700,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_SeoYoung_Skl06.NPC_Tot_Bas_SeoYoung_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "20208": {
+        "ID": 20208,
+        "DataStage": 23,
+        "ID_TotemSkill": 20906,
+        "AttackDelay": 7.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 6.0,
+        "SkillTotemCount": 2,
+        "SpawnEmptyOffset": 700,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_SeoYoung_Skl06.NPC_Tot_Bas_SeoYoung_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "40201": {
+        "ID": 40201,
+        "DataStage": 23,
+        "ID_TotemSkill": 40901,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Volt_Btl_Skl01.NPC_Tot_Bas_Volt_Btl_Skl01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "40203": {
+        "ID": 40203,
+        "DataStage": 23,
+        "ID_TotemSkill": 40903,
+        "AttackDelay": 8.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 7.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 100,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Volt_Btl_Skl03.NPC_Tot_Bas_Volt_Btl_Skl03",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "40204": {
+        "ID": 40204,
+        "DataStage": 23,
+        "ID_TotemSkill": 40904,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Volt_Btl_Skl04.NPC_Tot_Bas_Volt_Btl_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "40206": {
+        "ID": 40206,
+        "DataStage": 23,
+        "ID_TotemSkill": 40906,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Volt_Btl_Skl06.NPC_Tot_Bas_Volt_Btl_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "40216": {
+        "ID": 40216,
+        "DataStage": 23,
+        "ID_TotemSkill": 40906,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Volt_Btl_Skl06.NPC_Tot_Bas_Volt_Btl_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "40214": {
+        "ID": 40214,
+        "DataStage": 23,
+        "ID_TotemSkill": 40914,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 1.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200063,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/PCs/M_Shape01/Volt/M_Shape01_Volt_Btl_Skl04_FX.M_Shape01_Volt_Btl_Skl04_FX",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "50201": {
+        "ID": 50201,
+        "DataStage": 23,
+        "ID_TotemSkill": 50901,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Marius_Btl_Skl01.NPC_Tot_Bas_Marius_Btl_Skl01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "50203": {
+        "ID": 50203,
+        "DataStage": 23,
+        "ID_TotemSkill": 50903,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Marius_Btl_Skl03.NPC_Tot_Bas_Marius_Btl_Skl03",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "60203": {
+        "ID": 60203,
+        "DataStage": 23,
+        "ID_TotemSkill": 60903,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Belmond_Skl03.NPC_Tot_Bas_Belmond_Skl03",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "70201": {
+        "ID": 70201,
+        "DataStage": 23,
+        "ID_TotemSkill": 70901,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk03.NPC_Tot_Bas_1_N_01_Btl_Atk03",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "70203": {
+        "ID": 70203,
+        "DataStage": 23,
+        "ID_TotemSkill": 70903,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 800,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk03.NPC_Tot_Bas_1_N_01_Btl_Atk03",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "90204": {
+        "ID": 90204,
+        "DataStage": 23,
+        "ID_TotemSkill": 90904,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Volt_Btl_Skl04.NPC_Tot_Bas_Volt_Btl_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "110203": {
+        "ID": 110203,
+        "DataStage": 23,
+        "ID_TotemSkill": 110903,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Volt_Btl_Skl01.NPC_Tot_Bas_Volt_Btl_Skl01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "110206": {
+        "ID": 110206,
+        "DataStage": 23,
+        "ID_TotemSkill": 110906,
+        "AttackDelay": 4.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 3.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Kairos_Skl04.NPC_Tot_Bas_Kairos_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "120201": {
+        "ID": 120201,
+        "DataStage": 23,
+        "ID_TotemSkill": 120901,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Freya_Btl_Skl01.NPC_Tot_Bas_Freya_Btl_Skl01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "120206": {
+        "ID": 120206,
+        "DataStage": 23,
+        "ID_TotemSkill": 120906,
+        "AttackDelay": 8.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 7.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Freya_Btl_Skl06.NPC_Tot_Bas_Freya_Btl_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "2115": {
+        "ID": 2115,
+        "DataStage": 23,
+        "ID_TotemSkill": 2115,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200006,
+        "ID_ResourceMesh": 200006,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/PCs/Fig_M/Fig_M_Btl_Skl15.Fig_M_Btl_Skl15",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "1051": {
+        "ID": 1051,
+        "DataStage": 23,
+        "ID_TotemSkill": 91051,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk04.NPC_Tot_Bas_1_N_01_Btl_Atk04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "1201": {
+        "ID": 1201,
+        "DataStage": 23,
+        "ID_TotemSkill": 91201,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk02.NPC_Tot_Bas_1_N_01_Btl_Atk02",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "2061": {
+        "ID": 2061,
+        "DataStage": 23,
+        "ID_TotemSkill": 92061,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200006,
+        "ID_ResourceMesh": 200006,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/PCs/Fig_M/Fig_M_Btl_Skl06_1.Fig_M_Btl_Skl06_1",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "2062": {
+        "ID": 2062,
+        "DataStage": 23,
+        "ID_TotemSkill": 92061,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 100,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200006,
+        "ID_ResourceMesh": 200006,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/PCs/Fig_M/Fig_M_Btl_Skl06_2.Fig_M_Btl_Skl06_2",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "2063": {
+        "ID": 2063,
+        "DataStage": 23,
+        "ID_TotemSkill": 92061,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 300,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200006,
+        "ID_ResourceMesh": 200006,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/PCs/Fig_M/Fig_M_Btl_Skl06_3.Fig_M_Btl_Skl06_3",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "2064": {
+        "ID": 2064,
+        "DataStage": 23,
+        "ID_TotemSkill": 92061,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 300,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200006,
+        "ID_ResourceMesh": 200006,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/PCs/Fig_M/Fig_M_Btl_Skl06_4.Fig_M_Btl_Skl06_4",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "2065": {
+        "ID": 2065,
+        "DataStage": 23,
+        "ID_TotemSkill": 92061,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 300,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200006,
+        "ID_ResourceMesh": 200006,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/PCs/Fig_M/Fig_M_Btl_Skl06_5.Fig_M_Btl_Skl06_5",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "2066": {
+        "ID": 2066,
+        "DataStage": 23,
+        "ID_TotemSkill": 92061,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 300,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200006,
+        "ID_ResourceMesh": 200006,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/PCs/Fig_M/Fig_M_Btl_Skl06_6.Fig_M_Btl_Skl06_6",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "2101": {
+        "ID": 2101,
+        "DataStage": 23,
+        "ID_TotemSkill": 92101,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 200,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk01.NPC_Tot_Bas_1_N_01_Btl_Atk01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "2111": {
+        "ID": 2111,
+        "DataStage": 23,
+        "ID_TotemSkill": 92111,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 3,
+        "SpawnEmptyOffset": 300,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200006,
+        "ID_ResourceMesh": 200006,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/PCs/Fig_M/Fig_M_Btl_Skl10_3.Fig_M_Btl_Skl10_3",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "96203": {
+        "ID": 96203,
+        "DataStage": 23,
+        "ID_TotemSkill": 96203,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk02.NPC_Tot_Bas_1_N_01_Btl_Atk02",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "97202": {
+        "ID": 97202,
+        "DataStage": 23,
+        "ID_TotemSkill": 97202,
+        "AttackDelay": 9.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 8.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk02.NPC_Tot_Bas_1_N_01_Btl_Atk02",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "900001": {
+        "ID": 900001,
+        "DataStage": 23,
+        "ID_TotemSkill": 900020,
+        "AttackDelay": 0.5,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 30.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 100,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk02.NPC_Tot_Bas_1_N_01_Btl_Atk02",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "900002": {
+        "ID": 900002,
+        "DataStage": 23,
+        "ID_TotemSkill": 900021,
+        "AttackDelay": 1.2,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 30.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 100,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk02.NPC_Tot_Bas_1_N_01_Btl_Atk02",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "900003": {
+        "ID": 900003,
+        "DataStage": 23,
+        "ID_TotemSkill": 900022,
+        "AttackDelay": 1.9,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 30.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 100,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_1_N_01_Btl_Atk02.NPC_Tot_Bas_1_N_01_Btl_Atk02",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10901801": {
+        "ID": 10901801,
+        "DataStage": 23,
+        "ID_TotemSkill": 109901,
+        "AttackDelay": 3.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 10.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200051,
+        "ID_ResourceMesh": 0,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Demon/NPC_Demon_AltherionTentacle11/NPC_Demon_AltherionTentacle11_Btl_Atk01.NPC_Demon_AltherionTentacle11_Btl_Atk01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10901802": {
+        "ID": 10901802,
+        "DataStage": 23,
+        "ID_TotemSkill": 109901,
+        "AttackDelay": 3.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 10.0,
+        "SkillTotemCount": 5,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200051,
+        "ID_ResourceMesh": 0,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Demon/NPC_Demon_AltherionTentacle11/NPC_Demon_AltherionTentacle11_Btl_Atk01.NPC_Demon_AltherionTentacle11_Btl_Atk01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10901901": {
+        "ID": 10901901,
+        "DataStage": 23,
+        "ID_TotemSkill": 109902,
+        "AttackDelay": 2.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 1.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200009,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Default.NPC_Tot_Bas_Default",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10902401": {
+        "ID": 10902401,
+        "DataStage": 23,
+        "ID_TotemSkill": 109903,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_AltherionMeteoStone/NPC_Tot_Bas_Altherion51_Skl14_3.NPC_Tot_Bas_Altherion51_Skl14_3",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10902404": {
+        "ID": 10902404,
+        "DataStage": 23,
+        "ID_TotemSkill": 109904,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_AltherionMeteoStone/NPC_Tot_Bas_Altherion51_Skl14_1.NPC_Tot_Bas_Altherion51_Skl14_1",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10902701": {
+        "ID": 10902701,
+        "DataStage": 23,
+        "ID_TotemSkill": 109905,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 5,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_AltherionMeteoStone/NPC_Tot_Bas_Altherion51_Skl17_3.NPC_Tot_Bas_Altherion51_Skl17_3",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10902702": {
+        "ID": 10902702,
+        "DataStage": 23,
+        "ID_TotemSkill": 109905,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_AltherionMeteoStone/NPC_Tot_Bas_Altherion51_Skl17_3.NPC_Tot_Bas_Altherion51_Skl17_3",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10902703": {
+        "ID": 10902703,
+        "DataStage": 23,
+        "ID_TotemSkill": 109905,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 4,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_AltherionMeteoStone/NPC_Tot_Bas_Altherion51_Skl17_3.NPC_Tot_Bas_Altherion51_Skl17_3",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "11229101": {
+        "ID": 11229101,
+        "DataStage": 23,
+        "ID_TotemSkill": 112291,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Human_Wand_NF01_Skl01.NPC_Tot_Bas_Human_Wand_NF01_Skl01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10622": {
+        "ID": 10622,
+        "DataStage": 23,
+        "ID_TotemSkill": 20906,
+        "AttackDelay": 3.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 2.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_SeoYoung_Skl06.NPC_Tot_Bas_SeoYoung_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "10623": {
+        "ID": 10623,
+        "DataStage": 23,
+        "ID_TotemSkill": 20906,
+        "AttackDelay": 3.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 2.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_SeoYoung_Skl06.NPC_Tot_Bas_SeoYoung_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "100629301": {
+        "ID": 100629301,
+        "DataStage": 23,
+        "ID_TotemSkill": 1006293,
+        "AttackDelay": 6.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_ArchinaMagicStaff11_Skl01.NPC_Totem_ArchinaMagicStaff11_Skl01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "150030701": {
+        "ID": 150030701,
+        "DataStage": 23,
+        "ID_TotemSkill": 1500397,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 8,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_IronGolem11_Skl04.NPC_Totem_IronGolem11_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "150040600": {
+        "ID": 150040600,
+        "DataStage": 23,
+        "ID_TotemSkill": 1500496,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Romulus_Skl04.NPC_Totem_Romulus_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "150040601": {
+        "ID": 150040601,
+        "DataStage": 23,
+        "ID_TotemSkill": 1500496,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 2,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Romulus_Skl04.NPC_Totem_Romulus_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "150040602": {
+        "ID": 150040602,
+        "DataStage": 23,
+        "ID_TotemSkill": 1500496,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 3,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Romulus_Skl04.NPC_Totem_Romulus_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "150040603": {
+        "ID": 150040603,
+        "DataStage": 23,
+        "ID_TotemSkill": 1500496,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Romulus_Skl04.NPC_Totem_Romulus_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "180112501": {
+        "ID": 180112501,
+        "DataStage": 23,
+        "ID_TotemSkill": 1801125,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Imara51_Skl01.NPC_Totem_Imara51_Skl01",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "180112601": {
+        "ID": 180112601,
+        "DataStage": 23,
+        "ID_TotemSkill": 1801126,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 40.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Imara51_Skl02.NPC_Totem_Imara51_Skl02",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "180112901": {
+        "ID": 180112901,
+        "DataStage": 23,
+        "ID_TotemSkill": 1801129,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Imara51_Skl03.NPC_Totem_Imara51_Skl03",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "180113001": {
+        "ID": 180113001,
+        "DataStage": 23,
+        "ID_TotemSkill": 1801130,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 5,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Imara51_Skl06.NPC_Totem_Imara51_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "180113002": {
+        "ID": 180113002,
+        "DataStage": 23,
+        "ID_TotemSkill": 1801130,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Imara51_Skl06.NPC_Totem_Imara51_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "180113101": {
+        "ID": 180113101,
+        "DataStage": 23,
+        "ID_TotemSkill": 1801131,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 70.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Imara51_Skl07.NPC_Totem_Imara51_Skl07",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "180122901": {
+        "ID": 180122901,
+        "DataStage": 23,
+        "ID_TotemSkill": 1801229,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 5.0,
+        "SkillTotemCount": 6,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Draven41_Skl05.NPC_Totem_Draven41_Skl05",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "1990121": {
+        "ID": 1990121,
+        "DataStage": 23,
+        "ID_TotemSkill": 1990121,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Volt_Skl04.NPC_Tot_Bas_Volt_Skl04",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "1990122": {
+        "ID": 1990122,
+        "DataStage": 23,
+        "ID_TotemSkill": 1990122,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::RangeCenter",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Volt_Skl06.NPC_Tot_Bas_Volt_Skl06",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "1990221": {
+        "ID": 1990221,
+        "DataStage": 23,
+        "ID_TotemSkill": 1990221,
+        "AttackDelay": 5.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 4.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 500,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Tot_Bas_Belmond_Skl03.NPC_Tot_Bas_Belmond_Skl03",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "180130301": {
+        "ID": 180130301,
+        "DataStage": 23,
+        "ID_TotemSkill": 1801308,
+        "AttackDelay": 7.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::CurrentPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Target",
+        "SkillTotemTime": 6.0,
+        "SkillTotemCount": 1,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Wand_NF01_Skl01_Wind.NPC_Totem_Wand_NF01_Skl01_Wind",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      },
+      "180130601": {
+        "ID": 180130601,
+        "DataStage": 23,
+        "ID_TotemSkill": 1801309,
+        "AttackDelay": 16.0,
+        "ImpactSpawnType": "EDS_ImpactSpawnType::RandomPos",
+        "SkillTotemTarget": "EDS_SkillTotemTarget::Myself",
+        "SkillTotemTime": 15.0,
+        "SkillTotemCount": 5,
+        "SpawnEmptyOffset": 0,
+        "IsResourceClone": false,
+        "ID_ResourcePreset": 200008,
+        "ID_ResourceMesh": 200008,
+        "AniSequence": {
+          "AssetPathName": "/Game/Animations/NPCs/Totems/NPC_Tot_Bas_1_N_01/NPC_Totem_Wand_NF01_Skl04_Wind.NPC_Totem_Wand_NF01_Skl04_Wind",
+          "SubPathString": ""
+        },
+        "ID_BpLink": 41001
+      }
+    }
+  }
+]

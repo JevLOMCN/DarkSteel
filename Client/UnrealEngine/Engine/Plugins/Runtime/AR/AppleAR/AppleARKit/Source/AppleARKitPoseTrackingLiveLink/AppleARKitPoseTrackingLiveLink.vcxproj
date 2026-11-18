@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{0DC4A9D8-19BB-5271-A257-AA570520E984}</ProjectGuid><RootNamespace>AppleARKitPoseTrackingLiveLink</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAppleARKitPoseTrackingLiveLink.cpp" />
+    <ClCompile Include="Private\FAppleARKitPoseTrackingLiveLinkModule.cpp" />
+    <ClCompile Include="Private\FAppleARKitPoseTrackingLiveLinkSource.cpp" />
+    <ClCompile Include="Private\FAppleARKitPoseTrackingLiveLinkSourceFactory.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IARLiveLinkRetargetingLogic.cpp" />
+    <ClCompile Include="Private\IAppleARKitPoseTrackingLiveLink.cpp" />
+    <ClCompile Include="Private\ILiveLinkSource.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\UDEPRECATED_AppleARKitPoseTrackingLiveLinkRemapAsset.cpp" />
+    <ClCompile Include="Private\_Free\Module.AppleARKitPoseTrackingLiveLink.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,12 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+import "_unique_id.proto";
+import "ServerRoleType.proto";
+
+message ServiceBusResponse {
+  int32 connection_string_index = 1;
+  string queue_name = 2;
+  UniqueId response_uid = 3;
+  ServerRoleType server_role = 4;
+}

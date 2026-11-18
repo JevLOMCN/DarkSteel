@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{094D4F6A-65BD-57DF-B58B-7AB032812247}</ProjectGuid><RootNamespace>DesktopPlatform</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FDesktopPlatformBase.cpp" />
+    <ClCompile Include="Private\FDesktopPlatformModule.cpp" />
+    <ClCompile Include="Private\FDesktopPlatformNull.cpp" />
+    <ClCompile Include="Private\FDesktopPlatformWindows.cpp" />
+    <ClCompile Include="Private\FInstalledPlatformInfo.cpp" />
+    <ClCompile Include="Private\FLockFile.cpp" />
+    <ClCompile Include="Private\FMultiPlatformTargetReceiptBuildWorkers.cpp" />
+    <ClCompile Include="Private\FPathViews.cpp" />
+    <ClCompile Include="Private\FRegistryKey.cpp" />
+    <ClCompile Include="Private\FRegistryRootedKey.cpp" />
+    <ClCompile Include="Private\FRegistryValue.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTargetFileVisitor.cpp" />
+    <ClCompile Include="Private\FTargetReceipt.cpp" />
+    <ClCompile Include="Private\FTargetReceiptBuildWorker.cpp" />
+    <ClCompile Include="Private\FWindowsNativeFeedbackContext.cpp" />
+    <ClCompile Include="Private\FWorkerPath.cpp" />
+    <ClCompile Include="Private\IDesktopPlatform.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTuple.cpp" />
+    <ClCompile Include="Private\TTupleBase.cpp" />
+    <ClCompile Include="Private\_Free\Module.DesktopPlatform.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

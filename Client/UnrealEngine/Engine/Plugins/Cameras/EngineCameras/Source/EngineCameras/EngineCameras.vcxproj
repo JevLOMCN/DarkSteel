@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{32AC0F97-06CF-512A-BA19-1E10561C75BB}</ProjectGuid><RootNamespace>EngineCameras</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FActiveCameraAnimationInfo.cpp" />
+    <ClCompile Include="Private\FCameraAnimationHandle.cpp" />
+    <ClCompile Include="Private\FCameraAnimationParams.cpp" />
+    <ClCompile Include="Private\FCameraModularFeature.cpp" />
+    <ClCompile Include="Private\FCameraShakeBlendOutInfiniteTest.cpp" />
+    <ClCompile Include="Private\FCameraShakeImmediatelyStopInfiniteTest.cpp" />
+    <ClCompile Include="Private\FCameraShakeLocalOffsetTest.cpp" />
+    <ClCompile Include="Private\FCameraShakeNullTest.cpp" />
+    <ClCompile Include="Private\FCameraShakeSingleInstanceRestartTest.cpp" />
+    <ClCompile Include="Private\FCameraShakeStateDurationOverride.cpp" />
+    <ClCompile Include="Private\FCameraShakeStateRestart.cpp" />
+    <ClCompile Include="Private\FCameraShakeStateScrub.cpp" />
+    <ClCompile Include="Private\FCameraShakeStateUpdate.cpp" />
+    <ClCompile Include="Private\FCameraShakeUserDefinedOffsetTest.cpp" />
+    <ClCompile Include="Private\FCameraShakeWorldOffsetTest.cpp" />
+    <ClCompile Include="Private\FCompositeCameraShakeRunTest.cpp" />
+    <ClCompile Include="Private\FEngineCamerasModule.cpp" />
+    <ClCompile Include="Private\FFOscillator.cpp" />
+    <ClCompile Include="Private\FPerlinNoiseShaker.cpp" />
+    <ClCompile Include="Private\FROscillator.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FVOscillator.cpp" />
+    <ClCompile Include="Private\FWaveOscillator.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\UCameraAnimationCameraModifier.cpp" />
+    <ClCompile Include="Private\UCompositeCameraShakePattern.cpp" />
+    <ClCompile Include="Private\UConstantCameraShakePattern.cpp" />
+    <ClCompile Include="Private\UDefaultCameraShakeBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UEngineCameraAnimationFunctionLibrary.cpp" />
+    <ClCompile Include="Private\UEngineCamerasSubsystem.cpp" />
+    <ClCompile Include="Private\ULegacyCameraShake.cpp" />
+    <ClCompile Include="Private\ULegacyCameraShakeFunctionLibrary.cpp" />
+    <ClCompile Include="Private\ULegacyCameraShakePattern.cpp" />
+    <ClCompile Include="Private\UPerlinNoiseCameraShakePattern.cpp" />
+    <ClCompile Include="Private\USimpleCameraShakePattern.cpp" />
+    <ClCompile Include="Private\UTestCameraShake.cpp" />
+    <ClCompile Include="Private\UWaveOscillatorCameraShakePattern.cpp" />
+    <ClCompile Include="Private\_Free\Module.EngineCameras.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

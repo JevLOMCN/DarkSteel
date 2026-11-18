@@ -1,0 +1,45 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Theme merged relative to this file for the XAML designer; the runtime
+         loader sets ParserContext.BaseUri so the relative Source resolves. -->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Style="{StaticResource MutedTextStyle}" Margin="0,0,0,12"
+                   Text="Runs against the schema chosen below (default: the game schema from Settings). Ctrl+Enter runs the selection (or everything). Statements that change data ask for confirmation."/>
+
+        <TextBox x:Name="SqlEditorBox" Grid.Row="1"
+                 AcceptsReturn="True" AcceptsTab="True"
+                 FontFamily="Consolas" FontSize="13"
+                 TextWrapping="NoWrap"
+                 VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                 VerticalContentAlignment="Top"/>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,12,0,12">
+            <Button x:Name="SqlRunButton" Content="Run" Style="{StaticResource PrimaryButtonStyle}" Margin="0,0,8,0"/>
+            <TextBlock Text="Schema" Style="{StaticResource MutedTextStyle}" VerticalAlignment="Center" Margin="12,0,8,0"/>
+            <ComboBox x:Name="SqlSchemaBox" Width="240" Margin="0,0,8,0"
+                      ToolTip="The database schema the script runs against (defaults to the game schema from Settings)"/>
+            <Button x:Name="SqlSchemaRefreshButton" Content="Reload list" Margin="0,0,8,0"/>
+            <Button x:Name="SqlClearButton" Content="Clear"/>
+        </StackPanel>
+
+        <DataGrid x:Name="SqlResultsGrid" Grid.Row="3" AutoGenerateColumns="True"/>
+
+        <TextBlock x:Name="SqlStatusText" Grid.Row="4" Style="{StaticResource MutedTextStyle}"
+                   Margin="0,8,0,0" Text="No query has been run."/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum DungeonType {
+  DungeonType_None = 0;
+  DungeonType_Normal = 1;
+  DungeonType_Heroic = 2;
+  DungeonType_Raid = 3;
+}

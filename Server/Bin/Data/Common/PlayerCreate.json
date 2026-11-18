@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerCreate",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PlayerCreate",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PlayerCreateTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_InitChar": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          11,
+          12
+        ],
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1
+      }
+    }
+  }
+]

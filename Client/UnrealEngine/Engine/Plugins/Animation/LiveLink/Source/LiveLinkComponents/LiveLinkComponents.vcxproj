@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{67D9E26C-AE3A-558C-ADE2-3786AF8085E7}</ProjectGuid><RootNamespace>LiveLinkComponents</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FLiveLinkComponentsModule.cpp" />
+    <ClCompile Include="Private\FLiveLinkTransformControllerData.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\ILiveLinkComponentsModule.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\ULiveLinkComponentController.cpp" />
+    <ClCompile Include="Private\ULiveLinkComponentSettings.cpp" />
+    <ClCompile Include="Private\ULiveLinkControllerBase.cpp" />
+    <ClCompile Include="Private\ULiveLinkLightController.cpp" />
+    <ClCompile Include="Private\ULiveLinkTransformController.cpp" />
+    <ClCompile Include="Private\_Free\Module.LiveLinkComponents.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

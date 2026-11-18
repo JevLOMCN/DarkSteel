@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{A3EDD421-734C-58D6-B743-A63B8F32F203}</ProjectGuid><RootNamespace>CommonInput</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FCommonInputBase.cpp" />
+    <ClCompile Include="Private\FCommonInputKeyBrushConfiguration.cpp" />
+    <ClCompile Include="Private\FCommonInputKeySetBrushConfiguration.cpp" />
+    <ClCompile Include="Private\FCommonInputModule.cpp" />
+    <ClCompile Include="Private\FCommonInputPlatformBaseData.cpp" />
+    <ClCompile Include="Private\FCommonInputPreprocessor.cpp" />
+    <ClCompile Include="Private\FInputDeviceIdentifierPair.cpp" />
+    <ClCompile Include="Private\FInputHoldData.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\ICommonInputModule.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSoftClassPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSubclassOf.cpp" />
+    <ClCompile Include="Private\UCommonInputActionDomain.cpp" />
+    <ClCompile Include="Private\UCommonInputActionDomainTable.cpp" />
+    <ClCompile Include="Private\UCommonInputBaseControllerData.cpp" />
+    <ClCompile Include="Private\UCommonInputPlatformSettings.cpp" />
+    <ClCompile Include="Private\UCommonInputSettings.cpp" />
+    <ClCompile Include="Private\UCommonInputSubsystem.cpp" />
+    <ClCompile Include="Private\UCommonUIHoldData.cpp" />
+    <ClCompile Include="Private\UCommonUIInputData.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\ULocalPlayerSubsystem.cpp" />
+    <ClCompile Include="Private\UPlatformSettingsManager.cpp" />
+    <ClCompile Include="Private\_Free\Module.CommonInput.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

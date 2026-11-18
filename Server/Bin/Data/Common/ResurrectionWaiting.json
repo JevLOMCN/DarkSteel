@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResurrectionWaiting",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResurrectionWaiting",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResurrectionWaitingTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Field",
+        "ResurrectionWaitingTimeSec": 3.0,
+        "AddResurrectionWaitingTimeSec": 5.0,
+        "DeathCntMax": 10,
+        "DeathCntResetTime": 600.0,
+        "AutoResurrectionTimeSec": 90.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::ShowAllUi",
+        "ResurrectType": [
+          "EDS_ResurrectType::Buff",
+          "EDS_ResurrectType::Inn"
+        ]
+      },
+      "9999": {
+        "ID": 9999,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Field",
+        "ResurrectionWaitingTimeSec": 3.0,
+        "AddResurrectionWaitingTimeSec": 5.0,
+        "DeathCntMax": 10,
+        "DeathCntResetTime": 600.0,
+        "AutoResurrectionTimeSec": 90.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::ShowAllUi",
+        "ResurrectType": [
+          "EDS_ResurrectType::System",
+          "EDS_ResurrectType::Buff",
+          "EDS_ResurrectType::Base",
+          "EDS_ResurrectType::Inn",
+          "EDS_ResurrectType::Instant"
+        ]
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Dungeon",
+        "ResurrectionWaitingTimeSec": 3.0,
+        "AddResurrectionWaitingTimeSec": 5.0,
+        "DeathCntMax": 10,
+        "DeathCntResetTime": 600.0,
+        "AutoResurrectionTimeSec": 90.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::ShowAllUi",
+        "ResurrectType": [
+          "EDS_ResurrectType::System",
+          "EDS_ResurrectType::Buff",
+          "EDS_ResurrectType::Base",
+          "EDS_ResurrectType::Inn"
+        ]
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Dungeon",
+        "ResurrectionWaitingTimeSec": 3.0,
+        "AddResurrectionWaitingTimeSec": 10.0,
+        "DeathCntMax": 10,
+        "DeathCntResetTime": 600.0,
+        "AutoResurrectionTimeSec": 100.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::ShowAllUi",
+        "ResurrectType": [
+          "EDS_ResurrectType::System",
+          "EDS_ResurrectType::Buff",
+          "EDS_ResurrectType::Base",
+          "EDS_ResurrectType::Inn"
+        ]
+      },
+      "51": {
+        "ID": 51,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Phasing",
+        "ResurrectionWaitingTimeSec": 3.0,
+        "AddResurrectionWaitingTimeSec": 5.0,
+        "DeathCntMax": 10,
+        "DeathCntResetTime": 600.0,
+        "AutoResurrectionTimeSec": 90.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::None",
+        "ResurrectType": [
+          "EDS_ResurrectType::System",
+          "EDS_ResurrectType::Buff"
+        ]
+      },
+      "61": {
+        "ID": 61,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Breach",
+        "ResurrectionWaitingTimeSec": 3.0,
+        "AddResurrectionWaitingTimeSec": 5.0,
+        "DeathCntMax": 10,
+        "DeathCntResetTime": 600.0,
+        "AutoResurrectionTimeSec": 90.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::None",
+        "ResurrectType": [
+          "EDS_ResurrectType::System",
+          "EDS_ResurrectType::Buff"
+        ]
+      },
+      "71": {
+        "ID": 71,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Gate",
+        "ResurrectionWaitingTimeSec": 3.0,
+        "AddResurrectionWaitingTimeSec": 5.0,
+        "DeathCntMax": 10,
+        "DeathCntResetTime": 600.0,
+        "AutoResurrectionTimeSec": 90.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::ShowResurrectionUIOnly",
+        "ResurrectType": [
+          "EDS_ResurrectType::System",
+          "EDS_ResurrectType::Buff",
+          "EDS_ResurrectType::Base"
+        ]
+      },
+      "81": {
+        "ID": 81,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Inn",
+        "ResurrectionWaitingTimeSec": 3.0,
+        "AddResurrectionWaitingTimeSec": 5.0,
+        "DeathCntMax": 10,
+        "DeathCntResetTime": 600.0,
+        "AutoResurrectionTimeSec": 90.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::ShowAllUi",
+        "ResurrectType": [
+          "EDS_ResurrectType::System",
+          "EDS_ResurrectType::Buff",
+          "EDS_ResurrectType::Inn"
+        ]
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Dungeon",
+        "ResurrectionWaitingTimeSec": 1200.0,
+        "AddResurrectionWaitingTimeSec": 1200.0,
+        "DeathCntMax": 1,
+        "DeathCntResetTime": 1200.0,
+        "AutoResurrectionTimeSec": 1200.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::ShowAllUi",
+        "ResurrectType": [
+          "EDS_ResurrectType::System",
+          "EDS_ResurrectType::Buff",
+          "EDS_ResurrectType::Base",
+          "EDS_ResurrectType::Inn"
+        ]
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "Version": "*",
+        "DeadZoneType": "EDS_DeadZoneType::Dungeon",
+        "ResurrectionWaitingTimeSec": 3.0,
+        "AddResurrectionWaitingTimeSec": 5.0,
+        "DeathCntMax": 10,
+        "DeathCntResetTime": 600.0,
+        "AutoResurrectionTimeSec": 90.0,
+        "DeathUiDisplayType": "EDS_DeathUiDisplayType::ShowAllUi",
+        "ResurrectType": [
+          "EDS_ResurrectType::System",
+          "EDS_ResurrectType::Buff",
+          "EDS_ResurrectType::Base",
+          "EDS_ResurrectType::Inn"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,22 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: CCSAIServicePlugin
+// Functions: 1
+
+// StaticStruct @ 14ac83850
+
+UScriptStruct * __cdecl FCCS_CharEntityRegistrationResponse::StaticStruct(void)
+
+{
+  UPackage *pUVar1;
+  
+  if (Z_Registration_Info_UScriptStruct_FCCS_CharEntityRegistrationResponse.OuterSingleton ==
+      (UScriptStruct *)0x0) {
+    pUVar1 = Z_Construct_UPackage__Script_CCSAIServicePlugin();
+    Z_Registration_Info_UScriptStruct_FCCS_CharEntityRegistrationResponse.OuterSingleton =
+         GetStaticStruct(Z_Construct_UScriptStruct_FCCS_CharEntityRegistrationResponse,
+                         (UObject *)pUVar1,L"CCS_CharEntityRegistrationResponse");
+  }
+  return Z_Registration_Info_UScriptStruct_FCCS_CharEntityRegistrationResponse.OuterSingleton;
+}
+

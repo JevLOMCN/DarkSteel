@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SummonAltar",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SummonAltar",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SummonAltarTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "11001": {
+        "ID": 11001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_SpawnNpcAltar": [
+          80000001,
+          80000002
+        ],
+        "ID_SpawnNpcBoss": 80000003,
+        "ID_SpawnRewardBox": 30000001,
+        "ID_SummonBossGroup": 11001,
+        "ID_ResourceEffect": []
+      }
+    }
+  }
+]

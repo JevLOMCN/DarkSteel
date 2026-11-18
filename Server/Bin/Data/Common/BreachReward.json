@@ -1,0 +1,2259 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BreachReward",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/BreachReward",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_BreachRewardTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          1000
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyValue": [
+          1000
+        ],
+        "ID_Item01": [
+          260110001
+        ],
+        "ItemValue01": [
+          3
+        ],
+        "ID_Item02": [
+          260210002
+        ],
+        "ItemValue02": [
+          3
+        ],
+        "ID_Item03": [
+          260310002
+        ],
+        "ItemValue03": [
+          3
+        ],
+        "ID_Item04": [
+          260210002
+        ],
+        "ItemValue04": [
+          3
+        ],
+        "ID_Item05": [
+          270100001
+        ],
+        "ItemValue05": [
+          3
+        ]
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          5,
+          10,
+          15,
+          20,
+          25
+        ],
+        "PlayerExp": [
+          50,
+          40,
+          30,
+          200,
+          100
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyValue": [
+          500,
+          400,
+          300,
+          200,
+          100
+        ],
+        "ID_Item01": [
+          260510003,
+          260210003,
+          260210003,
+          260210003,
+          260210003
+        ],
+        "ItemValue01": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "ID_Item02": [
+          260410003,
+          260310003,
+          260310003,
+          260310003,
+          260310003
+        ],
+        "ItemValue02": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "ID_Item03": [
+          260310003,
+          260410003,
+          260410003,
+          260410003,
+          260410003
+        ],
+        "ItemValue03": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "ID_Item04": [
+          260210002,
+          260210002,
+          260210002,
+          260210002,
+          260210002
+        ],
+        "ItemValue04": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "ID_Item05": [
+          270100001,
+          270100001,
+          270100001,
+          270100001,
+          270100001
+        ],
+        "ItemValue05": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      "100000": {
+        "ID": 100000,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200228
+        ],
+        "ItemValue01": [
+          5
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100001": {
+        "ID": 100001,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200226
+        ],
+        "ItemValue01": [
+          4
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100002": {
+        "ID": 100002,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200228
+        ],
+        "ItemValue01": [
+          6
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100003": {
+        "ID": 100003,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200227
+        ],
+        "ItemValue01": [
+          3
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100004": {
+        "ID": 100004,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200226
+        ],
+        "ItemValue01": [
+          1
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100005": {
+        "ID": 100005,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200227
+        ],
+        "ItemValue01": [
+          3
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100006": {
+        "ID": 100006,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200225
+        ],
+        "ItemValue01": [
+          2
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100007": {
+        "ID": 100007,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200226
+        ],
+        "ItemValue01": [
+          4
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100008": {
+        "ID": 100008,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200226
+        ],
+        "ItemValue01": [
+          4
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100009": {
+        "ID": 100009,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200227
+        ],
+        "ItemValue01": [
+          1
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100010": {
+        "ID": 100010,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200225
+        ],
+        "ItemValue01": [
+          3
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100011": {
+        "ID": 100011,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200228
+        ],
+        "ItemValue01": [
+          4
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100012": {
+        "ID": 100012,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200228
+        ],
+        "ItemValue01": [
+          2
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100013": {
+        "ID": 100013,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200227
+        ],
+        "ItemValue01": [
+          3
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100014": {
+        "ID": 100014,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200228
+        ],
+        "ItemValue01": [
+          6
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100015": {
+        "ID": 100015,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200228
+        ],
+        "ItemValue01": [
+          1
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100016": {
+        "ID": 100016,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200227
+        ],
+        "ItemValue01": [
+          2
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "100017": {
+        "ID": 100017,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          540200227
+        ],
+        "ItemValue01": [
+          3
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "200000": {
+        "ID": 200000,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          4200,
+          2100,
+          700,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          13,
+          7,
+          2,
+          1
+        ],
+        "ID_Item02": [
+          540200121,
+          540200121,
+          540200121
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200196,
+          540200196,
+          540200196
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          540200218,
+          540200218,
+          540200218
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          900000002,
+          900000002
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200001": {
+        "ID": 200001,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3850,
+          1925,
+          642,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          9,
+          5,
+          2,
+          1
+        ],
+        "ID_Item02": [
+          540200229,
+          540200229,
+          540200229
+        ],
+        "ItemValue02": [
+          5,
+          5,
+          5
+        ],
+        "ID_Item03": [
+          430600000,
+          430600000,
+          430600000
+        ],
+        "ItemValue03": [
+          3,
+          3,
+          3
+        ],
+        "ID_Item04": [
+          540200218,
+          540200218,
+          540200218
+        ],
+        "ItemValue04": [
+          2,
+          2,
+          2
+        ],
+        "ID_Item05": [
+          900000003,
+          900000003
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200002": {
+        "ID": 200002,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          6930,
+          3465,
+          1155,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          15,
+          8,
+          3,
+          1
+        ],
+        "ID_Item02": [
+          540200036,
+          540200036,
+          540200036
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200037,
+          540200037,
+          540200037
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          540200220,
+          540200220,
+          540200220
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          900000001,
+          900000001
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200003": {
+        "ID": 200003,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3680,
+          1840,
+          613,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          6,
+          3,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          540200038,
+          540200038,
+          540200038
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200039,
+          540200039,
+          540200039
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          540200229,
+          540200229,
+          540200229
+        ],
+        "ItemValue04": [
+          5,
+          5,
+          5
+        ],
+        "ID_Item05": [
+          900000004,
+          900000004
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200004": {
+        "ID": 200004,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1960,
+          980,
+          327,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          3,
+          2,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          540200119,
+          540200119,
+          540200119
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          250000001,
+          250000001,
+          250000001
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          540200198,
+          540200198,
+          540200198
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          540200231,
+          540200231
+        ],
+        "ItemValue05": [
+          20,
+          20
+        ]
+      },
+      "200005": {
+        "ID": 200005,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3940,
+          1970,
+          657,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          6,
+          3,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          540200034,
+          540200034,
+          540200034
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200035,
+          540200035,
+          540200035
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          540200218,
+          540200218,
+          540200218
+        ],
+        "ItemValue04": [
+          3,
+          3,
+          3
+        ],
+        "ID_Item05": [
+          900000000,
+          900000000
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200006": {
+        "ID": 200006,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3150,
+          1575,
+          525,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          5,
+          3,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          540200032,
+          540200032,
+          540200032
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200033,
+          540200033,
+          540200033
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          540200220,
+          540200220,
+          540200220
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          900000005,
+          900000005
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200007": {
+        "ID": 200007,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          6300,
+          3150,
+          1050,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          10,
+          5,
+          2,
+          1
+        ],
+        "ID_Item02": [
+          540200030,
+          540200030,
+          540200030
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200031,
+          540200031,
+          540200031
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          310000004,
+          310000004,
+          310000004
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          900000006,
+          900000006
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200008": {
+        "ID": 200008,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          4900,
+          2450,
+          817,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          9,
+          5,
+          2,
+          1
+        ],
+        "ID_Item02": [
+          540200120,
+          540200120,
+          540200120
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          430800000,
+          430800000,
+          430800000
+        ],
+        "ItemValue03": [
+          2,
+          2,
+          2
+        ],
+        "ID_Item04": [
+          310000004,
+          310000004,
+          310000004
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          900000007,
+          900000007
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200009": {
+        "ID": 200009,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2240,
+          1120,
+          373,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          3,
+          2,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          540200028,
+          540200028,
+          540200028
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200029,
+          540200029,
+          540200029
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          540200229,
+          540200229,
+          540200229
+        ],
+        "ItemValue04": [
+          5,
+          5,
+          5
+        ],
+        "ID_Item05": [
+          900000019,
+          900000019
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200010": {
+        "ID": 200010,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          4470,
+          2235,
+          745,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          6,
+          3,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          540200026,
+          540200026,
+          540200026
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200027,
+          540200027,
+          540200027
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          430800000,
+          430800000,
+          430800000
+        ],
+        "ItemValue04": [
+          5,
+          5,
+          5
+        ],
+        "ID_Item05": [
+          900000020,
+          900000020
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200011": {
+        "ID": 200011,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          7560,
+          3780,
+          1260,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          10,
+          5,
+          2,
+          1
+        ],
+        "ID_Item02": [
+          540200024,
+          540200024,
+          540200024
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200025,
+          540200025,
+          540200025
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          430600001,
+          430600001,
+          430600001
+        ],
+        "ItemValue04": [
+          3,
+          3,
+          3
+        ],
+        "ID_Item05": [
+          900000018,
+          900000018
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200012": {
+        "ID": 200012,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3330,
+          1665,
+          555,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          4,
+          2,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          250000001,
+          250000001,
+          250000001
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200218,
+          540200218,
+          540200218
+        ],
+        "ItemValue03": [
+          3,
+          3,
+          3
+        ],
+        "ID_Item04": [
+          540200220,
+          540200220,
+          540200220
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          900000017,
+          900000017
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200013": {
+        "ID": 200013,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          5250,
+          2625,
+          875,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          6,
+          3,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          540200122,
+          540200122,
+          540200122
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200197,
+          540200197,
+          540200197
+        ],
+        "ItemValue03": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item04": [
+          430600002,
+          430600002,
+          430600002
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          900000016,
+          900000016
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200014": {
+        "ID": 200014,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          13230,
+          6615,
+          2205,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          15,
+          8,
+          3,
+          1
+        ],
+        "ID_Item02": [
+          430600002,
+          430600002,
+          430600002
+        ],
+        "ItemValue02": [
+          2,
+          2,
+          2
+        ],
+        "ID_Item03": [
+          430800000,
+          430800000,
+          430800000
+        ],
+        "ItemValue03": [
+          5,
+          5,
+          5
+        ],
+        "ID_Item04": [
+          540200122,
+          540200122,
+          540200122
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          900000023,
+          900000023
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200015": {
+        "ID": 200015,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3080,
+          1540,
+          513,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          3,
+          2,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          250000001,
+          250000001,
+          250000001
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200218,
+          540200218,
+          540200218
+        ],
+        "ItemValue03": [
+          3,
+          3,
+          3
+        ],
+        "ID_Item04": [
+          430800000,
+          430800000,
+          430800000
+        ],
+        "ItemValue04": [
+          5,
+          5,
+          5
+        ],
+        "ID_Item05": [
+          540200231,
+          540200231
+        ],
+        "ItemValue05": [
+          30,
+          30
+        ]
+      },
+      "200016": {
+        "ID": 200016,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          5040,
+          2520,
+          840,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          5,
+          3,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          540200199,
+          540200199,
+          540200199
+        ],
+        "ItemValue02": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item03": [
+          540200229,
+          540200229,
+          540200229
+        ],
+        "ItemValue03": [
+          10,
+          10,
+          10
+        ],
+        "ID_Item04": [
+          430800000,
+          430800000,
+          430800000
+        ],
+        "ItemValue04": [
+          5,
+          5,
+          5
+        ],
+        "ID_Item05": [
+          900000021,
+          900000021
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "200017": {
+        "ID": 200017,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          6570,
+          3285,
+          1095,
+          0
+        ],
+        "ID_Item01": [
+          540200230,
+          540200230,
+          540200230,
+          540200230
+        ],
+        "ItemValue01": [
+          6,
+          3,
+          1,
+          1
+        ],
+        "ID_Item02": [
+          430600002,
+          430600002,
+          430600002
+        ],
+        "ItemValue02": [
+          3,
+          3,
+          3
+        ],
+        "ID_Item03": [
+          540200220,
+          540200220,
+          540200220
+        ],
+        "ItemValue03": [
+          2,
+          2,
+          2
+        ],
+        "ID_Item04": [
+          310000004,
+          310000004,
+          310000004
+        ],
+        "ItemValue04": [
+          1,
+          1,
+          1
+        ],
+        "ID_Item05": [
+          900000022,
+          900000022
+        ],
+        "ItemValue05": [
+          1,
+          1
+        ]
+      },
+      "300000": {
+        "ID": 300000,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          1
+        ],
+        "PlayerExp": [
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0
+        ],
+        "ID_Item01": [
+          430600001
+        ],
+        "ItemValue01": [
+          5
+        ],
+        "ID_Item02": [],
+        "ItemValue02": [],
+        "ID_Item03": [],
+        "ItemValue03": [],
+        "ID_Item04": [],
+        "ItemValue04": [],
+        "ID_Item05": [],
+        "ItemValue05": []
+      },
+      "400000": {
+        "ID": 400000,
+        "DataStage": 23,
+        "Version": "*",
+        "RepeatPlaySection": [
+          10,
+          15,
+          20,
+          100000000
+        ],
+        "PlayerExp": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          17000,
+          8500,
+          4250,
+          0
+        ],
+        "ID_Item01": [
+          540200229,
+          540200229,
+          540200229,
+          540200229
+        ],
+        "ItemValue01": [
+          10,
+          5,
+          3,
+          1
+        ],
+        "ID_Item02": [
+          540200204,
+          540200204,
+          540200204
+        ],
+        "ItemValue02": [
+          2,
+          2,
+          1
+        ],
+        "ID_Item03": [
+          540200207,
+          540200207,
+          540200207
+        ],
+        "ItemValue03": [
+          2,
+          2,
+          1
+        ],
+        "ID_Item04": [
+          540200210,
+          540200210,
+          540200210
+        ],
+        "ItemValue04": [
+          2,
+          2,
+          1
+        ],
+        "ID_Item05": [
+          540200213,
+          540200213,
+          540200213
+        ],
+        "ItemValue05": [
+          2,
+          2,
+          1
+        ]
+      }
+    }
+  }
+]

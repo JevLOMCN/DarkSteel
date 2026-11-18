@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DungeonTypeData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/DungeonTypeData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_DungeonTypeDataTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_DungeonType::Normal",
+        "DataStage": 23,
+        "Version": "*",
+        "RewardLimitCount": 3,
+        "ID_RewardLimitResetTime": 40102,
+        "EnterLimitCount": 3,
+        "ID_EnterLimitResetTime": 40101
+      },
+      "2": {
+        "ID": "EDS_DungeonType::Heroic",
+        "DataStage": 23,
+        "Version": "*",
+        "RewardLimitCount": 3,
+        "ID_RewardLimitResetTime": 40102,
+        "EnterLimitCount": 3,
+        "ID_EnterLimitResetTime": 40101
+      },
+      "3": {
+        "ID": "EDS_DungeonType::Raid",
+        "DataStage": 23,
+        "Version": "*",
+        "RewardLimitCount": 3,
+        "ID_RewardLimitResetTime": 40102,
+        "EnterLimitCount": 3,
+        "ID_EnterLimitResetTime": 40101
+      }
+    }
+  }
+]

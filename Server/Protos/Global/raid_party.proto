@@ -1,0 +1,393 @@
+syntax = "proto3";
+package raid_party;
+option csharp_namespace = "MirProto.RaidParty";
+
+import "_vector.proto";
+import "ErrorCode.proto";
+import "structs_raid_party.proto";
+import "RaidMemberState.proto";
+import "DungeonType.proto";
+import "RaidPartyState.proto";
+
+message RaidPartyRequest {
+  oneof item {
+    raid_party.CreateRaidPartyRequest CreateRaidParty = 1;
+    raid_party.LeaveRaidPartyRequest LeaveRaidParty = 2;
+    raid_party.DelegateLeaderRaidPartyRequest DelegateLeaderRaidParty = 3;
+    raid_party.UpdateMemberStateRaidPartyRequest UpdateMemberStateRaidParty = 4;
+    raid_party.JoinRaidPartyRequest JoinRaidParty = 5;
+    raid_party.InviteRaidPartyRequest InviteRaidParty = 6;
+    raid_party.InviteRaidPartyResRequest InviteRaidPartyRes = 7;
+    raid_party.KickMemberRaidPartyRequest KickMemberRaidParty = 8;
+    raid_party.KickVoteRaidPartyRequest KickVoteRaidParty = 9;
+    raid_party.KickVoteResRaidPartyRequest KickVoteResRaidParty = 10;
+    raid_party.SlotChangeRaidPartyRequest SlotChangeRaidParty = 11;
+    raid_party.ChangeCharRaidPartyRequest ChangeCharRaidParty = 12;
+    raid_party.GetPasswordRaidPartyRequest GetPasswordRaidParty = 14;
+    raid_party.ChangeSettingRaidPartyRequest ChangeSettingRaidParty = 15;
+    raid_party.GetListRaidPartyRequest GetListRaidParty = 16;
+    raid_party.GetRaidPartyInfoRequest GetRaidPartyInfo = 17;
+    raid_party.SearchRaidPartyInfoRequest SearchRaidPartyInfo = 18;
+    raid_party.GetUserRaidPartyInfoRequest GetUserRaidPartyInfo = 19;
+    raid_party.DungeonStartRequest DungeonStart = 20;
+    raid_party.RaidPartyUserLogOutRequest RaidPartyUserLogOut = 21;
+    raid_party.DungeonEnterRequest DungeonEnter = 30;
+  }
+}
+message RaidPartyResponse {
+  bool is_sb_msg = 1;
+  oneof item {
+    raid_party.CreateRaidPartyResponse CreateRaidParty = 2;
+    raid_party.LeaveRaidPartyResponse LeaveRaidParty = 3;
+    raid_party.DelegateLeaderRaidPartyResponse DelegateLeaderRaidParty = 4;
+    raid_party.UpdateMemberStateRaidPartyResponse UpdateMemberStateRaidParty = 5;
+    raid_party.JoinRaidPartyResponse JoinRaidParty = 6;
+    raid_party.InviteRaidPartyResponse InviteRaidParty = 7;
+    raid_party.InviteRaidPartyResResponse InviteRaidPartyRes = 8;
+    raid_party.KickMemberRaidPartyResponse KickMemberRaidParty = 9;
+    raid_party.KickVoteRaidPartyResponse KickVoteRaidParty = 10;
+    raid_party.KickVoteResRaidPartyResponse KickVoteResRaidParty = 11;
+    raid_party.SlotChangeRaidPartyResponse SlotChangeRaidParty = 12;
+    raid_party.ChangeCharRaidPartyResponse ChangeCharRaidParty = 13;
+    raid_party.GetPasswordRaidPartyResponse GetPasswordRaidParty = 15;
+    raid_party.ChangeSettingRaidPartyResponse ChangeSettingRaidParty = 16;
+    raid_party.GetListRaidPartyResponse GetListRaidParty = 17;
+    raid_party.GetRaidPartyInfoResponse GetRaidPartyInfo = 18;
+    raid_party.SearchRaidPartyInfoResponse SearchRaidPartyInfo = 19;
+    raid_party.GetUserRaidPartyInfoResponse GetUserRaidPartyInfo = 20;
+    raid_party.DungeonStartResponse DungeonStart = 21;
+    raid_party.RaidPartyUserLogOutResponse RaidPartyUserLogOut = 22;
+    raid_party.KickVoteResultRaidPartyResponse KickVoteResultRaidParty = 23;
+    raid_party.DeleteRaidPartyResponse DeleteRaidParty = 24;
+    raid_party.DungeonAllOutRaidPartyResponse DungeonAllOutRaidParty = 25;
+    raid_party.RaidPartyClearExitTimeResponse RaidPartyClearExitTime = 26;
+    raid_party.DungeonEnterResponse DungeonEnter = 30;
+  }
+}
+message CreateRaidPartyRequest {
+  int64 player_uid = 1;
+  string nick_name = 2;
+  int32 dungeon_id = 3;
+  string party_name = 4;
+  string password = 5;
+  ds_proto.RaidCharInfo choice_char_info = 7;
+  bool is_public = 8;
+  int32 server_index = 9;
+}
+message CreateRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 player_uid = 2;
+  ds_proto.RaidPartyInfo raid_party_info = 3;
+  int32 server_index = 4;
+}
+message LeaveRaidPartyRequest {
+  int64 player_uid = 1;
+  int64 raid_party_uid = 2;
+  int32 server_index = 3;
+  bool is_client_req = 4;
+}
+message LeaveRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 player_uid = 2;
+  int64 raid_party_uid = 3;
+  ds_proto.RaidPartyInfo raid_party_info = 4;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 5;
+  bool vote_user_leave = 6;
+  int32 server_index = 7;
+  bool is_client_req = 8;
+}
+message DelegateLeaderRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  int64 target_player_uid = 3;
+  int32 server_index = 4;
+  bool is_client_req = 5;
+}
+message DelegateLeaderRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  int64 leader_player_uid = 4;
+  ds_proto.RaidPartyInfo raid_party_info = 5;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 6;
+  int32 server_index = 7;
+  int32 leader_player_server_index = 8;
+  bool is_client_req = 9;
+}
+message UpdateMemberStateRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  RaidMemberState member_state = 3;
+  int32 server_index = 4;
+  bool is_client_req = 5;
+}
+message UpdateMemberStateRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  RaidMemberState member_state = 4;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 5;
+  int32 server_index = 6;
+  bool is_client_req = 7;
+}
+message JoinRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  string password = 2;
+  int64 player_uid = 3;
+  string nick_name = 4;
+  ds_proto.RaidCharInfo choice_char_info = 6;
+  int32 server_index = 7;
+}
+message JoinRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  ds_proto.RaidPartyInfo raid_party_info = 4;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 5;
+  int32 server_index = 6;
+}
+message InviteRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  string invite_player_nick_name = 3;
+  int32 server_index = 4;
+  int64 target_player_uid = 5;
+  int32 target_server_index = 6;
+}
+message InviteRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  ds_proto.RaidPartyInfo raid_party_info = 3;
+  int64 player_uid = 4;
+  string invite_player_nick_name = 5;
+  int32 server_index = 6;
+  int64 target_player_uid = 7;
+  int32 target_server_index = 8;
+}
+message InviteRaidPartyResRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  bool is_accept = 3;
+  string nick_name = 4;
+  ds_proto.RaidCharInfo choice_char_info = 6;
+  int32 server_index = 7;
+}
+message InviteRaidPartyResResponse {
+  ErrorCode error_code = 1;
+  bool is_accept = 2;
+  int64 raid_party_uid = 3;
+  int64 player_uid = 4;
+  ds_proto.RaidPartyInfo raid_party_info = 5;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 6;
+  int32 server_index = 7;
+}
+message KickMemberRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  int64 target_player_uid = 3;
+  int32 server_index = 4;
+}
+message KickMemberRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  int64 kick_player_uid = 4;
+  ds_proto.RaidPartyInfo raid_party_info = 5;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 6;
+  int32 server_index = 7;
+  int32 kick_target_server_index = 8;
+}
+message KickVoteRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  int64 target_player_uid = 3;
+  int32 server_index = 4;
+}
+message KickVoteRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  int64 target_player_uid = 4;
+  ds_proto.RaidPartyInfo raid_party_info = 5;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 6;
+  int32 server_index = 7;
+}
+message KickVoteResRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  int64 vote_player_uid = 3;
+  bool is_kick = 4;
+  int32 server_index = 5;
+}
+message KickVoteResRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  int64 vote_player_uid = 4;
+  bool is_kick = 5;
+  int32 agreement_count = 6;
+  int32 reject_count = 7;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 8;
+  int32 server_index = 9;
+}
+message KickVoteResultRaidPartyResponse {
+  ds_proto.RaidPartyInfo raid_party_info = 1;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 2;
+  int64 target_player_uid = 3;
+  int32 target_server_index = 4;
+  bool is_kick = 5;
+}
+message SlotChangeRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  uint32 slot_index = 3;
+  uint32 change_slot_index = 4;
+  int32 server_index = 5;
+}
+message SlotChangeRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 player_uid = 2;
+  uint32 slot_index = 3;
+  uint32 change_slot_index = 4;
+  ds_proto.RaidPartyInfo raid_party_info = 5;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 6;
+  int32 server_index = 7;
+}
+message ChangeCharRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  ds_proto.RaidCharInfo choice_char_info = 3;
+  int32 server_index = 4;
+}
+message ChangeCharRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  int32 char_id = 4;
+  ds_proto.RaidPartyMemberInfo raid_member_info = 5;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 6;
+  int32 server_index = 7;
+}
+message GetPasswordRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  int32 server_index = 3;
+}
+message GetPasswordRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  string password = 4;
+  int32 server_index = 5;
+}
+message ChangeSettingRaidPartyRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  string party_name = 3;
+  string password = 4;
+  bool is_public = 5;
+  int32 server_index = 6;
+}
+message ChangeSettingRaidPartyResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  ds_proto.RaidPartyInfo raid_party_info = 4;
+  string password = 5;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 6;
+  int32 server_index = 7;
+}
+message GetListRaidPartyRequest {
+  int64 player_uid = 1;
+  DungeonType dungeon_type = 2;
+  repeated int32 dungeon_id_list = 3;
+  bool is_enable_join = 4;
+  int32 server_index = 5;
+}
+message GetListRaidPartyResponse {
+  int64 player_uid = 1;
+  int32 server_index = 2;
+  repeated ds_proto.RaidPartySimpleInfo raid_party_list = 3;
+  bool is_last = 4;
+}
+message GetRaidPartyInfoRequest {
+  int64 player_uid = 1;
+  int64 raid_party_uid = 2;
+  int32 server_index = 3;
+}
+message GetRaidPartyInfoResponse {
+  ErrorCode error_code = 1;
+  int64 player_uid = 2;
+  int64 raid_party_uid = 3;
+  ds_proto.RaidPartyInfo raid_party_info = 4;
+  int32 server_index = 5;
+}
+message SearchRaidPartyInfoRequest {
+  int64 player_uid = 1;
+  string search_text = 2;
+  int32 server_index = 3;
+}
+message SearchRaidPartyInfoResponse {
+  int64 player_uid = 1;
+  string search_text = 2;
+  repeated ds_proto.RaidPartySimpleInfo raid_party_list = 3;
+  bool is_last = 4;
+  int32 server_index = 5;
+}
+message GetUserRaidPartyInfoRequest {
+  int64 player_uid = 1;
+  int32 server_index = 2;
+}
+message GetUserRaidPartyInfoResponse {
+  int64 player_uid = 1;
+  RaidPartyState raid_party_state = 2;
+  ds_proto.RaidPartyInfo raid_party_info = 3;
+  int32 server_index = 4;
+}
+message DungeonStartRequest {
+  int64 player_uid = 1;
+  int64 raid_party_uid = 2;
+  int32 server_index = 3;
+}
+message DungeonStartResponse {
+  ErrorCode error_code = 1;
+  int64 raid_party_uid = 2;
+  int64 player_uid = 3;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 4;
+  int32 server_index = 5;
+}
+message RaidPartyUserLogOutRequest {
+  int64 player_uid = 1;
+}
+message RaidPartyUserLogOutResponse {
+}
+message DeleteRaidPartyResponse {
+  int64 raid_party_uid = 1;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 2;
+  int32 server_index = 3;
+}
+message DungeonAllOutRaidPartyResponse {
+  ds_proto.RaidPartyInfo raid_party_info = 1;
+  int32 server_index = 3;
+}
+message RaidPartyClearExitTimeResponse {
+  int64 raid_party_uid = 1;
+  repeated ds_proto.RaidNoticeInfo notify_player_list = 2;
+  int32 server_index = 3;
+}
+message DungeonEnterRequest {
+  int64 raid_party_uid = 1;
+  int64 player_uid = 2;
+  uint64 player_entity_id = 3;
+  int32 server_index = 4;
+  uint32 island_id = 5;
+  Vector position = 6;
+}
+message DungeonEnterResponse {
+  ErrorCode error_code = 1;
+  uint64 player_entity_id = 2;
+  int64 raid_party_uid = 3;
+  Vector position = 4;
+  int32 warp_location_id = 5;
+  uint32 map_instance_id = 6;
+}

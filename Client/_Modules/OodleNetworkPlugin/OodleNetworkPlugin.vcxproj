@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{8BFC70CE-B411-5E8C-9CE2-2BA40CD32753}</ProjectGuid><RootNamespace>OodleNetworkPlugin</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAnalyticsEventAttribute.cpp" />
+    <ClCompile Include="Private\FBitWriter.cpp" />
+    <ClCompile Include="Private\FCaptureHeader.cpp" />
+    <ClCompile Include="Private\FClientOodleNetAnalyticsData.cpp" />
+    <ClCompile Include="Private\FDictionaryHeader.cpp" />
+    <ClCompile Include="Private\FOodleComponentModuleInterface.cpp" />
+    <ClCompile Include="Private\FOodleCompressedData.cpp" />
+    <ClCompile Include="Private\FOodleNetAnalyticsData.cpp" />
+    <ClCompile Include="Private\FOodleNetStats.cpp" />
+    <ClCompile Include="Private\FOodleNetworkAnalyticsVars.cpp" />
+    <ClCompile Include="Private\FOodleNetworkArchiveBase.cpp" />
+    <ClCompile Include="Private\FOodleNetworkDictionary.cpp" />
+    <ClCompile Include="Private\FOodleNetworkDictionaryArchive.cpp" />
+    <ClCompile Include="Private\FOodleNetworkFaultHandler.cpp" />
+    <ClCompile Include="Private\FPacketCaptureArchive.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FThreadSafeStaticStatInner.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TNetResult.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TRewritable.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UOodleNetworkTrainerCommandlet.cpp" />
+    <ClCompile Include="Private\_Free\Module.OodleNetworkPlugin.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

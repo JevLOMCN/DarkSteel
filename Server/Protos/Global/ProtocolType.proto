@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum ProtocolType {
+  ProtocolType_None = 0;
+  ProtocolType_OnewayRequest = 12;
+  ProtocolType_OnewayResponse = 21;
+  ProtocolType_TwowayRequest = 89;
+  ProtocolType_TwowayResponse = 98;
+  ProtocolType_OnewayPick = 100;
+  ProtocolType_TwowayPick = 101;
+}

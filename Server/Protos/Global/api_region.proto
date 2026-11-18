@@ -1,0 +1,259 @@
+syntax = "proto3";
+package api_region;
+option csharp_namespace = "MirProto.ApiRegion";
+
+import "ErrorCode.proto";
+import "structs_party.proto";
+import "structs_instance_quest_condition.proto";
+import "WorldBossNotifyType.proto";
+import "raid_party.proto";
+
+message RegionPingReq {
+}
+message RegionPongRes {
+  ErrorCode error_code = 1;
+}
+message PartyCreateReq {
+  int32 world_id = 1;
+  ds_proto.PartyMemberInfo leader = 2;
+}
+message PartyCreateRes {
+  ErrorCode error_code = 1;
+  int64 party_uid = 2;
+}
+message PartyDismissReq {
+  int32 world_id = 1;
+  int64 party_id = 2;
+}
+message PartyDismissRes {
+  ErrorCode error_code = 1;
+}
+message PartyInviteReq {
+  int32 world_id = 1;
+  int64 party_id = 2;
+  int64 player_uid = 3;
+  int64 target_player_uid = 4;
+  string sender_name = 5;
+  int32 sender_level = 6;
+}
+message PartyInviteRes {
+  ErrorCode error_code = 1;
+}
+message PartyInvitedAcceptReq {
+  int32 world_id = 1;
+  int64 player_uid = 3;
+  ds_proto.PartyMemberInfo member = 4;
+}
+message PartyInvitedAcceptRes {
+  ErrorCode error_code = 1;
+}
+message PartyInvitedRejectReq {
+  int32 world_id = 1;
+  int64 player_uid = 3;
+}
+message PartyInvitedRejectRes {
+  ErrorCode error_code = 1;
+}
+message PartyLeaveReq {
+  int32 world_id = 1;
+  int64 party_id = 2;
+  int64 player_uid = 3;
+}
+message PartyLeaveRes {
+  ErrorCode error_code = 1;
+}
+message PartyLeaderChangeReq {
+  int32 world_id = 1;
+  int64 party_id = 2;
+  int64 player_uid = 3;
+  int64 target_player_uid = 4;
+}
+message PartyLeaderChangeRes {
+  ErrorCode error_code = 1;
+}
+message PartyKickReq {
+  int32 world_id = 1;
+  int64 party_id = 2;
+  int64 player_uid = 3;
+  int64 target_player_uid = 4;
+}
+message PartyKickRes {
+  ErrorCode error_code = 1;
+}
+message PartySlotChangeReq {
+  int32 world_id = 1;
+  int64 party_id = 2;
+  int64 player_uid = 3;
+  uint32 before_slot = 4;
+  uint32 after_slot = 5;
+}
+message PartySlotChangeRes {
+  ErrorCode error_code = 1;
+}
+message PartyMemberUpdateReq {
+  int32 world_id = 1;
+  int64 party_id = 2;
+  int64 player_uid = 3;
+  ds_proto.PartyMemberInfo member = 4;
+}
+message PartyMemberUpdateRes {
+  ErrorCode error_code = 1;
+}
+message PartyJoinReq {
+  int32 world_id = 1;
+  int64 player_uid = 2;
+  int64 party_id = 3;
+  ds_proto.PartyMemberInfo member = 4;
+}
+message PartyJoinRes {
+  ErrorCode error_code = 1;
+}
+message RegionWorldBossNotifyData {
+  WorldBossNotifyType notify_type = 1;
+  int32 world_boss_table_id = 2;
+  int32 world_boss_life_time = 3;
+  double notify_time = 4;
+}
+message WorldBossNotifyReq {
+  int32 world_id = 1;
+  api_region.RegionWorldBossNotifyData notify = 2;
+}
+message WorldBossNotifyRes {
+  ErrorCode error_code = 1;
+}
+message RegionServerRequest {
+  oneof item {
+    api_region.RegionPingReq ping = 1;
+    api_region.PartyCreateReq party_create = 2;
+    api_region.PartyDismissReq party_dismiss = 3;
+    api_region.PartyInviteReq party_invite = 4;
+    api_region.PartyInvitedAcceptReq party_invited_accept = 5;
+    api_region.PartyInvitedRejectReq party_invited_reject = 6;
+    api_region.PartyLeaveReq party_leave = 7;
+    api_region.PartyLeaderChangeReq party_leader_change = 8;
+    api_region.PartyKickReq party_kick = 9;
+    api_region.PartySlotChangeReq party_slot_change = 10;
+    api_region.PartyMemberUpdateReq party_member_update = 13;
+    api_region.PartyJoinReq party_join = 14;
+    api_region.WorldBossNotifyReq world_boss_notify = 100;
+  }
+}
+message RegionServerResponse {
+  oneof item {
+    api_region.RegionPongRes pong = 2;
+    api_region.PartyCreateRes party_create = 3;
+    api_region.PartyDismissRes party_dismiss = 4;
+    api_region.PartyInviteRes party_invite = 5;
+    api_region.PartyInvitedAcceptRes party_invited_accept = 6;
+    api_region.PartyInvitedRejectRes party_invited_reject = 7;
+    api_region.PartyLeaveRes party_leave = 8;
+    api_region.PartyLeaderChangeRes party_leader_change = 9;
+    api_region.PartyKickRes party_kick = 10;
+    api_region.PartySlotChangeRes party_slot_change = 11;
+    api_region.PartyMemberUpdateRes party_member_update = 14;
+    api_region.PartyJoinRes party_join = 15;
+    api_region.WorldBossNotifyRes world_boss_notify = 101;
+  }
+}
+message PongMq {
+}
+message PartyCreateMq {
+  ds_proto.PartyInfo party_info = 1;
+  repeated ds_proto.PartySlotInfo slots = 2;
+}
+message PartyDismissMq {
+  int64 party_id = 2;
+}
+message PartyInvitedMq {
+  int64 target_player_uid = 1;
+  ds_proto.PartyInvitedInfo invited_info = 2;
+}
+message PartyInvitedAcceptMq {
+  int64 party_id = 1;
+  int64 player_uid = 2;
+  ds_proto.PartySlotInfo slot = 3;
+}
+message PartyInvitedRejectMq {
+  repeated ds_proto.PartyInviteRejectInfo infos = 1;
+}
+message PartyLeaveMq {
+  int64 party_id = 1;
+  int64 player_uid = 2;
+  ds_proto.PartySlotInfo slot = 4;
+}
+message PartyLeaderChangeMq {
+  int64 party_id = 1;
+  int64 leader_uid = 2;
+}
+message PartyKickedMq {
+  int64 party_id = 1;
+  int64 player_uid = 2;
+  ds_proto.PartySlotInfo slot = 3;
+}
+message PartySlotUpdateMq {
+  int64 party_id = 1;
+  repeated ds_proto.PartySlotInfo slots = 2;
+}
+message PartyJoinMq {
+  int64 party_id = 1;
+  int64 player_uid = 2;
+  ds_proto.PartySlotInfo slot = 3;
+}
+message ChatPartyMq {
+  int64 party_id = 1;
+  string message = 2;
+  int64 sender_player_uid = 3;
+  string sender_name = 4;
+}
+message ChatWorldMq {
+  string message = 2;
+  int64 sender_player_uid = 3;
+  string sender_name = 4;
+}
+message InstanceQuestCreateMq {
+  int64 instance_quest_uid = 1;
+  int32 quest_id = 2;
+  double end_time = 3;
+  ds_proto.InstanceQuestCondition condition = 4;
+}
+message InstanceQuestDestroyMq {
+  int64 instance_quest_uid = 1;
+}
+message WorldBossNotifyMq {
+  int32 world_id = 1;
+  api_region.RegionWorldBossNotifyData notify = 2;
+}
+message ChatRaidPartyMq {
+  int64 raid_party_id = 1;
+  string message = 2;
+  int64 sender_player_uid = 3;
+  string sender_name = 4;
+}
+message RegionMq {
+  oneof item {
+    api_region.ChatRaidPartyMq chat_raid_party = 1;
+    raid_party.RaidPartyResponse raid_party_response = 2;
+    api_region.PongMq pong = 999;
+  }
+}
+message WorldMq {
+  int32 world_id = 1;
+  oneof item {
+    api_region.PartyCreateMq party_create = 3;
+    api_region.PartyDismissMq party_dismiss = 4;
+    api_region.PartyInvitedMq party_invited = 5;
+    api_region.PartyInvitedAcceptMq party_invited_accept = 6;
+    api_region.PartyLeaveMq party_leave = 7;
+    api_region.PartyLeaderChangeMq party_leader_change = 8;
+    api_region.PartyKickedMq party_kicked = 9;
+    api_region.PartySlotUpdateMq party_slot_update = 10;
+    api_region.PartyInvitedRejectMq party_invited_reject = 12;
+    api_region.PartyJoinMq party_join = 13;
+    raid_party.RaidPartyResponse raid_party_response = 20;
+    api_region.ChatPartyMq chat_party = 30;
+    api_region.ChatWorldMq chat_world = 31;
+    api_region.InstanceQuestCreateMq instance_quest_create = 50;
+    api_region.InstanceQuestDestroyMq instance_quest_destroy = 51;
+    api_region.WorldBossNotifyMq world_boss_notify = 100;
+  }
+}

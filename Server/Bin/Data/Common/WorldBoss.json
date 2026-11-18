@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WorldBoss",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/WorldBoss",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_WorldBossTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcBase": 100000001,
+        "ID_DescSid": 371002,
+        "ID_ListIcon": 130021,
+        "ID_Spawn": 81000005,
+        "IslandNumber": 2,
+        "Location": {
+          "X": -2809784.0,
+          "Y": -2746232.0,
+          "Z": 480.0
+        },
+        "RotateYaw": 0.0,
+        "AlarmTime": 300.0,
+        "ID_SpawnSchedule": 50002,
+        "Lifetime": 300.0,
+        "DeleteAlarmTime": 120.0,
+        "ID_Image": 0,
+        "ID_ZoneBase": 2001,
+        "ID_SpawnPreAppear": [],
+        "ID_SpawnAppear": []
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcBase": 100000002,
+        "ID_DescSid": 371001,
+        "ID_ListIcon": 130022,
+        "ID_Spawn": 81000006,
+        "IslandNumber": 2,
+        "Location": {
+          "X": -2804409.0,
+          "Y": -2746232.0,
+          "Z": 480.0
+        },
+        "RotateYaw": 0.0,
+        "AlarmTime": 300.0,
+        "ID_SpawnSchedule": 50004,
+        "Lifetime": 300.0,
+        "DeleteAlarmTime": 120.0,
+        "ID_Image": 0,
+        "ID_ZoneBase": 2001,
+        "ID_SpawnPreAppear": [],
+        "ID_SpawnAppear": []
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcBase": 100000002,
+        "ID_DescSid": 371001,
+        "ID_ListIcon": 130022,
+        "ID_Spawn": 70010001,
+        "IslandNumber": 7,
+        "Location": {
+          "X": -2804409.0,
+          "Y": -2746232.0,
+          "Z": 480.0
+        },
+        "RotateYaw": 0.0,
+        "AlarmTime": 180.0,
+        "ID_SpawnSchedule": 50005,
+        "Lifetime": 540.0,
+        "DeleteAlarmTime": 120.0,
+        "ID_Image": 0,
+        "ID_ZoneBase": 7002,
+        "ID_SpawnPreAppear": [],
+        "ID_SpawnAppear": []
+      }
+    }
+  }
+]

@@ -1,0 +1,12 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum DirtyFlag {
+  DirtyFlag_None = 0;
+  DirtyFlag_Select = 1;
+  DirtyFlag_Insert = 2;
+  DirtyFlag_Update = 3;
+  DirtyFlag_Upsert = 4;
+  DirtyFlag_Delete = 5;
+}

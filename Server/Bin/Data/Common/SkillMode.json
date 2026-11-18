@@ -1,0 +1,182 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillMode",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SkillMode",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SkillModeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Version": "*",
+        "SkillModeType": "EDS_SkillModeType::SkillThrowMode",
+        "SkillModeEndType": "EDS_SkillModeEndType::SkillUseMaxStack",
+        "SkillModeEndTypeValue": 1,
+        "SkillModeSelfBuff": [],
+        "ID_SkillAimModeCamera": 100,
+        "ModeNormalSkill": [
+          0
+        ],
+        "ModeSkill": [
+          10218
+        ],
+        "ModeTraitSkill": 0,
+        "ModeSpecialSkill": 0,
+        "ModeJumpSkill": 0,
+        "ModeAirDashSkill": 0,
+        "ModeNotInputRoll": 0,
+        "ModeInputRoll": 0,
+        "AimModeStartTime": 0.0,
+        "AimModeEndTime": 0.0,
+        "AimDistanceMax": 0.0,
+        "SkillModeEndSkill": [
+          10208,
+          10218
+        ]
+      },
+      "5020800": {
+        "ID": 5020800,
+        "DataStage": 23,
+        "Version": "*",
+        "SkillModeType": "EDS_SkillModeType::SkillAimMode",
+        "SkillModeEndType": "EDS_SkillModeEndType::None",
+        "SkillModeEndTypeValue": 0,
+        "SkillModeSelfBuff": [
+          8402
+        ],
+        "ID_SkillAimModeCamera": 2,
+        "ModeNormalSkill": [
+          50238
+        ],
+        "ModeSkill": [
+          50208,
+          0,
+          0,
+          50248
+        ],
+        "ModeTraitSkill": 0,
+        "ModeSpecialSkill": 0,
+        "ModeJumpSkill": 0,
+        "ModeAirDashSkill": 0,
+        "ModeNotInputRoll": 59011,
+        "ModeInputRoll": 59010,
+        "AimModeStartTime": 0.6,
+        "AimModeEndTime": 0.45,
+        "AimDistanceMax": 2000.0,
+        "SkillModeEndSkill": [
+          50208,
+          59011,
+          59010
+        ]
+      },
+      "5021800": {
+        "ID": 5021800,
+        "DataStage": 23,
+        "Version": "*",
+        "SkillModeType": "EDS_SkillModeType::SkillAimMode",
+        "SkillModeEndType": "EDS_SkillModeEndType::SkillUseMaxStack",
+        "SkillModeEndTypeValue": 10,
+        "SkillModeSelfBuff": [],
+        "ID_SkillAimModeCamera": 2,
+        "ModeNormalSkill": [
+          50238
+        ],
+        "ModeSkill": [
+          0,
+          50218,
+          0,
+          50248
+        ],
+        "ModeTraitSkill": 50205,
+        "ModeSpecialSkill": 50206,
+        "ModeJumpSkill": 50109,
+        "ModeAirDashSkill": 50207,
+        "ModeNotInputRoll": 59011,
+        "ModeInputRoll": 59010,
+        "AimModeStartTime": 0.6,
+        "AimModeEndTime": 0.45,
+        "AimDistanceMax": 2000.0,
+        "SkillModeEndSkill": [
+          50218,
+          59011,
+          59010
+        ]
+      },
+      "5022800": {
+        "ID": 5022800,
+        "DataStage": 23,
+        "Version": "*",
+        "SkillModeType": "EDS_SkillModeType::SkillAimMode",
+        "SkillModeEndType": "EDS_SkillModeEndType::Timmer",
+        "SkillModeEndTypeValue": 20,
+        "SkillModeSelfBuff": [],
+        "ID_SkillAimModeCamera": 2,
+        "ModeNormalSkill": [
+          50238
+        ],
+        "ModeSkill": [
+          0,
+          0,
+          50228,
+          50248
+        ],
+        "ModeTraitSkill": 50205,
+        "ModeSpecialSkill": 50206,
+        "ModeJumpSkill": 50109,
+        "ModeAirDashSkill": 50207,
+        "ModeNotInputRoll": 59011,
+        "ModeInputRoll": 59010,
+        "AimModeStartTime": 0.6,
+        "AimModeEndTime": 0.45,
+        "AimDistanceMax": 2000.0,
+        "SkillModeEndSkill": [
+          50228,
+          59011,
+          59010
+        ]
+      },
+      "12020500": {
+        "ID": 12020500,
+        "DataStage": 23,
+        "Version": "*",
+        "SkillModeType": "EDS_SkillModeType::SkillAimMode",
+        "SkillModeEndType": "EDS_SkillModeEndType::None",
+        "SkillModeEndTypeValue": 0,
+        "SkillModeSelfBuff": [
+          12101
+        ],
+        "ID_SkillAimModeCamera": 2,
+        "ModeNormalSkill": [
+          0
+        ],
+        "ModeSkill": [
+          120215,
+          0,
+          0,
+          0
+        ],
+        "ModeTraitSkill": 120225,
+        "ModeSpecialSkill": 0,
+        "ModeJumpSkill": 0,
+        "ModeAirDashSkill": 0,
+        "ModeNotInputRoll": 129011,
+        "ModeInputRoll": 129010,
+        "AimModeStartTime": 0.6,
+        "AimModeEndTime": 0.45,
+        "AimDistanceMax": 2500.0,
+        "SkillModeEndSkill": [
+          120225,
+          129011,
+          129010
+        ]
+      }
+    }
+  }
+]

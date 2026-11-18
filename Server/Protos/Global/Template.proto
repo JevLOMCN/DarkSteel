@@ -1,0 +1,30 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum Template {
+  Template_None = 0;
+  Template_Quest = 1;
+  Template_Achievement = 11;
+  Template_BuffBase = 21;
+  Template_MoneyBase = 31;
+  Template_ItemBase = 41;
+  Template_ItemPrefix = 42;
+  Template_ItemSetEffect = 43;
+  Template_Skill = 51;
+  Template_NpcBase = 61;
+  Template_StuffBase = 71;
+  Template_NpcNormalTalk = 81;
+  Template_ItemCraftBase = 91;
+  Template_ItemCraftList = 92;
+  Template_QuestLocation = 101;
+  Template_MountBase = 111;
+  Template_CampBase = 121;
+  Template_CustomizingPreset = 131;
+  Template_CustomizingOption = 132;
+  Template_ResourceMesh = 141;
+  Template_ResourceColor = 142;
+  Template_OpenBoxRandom = 151;
+  Template_OpenBoxPackage = 152;
+  Template_OpenBoxSelect = 153;
+}

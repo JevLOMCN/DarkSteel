@@ -1,0 +1,1385 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DungeonManagerScore",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/DungeonManagerScore",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_DungeonManagerScoreTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::ItemUse",
+        "Value": 100110001,
+        "GetScore": -5
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::ItemUse",
+        "Value": 100120001,
+        "GetScore": -10
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7001,
+        "DungeonScoreType": "EDS_DungeonScoreType::ItemUse",
+        "Value": 100130001,
+        "GetScore": -15
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "DungeonScoreType": "EDS_DungeonScoreType::ItemUse",
+        "Value": 100110001,
+        "GetScore": -5
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "DungeonScoreType": "EDS_DungeonScoreType::ItemUse",
+        "Value": 100120001,
+        "GetScore": -10
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7003,
+        "DungeonScoreType": "EDS_DungeonScoreType::ItemUse",
+        "Value": 100130001,
+        "GetScore": -15
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "33": {
+        "ID": 33,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "34": {
+        "ID": 34,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "35": {
+        "ID": 35,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 1,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "36": {
+        "ID": 36,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "37": {
+        "ID": 37,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "38": {
+        "ID": 38,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "39": {
+        "ID": 39,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "40": {
+        "ID": 40,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "41": {
+        "ID": 41,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "42": {
+        "ID": 42,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "43": {
+        "ID": 43,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "44": {
+        "ID": 44,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "45": {
+        "ID": 45,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "46": {
+        "ID": 46,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "47": {
+        "ID": 47,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "48": {
+        "ID": 48,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 2,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "49": {
+        "ID": 49,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "50": {
+        "ID": 50,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "51": {
+        "ID": 51,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "52": {
+        "ID": 52,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "53": {
+        "ID": 53,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "54": {
+        "ID": 54,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "55": {
+        "ID": 55,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "56": {
+        "ID": 56,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "57": {
+        "ID": 57,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "58": {
+        "ID": 58,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "59": {
+        "ID": 59,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "60": {
+        "ID": 60,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "61": {
+        "ID": 61,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 3,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "62": {
+        "ID": 62,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "63": {
+        "ID": 63,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "64": {
+        "ID": 64,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "65": {
+        "ID": 65,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "66": {
+        "ID": 66,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "67": {
+        "ID": 67,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "68": {
+        "ID": 68,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "69": {
+        "ID": 69,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "70": {
+        "ID": 70,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "71": {
+        "ID": 71,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "72": {
+        "ID": 72,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "73": {
+        "ID": 73,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "74": {
+        "ID": 74,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 4,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "75": {
+        "ID": 75,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "76": {
+        "ID": 76,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "77": {
+        "ID": 77,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "78": {
+        "ID": 78,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "79": {
+        "ID": 79,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "80": {
+        "ID": 80,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "81": {
+        "ID": 81,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "82": {
+        "ID": 82,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "83": {
+        "ID": 83,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "84": {
+        "ID": 84,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "85": {
+        "ID": 85,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "86": {
+        "ID": 86,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "87": {
+        "ID": 87,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7002,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "88": {
+        "ID": 88,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "89": {
+        "ID": 89,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "90": {
+        "ID": 90,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "91": {
+        "ID": 91,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "92": {
+        "ID": 92,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "93": {
+        "ID": 93,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "94": {
+        "ID": 94,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "95": {
+        "ID": 95,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "96": {
+        "ID": 96,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "97": {
+        "ID": 97,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "98": {
+        "ID": 98,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "99": {
+        "ID": 99,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7011,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "104": {
+        "ID": 104,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "105": {
+        "ID": 105,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "106": {
+        "ID": 106,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "107": {
+        "ID": 107,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "108": {
+        "ID": 108,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "109": {
+        "ID": 109,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "110": {
+        "ID": 110,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "111": {
+        "ID": 111,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "112": {
+        "ID": 112,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "113": {
+        "ID": 113,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7012,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "114": {
+        "ID": 114,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "115": {
+        "ID": 115,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "116": {
+        "ID": 116,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "117": {
+        "ID": 117,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "118": {
+        "ID": 118,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "119": {
+        "ID": 119,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "120": {
+        "ID": 120,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "121": {
+        "ID": 121,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "122": {
+        "ID": 122,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "123": {
+        "ID": 123,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "124": {
+        "ID": 124,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "125": {
+        "ID": 125,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "126": {
+        "ID": 126,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7013,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "127": {
+        "ID": 127,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "128": {
+        "ID": 128,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "129": {
+        "ID": 129,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "130": {
+        "ID": 130,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "131": {
+        "ID": 131,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "132": {
+        "ID": 132,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "133": {
+        "ID": 133,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "134": {
+        "ID": 134,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "135": {
+        "ID": 135,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "136": {
+        "ID": 136,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "137": {
+        "ID": 137,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "138": {
+        "ID": 138,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "139": {
+        "ID": 139,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7201,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      },
+      "140": {
+        "ID": 140,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::PlayerDying",
+        "Value": 0,
+        "GetScore": -100
+      },
+      "141": {
+        "ID": 141,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillAll",
+        "Value": 0,
+        "GetScore": 1
+      },
+      "142": {
+        "ID": 142,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTableId",
+        "Value": 110101,
+        "GetScore": 3
+      },
+      "143": {
+        "ID": 143,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 1,
+        "GetScore": 10
+      },
+      "144": {
+        "ID": 144,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 2,
+        "GetScore": 20
+      },
+      "145": {
+        "ID": 145,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 3,
+        "GetScore": 30
+      },
+      "146": {
+        "ID": 146,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 4,
+        "GetScore": 40
+      },
+      "147": {
+        "ID": 147,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 5,
+        "GetScore": 50
+      },
+      "148": {
+        "ID": 148,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::MonsterKillGradeType",
+        "Value": 6,
+        "GetScore": 80
+      },
+      "149": {
+        "ID": 149,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeStone",
+        "Value": 0,
+        "GetScore": 5
+      },
+      "150": {
+        "ID": 150,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypePlant",
+        "Value": 0,
+        "GetScore": 6
+      },
+      "151": {
+        "ID": 151,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeTree",
+        "Value": 0,
+        "GetScore": 7
+      },
+      "152": {
+        "ID": 152,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonBase": 7301,
+        "DungeonScoreType": "EDS_DungeonScoreType::GatheringTypeBox",
+        "Value": 0,
+        "GetScore": 8
+      }
+    }
+  }
+]

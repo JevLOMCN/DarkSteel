@@ -1,0 +1,362 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: CoreUObject
+// Functions: 10
+
+// GetTestFlags @ 141f53ab0
+
+EAutomationTestFlags __thiscall
+FTestUninitializedStructMemberTest::GetTestFlags(FTestUninitializedStructMemberTest *this)
+
+{
+  return this->TestFlags;
+}
+
+// IsStressTest @ 141f53ac0
+
+bool __thiscall
+FTestUninitializedStructMemberTest::IsStressTest(FTestUninitializedStructMemberTest *this)
+
+{
+  return false;
+}
+
+// GetRequiredDeviceNum @ 141f53ad0
+
+uint __thiscall
+FTestUninitializedStructMemberTest::GetRequiredDeviceNum(FTestUninitializedStructMemberTest *this)
+
+{
+  return 1;
+}
+
+// GetTestSourceFileName @ 141f53ae0
+
+FString * __thiscall
+FTestUninitializedStructMemberTest::GetTestSourceFileName
+          (FTestUninitializedStructMemberTest *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,
+                     "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Private\\UObject\\Class.cpp"
+                    );
+  return __return_storage_ptr__;
+}
+
+// GetTestSourceFileLine @ 141f53b10
+
+int __thiscall
+FTestUninitializedStructMemberTest::GetTestSourceFileLine(FTestUninitializedStructMemberTest *this)
+
+{
+  return 0x1175;
+}
+
+// GetTests @ 141f53b20
+
+/* WARNING: Removing unreachable block (ram,0x000141f53c9e) */
+
+void __thiscall
+FTestUninitializedStructMemberTest::GetTests
+          (FTestUninitializedStructMemberTest *this,
+          TArray<FString,TSizedDefaultAllocator<32>_> *param_1,
+          TArray<FString,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FString *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  FScriptContainerElement *pFVar5;
+  undefined8 local_18;
+  undefined8 local_10;
+  
+  pFVar1 = &this->PrettyNameDotNotation;
+  pFVar5 = (param_1->AllocatorInstance).Data;
+  if (((pFVar5 <= pFVar1) && (pFVar1 < pFVar5 + (longlong)param_1->ArrayMax * 0x10)) &&
+     (bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                         ,0x7a5,
+                         L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                        ), bVar3)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  iVar4 = param_1->ArrayNum;
+  if (iVar4 == param_1->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x810,&param_1->AllocatorInstance,&param_1->ArrayMax);
+  }
+  param_1->ArrayNum = iVar4 + 1;
+  ::FString::FString((FString *)((param_1->AllocatorInstance).Data + (longlong)iVar4 * 0x10),pFVar1)
+  ;
+  pFVar5 = (param_2->AllocatorInstance).Data;
+  local_18 = 0;
+  local_10 = 0;
+  if (((pFVar5 <= (FScriptContainerElement *)&local_18) &&
+      ((FScriptContainerElement *)&local_18 < pFVar5 + (longlong)param_2->ArrayMax * 0x10)) &&
+     (bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                         ,0x7a5,
+                         L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                        ), bVar3)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x810,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar5 = (param_2->AllocatorInstance).Data + (longlong)iVar4 * 0x10;
+  *(undefined8 *)pFVar5 = 0;
+  *(undefined8 *)pFVar5 = local_18;
+  *(undefined4 *)(pFVar5 + 8) = (undefined4)local_10;
+  *(undefined4 *)(pFVar5 + 0xc) = local_10._4_4_;
+  return;
+}
+
+// RunTest @ 141f53cc0
+
+bool __thiscall
+FTestUninitializedStructMemberTest::RunTest
+          (FTestUninitializedStructMemberTest *this,FString *param_1)
+
+{
+  bool bVar1;
+  
+  TestBody(this,param_1);
+  bVar1 = FAutomationTestBase::HasAnyErrors((FAutomationTestBase *)this);
+  return !bVar1;
+}
+
+// GetBeautifiedTestName @ 141f53cf0
+
+FString * __thiscall
+FTestUninitializedStructMemberTest::GetBeautifiedTestName
+          (FTestUninitializedStructMemberTest *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,&this->PrettyNameDotNotation);
+  return __return_storage_ptr__;
+}
+
+// FTestUninitializedStructMemberTest @ 141f66980
+
+FTestUninitializedStructMemberTest * __thiscall
+FTestUninitializedStructMemberTest::FTestUninitializedStructMemberTest
+          (FTestUninitializedStructMemberTest *this,FString *param_1)
+
+{
+  FString *pFVar1;
+  FScriptContainerElement *pFVar2;
+  EAutomationTestFlags EVar3;
+  FString *pFVar4;
+  FAutomationTestFramework *this_00;
+  longlong lVar5;
+  FString local_28;
+  FString local_18;
+  
+  FAutomationTestBase::FAutomationTestBase((FAutomationTestBase *)this,param_1,false);
+  this->_padding_ = (longlong)&___7FTestUninitializedStructMemberTest__6B_;
+  pFVar1 = &this->PrettyNameDotNotation;
+  (pFVar1->Data).AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  (this->PrettyNameDotNotation).Data.ArrayNum = 0;
+  (this->PrettyNameDotNotation).Data.ArrayMax = 0;
+  pFVar4 = ::FString::FString(&local_18,"[CoreUObject]");
+  EVar3 = FAutomationTestBase::ExtractAutomationTestFlags((FAutomationTestBase *)this,pFVar4);
+  this->TestFlags = EVar3;
+  pFVar4 = ::FString::FString(&local_28,"System::CoreUObject::ScriptStruct::UninitializedMemberTest"
+                             );
+  pFVar4 = ::FString::Replace(pFVar4,&local_18,L"::",L".",IgnoreCase);
+  if (pFVar1 != pFVar4) {
+    pFVar2 = (pFVar1->Data).AllocatorInstance.Data;
+    if (pFVar2 != (FScriptContainerElement *)0x0) {
+      FMemory::Free(pFVar2);
+    }
+    (pFVar1->Data).AllocatorInstance.Data = (pFVar4->Data).AllocatorInstance.Data;
+    (pFVar4->Data).AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+    (this->PrettyNameDotNotation).Data.ArrayNum = (pFVar4->Data).ArrayNum;
+    (this->PrettyNameDotNotation).Data.ArrayMax = (pFVar4->Data).ArrayMax;
+    (pFVar4->Data).ArrayNum = 0;
+    (pFVar4->Data).ArrayMax = 0;
+  }
+  if (local_18.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_18.Data.AllocatorInstance.Data);
+  }
+  if (local_28.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_28.Data.AllocatorInstance.Data);
+  }
+  EVar3 = this->TestFlags;
+  if ((EVar3 & (ProgramContext|CommandletContext|ServerContext|ClientContext|EditorContext)) == None
+     ) {
+    EVar3 = EVar3 | (ProgramContext|CommandletContext|ServerContext|ClientContext|EditorContext);
+    this->TestFlags = EVar3;
+  }
+  if ((EVar3 & (NegativeFilter|StressFilter|PerfFilter|ProductFilter|EngineFilter|SmokeFilter)) ==
+      None) {
+    this->TestFlags = EVar3 | EngineFilter;
+  }
+  this_00 = FAutomationTestFramework::Get();
+  ::FString::FString(&local_18,"[CoreUObject]");
+  local_28.Data.ArrayNum = (this->PrettyNameDotNotation).Data.ArrayNum;
+  lVar5 = (longlong)local_28.Data.ArrayNum;
+  pFVar2 = (pFVar1->Data).AllocatorInstance.Data;
+  local_28.Data.AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  if (local_28.Data.ArrayNum == 0) {
+    local_28.Data.ArrayMax = 0;
+  }
+  else {
+    UE::Core::Private::ReallocForCopy<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+              (2,2,local_28.Data.ArrayNum,0,(ForAnyElementType *)&local_28,local_28.Data.ArrayNum,
+               &local_28.Data.ArrayMax);
+    memcpy(local_28.Data.AllocatorInstance.Data,pFVar2,lVar5 * 2);
+  }
+  FAutomationTestFramework::RegisterAutomationTestTags(this_00,&local_28,&local_18,true);
+  if (local_28.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_28.Data.AllocatorInstance.Data);
+  }
+  if (local_18.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_18.Data.AllocatorInstance.Data);
+  }
+  return this;
+}
+
+// TestBody @ 141fae070
+
+void __thiscall
+FTestUninitializedStructMemberTest::TestBody
+          (FTestUninitializedStructMemberTest *this,FString *param_1)
+
+{
+  FAutomationTestBase *pFVar1;
+  code *pcVar2;
+  uchar *puVar3;
+  bool bVar4;
+  UScriptStruct *this_00;
+  FName *pFVar5;
+  FProperty *pFVar6;
+  FProperty *pFVar7;
+  FAutomationTestFramework *pFVar8;
+  FName local_res18;
+  FName local_res20;
+  FString local_58;
+  FString local_48;
+  FScriptStructTestWrapper local_38;
+  
+  this_00 = FTestUninitializedScriptStructMembersTest::StaticStruct();
+  local_38.TempBuffer = (uchar *)0x0;
+  local_38.ConstrutorSyntax = NoInit;
+  local_38.bTempBufferAttemptedCreate = false;
+  local_38.InitValue = 0xfe;
+  local_38.ScriptStruct = this_00;
+  pFVar5 = ::FName::FName(&local_res18,L"UninitializedObjectReference");
+  pFVar6 = UStruct::FindPropertyByName((UStruct *)this_00,*pFVar5);
+  if (((pFVar6 == (FProperty *)0x0) || ((*(uint *)(pFVar6->_padding_ + 0x18) >> 0x10 & 1) == 0)) &&
+     (bVar4 = ::FDebug::CheckVerifyFailedImpl2
+                        ("CastResult",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\Field.h"
+                         ,0x472,L"CastFieldChecked failed with 0x%016llx"),
+     pFVar6 = (FProperty *)0x0, bVar4)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  pFVar5 = ::FName::FName(&local_res20,L"InitializedObjectReference");
+  pFVar7 = UStruct::FindPropertyByName((UStruct *)this_00,*pFVar5);
+  if (((pFVar7 == (FProperty *)0x0) || ((*(uint *)(pFVar7->_padding_ + 0x18) >> 0x10 & 1) == 0)) &&
+     (bVar4 = ::FDebug::CheckVerifyFailedImpl2
+                        ("CastResult",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\Field.h"
+                         ,0x472,L"CastFieldChecked failed with 0x%016llx"),
+     pFVar7 = (FProperty *)0x0, bVar4)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  if (local_38.bTempBufferAttemptedCreate == false) {
+    FScriptStructTestWrapper::AttemptCreateTempBuffer(&local_38);
+  }
+  puVar3 = local_38.TempBuffer;
+  if ((pFVar6->ArrayDim < 1) &&
+     (bVar4 = ::FDebug::CheckVerifyFailedImpl2
+                        ("(ArrayIndex >= 0) && (ArrayIndex < ArrayDim)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\UnrealType.h"
+                         ,0x2dd,L"Array index out of bounds: %i from an array of size %i"), bVar4))
+  {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  if ((puVar3 == (uchar *)0x0) &&
+     (bVar4 = ::FDebug::CheckVerifyFailedImpl2
+                        ("ContainerPtr",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\UnrealType.h"
+                         ,0x2de,L""), bVar4)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  if (*(longlong *)(puVar3 + pFVar6->Offset_Internal) != -0x101010101010102) {
+    pFVar8 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar8->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_58,
+                       "FTestUninitializedScriptStructMembersTest::UninitializedObjectReference should be BadPointer value"
+                      );
+    (*pcVar2)(pFVar1,&local_58,0);
+    if (local_58.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_58.Data.AllocatorInstance.Data);
+    }
+  }
+  if (local_38.bTempBufferAttemptedCreate == false) {
+    FScriptStructTestWrapper::AttemptCreateTempBuffer(&local_38);
+  }
+  puVar3 = local_38.TempBuffer;
+  if ((pFVar7->ArrayDim < 1) &&
+     (bVar4 = ::FDebug::CheckVerifyFailedImpl2
+                        ("(ArrayIndex >= 0) && (ArrayIndex < ArrayDim)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\UnrealType.h"
+                         ,0x2dd,L"Array index out of bounds: %i from an array of size %i"), bVar4))
+  {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  if ((puVar3 == (uchar *)0x0) &&
+     (bVar4 = ::FDebug::CheckVerifyFailedImpl2
+                        ("ContainerPtr",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\UnrealType.h"
+                         ,0x2de,L""), bVar4)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  if (*(longlong *)(puVar3 + pFVar7->Offset_Internal) != 0) {
+    pFVar8 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar8->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_48,
+                       "FTestUninitializedScriptStructMembersTest::InitializedObjectReference should be null"
+                      );
+    (*pcVar2)(pFVar1,&local_48,0);
+    if (local_48.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_48.Data.AllocatorInstance.Data);
+    }
+  }
+  puVar3 = local_38.TempBuffer;
+  if (local_38.TempBuffer != (uchar *)0x0) {
+    (**(code **)((local_38.ScriptStruct)->_padding_ + 0x300))
+              (local_38.ScriptStruct,local_38.TempBuffer,1);
+    FMemory::Free(puVar3);
+  }
+  return;
+}
+

@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum DeadZoneType {
+  DeadZoneType_None = 0;
+  DeadZoneType_Field = 1;
+  DeadZoneType_Dungeon = 2;
+  DeadZoneType_Phasing = 3;
+  DeadZoneType_Breach = 4;
+  DeadZoneType_Gate = 5;
+  DeadZoneType_Inn = 6;
+}

@@ -1,0 +1,469 @@
+[
+  {
+    "Type": "WN_CS_CharacterWorkspace",
+    "Name": "CWS_Stuff_Gather",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WN_CS_CharacterWorkspace'",
+    "Package": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather",
+    "Properties": {
+      "CharacterDescs": [
+        {
+          "ID": 1,
+          "Name": "Stuff_Gather_DigSite",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Arch/Stuff_Gather_DigSite_11/SKEL_Stuff_Gather_DigSite_11.SKEL_Stuff_Gather_DigSite_11",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Arch/Stuff_Gather_DigSite_11/SK_Stuff_Gather_DigSite_11.SK_Stuff_Gather_DigSite_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_DigSite_11",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_7BF738C4404F9083EBD371BAC3923CBD.SKM_Soul_7BF738C4404F9083EBD371BAC3923CBD",
+                "SubPathString": ""
+              },
+              "Guid": "7BF738C4-404F9083-EBD371BA-C3923CBD",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 2,
+          "Name": "Stuff_Gather_Plants",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Plants/Stuff_Gather_Plants_TundraBerry_11/SKEL_Stuff_Gather_Plants_TundraBerry_11.SKEL_Stuff_Gather_Plants_TundraBerry_11",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Plants_TundraBerry",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Plants/Stuff_Gather_Plants_TundraBerry_11/SK_Stuff_Gather_Plants_TundraBerry_11.SK_Stuff_Gather_Plants_TundraBerry_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Plants_TundraBerry_11",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_0AD4502246639259915D0AB26840CC4E.SKM_Soul_0AD4502246639259915D0AB26840CC4E",
+                "SubPathString": ""
+              },
+              "Guid": "0AD45022-46639259-915D0AB2-6840CC4E",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 10
+            }
+          ]
+        },
+        {
+          "ID": 3,
+          "Name": "Stuff_Gather_Ore",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Ore/Stuff_Gather_Ore_Gneiss_11/SKEL_NPC_Stuff_Gather_Ore_Gneiss_11.SKEL_NPC_Stuff_Gather_Ore_Gneiss_11",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Ore_Gneiss",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Ore/Stuff_Gather_Ore_Gneiss_11/SK_NPC_Stuff_Gather_Ore_Gneiss_11.SK_NPC_Stuff_Gather_Ore_Gneiss_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Ore_Gneiss_11",
+              "ID_Character": 3,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_05CCC74741CFDE0BA32B6C8EC9EF554B.SKM_Soul_05CCC74741CFDE0BA32B6C8EC9EF554B",
+                "SubPathString": ""
+              },
+              "Guid": "05CCC747-41CFDE0B-A32B6C8E-C9EF554B",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 3,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        },
+        {
+          "ID": 4,
+          "Name": "Stuff_Gather_Tree",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Tree/Stuff_Gather_Tree_Birchtree_11/SKEL_Stuff_Gather_Tree_Birchtree_11.SKEL_Stuff_Gather_Tree_Birchtree_11",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Tree_BirchTree",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Tree/Stuff_Gather_Tree_Birchtree_11/SK_Stuff_Gather_Tree_Birchtree_11.SK_Stuff_Gather_Tree_Birchtree_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Tree_BirchTree_11",
+              "ID_Character": 4,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_1D84100A4573BF9FE30671A23242CFC8.SKM_Soul_1D84100A4573BF9FE30671A23242CFC8",
+                "SubPathString": ""
+              },
+              "Guid": "1D84100A-4573BF9F-E30671A2-3242CFC8",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 4,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        },
+        {
+          "ID": 5,
+          "Name": "Stuff_Gather_Box",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Box/Stuff_Gather_Box_TundraBox_11/SKEL_Stuff_Gather_Box_11_TundraBox_01.SKEL_Stuff_Gather_Box_11_TundraBox_01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Box_TundraBox",
+              "ID_Character": 5,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Box/Stuff_Gather_Box_TundraBox_11/SK_Stuff_Gather_Box_TundraBox_11.SK_Stuff_Gather_Box_TundraBox_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Box_TundraBox_11",
+              "ID_Character": 5,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_C6B2A8C544D4E2F109A5B880079ED5DB.SKM_Soul_C6B2A8C544D4E2F109A5B880079ED5DB",
+                "SubPathString": ""
+              },
+              "Guid": "C6B2A8C5-44D4E2F1-09A5B880-079ED5DB",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 5,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        },
+        {
+          "ID": 6,
+          "Name": "Stuff_Gather_UnderWater",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/UnderWater/Stuff_Gather_UnderWater_Shell_11/SKEL_Stuff_Gather_UnderWater_Shell_11.SKEL_Stuff_Gather_UnderWater_Shell_11",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_UnderWater_Shell",
+              "ID_Character": 6,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/UnderWater/Stuff_Gather_UnderWater_Shell_11/SK_Stuff_Gather_UnderWater_Shell_11.SK_Stuff_Gather_UnderWater_Shell_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_UnderWater_Shell_11",
+              "ID_Character": 6,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_4370485D4A9FFFDD46B326A2FB3E4D3A.SKM_Soul_4370485D4A9FFFDD46B326A2FB3E4D3A",
+                "SubPathString": ""
+              },
+              "Guid": "4370485D-4A9FFFDD-46B326A2-FB3E4D3A",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 6,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        },
+        {
+          "ID": 7,
+          "Name": "Stuff_Gather_Arch",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Arch/Stuff_Gather_Arch_TundraDirt_11/SKEL_Stuff_Gather_Arch_TundraDirt_11.SKEL_Stuff_Gather_Arch_TundraDirt_11",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Arch_TundraDirt",
+              "ID_Character": 7,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Arch/Stuff_Gather_Arch_TundraDirt_11/SK_Stuff_Gather_Arch_TundraDirt_11.SK_Stuff_Gather_Arch_TundraDirt_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Stuff_Gather_Arch_TundraDirt_11",
+              "ID_Character": 7,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_9369AB6147BF9AAEDF12AD9245DDE9AE.SKM_Soul_9369AB6147BF9AAEDF12AD9245DDE9AE",
+                "SubPathString": ""
+              },
+              "Guid": "9369AB61-47BF9AAE-DF12AD92-45DDE9AE",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 7,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        }
+      ],
+      "Version": "EWN_CS_CharacterWorkspaceVersion::Latest"
+    }
+  }
+]

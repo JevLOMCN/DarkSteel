@@ -1,0 +1,314 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WeaponTypeBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/WeaponTypeBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_WeaponTypeBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_WeaponType::Fist",
+        "DataStage": 23,
+        "WeaponItemType": "EDS_ItemType::None",
+        "ID_NormalAttack": [
+          30101,
+          30102,
+          30103,
+          30104,
+          30105
+        ],
+        "ID_BaseSkill01": 30201,
+        "ID_BaseSkill02": 30202,
+        "ID_BaseSkill03": 30203,
+        "ID_BaseSkill04": 30204,
+        "ID_BaseSkill05": 30205,
+        "ID_BaseSkill06": 30206,
+        "ID_LinkSkillList": [
+          30207,
+          30214,
+          30224,
+          30215,
+          30225,
+          30216,
+          30226,
+          30301
+        ],
+        "ID_JumpSkill": 30109,
+        "ID_NotInputRoll": 39011,
+        "ID_InputRoll": 39010,
+        "ID_BattleNotInputRoll": 39011,
+        "ID_BattleInputRoll": 39010,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleWalkSpeed": 200.0,
+        "BattleRunSpeed": 500.0
+      },
+      "2": {
+        "ID": "EDS_WeaponType::Knuckle",
+        "DataStage": 23,
+        "WeaponItemType": "EDS_ItemType::WeaponKnuckle",
+        "ID_NormalAttack": [
+          30101,
+          30102,
+          30103,
+          30104,
+          30105
+        ],
+        "ID_BaseSkill01": 30201,
+        "ID_BaseSkill02": 30202,
+        "ID_BaseSkill03": 30203,
+        "ID_BaseSkill04": 30204,
+        "ID_BaseSkill05": 30205,
+        "ID_BaseSkill06": 30206,
+        "ID_LinkSkillList": [
+          30207,
+          30214,
+          30224,
+          30215,
+          30225,
+          30216,
+          30226,
+          30301
+        ],
+        "ID_JumpSkill": 30109,
+        "ID_NotInputRoll": 39011,
+        "ID_InputRoll": 39010,
+        "ID_BattleNotInputRoll": 39011,
+        "ID_BattleInputRoll": 39010,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 650.0,
+        "BattleWalkSpeed": 200.0,
+        "BattleRunSpeed": 550.0
+      },
+      "3": {
+        "ID": "EDS_WeaponType::SwordShield",
+        "DataStage": 23,
+        "WeaponItemType": "EDS_ItemType::WeaponSwordShield",
+        "ID_NormalAttack": [
+          10101,
+          10102,
+          10103,
+          10104,
+          10105,
+          10108
+        ],
+        "ID_BaseSkill01": 10201,
+        "ID_BaseSkill02": 10202,
+        "ID_BaseSkill03": 10203,
+        "ID_BaseSkill04": 10204,
+        "ID_BaseSkill05": 10205,
+        "ID_BaseSkill06": 10206,
+        "ID_LinkSkillList": [
+          10207,
+          10211,
+          10214,
+          10301
+        ],
+        "ID_JumpSkill": 10109,
+        "ID_NotInputRoll": 19011,
+        "ID_InputRoll": 19010,
+        "ID_BattleNotInputRoll": 19011,
+        "ID_BattleInputRoll": 19010,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 550.0,
+        "BattleWalkSpeed": 200.0,
+        "BattleRunSpeed": 450.0
+      },
+      "4": {
+        "ID": "EDS_WeaponType::Lance",
+        "DataStage": 23,
+        "WeaponItemType": "EDS_ItemType::WeaponLance",
+        "ID_NormalAttack": [
+          40101,
+          40102,
+          40103,
+          40104,
+          40105
+        ],
+        "ID_BaseSkill01": 40201,
+        "ID_BaseSkill02": 40202,
+        "ID_BaseSkill03": 40203,
+        "ID_BaseSkill04": 40204,
+        "ID_BaseSkill05": 40205,
+        "ID_BaseSkill06": 40206,
+        "ID_LinkSkillList": [
+          40207,
+          40301
+        ],
+        "ID_JumpSkill": 40109,
+        "ID_NotInputRoll": 49011,
+        "ID_InputRoll": 49010,
+        "ID_BattleNotInputRoll": 49011,
+        "ID_BattleInputRoll": 49010,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleWalkSpeed": 200.0,
+        "BattleRunSpeed": 500.0
+      },
+      "5": {
+        "ID": "EDS_WeaponType::GreatAxe",
+        "DataStage": 23,
+        "WeaponItemType": "EDS_ItemType::WeaponGreatAxe",
+        "ID_NormalAttack": [
+          60101,
+          60102,
+          60103,
+          60104,
+          60105
+        ],
+        "ID_BaseSkill01": 60201,
+        "ID_BaseSkill02": 60202,
+        "ID_BaseSkill03": 60203,
+        "ID_BaseSkill04": 60204,
+        "ID_BaseSkill05": 60205,
+        "ID_BaseSkill06": 60206,
+        "ID_LinkSkillList": [
+          60207,
+          60301
+        ],
+        "ID_JumpSkill": 60109,
+        "ID_NotInputRoll": 69011,
+        "ID_InputRoll": 69010,
+        "ID_BattleNotInputRoll": 69011,
+        "ID_BattleInputRoll": 69010,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 500.0,
+        "BattleWalkSpeed": 200.0,
+        "BattleRunSpeed": 400.0
+      },
+      "11": {
+        "ID": "EDS_WeaponType::LongBow",
+        "DataStage": 23,
+        "WeaponItemType": "EDS_ItemType::WeaponLongBow",
+        "ID_NormalAttack": [
+          120101,
+          120102,
+          120103,
+          120104,
+          120105
+        ],
+        "ID_BaseSkill01": 120201,
+        "ID_BaseSkill02": 120202,
+        "ID_BaseSkill03": 120203,
+        "ID_BaseSkill04": 120204,
+        "ID_BaseSkill05": 120205,
+        "ID_BaseSkill06": 120206,
+        "ID_LinkSkillList": [
+          120207,
+          120215,
+          120225,
+          120301
+        ],
+        "ID_JumpSkill": 120109,
+        "ID_NotInputRoll": 129011,
+        "ID_InputRoll": 129010,
+        "ID_BattleNotInputRoll": 129011,
+        "ID_BattleInputRoll": 129010,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleWalkSpeed": 200.0,
+        "BattleRunSpeed": 500.0
+      },
+      "12": {
+        "ID": "EDS_WeaponType::DualPistols",
+        "DataStage": 23,
+        "WeaponItemType": "EDS_ItemType::WeaponDualPistols",
+        "ID_NormalAttack": [
+          50101,
+          50102,
+          50103,
+          50104,
+          50105
+        ],
+        "ID_BaseSkill01": 50201,
+        "ID_BaseSkill02": 50202,
+        "ID_BaseSkill03": 50203,
+        "ID_BaseSkill04": 50204,
+        "ID_BaseSkill05": 50205,
+        "ID_BaseSkill06": 50206,
+        "ID_LinkSkillList": [
+          50207,
+          50215,
+          50301
+        ],
+        "ID_JumpSkill": 50109,
+        "ID_NotInputRoll": 59011,
+        "ID_InputRoll": 59010,
+        "ID_BattleNotInputRoll": 59011,
+        "ID_BattleInputRoll": 59010,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 650.0,
+        "BattleWalkSpeed": 200.0,
+        "BattleRunSpeed": 550.0
+      },
+      "21": {
+        "ID": "EDS_WeaponType::Orb",
+        "DataStage": 23,
+        "WeaponItemType": "EDS_ItemType::WeaponOrb",
+        "ID_NormalAttack": [
+          70101,
+          70102,
+          70103,
+          70104,
+          70105
+        ],
+        "ID_BaseSkill01": 70201,
+        "ID_BaseSkill02": 70202,
+        "ID_BaseSkill03": 70203,
+        "ID_BaseSkill04": 70204,
+        "ID_BaseSkill05": 70205,
+        "ID_BaseSkill06": 70206,
+        "ID_LinkSkillList": [
+          70207,
+          70301
+        ],
+        "ID_JumpSkill": 70109,
+        "ID_NotInputRoll": 79011,
+        "ID_InputRoll": 79010,
+        "ID_BattleNotInputRoll": 79011,
+        "ID_BattleInputRoll": 79010,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleWalkSpeed": 200.0,
+        "BattleRunSpeed": 500.0
+      },
+      "22": {
+        "ID": "EDS_WeaponType::Fan",
+        "DataStage": 23,
+        "WeaponItemType": "EDS_ItemType::WeaponFan",
+        "ID_NormalAttack": [
+          20101,
+          20102,
+          20103,
+          20104,
+          20105
+        ],
+        "ID_BaseSkill01": 20201,
+        "ID_BaseSkill02": 20202,
+        "ID_BaseSkill03": 20203,
+        "ID_BaseSkill04": 20204,
+        "ID_BaseSkill05": 20205,
+        "ID_BaseSkill06": 20206,
+        "ID_LinkSkillList": [
+          20207,
+          20301
+        ],
+        "ID_JumpSkill": 20109,
+        "ID_NotInputRoll": 29011,
+        "ID_InputRoll": 29010,
+        "ID_BattleNotInputRoll": 29011,
+        "ID_BattleInputRoll": 29010,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleWalkSpeed": 200.0,
+        "BattleRunSpeed": 500.0
+      }
+    }
+  }
+]

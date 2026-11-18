@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MessageBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MessageBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MessageBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_MessageType::Alert",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::MessageAlert",
+        "IsQueue": false
+      },
+      "11": {
+        "ID": "EDS_MessageType::Complete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::MessageComplete",
+        "IsQueue": true
+      },
+      "21": {
+        "ID": "EDS_MessageType::HeadLine",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::MessageHeadline",
+        "IsQueue": true
+      },
+      "22": {
+        "ID": "EDS_MessageType::Warning",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::MessageWarning",
+        "IsQueue": true
+      },
+      "23": {
+        "ID": "EDS_MessageType::ContentsOpen",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::MessageContentsOpen",
+        "IsQueue": false
+      },
+      "24": {
+        "ID": "EDS_MessageType::Bro_HeadLine_Low",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::MessageHeadlineLow",
+        "IsQueue": true
+      },
+      "41": {
+        "ID": "EDS_MessageType::GM_Notice",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::MessageGm",
+        "IsQueue": false
+      },
+      "33": {
+        "ID": "EDS_MessageType::Request_Popup",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::MessageNotification",
+        "IsQueue": false
+      },
+      "31": {
+        "ID": "EDS_MessageType::Popup_Close",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::PopupCommon",
+        "IsQueue": true
+      },
+      "32": {
+        "ID": "EDS_MessageType::Popup_LogOut",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::PopupLogOut",
+        "IsQueue": false
+      },
+      "25": {
+        "ID": "EDS_MessageType::Attention",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowBase": "EDS_WindowWidget::MessageAttention",
+        "IsQueue": false
+      }
+    }
+  }
+]

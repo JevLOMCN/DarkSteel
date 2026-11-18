@@ -1,0 +1,105 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: MediaUtils
+// Functions: 4
+
+// operator() @ 1504fa7b0
+
+bool __thiscall
+`TSparseArray<TSparseSetElement<TSharedPtr<IMediaAudioSample,1>_>,TSparseArrayAllocator<TSizedDefaultAllocator<32>,FDefaultBitArrayAllocator>_>
+::TRangedForIterator::operator!='::__l2::<lambda_1>::operator()(void *this)
+
+{
+  code *pcVar1;
+  bool bVar2;
+  
+  bVar2 = UE::Assert::Private::CheckEnsureFailed(false,&bGEnsureHasExecuted<_652984193206188913>);
+  if (bVar2) {
+    bVar2 = UE::Assert::Private::EnsureFailed
+                      (&bGEnsureHasExecuted<_652984193206188913>,
+                       &`public:___cdecl_`public:_bool___cdecl_TSparseArray<TSparseSetElement<TSharedPtr<IMediaAudioSample,1>_>,TSparseArrayAllocator<TSizedDefaultAllocator<32>,FDefaultBitArrayAllocator>_>::TRangedForIterator::operator!=(TSparseArray<class_TSparseSetElement<class_TSharedPtr<class_IMediaAudioSample,1>_>,class_TSparseArrayAllocator<class_TSizedDefaultAllocator<32>,class_FDefaultBitArrayAllocator>_>::TRangedForIterator_const&___ptr64)const___ptr64'::`2'::<lambda_1>::operator()(void)const___ptr64'
+                        ::__l2::ENSURE_Static);
+    if (bVar2) {
+      pcVar1 = (code *)swi(3);
+      bVar2 = (bool)(*pcVar1)();
+      return bVar2;
+    }
+  }
+  return false;
+}
+
+// operator() @ 1504fa7f0
+
+bool __thiscall
+`TSparseArray<TSparseSetElement<TSharedPtr<IMediaBinarySample,1>_>,TSparseArrayAllocator<TSizedDefaultAllocator<32>,FDefaultBitArrayAllocator>_>
+::TRangedForIterator::operator!='::__l2::<lambda_1>::operator()(void *this)
+
+{
+  code *pcVar1;
+  bool bVar2;
+  
+  bVar2 = UE::Assert::Private::CheckEnsureFailed(false,&bGEnsureHasExecuted<_652984193206188913>);
+  if (bVar2) {
+    bVar2 = UE::Assert::Private::EnsureFailed
+                      (&bGEnsureHasExecuted<_652984193206188913>,
+                       &`public:___cdecl_`public:_bool___cdecl_TSparseArray<TSparseSetElement<TSharedPtr<IMediaBinarySample,1>_>,TSparseArrayAllocator<TSizedDefaultAllocator<32>,FDefaultBitArrayAllocator>_>::TRangedForIterator::operator!=(TSparseArray<class_TSparseSetElement<class_TSharedPtr<class_IMediaBinarySample,1>_>,class_TSparseArrayAllocator<class_TSizedDefaultAllocator<32>,class_FDefaultBitArrayAllocator>_>::TRangedForIterator_const&___ptr64)const___ptr64'::`2'::<lambda_1>::operator()(void)const___ptr64'
+                        ::__l2::ENSURE_Static);
+    if (bVar2) {
+      pcVar1 = (code *)swi(3);
+      bVar2 = (bool)(*pcVar1)();
+      return bVar2;
+    }
+  }
+  return false;
+}
+
+// operator() @ 1504fa830
+
+bool __thiscall
+`TSparseArray<TSparseSetElement<TSharedPtr<IMediaOverlaySample,1>_>,TSparseArrayAllocator<TSizedDefaultAllocator<32>,FDefaultBitArrayAllocator>_>
+::TRangedForIterator::operator!='::__l2::<lambda_1>::operator()(void *this)
+
+{
+  code *pcVar1;
+  bool bVar2;
+  
+  bVar2 = UE::Assert::Private::CheckEnsureFailed(false,&bGEnsureHasExecuted<_652984193206188913>);
+  if (bVar2) {
+    bVar2 = UE::Assert::Private::EnsureFailed
+                      (&bGEnsureHasExecuted<_652984193206188913>,
+                       &`public:___cdecl_`public:_bool___cdecl_TSparseArray<TSparseSetElement<TSharedPtr<IMediaOverlaySample,1>_>,TSparseArrayAllocator<TSizedDefaultAllocator<32>,FDefaultBitArrayAllocator>_>::TRangedForIterator::operator!=(TSparseArray<class_TSparseSetElement<class_TSharedPtr<class_IMediaOverlaySample,1>_>,class_TSparseArrayAllocator<class_TSizedDefaultAllocator<32>,class_FDefaultBitArrayAllocator>_>::TRangedForIterator_const&___ptr64)const___ptr64'::`2'::<lambda_1>::operator()(void)const___ptr64'
+                        ::__l2::ENSURE_Static);
+    if (bVar2) {
+      pcVar1 = (code *)swi(3);
+      bVar2 = (bool)(*pcVar1)();
+      return bVar2;
+    }
+  }
+  return false;
+}
+
+// operator() @ 1504fa870
+
+bool __thiscall
+`TSparseArray<TSparseSetElement<TSharedPtr<IMediaTextureSample,1>_>,TSparseArrayAllocator<TSizedDefaultAllocator<32>,FDefaultBitArrayAllocator>_>
+::TRangedForIterator::operator!='::__l2::<lambda_1>::operator()(void *this)
+
+{
+  code *pcVar1;
+  bool bVar2;
+  
+  bVar2 = UE::Assert::Private::CheckEnsureFailed(false,&bGEnsureHasExecuted<_652984193206188913>);
+  if (bVar2) {
+    bVar2 = UE::Assert::Private::EnsureFailed
+                      (&bGEnsureHasExecuted<_652984193206188913>,
+                       &`public:___cdecl_`public:_bool___cdecl_TSparseArray<TSparseSetElement<TSharedPtr<IMediaTextureSample,1>_>,TSparseArrayAllocator<TSizedDefaultAllocator<32>,FDefaultBitArrayAllocator>_>::TRangedForIterator::operator!=(TSparseArray<class_TSparseSetElement<class_TSharedPtr<class_IMediaTextureSample,1>_>,class_TSparseArrayAllocator<class_TSizedDefaultAllocator<32>,class_FDefaultBitArrayAllocator>_>::TRangedForIterator_const&___ptr64)const___ptr64'::`2'::<lambda_1>::operator()(void)const___ptr64'
+                        ::__l2::ENSURE_Static);
+    if (bVar2) {
+      pcVar1 = (code *)swi(3);
+      bVar2 = (bool)(*pcVar1)();
+      return bVar2;
+    }
+  }
+  return false;
+}
+

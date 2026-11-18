@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "InventoryExtend",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/InventoryExtend",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_InventoryExtendTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ExtendItem": 0,
+        "ExtendItemCost": 0,
+        "ExtendMoneyType": "EDS_MoneyType::Gold",
+        "ExtendMoneyCost": 1,
+        "ExtendValue": 1
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ExtendItem": 110310001,
+        "ExtendItemCost": 1,
+        "ExtendMoneyType": "EDS_MoneyType::None",
+        "ExtendMoneyCost": 0,
+        "ExtendValue": 5
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerWareHouse",
+        "ID_ExtendItem": 0,
+        "ExtendItemCost": 0,
+        "ExtendMoneyType": "EDS_MoneyType::Gold",
+        "ExtendMoneyCost": 1,
+        "ExtendValue": 1
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerWareHouse",
+        "ID_ExtendItem": 110310002,
+        "ExtendItemCost": 1,
+        "ExtendMoneyType": "EDS_MoneyType::None",
+        "ExtendMoneyCost": 0,
+        "ExtendValue": 5
+      }
+    }
+  }
+]

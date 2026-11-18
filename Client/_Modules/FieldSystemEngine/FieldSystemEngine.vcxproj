@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{0405FC91-52E3-5019-BD7D-4F0B662E286F}</ProjectGuid><RootNamespace>FieldSystemEngine</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AFieldSystemActor.cpp" />
+    <ClCompile Include="Private\FFieldObjectCommands.cpp" />
+    <ClCompile Include="Private\FFieldSystemCommand.cpp" />
+    <ClCompile Include="Private\FFieldSystemMetaDataFilter.cpp" />
+    <ClCompile Include="Private\FFieldSystemMetaDataIteration.cpp" />
+    <ClCompile Include="Private\FFieldSystemSceneProxy.cpp" />
+    <ClCompile Include="Private\FPrimitiveSceneProxy.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSoftObjectPtr.cpp" />
+    <ClCompile Include="Private\UBoxFalloff.cpp" />
+    <ClCompile Include="Private\UCullingField.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UFieldNodeBase.cpp" />
+    <ClCompile Include="Private\UFieldNodeFloat.cpp" />
+    <ClCompile Include="Private\UFieldNodeInt.cpp" />
+    <ClCompile Include="Private\UFieldNodeVector.cpp" />
+    <ClCompile Include="Private\UFieldSystem.cpp" />
+    <ClCompile Include="Private\UFieldSystemComponent.cpp" />
+    <ClCompile Include="Private\UFieldSystemMetaData.cpp" />
+    <ClCompile Include="Private\UFieldSystemMetaDataFilter.cpp" />
+    <ClCompile Include="Private\UFieldSystemMetaDataIteration.cpp" />
+    <ClCompile Include="Private\UFieldSystemMetaDataProcessingResolution.cpp" />
+    <ClCompile Include="Private\UNoiseField.cpp" />
+    <ClCompile Include="Private\UOperatorField.cpp" />
+    <ClCompile Include="Private\UPlaneFalloff.cpp" />
+    <ClCompile Include="Private\URadialFalloff.cpp" />
+    <ClCompile Include="Private\URadialIntMask.cpp" />
+    <ClCompile Include="Private\URadialVector.cpp" />
+    <ClCompile Include="Private\URandomVector.cpp" />
+    <ClCompile Include="Private\UReturnResultsTerminal.cpp" />
+    <ClCompile Include="Private\UToFloatField.cpp" />
+    <ClCompile Include="Private\UToIntegerField.cpp" />
+    <ClCompile Include="Private\UUniformInteger.cpp" />
+    <ClCompile Include="Private\UUniformScalar.cpp" />
+    <ClCompile Include="Private\UUniformVector.cpp" />
+    <ClCompile Include="Private\UWaveScalar.cpp" />
+    <ClCompile Include="Private\_Free\Module.FieldSystemEngine.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

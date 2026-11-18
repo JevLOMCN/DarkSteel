@@ -1,0 +1,143 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestInstance",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestInstance",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestInstanceTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "8000001": {
+        "ID": 8000001,
+        "DataStage": 23,
+        "Version": "*",
+        "ConditionType": "EDS_InstanceQuestConditionType::NpcSpawn",
+        "ConditionValue1": 22001113,
+        "ConditionValue2": 29003,
+        "QuestKeepTime": 300.0,
+        "AcceptType": "EDS_InstanceQuestAcceptType::RangeOnlyPlayer",
+        "RangeType": "EDS_InstanceQuestSetRange::Zone",
+        "RangeValue": 2001,
+        "Coordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ActivatedMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_ActivatedMessage": 0,
+        "FinishMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_FinishMessage": 0
+      },
+      "8000002": {
+        "ID": 8000002,
+        "DataStage": 23,
+        "Version": "*",
+        "ConditionType": "EDS_InstanceQuestConditionType::NpcSpawn",
+        "ConditionValue1": 22001114,
+        "ConditionValue2": 29002,
+        "QuestKeepTime": 300.0,
+        "AcceptType": "EDS_InstanceQuestAcceptType::RangeMovePlayer",
+        "RangeType": "EDS_InstanceQuestSetRange::Zone",
+        "RangeValue": 2001,
+        "Coordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ActivatedMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_ActivatedMessage": 0,
+        "FinishMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_FinishMessage": 0
+      },
+      "8000003": {
+        "ID": 8000003,
+        "DataStage": 23,
+        "Version": "*",
+        "ConditionType": "EDS_InstanceQuestConditionType::StuffSpawn",
+        "ConditionValue1": 48,
+        "ConditionValue2": 10,
+        "QuestKeepTime": 300.0,
+        "AcceptType": "EDS_InstanceQuestAcceptType::RangeOnlyPlayer",
+        "RangeType": "EDS_InstanceQuestSetRange::Zone",
+        "RangeValue": 2001,
+        "Coordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ActivatedMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_ActivatedMessage": 0,
+        "FinishMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_FinishMessage": 0
+      },
+      "8000004": {
+        "ID": 8000004,
+        "DataStage": 23,
+        "Version": "*",
+        "ConditionType": "EDS_InstanceQuestConditionType::StuffSpawn",
+        "ConditionValue1": 53,
+        "ConditionValue2": 6,
+        "QuestKeepTime": 300.0,
+        "AcceptType": "EDS_InstanceQuestAcceptType::RangeMovePlayer",
+        "RangeType": "EDS_InstanceQuestSetRange::Zone",
+        "RangeValue": 2001,
+        "Coordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ActivatedMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_ActivatedMessage": 0,
+        "FinishMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_FinishMessage": 0
+      },
+      "8000005": {
+        "ID": 8000005,
+        "DataStage": 23,
+        "Version": "*",
+        "ConditionType": "EDS_InstanceQuestConditionType::NpcSpawn",
+        "ConditionValue1": 22001151,
+        "ConditionValue2": 29005,
+        "QuestKeepTime": 300.0,
+        "AcceptType": "EDS_InstanceQuestAcceptType::RangeOnlyPlayer",
+        "RangeType": "EDS_InstanceQuestSetRange::Coordinate",
+        "RangeValue": 2500,
+        "Coordinate": {
+          "X": -2797390.0,
+          "Y": -2745380.0,
+          "Z": 481.0
+        },
+        "ActivatedMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_ActivatedMessage": 0,
+        "FinishMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_FinishMessage": 0
+      },
+      "8000006": {
+        "ID": 8000006,
+        "DataStage": 23,
+        "Version": "*",
+        "ConditionType": "EDS_InstanceQuestConditionType::StuffSpawn",
+        "ConditionValue1": 74,
+        "ConditionValue2": 4,
+        "QuestKeepTime": 300.0,
+        "AcceptType": "EDS_InstanceQuestAcceptType::RangeMovePlayer",
+        "RangeType": "EDS_InstanceQuestSetRange::Coordinate",
+        "RangeValue": 2500,
+        "Coordinate": {
+          "X": -2794200.0,
+          "Y": -2745230.0,
+          "Z": 481.0
+        },
+        "ActivatedMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_ActivatedMessage": 0,
+        "FinishMessageType": "EDS_InstanceQuestMessageType::None",
+        "ID_FinishMessage": 0
+      }
+    }
+  }
+]

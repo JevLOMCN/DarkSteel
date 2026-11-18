@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemGemSocket",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemGemSocket",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemGemSocketTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "SocketGemColor": 60001,
+        "ID_SocketName": {
+          "ID": 40602
+        },
+        "ID_SocketIcon": 2146,
+        "EquipItemType": [
+          "EDS_ItemType::JewelRed"
+        ],
+        "BonusGemColor": 60001,
+        "BonusItemType": [
+          "EDS_ItemType::JewelRed"
+        ],
+        "BonusStatusType": "EDS_StatusType::Hp",
+        "BonusStatusValue": 50
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "SocketGemColor": 60003,
+        "ID_SocketName": {
+          "ID": 40603
+        },
+        "ID_SocketIcon": 2143,
+        "EquipItemType": [
+          "EDS_ItemType::JewelBlue"
+        ],
+        "BonusGemColor": 60003,
+        "BonusItemType": [
+          "EDS_ItemType::JewelBlue"
+        ],
+        "BonusStatusType": "EDS_StatusType::Mp",
+        "BonusStatusValue": 25
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "SocketGemColor": 60002,
+        "ID_SocketName": {
+          "ID": 40604
+        },
+        "ID_SocketIcon": 2142,
+        "EquipItemType": [
+          "EDS_ItemType::JewelGreen"
+        ],
+        "BonusGemColor": 60002,
+        "BonusItemType": [
+          "EDS_ItemType::JewelGreen"
+        ],
+        "BonusStatusType": "EDS_StatusType::Accuracy",
+        "BonusStatusValue": 15
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "SocketGemColor": 60004,
+        "ID_SocketName": {
+          "ID": 40605
+        },
+        "ID_SocketIcon": 2145,
+        "EquipItemType": [
+          "EDS_ItemType::JewelYellow"
+        ],
+        "BonusGemColor": 60004,
+        "BonusItemType": [
+          "EDS_ItemType::JewelYellow"
+        ],
+        "BonusStatusType": "EDS_StatusType::Dodge",
+        "BonusStatusValue": 15
+      }
+    }
+  }
+]

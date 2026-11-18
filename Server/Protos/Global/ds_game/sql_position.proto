@@ -1,0 +1,15 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "_vector.proto";
+
+message SqlPositionTable {
+  int64 player_uid = 1;
+  int32 island_id = 3;
+  Vector position = 4;
+  float direction = 5;
+  int32 transport_spawn_id = 6;
+  Vector relative_position = 7;
+}

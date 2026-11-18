@@ -1,0 +1,169 @@
+[
+  {
+    "Type": "WN_CS_CharacterWorkspace",
+    "Name": "CWS_NPC_Arch",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WN_CS_CharacterWorkspace'",
+    "Package": "/Game/Datas/Character/Workspace/CWS_NPC_Arch",
+    "Properties": {
+      "CharacterDescs": [
+        {
+          "ID": 1,
+          "Name": "Arch_Building_Cabin01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/Arch_Buliding_Cabin_01/SKEL_Arch_Building_Cabin01.SKEL_Arch_Building_Cabin01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Building_Cabin01",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/Arch_Buliding_Cabin_01/SM_Arch_Buliding_Cabin_A01.SM_Arch_Buliding_Cabin_A01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "Building_Cabin02",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/Arch_Buliding_Cabin_01/SM_Arch_Buliding_Cabin_A02.SM_Arch_Buliding_Cabin_A02",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 3,
+              "Name": "Building_Cabin03",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/Arch_Buliding_Cabin_01/SM_Arch_Buliding_Cabin_A03.SM_Arch_Buliding_Cabin_A03",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Arch_Building_Cabin01",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_203DD72A4B426B6F73D342AD84624C5F.SKM_Soul_203DD72A4B426B6F73D342AD84624C5F",
+                "SubPathString": ""
+              },
+              "Guid": "203DD72A-4B426B6F-73D342AD-84624C5F",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 8
+            },
+            {
+              "ID": 2,
+              "Name": "Arch_Building_Cabin02",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_1C981500453BA162396DBDBB5DCE68FA.SKM_Soul_1C981500453BA162396DBDBB5DCE68FA",
+                "SubPathString": ""
+              },
+              "Guid": "1C981500-453BA162-396DBDBB-5DCE68FA",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            },
+            {
+              "ID": 3,
+              "Name": "Arch_Building_Cabin03",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_24794B1541C86ED4C056BAA003EB1940.SKM_Soul_24794B1541C86ED4C056BAA003EB1940",
+                "SubPathString": ""
+              },
+              "Guid": "24794B15-41C86ED4-C056BAA0-03EB1940",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 3,
+                  "ID_Part": 3,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            }
+          ]
+        }
+      ],
+      "Version": "EWN_CS_CharacterWorkspaceVersion::Latest"
+    }
+  }
+]

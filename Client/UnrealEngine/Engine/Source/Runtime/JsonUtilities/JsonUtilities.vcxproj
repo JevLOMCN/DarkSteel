@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{86C0AA17-698E-51E3-9D46-3119B62AA8D5}</ProjectGuid><RootNamespace>JsonUtilities</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FArchiveMD5Generator.cpp" />
+    <ClCompile Include="Private\FCopyOnWrite.cpp" />
+    <ClCompile Include="Private\FJsonObjectConverter.cpp" />
+    <ClCompile Include="Private\FJsonObjectStructInterfaceRegistry.cpp" />
+    <ClCompile Include="Private\FJsonObjectWrapper.cpp" />
+    <ClCompile Include="Private\FStructOpsFakeVTable.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TJsonPrintPolicy.cpp" />
+    <ClCompile Include="Private\TJsonStringWriter.cpp" />
+    <ClCompile Include="Private\TJsonWriter.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TPrettyJsonPrintPolicy.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UEnum.cpp" />
+    <ClCompile Include="Private\UJsonUtilitiesDummyObject.cpp" />
+    <ClCompile Include="Private\_Free\Module.JsonUtilities.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

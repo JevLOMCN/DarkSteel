@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{222EE5EA-FBB1-5B97-96EE-313B38496A3E}</ProjectGuid><RootNamespace>EngineSettings</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAutoCompleteCommand.cpp" />
+    <ClCompile Include="Private\FEngineSettingsModule.cpp" />
+    <ClCompile Include="Private\FGameModeName.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTemplateMapInfoOverride.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\UConsoleSettings.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UGameMapsSettings.cpp" />
+    <ClCompile Include="Private\UGameNetworkManagerSettings.cpp" />
+    <ClCompile Include="Private\UGameSessionSettings.cpp" />
+    <ClCompile Include="Private\UGeneralEngineSettings.cpp" />
+    <ClCompile Include="Private\UGeneralProjectSettings.cpp" />
+    <ClCompile Include="Private\UHudSettings.cpp" />
+    <ClCompile Include="Private\_Free\Module.EngineSettings.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

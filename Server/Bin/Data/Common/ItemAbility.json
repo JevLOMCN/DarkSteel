@@ -1,0 +1,2707 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemAbility",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemAbility",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemAbilityTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::NormalAtkDamage",
+          "EDS_StatusType::SkillDamage"
+        ],
+        "StatusValue": [
+          100,
+          100,
+          50,
+          50
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AtkAllDamage"
+        ],
+        "StatusValue": [
+          10,
+          5,
+          5,
+          1000
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          10,
+          10,
+          2000,
+          2000
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::DefKnockDownPer",
+          "EDS_StatusType::DefDeBuffPer"
+        ],
+        "StatusValue": [
+          10,
+          20,
+          1500,
+          1500
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefSilencePer",
+          "EDS_StatusType::DefAbnormalPer"
+        ],
+        "StatusValue": [
+          20,
+          20,
+          3000,
+          3500
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::RatePhysicalDefense",
+          "EDS_StatusType::RateMagicDefense"
+        ],
+        "StatusValue": [
+          30,
+          30,
+          1500,
+          1500
+        ]
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          30,
+          30,
+          30,
+          5000
+        ]
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::DefKnockDownPer",
+          "EDS_StatusType::DefDeBuffPer",
+          "EDS_StatusType::DefSilencePer"
+        ],
+        "StatusValue": [
+          3000,
+          2000,
+          1000
+        ]
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AtkAllDamage",
+          "EDS_StatusType::StunPer",
+          "EDS_StatusType::KnockDownPer",
+          "EDS_StatusType::DeBuffPer"
+        ],
+        "StatusValue": [
+          5000,
+          2000,
+          3000,
+          1200
+        ]
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Stamina",
+          "EDS_StatusType::Stamina",
+          "EDS_StatusType::Stamina"
+        ],
+        "StatusValue": [
+          10,
+          15,
+          20
+        ]
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AtkAllDamage",
+          "EDS_StatusType::StunPer",
+          "EDS_StatusType::KnockDownPer"
+        ],
+        "StatusValue": [
+          10,
+          30,
+          1,
+          1
+        ]
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::Vigor",
+          "EDS_StatusType::RegenVigor",
+          "EDS_StatusType::RateFallCoolTime"
+        ],
+        "StatusValue": [
+          900000,
+          150000,
+          900000,
+          150000,
+          900000,
+          150000,
+          500000
+        ]
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::ItemDecayRateDecrease",
+          "EDS_StatusType::ItemDecayValueDecrease"
+        ],
+        "StatusValue": [
+          500000,
+          800000
+        ]
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::ItemDecayRateDecrease",
+          "EDS_StatusType::ItemDecayValueDecrease"
+        ],
+        "StatusValue": [
+          -500000,
+          -800000
+        ]
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          2
+        ]
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          2
+        ]
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          2
+        ]
+      },
+      "104": {
+        "ID": 104,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MagicDefense"
+        ],
+        "StatusValue": [
+          2
+        ]
+      },
+      "105": {
+        "ID": 105,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          2
+        ]
+      },
+      "106": {
+        "ID": 106,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Accuracy"
+        ],
+        "StatusValue": [
+          1
+        ]
+      },
+      "107": {
+        "ID": 107,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          2
+        ]
+      },
+      "108": {
+        "ID": 108,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Critical"
+        ],
+        "StatusValue": [
+          1
+        ]
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::SkillDamage"
+        ],
+        "StatusValue": [
+          24,
+          9
+        ]
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          2,
+          57
+        ]
+      },
+      "203": {
+        "ID": 203,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          2,
+          57
+        ]
+      },
+      "204": {
+        "ID": 204,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          2,
+          8
+        ]
+      },
+      "205": {
+        "ID": 205,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Dodge"
+        ],
+        "StatusValue": [
+          2,
+          2
+        ]
+      },
+      "206": {
+        "ID": 206,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1,
+          2
+        ]
+      },
+      "207": {
+        "ID": 207,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          2,
+          56
+        ]
+      },
+      "208": {
+        "ID": 208,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          1,
+          8
+        ]
+      },
+      "301": {
+        "ID": 301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          25
+        ]
+      },
+      "302": {
+        "ID": 302,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          50
+        ]
+      },
+      "303": {
+        "ID": 303,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          75
+        ]
+      },
+      "304": {
+        "ID": 304,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          100
+        ]
+      },
+      "305": {
+        "ID": 305,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          125
+        ]
+      },
+      "401": {
+        "ID": 401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          15
+        ]
+      },
+      "402": {
+        "ID": 402,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          30
+        ]
+      },
+      "403": {
+        "ID": 403,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          45
+        ]
+      },
+      "404": {
+        "ID": 404,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          60
+        ]
+      },
+      "405": {
+        "ID": 405,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          75
+        ]
+      },
+      "501": {
+        "ID": 501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          30
+        ]
+      },
+      "502": {
+        "ID": 502,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          60
+        ]
+      },
+      "503": {
+        "ID": 503,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          90
+        ]
+      },
+      "504": {
+        "ID": 504,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          120
+        ]
+      },
+      "505": {
+        "ID": 505,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          150
+        ]
+      },
+      "601": {
+        "ID": 601,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          30
+        ]
+      },
+      "602": {
+        "ID": 602,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          60
+        ]
+      },
+      "603": {
+        "ID": 603,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          90
+        ]
+      },
+      "604": {
+        "ID": 604,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          120
+        ]
+      },
+      "605": {
+        "ID": 605,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          150
+        ]
+      },
+      "701": {
+        "ID": 701,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          3000
+        ]
+      },
+      "801": {
+        "ID": 801,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MountMoveSpeed"
+        ],
+        "StatusValue": [
+          3000
+        ]
+      },
+      "901": {
+        "ID": 901,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MountLoadCapacity"
+        ],
+        "StatusValue": [
+          6000
+        ]
+      },
+      "1011101": {
+        "ID": 1011101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::SkillDamage"
+        ],
+        "StatusValue": [
+          75,
+          5,
+          10
+        ]
+      },
+      "101110101": {
+        "ID": 101110101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          75
+        ]
+      },
+      "1011201": {
+        "ID": 1011201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::SkillDamage"
+        ],
+        "StatusValue": [
+          125,
+          10,
+          20
+        ]
+      },
+      "101120101": {
+        "ID": 101120101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          125
+        ]
+      },
+      "1011301": {
+        "ID": 1011301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::SkillDamage"
+        ],
+        "StatusValue": [
+          220,
+          36,
+          77
+        ]
+      },
+      "101130101": {
+        "ID": 101130101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          220
+        ]
+      },
+      "1011401": {
+        "ID": 1011401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::SkillDamage"
+        ],
+        "StatusValue": [
+          455,
+          99,
+          218
+        ]
+      },
+      "101140101": {
+        "ID": 101140101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          455
+        ]
+      },
+      "1011501": {
+        "ID": 1011501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::SkillDamage",
+          "EDS_StatusType::DefSkillDamage"
+        ],
+        "StatusValue": [
+          685,
+          159,
+          356,
+          356
+        ]
+      },
+      "101150101": {
+        "ID": 101150101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          685
+        ]
+      },
+      "2011101": {
+        "ID": 2011101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AtkNormalPveDamage"
+        ],
+        "StatusValue": [
+          25,
+          10,
+          10
+        ]
+      },
+      "201110101": {
+        "ID": 201110101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          25
+        ]
+      },
+      "2011201": {
+        "ID": 2011201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AtkNormalPveDamage"
+        ],
+        "StatusValue": [
+          50,
+          20,
+          20
+        ]
+      },
+      "201120101": {
+        "ID": 201120101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          50
+        ]
+      },
+      "2011301": {
+        "ID": 2011301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AtkNormalPveDamage"
+        ],
+        "StatusValue": [
+          88,
+          58,
+          58
+        ]
+      },
+      "201130101": {
+        "ID": 201130101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          88
+        ]
+      },
+      "2011401": {
+        "ID": 2011401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AtkNormalPveDamage"
+        ],
+        "StatusValue": [
+          182,
+          153,
+          152
+        ]
+      },
+      "201140101": {
+        "ID": 201140101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          182
+        ]
+      },
+      "2011501": {
+        "ID": 2011501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AtkNormalPveDamage",
+          "EDS_StatusType::Accuracy"
+        ],
+        "StatusValue": [
+          274,
+          221,
+          244,
+          83
+        ]
+      },
+      "201150101": {
+        "ID": 201150101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          274
+        ]
+      },
+      "3011101": {
+        "ID": 3011101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefNormalPveDamage",
+          "EDS_StatusType::CriticalOutcome"
+        ],
+        "StatusValue": [
+          12,
+          12,
+          10,
+          10
+        ]
+      },
+      "301110101": {
+        "ID": 301110101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          12
+        ]
+      },
+      "3011201": {
+        "ID": 3011201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefNormalPveDamage",
+          "EDS_StatusType::CriticalOutcome"
+        ],
+        "StatusValue": [
+          25,
+          25,
+          20,
+          20
+        ]
+      },
+      "301120101": {
+        "ID": 301120101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          25
+        ]
+      },
+      "3011301": {
+        "ID": 3011301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefNormalPveDamage",
+          "EDS_StatusType::CriticalOutcome"
+        ],
+        "StatusValue": [
+          82,
+          82,
+          96,
+          115
+        ]
+      },
+      "301130101": {
+        "ID": 301130101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          82
+        ]
+      },
+      "3011401": {
+        "ID": 3011401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefNormalPveDamage",
+          "EDS_StatusType::CriticalOutcome"
+        ],
+        "StatusValue": [
+          223,
+          223,
+          284,
+          350
+        ]
+      },
+      "301140101": {
+        "ID": 301140101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          223
+        ]
+      },
+      "3011501": {
+        "ID": 3011501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefNormalPveDamage",
+          "EDS_StatusType::CriticalOutcome",
+          "EDS_StatusType::DefCriticalOutcome"
+        ],
+        "StatusValue": [
+          361,
+          361,
+          468,
+          580,
+          580
+        ]
+      },
+      "301150101": {
+        "ID": 301150101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          361
+        ]
+      },
+      "3021101": {
+        "ID": 3021101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Dodge"
+        ],
+        "StatusValue": [
+          500,
+          6,
+          10,
+          5
+        ]
+      },
+      "302110101": {
+        "ID": 302110101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          500
+        ]
+      },
+      "3021201": {
+        "ID": 3021201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Dodge"
+        ],
+        "StatusValue": [
+          1000,
+          13,
+          20,
+          10
+        ]
+      },
+      "302120101": {
+        "ID": 302120101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          1000
+        ]
+      },
+      "3021301": {
+        "ID": 3021301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Dodge"
+        ],
+        "StatusValue": [
+          2235,
+          41,
+          58,
+          36
+        ]
+      },
+      "302130101": {
+        "ID": 302130101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          2235
+        ]
+      },
+      "3021401": {
+        "ID": 3021401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Dodge"
+        ],
+        "StatusValue": [
+          5290,
+          112,
+          153,
+          99
+        ]
+      },
+      "302140101": {
+        "ID": 302140101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          5290
+        ]
+      },
+      "3021501": {
+        "ID": 3021501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Dodge"
+        ],
+        "StatusValue": [
+          8280,
+          181,
+          221,
+          122
+        ]
+      },
+      "302150101": {
+        "ID": 302150101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          8280
+        ]
+      },
+      "3031101": {
+        "ID": 3031101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkNormalPveDamage",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          250,
+          5,
+          10,
+          10
+        ]
+      },
+      "303110101": {
+        "ID": 303110101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          250
+        ]
+      },
+      "3031201": {
+        "ID": 3031201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkNormalPveDamage",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          500,
+          10,
+          20,
+          20
+        ]
+      },
+      "303120101": {
+        "ID": 303120101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          500
+        ]
+      },
+      "3031301": {
+        "ID": 3031301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkNormalPveDamage",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          1117,
+          36,
+          58,
+          58
+        ]
+      },
+      "303130101": {
+        "ID": 303130101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          1117
+        ]
+      },
+      "3031401": {
+        "ID": 3031401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkNormalPveDamage",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          2645,
+          99,
+          152,
+          153
+        ]
+      },
+      "303140101": {
+        "ID": 303140101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          2645
+        ]
+      },
+      "3031501": {
+        "ID": 3031501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkNormalPveDamage",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          4140,
+          159,
+          244,
+          221
+        ]
+      },
+      "303150101": {
+        "ID": 303150101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          4140
+        ]
+      },
+      "3041101": {
+        "ID": 3041101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          250,
+          6,
+          5,
+          5
+        ]
+      },
+      "304110101": {
+        "ID": 304110101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          250
+        ]
+      },
+      "3041201": {
+        "ID": 3041201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          500,
+          13,
+          10,
+          10
+        ]
+      },
+      "304120101": {
+        "ID": 304120101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          500
+        ]
+      },
+      "3041301": {
+        "ID": 3041301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          1118,
+          41,
+          36,
+          29
+        ]
+      },
+      "304130101": {
+        "ID": 304130101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          1118
+        ]
+      },
+      "3041401": {
+        "ID": 3041401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          2645,
+          112,
+          99,
+          76
+        ]
+      },
+      "304140101": {
+        "ID": 304140101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          2645
+        ]
+      },
+      "3041501": {
+        "ID": 3041501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::DefAllDamage"
+        ],
+        "StatusValue": [
+          4140,
+          181,
+          159,
+          108,
+          108
+        ]
+      },
+      "304150101": {
+        "ID": 304150101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp"
+        ],
+        "StatusValue": [
+          4140
+        ]
+      },
+      "4010101": {
+        "ID": 4010101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::AtkBossDamage",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          38,
+          38,
+          10,
+          5
+        ]
+      },
+      "401010101": {
+        "ID": 401010101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          38
+        ]
+      },
+      "4010201": {
+        "ID": 4010201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::AtkBossDamage",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          63,
+          63,
+          20,
+          10
+        ]
+      },
+      "401020101": {
+        "ID": 401020101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          63
+        ]
+      },
+      "4010301": {
+        "ID": 4010301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::AtkBossDamage",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          110,
+          110,
+          96,
+          29
+        ]
+      },
+      "401030101": {
+        "ID": 401030101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          110
+        ]
+      },
+      "4010401": {
+        "ID": 4010401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::AtkBossDamage",
+          "EDS_StatusType::AllAttack"
+        ],
+        "StatusValue": [
+          228,
+          228,
+          284,
+          76
+        ]
+      },
+      "401040101": {
+        "ID": 401040101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          228
+        ]
+      },
+      "4010501": {
+        "ID": 4010501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::AtkBossDamage",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::DefAllDamage"
+        ],
+        "StatusValue": [
+          343,
+          343,
+          468,
+          108,
+          108
+        ]
+      },
+      "401050101": {
+        "ID": 401050101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack"
+        ],
+        "StatusValue": [
+          343
+        ]
+      },
+      "4020101": {
+        "ID": 4020101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::SmiteSkillDamage"
+        ],
+        "StatusValue": [
+          170,
+          38,
+          12,
+          10
+        ]
+      },
+      "402010101": {
+        "ID": 402010101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          170
+        ]
+      },
+      "4020201": {
+        "ID": 4020201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::SmiteSkillDamage"
+        ],
+        "StatusValue": [
+          200,
+          63,
+          25,
+          20
+        ]
+      },
+      "402020101": {
+        "ID": 402020101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          200
+        ]
+      },
+      "4020301": {
+        "ID": 4020301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::SmiteSkillDamage"
+        ],
+        "StatusValue": [
+          440,
+          110,
+          82,
+          115
+        ]
+      },
+      "402030101": {
+        "ID": 402030101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          440
+        ]
+      },
+      "4020401": {
+        "ID": 4020401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::SmiteSkillDamage"
+        ],
+        "StatusValue": [
+          760,
+          228,
+          223,
+          350
+        ]
+      },
+      "402040101": {
+        "ID": 402040101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          760
+        ]
+      },
+      "4020501": {
+        "ID": 4020501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::SmiteSkillDamage",
+          "EDS_StatusType::DefSmiteSkillDamage"
+        ],
+        "StatusValue": [
+          1230,
+          343,
+          361,
+          580,
+          580
+        ]
+      },
+      "402050101": {
+        "ID": 402050101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          1230
+        ]
+      },
+      "4030101": {
+        "ID": 4030101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::DefBossDamage"
+        ],
+        "StatusValue": [
+          170,
+          38,
+          10,
+          10
+        ]
+      },
+      "403010101": {
+        "ID": 403010101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          170
+        ]
+      },
+      "4030201": {
+        "ID": 4030201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::DefBossDamage"
+        ],
+        "StatusValue": [
+          200,
+          63,
+          20,
+          20
+        ]
+      },
+      "403020101": {
+        "ID": 403020101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          200
+        ]
+      },
+      "4030301": {
+        "ID": 4030301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::DefBossDamage"
+        ],
+        "StatusValue": [
+          440,
+          110,
+          66,
+          96
+        ]
+      },
+      "403030101": {
+        "ID": 403030101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          440
+        ]
+      },
+      "4030401": {
+        "ID": 4030401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::DefBossDamage"
+        ],
+        "StatusValue": [
+          760,
+          228,
+          183,
+          284
+        ]
+      },
+      "403040101": {
+        "ID": 403040101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          760
+        ]
+      },
+      "4030501": {
+        "ID": 4030501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::DefBossDamage",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1230,
+          343,
+          296,
+          468,
+          296
+        ]
+      },
+      "403050101": {
+        "ID": 403050101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp"
+        ],
+        "StatusValue": [
+          1230
+        ]
+      },
+      "4040101": {
+        "ID": 4040101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefNormalPveDamage"
+        ],
+        "StatusValue": [
+          5,
+          5,
+          10,
+          10
+        ]
+      },
+      "404010101": {
+        "ID": 404010101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          5
+        ]
+      },
+      "4040201": {
+        "ID": 4040201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefNormalPveDamage"
+        ],
+        "StatusValue": [
+          10,
+          10,
+          20,
+          20
+        ]
+      },
+      "404020101": {
+        "ID": 404020101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          10
+        ]
+      },
+      "4040301": {
+        "ID": 4040301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefNormalPveDamage"
+        ],
+        "StatusValue": [
+          33,
+          33,
+          58,
+          58
+        ]
+      },
+      "404030101": {
+        "ID": 404030101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          33
+        ]
+      },
+      "4040401": {
+        "ID": 4040401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefNormalPveDamage"
+        ],
+        "StatusValue": [
+          89,
+          89,
+          153,
+          152
+        ]
+      },
+      "404040101": {
+        "ID": 404040101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          89
+        ]
+      },
+      "4040501": {
+        "ID": 4040501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefNormalPveDamage",
+          "EDS_StatusType::DeBuffPer"
+        ],
+        "StatusValue": [
+          144,
+          144,
+          221,
+          244,
+          122
+        ]
+      },
+      "404050101": {
+        "ID": 404050101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense"
+        ],
+        "StatusValue": [
+          144
+        ]
+      },
+      "4050101": {
+        "ID": 4050101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::FlyStamina",
+          "EDS_StatusType::RegenVigor",
+          "EDS_StatusType::AtkAllDamage"
+        ],
+        "StatusValue": [
+          5,
+          7,
+          5,
+          7
+        ]
+      },
+      "405010101": {
+        "ID": 405010101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          5
+        ]
+      },
+      "4050201": {
+        "ID": 4050201,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::FlyStamina",
+          "EDS_StatusType::RegenVigor",
+          "EDS_StatusType::AtkAllDamage"
+        ],
+        "StatusValue": [
+          10,
+          14,
+          10,
+          14
+        ]
+      },
+      "405020101": {
+        "ID": 405020101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          10
+        ]
+      },
+      "4050301": {
+        "ID": 4050301,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::FlyStamina",
+          "EDS_StatusType::RegenVigor",
+          "EDS_StatusType::AtkAllDamage"
+        ],
+        "StatusValue": [
+          15,
+          28,
+          15,
+          28
+        ]
+      },
+      "405030101": {
+        "ID": 405030101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          15
+        ]
+      },
+      "4050401": {
+        "ID": 4050401,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::FlyStamina",
+          "EDS_StatusType::RegenVigor",
+          "EDS_StatusType::AtkAllDamage"
+        ],
+        "StatusValue": [
+          20,
+          56,
+          20,
+          56
+        ]
+      },
+      "405040101": {
+        "ID": 405040101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          20
+        ]
+      },
+      "4050501": {
+        "ID": 4050501,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::FlyStamina",
+          "EDS_StatusType::RegenVigor",
+          "EDS_StatusType::AtkAllDamage"
+        ],
+        "StatusValue": [
+          25,
+          112,
+          25,
+          112
+        ]
+      },
+      "405050101": {
+        "ID": 405050101,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          25
+        ]
+      },
+      "1000000": {
+        "ID": 1000000,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::NormalAtkDamage"
+        ],
+        "StatusValue": [
+          125,
+          40,
+          12,
+          28
+        ]
+      },
+      "1000001": {
+        "ID": 1000001,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::NormalAtkDamage"
+        ],
+        "StatusValue": [
+          168,
+          60,
+          20,
+          32
+        ]
+      },
+      "1000002": {
+        "ID": 1000002,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::NormalAtkDamage"
+        ],
+        "StatusValue": [
+          226,
+          90,
+          28,
+          36
+        ]
+      },
+      "1000003": {
+        "ID": 1000003,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::NormalAtkDamage"
+        ],
+        "StatusValue": [
+          226,
+          90,
+          28,
+          36
+        ]
+      },
+      "1000004": {
+        "ID": 1000004,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::NormalAtkDamage"
+        ],
+        "StatusValue": [
+          305,
+          135,
+          36,
+          40
+        ]
+      },
+      "1010000": {
+        "ID": 1010000,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefNormalAtkDamage",
+          "EDS_StatusType::DefSkillDamage"
+        ],
+        "StatusValue": [
+          41,
+          80,
+          14,
+          14
+        ]
+      },
+      "1010001": {
+        "ID": 1010001,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefNormalAtkDamage",
+          "EDS_StatusType::DefSkillDamage"
+        ],
+        "StatusValue": [
+          56,
+          120,
+          16,
+          16
+        ]
+      },
+      "1010002": {
+        "ID": 1010002,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefNormalAtkDamage",
+          "EDS_StatusType::DefSkillDamage"
+        ],
+        "StatusValue": [
+          75,
+          180,
+          18,
+          18
+        ]
+      },
+      "1010003": {
+        "ID": 1010003,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefNormalAtkDamage",
+          "EDS_StatusType::DefSkillDamage"
+        ],
+        "StatusValue": [
+          75,
+          180,
+          18,
+          18
+        ]
+      },
+      "1010004": {
+        "ID": 1010004,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefNormalAtkDamage",
+          "EDS_StatusType::DefSkillDamage"
+        ],
+        "StatusValue": [
+          101,
+          270,
+          20,
+          20
+        ]
+      },
+      "1020000": {
+        "ID": 1020000,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefCriticalOutcome",
+          "EDS_StatusType::DefKnockDownPer"
+        ],
+        "StatusValue": [
+          20,
+          120,
+          14,
+          28
+        ]
+      },
+      "1020001": {
+        "ID": 1020001,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefCriticalOutcome",
+          "EDS_StatusType::DefKnockDownPer"
+        ],
+        "StatusValue": [
+          28,
+          180,
+          16,
+          32
+        ]
+      },
+      "1020002": {
+        "ID": 1020002,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefCriticalOutcome",
+          "EDS_StatusType::DefKnockDownPer"
+        ],
+        "StatusValue": [
+          37,
+          270,
+          18,
+          36
+        ]
+      },
+      "1020003": {
+        "ID": 1020003,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefCriticalOutcome",
+          "EDS_StatusType::DefKnockDownPer"
+        ],
+        "StatusValue": [
+          37,
+          270,
+          18,
+          36
+        ]
+      },
+      "1020004": {
+        "ID": 1020004,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::DefCriticalOutcome",
+          "EDS_StatusType::DefKnockDownPer"
+        ],
+        "StatusValue": [
+          50,
+          405,
+          20,
+          40
+        ]
+      },
+      "1030000": {
+        "ID": 1030000,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::CriticalOutcome",
+          "EDS_StatusType::DefStunPer"
+        ],
+        "StatusValue": [
+          41,
+          6,
+          28,
+          28
+        ]
+      },
+      "1030001": {
+        "ID": 1030001,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::CriticalOutcome",
+          "EDS_StatusType::DefStunPer"
+        ],
+        "StatusValue": [
+          56,
+          8,
+          32,
+          32
+        ]
+      },
+      "1030002": {
+        "ID": 1030002,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::CriticalOutcome",
+          "EDS_StatusType::DefStunPer"
+        ],
+        "StatusValue": [
+          75,
+          10,
+          36,
+          36
+        ]
+      },
+      "1030003": {
+        "ID": 1030003,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::CriticalOutcome",
+          "EDS_StatusType::DefStunPer"
+        ],
+        "StatusValue": [
+          75,
+          10,
+          36,
+          36
+        ]
+      },
+      "1030004": {
+        "ID": 1030004,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::CriticalOutcome",
+          "EDS_StatusType::DefStunPer"
+        ],
+        "StatusValue": [
+          101,
+          12,
+          40,
+          40
+        ]
+      },
+      "1040000": {
+        "ID": 1040000,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::SmiteSkillDamage",
+          "EDS_StatusType::DefAbnormalPer"
+        ],
+        "StatusValue": [
+          20,
+          12,
+          28,
+          14
+        ]
+      },
+      "1040001": {
+        "ID": 1040001,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::SmiteSkillDamage",
+          "EDS_StatusType::DefAbnormalPer"
+        ],
+        "StatusValue": [
+          28,
+          16,
+          32,
+          16
+        ]
+      },
+      "1040002": {
+        "ID": 1040002,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::SmiteSkillDamage",
+          "EDS_StatusType::DefAbnormalPer"
+        ],
+        "StatusValue": [
+          37,
+          20,
+          36,
+          18
+        ]
+      },
+      "1040003": {
+        "ID": 1040003,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::SmiteSkillDamage",
+          "EDS_StatusType::DefAbnormalPer"
+        ],
+        "StatusValue": [
+          37,
+          20,
+          36,
+          18
+        ]
+      },
+      "1040004": {
+        "ID": 1040004,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::SmiteSkillDamage",
+          "EDS_StatusType::DefAbnormalPer"
+        ],
+        "StatusValue": [
+          50,
+          24,
+          40,
+          20
+        ]
+      },
+      "1050000": {
+        "ID": 1050000,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefCursePer"
+        ],
+        "StatusValue": [
+          40,
+          6,
+          12,
+          28
+        ]
+      },
+      "1050001": {
+        "ID": 1050001,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefCursePer"
+        ],
+        "StatusValue": [
+          60,
+          9,
+          15,
+          32
+        ]
+      },
+      "1050002": {
+        "ID": 1050002,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefCursePer"
+        ],
+        "StatusValue": [
+          90,
+          12,
+          17,
+          36
+        ]
+      },
+      "1050003": {
+        "ID": 1050003,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefCursePer"
+        ],
+        "StatusValue": [
+          90,
+          12,
+          17,
+          36
+        ]
+      },
+      "1050004": {
+        "ID": 1050004,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::DefAllDamage",
+          "EDS_StatusType::DefCursePer"
+        ],
+        "StatusValue": [
+          135,
+          15,
+          20,
+          40
+        ]
+      },
+      "1060000": {
+        "ID": 1060000,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::DefSmiteSkillDamage",
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          12,
+          6,
+          14,
+          28
+        ]
+      },
+      "1060001": {
+        "ID": 1060001,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::DefSmiteSkillDamage",
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          16,
+          10,
+          16,
+          32
+        ]
+      },
+      "1060002": {
+        "ID": 1060002,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::DefSmiteSkillDamage",
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          20,
+          14,
+          18,
+          36
+        ]
+      },
+      "1060003": {
+        "ID": 1060003,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::DefSmiteSkillDamage",
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          20,
+          14,
+          18,
+          36
+        ]
+      },
+      "1060004": {
+        "ID": 1060004,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::AvoidCritical",
+          "EDS_StatusType::DefSmiteSkillDamage",
+          "EDS_StatusType::StunPer"
+        ],
+        "StatusValue": [
+          24,
+          18,
+          20,
+          40
+        ]
+      },
+      "1070000": {
+        "ID": 1070000,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkAllDamage",
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          20,
+          12,
+          24,
+          14
+        ]
+      },
+      "1070001": {
+        "ID": 1070001,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkAllDamage",
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          30,
+          18,
+          30,
+          16
+        ]
+      },
+      "1070002": {
+        "ID": 1070002,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkAllDamage",
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          45,
+          24,
+          34,
+          18
+        ]
+      },
+      "1070003": {
+        "ID": 1070003,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkAllDamage",
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          45,
+          24,
+          34,
+          18
+        ]
+      },
+      "1070004": {
+        "ID": 1070004,
+        "DataStage": 23,
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::AtkAllDamage",
+          "EDS_StatusType::AbnormalPer"
+        ],
+        "StatusValue": [
+          68,
+          30,
+          40,
+          20
+        ]
+      }
+    }
+  }
+]

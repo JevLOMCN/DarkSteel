@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestCategory",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestCategory",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestCategoryTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "CategoryName": {
+          "ID": 111015
+        }
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "CategoryName": {
+          "ID": 111002
+        }
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "CategoryName": {
+          "ID": 111007
+        }
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "CategoryName": {
+          "ID": 111006
+        }
+      },
+      "1999": {
+        "ID": 1999,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "CategoryName": {
+          "ID": 119102
+        }
+      },
+      "2001": {
+        "ID": 2001,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "CategoryName": {
+          "ID": 111015
+        }
+      },
+      "2002": {
+        "ID": 2002,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "CategoryName": {
+          "ID": 112030
+        }
+      },
+      "2003": {
+        "ID": 2003,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "CategoryName": {
+          "ID": 111016
+        }
+      },
+      "2004": {
+        "ID": 2004,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "CategoryName": {
+          "ID": 111017
+        }
+      },
+      "2005": {
+        "ID": 2005,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "CategoryName": {
+          "ID": 111018
+        }
+      },
+      "2999": {
+        "ID": 2999,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "CategoryName": {
+          "ID": 119102
+        }
+      }
+    }
+  }
+]

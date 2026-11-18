@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{7EB0DEB8-9E93-51FF-93EA-23749BF162E9}</ProjectGuid><RootNamespace>NiagaraSimCaching</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FMovieSceneEvaluationTrack.cpp" />
+    <ClCompile Include="Private\FMovieSceneExecutionTokens.cpp" />
+    <ClCompile Include="Private\FMovieSceneNiagaraCacheParams.cpp" />
+    <ClCompile Include="Private\FMovieSceneNiagaraCacheSectionTemplate.cpp" />
+    <ClCompile Include="Private\FMovieSceneNiagaraSectionTemplateParameter.cpp" />
+    <ClCompile Include="Private\FNiagaraCacheExecutionToken.cpp" />
+    <ClCompile Include="Private\FNiagaraCacheResetToken.cpp" />
+    <ClCompile Include="Private\FNiagaraSharedMarkerToken.cpp" />
+    <ClCompile Include="Private\FPreAnimatedNiagaraCacheTokenProducer.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FToken.cpp" />
+    <ClCompile Include="Private\IMovieSceneCachedTrack.cpp" />
+    <ClCompile Include="Private\IMovieSceneSharedExecutionToken.cpp" />
+    <ClCompile Include="Private\INiagaraSimCachingPlugin.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMovieSceneNiagaraCacheSection.cpp" />
+    <ClCompile Include="Private\UMovieSceneNiagaraCacheTrack.cpp" />
+    <ClCompile Include="Private\_Free\Module.NiagaraSimCaching.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

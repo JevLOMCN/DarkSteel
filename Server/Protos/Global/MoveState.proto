@@ -1,0 +1,12 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum MoveState {
+  MoveState_Ready = 0;
+  MoveState_Acceleration = 1;
+  MoveState_ConstantVelocity = 2;
+  MoveState_Deceleration = 3;
+  MoveState_Stopping = 4;
+  MoveState_Stop = 5;
+}

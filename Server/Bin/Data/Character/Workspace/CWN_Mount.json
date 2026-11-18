@@ -1,0 +1,324 @@
+[
+  {
+    "Type": "WN_CS_CharacterWorkspace",
+    "Name": "CWN_Mount",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WN_CS_CharacterWorkspace'",
+    "Package": "/Game/Datas/Character/Workspace/CWN_Mount",
+    "Properties": {
+      "CharacterDescs": [
+        {
+          "ID": 1,
+          "Name": "Horse01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/Mount/NPC_Mount_Horse01_NA11/SKEL_NPC_Mount_Horse01_NA11_Skeleton.SKEL_NPC_Mount_Horse01_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Mount_Horse01_NA11",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/Mount/NPC_Mount_Horse01_NA11/SK_NPC_Mount_Horse01_NA11.SK_NPC_Mount_Horse01_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Mount_Horse01_NA12",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/Mount/NPC_Mount_Horse01_NA12/SK_NPC_Mount_Horse01_NA12.SK_NPC_Mount_Horse01_NA12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 3,
+              "Name": "NPC_Mount_BattleHorse01_NA11",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/Mount/NPC_Mount_BattleHorse01_NA11/SK_NPC_Mount_BattleHorse01_NA11.SK_NPC_Mount_BattleHorse01_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Mount_Horse01_NA11",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_0EAE965B489421B643E79E835B69F913.SKM_Soul_0EAE965B489421B643E79E835B69F913",
+                "SubPathString": ""
+              },
+              "Guid": "0EAE965B-489421B6-43E79E83-5B69F913",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Mount_Horse01_NA12",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_F0A7D44843B9A1F187EEC492624067C1.SKM_Soul_F0A7D44843B9A1F187EEC492624067C1",
+                "SubPathString": ""
+              },
+              "Guid": "F0A7D448-43B9A1F1-87EEC492-624067C1",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            },
+            {
+              "ID": 3,
+              "Name": "NPC_Mount_BattleHorse01_NA11",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_C0B8E9EB46929C93FD3208AF65114DCB.SKM_Soul_C0B8E9EB46929C93FD3208AF65114DCB",
+                "SubPathString": ""
+              },
+              "Guid": "C0B8E9EB-46929C93-FD3208AF-65114DCB",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 3,
+                  "ID_Part": 3,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            }
+          ]
+        },
+        {
+          "ID": 2,
+          "Name": "Ravanos01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/Mount/NPC_Mount_Ravanos01_NA11/SKEL_NPC_Mount_Ravanos01_NA11_Skeleton.SKEL_NPC_Mount_Ravanos01_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Mount_Ravanos01_NA11",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/Mount/NPC_Mount_Ravanos01_NA11/SK_NPC_Mount_Ravanos01_NA11.SK_NPC_Mount_Ravanos01_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Mount_BattleRavanos01_NA11",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/Mount/NPC_Mount_BattleRavanos01_NA11/SK_NPC_Mount_BattleRavanos01_NA11.SK_NPC_Mount_BattleRavanos01_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 3,
+              "Name": "NPC_Mount_Ravanos01_NA12",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/Mount/NPC_Mount_Ravanos01_NA12/SK_NPC_Mount_Ravanos01_NA12.SK_NPC_Mount_Ravanos01_NA12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Mount_Ravanos01_NA11",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_243657C04DFDD141AE8B2E849B126C02.SKM_Soul_243657C04DFDD141AE8B2E849B126C02",
+                "SubPathString": ""
+              },
+              "Guid": "243657C0-4DFDD141-AE8B2E84-9B126C02",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 22
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Mount_BattleRavanos01_NA11",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_1738854F4407431EC1A1AAAA6469CEAE.SKM_Soul_1738854F4407431EC1A1AAAA6469CEAE",
+                "SubPathString": ""
+              },
+              "Guid": "1738854F-4407431E-C1A1AAAA-6469CEAE",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 14
+            },
+            {
+              "ID": 3,
+              "Name": "NPC_Mount_Ravanos01_NA12",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_40BCC0EE4F11DDB5EA042690B21AADEA.SKM_Soul_40BCC0EE4F11DDB5EA042690B21AADEA",
+                "SubPathString": ""
+              },
+              "Guid": "40BCC0EE-4F11DDB5-EA042690-B21AADEA",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 3,
+                  "ID_Part": 3,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        }
+      ],
+      "Version": "EWN_CS_CharacterWorkspaceVersion::Latest"
+    }
+  }
+]

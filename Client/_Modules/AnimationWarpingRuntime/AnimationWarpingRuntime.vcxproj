@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{13F4896F-36B5-5A83-968E-8481122B17FD}</ProjectGuid><RootNamespace>AnimationWarpingRuntime</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAnimNode_Base.cpp" />
+    <ClCompile Include="Private\FAnimNode_FootPlacement.cpp" />
+    <ClCompile Include="Private\FAnimNode_OffsetRootBone.cpp" />
+    <ClCompile Include="Private\FAnimNode_OrientationWarping.cpp" />
+    <ClCompile Include="Private\FAnimNode_OverrideRootMotion.cpp" />
+    <ClCompile Include="Private\FAnimNode_SlopeWarping.cpp" />
+    <ClCompile Include="Private\FAnimNode_Steering.cpp" />
+    <ClCompile Include="Private\FAnimNode_StrideWarping.cpp" />
+    <ClCompile Include="Private\FAnimNode_WarpTest.cpp" />
+    <ClCompile Include="Private\FAnimationBaseContext.cpp" />
+    <ClCompile Include="Private\FDebugData.cpp" />
+    <ClCompile Include="Private\FEvaluationContext.cpp" />
+    <ClCompile Include="Private\FFootPlacemenLegDefinition.cpp" />
+    <ClCompile Include="Private\FFootPlacementInterpolationSettings.cpp" />
+    <ClCompile Include="Private\FFootPlacementPelvisSettings.cpp" />
+    <ClCompile Include="Private\FFootPlacementPlantSettings.cpp" />
+    <ClCompile Include="Private\FFootPlacementRootDefinition.cpp" />
+    <ClCompile Include="Private\FFootPlacementTraceSettings.cpp" />
+    <ClCompile Include="Private\FHitResult.cpp" />
+    <ClCompile Include="Private\FModule.cpp" />
+    <ClCompile Include="Private\FRootOffsetProvider.cpp" />
+    <ClCompile Include="Private\FSlopeWarpingFootData.cpp" />
+    <ClCompile Include="Private\FSlopeWarpingFootDefinition.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FStrideWarpingFootDefinition.cpp" />
+    <ClCompile Include="Private\FThreadSafeStaticStatInner.cpp" />
+    <ClCompile Include="Private\IAnimRootMotionProvider.cpp" />
+    <ClCompile Include="Private\TAttributeContainer.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TNamedValueArray.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\UAnimationWarpingLibrary.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.AnimationWarpingRuntime.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

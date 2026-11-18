@@ -1,0 +1,177 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcRelationGrade",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcRelationGrade",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcRelationGradeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 101,
+        "ID_Grade": "EDS_GradeType::Normal",
+        "ReqPoint": 1000
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 101,
+        "ID_Grade": "EDS_GradeType::High",
+        "ReqPoint": 0
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 102,
+        "ID_Grade": "EDS_GradeType::Normal",
+        "ReqPoint": 1000
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 102,
+        "ID_Grade": "EDS_GradeType::High",
+        "ReqPoint": 1500
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 102,
+        "ID_Grade": "EDS_GradeType::Rare",
+        "ReqPoint": 0
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 103,
+        "ID_Grade": "EDS_GradeType::Normal",
+        "ReqPoint": 1500
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 103,
+        "ID_Grade": "EDS_GradeType::High",
+        "ReqPoint": 2500
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 103,
+        "ID_Grade": "EDS_GradeType::Rare",
+        "ReqPoint": 3000
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 103,
+        "ID_Grade": "EDS_GradeType::Epic",
+        "ReqPoint": 0
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 104,
+        "ID_Grade": "EDS_GradeType::Normal",
+        "ReqPoint": 2500
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 104,
+        "ID_Grade": "EDS_GradeType::High",
+        "ReqPoint": 3000
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 104,
+        "ID_Grade": "EDS_GradeType::Rare",
+        "ReqPoint": 3500
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 104,
+        "ID_Grade": "EDS_GradeType::Epic",
+        "ReqPoint": 4000
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 104,
+        "ID_Grade": "EDS_GradeType::Legendary",
+        "ReqPoint": 0
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 105,
+        "ID_Grade": "EDS_GradeType::Normal",
+        "ReqPoint": 2500
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 105,
+        "ID_Grade": "EDS_GradeType::High",
+        "ReqPoint": 3000
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 105,
+        "ID_Grade": "EDS_GradeType::Rare",
+        "ReqPoint": 3500
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 105,
+        "ID_Grade": "EDS_GradeType::Epic",
+        "ReqPoint": 4000
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 105,
+        "ID_Grade": "EDS_GradeType::Legendary",
+        "ReqPoint": 4500
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 105,
+        "ID_Grade": "EDS_GradeType::Myth",
+        "ReqPoint": 0
+      }
+    }
+  }
+]

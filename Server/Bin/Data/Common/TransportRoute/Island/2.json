@@ -1,0 +1,334 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "2",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/TransportRoute/Island/2",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_TransportRouteTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "DataStageString": "",
+        "TransportMoveType": "EDS_TransportMoveType::Cycle",
+        "IsFixed": true,
+        "RoutePath": [
+          {
+            "X": -2833801.0,
+            "Y": -2710463.0,
+            "Z": 1344.0
+          },
+          {
+            "X": -2838456.0,
+            "Y": -2710463.0,
+            "Z": 1344.0
+          },
+          {
+            "X": -2838456.0,
+            "Y": -2706408.0,
+            "Z": 1344.0
+          },
+          {
+            "X": -2829369.0,
+            "Y": -2706408.0,
+            "Z": 1344.0
+          },
+          {
+            "X": -2830268.0,
+            "Y": -2710167.0,
+            "Z": 1344.0
+          },
+          {
+            "X": -2833801.0,
+            "Y": -2710463.0,
+            "Z": 1344.0
+          }
+        ],
+        "WaitingTime": [
+          10.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "TransportCommandType": [
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving"
+        ],
+        "ID_WarpLocation": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ID_ReturnWarpLocation": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Acceleration": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AccelerationTime": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "1": {
+        "ID": 1,
+        "DataStage": 16,
+        "DataStageString": "",
+        "TransportMoveType": "EDS_TransportMoveType::Cycle",
+        "IsFixed": true,
+        "RoutePath": [
+          {
+            "X": -2515685.2,
+            "Y": -2740140.2,
+            "Z": 1426.7814
+          },
+          {
+            "X": -2509602.5,
+            "Y": -2740140.2,
+            "Z": 2712.9397
+          },
+          {
+            "X": -2506028.2,
+            "Y": -2736588.2,
+            "Z": 2712.9397
+          },
+          {
+            "X": -2506081.0,
+            "Y": -2733363.2,
+            "Z": 5458.27
+          },
+          {
+            "X": -2506813.2,
+            "Y": -2728755.0,
+            "Z": 5458.27
+          },
+          {
+            "X": -2506813.5,
+            "Y": -2716755.0,
+            "Z": 5458.27
+          },
+          {
+            "X": -386329.38,
+            "Y": 210572.36,
+            "Z": 12051.742
+          },
+          {
+            "X": -372632.3,
+            "Y": 250001.69,
+            "Z": 12051.742
+          },
+          {
+            "X": -348368.47,
+            "Y": 244152.55,
+            "Z": 14257.195
+          },
+          {
+            "X": -344304.8,
+            "Y": 236297.36,
+            "Z": 6740.4424
+          },
+          {
+            "X": -344304.84,
+            "Y": 227297.36,
+            "Z": 6740.4424
+          },
+          {
+            "X": -344304.84,
+            "Y": 221765.31,
+            "Z": 8071.5815
+          },
+          {
+            "X": -344304.84,
+            "Y": 182493.62,
+            "Z": 10042.345
+          },
+          {
+            "X": -344304.84,
+            "Y": 155140.58,
+            "Z": 15175.84
+          },
+          {
+            "X": -2512589.8,
+            "Y": -2712685.8,
+            "Z": 7444.79
+          },
+          {
+            "X": -2517551.8,
+            "Y": -2722304.8,
+            "Z": 7874.3584
+          },
+          {
+            "X": -2523115.2,
+            "Y": -2727309.5,
+            "Z": 1856.1876
+          },
+          {
+            "X": -2524685.2,
+            "Y": -2740140.2,
+            "Z": 1426.7814
+          },
+          {
+            "X": -2515685.2,
+            "Y": -2740140.2,
+            "Z": 1426.7814
+          }
+        ],
+        "WaitingTime": [
+          10.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          60.0,
+          5.0,
+          0.0,
+          0.0,
+          0.0,
+          10.0,
+          0.0,
+          0.0,
+          60.0,
+          5.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "TransportCommandType": [
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Warp",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Warp",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving",
+          "EDS_TransportCommandType::Moving"
+        ],
+        "ID_WarpLocation": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          9006,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9007,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ID_ReturnWarpLocation": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          9997,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9999,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "Acceleration": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AccelerationTime": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+]

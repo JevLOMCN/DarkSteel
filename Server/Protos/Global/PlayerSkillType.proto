@@ -1,0 +1,19 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum PlayerSkillType {
+  PlayerSkillType_None = 0;
+  PlayerSkillType_Harvesting = 1;
+  PlayerSkillType_Mining = 2;
+  PlayerSkillType_Logging = 3;
+  PlayerSkillType_OpenLocks = 4;
+  PlayerSkillType_Cooking = 5;
+  PlayerSkillType_Ling = 6;
+  PlayerSkillType_Archaeology = 7;
+  PlayerSkillType_Farming = 8;
+  PlayerSkillType_Ground = 9;
+  PlayerSkillType_Air = 10;
+  PlayerSkillType_Water = 11;
+  PlayerSkillType_Detection = 12;
+}

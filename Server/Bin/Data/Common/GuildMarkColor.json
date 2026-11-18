@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GuildMarkColor",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/GuildMarkColor",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_GuildMarkColorTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::Emblem",
+        "ID_ResourceColor": 1201
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::Emblem",
+        "ID_ResourceColor": 60001
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::Emblem",
+        "ID_ResourceColor": 60002
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::Emblem",
+        "ID_ResourceColor": 60003
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::BackGround",
+        "ID_ResourceColor": 1201
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::BackGround",
+        "ID_ResourceColor": 60001
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::BackGround",
+        "ID_ResourceColor": 60002
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_GuildMarkType::BackGround",
+        "ID_ResourceColor": 60003
+      }
+    }
+  }
+]

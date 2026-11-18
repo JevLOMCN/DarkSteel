@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MountRegisterList",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MountRegisterList",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MountRegisterListTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "DefaultSlotCount": 10,
+        "MaxSlotCount": 30,
+        "ExtendMoneyType": "EDS_MoneyType::NotTradeGold",
+        "ExtendMoneyCost": 1000,
+        "ExtendValue": 1
+      }
+    }
+  }
+]

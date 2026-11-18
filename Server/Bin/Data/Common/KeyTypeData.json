@@ -1,0 +1,1557 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "KeyTypeData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/KeyTypeData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_KeyTypeDataTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_KeyType::MouseScrollUp",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170001,
+        "IsCanChange": true
+      },
+      "2": {
+        "ID": "EDS_KeyType::MouseScrollDown",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170001,
+        "IsCanChange": true
+      },
+      "3": {
+        "ID": "EDS_KeyType::MouseWheelAxis",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170001,
+        "IsCanChange": true
+      },
+      "4": {
+        "ID": "EDS_KeyType::LeftMouseButton",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170002,
+        "IsCanChange": true
+      },
+      "5": {
+        "ID": "EDS_KeyType::RightMouseButton",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170003,
+        "IsCanChange": true
+      },
+      "6": {
+        "ID": "EDS_KeyType::MiddleMouseButton",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170001,
+        "IsCanChange": true
+      },
+      "7": {
+        "ID": "EDS_KeyType::ThumbMouseButton",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170001,
+        "IsCanChange": true
+      },
+      "8": {
+        "ID": "EDS_KeyType::ThumbMouseButton2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170001,
+        "IsCanChange": true
+      },
+      "9": {
+        "ID": "EDS_KeyType::BackSpace",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170004,
+        "IsCanChange": true
+      },
+      "10": {
+        "ID": "EDS_KeyType::Tab",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170005,
+        "IsCanChange": true
+      },
+      "11": {
+        "ID": "EDS_KeyType::Enter",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170006,
+        "IsCanChange": true
+      },
+      "12": {
+        "ID": "EDS_KeyType::Pause",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170007,
+        "IsCanChange": true
+      },
+      "13": {
+        "ID": "EDS_KeyType::CapsLock",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170008,
+        "IsCanChange": true
+      },
+      "14": {
+        "ID": "EDS_KeyType::Escape",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170009,
+        "IsCanChange": false
+      },
+      "15": {
+        "ID": "EDS_KeyType::SpaceBar",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170111,
+        "IsCanChange": true
+      },
+      "16": {
+        "ID": "EDS_KeyType::PageUp",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170010,
+        "IsCanChange": true
+      },
+      "17": {
+        "ID": "EDS_KeyType::PageDown",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170011,
+        "IsCanChange": true
+      },
+      "18": {
+        "ID": "EDS_KeyType::End",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170012,
+        "IsCanChange": true
+      },
+      "19": {
+        "ID": "EDS_KeyType::Home",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170013,
+        "IsCanChange": true
+      },
+      "20": {
+        "ID": "EDS_KeyType::Left",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170014,
+        "IsCanChange": true
+      },
+      "21": {
+        "ID": "EDS_KeyType::Up",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170015,
+        "IsCanChange": true
+      },
+      "22": {
+        "ID": "EDS_KeyType::Right",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170016,
+        "IsCanChange": true
+      },
+      "23": {
+        "ID": "EDS_KeyType::Down",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170017,
+        "IsCanChange": true
+      },
+      "24": {
+        "ID": "EDS_KeyType::Insert",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170018,
+        "IsCanChange": true
+      },
+      "25": {
+        "ID": "EDS_KeyType::Delete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170019,
+        "IsCanChange": true
+      },
+      "26": {
+        "ID": "EDS_KeyType::Zero",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170020,
+        "IsCanChange": true
+      },
+      "27": {
+        "ID": "EDS_KeyType::One",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170021,
+        "IsCanChange": true
+      },
+      "28": {
+        "ID": "EDS_KeyType::Two",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170022,
+        "IsCanChange": true
+      },
+      "29": {
+        "ID": "EDS_KeyType::Three",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170023,
+        "IsCanChange": true
+      },
+      "30": {
+        "ID": "EDS_KeyType::Four",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170024,
+        "IsCanChange": true
+      },
+      "31": {
+        "ID": "EDS_KeyType::Five",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170025,
+        "IsCanChange": true
+      },
+      "32": {
+        "ID": "EDS_KeyType::Six",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170026,
+        "IsCanChange": true
+      },
+      "33": {
+        "ID": "EDS_KeyType::Seven",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170027,
+        "IsCanChange": true
+      },
+      "34": {
+        "ID": "EDS_KeyType::Eight",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170028,
+        "IsCanChange": true
+      },
+      "35": {
+        "ID": "EDS_KeyType::Nine",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170029,
+        "IsCanChange": true
+      },
+      "36": {
+        "ID": "EDS_KeyType::A",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170030,
+        "IsCanChange": true
+      },
+      "37": {
+        "ID": "EDS_KeyType::B",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170031,
+        "IsCanChange": true
+      },
+      "38": {
+        "ID": "EDS_KeyType::C",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170032,
+        "IsCanChange": true
+      },
+      "39": {
+        "ID": "EDS_KeyType::D",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170033,
+        "IsCanChange": true
+      },
+      "40": {
+        "ID": "EDS_KeyType::E",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170034,
+        "IsCanChange": true
+      },
+      "41": {
+        "ID": "EDS_KeyType::F",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170035,
+        "IsCanChange": true
+      },
+      "42": {
+        "ID": "EDS_KeyType::G",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170036,
+        "IsCanChange": true
+      },
+      "43": {
+        "ID": "EDS_KeyType::H",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170037,
+        "IsCanChange": true
+      },
+      "44": {
+        "ID": "EDS_KeyType::I",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170038,
+        "IsCanChange": true
+      },
+      "45": {
+        "ID": "EDS_KeyType::J",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170039,
+        "IsCanChange": true
+      },
+      "46": {
+        "ID": "EDS_KeyType::K",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170040,
+        "IsCanChange": true
+      },
+      "47": {
+        "ID": "EDS_KeyType::L",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170041,
+        "IsCanChange": true
+      },
+      "48": {
+        "ID": "EDS_KeyType::M",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170042,
+        "IsCanChange": true
+      },
+      "49": {
+        "ID": "EDS_KeyType::N",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170043,
+        "IsCanChange": true
+      },
+      "50": {
+        "ID": "EDS_KeyType::O",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170044,
+        "IsCanChange": true
+      },
+      "51": {
+        "ID": "EDS_KeyType::P",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170045,
+        "IsCanChange": true
+      },
+      "52": {
+        "ID": "EDS_KeyType::Q",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170046,
+        "IsCanChange": true
+      },
+      "53": {
+        "ID": "EDS_KeyType::R",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170047,
+        "IsCanChange": true
+      },
+      "54": {
+        "ID": "EDS_KeyType::S",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170048,
+        "IsCanChange": true
+      },
+      "55": {
+        "ID": "EDS_KeyType::T",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170049,
+        "IsCanChange": true
+      },
+      "56": {
+        "ID": "EDS_KeyType::U",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170050,
+        "IsCanChange": true
+      },
+      "57": {
+        "ID": "EDS_KeyType::V",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170051,
+        "IsCanChange": true
+      },
+      "58": {
+        "ID": "EDS_KeyType::W",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170052,
+        "IsCanChange": true
+      },
+      "59": {
+        "ID": "EDS_KeyType::X",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170053,
+        "IsCanChange": true
+      },
+      "60": {
+        "ID": "EDS_KeyType::Y",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170054,
+        "IsCanChange": true
+      },
+      "61": {
+        "ID": "EDS_KeyType::Z",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170055,
+        "IsCanChange": true
+      },
+      "62": {
+        "ID": "EDS_KeyType::NumPadZero",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170056,
+        "IsCanChange": true
+      },
+      "63": {
+        "ID": "EDS_KeyType::NumPadOne",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170057,
+        "IsCanChange": true
+      },
+      "64": {
+        "ID": "EDS_KeyType::NumPadTwo",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170058,
+        "IsCanChange": true
+      },
+      "65": {
+        "ID": "EDS_KeyType::NumPadThree",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170059,
+        "IsCanChange": true
+      },
+      "66": {
+        "ID": "EDS_KeyType::NumPadFour",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170060,
+        "IsCanChange": true
+      },
+      "67": {
+        "ID": "EDS_KeyType::NumPadFive",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170061,
+        "IsCanChange": true
+      },
+      "68": {
+        "ID": "EDS_KeyType::NumPadSix",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170062,
+        "IsCanChange": true
+      },
+      "69": {
+        "ID": "EDS_KeyType::NumPadSeven",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170063,
+        "IsCanChange": true
+      },
+      "70": {
+        "ID": "EDS_KeyType::NumPadEight",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170064,
+        "IsCanChange": true
+      },
+      "71": {
+        "ID": "EDS_KeyType::NumPadNine",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170065,
+        "IsCanChange": true
+      },
+      "72": {
+        "ID": "EDS_KeyType::Multiply",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "73": {
+        "ID": "EDS_KeyType::Add",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "74": {
+        "ID": "EDS_KeyType::Subtract",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "75": {
+        "ID": "EDS_KeyType::Decimal",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "76": {
+        "ID": "EDS_KeyType::Divide",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "77": {
+        "ID": "EDS_KeyType::F1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170066,
+        "IsCanChange": true
+      },
+      "78": {
+        "ID": "EDS_KeyType::F2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170067,
+        "IsCanChange": true
+      },
+      "79": {
+        "ID": "EDS_KeyType::F3",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170068,
+        "IsCanChange": true
+      },
+      "80": {
+        "ID": "EDS_KeyType::F4",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170069,
+        "IsCanChange": true
+      },
+      "81": {
+        "ID": "EDS_KeyType::F5",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170070,
+        "IsCanChange": true
+      },
+      "82": {
+        "ID": "EDS_KeyType::F6",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170071,
+        "IsCanChange": true
+      },
+      "83": {
+        "ID": "EDS_KeyType::F7",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170072,
+        "IsCanChange": true
+      },
+      "84": {
+        "ID": "EDS_KeyType::F8",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170073,
+        "IsCanChange": true
+      },
+      "85": {
+        "ID": "EDS_KeyType::F9",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170074,
+        "IsCanChange": true
+      },
+      "86": {
+        "ID": "EDS_KeyType::F10",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170075,
+        "IsCanChange": true
+      },
+      "87": {
+        "ID": "EDS_KeyType::F11",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170076,
+        "IsCanChange": true
+      },
+      "88": {
+        "ID": "EDS_KeyType::F12",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170077,
+        "IsCanChange": true
+      },
+      "89": {
+        "ID": "EDS_KeyType::NumLock",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170078,
+        "IsCanChange": true
+      },
+      "90": {
+        "ID": "EDS_KeyType::ScrollLock",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "91": {
+        "ID": "EDS_KeyType::LeftShift",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170079,
+        "IsCanChange": false
+      },
+      "92": {
+        "ID": "EDS_KeyType::RightShift",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170080,
+        "IsCanChange": true
+      },
+      "93": {
+        "ID": "EDS_KeyType::LeftControl",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170081,
+        "IsCanChange": true
+      },
+      "94": {
+        "ID": "EDS_KeyType::RightControl",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170081,
+        "IsCanChange": false
+      },
+      "95": {
+        "ID": "EDS_KeyType::LeftAlt",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170082,
+        "IsCanChange": true
+      },
+      "96": {
+        "ID": "EDS_KeyType::RightAlt",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170082,
+        "IsCanChange": true
+      },
+      "97": {
+        "ID": "EDS_KeyType::LeftCommand",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "98": {
+        "ID": "EDS_KeyType::RightCommand",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "99": {
+        "ID": "EDS_KeyType::Semicolon",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170083,
+        "IsCanChange": true
+      },
+      "100": {
+        "ID": "EDS_KeyType::Equals",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170084,
+        "IsCanChange": true
+      },
+      "101": {
+        "ID": "EDS_KeyType::Comma",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170085,
+        "IsCanChange": true
+      },
+      "102": {
+        "ID": "EDS_KeyType::Underscore",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "103": {
+        "ID": "EDS_KeyType::Hyphen",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170086,
+        "IsCanChange": true
+      },
+      "104": {
+        "ID": "EDS_KeyType::Period",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "105": {
+        "ID": "EDS_KeyType::Slash",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170087,
+        "IsCanChange": true
+      },
+      "106": {
+        "ID": "EDS_KeyType::Tilde",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170088,
+        "IsCanChange": true
+      },
+      "107": {
+        "ID": "EDS_KeyType::LeftBracket",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170089,
+        "IsCanChange": true
+      },
+      "108": {
+        "ID": "EDS_KeyType::Backslash",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170087,
+        "IsCanChange": true
+      },
+      "109": {
+        "ID": "EDS_KeyType::RightBracket",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170090,
+        "IsCanChange": true
+      },
+      "110": {
+        "ID": "EDS_KeyType::Apostrophe",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170091,
+        "IsCanChange": true
+      },
+      "111": {
+        "ID": "EDS_KeyType::Ampersand",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "112": {
+        "ID": "EDS_KeyType::Asterisk",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170092,
+        "IsCanChange": true
+      },
+      "113": {
+        "ID": "EDS_KeyType::Caret",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "114": {
+        "ID": "EDS_KeyType::Colon",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "115": {
+        "ID": "EDS_KeyType::Dollar",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "116": {
+        "ID": "EDS_KeyType::Exclamation",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "117": {
+        "ID": "EDS_KeyType::LeftParentheses",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "118": {
+        "ID": "EDS_KeyType::RightParentheses",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "119": {
+        "ID": "EDS_KeyType::Quote",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      },
+      "120": {
+        "ID": "EDS_KeyType::Gamepad_Left2D",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170093,
+        "IsCanChange": true
+      },
+      "121": {
+        "ID": "EDS_KeyType::Gamepad_LeftX",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170093,
+        "IsCanChange": true
+      },
+      "122": {
+        "ID": "EDS_KeyType::Gamepad_LeftY",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170093,
+        "IsCanChange": true
+      },
+      "123": {
+        "ID": "EDS_KeyType::Gamepad_Right2D",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170094,
+        "IsCanChange": true
+      },
+      "124": {
+        "ID": "EDS_KeyType::Gamepad_RightX",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170094,
+        "IsCanChange": true
+      },
+      "125": {
+        "ID": "EDS_KeyType::Gamepad_RightY",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170094,
+        "IsCanChange": true
+      },
+      "126": {
+        "ID": "EDS_KeyType::Gamepad_LeftTriggerAxis",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170095,
+        "IsCanChange": true
+      },
+      "127": {
+        "ID": "EDS_KeyType::Gamepad_RightTriggerAxis",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170096,
+        "IsCanChange": true
+      },
+      "128": {
+        "ID": "EDS_KeyType::Gamepad_LeftThumbstick",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170097,
+        "IsCanChange": true
+      },
+      "129": {
+        "ID": "EDS_KeyType::Gamepad_RightThumbstick",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170098,
+        "IsCanChange": true
+      },
+      "130": {
+        "ID": "EDS_KeyType::Gamepad_Special_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170099,
+        "IsCanChange": true
+      },
+      "131": {
+        "ID": "EDS_KeyType::Gamepad_Special_Left_X",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170099,
+        "IsCanChange": true
+      },
+      "132": {
+        "ID": "EDS_KeyType::Gamepad_Special_Left_Y",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170099,
+        "IsCanChange": true
+      },
+      "133": {
+        "ID": "EDS_KeyType::Gamepad_Special_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170100,
+        "IsCanChange": true
+      },
+      "134": {
+        "ID": "EDS_KeyType::Gamepad_FaceButton_Bottom",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170101,
+        "IsCanChange": true
+      },
+      "135": {
+        "ID": "EDS_KeyType::Gamepad_FaceButton_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170102,
+        "IsCanChange": true
+      },
+      "136": {
+        "ID": "EDS_KeyType::Gamepad_FaceButton_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170103,
+        "IsCanChange": true
+      },
+      "137": {
+        "ID": "EDS_KeyType::Gamepad_FaceButton_Top",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170104,
+        "IsCanChange": true
+      },
+      "138": {
+        "ID": "EDS_KeyType::Gamepad_LeftShoulder",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170105,
+        "IsCanChange": true
+      },
+      "139": {
+        "ID": "EDS_KeyType::Gamepad_RightShoulder",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170106,
+        "IsCanChange": true
+      },
+      "140": {
+        "ID": "EDS_KeyType::Gamepad_LeftTrigger",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170095,
+        "IsCanChange": true
+      },
+      "141": {
+        "ID": "EDS_KeyType::Gamepad_RightTrigger",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170096,
+        "IsCanChange": true
+      },
+      "142": {
+        "ID": "EDS_KeyType::Gamepad_DPad_Up",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170107,
+        "IsCanChange": true
+      },
+      "143": {
+        "ID": "EDS_KeyType::Gamepad_DPad_Down",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170108,
+        "IsCanChange": true
+      },
+      "144": {
+        "ID": "EDS_KeyType::Gamepad_DPad_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170109,
+        "IsCanChange": true
+      },
+      "145": {
+        "ID": "EDS_KeyType::Gamepad_DPad_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170110,
+        "IsCanChange": true
+      },
+      "146": {
+        "ID": "EDS_KeyType::Gamepad_LeftStick_Up",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170097,
+        "IsCanChange": true
+      },
+      "147": {
+        "ID": "EDS_KeyType::Gamepad_LeftStick_Down",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170097,
+        "IsCanChange": true
+      },
+      "148": {
+        "ID": "EDS_KeyType::Gamepad_LeftStick_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170097,
+        "IsCanChange": true
+      },
+      "149": {
+        "ID": "EDS_KeyType::Gamepad_LeftStick_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170097,
+        "IsCanChange": true
+      },
+      "150": {
+        "ID": "EDS_KeyType::Gamepad_RightStick_Up",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170098,
+        "IsCanChange": true
+      },
+      "151": {
+        "ID": "EDS_KeyType::Gamepad_RightStick_Down",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170098,
+        "IsCanChange": true
+      },
+      "152": {
+        "ID": "EDS_KeyType::Gamepad_RightStick_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170098,
+        "IsCanChange": true
+      },
+      "153": {
+        "ID": "EDS_KeyType::Gamepad_RightStick_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 170098,
+        "IsCanChange": true
+      },
+      "999": {
+        "ID": "EDS_KeyType::Empty",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "IsCanChange": true
+      }
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillElementProperty",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SkillElementProperty",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SkillElementPropertyTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_ElementType::FireType",
+        "DataStage": 23,
+        "HitNormalTypeDamage": 0,
+        "HitFireTypeDamage": 0,
+        "HitWaterTypeDamage": -2000,
+        "HitElectroTypeDamage": 0,
+        "HitWindTypeTypeDamage": 2000,
+        "HitLightTypeDamage": 0,
+        "HitDarkTypeDamage": 0,
+        "HitEtherTypeDamage": 0
+      },
+      "2": {
+        "ID": "EDS_ElementType::WaterType",
+        "DataStage": 23,
+        "HitNormalTypeDamage": 0,
+        "HitFireTypeDamage": 2000,
+        "HitWaterTypeDamage": 0,
+        "HitElectroTypeDamage": -2000,
+        "HitWindTypeTypeDamage": 0,
+        "HitLightTypeDamage": 0,
+        "HitDarkTypeDamage": 0,
+        "HitEtherTypeDamage": 0
+      },
+      "3": {
+        "ID": "EDS_ElementType::ElectroType",
+        "DataStage": 23,
+        "HitNormalTypeDamage": 0,
+        "HitFireTypeDamage": 0,
+        "HitWaterTypeDamage": 2000,
+        "HitElectroTypeDamage": 0,
+        "HitWindTypeTypeDamage": -2000,
+        "HitLightTypeDamage": 0,
+        "HitDarkTypeDamage": 0,
+        "HitEtherTypeDamage": 0
+      },
+      "4": {
+        "ID": "EDS_ElementType::WindType",
+        "DataStage": 23,
+        "HitNormalTypeDamage": 0,
+        "HitFireTypeDamage": -2000,
+        "HitWaterTypeDamage": 0,
+        "HitElectroTypeDamage": 2000,
+        "HitWindTypeTypeDamage": 0,
+        "HitLightTypeDamage": 0,
+        "HitDarkTypeDamage": 0,
+        "HitEtherTypeDamage": 0
+      },
+      "5": {
+        "ID": "EDS_ElementType::LightType",
+        "DataStage": 23,
+        "HitNormalTypeDamage": 0,
+        "HitFireTypeDamage": 0,
+        "HitWaterTypeDamage": 0,
+        "HitElectroTypeDamage": 0,
+        "HitWindTypeTypeDamage": 0,
+        "HitLightTypeDamage": 0,
+        "HitDarkTypeDamage": 2000,
+        "HitEtherTypeDamage": -2000
+      },
+      "6": {
+        "ID": "EDS_ElementType::DarkType",
+        "DataStage": 23,
+        "HitNormalTypeDamage": 0,
+        "HitFireTypeDamage": 0,
+        "HitWaterTypeDamage": 0,
+        "HitElectroTypeDamage": 0,
+        "HitWindTypeTypeDamage": 0,
+        "HitLightTypeDamage": -2000,
+        "HitDarkTypeDamage": 0,
+        "HitEtherTypeDamage": 2000
+      },
+      "7": {
+        "ID": "EDS_ElementType::EtherType",
+        "DataStage": 23,
+        "HitNormalTypeDamage": 0,
+        "HitFireTypeDamage": 0,
+        "HitWaterTypeDamage": 0,
+        "HitElectroTypeDamage": 0,
+        "HitWindTypeTypeDamage": 0,
+        "HitLightTypeDamage": 2000,
+        "HitDarkTypeDamage": -2000,
+        "HitEtherTypeDamage": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{EE069BA7-29EB-5D0B-BEF8-7EF44137FB11}</ProjectGuid><RootNamespace>AudioSynesthesia</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAudioSynesthesiaModule.cpp" />
+    <ClCompile Include="Private\FConstantQResults.cpp" />
+    <ClCompile Include="Private\FLoudnessResults.cpp" />
+    <ClCompile Include="Private\FMeterResults.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FSynesthesiaSpectrumResults.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UAudioAnalyzerNRT.cpp" />
+    <ClCompile Include="Private\UAudioSynesthesiaNRT.cpp" />
+    <ClCompile Include="Private\UAudioSynesthesiaNRTSettings.cpp" />
+    <ClCompile Include="Private\UAudioSynesthesiaSettings.cpp" />
+    <ClCompile Include="Private\UConstantQAnalyzer.cpp" />
+    <ClCompile Include="Private\UConstantQNRT.cpp" />
+    <ClCompile Include="Private\UConstantQNRTSettings.cpp" />
+    <ClCompile Include="Private\UConstantQSettings.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\ULKFSAnalyzer.cpp" />
+    <ClCompile Include="Private\ULKFSNRT.cpp" />
+    <ClCompile Include="Private\ULKFSNRTSettings.cpp" />
+    <ClCompile Include="Private\ULKFSSettings.cpp" />
+    <ClCompile Include="Private\ULoudnessAnalyzer.cpp" />
+    <ClCompile Include="Private\ULoudnessNRT.cpp" />
+    <ClCompile Include="Private\ULoudnessNRTSettings.cpp" />
+    <ClCompile Include="Private\ULoudnessSettings.cpp" />
+    <ClCompile Include="Private\UMeterAnalyzer.cpp" />
+    <ClCompile Include="Private\UMeterSettings.cpp" />
+    <ClCompile Include="Private\UOnsetNRT.cpp" />
+    <ClCompile Include="Private\UOnsetNRTSettings.cpp" />
+    <ClCompile Include="Private\USynesthesiaSpectrumAnalysisSettings.cpp" />
+    <ClCompile Include="Private\USynesthesiaSpectrumAnalyzer.cpp" />
+    <ClCompile Include="Private\_Free\Module.AudioSynesthesia.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

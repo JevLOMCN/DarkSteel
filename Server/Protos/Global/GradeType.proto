@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum GradeType {
+  GradeType_None = 0;
+  GradeType_Normal = 1;
+  GradeType_High = 2;
+  GradeType_Rare = 3;
+  GradeType_Epic = 4;
+  GradeType_Legendary = 5;
+  GradeType_Myth = 6;
+}

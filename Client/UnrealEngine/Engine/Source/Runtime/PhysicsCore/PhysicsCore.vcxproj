@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{D0CBB45B-BF81-5780-AAB7-102BB39BBB5F}</ProjectGuid><RootNamespace>PhysicsCore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAccelerationStructureHandle.cpp" />
+    <ClCompile Include="Private\FBodyInstanceCore.cpp" />
+    <ClCompile Include="Private\FChaosCVDScopedDataChannelOverride.cpp" />
+    <ClCompile Include="Private\FChaosEngineInterface.cpp" />
+    <ClCompile Include="Private\FChaosSQAccelerator.cpp" />
+    <ClCompile Include="Private\FChaosScene.cpp" />
+    <ClCompile Include="Private\FChaosSceneSimCallback.cpp" />
+    <ClCompile Include="Private\FChaosStateOps.cpp" />
+    <ClCompile Include="Private\FChaosVisualDebuggerTrace.cpp" />
+    <ClCompile Include="Private\FJointConstraint.cpp" />
+    <ClCompile Include="Private\FParticleUtilities_ActorSpace.cpp" />
+    <ClCompile Include="Private\FPhysTestSerializer.cpp" />
+    <ClCompile Include="Private\FPhysicalMaterialDamageModifier.cpp" />
+    <ClCompile Include="Private\FPhysicalMaterialStrength.cpp" />
+    <ClCompile Include="Private\FPhysicsConstraintReference_Chaos.cpp" />
+    <ClCompile Include="Private\FPhysicsGeometryCollection_Chaos.cpp" />
+    <ClCompile Include="Private\FPhysicsShapeAdapter_Chaos.cpp" />
+    <ClCompile Include="Private\FPhysicsShapeReference_Chaos.cpp" />
+    <ClCompile Include="Private\FPhysicsSolverBase.cpp" />
+    <ClCompile Include="Private\FRigidBodyHandle_External.cpp" />
+    <ClCompile Include="Private\FRigidBodyHandle_Internal.cpp" />
+    <ClCompile Include="Private\FSQAcceleratorUnion.cpp" />
+    <ClCompile Include="Private\FSQCapture.cpp" />
+    <ClCompile Include="Private\FSQCaptureFilterCallback.cpp" />
+    <ClCompile Include="Private\FSQHitBuffer.cpp" />
+    <ClCompile Include="Private\FSimCallbackInput.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\ICollisionQueryFilterCallbackBase.cpp" />
+    <ClCompile Include="Private\TAABBTree.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBPVisitor.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSQVisitor.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSimCallbackObject.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TThreadedSingleParticlePhysicsProxyBase.cpp" />
+    <ClCompile Include="Private\TTransactionallySafeSpscQueue.cpp" />
+    <ClCompile Include="Private\TTupleBaseElement.cpp" />
+    <ClCompile Include="Private\TVector.cpp" />
+    <ClCompile Include="Private\UBodySetupCore.cpp" />
+    <ClCompile Include="Private\UChaosPhysicalMaterial.cpp" />
+    <ClCompile Include="Private\UDEPRECATED_PhysicalMaterialPropertyBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UPhysicalMaterial.cpp" />
+    <ClCompile Include="Private\UPhysicsSettingsCore.cpp" />
+    <ClCompile Include="Private\_Free\Module.PhysicsCore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

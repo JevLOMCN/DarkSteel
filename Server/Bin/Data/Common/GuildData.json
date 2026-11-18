@@ -1,0 +1,267 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GuildData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/GuildData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_GuildDataTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_GuildDataType::JoinRequestDuration",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int64",
+        "IsOptionValueArray": false,
+        "OptionValue": "259200",
+        "OptionValueArray": [],
+        "UseSystem": "가입신청 유지시간"
+      },
+      "2": {
+        "ID": "EDS_GuildDataType::MaxJoinRequests",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "10",
+        "OptionValueArray": [],
+        "UseSystem": "가입신청 최대개수"
+      },
+      "3": {
+        "ID": "EDS_GuildDataType::InviteDuration",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int64",
+        "IsOptionValueArray": false,
+        "OptionValue": "259200",
+        "OptionValueArray": [],
+        "UseSystem": "초대유지시간"
+      },
+      "4": {
+        "ID": "EDS_GuildDataType::MaxInvites",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "20",
+        "OptionValueArray": [],
+        "UseSystem": "초대최대개수"
+      },
+      "5": {
+        "ID": "EDS_GuildDataType::MinNameLength",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "2",
+        "OptionValueArray": [],
+        "UseSystem": "길드 이름 최소 글자수"
+      },
+      "6": {
+        "ID": "EDS_GuildDataType::MaxNameLength",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "8",
+        "OptionValueArray": [],
+        "UseSystem": "길드 이름 최대 글자수"
+      },
+      "7": {
+        "ID": "EDS_GuildDataType::MinDescLength",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "0",
+        "OptionValueArray": [],
+        "UseSystem": "대문 최소 글자수"
+      },
+      "8": {
+        "ID": "EDS_GuildDataType::MaxDescLength",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "999",
+        "OptionValueArray": [],
+        "UseSystem": "대문 최대 글자수"
+      },
+      "9": {
+        "ID": "EDS_GuildDataType::MaxLogCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "1000",
+        "OptionValueArray": [],
+        "UseSystem": "활동로그 최대 저장 개수"
+      },
+      "10": {
+        "ID": "EDS_GuildDataType::AutoOwnerDuration",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int64",
+        "IsOptionValueArray": false,
+        "OptionValue": "259200",
+        "OptionValueArray": [],
+        "UseSystem": "자동위임 시간"
+      },
+      "11": {
+        "ID": "EDS_GuildDataType::AutoKickTimeDuration",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int64",
+        "IsOptionValueArray": false,
+        "OptionValue": "259200",
+        "OptionValueArray": [],
+        "UseSystem": "자동탈퇴 시간"
+      },
+      "12": {
+        "ID": "EDS_GuildDataType::InfoRefreshInterval",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int64",
+        "IsOptionValueArray": false,
+        "OptionValue": "50002",
+        "OptionValueArray": [],
+        "UseSystem": "길드 정보 갱신 시간"
+      },
+      "13": {
+        "ID": "EDS_GuildDataType::NameChangeMoneyType",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "11",
+        "OptionValueArray": [],
+        "UseSystem": "길드 이름 변경 재화 타입"
+      },
+      "14": {
+        "ID": "EDS_GuildDataType::NameChangeMoneyValue",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "1000",
+        "OptionValueArray": [],
+        "UseSystem": "길드 이름 변경 재화 값"
+      },
+      "15": {
+        "ID": "EDS_GuildDataType::MarkChangeMoneyType",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "11",
+        "OptionValueArray": [],
+        "UseSystem": "길드 문양 변경 재화 타입"
+      },
+      "16": {
+        "ID": "EDS_GuildDataType::MarkChangeMoneyValue",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "1000",
+        "OptionValueArray": [],
+        "UseSystem": "길드 문양 변경 재화 값"
+      },
+      "17": {
+        "ID": "EDS_GuildDataType::NormalMemberChangeDuration",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int64",
+        "IsOptionValueArray": false,
+        "OptionValue": "259200",
+        "OptionValueArray": [],
+        "UseSystem": "일반 길드원 변경 시간"
+      },
+      "18": {
+        "ID": "EDS_GuildDataType::MinIntroductionLength",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "0",
+        "OptionValueArray": [],
+        "UseSystem": "소개글 최소 글자수"
+      },
+      "19": {
+        "ID": "EDS_GuildDataType::MaxIntroductionLength",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "100",
+        "OptionValueArray": [],
+        "UseSystem": "소개글 최대 글자수"
+      },
+      "20": {
+        "ID": "EDS_GuildDataType::CreateMoneyType",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "1",
+        "OptionValueArray": [],
+        "UseSystem": "길드 생성 재화 타입"
+      },
+      "21": {
+        "ID": "EDS_GuildDataType::CreateMoneyValue",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "1000",
+        "OptionValueArray": [],
+        "UseSystem": "길드 생성 재화 수량"
+      },
+      "22": {
+        "ID": "EDS_GuildDataType::GuildListBatchSize",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "20",
+        "OptionValueArray": [],
+        "UseSystem": "길드 리스트 서버에서 받아 올 수량"
+      },
+      "23": {
+        "ID": "EDS_GuildDataType::GuildHistoryBatchSize",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "20",
+        "OptionValueArray": [],
+        "UseSystem": "활동로그 리스트 서버에서 받아 올 수량"
+      },
+      "24": {
+        "ID": "EDS_GuildDataType::GuildMaxJoinRequests",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "50",
+        "OptionValueArray": [],
+        "UseSystem": "길드가 받을 수 있는 가입 신청 최대 개수"
+      },
+      "25": {
+        "ID": "EDS_GuildDataType::GuildMaxInvites",
+        "DataStage": 23,
+        "Version": "*",
+        "ColumnDataType": "EDS_ColumnDataType::Int32",
+        "IsOptionValueArray": false,
+        "OptionValue": "50",
+        "OptionValueArray": [],
+        "UseSystem": "길드가 초대할 수 있는 최대 개수"
+      }
+    }
+  }
+]

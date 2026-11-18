@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlPlayerBreachRecordHistoryTable {
+  int64 player_uid = 1;
+  int32 zone_id = 2;
+  string history_values = 3;
+}

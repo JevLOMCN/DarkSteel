@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum PkResultType {
+  PkResultType_None = 0;
+  PkResultType_Kill = 1;
+  PkResultType_Death = 2;
+  PkResultType_Draw = 3;
+}

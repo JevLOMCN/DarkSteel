@@ -1,0 +1,251 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcRelationItem",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcRelationItem",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcRelationItemTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Version": "*",
+        "FavorType": [
+          "EDS_FavorType::Favorite",
+          "EDS_FavorType::Normal",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None"
+        ],
+        "GiftItemType": [
+          "EDS_ItemType::GiftAType",
+          "EDS_ItemType::GiftBType",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None"
+        ],
+        "SeasonGroup": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ID_Item": [
+          270300001,
+          0,
+          0
+        ],
+        "RewardItemPoint": [
+          331,
+          0,
+          0
+        ]
+      },
+      "200": {
+        "ID": 200,
+        "DataStage": 23,
+        "Version": "*",
+        "FavorType": [
+          "EDS_FavorType::Favorite",
+          "EDS_FavorType::None",
+          "EDS_FavorType::Unfavorite",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None"
+        ],
+        "GiftItemType": [
+          "EDS_ItemType::GiftBType",
+          "EDS_ItemType::None",
+          "EDS_ItemType::GiftAType",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None"
+        ],
+        "SeasonGroup": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "ID_Item": [
+          270300001,
+          0,
+          0
+        ],
+        "RewardItemPoint": [
+          331,
+          0,
+          0
+        ]
+      },
+      "300": {
+        "ID": 300,
+        "DataStage": 23,
+        "Version": "*",
+        "FavorType": [
+          "EDS_FavorType::None",
+          "EDS_FavorType::Normal",
+          "EDS_FavorType::Unfavorite",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None"
+        ],
+        "GiftItemType": [
+          "EDS_ItemType::None",
+          "EDS_ItemType::GiftAType",
+          "EDS_ItemType::GiftBType",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None"
+        ],
+        "SeasonGroup": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "ID_Item": [
+          270300001,
+          0,
+          0
+        ],
+        "RewardItemPoint": [
+          331,
+          0,
+          0
+        ]
+      },
+      "401": {
+        "ID": 401,
+        "DataStage": 23,
+        "Version": "*",
+        "FavorType": [
+          "EDS_FavorType::Favorite",
+          "EDS_FavorType::Unfavorite",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None"
+        ],
+        "GiftItemType": [
+          "EDS_ItemType::GiftAType",
+          "EDS_ItemType::GiftBType",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None"
+        ],
+        "SeasonGroup": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ID_Item": [
+          0,
+          0,
+          0
+        ],
+        "RewardItemPoint": [
+          0,
+          0,
+          0
+        ]
+      },
+      "402": {
+        "ID": 402,
+        "DataStage": 23,
+        "Version": "*",
+        "FavorType": [
+          "EDS_FavorType::Favorite",
+          "EDS_FavorType::Unfavorite",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None"
+        ],
+        "GiftItemType": [
+          "EDS_ItemType::GiftBType",
+          "EDS_ItemType::GiftCType",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None"
+        ],
+        "SeasonGroup": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ID_Item": [
+          0,
+          0,
+          0
+        ],
+        "RewardItemPoint": [
+          0,
+          0,
+          0
+        ]
+      },
+      "404": {
+        "ID": 404,
+        "DataStage": 23,
+        "Version": "*",
+        "FavorType": [
+          "EDS_FavorType::Favorite",
+          "EDS_FavorType::Unfavorite",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None",
+          "EDS_FavorType::None"
+        ],
+        "GiftItemType": [
+          "EDS_ItemType::GiftCType",
+          "EDS_ItemType::GiftAType",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None",
+          "EDS_ItemType::None"
+        ],
+        "SeasonGroup": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ID_Item": [
+          0,
+          0,
+          0
+        ],
+        "RewardItemPoint": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  }
+]

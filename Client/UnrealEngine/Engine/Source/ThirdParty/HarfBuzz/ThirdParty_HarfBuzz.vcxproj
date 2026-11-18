@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{F71338BA-3F14-557E-B183-B622A61D50DD}</ProjectGuid><RootNamespace>ThirdParty_HarfBuzz</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="harfbuzz.dir\Release\hb-aat-layout.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-aat-map.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-blob.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-buffer.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-common.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-face.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-font.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ft.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-icu.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-cff1-table.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-cff2-table.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-face.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-font.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-layout.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-map.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-arabic.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-hangul.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-hebrew.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-indic-table.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-indic.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-khmer.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-myanmar.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-thai.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-use-table.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-use.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-complex-vowel-constraints.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-fallback.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape-normalize.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-shape.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-tag.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-ot-var.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-set.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-shape-plan.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-shape.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-shaper.cpp" />
+    <ClCompile Include="harfbuzz.dir\Release\hb-unicode.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

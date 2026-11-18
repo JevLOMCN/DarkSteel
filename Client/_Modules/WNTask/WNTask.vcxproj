@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{F544FC58-848C-51A9-80EC-E0676CB8E988}</ProjectGuid><RootNamespace>WNTask</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FConstructor.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWN_GraphTaskForStep.cpp" />
+    <ClCompile Include="Private\FWN_ScopedTaskAccessor.cpp" />
+    <ClCompile Include="Private\FWN_SubsequentTaskArrayPool.cpp" />
+    <ClCompile Include="Private\FWN_Task.cpp" />
+    <ClCompile Include="Private\FWN_TaskHandle.cpp" />
+    <ClCompile Include="Private\FWN_TaskManager.cpp" />
+    <ClCompile Include="Private\FWN_TaskModule.cpp" />
+    <ClCompile Include="Private\FWN_TaskScheduler.cpp" />
+    <ClCompile Include="Private\FWN_TaskStack.cpp" />
+    <ClCompile Include="Private\FWN_Variant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TGraphTask.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TQueue.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\_Free\Module.WNTask.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

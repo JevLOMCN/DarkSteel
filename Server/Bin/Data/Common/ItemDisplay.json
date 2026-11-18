@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemDisplay",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemDisplay",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemDisplayTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1000": {
+        "ID": 1000,
+        "DataStage": 23,
+        "ContentsType": "EDS_ContentsType::Dungeon",
+        "ID_Item": [
+          100110001,
+          240210001,
+          10110001,
+          20110001,
+          20120001,
+          20130001,
+          20140001,
+          20150001,
+          20210001,
+          20230001
+        ],
+        "ID_Money": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold"
+        ]
+      }
+    }
+  }
+]

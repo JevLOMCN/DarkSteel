@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlEquipmentPlayerTable {
+  int64 player_uid = 1;
+  int32 slot_index = 2;
+  int64 item_uid = 3;
+}

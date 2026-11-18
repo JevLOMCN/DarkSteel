@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{BE4B5E2F-D771-5968-956A-079CC8DB7C4C}</ProjectGuid><RootNamespace>AppleImageUtils</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAppleImageConversionDelegate.cpp" />
+    <ClCompile Include="Private\FAppleImageUtilsConversionTaskBase.cpp" />
+    <ClCompile Include="Private\FAppleImageUtilsFailedConversionTask.cpp" />
+    <ClCompile Include="Private\FAppleImageUtilsImageConversionResult.cpp" />
+    <ClCompile Include="Private\FAppleImageUtilsPlugin.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IAppleImageUtilsPlugin.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\UAppleImageInterface.cpp" />
+    <ClCompile Include="Private\UAppleImageUtilsBaseAsyncTaskBlueprintProxy.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.AppleImageUtils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

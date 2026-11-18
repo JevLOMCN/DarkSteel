@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GachaGroup",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/GachaGroup",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_GachaGroupTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 1000,
+        "GachaType": "EDS_GachaType::Character",
+        "ID_GachaResultGroup": 10000,
+        "GachaGroupRate": 500000
+      },
+      "200": {
+        "ID": 200,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 1000,
+        "GachaType": "EDS_GachaType::Item",
+        "ID_GachaResultGroup": 20000,
+        "GachaGroupRate": 400000
+      },
+      "300": {
+        "ID": 300,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 1000,
+        "GachaType": "EDS_GachaType::Item",
+        "ID_GachaResultGroup": 30000,
+        "GachaGroupRate": 100000
+      },
+      "400": {
+        "ID": 400,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2000,
+        "GachaType": "EDS_GachaType::Character",
+        "ID_GachaResultGroup": 40000,
+        "GachaGroupRate": 100000
+      },
+      "500": {
+        "ID": 500,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2000,
+        "GachaType": "EDS_GachaType::Item",
+        "ID_GachaResultGroup": 50000,
+        "GachaGroupRate": 900000
+      },
+      "600": {
+        "ID": 600,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000,
+        "GachaType": "EDS_GachaType::Character",
+        "ID_GachaResultGroup": 60000,
+        "GachaGroupRate": 1000000
+      }
+    }
+  }
+]

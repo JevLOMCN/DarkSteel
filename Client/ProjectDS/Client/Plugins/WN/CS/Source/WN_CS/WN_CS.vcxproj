@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{FC10B4BD-0CCA-58CF-960F-B02BD786EF7B}</ProjectGuid><RootNamespace>WN_CS</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWN_CS_AnimHashingData.cpp" />
+    <ClCompile Include="Private\FWN_CS_CharacterDesc.cpp" />
+    <ClCompile Include="Private\FWN_CS_CharacterLightDesc.cpp" />
+    <ClCompile Include="Private\FWN_CS_CharacterNonePartInfo.cpp" />
+    <ClCompile Include="Private\FWN_CS_CharacterPartDesc.cpp" />
+    <ClCompile Include="Private\FWN_CS_CharacterPartInfo.cpp" />
+    <ClCompile Include="Private\FWN_CS_CharacterPresetDesc.cpp" />
+    <ClCompile Include="Private\FWN_CS_CharacterPresetSlotDesc.cpp" />
+    <ClCompile Include="Private\FWN_CS_CharacterPresetSlotMaterialDesc.cpp" />
+    <ClCompile Include="Private\FWN_CS_CharacterSoulInfo.cpp" />
+    <ClCompile Include="Private\FWN_CS_ColliderContainer.cpp" />
+    <ClCompile Include="Private\FWN_CS_FixedBoundBoneSlotParam.cpp" />
+    <ClCompile Include="Private\FWN_CS_HitSphereContainer.cpp" />
+    <ClCompile Include="Private\FWN_CS_HitSphereInfo.cpp" />
+    <ClCompile Include="Private\FWN_CS_LightContainer.cpp" />
+    <ClCompile Include="Private\FWN_CS_LightInfo.cpp" />
+    <ClCompile Include="Private\FWN_CS_Module.cpp" />
+    <ClCompile Include="Private\FWN_CS_PartColliderInfo.cpp" />
+    <ClCompile Include="Private\FWN_CS_PartSKMHashingData.cpp" />
+    <ClCompile Include="Private\FWN_CS_ServerHitCapsuleContainer.cpp" />
+    <ClCompile Include="Private\FWN_CS_ServerHitCapsuleInfo.cpp" />
+    <ClCompile Include="Private\FWN_CS_SkeletonHashingData.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSoftObjectPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UWN_CS_CharacterCore.cpp" />
+    <ClCompile Include="Private\UWN_CS_CharacterPart.cpp" />
+    <ClCompile Include="Private\UWN_CS_CharacterSoul.cpp" />
+    <ClCompile Include="Private\UWN_CS_CharacterWorkspace.cpp" />
+    <ClCompile Include="Private\UWN_CS_OutGame_CharacterWorkspace.cpp" />
+    <ClCompile Include="Private\UWN_CS_Subsystem.cpp" />
+    <ClCompile Include="Private\_Free\Module.WN_CS.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,477 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "InventoryOrder",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/InventoryOrder",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_InventoryOrderTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 1,
+        "ItemType": "EDS_ItemType::WeaponArtifact"
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 2,
+        "ItemType": "EDS_ItemType::ArmorHelmet"
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 3,
+        "ItemType": "EDS_ItemType::ArmorChest"
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 4,
+        "ItemType": "EDS_ItemType::ArmorGlobe"
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 5,
+        "ItemType": "EDS_ItemType::ArmorShoes"
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 6,
+        "ItemType": "EDS_ItemType::Accessory1"
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 7,
+        "ItemType": "EDS_ItemType::Accessory2"
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 8,
+        "ItemType": "EDS_ItemType::Accessory3"
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 9,
+        "ItemType": "EDS_ItemType::TokenEquipTalisman"
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 10,
+        "ItemType": "EDS_ItemType::ToolPickax"
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 11,
+        "ItemType": "EDS_ItemType::ToolHoe"
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 12,
+        "ItemType": "EDS_ItemType::ToolAxe"
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 13,
+        "ItemType": "EDS_ItemType::MountGearAType"
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 14,
+        "ItemType": "EDS_ItemType::MountGearBType"
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 15,
+        "ItemType": "EDS_ItemType::MountGearCType"
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 16,
+        "ItemType": "EDS_ItemType::ConsumeHpPotion"
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 17,
+        "ItemType": "EDS_ItemType::ConsumeMpPotion"
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 18,
+        "ItemType": "EDS_ItemType::ConsumeSpPotion"
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 19,
+        "ItemType": "EDS_ItemType::ConsumeApPotion"
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 20,
+        "ItemType": "EDS_ItemType::ConsumeBuffPotion"
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 21,
+        "ItemType": "EDS_ItemType::ConsumeRecipe"
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 22,
+        "ItemType": "EDS_ItemType::TicketSpeedUp"
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 23,
+        "ItemType": "EDS_ItemType::AccelItemRestore"
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 24,
+        "ItemType": "EDS_ItemType::TicketEntry"
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 25,
+        "ItemType": "EDS_ItemType::OpenBoxRandom"
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 26,
+        "ItemType": "EDS_ItemType::OpenBoxPackage"
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 27,
+        "ItemType": "EDS_ItemType::OpenBoxSelect"
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 28,
+        "ItemType": "EDS_ItemType::MountRegister"
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 29,
+        "ItemType": "EDS_ItemType::HeartStone"
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 30,
+        "ItemType": "EDS_ItemType::CurrencyDarkSteel"
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 31,
+        "ItemType": "EDS_ItemType::Token"
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 32,
+        "ItemType": "EDS_ItemType::QuestUse"
+      },
+      "33": {
+        "ID": 33,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 33,
+        "ItemType": "EDS_ItemType::QuestDelivery"
+      },
+      "34": {
+        "ID": 34,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 34,
+        "ItemType": "EDS_ItemType::EXPCharacter"
+      },
+      "35": {
+        "ID": 35,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 35,
+        "ItemType": "EDS_ItemType::EXPItem"
+      },
+      "36": {
+        "ID": 36,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 36,
+        "ItemType": "EDS_ItemType::MaterialGrow"
+      },
+      "37": {
+        "ID": 37,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 37,
+        "ItemType": "EDS_ItemType::MaterialMake"
+      },
+      "38": {
+        "ID": 38,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 38,
+        "ItemType": "EDS_ItemType::MaterialEnhance"
+      },
+      "39": {
+        "ID": 39,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 39,
+        "ItemType": "EDS_ItemType::MaterialRepairItem"
+      },
+      "40": {
+        "ID": 40,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 40,
+        "ItemType": "EDS_ItemType::JewelRainbow"
+      },
+      "41": {
+        "ID": 41,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 41,
+        "ItemType": "EDS_ItemType::JewelRed"
+      },
+      "42": {
+        "ID": 42,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 42,
+        "ItemType": "EDS_ItemType::JewelBlue"
+      },
+      "43": {
+        "ID": 43,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 43,
+        "ItemType": "EDS_ItemType::MountFoodAType"
+      },
+      "44": {
+        "ID": 44,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 44,
+        "ItemType": "EDS_ItemType::MountFoodBType"
+      },
+      "45": {
+        "ID": 45,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 45,
+        "ItemType": "EDS_ItemType::MountFoodCType"
+      },
+      "46": {
+        "ID": 46,
+        "DataStage": 23,
+        "Version": "*",
+        "OrderGroupID": {
+          "ID": 1
+        },
+        "Order": 46,
+        "ItemType": "EDS_ItemType::Garbage"
+      }
+    }
+  }
+]

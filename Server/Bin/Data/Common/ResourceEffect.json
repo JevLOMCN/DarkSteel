@@ -1,0 +1,1565 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceEffect",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceEffect",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceEffectTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Projectile/P_PC_SeoYoung_Projectile_01.P_PC_SeoYoung_Projectile_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Mon_01.P_Hit_Mon_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effect/01_DS_FX/DS_Common/Hit/P_Hit_Critical_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_Heal_HP_01.P_Buff_Heal_HP_01",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Mid",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_Heal_HP_ONE_TEST.P_Buff_Heal_HP_ONE_TEST",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Mid",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_Heal_MP_01.P_Buff_Heal_MP_01",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Mid",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_AttackUp_01_Start.P_Buff_AttackUp_01_Start",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Top",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_AttackUp_01_Loop.P_Buff_AttackUp_01_Loop",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_DefenseUp_01_Start.P_Buff_DefenseUp_01_Start",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_DefenseUp_01_Loop.P_Buff_DefenseUp_01_Loop",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Basic_03.P_Hit_Basic_03",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Basic_03_cri.P_Hit_Basic_03_cri",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Basic_x_01.P_Hit_Basic_x_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/War_M/Skl_14/P_war_shield_dissolve.P_war_shield_dissolve",
+          "SubPathString": ""
+        },
+        "Socket": "Wpn_Kar_Shield",
+        "EWScaleX": 0.6,
+        "EWScaleY": 0.6
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/War_M/Skl_14/P_war_shield_hit.P_war_shield_hit",
+          "SubPathString": ""
+        },
+        "Socket": "Wpn_Kar_Shield",
+        "EWScaleX": 0.6,
+        "EWScaleY": 0.6
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/War_M/Skl_14/P_war_shield_loop.P_war_shield_loop",
+          "SubPathString": ""
+        },
+        "Socket": "Wpn_Kar_Shield",
+        "EWScaleX": 0.6,
+        "EWScaleY": 0.6
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_HpIncrease_01.P_Buff_HpIncrease_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_MpIncrease_01.P_Buff_MpIncrease_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Fig_Basic_01.P_Hit_Fig_Basic_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Projectile/Ribbon_Link_Skl_01.Ribbon_Link_Skl_01",
+          "SubPathString": ""
+        },
+        "Socket": "hand_r",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/War_M/Skl_08/P_War_M_Skl08_Loop.P_War_M_Skl08_Loop",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_Taunt_01_Start.P_Buff_Taunt_01_Start",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Top",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_AttackDown_01_Start.P_Buff_AttackDown_01_Start",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Top",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_DefenseDown_01_Start.P_Buff_DefenseDown_01_Start",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Top",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Fig_Skl03_2.P_Hit_Fig_Skl03_2",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/War_M/Skl_05/P_War_M_skl_05_04.P_War_M_skl_05_04",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Volt_001.P_Hit_Volt_001",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Belmond/Skl05/P_Belmond_Skl05_Shield_End.P_Belmond_Skl05_Shield_End",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Belmond/Skl05/P_Belmond_Skl05_Shield_Loop_03.P_Belmond_Skl05_Shield_Loop_03",
+          "SubPathString": ""
+        },
+        "Socket": "Wpn_Bel_Shield",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Volt/Skl_06/P_Skl06_Ribbon_Link.P_Skl06_Ribbon_Link",
+          "SubPathString": ""
+        },
+        "Socket": "hand_r",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_SeoYoung_001.P_Hit_SeoYoung_001",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "33": {
+        "ID": 33,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Belmond_Basic_01.P_Hit_Belmond_Basic_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "34": {
+        "ID": 34,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Belmond_Basic_x_01.P_Hit_Belmond_Basic_x_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "35": {
+        "ID": 35,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Kairos_Basic_01.P_Hit_Kairos_Basic_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "36": {
+        "ID": 36,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Hector_01.P_Hit_Hector_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "37": {
+        "ID": 37,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Marius_Basic_01.P_Hit_Marius_Basic_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "38": {
+        "ID": 38,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Kairos_Basic_Cri_01.P_Hit_Kairos_Basic_Cri_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "39": {
+        "ID": 39,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_SeoYoung_Cri_01.P_Hit_SeoYoung_Cri_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "40": {
+        "ID": 40,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Hector_Cri_01.P_Hit_Hector_Cri_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "41": {
+        "ID": 41,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Volt_Cri_01.P_Hit_Volt_Cri_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "42": {
+        "ID": 42,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Belmond_Basic_Cri_01.P_Hit_Belmond_Basic_Cri_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "43": {
+        "ID": 43,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Kairos_Basic_Y_01.P_Hit_Kairos_Basic_Y_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "44": {
+        "ID": 44,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Marius/Skl01/P_Marius_Skl01_Pro.P_Marius_Skl01_Pro",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "45": {
+        "ID": 45,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Marius/Skl01/P_Marius_Skl01_Ribbon_Link.P_Marius_Skl01_Ribbon_Link",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "46": {
+        "ID": 46,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Projectile/Ribbon_Link_Attack_01.Ribbon_Link_Attack_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "47": {
+        "ID": 47,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Ada/P_Ada_Skl02_Ribbon_Link.P_Ada_Skl02_Ribbon_Link",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "48": {
+        "ID": 48,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Ada_001.P_Hit_Ada_001",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "49": {
+        "ID": 49,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Hit_Marius_001.P_Hit_Marius_001",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "50": {
+        "ID": 50,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Volt/Skl_05/P_Buff_Volt_Skl05_001.P_Buff_Volt_Skl05_001",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Mid",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "51": {
+        "ID": 51,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Volt/Skl_05/P_Buff_Volt_Skl05_002.P_Buff_Volt_Skl05_002",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Mid",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "52": {
+        "ID": 52,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Volt/Skl_05/P_Buff_Volt_Skl05_003.P_Buff_Volt_Skl05_003",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Mid",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "53": {
+        "ID": 53,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Volt/Skl_05/P_Buff_Volt_Skl05_004.P_Buff_Volt_Skl05_004",
+          "SubPathString": ""
+        },
+        "Socket": "Buff_Mid",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "54": {
+        "ID": 54,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Projectile/P_PC_Freya_AtkProjectile_01.P_PC_Freya_AtkProjectile_01",
+          "SubPathString": ""
+        },
+        "Socket": "hand_l",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "55": {
+        "ID": 55,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Projectile/P_PC_Freya_Skl01_Projectile_01.P_PC_Freya_Skl01_Projectile_01",
+          "SubPathString": ""
+        },
+        "Socket": "hand_l",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "56": {
+        "ID": 56,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/Freya/Skl04/P_Freya_Skl04_Buff.P_Freya_Skl04_Buff",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/GuideEffect/NS_SkillGuide_Sector.NS_SkillGuide_Sector",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/GuideEffect/NS_SkillGuide_Circle.NS_SkillGuide_Circle",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/GuideEffect/NS_SkillGuide_Direct.NS_SkillGuide_Direct",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "104": {
+        "ID": 104,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/GuideEffect/NS_SkillGuide_Cross.NS_SkillGuide_Cross",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Fire_01.P_Common_Hit_Fire_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Water_01.P_Common_Hit_Water_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "203": {
+        "ID": 203,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_elc_01.P_Common_Hit_elc_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "204": {
+        "ID": 204,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Wind_01.P_Common_Hit_Wind_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "205": {
+        "ID": 205,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Holy_01.P_Common_Hit_Holy_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "206": {
+        "ID": 206,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Dark_01.P_Common_Hit_Dark_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "207": {
+        "ID": 207,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Magic_01.P_Common_Hit_Magic_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "208": {
+        "ID": 208,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Gun_01.P_Common_Hit_Gun_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "209": {
+        "ID": 209,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Hammer_01.P_Common_Hit_Hammer_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "210": {
+        "ID": 210,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Pierce_01.P_Common_Hit_Pierce_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "211": {
+        "ID": 211,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Hit/P_Common_Hit_Slash_01.P_Common_Hit_Slash_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "10001": {
+        "ID": 10001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/NPCs/Humans/NPC_Human_ArchinaMagiStaff_NM11/P_NPC_Human_ArchinaMagicStaff11_Atk02_02.P_NPC_Human_ArchinaMagicStaff11_Atk02_02",
+          "SubPathString": ""
+        },
+        "Socket": "hand_r",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "10002": {
+        "ID": 10002,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/NPCs/Demon/NPC_Demon_WindSlime_NA11/P_NPC_Demon_WindSlime_Atk01_01.P_NPC_Demon_WindSlime_Atk01_01",
+          "SubPathString": ""
+        },
+        "Socket": "Head_root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "10003": {
+        "ID": 10003,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Projectile/P_NPC_Public_Transparency_Projectile_01.P_NPC_Public_Transparency_Projectile_01",
+          "SubPathString": ""
+        },
+        "Socket": "hand_r",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "10004": {
+        "ID": 10004,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Projectile/P_NPC_Public_Transparency_Projectile_01.P_NPC_Public_Transparency_Projectile_01",
+          "SubPathString": ""
+        },
+        "Socket": "hand_r",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "10005": {
+        "ID": 10005,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Projectile/P_NPC_Undead_Imara51_Projectile_01.P_NPC_Undead_Imara51_Projectile_01",
+          "SubPathString": ""
+        },
+        "Socket": "hand_r",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "10006": {
+        "ID": 10006,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/NPCs/Demon/NPC_Demon_ThornVine01_NAt11/NPC_Demon_ThornVine01_NAt11_Skl03_01.NPC_Demon_ThornVine01_NAt11_Skl03_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "10007": {
+        "ID": 10007,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Projectile/P_NPC_Undead_NoxParasite01_Projectile_01.P_NPC_Undead_NoxParasite01_Projectile_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "19001": {
+        "ID": 19001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/NPCs/Mount/NPC_Mount_Ravanos01_NA11/P_NPC_Mount_Ravanos01_AirDashLoop01.P_NPC_Mount_Ravanos01_AirDashLoop01",
+          "SubPathString": ""
+        },
+        "Socket": "pelvis",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "19002": {
+        "ID": 19002,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/NPCs/Mount/NPC_Mount_Ravanos01_NA11/P_NPC_Mount_Ravanos01_AirDashLoop02.P_NPC_Mount_Ravanos01_AirDashLoop02",
+          "SubPathString": ""
+        },
+        "Socket": "pelvis",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "20001": {
+        "ID": 20001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/PCs/SeoYoung/Skl05/P_PC_SeoYoung_Skl05_Buff.P_PC_SeoYoung_Skl05_Buff",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "40001": {
+        "ID": 40001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/LevelUp/P_Buff_LevelUP_01.P_Buff_LevelUP_01",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "40002": {
+        "ID": 40002,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/LevelUp/P_Buff_LevelUP_02.P_Buff_LevelUP_02",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "40003": {
+        "ID": 40003,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/LevelUp/P_Buff_LevelUP_03.P_Buff_LevelUP_03",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "40101": {
+        "ID": 40101,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Buffs/P_Buff_Resurrection_01.P_Buff_Resurrection_01",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "40201": {
+        "ID": 40201,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Quest/P_Quest_Location_01.P_Quest_Location_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "40202": {
+        "ID": 40202,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Quest/P_Quest_Location_02.P_Quest_Location_02",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "40203": {
+        "ID": 40203,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Quest/P_Quest_Location_03.P_Quest_Location_03",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "40204": {
+        "ID": 40204,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Quest/P_Quest_Location_01.P_Quest_Location_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 2.0,
+        "EWScaleY": 1.0
+      },
+      "40205": {
+        "ID": 40205,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Quest/P_Quest_Location_01.P_Quest_Location_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.5,
+        "EWScaleY": 1.5
+      },
+      "50002": {
+        "ID": 50002,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/SpawnIn/NS_CharacterSpawnIn.NS_CharacterSpawnIn",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "50003": {
+        "ID": 50003,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/SpawnIn/NS_DeathCubes.NS_DeathCubes",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "58001": {
+        "ID": 58001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Camp/P_Camp_SitDown_Start.P_Camp_SitDown_Start",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "58002": {
+        "ID": 58002,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Camp/P_Camp_SitDown_End.P_Camp_SitDown_End",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "58003": {
+        "ID": 58003,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/NPCs/Object/Camp01/P_NPC_Object_Camp01_PreInt.P_NPC_Object_Camp01_PreInt",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "59001": {
+        "ID": 59001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Handling/P_Handling_Block01.P_Handling_Block01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "59002": {
+        "ID": 59002,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/GuideEffect/NS_HandlingGuide_Circle.NS_HandlingGuide_Circle",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "59003": {
+        "ID": 59003,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Handling/P_Handling_Throw_Guide.P_Handling_Throw_Guide",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61001": {
+        "ID": 61001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Normal_01_Loop_01.P_Gather_DarkSteel_Normal_01_Loop_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61002": {
+        "ID": 61002,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Normal_01_Loop_02.P_Gather_DarkSteel_Normal_01_Loop_02",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61003": {
+        "ID": 61003,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Normal_01_Loop_03.P_Gather_DarkSteel_Normal_01_Loop_03",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61101": {
+        "ID": 61101,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_High_01_Loop_01.P_Gather_DarkSteel_High_01_Loop_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61102": {
+        "ID": 61102,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_High_01_Loop_02.P_Gather_DarkSteel_High_01_Loop_02",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61103": {
+        "ID": 61103,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_High_01_Loop_03.P_Gather_DarkSteel_High_01_Loop_03",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61201": {
+        "ID": 61201,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Rare_01_Loop_01.P_Gather_DarkSteel_Rare_01_Loop_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61202": {
+        "ID": 61202,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Rare_01_Loop_02.P_Gather_DarkSteel_Rare_01_Loop_02",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61203": {
+        "ID": 61203,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Rare_01_Loop_03.P_Gather_DarkSteel_Rare_01_Loop_03",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61301": {
+        "ID": 61301,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Epic_01_Loop_01.P_Gather_DarkSteel_Epic_01_Loop_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61302": {
+        "ID": 61302,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Epic_01_Loop_02.P_Gather_DarkSteel_Epic_01_Loop_02",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61303": {
+        "ID": 61303,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Epic_01_Loop_03.P_Gather_DarkSteel_Epic_01_Loop_03",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61401": {
+        "ID": 61401,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Legendary_01_Loop_01.P_Gather_DarkSteel_Legendary_01_Loop_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61402": {
+        "ID": 61402,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Legendary_01_Loop_02.P_Gather_DarkSteel_Legendary_01_Loop_02",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61403": {
+        "ID": 61403,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Legendary_01_Loop_03.P_Gather_DarkSteel_Legendary_01_Loop_03",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61501": {
+        "ID": 61501,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Myth_01_Loop_01.P_Gather_DarkSteel_Myth_01_Loop_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61502": {
+        "ID": 61502,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Myth_01_Loop_02.P_Gather_DarkSteel_Myth_01_Loop_02",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "61503": {
+        "ID": 61503,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Myth_01_Loop_03.P_Gather_DarkSteel_Myth_01_Loop_03",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "62001": {
+        "ID": 62001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_Grade_Normal_Effect_01.P_Gather_Grade_Normal_Effect_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "62002": {
+        "ID": 62002,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_Grade_High_Effect_01.P_Gather_Grade_High_Effect_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "62003": {
+        "ID": 62003,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_Grade_Rare_Effect_01.P_Gather_Grade_Rare_Effect_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "62004": {
+        "ID": 62004,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_Grade_Epic_Effect_01.P_Gather_Grade_Epic_Effect_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "62005": {
+        "ID": 62005,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_Grade_Legendary_Effect_01.P_Gather_Grade_Legendary_Effect_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "64001": {
+        "ID": 64001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_Herb_WildGrass_Normal_01_Loop_01.P_Gather_Herb_WildGrass_Normal_01_Loop_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "67001": {
+        "ID": 67001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_TreasureBox_Normal_01_Loop.P_Gather_TreasureBox_Normal_01_Loop",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "70001": {
+        "ID": 70001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/NPCs/Object/Camp01/P_NPC_Object_Camp01_PreInt.P_NPC_Object_Camp01_PreInt",
+          "SubPathString": ""
+        },
+        "Socket": "root",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "70002": {
+        "ID": 70002,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Collect/P_Gather_DarkSteel_Myth_01_Loop_01.P_Gather_DarkSteel_Myth_01_Loop_01",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "80001": {
+        "ID": 80001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Portal/P_Portal_Breach_01.P_Portal_Breach_01",
+          "SubPathString": ""
+        },
+        "Socket": "Interaction",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "80101": {
+        "ID": 80101,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Portal/P_Portal_Breach_02.P_Portal_Breach_02",
+          "SubPathString": ""
+        },
+        "Socket": "Interaction",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "80201": {
+        "ID": 80201,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Portal/P_Portal_Breach_Sine.P_Portal_Breach_Sine",
+          "SubPathString": ""
+        },
+        "Socket": "",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "90001": {
+        "ID": 90001,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Portal/P_Portal_Gate_01.P_Portal_Gate_01",
+          "SubPathString": ""
+        },
+        "Socket": "Interaction",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      },
+      "90101": {
+        "ID": 90101,
+        "DataStage": 23,
+        "Version": "*",
+        "EffectPath": {
+          "AssetPathName": "/Game/Effects/Particles/Commons/Portal/P_Portal_Breach_02.P_Portal_Breach_02",
+          "SubPathString": ""
+        },
+        "Socket": "Interaction",
+        "EWScaleX": 1.0,
+        "EWScaleY": 1.0
+      }
+    }
+  }
+]

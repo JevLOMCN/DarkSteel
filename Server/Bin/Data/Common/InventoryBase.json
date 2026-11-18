@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "InventoryBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/InventoryBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_InventoryBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Type": "EDS_InventoryType::PlayerNormal",
+        "DefaultSlotCount": 100,
+        "MaxSlotCount": 200,
+        "ID_Icon": 2201
+      },
+      "200": {
+        "ID": 200,
+        "DataStage": 23,
+        "Type": "EDS_InventoryType::PlayerQuest",
+        "DefaultSlotCount": 50,
+        "MaxSlotCount": 50,
+        "ID_Icon": 0
+      },
+      "300": {
+        "ID": 300,
+        "DataStage": 23,
+        "Type": "EDS_InventoryType::PlayerWareHouse",
+        "DefaultSlotCount": 100,
+        "MaxSlotCount": 500,
+        "ID_Icon": 2203
+      },
+      "400": {
+        "ID": 400,
+        "DataStage": 23,
+        "Type": "EDS_InventoryType::Mount",
+        "DefaultSlotCount": 0,
+        "MaxSlotCount": 0,
+        "ID_Icon": 2202
+      }
+    }
+  }
+]

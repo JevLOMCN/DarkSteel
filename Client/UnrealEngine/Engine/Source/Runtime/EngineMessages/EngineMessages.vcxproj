@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{4276C39F-2AF6-5A3C-A783-112FF4AB9336}</ProjectGuid><RootNamespace>EngineMessages</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FEngineMessagesModule.cpp" />
+    <ClCompile Include="Private\FEngineServiceAuthDeny.cpp" />
+    <ClCompile Include="Private\FEngineServiceAuthGrant.cpp" />
+    <ClCompile Include="Private\FEngineServiceExecuteCommand.cpp" />
+    <ClCompile Include="Private\FEngineServiceNotification.cpp" />
+    <ClCompile Include="Private\FEngineServicePing.cpp" />
+    <ClCompile Include="Private\FEngineServicePong.cpp" />
+    <ClCompile Include="Private\FEngineServiceTerminate.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTraceChannelPreset.cpp" />
+    <ClCompile Include="Private\FTraceControlBookmark.cpp" />
+    <ClCompile Include="Private\FTraceControlChannelsDesc.cpp" />
+    <ClCompile Include="Private\FTraceControlChannelsPing.cpp" />
+    <ClCompile Include="Private\FTraceControlChannelsSet.cpp" />
+    <ClCompile Include="Private\FTraceControlChannelsSetError.cpp" />
+    <ClCompile Include="Private\FTraceControlChannelsStatus.cpp" />
+    <ClCompile Include="Private\FTraceControlDiscovery.cpp" />
+    <ClCompile Include="Private\FTraceControlDiscoveryPing.cpp" />
+    <ClCompile Include="Private\FTraceControlFile.cpp" />
+    <ClCompile Include="Private\FTraceControlPause.cpp" />
+    <ClCompile Include="Private\FTraceControlResume.cpp" />
+    <ClCompile Include="Private\FTraceControlScreenshot.cpp" />
+    <ClCompile Include="Private\FTraceControlSend.cpp" />
+    <ClCompile Include="Private\FTraceControlSetStatNamedEvents.cpp" />
+    <ClCompile Include="Private\FTraceControlSettings.cpp" />
+    <ClCompile Include="Private\FTraceControlSettingsPing.cpp" />
+    <ClCompile Include="Private\FTraceControlSnapshotFile.cpp" />
+    <ClCompile Include="Private\FTraceControlSnapshotSend.cpp" />
+    <ClCompile Include="Private\FTraceControlStartCommon.cpp" />
+    <ClCompile Include="Private\FTraceControlStatus.cpp" />
+    <ClCompile Include="Private\FTraceControlStatusPing.cpp" />
+    <ClCompile Include="Private\FTraceControlStop.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.EngineMessages.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

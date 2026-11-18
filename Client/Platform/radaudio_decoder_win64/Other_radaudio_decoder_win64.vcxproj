@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{585C92AF-AB85-50A2-AF7F-7593FD18EE04}</ProjectGuid><RootNamespace>Other_radaudio_decoder_win64</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="cpux86.cpp" />
+    <ClCompile Include="rada_decode.cpp" />
+    <ClCompile Include="radaudio_decoder.cpp" />
+    <ClCompile Include="radaudio_decoder_avx2.cpp" />
+    <ClCompile Include="radaudio_decoder_sse2.cpp" />
+    <ClCompile Include="radaudio_decoder_sse4.cpp" />
+    <ClCompile Include="radaudio_interleave.cpp" />
+    <ClCompile Include="radaudio_mdct.cpp" />
+    <ClCompile Include="radaudio_mdct_avx2.cpp" />
+    <ClCompile Include="radaudio_mdct_sse2.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

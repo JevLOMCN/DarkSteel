@@ -1,0 +1,1827 @@
+[
+  {
+    "Type": "WN_CS_CharacterWorkspace",
+    "Name": "CWS_PC",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WN_CS_CharacterWorkspace'",
+    "Package": "/Game/Datas/Character/Workspace/CWS_PC",
+    "Properties": {
+      "CharacterDescs": [
+        {
+          "ID": 1,
+          "Name": "PC_M_Shape01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/PCs/M/M_Shape01/SKEL_PC_M_Shape01_Skeleton.SKEL_PC_M_Shape01_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Kairos01_FullBody",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Kairos/Kairos01/SK_PC_M_Kairos01_fullbody.SK_PC_M_Kairos01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "Kairos01_Weapon",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Kairos/Kairos01/Sword01/SK_PC_M_Kairos01_Sword01.SK_PC_M_Kairos01_Sword01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": [
+                {
+                  "Socket": "Weapon_R_01",
+                  "ColliderType": "EWN_Parts_ColliderType::Box",
+                  "CollisionProfileName": "None",
+                  "LocationOffset": {
+                    "X": 61.678356,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "RotationOffset": {
+                    "Pitch": 0.0,
+                    "Yaw": 0.0,
+                    "Roll": 0.0
+                  },
+                  "BoxExtend": {
+                    "X": 76.630775,
+                    "Y": 12.337615,
+                    "Z": 15.25233
+                  }
+                }
+              ]
+            },
+            {
+              "ID": 3,
+              "Name": "Volt01_Head",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Volt/Head/SK_PC_M_Volt_head.SK_PC_M_Volt_head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 4,
+              "Name": "Kairos01_Shield",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Kairos/Kairos01/Shield01/SK_PC_M_Kairos01_Shield01.SK_PC_M_Kairos01_Shield01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 5,
+              "Name": "Kairos01_Helmet01",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Kairos/Kairos01/Helmet01/SK_PC_M_Kairos01_Helmet01.SK_PC_M_Kairos01_Helmet01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 6,
+              "Name": "Marius01_Head",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Marius/Head/SK_PC_M_Marius_head.SK_PC_M_Marius_head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 7,
+              "Name": "Marius01_FullBody",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Marius/Marius01/SK_PC_M_Marius01_fullbody.SK_PC_M_Marius01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 8,
+              "Name": "Tool_Axe01",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_M_Shape01_Axe01.SK_Tool_M_Shape01_Axe01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 9,
+              "Name": "Tool_Knife01",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_M_Shape01_Knife01.SK_Tool_M_Shape01_Knife01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 10,
+              "Name": "Tool_Pickax01",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_M_Shape01_Pickax01.SK_Tool_M_Shape01_Pickax01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 11,
+              "Name": "Marius01_Weapon01_R",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Marius/Marius01/weapon01/SK_PC_M_Marius01_Weapon01_R.SK_PC_M_Marius01_Weapon01_R",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 12,
+              "Name": "Volt01_FullBody",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Volt/Volt01/SK_PC_M_Volt01_fullbody.SK_PC_M_Volt01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 13,
+              "Name": "Marius01_Weapon01_L",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Marius/Marius01/weapon01/SK_PC_M_Marius01_Weapon01_L.SK_PC_M_Marius01_Weapon01_L",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 14,
+              "Name": "Kairos_Head",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Kairos/Head/SK_PC_M_Kairos_head.SK_PC_M_Kairos_head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 15,
+              "Name": "BaekYun01_FullBody",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/BaekYun/BaekYun01/SK_PC_M_BaekYun01_fullbody.SK_PC_M_BaekYun01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 16,
+              "Name": "BaekYun01_Weapon01",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/BaekYun/BaekYun01/Weapon01/SK_PC_M_BaekYun01_Weapon01.SK_PC_M_BaekYun01_Weapon01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 17,
+              "Name": "BaekYun_Head",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/BaekYun/Head/SK_PC_M_BaeYun_head.SK_PC_M_BaeYun_head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 18,
+              "Name": "Tool_Shovel01",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_M_Shape01_Shovel01.SK_Tool_M_Shape01_Shovel01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Kairos01",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_563D54F847ED53DD2F7DBBB09F7FD8A7.SKM_Soul_563D54F847ED53DD2F7DBBB09F7FD8A7",
+                "SubPathString": ""
+              },
+              "Guid": "563D54F8-47ED53DD-2F7DBBB0-9F7FD8A7",
+              "Scale": 1.0,
+              "FootStepProvider": "Kairos_M_M",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 14,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Helmet",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 5,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 4,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_2",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 8,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 5,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_3",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 9,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 6,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_4",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 10,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 9,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_5",
+                  "ID_Character": 1,
+                  "ID_Preset": 1,
+                  "ID_Part": 18,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 7,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_R",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 8,
+                  "SlotName": "EWN_CS_CharacterSlotName::Sheild_L",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 4,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 47
+            },
+            {
+              "ID": 2,
+              "Name": "Volt01",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_BFFC4E064B9ABCFEBD3528BF213159E9.SKM_Soul_BFFC4E064B9ABCFEBD3528BF213159E9",
+                "SubPathString": ""
+              },
+              "Guid": "BFFC4E06-4B9ABCFE-BD3528BF-213159E9",
+              "Scale": 1.0,
+              "FootStepProvider": "Kairos_M_M",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 5,
+                  "ID_Part": 12,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 1,
+                  "ID_Preset": 5,
+                  "ID_Part": 3,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_2",
+                  "ID_Character": 1,
+                  "ID_Preset": 5,
+                  "ID_Part": 8,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 4,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_3",
+                  "ID_Character": 1,
+                  "ID_Preset": 5,
+                  "ID_Part": 9,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 5,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_4",
+                  "ID_Character": 1,
+                  "ID_Preset": 5,
+                  "ID_Part": 10,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 6,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_5",
+                  "ID_Character": 1,
+                  "ID_Preset": 2,
+                  "ID_Part": 18,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 35
+            },
+            {
+              "ID": 3,
+              "Name": "Marius01",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_693E0BEB421313CEE96AF2A9C26013FA.SKM_Soul_693E0BEB421313CEE96AF2A9C26013FA",
+                "SubPathString": ""
+              },
+              "Guid": "693E0BEB-421313CE-E96AF2A9-C26013FA",
+              "Scale": 1.0,
+              "FootStepProvider": "Kairos_M_M",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 6,
+                  "ID_Part": 7,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 1,
+                  "ID_Preset": 6,
+                  "ID_Part": 6,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_2",
+                  "ID_Character": 1,
+                  "ID_Preset": 6,
+                  "ID_Part": 8,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 4,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_3",
+                  "ID_Character": 1,
+                  "ID_Preset": 6,
+                  "ID_Part": 9,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 5,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_4",
+                  "ID_Character": 1,
+                  "ID_Preset": 6,
+                  "ID_Part": 10,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 8,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_5",
+                  "ID_Character": 1,
+                  "ID_Preset": 3,
+                  "ID_Part": 18,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 6,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_L",
+                  "ID_Character": 1,
+                  "ID_Preset": 6,
+                  "ID_Part": 13,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 7,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_R",
+                  "ID_Character": 1,
+                  "ID_Preset": 6,
+                  "ID_Part": 11,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 37
+            },
+            {
+              "ID": 4,
+              "Name": "BaekYun01",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_CEA32CAE4B16FA45F1EEB58C9F03939F.SKM_Soul_CEA32CAE4B16FA45F1EEB58C9F03939F",
+                "SubPathString": ""
+              },
+              "Guid": "CEA32CAE-4B16FA45-F1EEB58C-9F03939F",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 15,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 17,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_R",
+                  "ID_Character": 1,
+                  "ID_Preset": 4,
+                  "ID_Part": 16,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 29
+            }
+          ]
+        },
+        {
+          "ID": 2,
+          "Name": "PC_M_Shape02",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/PCs/M/M_Shape02/SKEL_PC_M_Shape02_Skeleton.SKEL_PC_M_Shape02_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Belmond01_FullBody",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Belmond/Belmond01/SK_PC_M_Belmond_fullbody.SK_PC_M_Belmond_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "Belmond01_Helmet01",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Belmond/Belmond01/Helmet01/SK_PC_M_Belmond01_Helmet01.SK_PC_M_Belmond01_Helmet01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 3,
+              "Name": "Hector01_Head",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Hector/Head/SK_PC_M_Hector_head.SK_PC_M_Hector_head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 4,
+              "Name": "Belmond01_Weapon01",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Belmond/Belmond01/Weapon01/SK_PC_M_Belmond01_Mace01.SK_PC_M_Belmond01_Mace01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 5,
+              "Name": "Tool_Axe01",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_M_Shape02_Axe01.SK_Tool_M_Shape02_Axe01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 6,
+              "Name": "Tool_Knife01",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_M_Shape02_Knife01.SK_Tool_M_Shape02_Knife01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 7,
+              "Name": "Tool_Pickax01",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_M_Shape02_Pickax01.SK_Tool_M_Shape02_Pickax01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 8,
+              "Name": "Hector01_Weapon01",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Hector/Hector01/Weapon01/SK_PC_M_Hector01_Weapon01.SK_PC_M_Hector01_Weapon01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 9,
+              "Name": "Hector01_FullBody",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Hector/Hector01/SK_PC_M_Hector01_fullbody.SK_PC_M_Hector01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 10,
+              "Name": "Belmond01_Shield01",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Belmond/Belmond01/Weapon01/SK_PC_M_Belmond01_Shield01.SK_PC_M_Belmond01_Shield01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 11,
+              "Name": "Belmond01_Head",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/M/Belmond/Head/SK_PC_M_Belmond_head.SK_PC_M_Belmond_head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 12,
+              "Name": "Tool_Shovel01",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_M_Shape02_Shovel01.SK_Tool_M_Shape02_Shovel01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Hector01",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_345775964B356E5D260878A92C7C0B1C.SKM_Soul_345775964B356E5D260878A92C7C0B1C",
+                "SubPathString": ""
+              },
+              "Guid": "34577596-4B356E5D-260878A9-2C7C0B1C",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 3,
+                  "ID_Part": 9,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 2,
+                  "ID_Preset": 3,
+                  "ID_Part": 3,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_2",
+                  "ID_Character": 2,
+                  "ID_Preset": 3,
+                  "ID_Part": 5,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 4,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_3",
+                  "ID_Character": 2,
+                  "ID_Preset": 3,
+                  "ID_Part": 6,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 5,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_4",
+                  "ID_Character": 2,
+                  "ID_Preset": 3,
+                  "ID_Part": 7,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 7,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_5",
+                  "ID_Character": 2,
+                  "ID_Preset": 1,
+                  "ID_Part": 12,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 6,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_LR",
+                  "ID_Character": 2,
+                  "ID_Preset": 3,
+                  "ID_Part": 8,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 40
+            },
+            {
+              "ID": 2,
+              "Name": "Belmond01",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_114A82C7434821882CB61485CD026587.SKM_Soul_114A82C7434821882CB61485CD026587",
+                "SubPathString": ""
+              },
+              "Guid": "114A82C7-43482188-2CB61485-CD026587",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 4,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 2,
+                  "ID_Preset": 4,
+                  "ID_Part": 11,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_2",
+                  "ID_Character": 2,
+                  "ID_Preset": 4,
+                  "ID_Part": 5,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 4,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_3",
+                  "ID_Character": 2,
+                  "ID_Preset": 4,
+                  "ID_Part": 6,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 5,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_4",
+                  "ID_Character": 2,
+                  "ID_Preset": 4,
+                  "ID_Part": 7,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 9,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_5",
+                  "ID_Character": 2,
+                  "ID_Preset": 2,
+                  "ID_Part": 12,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 6,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_R",
+                  "ID_Character": 2,
+                  "ID_Preset": 4,
+                  "ID_Part": 4,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 7,
+                  "SlotName": "EWN_CS_CharacterSlotName::Sheild_L",
+                  "ID_Character": 2,
+                  "ID_Preset": 4,
+                  "ID_Part": 10,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 8,
+                  "SlotName": "EWN_CS_CharacterSlotName::Count",
+                  "ID_Character": 2,
+                  "ID_Preset": 4,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 40
+            }
+          ]
+        },
+        {
+          "ID": 3,
+          "Name": "PC_F_Shape01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/PCs/F/F_Shape01/SKEL_PC_F_Shape01_Skeleton.SKEL_PC_F_Shape01_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "SeoYoung01_Weapon01",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/SeoYoung/SeoYoung01/Weapon01/SK_PC_F_SeoYoung01_Weapon01.SK_PC_F_SeoYoung01_Weapon01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "Tool_Axe01",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_F_Shape01_Axe01.SK_Tool_F_Shape01_Axe01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 3,
+              "Name": "Tool_Knife01",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_F_Shape01_Knife01.SK_Tool_F_Shape01_Knife01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 4,
+              "Name": "Tool_Pickaxe01",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_F_Shape01_Pickax01.SK_Tool_F_Shape01_Pickax01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 5,
+              "Name": "SeoYoung01_Head",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/SeoYoung/Head/SK_PC_F_SeoYoung_Head.SK_PC_F_SeoYoung_Head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 6,
+              "Name": "Cindy01_FullBody",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Cindy/Cindy01/SK_PC_F_Cindy01_fullbody.SK_PC_F_Cindy01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 7,
+              "Name": "Ada01_FullBody",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Ada/Ada01/SK_PC_F_Ada01_fullbody.SK_PC_F_Ada01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 8,
+              "Name": "Ada01_Head",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Ada/Head/SK_PC_F_Ada01_Head.SK_PC_F_Ada01_Head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 9,
+              "Name": "Ada01_Weapon01",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Ada/Ada01/Weapon01/SK_PC_F_Ada01_Weapon01.SK_PC_F_Ada01_Weapon01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 10,
+              "Name": "SeoYoung01_FullBody",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/SeoYoung/SeoYoung01/SK_PC_F_SeoYoung01_fullbody.SK_PC_F_SeoYoung01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 11,
+              "Name": "Cindy01_Weapon01",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Cindy/Cindy01/Weapon01/SK_PC_F_Cindy01_Weapon01.SK_PC_F_Cindy01_Weapon01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 12,
+              "Name": "Shizuka01_fullbody",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Shizuka/Shizuka01/SK_PC_F_Shizuka01_fullbody.SK_PC_F_Shizuka01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 13,
+              "Name": "Tool_Shovel01",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SK_Tool_F_Shape01_Shovel01.SK_Tool_F_Shape01_Shovel01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 14,
+              "Name": "Shuzuka_head",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Shizuka/Head/SK_PC_F_Shuzuka_head.SK_PC_F_Shuzuka_head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 15,
+              "Name": "Shizuka01_Weapon01",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Shizuka/Shizuka01/Weapon01/SK_PC_F_Shizuka01_Weapon01.SK_PC_F_Shizuka01_Weapon01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "SeoYoung01",
+              "ID_Character": 3,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_D37FF34B415335138FA91C98114E6222.SKM_Soul_D37FF34B415335138FA91C98114E6222",
+                "SubPathString": ""
+              },
+              "Guid": "D37FF34B-41533513-8FA91C98-114E6222",
+              "Scale": 1.0,
+              "FootStepProvider": "Kairos_M_M",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 3,
+                  "ID_Preset": 5,
+                  "ID_Part": 10,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 3,
+                  "ID_Preset": 5,
+                  "ID_Part": 5,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_2",
+                  "ID_Character": 3,
+                  "ID_Preset": 5,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 4,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_3",
+                  "ID_Character": 3,
+                  "ID_Preset": 5,
+                  "ID_Part": 3,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 5,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_4",
+                  "ID_Character": 3,
+                  "ID_Preset": 5,
+                  "ID_Part": 4,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 7,
+                  "SlotName": "EWN_CS_CharacterSlotName::Attachment_5",
+                  "ID_Character": 3,
+                  "ID_Preset": 1,
+                  "ID_Part": 13,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 6,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_R",
+                  "ID_Character": 3,
+                  "ID_Preset": 5,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 32
+            },
+            {
+              "ID": 2,
+              "Name": "Cindy01",
+              "ID_Character": 3,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_0A91C3B34A1DF52F74BB72A5B7747E48.SKM_Soul_0A91C3B34A1DF52F74BB72A5B7747E48",
+                "SubPathString": ""
+              },
+              "Guid": "0A91C3B3-4A1DF52F-74BB72A5-B7747E48",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 3,
+                  "ID_Preset": 6,
+                  "ID_Part": 6,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Anklet_R",
+                  "ID_Character": 3,
+                  "ID_Preset": 6,
+                  "ID_Part": 11,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 21
+            },
+            {
+              "ID": 3,
+              "Name": "Aad01",
+              "ID_Character": 3,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_93D73D654305A9CAF1F326BC82B02808.SKM_Soul_93D73D654305A9CAF1F326BC82B02808",
+                "SubPathString": ""
+              },
+              "Guid": "93D73D65-4305A9CA-F1F326BC-82B02808",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 3,
+                  "ID_Preset": 7,
+                  "ID_Part": 7,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 3,
+                  "ID_Preset": 7,
+                  "ID_Part": 8,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_R",
+                  "ID_Character": 3,
+                  "ID_Preset": 7,
+                  "ID_Part": 9,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 23
+            },
+            {
+              "ID": 4,
+              "Name": "Shizuka01",
+              "ID_Character": 3,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_BD890353402855237A38E8B748367426.SKM_Soul_BD890353402855237A38E8B748367426",
+                "SubPathString": ""
+              },
+              "Guid": "BD890353-40285523-7A38E8B7-48367426",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 3,
+                  "ID_Preset": 8,
+                  "ID_Part": 12,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 3,
+                  "ID_Preset": 4,
+                  "ID_Part": 14,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_R",
+                  "ID_Character": 3,
+                  "ID_Preset": 4,
+                  "ID_Part": 15,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 30
+            }
+          ]
+        },
+        {
+          "ID": 4,
+          "Name": "PC_F_Shape02",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/PCs/F/F_Shape02/SKEL_PC_F_Shape02_Skeleton.SKEL_PC_F_Shape02_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Aria01_FullBody",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Aria/Aria01/SK_PC_F_Aria01_fullbody.SK_PC_F_Aria01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "Aria_Head",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Aria/Head/SK_PC_F_Aria_Head.SK_PC_F_Aria_Head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 3,
+              "Name": "Freya01_FullBody",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Freya/Freya01/SK_PC_F_Freya01_fullbody.SK_PC_F_Freya01_fullbody",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 4,
+              "Name": "Freya_Head",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Freya/Head/SK_PC_F_Freya_Head.SK_PC_F_Freya_Head",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 5,
+              "Name": "Freya01_Weapon01",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/PCs/F/Freya/Freya01/Weapon01/SK_PC_F_Freya01_Weapon01.SK_PC_F_Freya01_Weapon01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Aria01",
+              "ID_Character": 4,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_08332BDF45272C13B880B897F6B4437C.SKM_Soul_08332BDF45272C13B880B897F6B4437C",
+                "SubPathString": ""
+              },
+              "Guid": "08332BDF-45272C13-B880B897-F6B4437C",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 4,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 4,
+                  "ID_Preset": 1,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 30
+            },
+            {
+              "ID": 2,
+              "Name": "Freya01",
+              "ID_Character": 4,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_7A162D864E42C36421E4BCAA85099B9B.SKM_Soul_7A162D864E42C36421E4BCAA85099B9B",
+                "SubPathString": ""
+              },
+              "Guid": "7A162D86-4E42C364-21E4BCAA-85099B9B",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 4,
+                  "ID_Preset": 2,
+                  "ID_Part": 3,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 2,
+                  "SlotName": "EWN_CS_CharacterSlotName::Head",
+                  "ID_Character": 4,
+                  "ID_Preset": 2,
+                  "ID_Part": 4,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                },
+                {
+                  "ID": 3,
+                  "SlotName": "EWN_CS_CharacterSlotName::Weapon_L",
+                  "ID_Character": 4,
+                  "ID_Preset": 2,
+                  "ID_Part": 5,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 26
+            }
+          ]
+        }
+      ],
+      "Version": "EWN_CS_CharacterWorkspaceVersion::Latest"
+    }
+  }
+]

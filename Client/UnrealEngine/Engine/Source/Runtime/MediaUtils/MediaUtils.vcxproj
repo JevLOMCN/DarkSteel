@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{906876E5-E3A3-5F75-BABE-F22357E815C7}</ProjectGuid><RootNamespace>MediaUtils</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAppMediaTimeSource.cpp" />
+    <ClCompile Include="Private\FAsyncResourceReleaseNotification.cpp" />
+    <ClCompile Include="Private\FBlockOnRange.cpp" />
+    <ClCompile Include="Private\FMediaAudioResampler.cpp" />
+    <ClCompile Include="Private\FMediaAudioSampleQueue.cpp" />
+    <ClCompile Include="Private\FMediaAudioSampleSinks.cpp" />
+    <ClCompile Include="Private\FMediaImagePixelData.cpp" />
+    <ClCompile Include="Private\FMediaPlayerFacade.cpp" />
+    <ClCompile Include="Private\FMediaPlayerInitialTrackLanguageSelection.cpp" />
+    <ClCompile Include="Private\FMediaPlayerLifecycleManagerDelegateControl.cpp" />
+    <ClCompile Include="Private\FMediaPlayerLifecycleManagerDelegateOpenRequest.cpp" />
+    <ClCompile Include="Private\FMediaPlayerOptions.cpp" />
+    <ClCompile Include="Private\FMediaPlayerTrackOptions.cpp" />
+    <ClCompile Include="Private\FMediaRecorder.cpp" />
+    <ClCompile Include="Private\FMediaRecorderClockSink.cpp" />
+    <ClCompile Include="Private\FMediaSampleCache.cpp" />
+    <ClCompile Include="Private\FMediaSamples.cpp" />
+    <ClCompile Include="Private\FMediaTimeStamp.cpp" />
+    <ClCompile Include="Private\FMediaUtilsModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IAsyncResourceReleaseNotification.cpp" />
+    <ClCompile Include="Private\IControl.cpp" />
+    <ClCompile Include="Private\IMediaClockSink.cpp" />
+    <ClCompile Include="Private\IMediaEventSink.cpp" />
+    <ClCompile Include="Private\IMediaSamples.cpp" />
+    <ClCompile Include="Private\IMediaTickable.cpp" />
+    <ClCompile Include="Private\IOpenRequest.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMediaSampleQueue.cpp" />
+    <ClCompile Include="Private\TMediaSampleSink.cpp" />
+    <ClCompile Include="Private\TMediaSampleSinks.cpp" />
+    <ClCompile Include="Private\TMediaSampleSource.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TOptional.cpp" />
+    <ClCompile Include="Private\TRange.cpp" />
+    <ClCompile Include="Private\TRangeBound.cpp" />
+    <ClCompile Include="Private\TRangeSet.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedFromThis.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TWeakPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.MediaUtils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

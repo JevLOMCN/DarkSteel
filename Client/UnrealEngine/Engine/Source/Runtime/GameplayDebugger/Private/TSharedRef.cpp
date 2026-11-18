@@ -1,0 +1,163 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: GameplayDebugger
+// Functions: 2
+
+// TSharedRef<FGameplayDebuggerExtension,1><FGameplayDebuggerExtension_HUD> @ 146d3a190
+
+TSharedRef<FGameplayDebuggerExtension,1> * __thiscall
+TSharedRef<FGameplayDebuggerExtension,1>::
+TSharedRef<FGameplayDebuggerExtension,1><FGameplayDebuggerExtension_HUD>
+          (TSharedRef<FGameplayDebuggerExtension,1> *this,
+          TRawPtrProxy<FGameplayDebuggerExtension_HUD> *param_1)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  FGameplayDebuggerExtension_HUD *pFVar4;
+  longlong *plVar5;
+  code *pcVar6;
+  bool bVar7;
+  TReferenceControllerBase<1> *pTVar8;
+  TSharedRef<FGameplayDebuggerExtension,1> *pTVar9;
+  
+  this->Object = (FGameplayDebuggerExtension *)param_1->Object;
+  pFVar4 = param_1->Object;
+  pTVar8 = ::operator_new(0x18);
+  if (pTVar8 != (TReferenceControllerBase<1> *)0x0) {
+    pTVar8->SharedReferenceCount = (atomic<int>)0x1;
+    pTVar8->_padding_ =
+         (longlong)
+         &
+         ___7__TReferenceControllerWithDeleter_VFGameplayDebuggerExtension_HUD__U__DefaultDeleter_VFGameplayDebuggerExtension_HUD___SharedPointerInternals___00_SharedPointerInternals__6B_
+    ;
+    pTVar8->WeakReferenceCount = (atomic<int>)0x1;
+    pTVar8[1]._padding_ = (longlong)pFVar4;
+  }
+  (this->SharedReferenceCount).ReferenceController = pTVar8;
+  if (param_1->Object == (FGameplayDebuggerExtension_HUD *)0x0) {
+    bVar7 = ::FDebug::CheckVerifyFailedImpl2
+                      ("InRawPtrProxy.Object != nullptr",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Templates\\SharedPointer.h"
+                       ,0xe3,L"");
+    if (bVar7) {
+      pcVar6 = (code *)swi(3);
+      pTVar9 = (TSharedRef<FGameplayDebuggerExtension,1> *)(*pcVar6)();
+      return pTVar9;
+    }
+  }
+  pFVar4 = param_1->Object;
+  if ((pFVar4 != (FGameplayDebuggerExtension_HUD *)0x0) &&
+     (((plVar1 = &pFVar4->_padding_, pFVar4->_padding_ == 0 || (*plVar1 == 0)) ||
+      (*(int *)(*plVar1 + 8) < 1)))) {
+    pTVar8 = (this->SharedReferenceCount).ReferenceController;
+    if (pTVar8 != (TReferenceControllerBase<1> *)0x0) {
+      LOCK();
+      pTVar8->SharedReferenceCount = (atomic<int>)((int)pTVar8->SharedReferenceCount + 1);
+      UNLOCK();
+    }
+    pFVar4->_padding_ = (longlong)pFVar4;
+    if (pTVar8 != (TReferenceControllerBase<1> *)*plVar1) {
+      if (pTVar8 != (TReferenceControllerBase<1> *)0x0) {
+        LOCK();
+        pTVar8->WeakReferenceCount = (atomic<int>)((int)pTVar8->WeakReferenceCount + 1);
+        UNLOCK();
+      }
+      plVar5 = (longlong *)*plVar1;
+      if (plVar5 != (longlong *)0x0) {
+        LOCK();
+        piVar2 = (int *)((longlong)plVar5 + 0xc);
+        iVar3 = *piVar2;
+        *piVar2 = *piVar2 + -1;
+        UNLOCK();
+        if (iVar3 == 1) {
+          (**(code **)(*plVar5 + 8))(plVar5,1);
+        }
+      }
+      *plVar1 = (longlong)pTVar8;
+    }
+    SharedPointerInternals::TReferenceControllerBase<1>::ReleaseSharedReferenceNoInline(pTVar8);
+  }
+  return this;
+}
+
+// TSharedRef<FGameplayDebuggerExtension,1><FGameplayDebuggerExtension_Spectator> @ 146d3a290
+
+TSharedRef<FGameplayDebuggerExtension,1> * __thiscall
+TSharedRef<FGameplayDebuggerExtension,1>::
+TSharedRef<FGameplayDebuggerExtension,1><FGameplayDebuggerExtension_Spectator>
+          (TSharedRef<FGameplayDebuggerExtension,1> *this,
+          TRawPtrProxy<FGameplayDebuggerExtension_Spectator> *param_1)
+
+{
+  longlong *plVar1;
+  int *piVar2;
+  int iVar3;
+  FGameplayDebuggerExtension_Spectator *pFVar4;
+  longlong *plVar5;
+  code *pcVar6;
+  bool bVar7;
+  TReferenceControllerBase<1> *pTVar8;
+  TSharedRef<FGameplayDebuggerExtension,1> *pTVar9;
+  
+  this->Object = (FGameplayDebuggerExtension *)param_1->Object;
+  pFVar4 = param_1->Object;
+  pTVar8 = ::operator_new(0x18);
+  if (pTVar8 != (TReferenceControllerBase<1> *)0x0) {
+    pTVar8->SharedReferenceCount = (atomic<int>)0x1;
+    pTVar8->_padding_ =
+         (longlong)
+         &
+         ___7__TReferenceControllerWithDeleter_VFGameplayDebuggerExtension_Spectator__U__DefaultDeleter_VFGameplayDebuggerExtension_Spectator___SharedPointerInternals___00_SharedPointerInternals__6B_
+    ;
+    pTVar8->WeakReferenceCount = (atomic<int>)0x1;
+    pTVar8[1]._padding_ = (longlong)pFVar4;
+  }
+  (this->SharedReferenceCount).ReferenceController = pTVar8;
+  if (param_1->Object == (FGameplayDebuggerExtension_Spectator *)0x0) {
+    bVar7 = ::FDebug::CheckVerifyFailedImpl2
+                      ("InRawPtrProxy.Object != nullptr",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Templates\\SharedPointer.h"
+                       ,0xe3,L"");
+    if (bVar7) {
+      pcVar6 = (code *)swi(3);
+      pTVar9 = (TSharedRef<FGameplayDebuggerExtension,1> *)(*pcVar6)();
+      return pTVar9;
+    }
+  }
+  pFVar4 = param_1->Object;
+  if ((pFVar4 != (FGameplayDebuggerExtension_Spectator *)0x0) &&
+     (((plVar1 = &pFVar4->_padding_, pFVar4->_padding_ == 0 || (*plVar1 == 0)) ||
+      (*(int *)(*plVar1 + 8) < 1)))) {
+    pTVar8 = (this->SharedReferenceCount).ReferenceController;
+    if (pTVar8 != (TReferenceControllerBase<1> *)0x0) {
+      LOCK();
+      pTVar8->SharedReferenceCount = (atomic<int>)((int)pTVar8->SharedReferenceCount + 1);
+      UNLOCK();
+    }
+    pFVar4->_padding_ = (longlong)pFVar4;
+    if (pTVar8 != (TReferenceControllerBase<1> *)*plVar1) {
+      if (pTVar8 != (TReferenceControllerBase<1> *)0x0) {
+        LOCK();
+        pTVar8->WeakReferenceCount = (atomic<int>)((int)pTVar8->WeakReferenceCount + 1);
+        UNLOCK();
+      }
+      plVar5 = (longlong *)*plVar1;
+      if (plVar5 != (longlong *)0x0) {
+        LOCK();
+        piVar2 = (int *)((longlong)plVar5 + 0xc);
+        iVar3 = *piVar2;
+        *piVar2 = *piVar2 + -1;
+        UNLOCK();
+        if (iVar3 == 1) {
+          (**(code **)(*plVar5 + 8))(plVar5,1);
+        }
+      }
+      *plVar1 = (longlong)pTVar8;
+    }
+    SharedPointerInternals::TReferenceControllerBase<1>::ReleaseSharedReferenceNoInline(pTVar8);
+  }
+  return this;
+}
+

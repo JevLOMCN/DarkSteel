@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum FlooringType {
+  FlooringType_None = 0;
+  FlooringType_Road = 1;
+  FlooringType_Plain = 2;
+  FlooringType_Rough = 3;
+  FlooringType_Swamp = 4;
+  FlooringType_Snow = 5;
+  FlooringType_Sand = 6;
+}

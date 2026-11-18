@@ -1,0 +1,320 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: AssetRegistry
+// Functions: 5
+
+// TIterator @ 142ad7bd0
+
+TIterator * __thiscall
+TSet<TTuple<FDependsNode_*,FDependsNode_*>,TDefaultMapHashableKeyFuncs<FDependsNode_*,FDependsNode_*,0>,FDefaultSetAllocator>
+::TIterator::TIterator
+          (TIterator *this,
+          TSet<TTuple<FDependsNode_*,FDependsNode_*>,TDefaultMapHashableKeyFuncs<FDependsNode_*,FDependsNode_*,0>,FDefaultSetAllocator>
+          *param_1)
+
+{
+  undefined1 *puVar1;
+  ulonglong uVar2;
+  int iVar3;
+  uint uVar4;
+  uint uVar5;
+  int iVar6;
+  longlong lVar7;
+  int iVar8;
+  int iVar9;
+  uint *puVar10;
+  
+  iVar3 = *(int *)&(param_1->Elements).field_0x28;
+  puVar1 = &(param_1->Elements).field_0x10;
+  iVar8 = 0;
+  uVar5 = 1;
+  iVar9 = 0;
+  iVar6 = 0;
+  if (iVar3 != 0) {
+    puVar10 = *(uint **)&(param_1->Elements).field_0x20;
+    if (puVar10 == (uint *)0x0) {
+      puVar10 = (uint *)puVar1;
+    }
+    uVar4 = *puVar10;
+    while (uVar4 == 0) {
+      lVar7 = (longlong)iVar8;
+      iVar9 = iVar9 + 0x20;
+      iVar8 = iVar8 + 1;
+      iVar6 = iVar3;
+      if ((int)(iVar3 + -1 + (iVar3 + -1 >> 0x1f & 0x1fU)) >> 5 < iVar8) goto LAB_142ad7c69;
+      uVar4 = puVar10[lVar7 + 1];
+    }
+    uVar5 = -uVar4 & uVar4;
+    uVar2 = (ulonglong)uVar5 * 2 + 1;
+    lVar7 = 0x3f;
+    if (uVar2 != 0) {
+      for (; uVar2 >> lVar7 == 0; lVar7 = lVar7 + -1) {
+      }
+    }
+    iVar6 = (int)lVar7 + -1 + iVar9;
+    if (iVar3 < iVar6) {
+      iVar6 = iVar3;
+    }
+  }
+LAB_142ad7c69:
+  this->_padding_ = (longlong)param_1;
+  this->_padding_ = CONCAT44(uVar5,iVar8);
+  this->Set = param_1;
+  this->_padding_ = (longlong)puVar1;
+  this->_padding_ = CONCAT44(iVar6,0xffffffff);
+  this->_padding_ = CONCAT44(iVar6,iVar9);
+  return this;
+}
+
+// TIterator @ 142ad7ce0
+
+TIterator * __thiscall
+TSet<TTuple<FString,UE::AssetDataGather::Private::FCachedDirScanDir>,TDefaultMapHashableKeyFuncs<FString,UE::AssetDataGather::Private::FCachedDirScanDir,0>,FDefaultSetAllocator>
+::TIterator::TIterator
+          (TIterator *this,
+          TSet<TTuple<FString,UE::AssetDataGather::Private::FCachedDirScanDir>,TDefaultMapHashableKeyFuncs<FString,UE::AssetDataGather::Private::FCachedDirScanDir,0>,FDefaultSetAllocator>
+          *param_1)
+
+{
+  undefined1 *puVar1;
+  ulonglong uVar2;
+  int iVar3;
+  uint uVar4;
+  uint uVar5;
+  int iVar6;
+  longlong lVar7;
+  int iVar8;
+  int iVar9;
+  uint *puVar10;
+  
+  iVar3 = *(int *)&(param_1->Elements).field_0x28;
+  puVar1 = &(param_1->Elements).field_0x10;
+  iVar8 = 0;
+  uVar5 = 1;
+  iVar9 = 0;
+  iVar6 = 0;
+  if (iVar3 != 0) {
+    puVar10 = *(uint **)&(param_1->Elements).field_0x20;
+    if (puVar10 == (uint *)0x0) {
+      puVar10 = (uint *)puVar1;
+    }
+    uVar4 = *puVar10;
+    while (uVar4 == 0) {
+      lVar7 = (longlong)iVar8;
+      iVar9 = iVar9 + 0x20;
+      iVar8 = iVar8 + 1;
+      iVar6 = iVar3;
+      if ((int)(iVar3 + -1 + (iVar3 + -1 >> 0x1f & 0x1fU)) >> 5 < iVar8) goto LAB_142ad7d79;
+      uVar4 = puVar10[lVar7 + 1];
+    }
+    uVar5 = -uVar4 & uVar4;
+    uVar2 = (ulonglong)uVar5 * 2 + 1;
+    lVar7 = 0x3f;
+    if (uVar2 != 0) {
+      for (; uVar2 >> lVar7 == 0; lVar7 = lVar7 + -1) {
+      }
+    }
+    iVar6 = (int)lVar7 + -1 + iVar9;
+    if (iVar3 < iVar6) {
+      iVar6 = iVar3;
+    }
+  }
+LAB_142ad7d79:
+  this->_padding_ = (longlong)param_1;
+  this->_padding_ = CONCAT44(uVar5,iVar8);
+  this->Set = param_1;
+  this->_padding_ = (longlong)puVar1;
+  this->_padding_ = CONCAT44(iVar6,0xffffffff);
+  this->_padding_ = CONCAT44(iVar6,iVar9);
+  return this;
+}
+
+// TIterator @ 142ad7df0
+
+TIterator * __thiscall
+TSet<TTuple<FString,TArray<TUniquePtr<UE::AssetDataGather::Private::FReadContext,TDefaultDelete<UE::AssetDataGather::Private::FReadContext>_>,TSizedDefaultAllocator<32>_>_>,TDefaultMapHashableKeyFuncs<FString,TArray<TUniquePtr<UE::AssetDataGather::Private::FReadContext,TDefaultDelete<UE::AssetDataGather::Private::FReadContext>_>,TSizedDefaultAllocator<32>_>,0>,FDefaultSetAllocator>
+::TIterator::TIterator
+          (TIterator *this,
+          TSet<TTuple<FString,TArray<TUniquePtr<UE::AssetDataGather::Private::FReadContext,TDefaultDelete<UE::AssetDataGather::Private::FReadContext>_>,TSizedDefaultAllocator<32>_>_>,TDefaultMapHashableKeyFuncs<FString,TArray<TUniquePtr<UE::AssetDataGather::Private::FReadContext,TDefaultDelete<UE::AssetDataGather::Private::FReadContext>_>,TSizedDefaultAllocator<32>_>,0>,FDefaultSetAllocator>
+          *param_1)
+
+{
+  undefined1 *puVar1;
+  ulonglong uVar2;
+  int iVar3;
+  uint uVar4;
+  uint uVar5;
+  int iVar6;
+  longlong lVar7;
+  int iVar8;
+  int iVar9;
+  uint *puVar10;
+  
+  iVar3 = *(int *)&(param_1->Elements).field_0x28;
+  puVar1 = &(param_1->Elements).field_0x10;
+  iVar8 = 0;
+  uVar5 = 1;
+  iVar9 = 0;
+  iVar6 = 0;
+  if (iVar3 != 0) {
+    puVar10 = *(uint **)&(param_1->Elements).field_0x20;
+    if (puVar10 == (uint *)0x0) {
+      puVar10 = (uint *)puVar1;
+    }
+    uVar4 = *puVar10;
+    while (uVar4 == 0) {
+      lVar7 = (longlong)iVar8;
+      iVar9 = iVar9 + 0x20;
+      iVar8 = iVar8 + 1;
+      iVar6 = iVar3;
+      if ((int)(iVar3 + -1 + (iVar3 + -1 >> 0x1f & 0x1fU)) >> 5 < iVar8) goto LAB_142ad7e89;
+      uVar4 = puVar10[lVar7 + 1];
+    }
+    uVar5 = -uVar4 & uVar4;
+    uVar2 = (ulonglong)uVar5 * 2 + 1;
+    lVar7 = 0x3f;
+    if (uVar2 != 0) {
+      for (; uVar2 >> lVar7 == 0; lVar7 = lVar7 + -1) {
+      }
+    }
+    iVar6 = (int)lVar7 + -1 + iVar9;
+    if (iVar3 < iVar6) {
+      iVar6 = iVar3;
+    }
+  }
+LAB_142ad7e89:
+  this->_padding_ = (longlong)param_1;
+  this->_padding_ = CONCAT44(uVar5,iVar8);
+  this->Set = param_1;
+  this->_padding_ = (longlong)puVar1;
+  this->_padding_ = CONCAT44(iVar6,0xffffffff);
+  this->_padding_ = CONCAT44(iVar6,iVar9);
+  return this;
+}
+
+// TIterator @ 142b7b7b0
+
+TIterator * __thiscall
+TSet<TTuple<FName,TUniquePtr<FAssetData,TDefaultDelete<FAssetData>_>_>,TDefaultMapHashableKeyFuncs<FName,TUniquePtr<FAssetData,TDefaultDelete<FAssetData>_>,1>,FDefaultSetAllocator>
+::TIterator::TIterator
+          (TIterator *this,
+          TSet<TTuple<FName,TUniquePtr<FAssetData,TDefaultDelete<FAssetData>_>_>,TDefaultMapHashableKeyFuncs<FName,TUniquePtr<FAssetData,TDefaultDelete<FAssetData>_>,1>,FDefaultSetAllocator>
+          *param_1)
+
+{
+  undefined1 *puVar1;
+  ulonglong uVar2;
+  int iVar3;
+  uint uVar4;
+  uint uVar5;
+  int iVar6;
+  longlong lVar7;
+  int iVar8;
+  int iVar9;
+  uint *puVar10;
+  
+  iVar3 = *(int *)&(param_1->Elements).field_0x28;
+  puVar1 = &(param_1->Elements).field_0x10;
+  iVar8 = 0;
+  uVar5 = 1;
+  iVar9 = 0;
+  iVar6 = 0;
+  if (iVar3 != 0) {
+    puVar10 = *(uint **)&(param_1->Elements).field_0x20;
+    if (puVar10 == (uint *)0x0) {
+      puVar10 = (uint *)puVar1;
+    }
+    uVar4 = *puVar10;
+    while (uVar4 == 0) {
+      lVar7 = (longlong)iVar8;
+      iVar9 = iVar9 + 0x20;
+      iVar8 = iVar8 + 1;
+      iVar6 = iVar3;
+      if ((int)(iVar3 + -1 + (iVar3 + -1 >> 0x1f & 0x1fU)) >> 5 < iVar8) goto LAB_142b7b849;
+      uVar4 = puVar10[lVar7 + 1];
+    }
+    uVar5 = -uVar4 & uVar4;
+    uVar2 = (ulonglong)uVar5 * 2 + 1;
+    lVar7 = 0x3f;
+    if (uVar2 != 0) {
+      for (; uVar2 >> lVar7 == 0; lVar7 = lVar7 + -1) {
+      }
+    }
+    iVar6 = (int)lVar7 + -1 + iVar9;
+    if (iVar3 < iVar6) {
+      iVar6 = iVar3;
+    }
+  }
+LAB_142b7b849:
+  this->_padding_ = (longlong)param_1;
+  this->_padding_ = CONCAT44(uVar5,iVar8);
+  this->Set = param_1;
+  this->_padding_ = (longlong)puVar1;
+  this->_padding_ = CONCAT44(iVar6,0xffffffff);
+  this->_padding_ = CONCAT44(iVar6,iVar9);
+  return this;
+}
+
+// TIterator @ 142b7b8c0
+
+TIterator * __thiscall
+TSet<TTuple<FName,FPackageDependencyData>,TDefaultMapHashableKeyFuncs<FName,FPackageDependencyData,1>,FDefaultSetAllocator>
+::TIterator::TIterator
+          (TIterator *this,
+          TSet<TTuple<FName,FPackageDependencyData>,TDefaultMapHashableKeyFuncs<FName,FPackageDependencyData,1>,FDefaultSetAllocator>
+          *param_1)
+
+{
+  undefined1 *puVar1;
+  ulonglong uVar2;
+  int iVar3;
+  uint uVar4;
+  uint uVar5;
+  int iVar6;
+  longlong lVar7;
+  int iVar8;
+  int iVar9;
+  uint *puVar10;
+  
+  iVar3 = *(int *)&(param_1->Elements).field_0x28;
+  puVar1 = &(param_1->Elements).field_0x10;
+  iVar8 = 0;
+  uVar5 = 1;
+  iVar9 = 0;
+  iVar6 = 0;
+  if (iVar3 != 0) {
+    puVar10 = *(uint **)&(param_1->Elements).field_0x20;
+    if (puVar10 == (uint *)0x0) {
+      puVar10 = (uint *)puVar1;
+    }
+    uVar4 = *puVar10;
+    while (uVar4 == 0) {
+      lVar7 = (longlong)iVar8;
+      iVar9 = iVar9 + 0x20;
+      iVar8 = iVar8 + 1;
+      iVar6 = iVar3;
+      if ((int)(iVar3 + -1 + (iVar3 + -1 >> 0x1f & 0x1fU)) >> 5 < iVar8) goto LAB_142b7b959;
+      uVar4 = puVar10[lVar7 + 1];
+    }
+    uVar5 = -uVar4 & uVar4;
+    uVar2 = (ulonglong)uVar5 * 2 + 1;
+    lVar7 = 0x3f;
+    if (uVar2 != 0) {
+      for (; uVar2 >> lVar7 == 0; lVar7 = lVar7 + -1) {
+      }
+    }
+    iVar6 = (int)lVar7 + -1 + iVar9;
+    if (iVar3 < iVar6) {
+      iVar6 = iVar3;
+    }
+  }
+LAB_142b7b959:
+  this->_padding_ = (longlong)param_1;
+  this->_padding_ = CONCAT44(uVar5,iVar8);
+  this->Set = param_1;
+  this->_padding_ = (longlong)puVar1;
+  this->_padding_ = CONCAT44(iVar6,0xffffffff);
+  this->_padding_ = CONCAT44(iVar6,iVar9);
+  return this;
+}
+

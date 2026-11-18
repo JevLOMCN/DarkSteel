@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{92468363-D0E0-537D-8528-3529BFF8CFA7}</ProjectGuid><RootNamespace>Launch</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAAArrayQueue.cpp" />
+    <ClCompile Include="Private\FAppMediaTimeSource.cpp" />
+    <ClCompile Include="Private\FCpuFrameFields.cpp" />
+    <ClCompile Include="Private\FEngineLoop.cpp" />
+    <ClCompile Include="Private\FExecutionContext.cpp" />
+    <ClCompile Include="Private\FFileInPakFileHistoryHelper.cpp" />
+    <ClCompile Include="Private\FInstallBundleRequestResultInfo.cpp" />
+    <ClCompile Include="Private\FLogScope.cpp" />
+    <ClCompile Include="Private\FOutputDeviceTestExit.cpp" />
+    <ClCompile Include="Private\FPreInitContext.cpp" />
+    <ClCompile Include="Private\FQueuedLowLevelThreadPool.cpp" />
+    <ClCompile Include="Private\FQueuedWorkInternalData.cpp" />
+    <ClCompile Include="Private\FRHIBreadcrumbEventManual.cpp" />
+    <ClCompile Include="Private\FScopedSampleMallocChurn.cpp" />
+    <ClCompile Include="Private\FTask.cpp" />
+    <ClCompile Include="Private\FThreadSafeStaticStatInner.cpp" />
+    <ClCompile Include="Private\IMediaTimeSource.cpp" />
+    <ClCompile Include="Private\IQueuedWorkInternalData.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseStaticDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGraphTask.cpp" />
+    <ClCompile Include="Private\THazardDeleter.cpp" />
+    <ClCompile Include="Private\THazardPointer.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TRHIBreadcrumb.cpp" />
+    <ClCompile Include="Private\TRHILambdaCommand.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTaskDelegateImpl.cpp" />
+    <ClCompile Include="Private\TTupleBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.Launch.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

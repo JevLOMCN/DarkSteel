@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{670DBFA3-029C-5FCA-ACC3-7B216C667E40}</ProjectGuid><RootNamespace>MediaCompositing</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FCachedProperty.cpp" />
+    <ClCompile Include="Private\FMediaPlayerPreAnimatedState.cpp" />
+    <ClCompile Include="Private\FMediaPlayerSectionExecutionToken.cpp" />
+    <ClCompile Include="Private\FMediaPlayerSectionPreRollExecutionToken.cpp" />
+    <ClCompile Include="Private\FMediaSectionBaseExecutionToken.cpp" />
+    <ClCompile Include="Private\FMediaSectionExecutionToken.cpp" />
+    <ClCompile Include="Private\FMediaSectionPostRollExecutionToken.cpp" />
+    <ClCompile Include="Private\FMediaSectionPreRollExecutionToken.cpp" />
+    <ClCompile Include="Private\FMovieSceneExecutionTokens.cpp" />
+    <ClCompile Include="Private\FMovieSceneMediaData.cpp" />
+    <ClCompile Include="Private\FMovieSceneMediaPlayerPropertySectionTemplate.cpp" />
+    <ClCompile Include="Private\FMovieSceneMediaPlayerStore.cpp" />
+    <ClCompile Include="Private\FMovieSceneMediaPlayerStoreContainer.cpp" />
+    <ClCompile Include="Private\FMovieSceneMediaSectionParams.cpp" />
+    <ClCompile Include="Private\FMovieSceneMediaSectionTemplate.cpp" />
+    <ClCompile Include="Private\FPersistentEvaluationData.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TInlineValue.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TRange.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TStatelessPreAnimatedTokenProducer.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMovieSceneMediaPlayerPropertySection.cpp" />
+    <ClCompile Include="Private\UMovieSceneMediaPlayerPropertyTrack.cpp" />
+    <ClCompile Include="Private\UMovieSceneMediaSection.cpp" />
+    <ClCompile Include="Private\UMovieSceneMediaTrack.cpp" />
+    <ClCompile Include="Private\UObject.cpp" />
+    <ClCompile Include="Private\_Free\Module.MediaCompositing.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,1377 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "10501008",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcSpawn/Phasing/10501008",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101082
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -259727.77,
+          "Y": -439891.66,
+          "Z": 16610.357
+        },
+        "RotateYaw": 70.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101082
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260770.98,
+          "Y": -438851.53,
+          "Z": 16601.379
+        },
+        "RotateYaw": -10.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "111": {
+        "ID": 111,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101083
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -259321.72,
+          "Y": -439752.8,
+          "Z": 16551.56
+        },
+        "RotateYaw": 110.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "112": {
+        "ID": 112,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101083
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260692.0,
+          "Y": -438344.75,
+          "Z": 16556.254
+        },
+        "RotateYaw": 0.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "113": {
+        "ID": 113,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101083
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260844.02,
+          "Y": -439063.0,
+          "Z": 16639.012
+        },
+        "RotateYaw": 20.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "114": {
+        "ID": 114,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101083
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260010.89,
+          "Y": -439878.5,
+          "Z": 16652.209
+        },
+        "RotateYaw": 70.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101082
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260451.88,
+          "Y": -438039.88,
+          "Z": 16488.725
+        },
+        "RotateYaw": -60.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101082
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -258975.17,
+          "Y": -439344.34,
+          "Z": 16452.607
+        },
+        "RotateYaw": 140.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "211": {
+        "ID": 211,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101083
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260557.97,
+          "Y": -439689.78,
+          "Z": 16699.283
+        },
+        "RotateYaw": 50.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "212": {
+        "ID": 212,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101083
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260449.47,
+          "Y": -437984.25,
+          "Z": 16481.113
+        },
+        "RotateYaw": -50.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "213": {
+        "ID": 213,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101083
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -259009.22,
+          "Y": -439502.28,
+          "Z": 16480.889
+        },
+        "RotateYaw": 150.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "301": {
+        "ID": 301,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260438.97,
+          "Y": -439355.16,
+          "Z": 16645.238
+        },
+        "RotateYaw": 50.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "302": {
+        "ID": 302,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260204.34,
+          "Y": -439688.16,
+          "Z": 16651.348
+        },
+        "RotateYaw": 40.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "311": {
+        "ID": 311,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101083
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260674.58,
+          "Y": -439255.06,
+          "Z": 16649.062
+        },
+        "RotateYaw": 30.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "312": {
+        "ID": 312,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101083
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260132.28,
+          "Y": -439820.06,
+          "Z": 16659.445
+        },
+        "RotateYaw": 60.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "313": {
+        "ID": 313,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260630.73,
+          "Y": -439598.5,
+          "Z": 16696.83
+        },
+        "RotateYaw": 60.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "314": {
+        "ID": 314,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260346.47,
+          "Y": -439835.78,
+          "Z": 16697.473
+        },
+        "RotateYaw": 80.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101081
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260316.44,
+          "Y": -439481.53,
+          "Z": 16644.344
+        },
+        "RotateYaw": 90.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1301": {
+        "ID": 1301,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101086
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260462.44,
+          "Y": -439590.9,
+          "Z": 16675.676
+        },
+        "RotateYaw": 10.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1302": {
+        "ID": 1302,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101086
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -259441.53,
+          "Y": -439821.47,
+          "Z": 16571.586
+        },
+        "RotateYaw": 80.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1303": {
+        "ID": 1303,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101086
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260774.02,
+          "Y": -438562.22,
+          "Z": 16583.373
+        },
+        "RotateYaw": 0.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1304": {
+        "ID": 1304,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101086
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -259212.66,
+          "Y": -438151.78,
+          "Z": 16344.837
+        },
+        "RotateYaw": -140.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1305": {
+        "ID": 1305,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260612.66,
+          "Y": -439451.78,
+          "Z": 16672.342
+        },
+        "RotateYaw": 30.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1306": {
+        "ID": 1306,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260312.66,
+          "Y": -439451.78,
+          "Z": 16642.492
+        },
+        "RotateYaw": 40.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "303": {
+        "ID": 303,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260304.34,
+          "Y": -439688.16,
+          "Z": 16661.553
+        },
+        "RotateYaw": 50.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1307": {
+        "ID": 1307,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260412.66,
+          "Y": -439751.78,
+          "Z": 16681.39
+        },
+        "RotateYaw": 40.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1308": {
+        "ID": 1308,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260412.66,
+          "Y": -439551.78,
+          "Z": 16665.168
+        },
+        "RotateYaw": 40.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1309": {
+        "ID": 1309,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260512.66,
+          "Y": -439451.78,
+          "Z": 16665.658
+        },
+        "RotateYaw": 40.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1310": {
+        "ID": 1310,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101086
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260712.66,
+          "Y": -439551.78,
+          "Z": 16696.773
+        },
+        "RotateYaw": 40.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1311": {
+        "ID": 1311,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260312.66,
+          "Y": -439751.78,
+          "Z": 16672.102
+        },
+        "RotateYaw": 60.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1312": {
+        "ID": 1312,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260372.06,
+          "Y": -439622.97,
+          "Z": 16662.463
+        },
+        "RotateYaw": 50.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1313": {
+        "ID": 1313,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260512.66,
+          "Y": -439551.78,
+          "Z": 16678.336
+        },
+        "RotateYaw": 40.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1314": {
+        "ID": 1314,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260612.66,
+          "Y": -439451.78,
+          "Z": 16672.342
+        },
+        "RotateYaw": 30.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      },
+      "1315": {
+        "ID": 1315,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          90101087
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -260312.66,
+          "Y": -439751.78,
+          "Z": 16672.102
+        },
+        "RotateYaw": 40.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 20.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": true,
+        "WanderingRadius": 30.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 30.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 2.0,
+        "WanderingMaxTime": 2.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      }
+    }
+  }
+]

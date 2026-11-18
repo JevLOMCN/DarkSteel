@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CustomizingOptionItem",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CustomizingOptionItem",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CustomizingOptionItemTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ItemType": "EDS_ItemType::WeaponKnuckle",
+        "ID_ResourceParts": []
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ItemType": "EDS_ItemType::WeaponSwordShield",
+        "ID_ResourceParts": []
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "ItemType": "EDS_ItemType::WeaponLance",
+        "ID_ResourceParts": []
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "ItemType": "EDS_ItemType::WeaponGreatAxe",
+        "ID_ResourceParts": []
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "ItemType": "EDS_ItemType::WeaponLongBow",
+        "ID_ResourceParts": []
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "ItemType": "EDS_ItemType::WeaponDualPistols",
+        "ID_ResourceParts": []
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "ItemType": "EDS_ItemType::WeaponOrb",
+        "ID_ResourceParts": []
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "ItemType": "EDS_ItemType::WeaponFan",
+        "ID_ResourceParts": []
+      }
+    }
+  }
+]

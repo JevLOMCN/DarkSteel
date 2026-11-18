@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemConsumeFunction",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemConsumeFunction",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemConsumeFunctionTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": "EDS_ItemType::ConsumeHpPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": true
+      },
+      "1002": {
+        "ID": "EDS_ItemType::ConsumeMpPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": true
+      },
+      "1003": {
+        "ID": "EDS_ItemType::ConsumeSpPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": true
+      },
+      "1004": {
+        "ID": "EDS_ItemType::ConsumeApPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": true
+      },
+      "1005": {
+        "ID": "EDS_ItemType::ConsumeBuffPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": true
+      },
+      "1103": {
+        "ID": "EDS_ItemType::TicketInventory",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": false
+      },
+      "1201": {
+        "ID": "EDS_ItemType::OpenBoxRandom",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": false
+      },
+      "1202": {
+        "ID": "EDS_ItemType::OpenBoxPackage",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": false
+      },
+      "1203": {
+        "ID": "EDS_ItemType::OpenBoxSelect",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": false
+      },
+      "1301": {
+        "ID": "EDS_ItemType::MountRegister",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": false
+      },
+      "2001": {
+        "ID": "EDS_ItemType::HeartStone",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": false
+      },
+      "2803": {
+        "ID": "EDS_ItemType::PlayerSkillCamp",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": false
+      },
+      "3001": {
+        "ID": "EDS_ItemType::MountTamingFood",
+        "DataStage": 23,
+        "Version": "*",
+        "IsUseFunction": true,
+        "IsQuickSlotEnroll": false,
+        "IsAutoUse": false
+      }
+    }
+  }
+]

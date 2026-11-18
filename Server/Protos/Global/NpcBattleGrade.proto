@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum NpcBattleGrade {
+  NpcBattleGrade_None = 0;
+  NpcBattleGrade_Normal = 1;
+  NpcBattleGrade_Elite = 2;
+  NpcBattleGrade_Named = 3;
+  NpcBattleGrade_Boss = 4;
+  NpcBattleGrade_StageBoss = 5;
+  NpcBattleGrade_WorldBoss = 6;
+}

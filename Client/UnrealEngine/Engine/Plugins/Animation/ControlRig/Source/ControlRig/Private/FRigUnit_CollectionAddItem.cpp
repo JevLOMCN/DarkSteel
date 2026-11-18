@@ -1,0 +1,260 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: ControlRig
+// Functions: 8
+
+// StaticStruct @ 14a4d2b60
+
+UScriptStruct * __cdecl FRigUnit_CollectionAddItem::StaticStruct(void)
+
+{
+  UPackage *pUVar1;
+  FRigVMRegistry_RWLock *this;
+  TArrayView<FRigVMCompiledInFunction_const_,int> local_18;
+  
+  if (Z_Registration_Info_UScriptStruct_FRigUnit_CollectionAddItem.OuterSingleton ==
+      (UScriptStruct *)0x0) {
+    pUVar1 = Z_Construct_UPackage__Script_ControlRig();
+    Z_Registration_Info_UScriptStruct_FRigUnit_CollectionAddItem.OuterSingleton =
+         GetStaticStruct(Z_Construct_UScriptStruct_FRigUnit_CollectionAddItem,(UObject *)pUVar1,
+                         L"RigUnit_CollectionAddItem");
+    this = FRigVMRegistry_RWLock::Get();
+    local_18.ArrayNum = 1;
+    local_18.DataPtr = Z_Construct_UScriptStruct_FRigUnit_CollectionAddItem_Statics::RigVMFunctions;
+    FRigVMRegistry_RWLock::RegisterCompiledInStruct
+              (this,Z_Registration_Info_UScriptStruct_FRigUnit_CollectionAddItem.OuterSingleton,
+               &local_18);
+  }
+  return Z_Registration_Info_UScriptStruct_FRigUnit_CollectionAddItem.OuterSingleton;
+}
+
+// GetExecuteContextStruct @ 14a4d2be0
+
+/* WARNING: Enum "ERigElementType": Some values do not have unique names */
+
+UScriptStruct * __thiscall
+FRigUnit_CollectionAddItem::GetExecuteContextStruct(FRigUnit_CollectionAddItem *this)
+
+{
+  UPackage *pUVar1;
+  
+  if (Z_Registration_Info_UScriptStruct_FControlRigExecuteContext.OuterSingleton ==
+      (UScriptStruct *)0x0) {
+    pUVar1 = Z_Construct_UPackage__Script_ControlRig();
+    Z_Registration_Info_UScriptStruct_FControlRigExecuteContext.OuterSingleton =
+         GetStaticStruct(Z_Construct_UScriptStruct_FControlRigExecuteContext,(UObject *)pUVar1,
+                         L"ControlRigExecuteContext");
+  }
+  return Z_Registration_Info_UScriptStruct_FControlRigExecuteContext.OuterSingleton;
+}
+
+// Execute @ 14a4d2e70
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Enum "ERigElementType": Some values do not have unique names */
+
+void __thiscall FRigUnit_CollectionAddItem::Execute(FRigUnit_CollectionAddItem *this)
+
+{
+  undefined1 auStack_288 [32];
+  undefined1 local_268 [592];
+  ulonglong local_18;
+  
+  local_18 = __security_cookie.value ^ (ulonglong)auStack_288;
+  FControlRigExecuteContext::FControlRigExecuteContext((FControlRigExecuteContext *)local_268);
+  if ((FRigVMNameCache *)local_268._80_8_ == (FRigVMNameCache *)0x0) {
+    if (*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) +
+                0x9d4c) <
+        `public:_virtual_void___cdecl_FRigVMExecuteContext::Initialize(void)___ptr64'::__l5::
+        _thread_safe_static_guard_0__) {
+      _Init_thread_header(&`public:_virtual_void___cdecl_FRigVMExecuteContext::Initialize(void)___ptr64'
+                           ::__l5::_thread_safe_static_guard_0__);
+      if (`public:_virtual_void___cdecl_FRigVMExecuteContext::Initialize(void)___ptr64'::__l5::
+          _thread_safe_static_guard_0__ == -1) {
+        atexit(`FRigVMExecuteContext::Initialize'::__l5::
+               _dynamic_atexit_destructor_for__StaticNameCache__);
+        _Init_thread_footer(&`public:_virtual_void___cdecl_FRigVMExecuteContext::Initialize(void)___ptr64'
+                             ::__l5::_thread_safe_static_guard_0__);
+      }
+    }
+    local_268._80_8_ =
+         &`public:_virtual_void___cdecl_FRigVMExecuteContext::Initialize(void)___ptr64'::__l5::
+          StaticNameCache;
+  }
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_>::operator=
+            (&(this->Result).Keys,&(this->Collection).Keys);
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_>::AddUniqueImpl<FRigElementKey_const_&>
+            (&(this->Result).Keys,&this->Item);
+  FControlRigExecuteContext::~FControlRigExecuteContext((FControlRigExecuteContext *)local_268);
+  return;
+}
+
+// GetUpgradeInfo @ 14a4d30d0
+
+/* WARNING: Enum "ERigElementType": Some values do not have unique names */
+
+FRigVMStructUpgradeInfo * __thiscall
+FRigUnit_CollectionAddItem::GetUpgradeInfo
+          (FRigUnit_CollectionAddItem *this,FRigVMStructUpgradeInfo *__return_storage_ptr__)
+
+{
+  FRigVMStructUpgradeInfo::FRigVMStructUpgradeInfo(__return_storage_ptr__);
+  return __return_storage_ptr__;
+}
+
+// FRigUnit_CollectionAddItem @ 14a50d310
+
+/* WARNING: Enum "ERigElementType": Some values do not have unique names */
+
+FRigUnit_CollectionAddItem * __thiscall
+FRigUnit_CollectionAddItem::FRigUnit_CollectionAddItem(FRigUnit_CollectionAddItem *this)
+
+{
+  FRigElementKeyCollection *pFVar1;
+  int *piVar2;
+  int iVar3;
+  ulonglong uVar4;
+  uint local_18;
+  
+  pFVar1 = &this->Collection;
+  (pFVar1->Keys).AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  (this->Collection).Keys.ArrayNum = 0;
+  this->_padding_ = (longlong)&___7FRigUnit_CollectionAddItem__6B_;
+  piVar2 = &(this->Collection).Keys.ArrayMax;
+  *piVar2 = 0;
+  (this->Item).Type = None;
+  (this->Item).Name.ComparisonIndex = 0;
+  (this->Item).Name.Number = 0;
+  (this->Result).Keys.AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  (this->Result).Keys.ArrayNum = 0;
+  (this->Result).Keys.ArrayMax = 0;
+  if (pFVar1 != &this->Result) {
+    iVar3 = *piVar2;
+    (this->Collection).Keys.ArrayNum = 0;
+    if (iVar3 == 0) {
+      *piVar2 = 0;
+    }
+    else {
+      UE::Core::Private::ReallocForCopy<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                (0xc,4,0,iVar3,(ForAnyElementType *)pFVar1,0,piVar2);
+    }
+  }
+  local_18 = local_18 & 0xffffff00;
+  uVar4 = (ulonglong)local_18;
+  (this->Item).Type = (char)uVar4;
+  *(int3 *)&(this->Item).field_0x1 = (int3)(uVar4 >> 8);
+  (this->Item).Name.ComparisonIndex = (FNameEntryId)(int)(uVar4 >> 0x20);
+  (this->Item).Name.Number = 0;
+  return this;
+}
+
+// Execute @ 14a525260
+
+/* WARNING: Enum "ERigElementType": Some values do not have unique names */
+
+void __thiscall
+FRigUnit_CollectionAddItem::Execute
+          (FRigUnit_CollectionAddItem *this,FControlRigExecuteContext *param_1)
+
+{
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_>::operator=
+            (&(this->Result).Keys,&(this->Collection).Keys);
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_>::AddUniqueImpl<FRigElementKey_const_&>
+            (&(this->Result).Keys,&this->Item);
+  return;
+}
+
+// RigVMExecute @ 14a537350
+
+/* WARNING: Enum "ERigElementType": Some values do not have unique names */
+
+void __cdecl
+FRigUnit_CollectionAddItem::RigVMExecute
+          (FRigVMExtendedExecuteContext *param_1,TArrayView<FRigVMMemoryHandle,int> *param_2,
+          TArrayView<FRigVMPredicateBranch,int> *param_3)
+
+{
+  int iVar1;
+  FRigVMMemoryHandle *pFVar2;
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_> *this;
+  code *pcVar3;
+  bool bVar4;
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_> *pTVar5;
+  FRigElementKey *pFVar6;
+  
+  iVar1 = param_2->ArrayNum;
+  if (iVar1 < 1) {
+    bVar4 = ::FDebug::CheckVerifyFailedImpl2
+                      ("(Index >= 0) & (Index < ArrayNum)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\ArrayView.h"
+                       ,0x14f,L"Array index out of bounds: %lld from an array of size %lld");
+    if (bVar4) {
+      pcVar3 = (code *)swi(3);
+      (*pcVar3)();
+      return;
+    }
+  }
+  pFVar2 = param_2->DataPtr;
+  if (pFVar2->PropertyPath == (FRigVMPropertyPath *)0x0) {
+    pTVar5 = (TArray<FRigElementKey,TSizedDefaultAllocator<32>_> *)pFVar2->Ptr;
+  }
+  else {
+    pTVar5 = (TArray<FRigElementKey,TSizedDefaultAllocator<32>_> *)
+             FRigVMPropertyPath::GetData_Internal(pFVar2->PropertyPath,pFVar2->Ptr,pFVar2->Property)
+    ;
+  }
+  if (iVar1 < 2) {
+    bVar4 = ::FDebug::CheckVerifyFailedImpl2
+                      ("(Index >= 0) & (Index < ArrayNum)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\ArrayView.h"
+                       ,0x14f,L"Array index out of bounds: %lld from an array of size %lld");
+    if (bVar4) {
+      pcVar3 = (code *)swi(3);
+      (*pcVar3)();
+      return;
+    }
+  }
+  pFVar2 = param_2->DataPtr;
+  if (pFVar2[1].PropertyPath == (FRigVMPropertyPath *)0x0) {
+    pFVar6 = (FRigElementKey *)pFVar2[1].Ptr;
+  }
+  else {
+    pFVar6 = (FRigElementKey *)
+             FRigVMPropertyPath::GetData_Internal
+                       (pFVar2[1].PropertyPath,pFVar2[1].Ptr,pFVar2[1].Property);
+  }
+  if (iVar1 < 3) {
+    bVar4 = ::FDebug::CheckVerifyFailedImpl2
+                      ("(Index >= 0) & (Index < ArrayNum)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\ArrayView.h"
+                       ,0x14f,L"Array index out of bounds: %lld from an array of size %lld");
+    if (bVar4) {
+      pcVar3 = (code *)swi(3);
+      (*pcVar3)();
+      return;
+    }
+  }
+  this = (TArray<FRigElementKey,TSizedDefaultAllocator<32>_> *)param_2->DataPtr[2].Ptr;
+  FRigVMExtendedExecuteContext::GetPublicData<FControlRigExecuteContext>(param_1);
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_>::operator=(this,pTVar5);
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_>::AddUniqueImpl<FRigElementKey_const_&>
+            (this,pFVar6);
+  return;
+}
+
+// StaticExecute @ 14a567b20
+
+/* WARNING: Enum "ERigElementType": Some values do not have unique names */
+
+void __cdecl
+FRigUnit_CollectionAddItem::StaticExecute
+          (FControlRigExecuteContext *param_1,FRigElementKeyCollection *param_2,
+          FRigElementKey *param_3,FRigElementKeyCollection *param_4)
+
+{
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_>::operator=(&param_4->Keys,&param_2->Keys);
+  TArray<FRigElementKey,TSizedDefaultAllocator<32>_>::AddUniqueImpl<FRigElementKey_const_&>
+            (&param_4->Keys,param_3);
+  return;
+}
+

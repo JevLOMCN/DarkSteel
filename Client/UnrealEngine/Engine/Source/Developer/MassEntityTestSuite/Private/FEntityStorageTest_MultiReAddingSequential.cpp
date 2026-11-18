@@ -1,0 +1,48 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: MassEntityTestSuite
+// Functions: 1
+
+// FEntityStorageTest_MultiReAddingSequential @ 1470f3d30
+
+FEntityStorageTest_MultiReAddingSequential * __thiscall
+FMassEntityStorageTest::FEntityStorageTest_MultiReAddingSequential::
+FEntityStorageTest_MultiReAddingSequential(FEntityStorageTest_MultiReAddingSequential *this)
+
+{
+  initializer_list<FMassEntityStorageTest::EEntityManagerMode> *piVar1;
+  TArray<FMassEntityStorageTest::EEntityManagerMode,TSizedDefaultAllocator<32>_> *pTVar2;
+  longlong lVar3;
+  initializer_list<FMassEntityStorageTest::EEntityManagerMode> *piVar4;
+  EEntityManagerMode local_58;
+  EEntityManagerMode local_54 [3];
+  initializer_list<FMassEntityStorageTest::EEntityManagerMode> local_48;
+  undefined1 local_38 [16];
+  undefined1 local_28 [24];
+  
+  FEntityStorageTestBase::FEntityStorageTestBase((FEntityStorageTestBase *)this);
+  *(undefined ***)this = &___7FEntityStorageTest_MultiReAddingBase_FMassEntityStorageTest__6B_;
+  *(undefined ***)this = &___7FEntityStorageTest_MultiReAddingSequential_FMassEntityStorageTest__6B_
+  ;
+  local_58 = Sequential;
+  piVar1 = std::initializer_list<enum_FMassEntityStorageTest::EEntityManagerMode>::
+           initializer_list<enum_FMassEntityStorageTest::EEntityManagerMode>
+                     (local_28,&local_58,local_54);
+  piVar4 = &local_48;
+  for (lVar3 = 0x10; lVar3 != 0; lVar3 = lVar3 + -1) {
+    *(undefined1 *)&piVar4->_First = *(undefined1 *)&piVar1->_First;
+    piVar1 = (initializer_list<FMassEntityStorageTest::EEntityManagerMode> *)
+             ((longlong)&piVar1->_First + 1);
+    piVar4 = (initializer_list<FMassEntityStorageTest::EEntityManagerMode> *)
+             ((longlong)&piVar4->_First + 1);
+  }
+  pTVar2 = TArray<enum_FMassEntityStorageTest::EEntityManagerMode,TSizedDefaultAllocator<32>_>::
+           TArray<enum_FMassEntityStorageTest::EEntityManagerMode,TSizedDefaultAllocator<32>_>
+                     (local_38,&local_48);
+  TArray<enum_FMassEntityStorageTest::EEntityManagerMode,TSizedDefaultAllocator<32>_>::operator=
+            (&this->field_0x38,pTVar2);
+  TArray<enum_FMassEntityStorageTest::EEntityManagerMode,TSizedDefaultAllocator<32>_>::
+  ~TArray<enum_FMassEntityStorageTest::EEntityManagerMode,TSizedDefaultAllocator<32>_>(local_38);
+  return this;
+}
+

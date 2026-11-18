@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{8D04246C-C188-5D1E-8997-A2A5C85FB49E}</ProjectGuid><RootNamespace>IoStoreOnDemandCore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FHttpIoDispatcher.cpp" />
+    <ClCompile Include="Private\FIoHttpBatch.cpp" />
+    <ClCompile Include="Private\FIoHttpHeaders.cpp" />
+    <ClCompile Include="Private\FIoHttpRequest.cpp" />
+    <ClCompile Include="Private\FIoRelativeUrl.cpp" />
+    <ClCompile Include="Private\FIoStoreOnDemandCoreModule.cpp" />
+    <ClCompile Include="Private\FLogField.cpp" />
+    <ClCompile Include="Private\FOnDemandContentHandle.cpp" />
+    <ClCompile Include="Private\FOnDemandHostGroup.cpp" />
+    <ClCompile Include="Private\FOnDemandInstallRequest.cpp" />
+    <ClCompile Include="Private\FOnDemandInternalContentHandle.cpp" />
+    <ClCompile Include="Private\FOnDemandMountResult.cpp" />
+    <ClCompile Include="Private\FOnDemandRequest.cpp" />
+    <ClCompile Include="Private\FOnDemandToc.cpp" />
+    <ClCompile Include="Private\FOnDemandTocSentinel.cpp" />
+    <ClCompile Include="Private\FOnDemandWeakContentHandle.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayPrivateFriend.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TErrorDetails.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIoStatusOr.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TSharedString.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.IoStoreOnDemandCore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

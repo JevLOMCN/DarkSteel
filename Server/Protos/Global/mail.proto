@@ -1,0 +1,92 @@
+syntax = "proto3";
+package mail;
+option csharp_namespace = "MirProto.Mail";
+
+import "MailCategoryType.proto";
+import "MailType.proto";
+import "_unique_id.proto";
+import "ds_game/sql_item_stackable_table.proto";
+import "ds_game/sql_money_table.proto";
+import "ds_game/sql_item_equipment_table.proto";
+import "ds_mail/sql_mail.proto";
+import "ErrorCode.proto";
+
+message MailCleanRequest {
+  int64 receiver_uid = 1;
+}
+message ServiceBusMailSendRequest {
+  int64 sender_player_uid = 1;
+  uint64 event_id = 2;
+  MailCategoryType mail_category_type = 3;
+  MailType mail_type = 4;
+  repeated int64 receiver_player_uid = 5;
+  string mail_title = 6;
+  string mail_sender_name = 7;
+  string mail_content = 8;
+  mail.MailItem mail_reward_value = 9;
+  int64 expires_in_seconds = 10;
+  int32 game_server_index = 11;
+  int32 region_index = 12;
+}
+message ServiceBusMailSendResponse {
+  uint64 event_id = 1;
+  bool is_fail = 2;
+}
+message ServiceBusMailReceiveRequest {
+  uint64 entity_id = 1;
+  int64 receiver_player_uid = 2;
+  UniqueId receive_mail_uid = 3;
+  MailCategoryType mail_category_type = 4;
+  int32 game_server_index = 5;
+  bool is_fail = 6;
+  repeated UniqueId receive_fail_mail_uid = 7;
+  uint64 event_id = 8;
+  uint32 storage_limit = 9;
+}
+message ServiceBusMailReceiveResponse {
+  uint64 entity_id = 1;
+  int64 receiver_player_uid = 2;
+  MailCategoryType mail_category_type = 3;
+  repeated UniqueId mail_uid = 4;
+  repeated mail.MailItem mail_reward_value = 5;
+  uint64 event_id = 6;
+  ErrorCode error_code = 7;
+}
+message ServiceBusMailDeleteRequest {
+  UniqueId mail_uid = 1;
+  int64 receiver_player_uid = 2;
+  int32 game_server_index = 3;
+  uint64 entity_id = 4;
+  MailCategoryType mail_category_type = 5;
+  uint64 event_id = 6;
+}
+message ServiceBusMailDeleteResponse {
+  uint64 entity_id = 1;
+  uint64 event_id = 2;
+  ErrorCode error_code = 7;
+}
+message ServiceBusMailAlertRequest {
+  int64 receive_player_uid = 1;
+  bool is_reward = 2;
+}
+message MailServerResponse {
+  string server_name = 100;
+  oneof mail_response {
+    mail.MailCleanRequest mail_clean_request = 1;
+    mail.ServiceBusMailSendRequest mail_send_request = 2;
+    mail.ServiceBusMailSendResponse mail_send_response = 3;
+    mail.ServiceBusMailReceiveRequest mail_receive_request = 4;
+    mail.ServiceBusMailReceiveResponse mail_receive_response = 5;
+    mail.ServiceBusMailDeleteRequest mail_delete_request = 6;
+    mail.ServiceBusMailDeleteResponse mail_delete_response = 7;
+    mail.ServiceBusMailAlertRequest mail_alert_request = 8;
+  }
+}
+message MailItem {
+  repeated ds_game.SqlMoneyTable money = 1;
+  repeated ds_game.SqlItemEquipmentTable equipment = 2;
+  repeated ds_game.SqlItemStackableTable stackable = 3;
+}
+message MailCategoryListResponse {
+  repeated ds_mail.SqlMailTable mail_list = 1;
+}

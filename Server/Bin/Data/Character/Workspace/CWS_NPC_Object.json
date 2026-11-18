@@ -1,0 +1,1619 @@
+[
+  {
+    "Type": "WN_CS_CharacterWorkspace",
+    "Name": "CWS_NPC_Object",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WN_CS_CharacterWorkspace'",
+    "Package": "/Game/Datas/Character/Workspace/CWS_NPC_Object",
+    "Properties": {
+      "CharacterDescs": [
+        {
+          "ID": 3,
+          "Name": "AltherionMeteoStone",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_AltherionMeteoStone/SKEL_NPC_Object_AltherionMeteoStone.SKEL_NPC_Object_AltherionMeteoStone",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::Soul",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_AltherionMeteoStone",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_AltherionMeteoStone/SK_NPC_Object_AltherionMeteoStone.SK_NPC_Object_AltherionMeteoStone",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_AltherionMeteoStone",
+              "ID_Character": 3,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_F7283ED94FF14FCDCC8222938041392B.SKM_Soul_F7283ED94FF14FCDCC8222938041392B",
+                "SubPathString": ""
+              },
+              "Guid": "F7283ED9-4FF14FCD-CC822293-8041392B",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 3,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            }
+          ]
+        },
+        {
+          "ID": 4,
+          "Name": "AltherionEruptionStone",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_AltherionEruptionStone/SKEL_NPC_Object_AltherionEruptionStone_Skeleton.SKEL_NPC_Object_AltherionEruptionStone_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::Soul",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_AltherionEruptionStone",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_AltherionEruptionStone/SK_NPC_Object_AltherionEruptionStone.SK_NPC_Object_AltherionEruptionStone",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_AltherionEruptionStone",
+              "ID_Character": 4,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_EA273D08427A169C78D9EEBB1AA6542B.SKM_Soul_EA273D08427A169C78D9EEBB1AA6542B",
+                "SubPathString": ""
+              },
+              "Guid": "EA273D08-427A169C-78D9EEBB-1AA6542B",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 4,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            }
+          ]
+        },
+        {
+          "ID": 5,
+          "Name": "NPC_Object_Lever",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Lever/SKEL_NPC_Object_Lever.SKEL_NPC_Object_Lever",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_Lever",
+              "ID_Character": 5,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Lever/SK_NPC_Object_Lever.SK_NPC_Object_Lever",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_Lever",
+              "ID_Character": 5,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_C4978BD94F4B1D60F77B1D8717ADEC39.SKM_Soul_C4978BD94F4B1D60F77B1D8717ADEC39",
+                "SubPathString": ""
+              },
+              "Guid": "C4978BD9-4F4B1D60-F77B1D87-17ADEC39",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 5,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            }
+          ]
+        },
+        {
+          "ID": 6,
+          "Name": "NPC_Object_StoneDoor",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_StoneDoor/SKEL_NPC_Object_StoneDoor.SKEL_NPC_Object_StoneDoor",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_StoneDoor",
+              "ID_Character": 6,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_StoneDoor/SK_NPC_Object_StoneDoor.SK_NPC_Object_StoneDoor",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_StoneDoor",
+              "ID_Character": 6,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_344B9A024F7B3C9618D79C83A10DBDA9.SKM_Soul_344B9A024F7B3C9618D79C83A10DBDA9",
+                "SubPathString": ""
+              },
+              "Guid": "344B9A02-4F7B3C96-18D79C83-A10DBDA9",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 6,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            }
+          ]
+        },
+        {
+          "ID": 1,
+          "Name": "Golem",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_IronGolem_NA11/SKEL_NPC_Object_IronGolem_NA11_Skeleton.SKEL_NPC_Object_IronGolem_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::Soul",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_IronGolem_NA11",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_IronGolem_NA11/SK_NPC_Object_IronGolem_NA11.SK_NPC_Object_IronGolem_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_IronGolem_NA11",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_5F9F8B8B4A73276B9CB2008978EDEA11.SKM_Soul_5F9F8B8B4A73276B9CB2008978EDEA11",
+                "SubPathString": ""
+              },
+              "Guid": "5F9F8B8B-4A73276B-9CB20089-78EDEA11",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            }
+          ]
+        },
+        {
+          "ID": 2,
+          "Name": "Invisible NPC",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Invisible01_Stuff11/SKEL_NPC_Object_Invisible01_Stuff11.SKEL_NPC_Object_Invisible01_Stuff11",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_InvisibleNPC_AN01",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Invisible01_Stuff11/SK_NPC_Object_Invisible01_Stuff11.SK_NPC_Object_Invisible01_Stuff11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_InvisibleNPC_AN01",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_F586460447B8E69BF6C631AEE08FC227.SKM_Soul_F586460447B8E69BF6C631AEE08FC227",
+                "SubPathString": ""
+              },
+              "Guid": "F5864604-47B8E69B-F6C631AE-E08FC227",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            }
+          ]
+        },
+        {
+          "ID": 7,
+          "Name": "Invisible Stuff",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Invisible01_Stuff11/SKEL_NPC_Object_Invisible01_Stuff11.SKEL_NPC_Object_Invisible01_Stuff11",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_InvisibleStuff_AN01",
+              "ID_Character": 7,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Invisible01_Stuff11/SK_NPC_Object_Invisible01_Stuff11.SK_NPC_Object_Invisible01_Stuff11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_InvisibleStuff_AN01",
+              "ID_Character": 7,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_C0CD46204029FCAC60DAFFA6F28709A1.SKM_Soul_C0CD46204029FCAC60DAFFA6F28709A1",
+                "SubPathString": ""
+              },
+              "Guid": "C0CD4620-4029FCAC-60DAFFA6-F28709A1",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 7,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            }
+          ]
+        },
+        {
+          "ID": 8,
+          "Name": "MountFood",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_MountFood_Meat_11/SKEL_NPC_Object_MountFood_01.SKEL_NPC_Object_MountFood_01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Meat_01",
+              "ID_Character": 8,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_MountFood_Meat_11/SK_NPC_Object_MountFood_Meat_11.SK_NPC_Object_MountFood_Meat_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "Vegetable_01",
+              "ID_Character": 8,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_MountFood_Vegetable_11/SK_NPC_Object_MountFood_Vegetable_11.SK_NPC_Object_MountFood_Vegetable_11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Meat_01",
+              "ID_Character": 8,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_152B72254A6A23FD63AD82A5BB9EE953.SKM_Soul_152B72254A6A23FD63AD82A5BB9EE953",
+                "SubPathString": ""
+              },
+              "Guid": "152B7225-4A6A23FD-63AD82A5-BB9EE953",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 8,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 10
+            },
+            {
+              "ID": 2,
+              "Name": "Vegetable_01",
+              "ID_Character": 8,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_76C360054A9A07E0F3ABE99C56BCFE53.SKM_Soul_76C360054A9A07E0F3ABE99C56BCFE53",
+                "SubPathString": ""
+              },
+              "Guid": "76C36005-4A9A07E0-F3ABE99C-56BCFE53",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 8,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 11
+            }
+          ]
+        },
+        {
+          "ID": 9,
+          "Name": "Camp01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Camp01/SKEL_NPC_Object_Camp01.SKEL_NPC_Object_Camp01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 9,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Camp01/SK_NPC_Object_Camp01.SK_NPC_Object_Camp01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_Camp01_Camp13",
+              "ID_Character": 9,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_47424D024F473F35F6A9EFA6A444F083.SKM_Soul_47424D024F473F35F6A9EFA6A444F083",
+                "SubPathString": ""
+              },
+              "Guid": "47424D02-4F473F35-F6A9EFA6-A444F083",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 9,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 10,
+          "Name": "Warehouse01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Warehouse01/SKEL_NPC_Object_Warehouse01.SKEL_NPC_Object_Warehouse01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 10,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Warehouse01/SM_NPC_Object_Warehouse01.SM_NPC_Object_Warehouse01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_Warehouse01",
+              "ID_Character": 10,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_E68A067C49CF4A8D4E1B36824A02D5D3.SKM_Soul_E68A067C49CF4A8D4E1B36824A02D5D3",
+                "SubPathString": ""
+              },
+              "Guid": "E68A067C-49CF4A8D-4E1B3682-4A02D5D3",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 10,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 11,
+          "Name": "CookingStation01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_CookingStation01/SKEL_NPC_Object_CookingStation01.SKEL_NPC_Object_CookingStation01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 11,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_CookingStation01/SM_NPC_Object_CookingStation01.SM_NPC_Object_CookingStation01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_CookingStation01",
+              "ID_Character": 11,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_157D43F54EF2EE4FB75A15842F43C77E.SKM_Soul_157D43F54EF2EE4FB75A15842F43C77E",
+                "SubPathString": ""
+              },
+              "Guid": "157D43F5-4EF2EE4F-B75A1584-2F43C77E",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 11,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 12,
+          "Name": "GemStation01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_GemStation01/SKEL_NPC_Object_GemStation01.SKEL_NPC_Object_GemStation01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 12,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_GemStation01/SM_NPC_Object_GemStation01.SM_NPC_Object_GemStation01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_GemStation01",
+              "ID_Character": 12,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_70779B14423742F9759F1C8787DFD838.SKM_Soul_70779B14423742F9759F1C8787DFD838",
+                "SubPathString": ""
+              },
+              "Guid": "70779B14-423742F9-759F1C87-87DFD838",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 12,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 13,
+          "Name": "LeatherStation01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_LeatherStation01/SKEL_NPC_Object_LeatherStation01.SKEL_NPC_Object_LeatherStation01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 13,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_LeatherStation01/SM_NPC_Object_LeatherStation01.SM_NPC_Object_LeatherStation01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_LeatherStation01",
+              "ID_Character": 13,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_3131A243405B54FD9572B29A21C8ED98.SKM_Soul_3131A243405B54FD9572B29A21C8ED98",
+                "SubPathString": ""
+              },
+              "Guid": "3131A243-405B54FD-9572B29A-21C8ED98",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 13,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 14,
+          "Name": "MagicStation01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_MagicStation01/SKEL_NPC_Object_MagicStation01.SKEL_NPC_Object_MagicStation01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 14,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_MagicStation01/SM_NPC_Object_MagicStation01.SM_NPC_Object_MagicStation01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_MagicStation01",
+              "ID_Character": 14,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_0AE4F00149F41DE19348B6821F843EB1.SKM_Soul_0AE4F00149F41DE19348B6821F843EB1",
+                "SubPathString": ""
+              },
+              "Guid": "0AE4F001-49F41DE1-9348B682-1F843EB1",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 14,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 15,
+          "Name": "MetalStation01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_MetalStation01/SKEL_NPC_Object_MetalStation01.SKEL_NPC_Object_MetalStation01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 15,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_MetalStation01/SM_NPC_Object_MetalStation01.SM_NPC_Object_MetalStation01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_MetalStation01",
+              "ID_Character": 15,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_6EFD35B443C9D3725449DCA89EB8FE52.SKM_Soul_6EFD35B443C9D3725449DCA89EB8FE52",
+                "SubPathString": ""
+              },
+              "Guid": "6EFD35B4-43C9D372-5449DCA8-9EB8FE52",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 15,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            }
+          ]
+        },
+        {
+          "ID": 16,
+          "Name": "PlantStation01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_PlantStation01/SKEL_NPC_Object_PlantStation01.SKEL_NPC_Object_PlantStation01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 16,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_PlantStation01/SM_NPC_Object_PlantStation01.SM_NPC_Object_PlantStation01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_PlantStation01",
+              "ID_Character": 16,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_5ADF254F4C42C1EE7F09CDAD2D874CC4.SKM_Soul_5ADF254F4C42C1EE7F09CDAD2D874CC4",
+                "SubPathString": ""
+              },
+              "Guid": "5ADF254F-4C42C1EE-7F09CDAD-2D874CC4",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 16,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 17,
+          "Name": "Stable01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Stable01/SKEL_NPC_Object_Stable01.SKEL_NPC_Object_Stable01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 17,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Stable01/SM_NPC_Object_Stable01.SM_NPC_Object_Stable01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_Stable01",
+              "ID_Character": 17,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_D93B358C4E71596E1FE805903481448F.SKM_Soul_D93B358C4E71596E1FE805903481448F",
+                "SubPathString": ""
+              },
+              "Guid": "D93B358C-4E71596E-1FE80590-3481448F",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 17,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 18,
+          "Name": "WoodStation01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_WoodStation01/SKEL_NPC_Object_WoodStation01.SKEL_NPC_Object_WoodStation01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 18,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_WoodStation01/SM_NPC_Object_WoodStation01.SM_NPC_Object_WoodStation01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_WoodStation01",
+              "ID_Character": 18,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_D6319168454454936AA60DA9A73539FF.SKM_Soul_D6319168454454936AA60DA9A73539FF",
+                "SubPathString": ""
+              },
+              "Guid": "D6319168-45445493-6AA60DA9-A73539FF",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 18,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 19,
+          "Name": "CampChair",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_CampChair01/SKEL_NPC_Object_CampChair01.SKEL_NPC_Object_CampChair01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 19,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_CampChair01/SM_DR_CampChair_001.SM_DR_CampChair_001",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "Npc_Object_CampChair13",
+              "ID_Character": 19,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_8A9F22D04E9A37C0A746B198DA90217A.SKM_Soul_8A9F22D04E9A37C0A746B198DA90217A",
+                "SubPathString": ""
+              },
+              "Guid": "8A9F22D0-4E9A37C0-A746B198-DA90217A",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 19,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 20,
+          "Name": "SeedBox",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_SeedBox11/SKEL_NPC_Object_SeedBox01.SKEL_NPC_Object_SeedBox01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 20,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_SeedBox11/SM_NPC_Object_SeedBox11.SM_NPC_Object_SeedBox11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_SeedBox01",
+              "ID_Character": 20,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_BA0E0FD147A816E2F82C9FB5D9018195.SKM_Soul_BA0E0FD147A816E2F82C9FB5D9018195",
+                "SubPathString": ""
+              },
+              "Guid": "BA0E0FD1-47A816E2-F82C9FB5-D9018195",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 20,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 21,
+          "Name": "IronDoor",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_IronDoor01/SKEL_NPC_Object_IronDoor01.SKEL_NPC_Object_IronDoor01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 21,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_IronDoor01/SM_NPC_Object_IronDoor01.SM_NPC_Object_IronDoor01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_IronDoor01",
+              "ID_Character": 21,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_4E9CD0BC4478EDA8745E3CB3004525DF.SKM_Soul_4E9CD0BC4478EDA8745E3CB3004525DF",
+                "SubPathString": ""
+              },
+              "Guid": "4E9CD0BC-4478EDA8-745E3CB3-004525DF",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 21,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 22,
+          "Name": "GlassDoor",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_GlassDoor/SKEL_NPC_Object_GlassDoor.SKEL_NPC_Object_GlassDoor",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 22,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_GlassDoor/SM_NPC_Object_GlassDoor.SM_NPC_Object_GlassDoor",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_GlassDoor01",
+              "ID_Character": 22,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_B58EBDA84A880C10DBDFFEB575B78F48.SKM_Soul_B58EBDA84A880C10DBDFFEB575B78F48",
+                "SubPathString": ""
+              },
+              "Guid": "B58EBDA8-4A880C10-DBDFFEB5-75B78F48",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 22,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 23,
+          "Name": "Lever02",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Lever02/SKEL_NPC_Object_Lever02.SKEL_NPC_Object_Lever02",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 23,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Lever02/SK_NPC_Object_Lever02.SK_NPC_Object_Lever02",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_Lever02",
+              "ID_Character": 23,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_5C4F6DB942795D6F1E041783352FC038.SKM_Soul_5C4F6DB942795D6F1E041783352FC038",
+                "SubPathString": ""
+              },
+              "Guid": "5C4F6DB9-42795D6F-1E041783-352FC038",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 23,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 24,
+          "Name": "Camp02",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Camp01_Camp11/SKEL_NPC_Object_Camp01_Camp11.SKEL_NPC_Object_Camp01_Camp11",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 24,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Camp01_Camp11/SK_NPC_Object_Camp01_Camp11.SK_NPC_Object_Camp01_Camp11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Object_Camp02_Camp11",
+              "ID_Character": 24,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_64E3381C4DFF73B2C24815A70D9E10D3.SKM_Soul_64E3381C4DFF73B2C24815A70D9E10D3",
+                "SubPathString": ""
+              },
+              "Guid": "64E3381C-4DFF73B2-C24815A7-0D9E10D3",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 24,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        }
+      ],
+      "Version": "EWN_CS_CharacterWorkspaceVersion::Latest"
+    }
+  }
+]

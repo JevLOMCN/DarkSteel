@@ -1,0 +1,32 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+import "_vector.proto";
+import "google/protobuf/timestamp.proto";
+import "ds_game/sql_character_level.proto";
+import "ds_game/sql_character_skin_table.proto";
+import "_unique_id.proto";
+
+message CharacterInfo {
+  ds_game.SqlCharacterLevelTable char_level_table = 3;
+  ds_game.SqlCharacterSkinTable char_skin_table = 4;
+}
+message CharacterProfile {
+  int32 version = 1;
+  int64 player_uid = 2;
+  int32 char_id = 3;
+  string nickname = 4;
+  int32 char_level = 8;
+  int64 exp = 9;
+  uint32 island_id = 10;
+  Vector position = 11;
+  google.protobuf.Timestamp upsert_dt = 12;
+  google.protobuf.Timestamp create_dt = 13;
+}
+message CharacterConnect {
+  int32 version = 1;
+  int64 player_uid = 2;
+  int32 server_index = 3;
+  UniqueId player_session_uid = 4;
+  google.protobuf.Timestamp create_dt = 5;
+}

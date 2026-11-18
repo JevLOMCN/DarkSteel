@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SvrResCellDataMap",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SvrResCellDataMap",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SvrResCellDataMapTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "CellDataMapType": "EDS_CellDataMapType::Island",
+        "HeightMapPath": "/CellDataMap/Island_001_Height.dsh",
+        "ZoneIdMapPath": "/CellDataMap/Island_001_ZoneId.dsz",
+        "DistrictIdMapPath": "/CellDataMap/Island_001_DistrictId.dsd"
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "CellDataMapType": "EDS_CellDataMapType::Zone3d",
+        "HeightMapPath": "/CellDataMap/Island_002_Height.dsh",
+        "ZoneIdMapPath": "/CellDataMap/Island_002_ZoneId.dsz",
+        "DistrictIdMapPath": "/CellDataMap/Island_002_DistrictId.dsd"
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "CellDataMapType": "EDS_CellDataMapType::Zone3d",
+        "HeightMapPath": "/CellDataMap/Island_006_Height.dsh",
+        "ZoneIdMapPath": "/CellDataMap/Island_006_ZoneId.dsz",
+        "DistrictIdMapPath": "/CellDataMap/Island_006_DistrictId.dsd"
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "CellDataMapType": "EDS_CellDataMapType::Zone3d",
+        "HeightMapPath": "/CellDataMap/Island_007_Height.dsh",
+        "ZoneIdMapPath": "/CellDataMap/Island_007_ZoneId.dsz",
+        "DistrictIdMapPath": "/CellDataMap/Island_007_DistrictId.dsd"
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "CellDataMapType": "EDS_CellDataMapType::Island",
+        "HeightMapPath": "/CellDataMap/Island_009_Height.dsh",
+        "ZoneIdMapPath": "/CellDataMap/Island_009_ZoneId.dsz",
+        "DistrictIdMapPath": "/CellDataMap/Island_009_DistrictId.dsd"
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "CellDataMapType": "EDS_CellDataMapType::Island",
+        "HeightMapPath": "/CellDataMap/Island_011_Height.dsh",
+        "ZoneIdMapPath": "/CellDataMap/Island_011_ZoneId.dsz",
+        "DistrictIdMapPath": "/CellDataMap/Island_011_DistrictId.dsd"
+      }
+    }
+  }
+]

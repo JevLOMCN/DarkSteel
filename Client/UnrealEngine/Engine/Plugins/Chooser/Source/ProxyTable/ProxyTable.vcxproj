@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{C4BEFEA7-030A-52C2-99D6-5167A3E30F25}</ProjectGuid><RootNamespace>ProxyTable</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FChooserParameterProxyTableBase.cpp" />
+    <ClCompile Include="Private\FChooserPropertyBinding.cpp" />
+    <ClCompile Include="Private\FInstancedStruct.cpp" />
+    <ClCompile Include="Private\FLookupProxy.cpp" />
+    <ClCompile Include="Private\FLookupProxyWithOverrideTable.cpp" />
+    <ClCompile Include="Private\FProxyEntry.cpp" />
+    <ClCompile Include="Private\FProxyStructOutput.cpp" />
+    <ClCompile Include="Private\FProxyTableContextProperty.cpp" />
+    <ClCompile Include="Private\FRuntimeProxyValue.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\UChooserParameterProxyTable.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UProxyAsset.cpp" />
+    <ClCompile Include="Private\UProxyTable.cpp" />
+    <ClCompile Include="Private\UProxyTableFunctionLibrary.cpp" />
+    <ClCompile Include="Private\_Free\Module.ProxyTable.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

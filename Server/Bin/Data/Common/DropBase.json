@@ -1,0 +1,2379 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DropBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/DropBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_DropBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "DropGroupID": 101,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          1,
+          2
+        ],
+        "ID_DropListGroupRate": [
+          300000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "DropGroupID": 201,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          20
+        ],
+        "DropMoneyMaxCount": [
+          40
+        ],
+        "DropMoneyRate": [
+          450000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          201,
+          202,
+          203,
+          204,
+          205
+        ],
+        "ID_DropListGroupRate": [
+          250000,
+          150000,
+          500000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "DropGroupID": 202,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          30
+        ],
+        "DropMoneyMaxCount": [
+          50
+        ],
+        "DropMoneyRate": [
+          500000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          206,
+          207,
+          208,
+          209,
+          210
+        ],
+        "ID_DropListGroupRate": [
+          250000,
+          200000,
+          500000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "203": {
+        "ID": 203,
+        "DataStage": 23,
+        "DropGroupID": 203,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          48
+        ],
+        "DropMoneyMaxCount": [
+          72
+        ],
+        "DropMoneyRate": [
+          550000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          211,
+          212,
+          213,
+          214,
+          215
+        ],
+        "ID_DropListGroupRate": [
+          250000,
+          250000,
+          500000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "204": {
+        "ID": 204,
+        "DataStage": 23,
+        "DropGroupID": 204,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          72
+        ],
+        "DropMoneyMaxCount": [
+          108
+        ],
+        "DropMoneyRate": [
+          600000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          216,
+          217,
+          218,
+          219,
+          220
+        ],
+        "ID_DropListGroupRate": [
+          300000,
+          250000,
+          500000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "205": {
+        "ID": 205,
+        "DataStage": 23,
+        "DropGroupID": 205,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          72
+        ],
+        "DropMoneyMaxCount": [
+          108
+        ],
+        "DropMoneyRate": [
+          650000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          221,
+          222,
+          223,
+          224,
+          225
+        ],
+        "ID_DropListGroupRate": [
+          300000,
+          250000,
+          500000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "206": {
+        "ID": 206,
+        "DataStage": 23,
+        "DropGroupID": 206,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          96
+        ],
+        "DropMoneyMaxCount": [
+          144
+        ],
+        "DropMoneyRate": [
+          700000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          226,
+          227,
+          228,
+          229,
+          230
+        ],
+        "ID_DropListGroupRate": [
+          350000,
+          250000,
+          160000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "100101": {
+        "ID": 100101,
+        "DataStage": 23,
+        "DropGroupID": 100101,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          1,
+          2
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "100102": {
+        "ID": 100102,
+        "DataStage": 23,
+        "DropGroupID": 100102,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          2
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "100001": {
+        "ID": 100001,
+        "DataStage": 23,
+        "DropGroupID": 100001,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Gold"
+        ],
+        "DropMoneyMinCount": [
+          10
+        ],
+        "DropMoneyMaxCount": [
+          20
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [],
+        "ID_DropListGroupRate": [],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "100002": {
+        "ID": 100002,
+        "DataStage": 23,
+        "DropGroupID": 100002,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Gold"
+        ],
+        "DropMoneyMinCount": [
+          5
+        ],
+        "DropMoneyMaxCount": [
+          7
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [],
+        "ID_DropListGroupRate": [],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "200001": {
+        "ID": 200001,
+        "DataStage": 23,
+        "DropGroupID": 200001,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Gold"
+        ],
+        "DropMoneyMinCount": [
+          10
+        ],
+        "DropMoneyMaxCount": [
+          20
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [],
+        "ID_DropListGroupRate": [],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "200002": {
+        "ID": 200002,
+        "DataStage": 23,
+        "DropGroupID": 200002,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Gold"
+        ],
+        "DropMoneyMinCount": [
+          10
+        ],
+        "DropMoneyMaxCount": [
+          20
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [],
+        "ID_DropListGroupRate": [],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "300101": {
+        "ID": 300101,
+        "DataStage": 23,
+        "DropGroupID": 300101,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Gold"
+        ],
+        "DropMoneyMinCount": [
+          13
+        ],
+        "DropMoneyMaxCount": [
+          16
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          500000
+        ],
+        "ID_DropListGroup": [],
+        "ID_DropListGroupRate": [],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "300102": {
+        "ID": 300102,
+        "DataStage": 23,
+        "DropGroupID": 300102,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Gold"
+        ],
+        "DropMoneyMinCount": [
+          6
+        ],
+        "DropMoneyMaxCount": [
+          8
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [],
+        "ID_DropListGroupRate": [],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "300201": {
+        "ID": 300201,
+        "DataStage": 23,
+        "DropGroupID": 300201,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Gold"
+        ],
+        "DropMoneyMinCount": [
+          17
+        ],
+        "DropMoneyMaxCount": [
+          21
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          500000
+        ],
+        "ID_DropListGroup": [],
+        "ID_DropListGroupRate": [],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "300202": {
+        "ID": 300202,
+        "DataStage": 23,
+        "DropGroupID": 300202,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Gold"
+        ],
+        "DropMoneyMinCount": [
+          8
+        ],
+        "DropMoneyMaxCount": [
+          10
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [],
+        "ID_DropListGroupRate": [],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "400101": {
+        "ID": 400101,
+        "DataStage": 23,
+        "DropGroupID": 400101,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          400101,
+          400102
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 410101,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "400201": {
+        "ID": 400201,
+        "DataStage": 23,
+        "DropGroupID": 400201,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          400201,
+          400202
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 410201,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "400202": {
+        "ID": 400202,
+        "DataStage": 23,
+        "DropGroupID": 400202,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          400203,
+          400204
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 410202,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "400301": {
+        "ID": 400301,
+        "DataStage": 23,
+        "DropGroupID": 400301,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          400301
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 410301,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "400302": {
+        "ID": 400302,
+        "DataStage": 23,
+        "DropGroupID": 400302,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          400302
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 410302,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "500101": {
+        "ID": 500101,
+        "DataStage": 23,
+        "DropGroupID": 500101,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          500101,
+          500102
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 510101,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "500102": {
+        "ID": 500102,
+        "DataStage": 23,
+        "DropGroupID": 500102,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          500103,
+          500104
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 510102,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "600201": {
+        "ID": 600201,
+        "DataStage": 23,
+        "DropGroupID": 600201,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          600201,
+          600202
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 610201,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "600301": {
+        "ID": 600301,
+        "DataStage": 23,
+        "DropGroupID": 600301,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          600301,
+          600302
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 610301,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "700101": {
+        "ID": 700101,
+        "DataStage": 23,
+        "DropGroupID": 700101,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Gold"
+        ],
+        "DropMoneyMinCount": [
+          1000
+        ],
+        "DropMoneyMaxCount": [
+          1000
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          700101,
+          700102,
+          700103,
+          140000006,
+          140000005,
+          140000004,
+          140000003,
+          140000002,
+          140000001,
+          130300003
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000,
+          1000000,
+          1000000,
+          1000000,
+          1000000,
+          1000000,
+          1000000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "10001": {
+        "ID": 10001,
+        "DataStage": 23,
+        "DropGroupID": 10001,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          3
+        ],
+        "DropMoneyMaxCount": [
+          5
+        ],
+        "DropMoneyRate": [
+          600000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10001
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20001,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10002": {
+        "ID": 10002,
+        "DataStage": 23,
+        "DropGroupID": 10002,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          4
+        ],
+        "DropMoneyMaxCount": [
+          8
+        ],
+        "DropMoneyRate": [
+          700000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10002
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20002,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10003": {
+        "ID": 10003,
+        "DataStage": 23,
+        "DropGroupID": 10003,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          6
+        ],
+        "DropMoneyMaxCount": [
+          12
+        ],
+        "DropMoneyRate": [
+          700000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10003
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20003,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10004": {
+        "ID": 10004,
+        "DataStage": 23,
+        "DropGroupID": 10004,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          6
+        ],
+        "DropMoneyMaxCount": [
+          12
+        ],
+        "DropMoneyRate": [
+          700000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10004
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20004,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10005": {
+        "ID": 10005,
+        "DataStage": 23,
+        "DropGroupID": 10005,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          9
+        ],
+        "DropMoneyMaxCount": [
+          17
+        ],
+        "DropMoneyRate": [
+          700000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10005
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20005,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10006": {
+        "ID": 10006,
+        "DataStage": 23,
+        "DropGroupID": 10006,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          9
+        ],
+        "DropMoneyMaxCount": [
+          17
+        ],
+        "DropMoneyRate": [
+          700000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10006
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20006,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10101": {
+        "ID": 10101,
+        "DataStage": 23,
+        "DropGroupID": 10101,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          9
+        ],
+        "DropMoneyMaxCount": [
+          17
+        ],
+        "DropMoneyRate": [
+          800000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10101
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20101,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10102": {
+        "ID": 10102,
+        "DataStage": 23,
+        "DropGroupID": 10102,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          13
+        ],
+        "DropMoneyMaxCount": [
+          23
+        ],
+        "DropMoneyRate": [
+          800000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10102
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20102,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10103": {
+        "ID": 10103,
+        "DataStage": 23,
+        "DropGroupID": 10103,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          13
+        ],
+        "DropMoneyMaxCount": [
+          23
+        ],
+        "DropMoneyRate": [
+          800000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10103
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20103,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10104": {
+        "ID": 10104,
+        "DataStage": 23,
+        "DropGroupID": 10104,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          13
+        ],
+        "DropMoneyMaxCount": [
+          23
+        ],
+        "DropMoneyRate": [
+          800000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10104
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20104,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "10204": {
+        "ID": 10204,
+        "DataStage": 23,
+        "DropGroupID": 10204,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          41
+        ],
+        "DropMoneyMaxCount": [
+          75
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10204,
+          10205,
+          10206
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          500000,
+          700000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20204,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "DropGroupID": 1001,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          1001
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "DropGroupID": 1002,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          1002
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "DropGroupID": 1003,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          1003
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "DropGroupID": 1004,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          1004
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "DropGroupID": 1005,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          1005
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "800101": {
+        "ID": 800101,
+        "DataStage": 23,
+        "DropGroupID": 800101,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          400101
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          600201
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "800102": {
+        "ID": 800102,
+        "DataStage": 23,
+        "DropGroupID": 800102,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          400101
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "800103": {
+        "ID": 800103,
+        "DataStage": 23,
+        "DropGroupID": 800103,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          400101
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          600201
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "800201": {
+        "ID": 800201,
+        "DataStage": 23,
+        "DropGroupID": 800201,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          3
+        ],
+        "DropMoneyMaxCount": [
+          5
+        ],
+        "DropMoneyRate": [
+          600000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10001
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          400101
+        ],
+        "ID_DropListGroupLucky": 20001,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "800202": {
+        "ID": 800202,
+        "DataStage": 23,
+        "DropGroupID": 800202,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          3
+        ],
+        "DropMoneyMaxCount": [
+          5
+        ],
+        "DropMoneyRate": [
+          600000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10001
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 20001,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "800203": {
+        "ID": 800203,
+        "DataStage": 23,
+        "DropGroupID": 800203,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          3
+        ],
+        "DropMoneyMaxCount": [
+          5
+        ],
+        "DropMoneyRate": [
+          600000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          10001
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          400101
+        ],
+        "ID_DropListGroupLucky": 20001,
+        "ID_DropListGroupLuckyRate": 100000
+      },
+      "800204": {
+        "ID": 800204,
+        "DataStage": 23,
+        "DropGroupID": 800204,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          96
+        ],
+        "DropMoneyMaxCount": [
+          144
+        ],
+        "DropMoneyRate": [
+          700000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          307
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "500000000": {
+        "ID": 500000000,
+        "DataStage": 23,
+        "DropGroupID": 500000000,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          100000000
+        ],
+        "ID_DropListGroupRate": [
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000001": {
+        "ID": 510000001,
+        "DataStage": 23,
+        "DropGroupID": 510000001,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          100
+        ],
+        "DropMoneyMaxCount": [
+          100
+        ],
+        "DropMoneyRate": [
+          1000000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          110000001,
+          110000002,
+          110000003,
+          110000004
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          700000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000002": {
+        "ID": 510000002,
+        "DataStage": 23,
+        "DropGroupID": 510000002,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000005,
+          110000006,
+          110000007,
+          110000008,
+          110000009
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          500000,
+          700000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000003": {
+        "ID": 510000003,
+        "DataStage": 23,
+        "DropGroupID": 510000003,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000010,
+          110000011,
+          110000012,
+          110000012
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          500000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000004": {
+        "ID": 510000004,
+        "DataStage": 23,
+        "DropGroupID": 510000004,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000014
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000005": {
+        "ID": 510000005,
+        "DataStage": 23,
+        "DropGroupID": 510000005,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000015
+        ],
+        "ID_DropListGroupRate": [
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000006": {
+        "ID": 510000006,
+        "DataStage": 23,
+        "DropGroupID": 510000006,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000016
+        ],
+        "ID_DropListGroupRate": [
+          700000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000007": {
+        "ID": 510000007,
+        "DataStage": 23,
+        "DropGroupID": 510000007,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000017
+        ],
+        "ID_DropListGroupRate": [
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000008": {
+        "ID": 510000008,
+        "DataStage": 23,
+        "DropGroupID": 510000008,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000018
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000009": {
+        "ID": 510000009,
+        "DataStage": 23,
+        "DropGroupID": 510000009,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000019
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000010": {
+        "ID": 510000010,
+        "DataStage": 23,
+        "DropGroupID": 510000010,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000020,
+          110000021
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          700000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000011": {
+        "ID": 510000011,
+        "DataStage": 23,
+        "DropGroupID": 510000011,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000022,
+          110000023
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000012": {
+        "ID": 510000012,
+        "DataStage": 23,
+        "DropGroupID": 510000012,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000024,
+          110000025
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000013": {
+        "ID": 510000013,
+        "DataStage": 23,
+        "DropGroupID": 510000013,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000026,
+          110000027,
+          110000028
+        ],
+        "ID_DropListGroupRate": [
+          700000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000014": {
+        "ID": 510000014,
+        "DataStage": 23,
+        "DropGroupID": 510000014,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000029,
+          110000030,
+          110000031
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          700000,
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000015": {
+        "ID": 510000015,
+        "DataStage": 23,
+        "DropGroupID": 510000015,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000032,
+          110000033,
+          110000034
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          900000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000016": {
+        "ID": 510000016,
+        "DataStage": 23,
+        "DropGroupID": 510000016,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000035,
+          110000036,
+          110000037
+        ],
+        "ID_DropListGroupRate": [
+          700000,
+          1000000,
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000017": {
+        "ID": 510000017,
+        "DataStage": 23,
+        "DropGroupID": 510000017,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000038,
+          110000039,
+          110000040
+        ],
+        "ID_DropListGroupRate": [
+          1000000,
+          1000000,
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "510000018": {
+        "ID": 510000018,
+        "DataStage": 23,
+        "DropGroupID": 510000018,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          110000041,
+          110000042,
+          110000043
+        ],
+        "ID_DropListGroupRate": [
+          500000,
+          500000,
+          300000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "520000001": {
+        "ID": 520000001,
+        "DataStage": 23,
+        "DropGroupID": 520000001,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          5
+        ],
+        "DropMoneyMaxCount": [
+          15
+        ],
+        "DropMoneyRate": [
+          250000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          120000001
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "520000002": {
+        "ID": 520000002,
+        "DataStage": 23,
+        "DropGroupID": 520000002,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          17
+        ],
+        "DropMoneyMaxCount": [
+          25
+        ],
+        "DropMoneyRate": [
+          250000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          120000002
+        ],
+        "ID_DropListGroupRate": [
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "520000003": {
+        "ID": 520000003,
+        "DataStage": 23,
+        "DropGroupID": 520000003,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          27
+        ],
+        "DropMoneyMaxCount": [
+          37
+        ],
+        "DropMoneyRate": [
+          250000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          120000003
+        ],
+        "ID_DropListGroupRate": [
+          300000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "520100001": {
+        "ID": 520100001,
+        "DataStage": 23,
+        "DropGroupID": 520100001,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          120100001
+        ],
+        "ID_DropListGroupRate": [
+          700000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "520100002": {
+        "ID": 520100002,
+        "DataStage": 23,
+        "DropGroupID": 520100002,
+        "MoneyLoopCount": 0,
+        "DropMoneyType": [],
+        "DropMoneyMinCount": [],
+        "DropMoneyMaxCount": [],
+        "DropMoneyRate": [],
+        "DropMoneyTradeAbleRate": [],
+        "ID_DropListGroup": [
+          120100002
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "530300001": {
+        "ID": 530300001,
+        "DataStage": 23,
+        "DropGroupID": 530300001,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          27
+        ],
+        "DropMoneyMaxCount": [
+          40
+        ],
+        "DropMoneyRate": [
+          250000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          130300001
+        ],
+        "ID_DropListGroupRate": [
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "530300002": {
+        "ID": 530300002,
+        "DataStage": 23,
+        "DropGroupID": 530300002,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          40
+        ],
+        "DropMoneyMaxCount": [
+          60
+        ],
+        "DropMoneyRate": [
+          250000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          130300002
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "530300003": {
+        "ID": 530300003,
+        "DataStage": 23,
+        "DropGroupID": 530300003,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          62
+        ],
+        "DropMoneyMaxCount": [
+          95
+        ],
+        "DropMoneyRate": [
+          250000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          130300003
+        ],
+        "ID_DropListGroupRate": [
+          700000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "540000001": {
+        "ID": 540000001,
+        "DataStage": 23,
+        "DropGroupID": 540000001,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          10
+        ],
+        "DropMoneyMaxCount": [
+          20
+        ],
+        "DropMoneyRate": [
+          350000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          140000001
+        ],
+        "ID_DropListGroupRate": [
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "540000002": {
+        "ID": 540000002,
+        "DataStage": 23,
+        "DropGroupID": 540000002,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          35
+        ],
+        "DropMoneyMaxCount": [
+          50
+        ],
+        "DropMoneyRate": [
+          350000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          140000002
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "540000003": {
+        "ID": 540000003,
+        "DataStage": 23,
+        "DropGroupID": 540000003,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          55
+        ],
+        "DropMoneyMaxCount": [
+          75
+        ],
+        "DropMoneyRate": [
+          350000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          140000003
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "540000004": {
+        "ID": 540000004,
+        "DataStage": 23,
+        "DropGroupID": 540000004,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          55
+        ],
+        "DropMoneyMaxCount": [
+          80
+        ],
+        "DropMoneyRate": [
+          350000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          140000004
+        ],
+        "ID_DropListGroupRate": [
+          1000000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "540000005": {
+        "ID": 540000005,
+        "DataStage": 23,
+        "DropGroupID": 540000005,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          80
+        ],
+        "DropMoneyMaxCount": [
+          120
+        ],
+        "DropMoneyRate": [
+          350000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          140000005
+        ],
+        "ID_DropListGroupRate": [
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      },
+      "540000006": {
+        "ID": 540000006,
+        "DataStage": 23,
+        "DropGroupID": 540000006,
+        "MoneyLoopCount": 1,
+        "DropMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "DropMoneyMinCount": [
+          125
+        ],
+        "DropMoneyMaxCount": [
+          190
+        ],
+        "DropMoneyRate": [
+          350000
+        ],
+        "DropMoneyTradeAbleRate": [
+          0
+        ],
+        "ID_DropListGroup": [
+          140000006
+        ],
+        "ID_DropListGroupRate": [
+          500000
+        ],
+        "ID_DropListGroupGuaranteed": [
+          0
+        ],
+        "ID_DropListGroupLucky": 0,
+        "ID_DropListGroupLuckyRate": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "ActionFunctionType.proto";
+
+message SqlActionFunctionTable {
+  int64 player_uid = 1;
+  ActionFunctionType action_base_id = 2;
+}

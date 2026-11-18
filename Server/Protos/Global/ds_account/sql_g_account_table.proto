@@ -1,0 +1,15 @@
+syntax = "proto3";
+package ds_account;
+option csharp_namespace = "MirProto.DsAccount";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlGAccountTable {
+  int64 player_uid = 1;
+  string wn_pid = 2;
+  int32 server_id = 3;
+  int32 authority = 4;
+  google.protobuf.Timestamp reg_time = 5;
+  google.protobuf.Timestamp update_time = 6;
+}

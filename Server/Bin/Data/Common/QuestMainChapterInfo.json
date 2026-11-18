@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestMainChapterInfo",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestMainChapterInfo",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestMainChapterInfoTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ChapterTitle": {
+          "ID": 1000000001
+        }
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ChapterTitle": {
+          "ID": 1000000002
+        }
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ChapterTitle": {
+          "ID": 1000000003
+        }
+      },
+      "2001": {
+        "ID": 2001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ChapterTitle": {
+          "ID": 1020001004
+        }
+      }
+    }
+  }
+]

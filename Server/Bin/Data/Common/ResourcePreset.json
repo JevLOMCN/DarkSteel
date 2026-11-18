@@ -1,0 +1,4257 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourcePreset",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourcePreset",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourcePresetTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 1,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 95.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 1,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 2,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 85.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 2,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 95.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 1,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 85.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 2,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "301": {
+        "ID": 301,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 105.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 3,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "401": {
+        "ID": 401,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 95.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 4,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "501": {
+        "ID": 501,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 95.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 5,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "601": {
+        "ID": 601,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 105.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 6,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "701": {
+        "ID": 701,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 85.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 7,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "801": {
+        "ID": 801,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 85.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 8,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "901": {
+        "ID": 901,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 4,
+        "CapsuleHalfHeight": 85.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 9,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 4,
+        "CapsuleHalfHeight": 85.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 10,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1101": {
+        "ID": 1101,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 75.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 11,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1201": {
+        "ID": 1201,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC.CWS_PC",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 75.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 12,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1301": {
+        "ID": 1301,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 221,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "10000": {
+        "ID": 10000,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Totems.CWS_NPC_Totems",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 10.0,
+        "ID_AbpLink": 0,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "20101": {
+        "ID": 20101,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC_OG.CWS_PC_OG",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 1001,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "20201": {
+        "ID": 20201,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC_OG.CWS_PC_OG",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 1002,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "20301": {
+        "ID": 20301,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC_OG.CWS_PC_OG",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 1003,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "20401": {
+        "ID": 20401,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC_OG.CWS_PC_OG",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 1004,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "20501": {
+        "ID": 20501,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC_OG.CWS_PC_OG",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 1005,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "20601": {
+        "ID": 20601,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_PC_OG.CWS_PC_OG",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 1006,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200001": {
+        "ID": 200001,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 11,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 60.0,
+        "ID_AbpLink": 10001,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200002": {
+        "ID": 200002,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 12,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 120.0,
+        "ID_AbpLink": 10101,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200003": {
+        "ID": 200003,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 105.0,
+        "CapsuleRadius": 95.0,
+        "ID_AbpLink": 10701,
+        "HitEffectZOffset": 136.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200004": {
+        "ID": 200004,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 13,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 800.0,
+        "CapsuleRadius": 400.0,
+        "ID_AbpLink": 10301,
+        "HitEffectZOffset": 1040.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200005": {
+        "ID": 200005,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 120.0,
+        "ID_AbpLink": 10401,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200006": {
+        "ID": 200006,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 180.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 10501,
+        "HitEffectZOffset": 234.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200007": {
+        "ID": 200007,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 6,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 10601,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200008": {
+        "ID": 200008,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Totems.CWS_NPC_Totems",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 10.0,
+        "ID_AbpLink": 0,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200009": {
+        "ID": 200009,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 10702,
+        "HitEffectZOffset": 90.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200010": {
+        "ID": 200010,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 10702,
+        "HitEffectZOffset": 90.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200011": {
+        "ID": 200011,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 10801,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200012": {
+        "ID": 200012,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 10901,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200013": {
+        "ID": 200013,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 11001,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200014": {
+        "ID": 200014,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 4,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 11101,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200015": {
+        "ID": 200015,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 5,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 11201,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200016": {
+        "ID": 200016,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 11301,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200017": {
+        "ID": 200017,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 11401,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200018": {
+        "ID": 200018,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 10401,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200019": {
+        "ID": 200019,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 10401,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200020": {
+        "ID": 200020,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 6,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 10501,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200021": {
+        "ID": 200021,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 6,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 10601,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200022": {
+        "ID": 200022,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 11501,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200023": {
+        "ID": 200023,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 120.0,
+        "CapsuleRadius": 100.0,
+        "ID_AbpLink": 11601,
+        "HitEffectZOffset": 156.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200024": {
+        "ID": 200024,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 120.0,
+        "CapsuleRadius": 100.0,
+        "ID_AbpLink": 11701,
+        "HitEffectZOffset": 156.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200025": {
+        "ID": 200025,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 10,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 11801,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200026": {
+        "ID": 200026,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 10,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 11801,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200027": {
+        "ID": 200027,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 11901,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200028": {
+        "ID": 200028,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 12001,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200029": {
+        "ID": 200029,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 12101,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200030": {
+        "ID": 200030,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 11,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 65.0,
+        "ID_AbpLink": 12201,
+        "HitEffectZOffset": 90.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200031": {
+        "ID": 200031,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 11,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 65.0,
+        "ID_AbpLink": 12201,
+        "HitEffectZOffset": 90.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200032": {
+        "ID": 200032,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 11,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 65.0,
+        "ID_AbpLink": 12201,
+        "HitEffectZOffset": 90.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200033": {
+        "ID": 200033,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 13,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 100.0,
+        "ID_AbpLink": 10301,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200034": {
+        "ID": 200034,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 800.0,
+        "CapsuleRadius": 450.0,
+        "ID_AbpLink": 12301,
+        "HitEffectZOffset": 1040.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200035": {
+        "ID": 200035,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 170.0,
+        "CapsuleRadius": 160.0,
+        "ID_AbpLink": 12401,
+        "HitEffectZOffset": 221.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200036": {
+        "ID": 200036,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 140.0,
+        "CapsuleRadius": 110.0,
+        "ID_AbpLink": 12403,
+        "HitEffectZOffset": 182.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200037": {
+        "ID": 200037,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 140.0,
+        "CapsuleRadius": 110.0,
+        "ID_AbpLink": 12404,
+        "HitEffectZOffset": 182.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200038": {
+        "ID": 200038,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 80.0,
+        "CapsuleRadius": 70.0,
+        "ID_AbpLink": 12501,
+        "HitEffectZOffset": 104.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200039": {
+        "ID": 200039,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 750.0,
+        "CapsuleRadius": 350.0,
+        "ID_AbpLink": 12601,
+        "HitEffectZOffset": 975.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200040": {
+        "ID": 200040,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 200.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 12701,
+        "HitEffectZOffset": 260.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200041": {
+        "ID": 200041,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 12801,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200042": {
+        "ID": 200042,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 4,
+        "CapsuleHalfHeight": 110.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 12901,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200043": {
+        "ID": 200043,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 13001,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200044": {
+        "ID": 200044,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 12891,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200045": {
+        "ID": 200045,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 4,
+        "CapsuleHalfHeight": 110.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 12991,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200046": {
+        "ID": 200046,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 13091,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200047": {
+        "ID": 200047,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 240.0,
+        "CapsuleRadius": 120.0,
+        "ID_AbpLink": 12611,
+        "HitEffectZOffset": 312.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200048": {
+        "ID": 200048,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Totems.CWS_NPC_Totems",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 10.0,
+        "ID_AbpLink": 13092,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200049": {
+        "ID": 200049,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 13201,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200050": {
+        "ID": 200050,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 6,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 240.0,
+        "CapsuleRadius": 120.0,
+        "ID_AbpLink": 13101,
+        "HitEffectZOffset": 312.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200051": {
+        "ID": 200051,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 10.0,
+        "ID_AbpLink": 0,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200052": {
+        "ID": 200052,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 10702,
+        "HitEffectZOffset": 90.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200053": {
+        "ID": 200053,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humanoid.CWS_NPC_Humanoid",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 65.0,
+        "ID_AbpLink": 13301,
+        "HitEffectZOffset": 91.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200054": {
+        "ID": 200054,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 300.0,
+        "CapsuleRadius": 100.0,
+        "ID_AbpLink": 13401,
+        "HitEffectZOffset": 390.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200055": {
+        "ID": 200055,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Undead.CWS_NPC_Undead",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 110.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 13501,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200056": {
+        "ID": 200056,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Undead.CWS_NPC_Undead",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 110.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 13502,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200057": {
+        "ID": 200057,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 55.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 13601,
+        "HitEffectZOffset": 71.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200058": {
+        "ID": 200058,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 800.0,
+        "CapsuleRadius": 450.0,
+        "ID_AbpLink": 12302,
+        "HitEffectZOffset": 1040.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200059": {
+        "ID": 200059,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 13093,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200060": {
+        "ID": 200060,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 1.0,
+        "CapsuleRadius": 1.0,
+        "ID_AbpLink": 13093,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200061": {
+        "ID": 200061,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 500.0,
+        "CapsuleRadius": 200.0,
+        "ID_AbpLink": 13701,
+        "HitEffectZOffset": 650.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200062": {
+        "ID": 200062,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 105.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 13801,
+        "HitEffectZOffset": 136.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200063": {
+        "ID": 200063,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 13901,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200064": {
+        "ID": 200064,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 14001,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200065": {
+        "ID": 200065,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 240.0,
+        "CapsuleRadius": 120.0,
+        "ID_AbpLink": 12612,
+        "HitEffectZOffset": 312.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200066": {
+        "ID": 200066,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 14101,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200067": {
+        "ID": 200067,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14102,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200068": {
+        "ID": 200068,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14301,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200069": {
+        "ID": 200069,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 4,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14401,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200070": {
+        "ID": 200070,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 5,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14501,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200071": {
+        "ID": 200071,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 6,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 12801,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200072": {
+        "ID": 200072,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14601,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200073": {
+        "ID": 200073,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14701,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200074": {
+        "ID": 200074,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14801,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200075": {
+        "ID": 200075,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 4,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14901,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200076": {
+        "ID": 200076,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 30.0,
+        "CapsuleRadius": 20.0,
+        "ID_AbpLink": 15001,
+        "HitEffectZOffset": 50.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200077": {
+        "ID": 200077,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 6,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 90.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 15101,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200078": {
+        "ID": 200078,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 35.0,
+        "CapsuleRadius": 30.0,
+        "ID_AbpLink": 15201,
+        "HitEffectZOffset": 55.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200079": {
+        "ID": 200079,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 14201,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200080": {
+        "ID": 200080,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 15301,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200081": {
+        "ID": 200081,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 15401,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200082": {
+        "ID": 200082,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 15501,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200083": {
+        "ID": 200083,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 7,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14301,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200084": {
+        "ID": 200084,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 4,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 15601,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200085": {
+        "ID": 200085,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_CharacterNPC.CWS_CharacterNPC",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 4,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 15701,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200086": {
+        "ID": 200086,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 800.0,
+        "CapsuleRadius": 450.0,
+        "ID_AbpLink": 15801,
+        "HitEffectZOffset": 1040.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200087": {
+        "ID": 200087,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Undead.CWS_NPC_Undead",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 120.0,
+        "CapsuleRadius": 60.0,
+        "ID_AbpLink": 15901,
+        "HitEffectZOffset": 180.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200088": {
+        "ID": 200088,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 6,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 16001,
+        "HitEffectZOffset": 70.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200089": {
+        "ID": 200089,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 13001,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200090": {
+        "ID": 200090,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 10,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16101,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200091": {
+        "ID": 200091,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 7,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16201,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200092": {
+        "ID": 200092,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 11,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16301,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200093": {
+        "ID": 200093,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWN_Mount.CWN_Mount",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 200.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 16401,
+        "HitEffectZOffset": 260.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200094": {
+        "ID": 200094,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Gimmick.CWS_NPC_Gimmick",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 20.0,
+        "CapsuleRadius": 20.0,
+        "ID_AbpLink": 80001,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200095": {
+        "ID": 200095,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Gimmick.CWS_NPC_Gimmick",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 80001,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200096": {
+        "ID": 200096,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 11,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16501,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200097": {
+        "ID": 200097,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 10,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16601,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200098": {
+        "ID": 200098,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 80002,
+        "HitEffectZOffset": 136.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200099": {
+        "ID": 200099,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 16701,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200100": {
+        "ID": 200100,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Undead.CWS_NPC_Undead",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 120.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 16801,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200101": {
+        "ID": 200101,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 105.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 13802,
+        "HitEffectZOffset": 136.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200102": {
+        "ID": 200102,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 105.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 13803,
+        "HitEffectZOffset": 136.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200103": {
+        "ID": 200103,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Gimmick.CWS_NPC_Gimmick",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 30.0,
+        "CapsuleRadius": 30.0,
+        "ID_AbpLink": 80003,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Gimmick/Liftup/NPC_Gimmick_Liftup_SphereBomb01_S/GC_NPC_Gimmick_Liftup_SphereBomb01_S.GC_NPC_Gimmick_Liftup_SphereBomb01_S",
+          "SubPathString": ""
+        }
+      },
+      "200104": {
+        "ID": 200104,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Gimmick.CWS_NPC_Gimmick",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 30.0,
+        "CapsuleRadius": 30.0,
+        "ID_AbpLink": 80004,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200105": {
+        "ID": 200105,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 11,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16901,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200106": {
+        "ID": 200106,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 17001,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200107": {
+        "ID": 200107,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 10,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 130.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 17101,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200108": {
+        "ID": 200108,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 80.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 17201,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200109": {
+        "ID": 200109,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 6,
+        "CapsuleHalfHeight": 110.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 17501,
+        "HitEffectZOffset": 143.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200110": {
+        "ID": 200110,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 7,
+        "CapsuleHalfHeight": 110.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 17501,
+        "HitEffectZOffset": 143.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200111": {
+        "ID": 200111,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Demon.CWS_NPC_Demon",
+          "SubPathString": ""
+        },
+        "CharacterID": 11,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 30.0,
+        "ID_AbpLink": 17601,
+        "HitEffectZOffset": 90.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200112": {
+        "ID": 200112,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Undead.CWS_NPC_Undead",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 115.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 17301,
+        "HitEffectZOffset": 115.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200113": {
+        "ID": 200113,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 12,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 85.0,
+        "CapsuleRadius": 30.0,
+        "ID_AbpLink": 17401,
+        "HitEffectZOffset": 85.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200114": {
+        "ID": 200114,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 10,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 250.0,
+        "CapsuleRadius": 240.0,
+        "ID_AbpLink": 17702,
+        "HitEffectZOffset": 200.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200115": {
+        "ID": 200115,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 13,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16501,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200116": {
+        "ID": 200116,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 13,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16601,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200117": {
+        "ID": 200117,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 8,
+        "CapsuleHalfHeight": 110.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 17501,
+        "HitEffectZOffset": 143.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200118": {
+        "ID": 200118,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 15,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16601,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200119": {
+        "ID": 200119,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 14,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16601,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200120": {
+        "ID": 200120,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 12,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16501,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200121": {
+        "ID": 200121,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 12,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16601,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200122": {
+        "ID": 200122,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 14,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 110.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 17801,
+        "HitEffectZOffset": 150.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200123": {
+        "ID": 200123,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 14,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16602,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200124": {
+        "ID": 200124,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 70.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 10702,
+        "HitEffectZOffset": 136.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200125": {
+        "ID": 200125,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 13,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16502,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200126": {
+        "ID": 200126,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 13,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16602,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200127": {
+        "ID": 200127,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 8,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 17802,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200128": {
+        "ID": 200128,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 6,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16503,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200129": {
+        "ID": 200129,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 6,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16504,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200130": {
+        "ID": 200130,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 6,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16505,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200131": {
+        "ID": 200131,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 12,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16603,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200132": {
+        "ID": 200132,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 12,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16604,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200133": {
+        "ID": 200133,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 12,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 16605,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200134": {
+        "ID": 200134,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Animals.CWS_NPC_Animals",
+          "SubPathString": ""
+        },
+        "CharacterID": 14,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 40.0,
+        "ID_AbpLink": 16001,
+        "HitEffectZOffset": 75.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200135": {
+        "ID": 200135,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 12802,
+        "HitEffectZOffset": 120.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200136": {
+        "ID": 200136,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 14602,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200137": {
+        "ID": 200137,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Beast.CWS_NPC_Beast",
+          "SubPathString": ""
+        },
+        "CharacterID": 14,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 44.0,
+        "CapsuleRadius": 14.0,
+        "ID_AbpLink": 17801,
+        "HitEffectZOffset": 150.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200138": {
+        "ID": 200138,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Gimmick.CWS_NPC_Gimmick",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 200.0,
+        "ID_AbpLink": 80005,
+        "HitEffectZOffset": 150.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200139": {
+        "ID": 200139,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 11,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 13002,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200140": {
+        "ID": 200140,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Humans.CWS_NPC_Humans",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 8,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 35.0,
+        "ID_AbpLink": 17901,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200141": {
+        "ID": 200141,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWN_Mount.CWN_Mount",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 200.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 16403,
+        "HitEffectZOffset": 260.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "200142": {
+        "ID": 200142,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Gimmick.CWS_NPC_Gimmick",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 30.0,
+        "CapsuleRadius": 30.0,
+        "ID_AbpLink": 80006,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Gimmick/Liftup/NPC_Gimmick_Liftup_SphereBomb01_S/GC_NPC_Gimmick_Liftup_SphereBomb01_S.GC_NPC_Gimmick_Liftup_SphereBomb01_S",
+          "SubPathString": ""
+        }
+      },
+      "201001": {
+        "ID": 201001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 12291,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "201002": {
+        "ID": 201002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 19,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 2.0,
+        "CapsuleRadius": 1.0,
+        "ID_AbpLink": 0,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "201003": {
+        "ID": 201003,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 24,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 12292,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "300001": {
+        "ID": 300001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Dungeon_OG.CWS_Dungeon_OG",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 800.0,
+        "CapsuleRadius": 450.0,
+        "ID_AbpLink": 15801,
+        "HitEffectZOffset": 1040.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "400001": {
+        "ID": 400001,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 400001,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 40001,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "400002": {
+        "ID": 400002,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 400002,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 10,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 30006,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "400003": {
+        "ID": 400003,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 400003,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 12,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 90001,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "400004": {
+        "ID": 400004,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 400004,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 14,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 90002,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "410001": {
+        "ID": 410001,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 410001,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Quest.CWS_Stuff_Quest",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 30100,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500001": {
+        "ID": 500001,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500001,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather.CWS_Stuff_Gather",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30009,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500002": {
+        "ID": 500002,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500002,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 660.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 30003,
+        "HitEffectZOffset": 858.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500003": {
+        "ID": 500003,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 500003,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30002,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500004": {
+        "ID": 500004,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500004,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30004,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500005": {
+        "ID": 500005,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500005,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 6,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 90.0,
+        "CapsuleRadius": 90.0,
+        "ID_AbpLink": 30005,
+        "HitEffectZOffset": 117.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500006": {
+        "ID": 500006,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500006,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 660.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 30003,
+        "HitEffectZOffset": 858.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500007": {
+        "ID": 500007,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500007,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30002,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500008": {
+        "ID": 500008,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500008,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 9,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30004,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500009": {
+        "ID": 500009,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30007,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500010": {
+        "ID": 500010,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500010,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 11,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30007,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500011": {
+        "ID": 500011,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500011,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 13,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30007,
+        "HitEffectZOffset": 130.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500012": {
+        "ID": 500012,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500012,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 15,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 30008,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500013": {
+        "ID": 500013,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500013,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather.CWS_Stuff_Gather",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30009,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500014": {
+        "ID": 500014,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500014,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather.CWS_Stuff_Gather",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 90.0,
+        "CapsuleRadius": 90.0,
+        "ID_AbpLink": 30010,
+        "HitEffectZOffset": 117.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500015": {
+        "ID": 500015,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500015,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather.CWS_Stuff_Gather",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 660.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 30011,
+        "HitEffectZOffset": 858.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500016": {
+        "ID": 500016,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500016,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather.CWS_Stuff_Gather",
+          "SubPathString": ""
+        },
+        "CharacterID": 6,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30012,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500017": {
+        "ID": 500017,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500017,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather.CWS_Stuff_Gather",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30013,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500018": {
+        "ID": 500018,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500018,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather.CWS_Stuff_Gather",
+          "SubPathString": ""
+        },
+        "CharacterID": 7,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 90.0,
+        "CapsuleRadius": 90.0,
+        "ID_AbpLink": 30014,
+        "HitEffectZOffset": 117.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500019": {
+        "ID": 500019,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500019,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather.CWS_Stuff_Gather",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 90.0,
+        "CapsuleRadius": 90.0,
+        "ID_AbpLink": 30015,
+        "HitEffectZOffset": 117.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500020": {
+        "ID": 500020,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500020,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Breach.CWS_Stuff_Breach",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 90.0,
+        "ID_AbpLink": 30016,
+        "HitEffectZOffset": 117.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500021": {
+        "ID": 500021,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500021,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 10,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 30017,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500022": {
+        "ID": 500022,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500022,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Breach.CWS_Stuff_Breach",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 1.0,
+        "CapsuleRadius": 1.0,
+        "ID_AbpLink": 30018,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500023": {
+        "ID": 500023,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500023,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Stuff.CWS_BG_Stuff",
+          "SubPathString": ""
+        },
+        "CharacterID": 12,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 150.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 30019,
+        "HitEffectZOffset": 195.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500024": {
+        "ID": 500024,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500024,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Breach.CWS_Stuff_Breach",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 30020,
+        "HitEffectZOffset": 150.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "500025": {
+        "ID": 500025,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 500025,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_Stuff_Gather.CWS_Stuff_Gather",
+          "SubPathString": ""
+        },
+        "CharacterID": 4,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 660.0,
+        "CapsuleRadius": 150.0,
+        "ID_AbpLink": 0,
+        "HitEffectZOffset": 858.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "510001": {
+        "ID": 510001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 2.0,
+        "CapsuleRadius": 1.0,
+        "ID_AbpLink": 61001,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "510002": {
+        "ID": 510002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 8,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 2.0,
+        "CapsuleRadius": 1.0,
+        "ID_AbpLink": 61002,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "600001": {
+        "ID": 600001,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Transport.CWS_BG_Transport",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 500.0,
+        "CapsuleRadius": 500.0,
+        "ID_AbpLink": 50001,
+        "HitEffectZOffset": 650.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "600002": {
+        "ID": 600002,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Transport.CWS_BG_Transport",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 350.0,
+        "CapsuleRadius": 400.0,
+        "ID_AbpLink": 0,
+        "HitEffectZOffset": 455.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "600003": {
+        "ID": 600003,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Transport.CWS_BG_Transport",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 100.0,
+        "ID_AbpLink": 50002,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "600004": {
+        "ID": 600004,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Characters/BGs/CWS_BG_Transport.CWS_BG_Transport",
+          "SubPathString": ""
+        },
+        "CharacterID": 3,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 100.0,
+        "CapsuleRadius": 100.0,
+        "ID_AbpLink": 0,
+        "HitEffectZOffset": 1.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "900001": {
+        "ID": 900001,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 6,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 240.0,
+        "CapsuleRadius": 120.0,
+        "ID_AbpLink": 70001,
+        "HitEffectZOffset": 312.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "900002": {
+        "ID": 900002,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWS_NPC_Object.CWS_NPC_Object",
+          "SubPathString": ""
+        },
+        "CharacterID": 5,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 50.0,
+        "CapsuleRadius": 50.0,
+        "ID_AbpLink": 70002,
+        "HitEffectZOffset": 65.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1000001": {
+        "ID": 1000001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWN_Mount.CWN_Mount",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 200.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 16402,
+        "HitEffectZOffset": 260.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1000002": {
+        "ID": 1000002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWN_Mount.CWN_Mount",
+          "SubPathString": ""
+        },
+        "CharacterID": 2,
+        "PresetID": 3,
+        "CapsuleHalfHeight": 200.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 16402,
+        "HitEffectZOffset": 260.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1000101": {
+        "ID": 1000101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWN_Mount.CWN_Mount",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 200.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 16404,
+        "HitEffectZOffset": 260.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1000102": {
+        "ID": 1000102,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWN_Mount.CWN_Mount",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 200.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 16404,
+        "HitEffectZOffset": 260.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1100001": {
+        "ID": 1100001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWN_Mount_OG.CWN_Mount_OG",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 1,
+        "CapsuleHalfHeight": 200.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 16402,
+        "HitEffectZOffset": 260.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1100002": {
+        "ID": 1100002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ResourceMesh": 0,
+        "WorkSpacePath": {
+          "AssetPathName": "/Game/Datas/Character/Workspace/CWN_Mount_OG.CWN_Mount_OG",
+          "SubPathString": ""
+        },
+        "CharacterID": 1,
+        "PresetID": 2,
+        "CapsuleHalfHeight": 200.0,
+        "CapsuleRadius": 85.0,
+        "ID_AbpLink": 16402,
+        "HitEffectZOffset": 260.0,
+        "DestructionGCPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

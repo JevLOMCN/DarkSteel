@@ -1,0 +1,31 @@
+syntax = "proto3";
+package region;
+option csharp_namespace = "MirProto.Region";
+
+import "messages.proto";
+import "role_register.proto";
+
+message GameServerToRegionServerMessages {
+  messages.ServerSession server_session = 1;
+  oneof GameServerMessage {
+    protocol.ServerRoleRegister RoleRegister = 10;
+    region.PingRequest PingReq = 11;
+  }
+}
+message RegionServerToGameServerMessages {
+  oneof RegionServerMessageType {
+    messages.None None = 1;
+    messages.All All = 2;
+    messages.Target Target = 3;
+  }
+  oneof RegionServerMessage {
+    protocol.ServerRoleRegister RoleRegister = 10;
+    region.PongResponse PongRes = 11;
+  }
+}
+message PingRequest {
+  double ticks = 1;
+}
+message PongResponse {
+  double ticks = 1;
+}

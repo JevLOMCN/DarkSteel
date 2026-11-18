@@ -1,0 +1,6622 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "2991001": {
+        "ID": 2991001,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointAchievement",
+        "QuestOpenConditionValue": 1002001,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991001001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991001002
+        },
+        "ID_QuestObjectiveId": [
+          29910011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991001
+      },
+      "2991002": {
+        "ID": 2991002,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991002001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991002002
+        },
+        "ID_QuestObjectiveId": [
+          29910021
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991002
+      },
+      "2991003": {
+        "ID": 2991003,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60710
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991003001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991003002
+        },
+        "ID_QuestObjectiveId": [
+          29910031
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991003
+      },
+      "2991004": {
+        "ID": 2991004,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991004001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991004002
+        },
+        "ID_QuestObjectiveId": [
+          29910041
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991004
+      },
+      "2991005": {
+        "ID": 2991005,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991005001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991005002
+        },
+        "ID_QuestObjectiveId": [
+          100000501
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991005
+      },
+      "2991006": {
+        "ID": 2991006,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991006001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991006002
+        },
+        "ID_QuestObjectiveId": [
+          29910061
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991006
+      },
+      "2991007": {
+        "ID": 2991007,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 2991002,
+        "ConditionStringId": {
+          "ID": 60708
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991007001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991007002
+        },
+        "ID_QuestObjectiveId": [
+          29910071
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991007
+      },
+      "2991008": {
+        "ID": 2991008,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 2991007,
+        "ConditionStringId": {
+          "ID": 60708
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991008001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991008002
+        },
+        "ID_QuestObjectiveId": [
+          29910081
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991008
+      },
+      "2991009": {
+        "ID": 2991009,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 2991008,
+        "ConditionStringId": {
+          "ID": 60708
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991009001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991009002
+        },
+        "ID_QuestObjectiveId": [
+          29910091
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991009
+      },
+      "2991010": {
+        "ID": 2991010,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991010001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991010002
+        },
+        "ID_QuestObjectiveId": [
+          29910101
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991010
+      },
+      "2991011": {
+        "ID": 2991011,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991011001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991011002
+        },
+        "ID_QuestObjectiveId": [
+          29910111
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991011
+      },
+      "2991012": {
+        "ID": 2991012,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991012001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991012002
+        },
+        "ID_QuestObjectiveId": [
+          29910121
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991012
+      },
+      "2991013": {
+        "ID": 2991013,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991013001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991013002
+        },
+        "ID_QuestObjectiveId": [
+          29910131
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991013
+      },
+      "2991014": {
+        "ID": 2991014,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991014001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991014002
+        },
+        "ID_QuestObjectiveId": [
+          29910141
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991014
+      },
+      "2991015": {
+        "ID": 2991015,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60710
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991015001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991015002
+        },
+        "ID_QuestObjectiveId": [
+          29910151
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991015
+      },
+      "2991016": {
+        "ID": 2991016,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60710
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991016001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991016002
+        },
+        "ID_QuestObjectiveId": [
+          29910161
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991016
+      },
+      "2991017": {
+        "ID": 2991017,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::PlayerGrade",
+        "QuestOpenConditionValue": 5,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991017001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991017002
+        },
+        "ID_QuestObjectiveId": [
+          29910171
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991017
+      },
+      "2991018": {
+        "ID": 2991018,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991018001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991018002
+        },
+        "ID_QuestObjectiveId": [
+          29910181
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991018
+      },
+      "2991019": {
+        "ID": 2991019,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991019001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991019002
+        },
+        "ID_QuestObjectiveId": [
+          29910191
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991022": {
+        "ID": 2991022,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991019004
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991019004
+        },
+        "ID_QuestObjectiveId": [
+          10000154
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991023": {
+        "ID": 2991023,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60708
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991007001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991007002
+        },
+        "ID_QuestObjectiveId": [
+          29910192,
+          29910241,
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991007
+      },
+      "2991024": {
+        "ID": 2991024,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991020001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991020002
+        },
+        "ID_QuestObjectiveId": [
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991024
+      },
+      "2991025": {
+        "ID": 2991025,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991020001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991020002
+        },
+        "ID_QuestObjectiveId": [
+          29910251
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991025
+      },
+      "2991026": {
+        "ID": 2991026,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::C",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991020001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991020002
+        },
+        "ID_QuestObjectiveId": [
+          29910261
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 0
+      },
+      "2991027": {
+        "ID": 2991027,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991023001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991023002
+        },
+        "ID_QuestObjectiveId": [
+          29910271
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991028": {
+        "ID": 2991028,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991024001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991024002
+        },
+        "ID_QuestObjectiveId": [
+          29910272
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991029": {
+        "ID": 2991029,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991025001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991025002
+        },
+        "ID_QuestObjectiveId": [
+          29910273
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991030": {
+        "ID": 2991030,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991026001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991026002
+        },
+        "ID_QuestObjectiveId": [
+          29910274
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991031": {
+        "ID": 2991031,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991027001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991027002
+        },
+        "ID_QuestObjectiveId": [
+          29910275
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991032": {
+        "ID": 2991032,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991028001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991028002
+        },
+        "ID_QuestObjectiveId": [
+          29910276
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991033": {
+        "ID": 2991033,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991029001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991029002
+        },
+        "ID_QuestObjectiveId": [
+          29910277
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991034": {
+        "ID": 2991034,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991030001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991030002
+        },
+        "ID_QuestObjectiveId": [
+          29910278
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991035": {
+        "ID": 2991035,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991031001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991031002
+        },
+        "ID_QuestObjectiveId": [
+          29910279
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991036": {
+        "ID": 2991036,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991032001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991032002
+        },
+        "ID_QuestObjectiveId": [
+          29910280
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991037": {
+        "ID": 2991037,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991033001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991033002
+        },
+        "ID_QuestObjectiveId": [
+          29910281
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991038": {
+        "ID": 2991038,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991034001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991034002
+        },
+        "ID_QuestObjectiveId": [
+          29910282
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991039": {
+        "ID": 2991039,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991035001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991035002
+        },
+        "ID_QuestObjectiveId": [
+          29910283
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991040": {
+        "ID": 2991040,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991036001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991036002
+        },
+        "ID_QuestObjectiveId": [
+          29910284
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991041": {
+        "ID": 2991041,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991037001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991037002
+        },
+        "ID_QuestObjectiveId": [
+          29910285
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2001011
+      },
+      "2991042": {
+        "ID": 2991042,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991019004
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991019004
+        },
+        "ID_QuestObjectiveId": [
+          10000155
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991043": {
+        "ID": 2991043,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991038001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991038002
+        },
+        "ID_QuestObjectiveId": [
+          29910286
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991044": {
+        "ID": 2991044,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991038001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991039002
+        },
+        "ID_QuestObjectiveId": [
+          29910287
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991045": {
+        "ID": 2991045,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991038001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991040002
+        },
+        "ID_QuestObjectiveId": [
+          29910288
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991046": {
+        "ID": 2991046,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991038001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991041002
+        },
+        "ID_QuestObjectiveId": [
+          29910289
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991047": {
+        "ID": 2991047,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991038001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991042002
+        },
+        "ID_QuestObjectiveId": [
+          29910290
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991048": {
+        "ID": 2991048,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991038001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991043002
+        },
+        "ID_QuestObjectiveId": [
+          29910291
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991049": {
+        "ID": 2991049,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointCharacterGet",
+        "QuestOpenConditionValue": 4,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991044002
+        },
+        "ID_QuestObjectiveId": [
+          29910292
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991050": {
+        "ID": 2991050,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991045002
+        },
+        "ID_QuestObjectiveId": [
+          29910293
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991051": {
+        "ID": 2991051,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991046002
+        },
+        "ID_QuestObjectiveId": [
+          29910294
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991052": {
+        "ID": 2991052,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991047002
+        },
+        "ID_QuestObjectiveId": [
+          29910295
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991053": {
+        "ID": 2991053,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991048002
+        },
+        "ID_QuestObjectiveId": [
+          29910296
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991054": {
+        "ID": 2991054,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991049002
+        },
+        "ID_QuestObjectiveId": [
+          29910297
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991055": {
+        "ID": 2991055,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991050002
+        },
+        "ID_QuestObjectiveId": [
+          29910298
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991056": {
+        "ID": 2991056,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991051002
+        },
+        "ID_QuestObjectiveId": [
+          29910299
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991057": {
+        "ID": 2991057,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991052002
+        },
+        "ID_QuestObjectiveId": [
+          29910300
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991058": {
+        "ID": 2991058,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991053002
+        },
+        "ID_QuestObjectiveId": [
+          29910301
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991059": {
+        "ID": 2991059,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991044001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991054002
+        },
+        "ID_QuestObjectiveId": [
+          29910302
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991060": {
+        "ID": 2991060,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 1,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 1,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910303
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991061": {
+        "ID": 2991061,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 2,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 1,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910304
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991062": {
+        "ID": 2991062,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 3,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 2,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910305
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991063": {
+        "ID": 2991063,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 1,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 1,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910306
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991064": {
+        "ID": 2991064,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 2,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 2,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910307
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991065": {
+        "ID": 2991065,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 3,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 3,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910308
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991066": {
+        "ID": 2991066,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 1,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 1,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910309
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991067": {
+        "ID": 2991067,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 2,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 2,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910310
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991068": {
+        "ID": 2991068,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 3,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 3,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910311
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991069": {
+        "ID": 2991069,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 4,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 4,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910312
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991070": {
+        "ID": 2991070,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 1,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 1,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910313
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991071": {
+        "ID": 2991071,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 2,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 2,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910314
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991072": {
+        "ID": 2991072,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 3,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 3,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910315
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991073": {
+        "ID": 2991073,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 4,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 4,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910316
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991074": {
+        "ID": 2991074,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::NpcRelationEvolveAble",
+        "QuestOpenConditionValue": 5,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 5,
+        "ID_QuestTitleId": {
+          "ID": 2991055002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055003
+        },
+        "ID_QuestObjectiveId": [
+          29910317
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991075": {
+        "ID": 2991075,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055004
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055005
+        },
+        "ID_QuestObjectiveId": [
+          29910318
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991076": {
+        "ID": 2991076,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055007
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055009
+        },
+        "ID_QuestObjectiveId": [
+          29910319
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991077": {
+        "ID": 2991077,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2024003001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2024003002
+        },
+        "ID_QuestObjectiveId": [
+          29910320
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991078": {
+        "ID": 2991078,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2024004001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2024004002
+        },
+        "ID_QuestObjectiveId": [
+          29910321
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991079": {
+        "ID": 2991079,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 1,
+        "ID_QuestTitleId": {
+          "ID": 2991055010
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055012
+        },
+        "ID_QuestObjectiveId": [
+          29910322
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991080": {
+        "ID": 2991080,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 2,
+        "ID_QuestTitleId": {
+          "ID": 2991055010
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055012
+        },
+        "ID_QuestObjectiveId": [
+          29910323
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991081": {
+        "ID": 2991081,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 3,
+        "ID_QuestTitleId": {
+          "ID": 2991055010
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055012
+        },
+        "ID_QuestObjectiveId": [
+          29910324
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991082": {
+        "ID": 2991082,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 4,
+        "ID_QuestTitleId": {
+          "ID": 2991055010
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055012
+        },
+        "ID_QuestObjectiveId": [
+          29910325
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991083": {
+        "ID": 2991083,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 5,
+        "ID_QuestTitleId": {
+          "ID": 2991055010
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055012
+        },
+        "ID_QuestObjectiveId": [
+          29910326
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991084": {
+        "ID": 2991084,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 5,
+        "ID_QuestTitleId": {
+          "ID": 2991055013
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055013
+        },
+        "ID_QuestObjectiveId": [
+          29910327
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991085": {
+        "ID": 2991085,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055016
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910328
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991086": {
+        "ID": 2991086,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055017
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910329
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991087": {
+        "ID": 2991087,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055018
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910330
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991088": {
+        "ID": 2991088,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055019
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910331
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991089": {
+        "ID": 2991089,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055020
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910332
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991090": {
+        "ID": 2991090,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055021
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910333
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991091": {
+        "ID": 2991091,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055022
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910334
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991092": {
+        "ID": 2991092,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055023
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910335
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991093": {
+        "ID": 2991093,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055024
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910336
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991094": {
+        "ID": 2991094,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055025
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910337
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991095": {
+        "ID": 2991095,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055036
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055037
+        },
+        "ID_QuestObjectiveId": [
+          29910338
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991096": {
+        "ID": 2991096,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055036
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055038
+        },
+        "ID_QuestObjectiveId": [
+          29910339
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991097": {
+        "ID": 2991097,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055036
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055039
+        },
+        "ID_QuestObjectiveId": [
+          29910340
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991098": {
+        "ID": 2991098,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055036
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055040
+        },
+        "ID_QuestObjectiveId": [
+          29910341
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991099": {
+        "ID": 2991099,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055041
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055042
+        },
+        "ID_QuestObjectiveId": [
+          29910342
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991100": {
+        "ID": 2991100,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055041
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055043
+        },
+        "ID_QuestObjectiveId": [
+          29910343
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991101": {
+        "ID": 2991101,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055044
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055045
+        },
+        "ID_QuestObjectiveId": [
+          29910344
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991102": {
+        "ID": 2991102,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055044
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055046
+        },
+        "ID_QuestObjectiveId": [
+          29910345
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991103": {
+        "ID": 2991103,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055047
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055048
+        },
+        "ID_QuestObjectiveId": [
+          29910346
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991104": {
+        "ID": 2991104,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055047
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055049
+        },
+        "ID_QuestObjectiveId": [
+          29910347
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991105": {
+        "ID": 2991105,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055050
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055051
+        },
+        "ID_QuestObjectiveId": [
+          29910348
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991106": {
+        "ID": 2991106,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055052
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055052
+        },
+        "ID_QuestObjectiveId": [
+          29910349
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991107": {
+        "ID": 2991107,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055053
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055053
+        },
+        "ID_QuestObjectiveId": [
+          29910350
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991108": {
+        "ID": 2991108,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055054
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055055
+        },
+        "ID_QuestObjectiveId": [
+          29910351
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "2991109": {
+        "ID": 2991109,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Local",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 2991055054
+        },
+        "ID_QuestSummaryId": {
+          "ID": 2991055056
+        },
+        "ID_QuestObjectiveId": [
+          29910352
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000000": {
+        "ID": 3000000,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 1,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000001": {
+        "ID": 3000001,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 2,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910061
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000002": {
+        "ID": 3000002,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 3,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910091
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000003": {
+        "ID": 3000003,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 4,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000004": {
+        "ID": 3000004,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 5,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910271
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000005": {
+        "ID": 3000005,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 6,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000006": {
+        "ID": 3000006,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 7,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910061
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000007": {
+        "ID": 3000007,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 8,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910091
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000008": {
+        "ID": 3000008,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 9,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000009": {
+        "ID": 3000009,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 10,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910271
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000010": {
+        "ID": 3000010,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 11,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000011": {
+        "ID": 3000011,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 12,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910061
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000012": {
+        "ID": 3000012,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 13,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910091
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000013": {
+        "ID": 3000013,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 14,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000014": {
+        "ID": 3000014,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 15,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910271
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000015": {
+        "ID": 3000015,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 16,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000016": {
+        "ID": 3000016,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 17,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910061
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000017": {
+        "ID": 3000017,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 18,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910091
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000018": {
+        "ID": 3000018,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 19,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000019": {
+        "ID": 3000019,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 20,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910271
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000020": {
+        "ID": 3000020,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 21,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000021": {
+        "ID": 3000021,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 22,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910061
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000022": {
+        "ID": 3000022,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 23,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910091
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000023": {
+        "ID": 3000023,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 24,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000024": {
+        "ID": 3000024,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 25,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910271
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000025": {
+        "ID": 3000025,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 26,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000026": {
+        "ID": 3000026,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 27,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910061
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000027": {
+        "ID": 3000027,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 28,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910091
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000028": {
+        "ID": 3000028,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 29,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000029": {
+        "ID": 3000029,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 30,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910271
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000030": {
+        "ID": 3000030,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 31,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000031": {
+        "ID": 3000031,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 32,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910061
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000032": {
+        "ID": 3000032,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 33,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910091
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000033": {
+        "ID": 3000033,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 34,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000034": {
+        "ID": 3000034,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 35,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910271
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000035": {
+        "ID": 3000035,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 36,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000036": {
+        "ID": 3000036,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 37,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910061
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000037": {
+        "ID": 3000037,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 38,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910091
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000038": {
+        "ID": 3000038,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 39,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "3000039": {
+        "ID": 3000039,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Repeat",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::AppointQuest",
+        "QuestOpenConditionValue": 1000000,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 40,
+        "ID_QuestTitleId": {
+          "ID": 3000000000
+        },
+        "ID_QuestSummaryId": {
+          "ID": 3000000001
+        },
+        "ID_QuestObjectiveId": [
+          29910271
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": true,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 2991019
+      },
+      "1000000": {
+        "ID": 1000000,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000034
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000019
+        },
+        "ID_QuestObjectiveId": [
+          100000502
+        ],
+        "ID_CompleteSmallTalk": 10,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000001": {
+        "ID": 1000001,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000035
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000020
+        },
+        "ID_QuestObjectiveId": [
+          100000101
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000001
+      },
+      "1000002": {
+        "ID": 1000002,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000036
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000021
+        },
+        "ID_QuestObjectiveId": [
+          100000201
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000003": {
+        "ID": 1000003,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000037
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000022
+        },
+        "ID_QuestObjectiveId": [
+          100000301
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000004": {
+        "ID": 1000004,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000038
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000023
+        },
+        "ID_QuestObjectiveId": [
+          100000401
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000005": {
+        "ID": 1000005,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000039
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000024
+        },
+        "ID_QuestObjectiveId": [
+          100000101,
+          29910241
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000006": {
+        "ID": 1000006,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000040
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000025
+        },
+        "ID_QuestObjectiveId": [
+          29910011,
+          29910241,
+          29910051
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000001
+      },
+      "1000007": {
+        "ID": 1000007,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000041
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000026
+        },
+        "ID_QuestObjectiveId": [
+          29910011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000008": {
+        "ID": 1000008,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000042
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000027
+        },
+        "ID_QuestObjectiveId": [
+          29910011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000009": {
+        "ID": 1000009,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000043
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000028
+        },
+        "ID_QuestObjectiveId": [
+          29910011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000010": {
+        "ID": 1000010,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000044
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000029
+        },
+        "ID_QuestObjectiveId": [
+          29910011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000011": {
+        "ID": 1000011,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000045
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000030
+        },
+        "ID_QuestObjectiveId": [
+          29910011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000001
+      },
+      "1000012": {
+        "ID": 1000012,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000046
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000031
+        },
+        "ID_QuestObjectiveId": [
+          29910011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000013": {
+        "ID": 1000013,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000047
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000032
+        },
+        "ID_QuestObjectiveId": [
+          29910011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000014": {
+        "ID": 1000014,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::SS",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1000000048
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1000000033
+        },
+        "ID_QuestObjectiveId": [
+          10000154
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1001
+        },
+        "IsNavigationIndication": true,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1000000
+      },
+      "1000015": {
+        "ID": 1000015,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Main",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60706
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 1020001001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 1020001002
+        },
+        "ID_QuestObjectiveId": [
+          10200011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1000
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": false,
+        "ID_QuestRewardId": 1010560
+      },
+      "5011008": {
+        "ID": 5011008,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5011008001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5011008002
+        },
+        "ID_QuestObjectiveId": [
+          501100801
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5011008
+      },
+      "5011009": {
+        "ID": 5011009,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5011009001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5011009002
+        },
+        "ID_QuestObjectiveId": [
+          501100901
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5011009
+      },
+      "5011025": {
+        "ID": 5011025,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5011025001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5011025002
+        },
+        "ID_QuestObjectiveId": [
+          501102501
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5011025
+      },
+      "5011026": {
+        "ID": 5011026,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5011026001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5011026002
+        },
+        "ID_QuestObjectiveId": [
+          501102601
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5011026
+      },
+      "5011027": {
+        "ID": 5011027,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5011027001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5011027002
+        },
+        "ID_QuestObjectiveId": [
+          501102701
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5011027
+      },
+      "5011028": {
+        "ID": 5011028,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5011028001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5011028002
+        },
+        "ID_QuestObjectiveId": [
+          501102801
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5011028
+      },
+      "5012006": {
+        "ID": 5012006,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5012006001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5012006002
+        },
+        "ID_QuestObjectiveId": [
+          501200601
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5012006
+      },
+      "5012007": {
+        "ID": 5012007,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5012007001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5012007002
+        },
+        "ID_QuestObjectiveId": [
+          501200701
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5012007
+      },
+      "5012018": {
+        "ID": 5012018,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5012018001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5012018002
+        },
+        "ID_QuestObjectiveId": [
+          501201801
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5012018
+      },
+      "5012019": {
+        "ID": 5012019,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5012019001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5012019002
+        },
+        "ID_QuestObjectiveId": [
+          501201901
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5012019
+      },
+      "5012020": {
+        "ID": 5012020,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5012020001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5012020002
+        },
+        "ID_QuestObjectiveId": [
+          501202001
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5012020
+      },
+      "5012021": {
+        "ID": 5012021,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5012021001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5012021002
+        },
+        "ID_QuestObjectiveId": [
+          501202101
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5012021
+      },
+      "5015007": {
+        "ID": 5015007,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5015007001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5015007002
+        },
+        "ID_QuestObjectiveId": [
+          501500701
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5015007
+      },
+      "5015008": {
+        "ID": 5015008,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5015008001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5015008002
+        },
+        "ID_QuestObjectiveId": [
+          501500801
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5015008
+      },
+      "5015020": {
+        "ID": 5015020,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5015020001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5015020002
+        },
+        "ID_QuestObjectiveId": [
+          501502001
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5015020
+      },
+      "5016011": {
+        "ID": 5016011,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5016011001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5016011002
+        },
+        "ID_QuestObjectiveId": [
+          501601101
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5016011
+      },
+      "5016012": {
+        "ID": 5016012,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::A",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5016012001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5016012002
+        },
+        "ID_QuestObjectiveId": [
+          501601201
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5016012
+      },
+      "5016034": {
+        "ID": 5016034,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5016034001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5016034002
+        },
+        "ID_QuestObjectiveId": [
+          501603401
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5016034
+      },
+      "5016035": {
+        "ID": 5016035,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5016035001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5016035002
+        },
+        "ID_QuestObjectiveId": [
+          501603501
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5016035
+      },
+      "5016036": {
+        "ID": 5016036,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5016036001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5016036002
+        },
+        "ID_QuestObjectiveId": [
+          501603601
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5016036
+      },
+      "5016037": {
+        "ID": 5016037,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Daily",
+        "QuestGrade": "EDS_QuestDifficulty::B",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 60707
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 5016037001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 5016037002
+        },
+        "ID_QuestObjectiveId": [
+          501603701
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 1003
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 5016037
+      },
+      "6000000": {
+        "ID": 6000000,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000001
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000000
+      },
+      "6000001": {
+        "ID": 6000001,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000002
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000001
+      },
+      "6000002": {
+        "ID": 6000002,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000003
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000003
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000002
+      },
+      "6000003": {
+        "ID": 6000003,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000004
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000004
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000003
+      },
+      "6000004": {
+        "ID": 6000004,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000025
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000014
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000004
+      },
+      "6000005": {
+        "ID": 6000005,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000027
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000015
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000005
+      },
+      "6000006": {
+        "ID": 6000006,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000005
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000005
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000006
+      },
+      "6000007": {
+        "ID": 6000007,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000006
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000006
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000007
+      },
+      "6000008": {
+        "ID": 6000008,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000007
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000007
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000008
+      },
+      "6000009": {
+        "ID": 6000009,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000008
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000008
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000009
+      },
+      "6000010": {
+        "ID": 6000010,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000009
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000009
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000010
+      },
+      "6000011": {
+        "ID": 6000011,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000010
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000010
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000011
+      },
+      "6000012": {
+        "ID": 6000012,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000011
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000012
+      },
+      "6000013": {
+        "ID": 6000013,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000012
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000012
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000013
+      },
+      "6000014": {
+        "ID": 6000014,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionWeekly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 6000000013
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          600000013
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 6000014
+      },
+      "7000000": {
+        "ID": 7000000,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000001
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000001
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000000
+      },
+      "7000001": {
+        "ID": 7000001,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000002
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000001
+      },
+      "7000002": {
+        "ID": 7000002,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000003
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000003
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000002
+      },
+      "7000003": {
+        "ID": 7000003,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000004
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000004
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000003
+      },
+      "7000004": {
+        "ID": 7000004,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000005
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000005
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000004
+      },
+      "7000005": {
+        "ID": 7000005,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000006
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000006
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000005
+      },
+      "7000006": {
+        "ID": 7000006,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000007
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000007
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000006
+      },
+      "7000007": {
+        "ID": 7000007,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000008
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000008
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000007
+      },
+      "7000008": {
+        "ID": 7000008,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000009
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000009
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000008
+      },
+      "7000009": {
+        "ID": 7000009,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000010
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000010
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000009
+      },
+      "7000010": {
+        "ID": 7000010,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000011
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000011
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000010
+      },
+      "7000011": {
+        "ID": 7000011,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000012
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000012
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000011
+      },
+      "7000012": {
+        "ID": 7000012,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000013
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000013
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000012
+      },
+      "7000013": {
+        "ID": 7000013,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000014
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000014
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000013
+      },
+      "7000014": {
+        "ID": 7000014,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::MissionMonthly",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 7000000015
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          700000015
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 7000014
+      },
+      "8000001": {
+        "ID": 8000001,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Instance",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 8000099002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          800000001
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991001
+      },
+      "8000002": {
+        "ID": 8000002,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Instance",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 8000099002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          800000002
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991001
+      },
+      "8000003": {
+        "ID": 8000003,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Instance",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 8000099005
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          800000003
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991001
+      },
+      "8000004": {
+        "ID": 8000004,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Instance",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 8000099005
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          800000004
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991001
+      },
+      "8000005": {
+        "ID": 8000005,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Instance",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 8000099002
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          800000005
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991001
+      },
+      "8000006": {
+        "ID": 8000006,
+        "DataStage": 16,
+        "Version": "*",
+        "QuestType": "EDS_QuestType::Instance",
+        "QuestGrade": "EDS_QuestDifficulty::None",
+        "QuestOpenConditionType": "EDS_QuestOpenConditionType::None",
+        "QuestOpenConditionValue": 0,
+        "ConditionStringId": {
+          "ID": 0
+        },
+        "QuestTitleStep": 0,
+        "ID_QuestTitleId": {
+          "ID": 8000099005
+        },
+        "ID_QuestSummaryId": {
+          "ID": 0
+        },
+        "ID_QuestObjectiveId": [
+          800000006
+        ],
+        "ID_CompleteSmallTalk": 0,
+        "ID_TrackerCompleteStringId": {
+          "ID": 0
+        },
+        "IsNavigationIndication": false,
+        "QuestCountMessage": false,
+        "QuestCompleteMessage": true,
+        "ID_QuestRewardId": 2991001
+      }
+    }
+  }
+]

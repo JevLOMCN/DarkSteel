@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/TransportSpawn/Island/1",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_TransportSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_Transport": 9,
+        "ID_Island": 1,
+        "ID_Zone": 1003,
+        "Location": {
+          "X": -174024.0,
+          "Y": -458955.0,
+          "Z": 13347.267
+        },
+        "RotateYaw": 7.76092,
+        "SpawnTriggerType": 1,
+        "SpawnRadius": 0.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": false,
+        "WanderingRadius": 0.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "RouteType": true
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_Transport": 10,
+        "ID_Island": 1,
+        "ID_Zone": 1003,
+        "Location": {
+          "X": -107559.0,
+          "Y": -463394.0,
+          "Z": 13520.267
+        },
+        "RotateYaw": 27.3267,
+        "SpawnTriggerType": 1,
+        "SpawnRadius": 0.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": false,
+        "WanderingRadius": 0.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "RouteType": true
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_Transport": 11,
+        "ID_Island": 1,
+        "ID_Zone": 1003,
+        "Location": {
+          "X": -124801.0,
+          "Y": -445740.0,
+          "Z": 13487.41
+        },
+        "RotateYaw": -176.311,
+        "SpawnTriggerType": 1,
+        "SpawnRadius": 0.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": false,
+        "WanderingRadius": 0.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "RouteType": true
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Transport": 7,
+        "ID_Island": 1,
+        "ID_Zone": 1007,
+        "Location": {
+          "X": -125615.16,
+          "Y": -100729.41,
+          "Z": 7288.97
+        },
+        "RotateYaw": 0.0,
+        "SpawnTriggerType": 1,
+        "SpawnRadius": 0.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": false,
+        "WanderingRadius": 0.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "RouteType": true
+      }
+    }
+  }
+]

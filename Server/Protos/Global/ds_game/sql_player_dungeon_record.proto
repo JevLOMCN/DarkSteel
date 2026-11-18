@@ -1,0 +1,16 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlPlayerDungeonRecordTable {
+  int64 player_uid = 1;
+  int32 dungeon_id = 2;
+  int32 enter_count = 4;
+  int32 reward_count = 5;
+  bool first_clear_reward = 6;
+  google.protobuf.Timestamp enter_update_dt = 7;
+  google.protobuf.Timestamp reward_update_dt = 8;
+}

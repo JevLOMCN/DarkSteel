@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{D5A4888A-1DFC-5EC3-A2A7-3D72D4E2DCCD}</ProjectGuid><RootNamespace>ThirdParty_DirectShow</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Intermediate\x64\Release\amfilter.cpp" />
+    <ClCompile Include="Intermediate\x64\Release\amvideo.cpp" />
+    <ClCompile Include="Intermediate\x64\Release\combase.cpp" />
+    <ClCompile Include="Intermediate\x64\Release\mtype.cpp" />
+    <ClCompile Include="Intermediate\x64\Release\source.cpp" />
+    <ClCompile Include="Intermediate\x64\Release\wxlist.cpp" />
+    <ClCompile Include="Intermediate\x64\Release\wxutil.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

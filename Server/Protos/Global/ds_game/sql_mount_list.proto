@@ -1,0 +1,15 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlMountListTable {
+  int64 player_uid = 1;
+  int64 mount_uid = 2;
+  int32 mount_id = 3;
+  string mount_nickname = 4;
+  int32 hunger = 5;
+  int32 fatigue = 6;
+  repeated int32 equip_item_ids = 7;
+}

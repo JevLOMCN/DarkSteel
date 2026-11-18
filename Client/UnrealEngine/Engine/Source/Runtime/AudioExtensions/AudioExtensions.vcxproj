@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{13BB3604-2428-5454-98AE-61C11AF220A4}</ProjectGuid><RootNamespace>AudioExtensions</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAudioExtensionsModule.cpp" />
+    <ClCompile Include="Private\FAudioParameter.cpp" />
+    <ClCompile Include="Private\FModulationParameter.cpp" />
+    <ClCompile Include="Private\FModulatorHandle.cpp" />
+    <ClCompile Include="Private\FParameterInterface.cpp" />
+    <ClCompile Include="Private\FParameterInterfaceRegistry.cpp" />
+    <ClCompile Include="Private\FParameterPath.cpp" />
+    <ClCompile Include="Private\FParameterTransmitterBase.cpp" />
+    <ClCompile Include="Private\FPatchMixer.cpp" />
+    <ClCompile Include="Private\FSoundGeneratorOutput.cpp" />
+    <ClCompile Include="Private\FSoundWaveCloudStreamingPlatformProjectSettings.cpp" />
+    <ClCompile Include="Private\FSoundWaveCloudStreamingPlatformSettings.cpp" />
+    <ClCompile Include="Private\FSoundWaveCuePoint.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IAudioEndpoint.cpp" />
+    <ClCompile Include="Private\IAudioEndpointFactory.cpp" />
+    <ClCompile Include="Private\IAudioEndpointSettingsProxy.cpp" />
+    <ClCompile Include="Private\IAudioParameterControllerInterface.cpp" />
+    <ClCompile Include="Private\IAudioParameterInterfaceRegistry.cpp" />
+    <ClCompile Include="Private\IAudioPropertiesDetailsInjector.cpp" />
+    <ClCompile Include="Private\IAudioPropertiesDetailsInjectorBuilder.cpp" />
+    <ClCompile Include="Private\IAudioProxyDataFactory.cpp" />
+    <ClCompile Include="Private\ILegacyParameterTransmitter.cpp" />
+    <ClCompile Include="Private\IModularFeatures.cpp" />
+    <ClCompile Include="Private\IParameterTransmitter.cpp" />
+    <ClCompile Include="Private\ISoundfieldEndpoint.cpp" />
+    <ClCompile Include="Private\ISoundfieldEndpointFactory.cpp" />
+    <ClCompile Include="Private\ISoundfieldFactory.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunction.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TObjectPtr.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UAudioEndpointSettingsBase.cpp" />
+    <ClCompile Include="Private\UAudioParameterControllerInterface.cpp" />
+    <ClCompile Include="Private\UAudioPropertiesSheetAssetBase.cpp" />
+    <ClCompile Include="Private\UAudioPropertiesSheetAssetUserInterface.cpp" />
+    <ClCompile Include="Private\UDummyEndpointSettings.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UOcclusionPluginSourceSettingsBase.cpp" />
+    <ClCompile Include="Private\UReverbPluginSourceSettingsBase.cpp" />
+    <ClCompile Include="Private\USoundModulatorBase.cpp" />
+    <ClCompile Include="Private\USoundfieldEffectBase.cpp" />
+    <ClCompile Include="Private\USoundfieldEffectSettingsBase.cpp" />
+    <ClCompile Include="Private\USoundfieldEncodingSettingsBase.cpp" />
+    <ClCompile Include="Private\USoundfieldEndpointSettingsBase.cpp" />
+    <ClCompile Include="Private\USourceDataOverridePluginSourceSettingsBase.cpp" />
+    <ClCompile Include="Private\USpatializationPluginSourceSettingsBase.cpp" />
+    <ClCompile Include="Private\UWaveformTransformationBase.cpp" />
+    <ClCompile Include="Private\UWaveformTransformationChain.cpp" />
+    <ClCompile Include="Private\_Free\Module.AudioExtensions.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

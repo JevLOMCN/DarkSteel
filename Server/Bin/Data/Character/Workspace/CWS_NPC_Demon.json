@@ -1,0 +1,1190 @@
+[
+  {
+    "Type": "WN_CS_CharacterWorkspace",
+    "Name": "CWS_NPC_Demon",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WN_CS_CharacterWorkspace'",
+    "Package": "/Game/Datas/Character/Workspace/CWS_NPC_Demon",
+    "Properties": {
+      "CharacterDescs": [
+        {
+          "ID": 1,
+          "Name": "Altherion",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Altherion51/SKEL_NPC_Demon_Altherion51_Skeleton.SKEL_NPC_Demon_Altherion51_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Altherion51",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Altherion51/SK_NPC_Demon_Altherion51.SK_NPC_Demon_Altherion51",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [
+                {
+                  "Socket": "Head",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 64.0,
+                    "Y": -41.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Hand_L",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 50.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Hand_R",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 50.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "LowerArm_L",
+                  "Radius": 120.0,
+                  "LocationOffset": {
+                    "X": 50.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "LowerArm_R",
+                  "Radius": 120.0,
+                  "LocationOffset": {
+                    "X": 50.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "UpperArm_L",
+                  "Radius": 180.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "UpperArm_R",
+                  "Radius": 180.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Foot_L",
+                  "Radius": 130.0,
+                  "LocationOffset": {
+                    "X": -25.0,
+                    "Y": -50.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Foot_R",
+                  "Radius": 130.0,
+                  "LocationOffset": {
+                    "X": -25.0,
+                    "Y": -50.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Calf_L",
+                  "Radius": 130.0,
+                  "LocationOffset": {
+                    "X": 110.0,
+                    "Y": -30.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Calf_R",
+                  "Radius": 130.0,
+                  "LocationOffset": {
+                    "X": 110.0,
+                    "Y": -30.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Thigh_L",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 100.0,
+                    "Y": 30.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Thigh_R",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 100.0,
+                    "Y": 30.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Neck_01",
+                  "Radius": 250.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": -40.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Tail_03",
+                  "Radius": 180.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Spine_02",
+                  "Radius": 200.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                }
+              ],
+              "ServerHitCapsuleInfoArray": [
+                {
+                  "bIsActivated": true,
+                  "HalfHeight": 700.0,
+                  "Radius": 650.0,
+                  "LocationOffset": {
+                    "X": 600.0,
+                    "Y": 0.0,
+                    "Z": 200.0
+                  }
+                },
+                {
+                  "bIsActivated": true,
+                  "HalfHeight": 700.0,
+                  "Radius": 650.0,
+                  "LocationOffset": {
+                    "X": -200.0,
+                    "Y": 0.0,
+                    "Z": 200.0
+                  }
+                },
+                {
+                  "bIsActivated": true,
+                  "HalfHeight": 750.0,
+                  "Radius": 750.0,
+                  "LocationOffset": {
+                    "X": 200.0,
+                    "Y": 250.0,
+                    "Z": 300.0
+                  }
+                },
+                {
+                  "bIsActivated": true,
+                  "HalfHeight": 250.0,
+                  "Radius": 250.0,
+                  "LocationOffset": {
+                    "X": 1200.0,
+                    "Y": 0.0,
+                    "Z": 600.0
+                  }
+                }
+              ],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Altherion51",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_C042726743889715B39006866386B104.SKM_Soul_C042726743889715B39006866386B104",
+                "SubPathString": ""
+              },
+              "Guid": "C0427267-43889715-B3900686-6386B104",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 11
+            }
+          ]
+        },
+        {
+          "ID": 2,
+          "Name": "Althelikin01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Althelikin11/SKEL_NPC_Demon_Althelikin11_Skeleton.SKEL_NPC_Demon_Althelikin11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Althelikin11",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Althelikin11/SK_NPC_Demon_Althelikin11.SK_NPC_Demon_Althelikin11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Althelikin11",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_76689EF34444F43B2E80DAB8BAE86C7E.SKM_Soul_76689EF34444F43B2E80DAB8BAE86C7E",
+                "SubPathString": ""
+              },
+              "Guid": "76689EF3-4444F43B-2E80DAB8-BAE86C7E",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 9
+            }
+          ]
+        },
+        {
+          "ID": 3,
+          "Name": "AltherionEgg",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_AltherionEgg11/SK_NPC_Demon_AltherionEgg11_Skeleton.SK_NPC_Demon_AltherionEgg11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_AltherionEgg11",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_AltherionEgg11/SK_NPC_Demon_AltherionEgg11.SK_NPC_Demon_AltherionEgg11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_AltherionEgg11",
+              "ID_Character": 3,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_8BDAC7C747982F10ADF84A9E22B74990.SKM_Soul_8BDAC7C747982F10ADF84A9E22B74990",
+                "SubPathString": ""
+              },
+              "Guid": "8BDAC7C7-47982F10-ADF84A9E-22B74990",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 3,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 8
+            }
+          ]
+        },
+        {
+          "ID": 4,
+          "Name": "Althelikin01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Althelikin11/SKEL_NPC_Demon_Althelikin11_Skeleton.SKEL_NPC_Demon_Althelikin11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Althelikin12",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Althelikin12/SK_NPC_Demon_Althelikin12.SK_NPC_Demon_Althelikin12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Althelikin12",
+              "ID_Character": 4,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_AE829F1341B2536888E844A2814B759D.SKM_Soul_AE829F1341B2536888E844A2814B759D",
+                "SubPathString": ""
+              },
+              "Guid": "AE829F13-41B25368-88E844A2-814B759D",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 4,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 8
+            }
+          ]
+        },
+        {
+          "ID": 5,
+          "Name": "AltherionTentacle",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_AltherionTentacle11/SK_NPC_Demon_AltherionTentacle11_Skeleton.SK_NPC_Demon_AltherionTentacle11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_AltherionTentacle11",
+              "ID_Character": 5,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_AltherionTentacle11/SK_NPC_Demon_AltherionTentacle11.SK_NPC_Demon_AltherionTentacle11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_AltherionTentacle11",
+              "ID_Character": 5,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_797991044F708E8A99C6B499217445D8.SKM_Soul_797991044F708E8A99C6B499217445D8",
+                "SubPathString": ""
+              },
+              "Guid": "79799104-4F708E8A-99C6B499-217445D8",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 5,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 8
+            }
+          ]
+        },
+        {
+          "ID": 6,
+          "Name": "Dreadspawn01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Dreadspawn01_Uarthas11/SKEL_NPC_Demon_Dreadspawn01_Uarthas11_Skeleton.SKEL_NPC_Demon_Dreadspawn01_Uarthas11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Dreadspawn_NA11",
+              "ID_Character": 6,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Dreadspawn01_Uarthas11/SK_NPC_Demon_Dreadspawn01_Uarthas11.SK_NPC_Demon_Dreadspawn01_Uarthas11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Dreadspawn_NA11",
+              "ID_Character": 6,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_33D20A764845DCFE3B689FBBB07E1BDB.SKM_Soul_33D20A764845DCFE3B689FBBB07E1BDB",
+                "SubPathString": ""
+              },
+              "Guid": "33D20A76-4845DCFE-3B689FBB-B07E1BDB",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 6,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 8
+            }
+          ]
+        },
+        {
+          "ID": 7,
+          "Name": "Slime01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_WindSlime_NA11/SKEL_NPC_Demon_WindSlime_NA11_Skeleton.SKEL_NPC_Demon_WindSlime_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_WindSlime_NA11",
+              "ID_Character": 7,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_WindSlime_NA11/SK_NPC_Demon_WindSlime_NA11.SK_NPC_Demon_WindSlime_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_WindSlime_NA11",
+              "ID_Character": 7,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_904498884FD15ACFE70C4784E695FC16.SKM_Soul_904498884FD15ACFE70C4784E695FC16",
+                "SubPathString": ""
+              },
+              "Guid": "90449888-4FD15ACF-E70C4784-E695FC16",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 7,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 8
+            }
+          ]
+        },
+        {
+          "ID": 8,
+          "Name": "Abyssion",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Abyssion_51/SKEL_NPC_Demon_Abyssion51_Skeleton.SKEL_NPC_Demon_Abyssion51_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Abyssion51",
+              "ID_Character": 8,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Abyssion_51/SK_NPC_Demon_Abyssion51.SK_NPC_Demon_Abyssion51",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [
+                {
+                  "Socket": "Head",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 64.0,
+                    "Y": -41.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Hand_L",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 50.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Hand_R",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 50.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "LowerArm_L",
+                  "Radius": 120.0,
+                  "LocationOffset": {
+                    "X": 50.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "LowerArm_R",
+                  "Radius": 120.0,
+                  "LocationOffset": {
+                    "X": 50.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "UpperArm_L",
+                  "Radius": 180.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "UpperArm_R",
+                  "Radius": 180.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Foot_L",
+                  "Radius": 130.0,
+                  "LocationOffset": {
+                    "X": -25.0,
+                    "Y": -50.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Foot_R",
+                  "Radius": 130.0,
+                  "LocationOffset": {
+                    "X": -25.0,
+                    "Y": -50.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Calf_L",
+                  "Radius": 130.0,
+                  "LocationOffset": {
+                    "X": 110.0,
+                    "Y": -30.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Calf_R",
+                  "Radius": 130.0,
+                  "LocationOffset": {
+                    "X": 110.0,
+                    "Y": -30.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Thigh_L",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 100.0,
+                    "Y": 30.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Thigh_R",
+                  "Radius": 150.0,
+                  "LocationOffset": {
+                    "X": 100.0,
+                    "Y": 30.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Neck_01",
+                  "Radius": 250.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": -40.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Tail_03",
+                  "Radius": 180.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                },
+                {
+                  "Socket": "Spine_02",
+                  "Radius": 200.0,
+                  "LocationOffset": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  }
+                }
+              ],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Abyssion51",
+              "ID_Character": 8,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_8F379028400C254E5136E298687C9BC0.SKM_Soul_8F379028400C254E5136E298687C9BC0",
+                "SubPathString": ""
+              },
+              "Guid": "8F379028-400C254E-5136E298-687C9BC0",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 8,
+                  "ID_Preset": 2,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 17
+            }
+          ]
+        },
+        {
+          "ID": 9,
+          "Name": "EtherElemental",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_EtherElemental_NA11/SKEL_NPC_Demon_EtherElemental_NA11_Skeleton.SKEL_NPC_Demon_EtherElemental_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_EtherElemental_NA11",
+              "ID_Character": 9,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_EtherElemental_NA11/SK_NPC_Demon_EtherElemental_NA11.SK_NPC_Demon_EtherElemental_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_EtherElemental_NA11",
+              "ID_Character": 9,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_F5B155E8464110AC7A08B38541DEE046.SKM_Soul_F5B155E8464110AC7A08B38541DEE046",
+                "SubPathString": ""
+              },
+              "Guid": "F5B155E8-464110AC-7A08B385-41DEE046",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 9,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 10,
+          "Name": "ThornVine01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_ThornVine_NA11/SKEL_NPC_Demon_ThornVine_NA11_Skeleton.SKEL_NPC_Demon_ThornVine_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_ThornVine_NA11",
+              "ID_Character": 10,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_ThornVine_NA11/SK_NPC_Demon_ThornVine_NA11.SK_NPC_Demon_ThornVine_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_ThornVine_NA11",
+              "ID_Character": 10,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_7968A2B84997BB3D4E25DAA09B922176.SKM_Soul_7968A2B84997BB3D4E25DAA09B922176",
+                "SubPathString": ""
+              },
+              "Guid": "7968A2B8-4997BB3D-4E25DAA0-9B922176",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 10,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 11,
+          "Name": "Moruru01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Moruru_NA11/SKEL_NPC_Demon_Moruru_NA11_Skeleton.SKEL_NPC_Demon_Moruru_NA11_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Moruru_NA11",
+              "ID_Character": 11,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Moruru_NA11/SK_NPC_Demon_Moruru_NA11.SK_NPC_Demon_Moruru_NA11",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Moruru_NA11",
+              "ID_Character": 11,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_656469E242417977D6867D8CBE9D8A76.SKM_Soul_656469E242417977D6867D8CBE9D8A76",
+                "SubPathString": ""
+              },
+              "Guid": "656469E2-42417977-D6867D8C-BE9D8A76",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 11,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            }
+          ]
+        },
+        {
+          "ID": 12,
+          "Name": "Boomstem01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Boomstem_NA12/SKEL_NPC_Demon_Boomstem_NA12_Skeleton.SKEL_NPC_Demon_Boomstem_NA12_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Boomstem_NA12",
+              "ID_Character": 12,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Boomstem_NA12/SK_NPC_Demon_Boomstem_NA12.SK_NPC_Demon_Boomstem_NA12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Boomstem_NA12",
+              "ID_Character": 12,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_5DA3FEDE45400B8DF83B25BB2662E0B3.SKM_Soul_5DA3FEDE45400B8DF83B25BB2662E0B3",
+                "SubPathString": ""
+              },
+              "Guid": "5DA3FEDE-45400B8D-F83B25BB-2662E0B3",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 12,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 6
+            }
+          ]
+        },
+        {
+          "ID": 13,
+          "Name": "Ent01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_WoodBane_NA12/SKEL_NPC_Demon_Woodbane_NA12_Skeleton.SKEL_NPC_Demon_Woodbane_NA12_Skeleton",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Woodbane_NA12",
+              "ID_Character": 13,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_WoodBane_NA12/SK_NPC_Demon_Woodbane_NA12.SK_NPC_Demon_Woodbane_NA12",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Demon_Woodbane_NA12",
+              "ID_Character": 13,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_838D19F64DC20363DC0B7E9A4EF99D70.SKM_Soul_838D19F64DC20363DC0B7E9A4EF99D70",
+                "SubPathString": ""
+              },
+              "Guid": "838D19F6-4DC20363-DC0B7E9A-4EF99D70",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 13,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        }
+      ],
+      "Version": "EWN_CS_CharacterWorkspaceVersion::Latest"
+    }
+  }
+]

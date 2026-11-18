@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{3AA604BA-B6DB-501C-8527-F2380BB2EE1D}</ProjectGuid><RootNamespace>MovieSceneCapture</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FActiveMovieSceneCaptures.cpp" />
+    <ClCompile Include="Private\FCallPixelHandler_GameThread.cpp" />
+    <ClCompile Include="Private\FCaptureProtocolInitSettings.cpp" />
+    <ClCompile Include="Private\FCaptureResolution.cpp" />
+    <ClCompile Include="Private\FCapturedPixels.cpp" />
+    <ClCompile Include="Private\FCapturedPixelsID.cpp" />
+    <ClCompile Include="Private\FCompositionGraphCapturePasses.cpp" />
+    <ClCompile Include="Private\FFixedTimeStepCaptureStrategy.cpp" />
+    <ClCompile Include="Private\FFrameCaptureViewExtension.cpp" />
+    <ClCompile Include="Private\FFrameGrabber.cpp" />
+    <ClCompile Include="Private\FFrameMetrics.cpp" />
+    <ClCompile Include="Private\FMovieSceneCaptureModule.cpp" />
+    <ClCompile Include="Private\FMovieSceneCaptureSettings.cpp" />
+    <ClCompile Include="Private\FRealTimeCaptureStrategy.cpp" />
+    <ClCompile Include="Private\FResolveSurface.cpp" />
+    <ClCompile Include="Private\FSoftClassPath.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTickableObjectBase.cpp" />
+    <ClCompile Include="Private\FViewportSurfaceReader.cpp" />
+    <ClCompile Include="Private\ICaptureStrategy.cpp" />
+    <ClCompile Include="Private\IFramePayload.cpp" />
+    <ClCompile Include="Private\IMovieSceneCaptureInterface.cpp" />
+    <ClCompile Include="Private\IMovieSceneCaptureModule.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDefaultDelete.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UCompositionGraphCaptureProtocol.cpp" />
+    <ClCompile Include="Private\UCompressedImageSequenceProtocol.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UFrameGrabberProtocol.cpp" />
+    <ClCompile Include="Private\UImageSequenceProtocol.cpp" />
+    <ClCompile Include="Private\UImageSequenceProtocol_BMP.cpp" />
+    <ClCompile Include="Private\UImageSequenceProtocol_EXR.cpp" />
+    <ClCompile Include="Private\UImageSequenceProtocol_JPG.cpp" />
+    <ClCompile Include="Private\UImageSequenceProtocol_PNG.cpp" />
+    <ClCompile Include="Private\ULevelCapture.cpp" />
+    <ClCompile Include="Private\UMasterAudioSubmixCaptureProtocol.cpp" />
+    <ClCompile Include="Private\UMovieSceneAudioCaptureProtocolBase.cpp" />
+    <ClCompile Include="Private\UMovieSceneCapture.cpp" />
+    <ClCompile Include="Private\UMovieSceneCaptureEnvironment.cpp" />
+    <ClCompile Include="Private\UMovieSceneCaptureInterface.cpp" />
+    <ClCompile Include="Private\UMovieSceneCaptureProtocolBase.cpp" />
+    <ClCompile Include="Private\UMovieSceneImageCaptureProtocolBase.cpp" />
+    <ClCompile Include="Private\UNullAudioCaptureProtocol.cpp" />
+    <ClCompile Include="Private\UUserDefinedCaptureProtocol.cpp" />
+    <ClCompile Include="Private\UUserDefinedImageCaptureProtocol.cpp" />
+    <ClCompile Include="Private\UVideoCaptureProtocol.cpp" />
+    <ClCompile Include="Private\_Free\Module.MovieSceneCapture.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

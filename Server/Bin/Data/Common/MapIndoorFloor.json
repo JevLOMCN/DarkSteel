@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MapIndoorFloor",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MapIndoorFloor",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MapIndoorFloorTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "2502": {
+        "ID": 2502,
+        "DataStage": 23,
+        "Version": "*",
+        "StartFloor": 1,
+        "ID_IndoorGroup": [
+          2502,
+          2503,
+          2504
+        ]
+      }
+    }
+  }
+]

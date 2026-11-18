@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillPositionDamage",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SkillPositionDamage",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SkillPositionDamageTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "HitAirTargetDamage": 0,
+        "HitGroundTargetDamage": 0,
+        "HitUndergroundTargetDamage": 0
+      },
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "HitAirTargetDamage": 2000,
+        "HitGroundTargetDamage": 0,
+        "HitUndergroundTargetDamage": -2000
+      },
+      "200": {
+        "ID": 200,
+        "DataStage": 23,
+        "HitAirTargetDamage": 0,
+        "HitGroundTargetDamage": 2000,
+        "HitUndergroundTargetDamage": 0
+      },
+      "300": {
+        "ID": 300,
+        "DataStage": 23,
+        "HitAirTargetDamage": -2000,
+        "HitGroundTargetDamage": 0,
+        "HitUndergroundTargetDamage": 2000
+      },
+      "400": {
+        "ID": 400,
+        "DataStage": 23,
+        "HitAirTargetDamage": 3000,
+        "HitGroundTargetDamage": -500,
+        "HitUndergroundTargetDamage": -2500
+      },
+      "500": {
+        "ID": 500,
+        "DataStage": 23,
+        "HitAirTargetDamage": -2000,
+        "HitGroundTargetDamage": 4000,
+        "HitUndergroundTargetDamage": -2000
+      },
+      "600": {
+        "ID": 600,
+        "DataStage": 23,
+        "HitAirTargetDamage": -2500,
+        "HitGroundTargetDamage": -500,
+        "HitUndergroundTargetDamage": 3000
+      }
+    }
+  }
+]

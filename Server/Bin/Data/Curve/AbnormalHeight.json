@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "AbnormalHeight",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Package": "/Game/Datas/Curve/AbnormalHeight",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 2.7216169E-08,
+            "ArriveTangent": 3.8691392,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 3.8691392,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": -2.4025464E-08,
+            "ArriveTangent": -4.0898404,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -4.0898404,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

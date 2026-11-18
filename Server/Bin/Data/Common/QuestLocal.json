@@ -1,0 +1,3227 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestLocal",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestLocal",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestLocalTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "2991001": {
+        "ID": 2991001,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": true,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20002,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20002,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991002": {
+        "ID": 2991002,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": true,
+        "ID_AcceptNpc": 20003,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20003,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991003": {
+        "ID": 2991003,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60710
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": true,
+        "ID_AcceptNpc": 20004,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20004,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991004": {
+        "ID": 2991004,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": true,
+        "ID_AcceptNpc": 20005,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20005,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991005": {
+        "ID": 2991005,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60707
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": true,
+        "ID_AcceptNpc": 20002,
+        "ID_AcceptSequence": 50,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20002,
+        "ID_CompleteSequence": 50,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991006": {
+        "ID": 2991006,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60707
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": true,
+        "ID_AcceptNpc": 20002,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20002,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991007": {
+        "ID": 2991007,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": true,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20003,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20003,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991008": {
+        "ID": 2991008,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": true,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20003,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20003,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991009": {
+        "ID": 2991009,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": true,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20003,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20003,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991010": {
+        "ID": 2991010,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": true,
+        "ID_AcceptNpc": 20006,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20013,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2738710.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991011": {
+        "ID": 2991011,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20007,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2811520.0,
+          "Y": -2740740.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20012,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812300.0,
+          "Y": -2735360.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991012": {
+        "ID": 2991012,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20008,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2810280.0,
+          "Y": -2740320.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20011,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2814090.0,
+          "Y": -2735170.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991013": {
+        "ID": 2991013,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20009,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2809260.0,
+          "Y": -2739680.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20010,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2814690.0,
+          "Y": -2735940.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991014": {
+        "ID": 2991014,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20010,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2814690.0,
+          "Y": -2735940.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20009,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2809260.0,
+          "Y": -2739680.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991015": {
+        "ID": 2991015,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60710
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20011,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2814090.0,
+          "Y": -2735170.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20008,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2810280.0,
+          "Y": -2740320.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991016": {
+        "ID": 2991016,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60710
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20012,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812300.0,
+          "Y": -2735360.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20007,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2811520.0,
+          "Y": -2740740.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991017": {
+        "ID": 2991017,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20013,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2738710.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20006,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991018": {
+        "ID": 2991018,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20014,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20014,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991019": {
+        "ID": 2991019,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20015,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735830.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20015,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735830.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991022": {
+        "ID": 2991022,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20015,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735830.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20015,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735830.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991023": {
+        "ID": 2991023,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20003,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20003,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2814130.0,
+          "Y": -2739590.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991024": {
+        "ID": 2991024,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20002,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20002,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991025": {
+        "ID": 2991025,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20002,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20002,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991026": {
+        "ID": 2991026,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20002,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20002,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813800.0,
+          "Y": -2738630.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991027": {
+        "ID": 2991027,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20004,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20004,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991028": {
+        "ID": 2991028,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20004,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20004,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991029": {
+        "ID": 2991029,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20004,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20004,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991030": {
+        "ID": 2991030,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20004,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20004,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2813280.0,
+          "Y": -2739520.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991031": {
+        "ID": 2991031,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20005,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20005,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991032": {
+        "ID": 2991032,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20005,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20005,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991033": {
+        "ID": 2991033,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20005,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20005,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991034": {
+        "ID": 2991034,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20005,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20005,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812580.0,
+          "Y": -2740670.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991035": {
+        "ID": 2991035,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20014,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20014,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991036": {
+        "ID": 2991036,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20014,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20014,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991037": {
+        "ID": 2991037,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20014,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20014,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2737290.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991038": {
+        "ID": 2991038,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20006,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20006,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991039": {
+        "ID": 2991039,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20006,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20006,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991040": {
+        "ID": 2991040,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20006,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20006,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991041": {
+        "ID": 2991041,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20006,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20006,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812100.0,
+          "Y": -2741070.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991042": {
+        "ID": 2991042,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20013,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2738710.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20013,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2738710.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991043": {
+        "ID": 2991043,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20020,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736260.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20020,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736260.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991044": {
+        "ID": 2991044,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20020,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736260.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20020,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736260.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991045": {
+        "ID": 2991045,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20021,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736030.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20021,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736030.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991046": {
+        "ID": 2991046,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20021,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736030.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20021,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736030.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991047": {
+        "ID": 2991047,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20021,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736030.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20021,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736030.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991048": {
+        "ID": 2991048,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20021,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736030.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20021,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736030.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991049": {
+        "ID": 2991049,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20022,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735820.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20022,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735820.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991050": {
+        "ID": 2991050,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20022,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735820.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20022,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735820.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991051": {
+        "ID": 2991051,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20022,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735820.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20022,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735820.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991052": {
+        "ID": 2991052,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20023,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735590.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20023,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735590.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991053": {
+        "ID": 2991053,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20023,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735590.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20023,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735590.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991054": {
+        "ID": 2991054,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20023,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735590.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20023,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735590.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991055": {
+        "ID": 2991055,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20015,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735830.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20015,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735830.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991056": {
+        "ID": 2991056,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20024,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735350.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20024,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735350.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991057": {
+        "ID": 2991057,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20024,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735350.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20024,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735350.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991058": {
+        "ID": 2991058,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20024,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735350.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20024,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735350.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991059": {
+        "ID": 2991059,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20024,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735350.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20024,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2735350.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991060": {
+        "ID": 2991060,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900072,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2829223.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900072,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2829223.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991061": {
+        "ID": 2991061,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900068,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2829725.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900068,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2829725.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991062": {
+        "ID": 2991062,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900068,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2829725.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900068,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2829725.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991063": {
+        "ID": 2991063,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900069,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2830221.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900069,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2830221.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991064": {
+        "ID": 2991064,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900069,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2830221.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900069,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2830221.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991065": {
+        "ID": 2991065,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900069,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2830221.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900069,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2830221.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991066": {
+        "ID": 2991066,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900073,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2828700.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900073,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2828700.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991067": {
+        "ID": 2991067,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900073,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2828700.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900073,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2828700.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991068": {
+        "ID": 2991068,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900073,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2828700.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900073,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2828700.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991069": {
+        "ID": 2991069,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900073,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2828700.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900073,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2828700.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991070": {
+        "ID": 2991070,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900067,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900067,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991071": {
+        "ID": 2991071,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900067,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900067,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991072": {
+        "ID": 2991072,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900067,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900067,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991073": {
+        "ID": 2991073,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900067,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900067,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991074": {
+        "ID": 2991074,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60708
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 900067,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "ID_CompleteNpc": 900067,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2830721.0,
+          "Y": -2731200.0,
+          "Z": 481.29102
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991075": {
+        "ID": 2991075,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20020,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736260.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20020,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736260.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991076": {
+        "ID": 2991076,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20020,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736260.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20020,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808530.0,
+          "Y": -2736260.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991077": {
+        "ID": 2991077,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20007,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2811520.0,
+          "Y": -2740740.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20007,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2811520.0,
+          "Y": -2740740.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991078": {
+        "ID": 2991078,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20007,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2811520.0,
+          "Y": -2740740.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20007,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2811520.0,
+          "Y": -2740740.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991079": {
+        "ID": 2991079,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20071,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20071,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991080": {
+        "ID": 2991080,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20071,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20071,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991081": {
+        "ID": 2991081,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20071,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20071,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991082": {
+        "ID": 2991082,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20071,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20071,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991083": {
+        "ID": 2991083,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20071,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20071,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991084": {
+        "ID": 2991084,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20071,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20071,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2807830.0,
+          "Y": -2736270.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991085": {
+        "ID": 2991085,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20016,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735050.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20016,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735050.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991086": {
+        "ID": 2991086,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20016,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735050.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20016,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2735050.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991087": {
+        "ID": 2991087,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20017,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20017,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991088": {
+        "ID": 2991088,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20017,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20017,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991089": {
+        "ID": 2991089,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20017,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2808870.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20017,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2808870.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991090": {
+        "ID": 2991090,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20018,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2809960.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20018,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2809960.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991091": {
+        "ID": 2991091,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20018,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2809960.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20018,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2809960.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991092": {
+        "ID": 2991092,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20018,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2809960.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20018,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2809960.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991093": {
+        "ID": 2991093,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20019,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2811520.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20019,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2811520.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991094": {
+        "ID": 2991094,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20019,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2811520.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "ID_CompleteNpc": 20019,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2811520.0,
+          "Y": -2734110.0,
+          "Z": 481.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991095": {
+        "ID": 2991095,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20082,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2710540.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20082,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2710540.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991096": {
+        "ID": 2991096,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20082,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2710540.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20082,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2710540.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991097": {
+        "ID": 2991097,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20082,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2710540.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20082,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2710540.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991098": {
+        "ID": 2991098,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20082,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2710540.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20082,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2710540.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991099": {
+        "ID": 2991099,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20083,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2710240.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20083,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2710240.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991100": {
+        "ID": 2991100,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20083,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2710240.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20083,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2710240.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991101": {
+        "ID": 2991101,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20084,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2709960.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20084,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2709960.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991102": {
+        "ID": 2991102,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20084,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2709960.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20084,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2709960.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991103": {
+        "ID": 2991103,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20085,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2709730.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20085,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2709730.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991104": {
+        "ID": 2991104,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20085,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2709730.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20085,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2709730.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991105": {
+        "ID": 2991105,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20086,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2709490.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20086,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2709490.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991106": {
+        "ID": 2991106,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20087,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2709210.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20087,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2709210.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991107": {
+        "ID": 2991107,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20088,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2708930.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20088,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2708930.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991108": {
+        "ID": 2991108,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20089,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2708070.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20089,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2708070.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      },
+      "2991109": {
+        "ID": 2991109,
+        "DataStage": 23,
+        "Version": "*",
+        "LocalQuestType": "EDS_LocalQuestType::Once",
+        "ConditionText": {
+          "ID": 60706
+        },
+        "LockInvisible": false,
+        "QuestCompleteHide": false,
+        "ID_AcceptNpc": 20089,
+        "ID_AcceptSequence": 0,
+        "ID_AcceptZone": 2001,
+        "AcceptCoordinate": {
+          "X": -2708070.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "ID_CompleteNpc": 20089,
+        "ID_CompleteSequence": 0,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2708070.0,
+          "Y": -2749500.0,
+          "Z": 480.0
+        },
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_AutoAcceptQuestId": 0,
+        "ID_QuestCategory": 1999
+      }
+    }
+  }
+]

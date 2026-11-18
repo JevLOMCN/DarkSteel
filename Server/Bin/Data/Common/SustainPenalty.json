@@ -1,0 +1,605 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SustainPenalty",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SustainPenalty",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SustainPenaltyTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1101": {
+        "ID": 1101,
+        "DataStage": 23,
+        "Group": 11,
+        "Level": 1,
+        "MinRate": 0,
+        "MaxRate": 700000,
+        "ID_Name": {
+          "ID": 50001
+        },
+        "ID_Des": {
+          "ID": 50001
+        },
+        "ID_Icon": 3407,
+        "ID_FontStyle": 0,
+        "IsShowHud": false,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "1102": {
+        "ID": 1102,
+        "DataStage": 23,
+        "Group": 11,
+        "Level": 2,
+        "MinRate": 700000,
+        "MaxRate": 1000000,
+        "ID_Name": {
+          "ID": 50002
+        },
+        "ID_Des": {
+          "ID": 50002
+        },
+        "ID_Icon": 3408,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "1103": {
+        "ID": 1103,
+        "DataStage": 23,
+        "Group": 11,
+        "Level": 3,
+        "MinRate": 1000000,
+        "MaxRate": 1200000,
+        "ID_Name": {
+          "ID": 50003
+        },
+        "ID_Des": {
+          "ID": 50003
+        },
+        "ID_Icon": 3409,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [
+          111001
+        ],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "1104": {
+        "ID": 1104,
+        "DataStage": 23,
+        "Group": 11,
+        "Level": 4,
+        "MinRate": 1200000,
+        "MaxRate": 2147483647,
+        "ID_Name": {
+          "ID": 50003
+        },
+        "ID_Des": {
+          "ID": 50003
+        },
+        "ID_Icon": 3410,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [
+          111002
+        ],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "1201": {
+        "ID": 1201,
+        "DataStage": 23,
+        "Group": 12,
+        "Level": 1,
+        "MinRate": 0,
+        "MaxRate": 700000,
+        "ID_Name": {
+          "ID": 50001
+        },
+        "ID_Des": {
+          "ID": 50001
+        },
+        "ID_Icon": 3407,
+        "ID_FontStyle": 0,
+        "IsShowHud": false,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "1202": {
+        "ID": 1202,
+        "DataStage": 23,
+        "Group": 12,
+        "Level": 2,
+        "MinRate": 700000,
+        "MaxRate": 1000000,
+        "ID_Name": {
+          "ID": 50002
+        },
+        "ID_Des": {
+          "ID": 50002
+        },
+        "ID_Icon": 3408,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "1203": {
+        "ID": 1203,
+        "DataStage": 23,
+        "Group": 12,
+        "Level": 3,
+        "MinRate": 1000000,
+        "MaxRate": 1200000,
+        "ID_Name": {
+          "ID": 50003
+        },
+        "ID_Des": {
+          "ID": 50003
+        },
+        "ID_Icon": 3409,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [
+          111001
+        ],
+        "ID_MountBuff": [
+          111011
+        ],
+        "ID_Buff": []
+      },
+      "1204": {
+        "ID": 1204,
+        "DataStage": 23,
+        "Group": 12,
+        "Level": 4,
+        "MinRate": 1200000,
+        "MaxRate": 2147483647,
+        "ID_Name": {
+          "ID": 50003
+        },
+        "ID_Des": {
+          "ID": 50003
+        },
+        "ID_Icon": 3410,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [
+          111002
+        ],
+        "ID_MountBuff": [
+          111012
+        ],
+        "ID_Buff": []
+      },
+      "2101": {
+        "ID": 2101,
+        "DataStage": 23,
+        "Group": 21,
+        "Level": 4,
+        "MinRate": 0,
+        "MaxRate": 1,
+        "ID_Name": {
+          "ID": 50013
+        },
+        "ID_Des": {
+          "ID": 50513
+        },
+        "ID_Icon": 3410,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [
+          111021
+        ],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "2102": {
+        "ID": 2102,
+        "DataStage": 23,
+        "Group": 21,
+        "Level": 3,
+        "MinRate": 1,
+        "MaxRate": 300000,
+        "ID_Name": {
+          "ID": 50013
+        },
+        "ID_Des": {
+          "ID": 50513
+        },
+        "ID_Icon": 3409,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [
+          111022
+        ],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "2103": {
+        "ID": 2103,
+        "DataStage": 23,
+        "Group": 21,
+        "Level": 2,
+        "MinRate": 300000,
+        "MaxRate": 500000,
+        "ID_Name": {
+          "ID": 50012
+        },
+        "ID_Des": {
+          "ID": 50512
+        },
+        "ID_Icon": 3408,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "2104": {
+        "ID": 2104,
+        "DataStage": 23,
+        "Group": 21,
+        "Level": 1,
+        "MinRate": 500000,
+        "MaxRate": 2147483647,
+        "ID_Name": {
+          "ID": 50011
+        },
+        "ID_Des": {
+          "ID": 50511
+        },
+        "ID_Icon": 3407,
+        "ID_FontStyle": 0,
+        "IsShowHud": false,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "2201": {
+        "ID": 2201,
+        "DataStage": 23,
+        "Group": 22,
+        "Level": 4,
+        "MinRate": 0,
+        "MaxRate": 1,
+        "ID_Name": {
+          "ID": 50013
+        },
+        "ID_Des": {
+          "ID": 50513
+        },
+        "ID_Icon": 3410,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [
+          111031
+        ],
+        "ID_Buff": []
+      },
+      "2202": {
+        "ID": 2202,
+        "DataStage": 23,
+        "Group": 22,
+        "Level": 3,
+        "MinRate": 1,
+        "MaxRate": 300000,
+        "ID_Name": {
+          "ID": 50013
+        },
+        "ID_Des": {
+          "ID": 50513
+        },
+        "ID_Icon": 3409,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [
+          111032
+        ],
+        "ID_Buff": []
+      },
+      "2203": {
+        "ID": 2203,
+        "DataStage": 23,
+        "Group": 22,
+        "Level": 2,
+        "MinRate": 300000,
+        "MaxRate": 500000,
+        "ID_Name": {
+          "ID": 50012
+        },
+        "ID_Des": {
+          "ID": 50512
+        },
+        "ID_Icon": 3408,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "2204": {
+        "ID": 2204,
+        "DataStage": 23,
+        "Group": 22,
+        "Level": 1,
+        "MinRate": 500000,
+        "MaxRate": 2147483647,
+        "ID_Name": {
+          "ID": 50011
+        },
+        "ID_Des": {
+          "ID": 50511
+        },
+        "ID_Icon": 3407,
+        "ID_FontStyle": 0,
+        "IsShowHud": false,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "3101": {
+        "ID": 3101,
+        "DataStage": 23,
+        "Group": 31,
+        "Level": 4,
+        "MinRate": 0,
+        "MaxRate": 1,
+        "ID_Name": {
+          "ID": 50023
+        },
+        "ID_Des": {
+          "ID": 50523
+        },
+        "ID_Icon": 3410,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [
+          111041
+        ],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "3102": {
+        "ID": 3102,
+        "DataStage": 23,
+        "Group": 31,
+        "Level": 3,
+        "MinRate": 1,
+        "MaxRate": 300000,
+        "ID_Name": {
+          "ID": 50023
+        },
+        "ID_Des": {
+          "ID": 50523
+        },
+        "ID_Icon": 3409,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [
+          111042
+        ],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "3103": {
+        "ID": 3103,
+        "DataStage": 23,
+        "Group": 31,
+        "Level": 2,
+        "MinRate": 300000,
+        "MaxRate": 500000,
+        "ID_Name": {
+          "ID": 50022
+        },
+        "ID_Des": {
+          "ID": 50522
+        },
+        "ID_Icon": 3408,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "3104": {
+        "ID": 3104,
+        "DataStage": 23,
+        "Group": 31,
+        "Level": 1,
+        "MinRate": 500000,
+        "MaxRate": 2147483647,
+        "ID_Name": {
+          "ID": 50021
+        },
+        "ID_Des": {
+          "ID": 50521
+        },
+        "ID_Icon": 3407,
+        "ID_FontStyle": 0,
+        "IsShowHud": false,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "3201": {
+        "ID": 3201,
+        "DataStage": 23,
+        "Group": 32,
+        "Level": 4,
+        "MinRate": 0,
+        "MaxRate": 1,
+        "ID_Name": {
+          "ID": 50023
+        },
+        "ID_Des": {
+          "ID": 50523
+        },
+        "ID_Icon": 3410,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [
+          111051
+        ],
+        "ID_Buff": []
+      },
+      "3202": {
+        "ID": 3202,
+        "DataStage": 23,
+        "Group": 32,
+        "Level": 3,
+        "MinRate": 1,
+        "MaxRate": 300000,
+        "ID_Name": {
+          "ID": 50023
+        },
+        "ID_Des": {
+          "ID": 50523
+        },
+        "ID_Icon": 3409,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [
+          111052
+        ],
+        "ID_Buff": []
+      },
+      "3203": {
+        "ID": 3203,
+        "DataStage": 23,
+        "Group": 32,
+        "Level": 2,
+        "MinRate": 300000,
+        "MaxRate": 500000,
+        "ID_Name": {
+          "ID": 50022
+        },
+        "ID_Des": {
+          "ID": 50522
+        },
+        "ID_Icon": 3408,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "3204": {
+        "ID": 3204,
+        "DataStage": 23,
+        "Group": 32,
+        "Level": 1,
+        "MinRate": 500000,
+        "MaxRate": 2147483647,
+        "ID_Name": {
+          "ID": 50021
+        },
+        "ID_Des": {
+          "ID": 50521
+        },
+        "ID_Icon": 3407,
+        "ID_FontStyle": 0,
+        "IsShowHud": false,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "4101": {
+        "ID": 4101,
+        "DataStage": 23,
+        "Group": 41,
+        "Level": 4,
+        "MinRate": 0,
+        "MaxRate": 1,
+        "ID_Name": {
+          "ID": 50024
+        },
+        "ID_Des": {
+          "ID": 50524
+        },
+        "ID_Icon": 6022,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "4102": {
+        "ID": 4102,
+        "DataStage": 23,
+        "Group": 41,
+        "Level": 3,
+        "MinRate": 1,
+        "MaxRate": 300000,
+        "ID_Name": {
+          "ID": 50025
+        },
+        "ID_Des": {
+          "ID": 50525
+        },
+        "ID_Icon": 6021,
+        "ID_FontStyle": 0,
+        "IsShowHud": true,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "4103": {
+        "ID": 4103,
+        "DataStage": 23,
+        "Group": 41,
+        "Level": 2,
+        "MinRate": 300000,
+        "MaxRate": 500000,
+        "ID_Name": {
+          "ID": 50026
+        },
+        "ID_Des": {
+          "ID": 50526
+        },
+        "ID_Icon": 6021,
+        "ID_FontStyle": 0,
+        "IsShowHud": false,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      },
+      "4104": {
+        "ID": 4104,
+        "DataStage": 23,
+        "Group": 41,
+        "Level": 1,
+        "MinRate": 500000,
+        "MaxRate": 2147483647,
+        "ID_Name": {
+          "ID": 50027
+        },
+        "ID_Des": {
+          "ID": 50527
+        },
+        "ID_Icon": 6021,
+        "ID_FontStyle": 0,
+        "IsShowHud": false,
+        "ID_PlayerBuff": [],
+        "ID_MountBuff": [],
+        "ID_Buff": []
+      }
+    }
+  }
+]

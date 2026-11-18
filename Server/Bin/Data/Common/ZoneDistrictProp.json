@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ZoneDistrictProp",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ZoneDistrictProp",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ZoneDistrictPropTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "DataStage": 23,
+        "ID": 1,
+        "DistrictPropName": "Safety"
+      },
+      "2": {
+        "DataStage": 23,
+        "ID": 2,
+        "DistrictPropName": "Pk"
+      },
+      "3": {
+        "DataStage": 23,
+        "ID": 3,
+        "DistrictPropName": "Buff"
+      },
+      "4": {
+        "DataStage": 23,
+        "ID": 4,
+        "DistrictPropName": "Pvp"
+      },
+      "5": {
+        "DataStage": 23,
+        "ID": 5,
+        "DistrictPropName": "Building"
+      },
+      "6": {
+        "DataStage": 23,
+        "ID": 6,
+        "DistrictPropName": "Village"
+      },
+      "7": {
+        "DataStage": 23,
+        "ID": 7,
+        "DistrictPropName": "Gravity"
+      },
+      "8": {
+        "DataStage": 23,
+        "ID": 8,
+        "DistrictPropName": "PkHistory"
+      },
+      "9": {
+        "DataStage": 23,
+        "ID": 9,
+        "DistrictPropName": "PkGuardOff"
+      },
+      "10": {
+        "DataStage": 23,
+        "ID": 10,
+        "DistrictPropName": "DungeonEntryOff"
+      },
+      "11": {
+        "DataStage": 23,
+        "ID": 11,
+        "DistrictPropName": "SustainDecayItem"
+      },
+      "12": {
+        "DataStage": 23,
+        "ID": 12,
+        "DistrictPropName": "CapsuleNoCollision"
+      }
+    }
+  }
+]

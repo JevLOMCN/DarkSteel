@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceMapIndexWidgetPath",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceMapIndexWidgetPath",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceMapIndexWidgetPathTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_MapIndexDisplayType::PlayerIcon",
+        "DataStage": 23,
+        "Version": "*",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_PlayerIcon_N.W_WorldMap_PlayerIcon_N_C",
+          "SubPathString": ""
+        }
+      },
+      "3": {
+        "ID": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "DataStage": 23,
+        "Version": "*",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_Region_Icon_N.W_WorldMap_Region_Icon_N_C",
+          "SubPathString": ""
+        }
+      },
+      "4": {
+        "ID": "EDS_MapIndexDisplayType::IconOnly_Btn",
+        "DataStage": 23,
+        "Version": "*",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_Icon_Btn_N.W_WorldMap_Icon_Btn_N_C",
+          "SubPathString": ""
+        }
+      },
+      "5": {
+        "ID": "EDS_MapIndexDisplayType::TextOnly_Btn",
+        "DataStage": 23,
+        "Version": "*",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_Text_Btn_N.W_WorldMap_Text_Btn_N_C",
+          "SubPathString": ""
+        }
+      },
+      "6": {
+        "ID": "EDS_MapIndexDisplayType::Marker",
+        "DataStage": 23,
+        "Version": "*",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_Marker_N.W_WorldMap_Marker_N_C",
+          "SubPathString": ""
+        }
+      },
+      "7": {
+        "ID": "EDS_MapIndexDisplayType::AlwaysVisibleIcon",
+        "DataStage": 23,
+        "Version": "*",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_Icon_Tracking_N.W_WorldMap_Icon_Tracking_N_C",
+          "SubPathString": ""
+        }
+      },
+      "8": {
+        "ID": "EDS_MapIndexDisplayType::ContentsEvent",
+        "DataStage": 23,
+        "Version": "*",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_BossMarker_N.W_WorldMap_BossMarker_N_C",
+          "SubPathString": ""
+        }
+      },
+      "9": {
+        "ID": "EDS_MapIndexDisplayType::Quest",
+        "DataStage": 23,
+        "Version": "*",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_Quest_N.W_WorldMap_Quest_N_C",
+          "SubPathString": ""
+        }
+      },
+      "10": {
+        "ID": "EDS_MapIndexDisplayType::Detection",
+        "DataStage": 23,
+        "Version": "*",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_Detection_N.W_WorldMap_Detection_N_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

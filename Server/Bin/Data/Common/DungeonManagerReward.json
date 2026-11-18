@@ -1,0 +1,474 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DungeonManagerReward",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/DungeonManagerReward",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_DungeonManagerRewardTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2
+        ],
+        "ClearGrade": 5,
+        "MinScore": 1,
+        "MaxScore": 199,
+        "ID_DungeonReward": 7001
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2
+        ],
+        "ClearGrade": 4,
+        "MinScore": 200,
+        "MaxScore": 299,
+        "ID_DungeonReward": 7002
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2
+        ],
+        "ClearGrade": 3,
+        "MinScore": 300,
+        "MaxScore": 399,
+        "ID_DungeonReward": 7011
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2
+        ],
+        "ClearGrade": 2,
+        "MinScore": 400,
+        "MaxScore": 599,
+        "ID_DungeonReward": 7012
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2
+        ],
+        "ClearGrade": 1,
+        "MinScore": 600,
+        "MaxScore": 100000,
+        "ID_DungeonReward": 7013
+      },
+      "1006": {
+        "ID": 1006,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3
+        ],
+        "ClearGrade": 5,
+        "MinScore": 1,
+        "MaxScore": 199,
+        "ID_DungeonReward": 7201
+      },
+      "1007": {
+        "ID": 1007,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3
+        ],
+        "ClearGrade": 4,
+        "MinScore": 200,
+        "MaxScore": 299,
+        "ID_DungeonReward": 7301
+      },
+      "1008": {
+        "ID": 1008,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3
+        ],
+        "ClearGrade": 3,
+        "MinScore": 300,
+        "MaxScore": 399,
+        "ID_DungeonReward": 7001
+      },
+      "1009": {
+        "ID": 1009,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3
+        ],
+        "ClearGrade": 2,
+        "MinScore": 400,
+        "MaxScore": 599,
+        "ID_DungeonReward": 7002
+      },
+      "1010": {
+        "ID": 1010,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3
+        ],
+        "ClearGrade": 1,
+        "MinScore": 600,
+        "MaxScore": 100000,
+        "ID_DungeonReward": 7011
+      },
+      "1011": {
+        "ID": 1011,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2,
+          3
+        ],
+        "ClearGrade": 5,
+        "MinScore": 1,
+        "MaxScore": 199,
+        "ID_DungeonReward": 7012
+      },
+      "1012": {
+        "ID": 1012,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2,
+          3
+        ],
+        "ClearGrade": 4,
+        "MinScore": 200,
+        "MaxScore": 299,
+        "ID_DungeonReward": 7013
+      },
+      "1013": {
+        "ID": 1013,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2,
+          3
+        ],
+        "ClearGrade": 3,
+        "MinScore": 300,
+        "MaxScore": 399,
+        "ID_DungeonReward": 7201
+      },
+      "1014": {
+        "ID": 1014,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2,
+          3
+        ],
+        "ClearGrade": 2,
+        "MinScore": 400,
+        "MaxScore": 599,
+        "ID_DungeonReward": 7001
+      },
+      "1015": {
+        "ID": 1015,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          2,
+          3
+        ],
+        "ClearGrade": 1,
+        "MinScore": 600,
+        "MaxScore": 100000,
+        "ID_DungeonReward": 7002
+      },
+      "1016": {
+        "ID": 1016,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3,
+          2
+        ],
+        "ClearGrade": 5,
+        "MinScore": 1,
+        "MaxScore": 199,
+        "ID_DungeonReward": 7011
+      },
+      "1017": {
+        "ID": 1017,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3,
+          2
+        ],
+        "ClearGrade": 4,
+        "MinScore": 200,
+        "MaxScore": 299,
+        "ID_DungeonReward": 7012
+      },
+      "1018": {
+        "ID": 1018,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3,
+          2
+        ],
+        "ClearGrade": 3,
+        "MinScore": 300,
+        "MaxScore": 399,
+        "ID_DungeonReward": 7013
+      },
+      "1019": {
+        "ID": 1019,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3,
+          2
+        ],
+        "ClearGrade": 2,
+        "MinScore": 400,
+        "MaxScore": 599,
+        "ID_DungeonReward": 7201
+      },
+      "1020": {
+        "ID": 1020,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7001,
+        "DungeonScriptClearArray": [
+          1,
+          3,
+          2
+        ],
+        "ClearGrade": 1,
+        "MinScore": 600,
+        "MaxScore": 100000,
+        "ID_DungeonReward": 7301
+      },
+      "1021": {
+        "ID": 1021,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          7,
+          9
+        ],
+        "ClearGrade": 5,
+        "MinScore": 1,
+        "MaxScore": 199,
+        "ID_DungeonReward": 7001
+      },
+      "1022": {
+        "ID": 1022,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          7,
+          9
+        ],
+        "ClearGrade": 4,
+        "MinScore": 200,
+        "MaxScore": 299,
+        "ID_DungeonReward": 7002
+      },
+      "1023": {
+        "ID": 1023,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          7,
+          9
+        ],
+        "ClearGrade": 3,
+        "MinScore": 300,
+        "MaxScore": 399,
+        "ID_DungeonReward": 7011
+      },
+      "1024": {
+        "ID": 1024,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          7,
+          9
+        ],
+        "ClearGrade": 2,
+        "MinScore": 400,
+        "MaxScore": 599,
+        "ID_DungeonReward": 7012
+      },
+      "1025": {
+        "ID": 1025,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          7,
+          9
+        ],
+        "ClearGrade": 1,
+        "MinScore": 600,
+        "MaxScore": 100000,
+        "ID_DungeonReward": 7013
+      },
+      "1026": {
+        "ID": 1026,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          8,
+          10
+        ],
+        "ClearGrade": 5,
+        "MinScore": 1,
+        "MaxScore": 199,
+        "ID_DungeonReward": 7001
+      },
+      "1027": {
+        "ID": 1027,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          8,
+          10
+        ],
+        "ClearGrade": 4,
+        "MinScore": 200,
+        "MaxScore": 299,
+        "ID_DungeonReward": 7002
+      },
+      "1028": {
+        "ID": 1028,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          8,
+          10
+        ],
+        "ClearGrade": 3,
+        "MinScore": 300,
+        "MaxScore": 399,
+        "ID_DungeonReward": 7011
+      },
+      "1029": {
+        "ID": 1029,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          8,
+          10
+        ],
+        "ClearGrade": 2,
+        "MinScore": 400,
+        "MaxScore": 599,
+        "ID_DungeonReward": 7012
+      },
+      "1030": {
+        "ID": 1030,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          6,
+          8,
+          10
+        ],
+        "ClearGrade": 1,
+        "MinScore": 600,
+        "MaxScore": 100000,
+        "ID_DungeonReward": 7013
+      },
+      "1031": {
+        "ID": 1031,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_DungeonId": 7003,
+        "DungeonScriptClearArray": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "ClearGrade": 1,
+        "MinScore": 500,
+        "MaxScore": 9999,
+        "ID_DungeonReward": 7003
+      }
+    }
+  }
+]

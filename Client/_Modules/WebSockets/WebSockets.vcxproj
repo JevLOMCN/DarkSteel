@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{A912D717-3285-5A0A-A820-8C345D5BA092}</ProjectGuid><RootNamespace>WebSockets</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FLwsReceiveBufferBinary.cpp" />
+    <ClCompile Include="Private\FLwsReceiveBufferBinaryFragment.cpp" />
+    <ClCompile Include="Private\FLwsReceiveBufferText.cpp" />
+    <ClCompile Include="Private\FLwsSendBuffer.cpp" />
+    <ClCompile Include="Private\FLwsWebSocket.cpp" />
+    <ClCompile Include="Private\FLwsWebSocketsManager.cpp" />
+    <ClCompile Include="Private\FSslModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWebSocketsModule.cpp" />
+    <ClCompile Include="Private\IWebSocket.cpp" />
+    <ClCompile Include="Private\IWebSocketsManager.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TQueue.cpp" />
+    <ClCompile Include="Private\TSharedFromThis.cpp" />
+    <ClCompile Include="Private\TStringConversion.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.WebSockets.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

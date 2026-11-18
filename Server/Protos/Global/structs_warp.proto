@@ -1,0 +1,14 @@
+syntax = "proto3";
+package ds_proto;
+option csharp_namespace = "MirProto.DsProto";
+
+import "_vector.proto";
+import "WarpType.proto";
+
+message Warp {
+  Vector position = 2;
+  float direction = 3;
+  uint32 island_id = 4;
+  int32 warp_location_id = 5;
+  WarpType warp_type = 6;
+}

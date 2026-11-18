@@ -1,0 +1,16 @@
+syntax = "proto3";
+package ds_account;
+option csharp_namespace = "MirProto.DsAccount";
+
+import "_options.proto";
+import "DirtyFlag.proto";
+import "ds_account/sql_g_account_table.proto";
+import "ds_account/sql_g_nickname_table.proto";
+
+message DbWorkItem {
+  DirtyFlag dirty_flag = 1;
+  oneof Item {
+    ds_account.SqlGAccountTable GAccount = 5;
+    ds_account.SqlGNicknameTable GNickname = 6;
+  }
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+import "FactionType.proto";
+
+message TeamType {
+  oneof item {
+    bool neutral = 1;
+    FactionType faction = 2;
+    int64 union = 3;
+    int64 guild = 4;
+    int64 party = 5;
+    uint64 player = 6;
+  }
+}
+message TeamInfo {
+  repeated TeamType teams = 1;
+}

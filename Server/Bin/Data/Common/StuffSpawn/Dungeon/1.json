@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StuffSpawn/Dungeon/1",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StuffSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          610101
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -1336100.0,
+          "Y": 23950.0,
+          "Z": 14569.156
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 100.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 1.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      }
+    }
+  }
+]

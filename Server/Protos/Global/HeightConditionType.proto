@@ -1,0 +1,9 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum HeightConditionType {
+  HeightConditionType_Ground = 0;
+  HeightConditionType_Air = 1;
+  HeightConditionType_UnderGround = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum LogoutReason {
+  LogoutReason_Logout = 0;
+  LogoutReason_ReturnToCharacterSelect = 1;
+}

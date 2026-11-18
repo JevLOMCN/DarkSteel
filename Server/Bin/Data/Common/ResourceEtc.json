@@ -1,0 +1,314 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceEtc",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceEtc",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceEtcTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10001": {
+        "ID": 10001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_MainPlayerBP.DS_MainPlayerBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11001": {
+        "ID": 11001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_NetPlayerBP.DS_NetPlayerBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12001": {
+        "ID": 12001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_DummyNetPlayerBP.DS_DummyNetPlayerBP_C",
+          "SubPathString": ""
+        }
+      },
+      "20001": {
+        "ID": 20001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_NPCBP.DS_NPCBP_C",
+          "SubPathString": ""
+        }
+      },
+      "20002": {
+        "ID": 20002,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_NPCBossBP.DS_NPCBossBP_C",
+          "SubPathString": ""
+        }
+      },
+      "20003": {
+        "ID": 20003,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_NPCBP_PCBlockCollision.DS_NPCBP_PCBlockCollision_C",
+          "SubPathString": ""
+        }
+      },
+      "21001": {
+        "ID": 21001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_MiniGame/W_Taming_NPC_Move_N.W_Taming_NPC_Move_N_C",
+          "SubPathString": ""
+        }
+      },
+      "21002": {
+        "ID": 21002,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_MiniGame/W_Taming_NPC_Think_N.W_Taming_NPC_Think_N_C",
+          "SubPathString": ""
+        }
+      },
+      "21003": {
+        "ID": 21003,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_MiniGame/W_Taming_NPC_Eat_N.W_Taming_NPC_Eat_N_C",
+          "SubPathString": ""
+        }
+      },
+      "30001": {
+        "ID": 30001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_StuffGatherBP.DS_StuffGatherBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30002": {
+        "ID": 30002,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_StuffQuestBoardBP.DS_StuffQuestBoardBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30003": {
+        "ID": 30003,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_StuffPortalBP.DS_StuffPortalBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30004": {
+        "ID": 30004,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_StuffWarpDeviceBP.DS_StuffWarpDeviceBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30005": {
+        "ID": 30005,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_StuffQuestBP.DS_StuffQuestBP_C",
+          "SubPathString": ""
+        }
+      },
+      "40001": {
+        "ID": 40001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_TransportBP.DS_TransportBP_C",
+          "SubPathString": ""
+        }
+      },
+      "41001": {
+        "ID": 41001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_TotemBP.DS_TotemBP_C",
+          "SubPathString": ""
+        }
+      },
+      "42001": {
+        "ID": 42001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/Effect/Widget_FX/W_SmiteTarget_Outgame.W_SmiteTarget_Outgame_C",
+          "SubPathString": ""
+        }
+      },
+      "43001": {
+        "ID": 43001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_Interaction_CampInstallation.W_HUD_Interaction_CampInstallation_C",
+          "SubPathString": ""
+        }
+      },
+      "44001": {
+        "ID": 44001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "44002": {
+        "ID": 44002,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "45001": {
+        "ID": 45001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ClientBP/CustomizeRenderRoom.CustomizeRenderRoom_C",
+          "SubPathString": ""
+        }
+      },
+      "50001": {
+        "ID": 50001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_NameTag_PC.W_NameTag_PC_C",
+          "SubPathString": ""
+        }
+      },
+      "50002": {
+        "ID": 50002,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_NameTag_NetPC.W_NameTag_NetPC_C",
+          "SubPathString": ""
+        }
+      },
+      "50003": {
+        "ID": 50003,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_NameTag_NPC.W_NameTag_NPC_C",
+          "SubPathString": ""
+        }
+      },
+      "50004": {
+        "ID": 50004,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_NameTag_BattleNPC.W_NameTag_BattleNPC_C",
+          "SubPathString": ""
+        }
+      },
+      "50005": {
+        "ID": 50005,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_NameTag_Stuff.W_NameTag_Stuff_C",
+          "SubPathString": ""
+        }
+      },
+      "50006": {
+        "ID": 50006,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_NameTag_Stuff.W_NameTag_Stuff_C",
+          "SubPathString": ""
+        }
+      },
+      "50007": {
+        "ID": 50007,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_NameTag_MountNPC.W_NameTag_MountNPC_C",
+          "SubPathString": ""
+        }
+      },
+      "60001": {
+        "ID": 60001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_InteractionPrompt_N.W_HUD_InteractionPrompt_N_C",
+          "SubPathString": ""
+        }
+      },
+      "60002": {
+        "ID": 60002,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_InteractionPrepare.W_HUD_InteractionPrepare_C",
+          "SubPathString": ""
+        }
+      },
+      "70001": {
+        "ID": 70001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Sounds/DA_SoundData.DA_SoundData",
+          "SubPathString": ""
+        }
+      },
+      "80001": {
+        "ID": 80001,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_Mount_Ravanos01_NA11BP.DS_Mount_Ravanos01_NA11BP_C",
+          "SubPathString": ""
+        }
+      },
+      "80101": {
+        "ID": 80101,
+        "DataStage": 23,
+        "Version": "*",
+        "ResourcePath": {
+          "AssetPathName": "/Game/Blueprints/ActorBP/DS_Mount_Horse01_NA11BP.DS_Mount_Horse01_NA11BP_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

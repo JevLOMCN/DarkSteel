@@ -1,0 +1,128 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BuffOverlapCall",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/BuffOverlapCall",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_BuffOverlapCallTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "OverLapCallGroupID": 1,
+        "BuffOverlapLevel": 1,
+        "BuffOverlapCntMin": 6,
+        "BuffOverlapCntMax": 10,
+        "AttachBuffID": [
+          9321
+        ]
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "OverLapCallGroupID": 1,
+        "BuffOverlapLevel": 2,
+        "BuffOverlapCntMin": 11,
+        "BuffOverlapCntMax": 15,
+        "AttachBuffID": [
+          9322
+        ]
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "OverLapCallGroupID": 1,
+        "BuffOverlapLevel": 3,
+        "BuffOverlapCntMin": 16,
+        "BuffOverlapCntMax": 20,
+        "AttachBuffID": [
+          9323,
+          9324
+        ]
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "OverLapCallGroupID": 2,
+        "BuffOverlapLevel": 1,
+        "BuffOverlapCntMin": 10,
+        "BuffOverlapCntMax": 10,
+        "AttachBuffID": [
+          9005
+        ]
+      },
+      "301": {
+        "ID": 301,
+        "DataStage": 23,
+        "OverLapCallGroupID": 3,
+        "BuffOverlapLevel": 1,
+        "BuffOverlapCntMin": 3,
+        "BuffOverlapCntMax": 5,
+        "AttachBuffID": [
+          112002
+        ]
+      },
+      "401": {
+        "ID": 401,
+        "DataStage": 23,
+        "OverLapCallGroupID": 4,
+        "BuffOverlapLevel": 1,
+        "BuffOverlapCntMin": 3,
+        "BuffOverlapCntMax": 5,
+        "AttachBuffID": [
+          112010
+        ]
+      },
+      "501": {
+        "ID": 501,
+        "DataStage": 23,
+        "OverLapCallGroupID": 5,
+        "BuffOverlapLevel": 1,
+        "BuffOverlapCntMin": 1,
+        "BuffOverlapCntMax": 4,
+        "AttachBuffID": [
+          4105
+        ]
+      },
+      "502": {
+        "ID": 502,
+        "DataStage": 23,
+        "OverLapCallGroupID": 5,
+        "BuffOverlapLevel": 2,
+        "BuffOverlapCntMin": 5,
+        "BuffOverlapCntMax": 9,
+        "AttachBuffID": [
+          4106
+        ]
+      },
+      "503": {
+        "ID": 503,
+        "DataStage": 23,
+        "OverLapCallGroupID": 5,
+        "BuffOverlapLevel": 3,
+        "BuffOverlapCntMin": 10,
+        "BuffOverlapCntMax": 14,
+        "AttachBuffID": [
+          4107
+        ]
+      },
+      "504": {
+        "ID": 504,
+        "DataStage": 23,
+        "OverLapCallGroupID": 5,
+        "BuffOverlapLevel": 4,
+        "BuffOverlapCntMin": 15,
+        "BuffOverlapCntMax": 30,
+        "AttachBuffID": [
+          4108
+        ]
+      }
+    }
+  }
+]

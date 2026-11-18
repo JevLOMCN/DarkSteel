@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{DA255289-1138-5A8B-8B80-49A7C18DC9A3}</ProjectGuid><RootNamespace>TraceAnalysis</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAnalysisBridge.cpp" />
+    <ClCompile Include="Private\FAnalysisContext.cpp" />
+    <ClCompile Include="Private\FAnalysisEngine.cpp" />
+    <ClCompile Include="Private\FAnalysisMachine.cpp" />
+    <ClCompile Include="Private\FAnalysisProcessor.cpp" />
+    <ClCompile Include="Private\FAnalysisState.cpp" />
+    <ClCompile Include="Private\FAnalyzerHub.cpp" />
+    <ClCompile Include="Private\FArrayReader.cpp" />
+    <ClCompile Include="Private\FAuxDataCollector.cpp" />
+    <ClCompile Include="Private\FControlClient.cpp" />
+    <ClCompile Include="Private\FDirectSocketContext.cpp" />
+    <ClCompile Include="Private\FDirectSocketStream.cpp" />
+    <ClCompile Include="Private\FDispatch.cpp" />
+    <ClCompile Include="Private\FDispatchBuilder.cpp" />
+    <ClCompile Include="Private\FEstablishTransportStage.cpp" />
+    <ClCompile Include="Private\FEventData.cpp" />
+    <ClCompile Include="Private\FEventDataInfo.cpp" />
+    <ClCompile Include="Private\FEventFieldInfo.cpp" />
+    <ClCompile Include="Private\FEventTime.cpp" />
+    <ClCompile Include="Private\FEventTypeInfo.cpp" />
+    <ClCompile Include="Private\FFileDataStream.cpp" />
+    <ClCompile Include="Private\FImpl.cpp" />
+    <ClCompile Include="Private\FMagicStage.cpp" />
+    <ClCompile Include="Private\FMetadataStage.cpp" />
+    <ClCompile Include="Private\FPacketTransport.cpp" />
+    <ClCompile Include="Private\FProtocol0Stage.cpp" />
+    <ClCompile Include="Private\FProtocol2Stage.cpp" />
+    <ClCompile Include="Private\FProtocol4Stage.cpp" />
+    <ClCompile Include="Private\FProtocol5Stage.cpp" />
+    <ClCompile Include="Private\FProtocol6Stage.cpp" />
+    <ClCompile Include="Private\FProtocol7Stage.cpp" />
+    <ClCompile Include="Private\FResponse.cpp" />
+    <ClCompile Include="Private\FSessionInfo.cpp" />
+    <ClCompile Include="Private\FStage.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FStatus.cpp" />
+    <ClCompile Include="Private\FStoreCborClient.cpp" />
+    <ClCompile Include="Private\FStoreClient.cpp" />
+    <ClCompile Include="Private\FStoreConnection.cpp" />
+    <ClCompile Include="Private\FStreamBuffer.cpp" />
+    <ClCompile Include="Private\FStreamReader.cpp" />
+    <ClCompile Include="Private\FThreadInfo.cpp" />
+    <ClCompile Include="Private\FThreadInfoCallback.cpp" />
+    <ClCompile Include="Private\FThreadStream.cpp" />
+    <ClCompile Include="Private\FThreads.cpp" />
+    <ClCompile Include="Private\FTidPacketTransport.cpp" />
+    <ClCompile Include="Private\FTidPacketTransportSync.cpp" />
+    <ClCompile Include="Private\FTraceAnalysisModule.cpp" />
+    <ClCompile Include="Private\FTraceAnalyzer.cpp" />
+    <ClCompile Include="Private\FTraceDataStream.cpp" />
+    <ClCompile Include="Private\FTraceInfo.cpp" />
+    <ClCompile Include="Private\FTransport.cpp" />
+    <ClCompile Include="Private\FTypeRegistry.cpp" />
+    <ClCompile Include="Private\FVersion.cpp" />
+    <ClCompile Include="Private\IAnalyzer.cpp" />
+    <ClCompile Include="Private\IInDataStream.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayReader.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TInlineMemoryWriter.cpp" />
+    <ClCompile Include="Private\TPayloadBuilder.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.TraceAnalysis.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

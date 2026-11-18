@@ -1,0 +1,10 @@
+syntax = "proto3";
+package ds_rank;
+option csharp_namespace = "MirProto.DsRank";
+
+import "_db.proto";
+
+message SqlRankStateTable {
+  int64 world_id = 1;
+  int32 state = 2;
+}

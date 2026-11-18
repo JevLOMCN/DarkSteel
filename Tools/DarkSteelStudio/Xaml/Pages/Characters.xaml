@@ -1,0 +1,70 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Theme merged relative to this file for the XAML designer; the runtime
+         loader sets ParserContext.BaseUri so the relative Source resolves. -->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <!-- Character manager (like ReMir's admin Characters): search, table, edit panel.
+         Logic: PlayerAdmin.cpp (ShowCharacters). -->
+    <DockPanel>
+        <TextBlock x:Name="ChrStatusText" DockPanel.Dock="Bottom" Style="{StaticResource MutedTextStyle}"
+                   Margin="0,8,0,0" TextWrapping="Wrap" Text="Loading characters..."/>
+
+        <DockPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+            <TextBlock x:Name="ChrCountText" DockPanel.Dock="Right" Style="{StaticResource MutedTextStyle}" VerticalAlignment="Center" Margin="12,0,0,0"/>
+            <CheckBox x:Name="ChrDeletedCheck" DockPanel.Dock="Right" Content="Include deleted" VerticalAlignment="Center" Margin="12,0,0,0"/>
+            <Button x:Name="ChrSearchButton" DockPanel.Dock="Right" Content="Search" Style="{StaticResource PrimaryButtonStyle}" Margin="8,0,0,0"/>
+            <TextBox x:Name="ChrSearchBox" ToolTip="Character name, character UID, account name or account UID. Enter searches."/>
+        </DockPanel>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MinWidth="380"/>
+                <ColumnDefinition Width="6"/>
+                <ColumnDefinition Width="360" MinWidth="300"/>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid x:Name="CharactersGrid" Grid.Column="0" AutoGenerateColumns="True" IsReadOnly="True"
+                      SelectionMode="Single" SelectionUnit="FullRow" CanUserAddRows="False"
+                      ColumnWidth="SizeToHeader" MaxColumnWidth="260" ClipboardCopyMode="IncludeHeader"/>
+
+            <GridSplitter Grid.Column="1" Width="6" HorizontalAlignment="Stretch" Background="Transparent"/>
+
+            <!-- Edit panel -->
+            <Border Grid.Column="2" Style="{StaticResource CardStyle}" Margin="0" Padding="12">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel>
+                        <TextBlock x:Name="ChrEditTitle" Style="{StaticResource HeadingTextStyle}" Text="Select a character"/>
+                        <TextBlock x:Name="ChrEditInfo" Style="{StaticResource MutedTextStyle}" FontSize="11.5" TextWrapping="Wrap" Margin="0,2,0,6"/>
+                        <TextBlock x:Name="ChrEditWarn" Foreground="{StaticResource Brush.Warn}" FontSize="11.5" TextWrapping="Wrap" Margin="0,0,0,8"/>
+
+                        <StackPanel x:Name="ChrEditFields" Visibility="Collapsed">
+                            <TextBlock Text="CHARACTER NAME" Style="{StaticResource CardTitleStyle}" Margin="0,4,0,4"/>
+                            <TextBox x:Name="ChrNameBox"/>
+                            <TextBlock Text="LEVEL (1 - 150)" Style="{StaticResource CardTitleStyle}" Margin="0,10,0,4"/>
+                            <TextBox x:Name="ChrLevelBox"/>
+                            <TextBlock Text="EXPERIENCE" Style="{StaticResource CardTitleStyle}" Margin="0,10,0,4"/>
+                            <TextBox x:Name="ChrExpBox"/>
+                            <TextBlock Text="COMBAT POWER" Style="{StaticResource CardTitleStyle}" Margin="0,10,0,4"/>
+                            <TextBox x:Name="ChrCpBox" ToolTip="The game recalculates this itself; editing it is mostly cosmetic."/>
+                            <TextBlock Text="PK POINTS" Style="{StaticResource CardTitleStyle}" Margin="0,10,0,4"/>
+                            <TextBox x:Name="ChrPkBox"/>
+                            <TextBlock Text="REASON (AUDIT NOTE)" Style="{StaticResource CardTitleStyle}" Margin="0,10,0,4"/>
+                            <TextBox x:Name="ChrReasonBox" ToolTip="Written to the DarkSteel Studio audit log with the change"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,14,0,0">
+                                <Button x:Name="ChrApplyButton" Content="Apply changes" Style="{StaticResource PrimaryButtonStyle}" Margin="0,0,8,0"/>
+                                <Button x:Name="ChrResetButton" Content="Reset" Margin="0,0,8,0"/>
+                                <Button x:Name="ChrOpenButton" Content="Open" ToolTip="Open the full character profile in its own window"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </Border>
+        </Grid>
+    </DockPanel>
+</UserControl>

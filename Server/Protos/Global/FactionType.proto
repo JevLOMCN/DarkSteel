@@ -1,0 +1,17 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum FactionType {
+  FactionType_None = 0;
+  FactionType_Player = 1;
+  FactionType_BattleNpc = 2;
+  FactionType_NpcFriendly = 3;
+  FactionType_NpcFactionA = 4;
+  FactionType_NpcFactionB = 5;
+  FactionType_NpcFactionC = 6;
+  FactionType_NpcFactionD = 7;
+  FactionType_NpcFactionE = 8;
+  FactionType_NpcFactionF = 9;
+  FactionType_NpcFactionG = 10;
+}

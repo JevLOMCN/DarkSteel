@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{528109E7-3D58-519B-99BE-A68C45ECF11A}</ProjectGuid><RootNamespace>WN_Env</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AWN_UDS_GlobalVolume.cpp" />
+    <ClCompile Include="Private\AWN_UDS_LocalVolume.cpp" />
+    <ClCompile Include="Private\AWN_UDS_Volume.cpp" />
+    <ClCompile Include="Private\AWN_Ultra_Sky.cpp" />
+    <ClCompile Include="Private\FObjectFinder.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWN_EnvModule.cpp" />
+    <ClCompile Include="Private\FWN_LightContext.cpp" />
+    <ClCompile Include="Private\FWN_LightReactSetting.cpp" />
+    <ClCompile Include="Private\FWN_MeshContext.cpp" />
+    <ClCompile Include="Private\FWN_MeshDayReactSetting.cpp" />
+    <ClCompile Include="Private\FWN_MeshReactSetting.cpp" />
+    <ClCompile Include="Private\FWN_NiagaraContext.cpp" />
+    <ClCompile Include="Private\FWN_NiagaraReactSetting.cpp" />
+    <ClCompile Include="Private\FWN_NiagaraUserParamEntry.cpp" />
+    <ClCompile Include="Private\FWN_UDS_Post_Process_Stage.cpp" />
+    <ClCompile Include="Private\FWN_UDS_PropertyGroup.cpp" />
+    <ClCompile Include="Private\FWN_UDS_Space_Planet.cpp" />
+    <ClCompile Include="Private\FWN_UDS_State.cpp" />
+    <ClCompile Include="Private\FWN_UDS_VolumeSetting.cpp" />
+    <ClCompile Include="Private\FWN_Ultra_Dynamic_Sky.cpp" />
+    <ClCompile Include="Private\TBaseDynamicDelegate.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTuple.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UWN_ReactComponentContext.cpp" />
+    <ClCompile Include="Private\UWN_TODReactComponent.cpp" />
+    <ClCompile Include="Private\UWN_TODReactNightPolicyComponent.cpp" />
+    <ClCompile Include="Private\UWN_TODReactPolicyComponent.cpp" />
+    <ClCompile Include="Private\UWN_UDSVolumeComponent.cpp" />
+    <ClCompile Include="Private\UWN_UDS_Subsystem.cpp" />
+    <ClCompile Include="Private\UWN_UDS_Weather_Settings.cpp" />
+    <ClCompile Include="Private\UWorld.cpp" />
+    <ClCompile Include="Private\_Free\Module.WN_Env.1.cpp" />
+    <ClCompile Include="Private\_Free\Module.WN_Env.2.cpp" />
+    <ClCompile Include="Private\_Free\Module.WN_Env.3.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

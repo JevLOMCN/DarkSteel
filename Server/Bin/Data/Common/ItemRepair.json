@@ -1,0 +1,941 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemRepair",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemRepair",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemRepairTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000000
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000000
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000008
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000008
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000016
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000016
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000001
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000001
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000009
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000009
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000017
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000017
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000002
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000002
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000010
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000010
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000018
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000018
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000003
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000003
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000011
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000011
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000019
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000019
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000004
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000004
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000012
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000012
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000020
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000020
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000007
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000007
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000015
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000015
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000023
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000023
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000006
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000006
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000014
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000014
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000022
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000022
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000005
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000005
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000013
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000013
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000021
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000021
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000024
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000024
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000025
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000025
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000026
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000026
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000027
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000027
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000028
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000028
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000029
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000029
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000030
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000030
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          440000031
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000
+        ],
+        "NpcRepairCost": [
+          0
+        ],
+        "ID_CampRepairItem": [
+          440000031
+        ],
+        "CampRepairEfficiencyRate": [
+          700000
+        ],
+        "CampRepairCost": [
+          5000
+        ]
+      },
+      "90001": {
+        "ID": 90001,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          9,
+          10,
+          11
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000,
+          1000000,
+          1000000
+        ],
+        "NpcRepairCost": [
+          10,
+          100,
+          1000
+        ],
+        "ID_CampRepairItem": [
+          19,
+          20,
+          21
+        ],
+        "CampRepairEfficiencyRate": [
+          1000000,
+          1000000,
+          1000000
+        ],
+        "CampRepairCost": [
+          100,
+          1000,
+          10000
+        ]
+      },
+      "90002": {
+        "ID": 90002,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          9,
+          10,
+          11
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000,
+          1000000,
+          1000000
+        ],
+        "NpcRepairCost": [
+          10,
+          100,
+          1000
+        ],
+        "ID_CampRepairItem": [
+          19,
+          20,
+          21
+        ],
+        "CampRepairEfficiencyRate": [
+          1000000,
+          1000000,
+          1000000
+        ],
+        "CampRepairCost": [
+          100,
+          1000,
+          10000
+        ]
+      },
+      "90003": {
+        "ID": 90003,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          9,
+          10,
+          11
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000,
+          1000000,
+          1000000
+        ],
+        "NpcRepairCost": [
+          20,
+          200,
+          2000
+        ],
+        "ID_CampRepairItem": [
+          19,
+          20,
+          21
+        ],
+        "CampRepairEfficiencyRate": [
+          1000000,
+          1000000,
+          1000000
+        ],
+        "CampRepairCost": [
+          200,
+          2000,
+          20000
+        ]
+      },
+      "90004": {
+        "ID": 90004,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          9,
+          10,
+          11
+        ],
+        "NpcRepairEfficiencyRate": [
+          500000,
+          500000,
+          500000
+        ],
+        "NpcRepairCost": [
+          10,
+          100,
+          1000
+        ],
+        "ID_CampRepairItem": [
+          19,
+          20,
+          21
+        ],
+        "CampRepairEfficiencyRate": [
+          500000,
+          500000,
+          500000
+        ],
+        "CampRepairCost": [
+          100,
+          1000,
+          10000
+        ]
+      },
+      "90005": {
+        "ID": 90005,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          12,
+          13
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000,
+          1000000
+        ],
+        "NpcRepairCost": [
+          10,
+          100
+        ],
+        "ID_CampRepairItem": [
+          22,
+          23
+        ],
+        "CampRepairEfficiencyRate": [
+          1000000,
+          1000000
+        ],
+        "CampRepairCost": [
+          10,
+          100
+        ]
+      },
+      "90006": {
+        "ID": 90006,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          15,
+          16
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000,
+          1000000
+        ],
+        "NpcRepairCost": [
+          10,
+          100
+        ],
+        "ID_CampRepairItem": [
+          25,
+          26
+        ],
+        "CampRepairEfficiencyRate": [
+          1000000,
+          1000000
+        ],
+        "CampRepairCost": [
+          10,
+          100
+        ]
+      },
+      "90007": {
+        "ID": 90007,
+        "DataStage": 23,
+        "ID_NpcRepairItem": [
+          17,
+          18
+        ],
+        "NpcRepairEfficiencyRate": [
+          1000000,
+          1000000
+        ],
+        "NpcRepairCost": [
+          10,
+          100
+        ],
+        "ID_CampRepairItem": [
+          27,
+          28
+        ],
+        "CampRepairEfficiencyRate": [
+          1000000,
+          1000000
+        ],
+        "CampRepairCost": [
+          10,
+          100
+        ]
+      }
+    }
+  }
+]

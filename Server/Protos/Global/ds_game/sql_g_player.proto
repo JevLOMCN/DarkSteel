@@ -1,0 +1,20 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+enum SqlGPlayerUpdateType {
+  SqlGPlayerUpdateType_None = 0;
+  SqlGPlayerUpdateType_LogoutTime = 1;
+}
+message SqlGPlayerTable {
+  int64 player_uid = 1;
+  string custom_info = 2;
+  google.protobuf.Timestamp login_time = 3;
+  google.protobuf.Timestamp logout_time = 4;
+  google.protobuf.Timestamp reg_time = 5;
+  google.protobuf.Timestamp update_time = 6;
+  repeated ds_game.SqlGPlayerUpdateType update_types = 100;
+}

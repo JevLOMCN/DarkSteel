@@ -1,0 +1,10 @@
+syntax = "proto3";
+package components;
+option csharp_namespace = "MirProto.Components";
+
+import "_options.proto";
+import "google/protobuf/timestamp.proto";
+
+message EntityExpireTime {
+  google.protobuf.Timestamp when = 1;
+}

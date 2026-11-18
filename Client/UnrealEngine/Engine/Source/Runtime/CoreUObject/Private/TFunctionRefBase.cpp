@@ -1,0 +1,33 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: CoreUObject
+// Functions: 1
+
+// operator() @ 1420a8760
+
+void __thiscall
+UE::Core::Private::Function::
+TFunctionRefBase<UE::Core::Private::Function::TFunctionStorage<0>,void___cdecl(UClass_*)>::
+operator()(TFunctionRefBase<UE::Core::Private::Function::TFunctionStorage<0>,void___cdecl(UClass_*)>
+           *this,UClass *param_1)
+
+{
+  TFunctionStorage<0> *pTVar1;
+  _func___cdecl_void_void_ptr_UClass_ptr_ptr *p_Var2;
+  void *pvVar3;
+  TFunctionStorage<0> *pTVar4;
+  UClass *local_res10 [3];
+  
+  local_res10[0] = param_1;
+  CheckCallable(this->Callable);
+  pTVar1 = *(TFunctionStorage<0> **)&(this->Storage).field_0x18;
+  p_Var2 = this->Callable;
+  pTVar4 = &this->Storage;
+  if (pTVar1 != (TFunctionStorage<0> *)0x0) {
+    pTVar4 = pTVar1;
+  }
+  pvVar3 = (void *)(**(code **)(*(longlong *)pTVar4 + 8))();
+  (*p_Var2)(pvVar3,local_res10);
+  return;
+}
+

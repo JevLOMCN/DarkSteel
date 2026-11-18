@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AiGymPlayerCreate",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/AiGymPlayerCreate",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_AiGymPlayerCreateTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "PlayerGrade": 10,
+        "ID_InitStackableItem": [
+          100120001,
+          100220001
+        ],
+        "ID_InitStackableItemCnt": [
+          200,
+          200
+        ],
+        "ID_InitQuest": 1000015,
+        "ID_InitWarpLocation": 20003,
+        "ID_InItPlayerIcon": 1
+      }
+    }
+  }
+]

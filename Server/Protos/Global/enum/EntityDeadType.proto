@@ -1,0 +1,9 @@
+syntax = "proto3";
+package server_msg;
+option csharp_namespace = "MirProto.ServerMsg";
+
+
+enum EntityDeadType {
+  Entity_Suicide = 0;
+  Entity_Disappear = 2;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{7205AAA8-B83D-5D35-BF20-31C6352C2C6B}</ProjectGuid><RootNamespace>Serialization</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAutomationTestBase.cpp" />
+    <ClCompile Include="Private\FCborContext.cpp" />
+    <ClCompile Include="Private\FCborStructDeserializerBackend.cpp" />
+    <ClCompile Include="Private\FCborStructSerializerBackend.cpp" />
+    <ClCompile Include="Private\FField.cpp" />
+    <ClCompile Include="Private\FJsonStructDeserializerBackend.cpp" />
+    <ClCompile Include="Private\FJsonStructSerializerBackend.cpp" />
+    <ClCompile Include="Private\FOrientedBoxFloat.cpp" />
+    <ClCompile Include="Private\FProperty.cpp" />
+    <ClCompile Include="Private\FScriptSetHelper.cpp" />
+    <ClCompile Include="Private\FSerializationModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FStructDeserializer.cpp" />
+    <ClCompile Include="Private\FStructElementSerializerTest.cpp" />
+    <ClCompile Include="Private\FStructSerializer.cpp" />
+    <ClCompile Include="Private\FStructSerializerArrayTestStruct.cpp" />
+    <ClCompile Include="Private\FStructSerializerBooleanTestStruct.cpp" />
+    <ClCompile Include="Private\FStructSerializerBuiltinTestStruct.cpp" />
+    <ClCompile Include="Private\FStructSerializerByteArray.cpp" />
+    <ClCompile Include="Private\FStructSerializerCborByteArrayTest.cpp" />
+    <ClCompile Include="Private\FStructSerializerLWCTypesTest.cpp" />
+    <ClCompile Include="Private\FStructSerializerMapTestStruct.cpp" />
+    <ClCompile Include="Private\FStructSerializerNonLWCTypesTest.cpp" />
+    <ClCompile Include="Private\FStructSerializerNumericTestStruct.cpp" />
+    <ClCompile Include="Private\FStructSerializerObjectTestStruct.cpp" />
+    <ClCompile Include="Private\FStructSerializerOptionalTestStruct.cpp" />
+    <ClCompile Include="Private\FStructSerializerSetTestStruct.cpp" />
+    <ClCompile Include="Private\FStructSerializerTest.cpp" />
+    <ClCompile Include="Private\FStructSerializerTestStruct.cpp" />
+    <ClCompile Include="Private\IStructDeserializerBackend.cpp" />
+    <ClCompile Include="Private\IStructSerializerBackend.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TJsonReader.cpp" />
+    <ClCompile Include="Private\TJsonWriter.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TOptional.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UObjectTest.cpp" />
+    <ClCompile Include="Private\_Free\Module.Serialization.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

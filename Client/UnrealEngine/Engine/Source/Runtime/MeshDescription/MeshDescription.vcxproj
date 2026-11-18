@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{C81D191C-4ADA-5734-A92B-B068137B4E19}</ProjectGuid><RootNamespace>MeshDescription</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAttributesSetBase.cpp" />
+    <ClCompile Include="Private\FChunk.cpp" />
+    <ClCompile Include="Private\FEdgeID.cpp" />
+    <ClCompile Include="Private\FElementID.cpp" />
+    <ClCompile Include="Private\FElementIDs.cpp" />
+    <ClCompile Include="Private\FMeshAttributeArraySetBase.cpp" />
+    <ClCompile Include="Private\FMeshAttributes.cpp" />
+    <ClCompile Include="Private\FMeshDescription.cpp" />
+    <ClCompile Include="Private\FMeshDescriptionModule.cpp" />
+    <ClCompile Include="Private\FMeshElementArrayTestSerialization.cpp" />
+    <ClCompile Include="Private\FMeshElementChannels.cpp" />
+    <ClCompile Include="Private\FMeshElementContainer.cpp" />
+    <ClCompile Include="Private\FMeshElementIndexer.cpp" />
+    <ClCompile Include="Private\FMeshElementTypeWrapper.cpp" />
+    <ClCompile Include="Private\FPolygonGroupID.cpp" />
+    <ClCompile Include="Private\FPolygonID.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTriangleID.cpp" />
+    <ClCompile Include="Private\FUVID.cpp" />
+    <ClCompile Include="Private\FVertexID.cpp" />
+    <ClCompile Include="Private\FVertexInstanceID.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayPrivateFriend.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TAttributeArrayContainer.cpp" />
+    <ClCompile Include="Private\TAttributesSet.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TConstIterator.cpp" />
+    <ClCompile Include="Private\TElementIDs.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMeshAttributeArrayBase.cpp" />
+    <ClCompile Include="Private\TMeshAttributeArraySet.cpp" />
+    <ClCompile Include="Private\TMeshAttributesRef.cpp" />
+    <ClCompile Include="Private\TMeshUnboundedAttributeArraySet.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSetPrivateFriend.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMeshDescriptionBase.cpp" />
+    <ClCompile Include="Private\UMeshDescriptionBaseBulkData.cpp" />
+    <ClCompile Include="Private\_Free\Module.MeshDescription.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

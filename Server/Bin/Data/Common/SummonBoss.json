@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SummonBoss",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SummonBoss",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SummonBossTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11001,
+        "ID_SummonBoss": 81000001,
+        "ID_Image": 150002,
+        "ID_SummonItem": 290100001,
+        "SummonItemValue": 1,
+        "TimeLife": 60,
+        "ID_RewardDrop": 10002,
+        "ID_InstanceQuest": 0
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11001,
+        "ID_SummonBoss": 81000002,
+        "ID_Image": 150003,
+        "ID_SummonItem": 290100001,
+        "SummonItemValue": 3,
+        "TimeLife": 60,
+        "ID_RewardDrop": 10002,
+        "ID_InstanceQuest": 0
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11001,
+        "ID_SummonBoss": 81000003,
+        "ID_Image": 150004,
+        "ID_SummonItem": 290100002,
+        "SummonItemValue": 1,
+        "TimeLife": 120,
+        "ID_RewardDrop": 10102,
+        "ID_InstanceQuest": 0
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11001,
+        "ID_SummonBoss": 81000004,
+        "ID_Image": 150005,
+        "ID_SummonItem": 290100002,
+        "SummonItemValue": 3,
+        "TimeLife": 120,
+        "ID_RewardDrop": 10102,
+        "ID_InstanceQuest": 0
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11001,
+        "ID_SummonBoss": 81000005,
+        "ID_Image": 150006,
+        "ID_SummonItem": 290100003,
+        "SummonItemValue": 1,
+        "TimeLife": 180,
+        "ID_RewardDrop": 10204,
+        "ID_InstanceQuest": 0
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 11001,
+        "ID_SummonBoss": 81000006,
+        "ID_Image": 150007,
+        "ID_SummonItem": 290100003,
+        "SummonItemValue": 3,
+        "TimeLife": 180,
+        "ID_RewardDrop": 10204,
+        "ID_InstanceQuest": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{F9BB0535-1AD8-5401-BACD-49959B004CDF}</ProjectGuid><RootNamespace>TypedElementRuntime</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTypedElementAssetDataReferencedOptions.cpp" />
+    <ClCompile Include="Private\FTypedElementInterfaceCustomizationRegistryBase.cpp" />
+    <ClCompile Include="Private\FTypedElementIsSelectedOptions.cpp" />
+    <ClCompile Include="Private\FTypedElementRuntimeModule.cpp" />
+    <ClCompile Include="Private\FTypedElementSelectionCustomization.cpp" />
+    <ClCompile Include="Private\FTypedElementSelectionNormalizationOptions.cpp" />
+    <ClCompile Include="Private\FTypedElementSelectionOptions.cpp" />
+    <ClCompile Include="Private\FTypedElementSelectionSetState.cpp" />
+    <ClCompile Include="Private\ITypedElementAssetDataInterface.cpp" />
+    <ClCompile Include="Private\ITypedElementHierarchyInterface.cpp" />
+    <ClCompile Include="Private\ITypedElementObjectInterface.cpp" />
+    <ClCompile Include="Private\ITypedElementPrimitiveCustomDataInterface.cpp" />
+    <ClCompile Include="Private\ITypedElementSelectionInterface.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TTypedElementInterfaceCustomizationRegistry.cpp" />
+    <ClCompile Include="Private\TTypedElementList.cpp" />
+    <ClCompile Include="Private\TUniquePtr.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UTypedElementAssetDataInterface.cpp" />
+    <ClCompile Include="Private\UTypedElementHierarchyInterface.cpp" />
+    <ClCompile Include="Private\UTypedElementObjectInterface.cpp" />
+    <ClCompile Include="Private\UTypedElementPrimitiveCustomDataInterface.cpp" />
+    <ClCompile Include="Private\UTypedElementSelectionInterface.cpp" />
+    <ClCompile Include="Private\UTypedElementSelectionSet.cpp" />
+    <ClCompile Include="Private\UTypedElementSelectionSetLibrary.cpp" />
+    <ClCompile Include="Private\_Free\Module.TypedElementRuntime.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

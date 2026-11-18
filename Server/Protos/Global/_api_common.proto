@@ -1,0 +1,14 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+import "ErrorCode.proto";
+import "_unique_id.proto";
+
+message RequestBase {
+  UniqueId player_session_uid = 1;
+  int32 increase_id = 2;
+}
+message ResponseBase {
+  ErrorCode error_code = 1;
+  string error_message = 2;
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MapMainCategory",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MapMainCategory",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MapMainCategoryTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexSpawn": 17001,
+        "ID_MapMidCategory": [
+          101,
+          102
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexSpawn": 17004,
+        "ID_MapMidCategory": [
+          201
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexSpawn": 17006,
+        "ID_MapMidCategory": []
+      }
+    }
+  }
+]

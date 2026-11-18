@@ -1,0 +1,277 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: PropertyPath
+// Functions: 8
+
+// GetTestFlags @ 1444744d0
+
+EAutomationTestFlags __thiscall
+FSetStringInnerObjectTest::GetTestFlags(FSetStringInnerObjectTest *this)
+
+{
+  return EngineFilter|ProgramContext|CommandletContext|ServerContext|ClientContext|EditorContext;
+}
+
+// IsStressTest @ 1444744e0
+
+bool __thiscall FSetStringInnerObjectTest::IsStressTest(FSetStringInnerObjectTest *this)
+
+{
+  return false;
+}
+
+// GetRequiredDeviceNum @ 1444744f0
+
+uint __thiscall FSetStringInnerObjectTest::GetRequiredDeviceNum(FSetStringInnerObjectTest *this)
+
+{
+  return 1;
+}
+
+// GetTestSourceFileName @ 144474500
+
+FString * __thiscall
+FSetStringInnerObjectTest::GetTestSourceFileName
+          (FSetStringInnerObjectTest *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,
+                     "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\PropertyPath\\Private\\Tests\\PropertyPathHelpersTest.cpp"
+                    );
+  return __return_storage_ptr__;
+}
+
+// GetTestSourceFileLine @ 144474530
+
+int __thiscall FSetStringInnerObjectTest::GetTestSourceFileLine(FSetStringInnerObjectTest *this)
+
+{
+  return 0x235;
+}
+
+// GetTests @ 144474540
+
+/* WARNING: Removing unreachable block (ram,0x00014447462d) */
+/* WARNING: Removing unreachable block (ram,0x0001444746f8) */
+
+void __thiscall
+FSetStringInnerObjectTest::GetTests
+          (FSetStringInnerObjectTest *this,TArray<FString,TSizedDefaultAllocator<32>_> *param_1,
+          TArray<FString,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  code *pcVar1;
+  bool bVar2;
+  int iVar3;
+  FScriptContainerElement *pFVar4;
+  undefined8 local_28;
+  undefined8 local_20;
+  FString local_18;
+  
+  ::FString::FString(&local_18,"System.PropertyPath.SetStringInnerObjectTest");
+  pFVar4 = (param_1->AllocatorInstance).Data;
+  if (((pFVar4 <= (FScriptContainerElement *)&local_18) &&
+      ((FScriptContainerElement *)&local_18 < pFVar4 + (longlong)param_1->ArrayMax * 0x10)) &&
+     (bVar2 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                         ,0x7a5,
+                         L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                        ), bVar2)) {
+    pcVar1 = (code *)swi(3);
+    (*pcVar1)();
+    return;
+  }
+  iVar3 = param_1->ArrayNum;
+  if (iVar3 == param_1->ArrayMax) {
+    iVar3 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x810,&param_1->AllocatorInstance,&param_1->ArrayMax);
+  }
+  param_1->ArrayNum = iVar3 + 1;
+  pFVar4 = (param_1->AllocatorInstance).Data + (longlong)iVar3 * 0x10;
+  *(undefined8 *)pFVar4 = 0;
+  *(FScriptContainerElement **)pFVar4 = local_18.Data.AllocatorInstance.Data;
+  *(int *)(pFVar4 + 8) = local_18.Data.ArrayNum;
+  *(int *)(pFVar4 + 0xc) = local_18.Data.ArrayMax;
+  local_18.Data.ArrayNum = 0;
+  local_18.Data.ArrayMax = 0;
+  local_18.Data.AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  pFVar4 = (param_2->AllocatorInstance).Data;
+  local_28 = 0;
+  local_20 = 0;
+  if (((pFVar4 <= (FScriptContainerElement *)&local_28) &&
+      ((FScriptContainerElement *)&local_28 < pFVar4 + (longlong)param_2->ArrayMax * 0x10)) &&
+     (bVar2 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                         ,0x7a5,
+                         L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                        ), bVar2)) {
+    pcVar1 = (code *)swi(3);
+    (*pcVar1)();
+    return;
+  }
+  iVar3 = param_2->ArrayNum;
+  if (iVar3 == param_2->ArrayMax) {
+    iVar3 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x810,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  param_2->ArrayNum = iVar3 + 1;
+  pFVar4 = (param_2->AllocatorInstance).Data + (longlong)iVar3 * 0x10;
+  *(undefined8 *)pFVar4 = 0;
+  *(undefined8 *)pFVar4 = local_28;
+  *(undefined4 *)(pFVar4 + 8) = (undefined4)local_20;
+  *(undefined4 *)(pFVar4 + 0xc) = local_20._4_4_;
+  return;
+}
+
+// RunTest @ 144474720
+
+bool __thiscall FSetStringInnerObjectTest::RunTest(FSetStringInnerObjectTest *this,FString *param_1)
+
+{
+  UPropertyPathTestObject *pUVar1;
+  FScriptContainerElement *pFVar2;
+  code *pcVar3;
+  bool bVar4;
+  bool bVar5;
+  FString *pFVar6;
+  FString *pFVar7;
+  byte bVar8;
+  byte bVar9;
+  wchar_t *pwVar10;
+  wchar_t *pwVar11;
+  FString local_1c8;
+  FString local_1b8;
+  TObjectPtr<UPropertyPathTestObject>_u_0 local_1a8 [2];
+  FPropertyPathTestStruct local_198;
+  FPropertyPathTestStruct local_138;
+  TObjectPtr<UPropertyPathTestObject>_u_0 local_d8 [2];
+  FPropertyPathTestStruct local_c8;
+  FPropertyPathTestStruct local_68;
+  
+  FPropertyPathTestBed::FPropertyPathTestBed((FPropertyPathTestBed *)&local_1a8[0].ObjectPtr);
+  FPropertyPathTestBed::FPropertyPathTestBed((FPropertyPathTestBed *)&local_d8[0].ObjectPtr);
+  pFVar6 = ::FString::FString(&local_1c8,"NewValue");
+  pUVar1 = ((local_d8[0].DebugPtr)->InnerObject).field0_0x0.DebugPtr;
+  pFVar7 = &pUVar1->String;
+  if (pFVar7 != pFVar6) {
+    pFVar2 = (pFVar7->Data).AllocatorInstance.Data;
+    if (pFVar2 != (FScriptContainerElement *)0x0) {
+      FMemory::Free(pFVar2);
+    }
+    (pFVar7->Data).AllocatorInstance.Data = (pFVar6->Data).AllocatorInstance.Data;
+    (pFVar6->Data).AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+    (pUVar1->String).Data.ArrayNum = (pFVar6->Data).ArrayNum;
+    (pUVar1->String).Data.ArrayMax = (pFVar6->Data).ArrayMax;
+    (pFVar6->Data).ArrayNum = 0;
+    (pFVar6->Data).ArrayMax = 0;
+  }
+  if (local_1c8.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_1c8.Data.AllocatorInstance.Data);
+  }
+  pFVar6 = ::FString::FString(&local_1b8,"NewValue");
+  pFVar7 = ::FString::FString(&local_1c8,"InnerObject.String");
+  PropertyPathHelpers::SetPropertyValue<FString>((UObject *)local_1a8[0].DebugPtr,pFVar7,pFVar6);
+  if (local_1c8.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_1c8.Data.AllocatorInstance.Data);
+  }
+  if (local_1b8.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_1b8.Data.AllocatorInstance.Data);
+  }
+  pFVar6 = ::FString::FString(&local_1b8,"NewValue");
+  pwVar10 = L"";
+  pUVar1 = ((local_1a8[0].DebugPtr)->InnerObject).field0_0x0.DebugPtr;
+  if ((pFVar6->Data).ArrayNum == 0) {
+    pwVar11 = L"";
+  }
+  else {
+    pwVar11 = (wchar_t *)(pFVar6->Data).AllocatorInstance.Data;
+  }
+  if ((pUVar1->String).Data.ArrayNum != 0) {
+    pwVar10 = (wchar_t *)(pUVar1->String).Data.AllocatorInstance.Data;
+  }
+  bVar4 = FAutomationTestBase::TestEqual
+                    ((FAutomationTestBase *)this,L"Inner Object String Set",pwVar10,pwVar11);
+  if (local_1b8.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_1b8.Data.AllocatorInstance.Data);
+  }
+  bVar5 = UPropertyPathTestObject::operator==(local_1a8[0].DebugPtr,local_d8[0].DebugPtr);
+  if (!bVar5) {
+    pcVar3 = *(code **)(*(longlong *)this + 0x28);
+    ::FString::PrintfImpl(&local_1c8,L"%s: The two values are not equal.");
+    (*pcVar3)(this,&local_1c8,0);
+    if (local_1c8.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_1c8.Data.AllocatorInstance.Data);
+    }
+    bVar4 = false;
+  }
+  if ((((local_1a8[0].DebugPtr)->InnerObject).field0_0x0.DebugPtr)->bSetterCalled == false) {
+    bVar9 = 1;
+  }
+  else {
+    pcVar3 = *(code **)(*(longlong *)this + 0x28);
+    ::FString::PrintfImpl(&local_1c8,L"%s: The two values are not equal.");
+    (*pcVar3)(this,&local_1c8,0);
+    if (local_1c8.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_1c8.Data.AllocatorInstance.Data);
+    }
+    bVar9 = 0;
+  }
+  bVar9 = bVar9 & bVar4;
+  if ((((local_1a8[0].DebugPtr)->InnerObject).field0_0x0.DebugPtr)->bGetterCalled != false) {
+    pcVar3 = *(code **)(*(longlong *)this + 0x28);
+    ::FString::PrintfImpl(&local_1c8,L"%s: The two values are not equal.");
+    (*pcVar3)(this,&local_1c8,0);
+    if (local_1c8.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_1c8.Data.AllocatorInstance.Data);
+    }
+    bVar9 = 0;
+  }
+  if ((local_1a8[0].DebugPtr)->bSetterCalled == false) {
+    bVar8 = 1;
+  }
+  else {
+    pcVar3 = *(code **)(*(longlong *)this + 0x28);
+    ::FString::PrintfImpl(&local_1c8,L"%s: The two values are not equal.");
+    (*pcVar3)(this,&local_1c8,0);
+    if (local_1c8.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_1c8.Data.AllocatorInstance.Data);
+    }
+    bVar8 = 0;
+  }
+  bVar4 = (bool)(bVar8 & bVar9);
+  if ((local_1a8[0].DebugPtr)->bGetterCalled != false) {
+    pcVar3 = *(code **)(*(longlong *)this + 0x28);
+    ::FString::PrintfImpl(&local_1c8,L"%s: The two values are not equal.");
+    (*pcVar3)(this,&local_1c8,0);
+    if (local_1c8.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_1c8.Data.AllocatorInstance.Data);
+    }
+    bVar4 = false;
+  }
+  pUVar1 = ((local_1a8[0].DebugPtr)->InnerObject).field0_0x0.DebugPtr;
+  pUVar1->bSetterCalled = false;
+  pUVar1->bGetterCalled = false;
+  (local_1a8[0].DebugPtr)->bSetterCalled = false;
+  (local_1a8[0].DebugPtr)->bGetterCalled = false;
+  FPropertyPathTestStruct::~FPropertyPathTestStruct(&local_68);
+  FPropertyPathTestStruct::~FPropertyPathTestStruct(&local_c8);
+  FPropertyPathTestStruct::~FPropertyPathTestStruct(&local_138);
+  FPropertyPathTestStruct::~FPropertyPathTestStruct(&local_198);
+  return bVar4;
+}
+
+// GetBeautifiedTestName @ 144474a80
+
+FString * __thiscall
+FSetStringInnerObjectTest::GetBeautifiedTestName
+          (FSetStringInnerObjectTest *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,"System.PropertyPath.SetStringInnerObjectTest");
+  return __return_storage_ptr__;
+}
+

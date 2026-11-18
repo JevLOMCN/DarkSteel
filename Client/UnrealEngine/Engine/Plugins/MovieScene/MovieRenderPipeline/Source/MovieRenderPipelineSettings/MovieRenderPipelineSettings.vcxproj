@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{54DB68D5-5A1B-5DB2-BE7E-F540A6905390}</ProjectGuid><RootNamespace>MovieRenderPipelineSettings</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FImagePixelDataPayload.cpp" />
+    <ClCompile Include="Private\FMoviePipelineRenderPassMetrics.cpp" />
+    <ClCompile Include="Private\FMovieRenderPipelineSettingsModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMoviePipeline.cpp" />
+    <ClCompile Include="Private\UMoviePipelineBurnInSetting.cpp" />
+    <ClCompile Include="Private\UMoviePipelineBurnInWidget.cpp" />
+    <ClCompile Include="Private\UMoviePipelineConsoleVariableSetting.cpp" />
+    <ClCompile Include="Private\UMoviePipelineWidgetRenderer.cpp" />
+    <ClCompile Include="Private\_Free\Module.MovieRenderPipelineSettings.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

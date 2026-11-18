@@ -1,0 +1,192 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemSetEffect",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemSetEffect",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemSetEffectTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_SetTitle": {
+          "ID": 20001
+        },
+        "ID_SetName": {
+          "ID": 20001
+        },
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetOptionType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          100,
+          100,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000001
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ID_SetTitle": {
+          "ID": 20002
+        },
+        "ID_SetName": {
+          "ID": 20002
+        },
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetOptionType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          10,
+          5,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000002
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "ID_SetTitle": {
+          "ID": 20003
+        },
+        "ID_SetName": {
+          "ID": 20003
+        },
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetOptionType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          10,
+          10,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000003
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "ID_SetTitle": {
+          "ID": 20004
+        },
+        "ID_SetName": {
+          "ID": 20004
+        },
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetOptionType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          10,
+          20,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000004
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "ID_SetTitle": {
+          "ID": 20005
+        },
+        "ID_SetName": {
+          "ID": 20005
+        },
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetOptionType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          20,
+          20,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000005
+        ]
+      }
+    }
+  }
+]

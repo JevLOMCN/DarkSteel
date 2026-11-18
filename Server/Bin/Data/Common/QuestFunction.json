@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestFunction",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestFunction",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestFunctionTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1000000": {
+        "ID": 1000000,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestFunctionType": "EDS_QuestFunctionType::Buff",
+        "QuestFunctionValue": 1500
+      },
+      "1000001": {
+        "ID": 1000001,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestFunctionType": "EDS_QuestFunctionType::Warp",
+        "QuestFunctionValue": 19991
+      }
+    }
+  }
+]

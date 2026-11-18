@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "2004",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcSpawn/Phasing/2004",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "99999": {
+        "ID": 99999,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_NpcBase": [
+          31006008
+        ],
+        "NpcSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -2799167.8,
+          "Y": -2709911.2,
+          "Z": 480.46884
+        },
+        "RotateYaw": 0.0,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "SpawnRadius": 1.0,
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 5.0,
+        "RespawnTimeMax": 10.0,
+        "IsWandering": true,
+        "WanderingRadius": 500.0,
+        "WanderingMinRadius": 0.0,
+        "WanderingMaxRadius": 0.0,
+        "WanderingWaitTimeMin": 1.0,
+        "WanderingWaitTimeMax": 3.0,
+        "WanderingMaxTime": 10.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "IsInitPatrol": false,
+        "ID_Patrol": 0,
+        "PatrolFormationIndex": 0,
+        "IsShowMapIndex": true,
+        "GimmickConditionGroup": 0,
+        "GimmickActionGroup": 0,
+        "NpcSpawnType": "EDS_NpcSpawnType::Navi"
+      }
+    }
+  }
+]

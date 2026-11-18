@@ -1,0 +1,417 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MessageDefine",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MessageDefine",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MessageDefineTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "101": {
+        "ID": "EDS_MessageDefineType::None_Region_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "201": {
+        "ID": "EDS_MessageDefineType::None_World_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::World",
+        "MessageCoolTime": 0.0
+      },
+      "301": {
+        "ID": "EDS_MessageDefineType::None_Zone_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::Zone",
+        "MessageCoolTime": 0.0
+      },
+      "401": {
+        "ID": "EDS_MessageDefineType::None_Area_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "501": {
+        "ID": "EDS_MessageDefineType::None_Party_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::Party",
+        "MessageCoolTime": 0.0
+      },
+      "601": {
+        "ID": "EDS_MessageDefineType::None_Contents_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "701": {
+        "ID": "EDS_MessageDefineType::None_Guild_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::Guild",
+        "MessageCoolTime": 0.0
+      },
+      "801": {
+        "ID": "EDS_MessageDefineType::None_Union_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "901": {
+        "ID": "EDS_MessageDefineType::None_System_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 0.0
+      },
+      "1001": {
+        "ID": "EDS_MessageDefineType::None_Whisper_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::Whisper",
+        "MessageCoolTime": 0.0
+      },
+      "1101": {
+        "ID": "EDS_MessageDefineType::None_Organization_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::Organization",
+        "MessageCoolTime": 0.0
+      },
+      "1201": {
+        "ID": "EDS_MessageDefineType::None_Total_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::Total",
+        "MessageCoolTime": 0.0
+      },
+      "1301": {
+        "ID": "EDS_MessageDefineType::None_Battle_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::None",
+        "ChattingType": "EDS_ChattingType::Battle",
+        "MessageCoolTime": 0.0
+      },
+      "10001": {
+        "ID": "EDS_MessageDefineType::Alert_None_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "10002": {
+        "ID": "EDS_MessageDefineType::Alert_None_02",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 10.0
+      },
+      "10003": {
+        "ID": "EDS_MessageDefineType::Alert_None_03",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 1800.0
+      },
+      "10004": {
+        "ID": "EDS_MessageDefineType::Alert_None_04",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 3600.0
+      },
+      "10005": {
+        "ID": "EDS_MessageDefineType::Alert_None_05",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 21600.0
+      },
+      "10006": {
+        "ID": "EDS_MessageDefineType::Alert_None_06",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 43200.0
+      },
+      "10007": {
+        "ID": "EDS_MessageDefineType::Alert_None_07",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 86400.0
+      },
+      "10101": {
+        "ID": "EDS_MessageDefineType::Alert_System_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 0.0
+      },
+      "10102": {
+        "ID": "EDS_MessageDefineType::Alert_System_02",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 10.0
+      },
+      "10103": {
+        "ID": "EDS_MessageDefineType::Alert_System_03",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 1800.0
+      },
+      "10104": {
+        "ID": "EDS_MessageDefineType::Alert_System_04",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 3600.0
+      },
+      "10105": {
+        "ID": "EDS_MessageDefineType::Alert_System_05",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 21600.0
+      },
+      "10106": {
+        "ID": "EDS_MessageDefineType::Alert_System_06",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 43200.0
+      },
+      "10107": {
+        "ID": "EDS_MessageDefineType::Alert_System_07",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Alert",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 86400.0
+      },
+      "110001": {
+        "ID": "EDS_MessageDefineType::Complete_None_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "110002": {
+        "ID": "EDS_MessageDefineType::Complete_None_02",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 10.0
+      },
+      "110003": {
+        "ID": "EDS_MessageDefineType::Complete_None_03",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 1800.0
+      },
+      "110004": {
+        "ID": "EDS_MessageDefineType::Complete_None_04",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 3600.0
+      },
+      "110005": {
+        "ID": "EDS_MessageDefineType::Complete_None_05",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 21600.0
+      },
+      "110006": {
+        "ID": "EDS_MessageDefineType::Complete_None_06",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 43200.0
+      },
+      "110007": {
+        "ID": "EDS_MessageDefineType::Complete_None_07",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 86400.0
+      },
+      "110101": {
+        "ID": "EDS_MessageDefineType::Complete_System_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 0.0
+      },
+      "110102": {
+        "ID": "EDS_MessageDefineType::Complete_System_02",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 10.0
+      },
+      "110103": {
+        "ID": "EDS_MessageDefineType::Complete_System_03",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 1800.0
+      },
+      "110104": {
+        "ID": "EDS_MessageDefineType::Complete_System_04",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 3600.0
+      },
+      "110105": {
+        "ID": "EDS_MessageDefineType::Complete_System_05",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 21600.0
+      },
+      "110106": {
+        "ID": "EDS_MessageDefineType::Complete_System_06",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 43200.0
+      },
+      "110107": {
+        "ID": "EDS_MessageDefineType::Complete_System_07",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Complete",
+        "ChattingType": "EDS_ChattingType::System",
+        "MessageCoolTime": 86400.0
+      },
+      "210001": {
+        "ID": "EDS_MessageDefineType::HeadLine_None_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::HeadLine",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "220001": {
+        "ID": "EDS_MessageDefineType::Warning_None_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Warning",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "230001": {
+        "ID": "EDS_MessageDefineType::ContentsOpen_None_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::ContentsOpen",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 10.0
+      },
+      "240001": {
+        "ID": "EDS_MessageDefineType::Bro_HeadLine_Low_None_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Bro_HeadLine_Low",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 10.0
+      },
+      "310001": {
+        "ID": "EDS_MessageDefineType::Popup_Close_None_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Popup_Close",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "320001": {
+        "ID": "EDS_MessageDefineType::Popup_LogOut_None_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Popup_LogOut",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 0.0
+      },
+      "330001": {
+        "ID": "EDS_MessageDefineType::Request_Popup_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Request_Popup",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 15.0
+      },
+      "340001": {
+        "ID": "EDS_MessageDefineType::Attention_None_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::Attention",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 10.0
+      },
+      "410001": {
+        "ID": "EDS_MessageDefineType::GM_Notice_01",
+        "DataStage": 23,
+        "Version": "*",
+        "messageType": "EDS_MessageType::GM_Notice",
+        "ChattingType": "EDS_ChattingType::None",
+        "MessageCoolTime": 10.0
+      }
+    }
+  }
+]

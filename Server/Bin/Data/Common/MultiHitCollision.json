@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MultiHitCollision",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MultiHitCollision",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MultiHitCollisionTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8002,
+        "HitCapsuleHalfHeight": 750,
+        "HitCapsuleRadius": 750,
+        "HitCapsuleOffset": {
+          "X": 200.0,
+          "Y": 250.0,
+          "Z": 300.0
+        },
+        "MultiCollisionActivateType": "EDS_MultiCollisionActivateType::Groggy",
+        "MultiCollisionActivateValue": 0,
+        "MultiCollisionHitEventConditionType": "EDS_MultiCollisionHitEventConditionType::None",
+        "MultiCollisionHitEventConditionValue": 0,
+        "MultiCollisionHitEventType": "EDS_MultiHitEventType::None",
+        "MultiCollisionHitEventValue": 0,
+        "MultiCollisionHitEventPriority": 0,
+        "ClientMultiHitCollisionIndex": [
+          5,
+          6,
+          11,
+          12,
+          15
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8002,
+        "HitCapsuleHalfHeight": 250,
+        "HitCapsuleRadius": 250,
+        "HitCapsuleOffset": {
+          "X": 1200.0,
+          "Y": 0.0,
+          "Z": 600.0
+        },
+        "MultiCollisionActivateType": "EDS_MultiCollisionActivateType::Skill",
+        "MultiCollisionActivateValue": 900111,
+        "MultiCollisionHitEventConditionType": "EDS_MultiCollisionHitEventConditionType::SkillAttack",
+        "MultiCollisionHitEventConditionValue": 1,
+        "MultiCollisionHitEventType": "EDS_MultiHitEventType::GroggyPoint",
+        "MultiCollisionHitEventValue": 100,
+        "MultiCollisionHitEventPriority": 1,
+        "ClientMultiHitCollisionIndex": [
+          0
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8002,
+        "HitCapsuleHalfHeight": 700,
+        "HitCapsuleRadius": 650,
+        "HitCapsuleOffset": {
+          "X": 600.0,
+          "Y": 0.0,
+          "Z": 200.0
+        },
+        "MultiCollisionActivateType": "EDS_MultiCollisionActivateType::Always",
+        "MultiCollisionActivateValue": 0,
+        "MultiCollisionHitEventConditionType": "EDS_MultiCollisionHitEventConditionType::None",
+        "MultiCollisionHitEventConditionValue": 0,
+        "MultiCollisionHitEventType": "EDS_MultiHitEventType::None",
+        "MultiCollisionHitEventValue": 0,
+        "MultiCollisionHitEventPriority": 0,
+        "ClientMultiHitCollisionIndex": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 8002,
+        "HitCapsuleHalfHeight": 700,
+        "HitCapsuleRadius": 650,
+        "HitCapsuleOffset": {
+          "X": -200.0,
+          "Y": 0.0,
+          "Z": 200.0
+        },
+        "MultiCollisionActivateType": "EDS_MultiCollisionActivateType::Always",
+        "MultiCollisionActivateValue": 0,
+        "MultiCollisionHitEventConditionType": "EDS_MultiCollisionHitEventConditionType::None",
+        "MultiCollisionHitEventConditionValue": 0,
+        "MultiCollisionHitEventType": "EDS_MultiHitEventType::None",
+        "MultiCollisionHitEventValue": 0,
+        "MultiCollisionHitEventPriority": 0,
+        "ClientMultiHitCollisionIndex": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15
+        ]
+      }
+    }
+  }
+]

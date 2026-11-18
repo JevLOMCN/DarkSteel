@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StringMail_Eng",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/String/Eng/StringMail_Eng",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StringMailTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Dungeon"
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Dungeon First Clear Reward"
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "This is the first clear reward for the dungeon."
+      }
+    }
+  }
+]

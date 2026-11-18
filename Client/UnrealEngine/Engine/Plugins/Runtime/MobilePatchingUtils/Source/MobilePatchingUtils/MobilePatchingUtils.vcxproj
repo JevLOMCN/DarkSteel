@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{94527A11-5770-52C9-9399-77D1EE58D0FE}</ProjectGuid><RootNamespace>MobilePatchingUtils</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FBuildInstallerConfiguration.cpp" />
+    <ClCompile Include="Private\FMobilePatchingUtilsModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TBaseStaticDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TTupleBase.cpp" />
+    <ClCompile Include="Private\UMobileInstalledContent.cpp" />
+    <ClCompile Include="Private\UMobilePatchingLibrary.cpp" />
+    <ClCompile Include="Private\UMobilePendingContent.cpp" />
+    <ClCompile Include="Private\_Free\Module.MobilePatchingUtils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{B53916FF-CF2A-56A1-A43A-7C2D3C7343B4}</ProjectGuid><RootNamespace>LFNRS</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\EQueuedLocalFileRequestType.cpp" />
+    <ClCompile Include="Private\FGenericQueuedLocalFileRequest.cpp" />
+    <ClCompile Include="Private\FLocalFileEventInfo.cpp" />
+    <ClCompile Include="Private\FLocalFileNetworkReplayStreamer.cpp" />
+    <ClCompile Include="Private\FLocalFileNetworkReplayStreamingFactory.cpp" />
+    <ClCompile Include="Private\FLocalFileReplayInfo.cpp" />
+    <ClCompile Include="Private\FLocalFileSerializationInfo.cpp" />
+    <ClCompile Include="Private\FLocalFileStreamFArchive.cpp" />
+    <ClCompile Include="Private\FQueuedLocalFileRequest.cpp" />
+    <ClCompile Include="Private\FStartStreamingParameters.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TFunctionRefBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGenericCachedLocalFileRequest.cpp" />
+    <ClCompile Include="Private\TGenericQueuedLocalFileRequest.cpp" />
+    <ClCompile Include="Private\TGraphTask.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TLocalFileAsyncGraphTask.cpp" />
+    <ClCompile Include="Private\TLocalFileRequestCommonData.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TNetResult.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedFromThis.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\_Free\Module.LFNRS.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

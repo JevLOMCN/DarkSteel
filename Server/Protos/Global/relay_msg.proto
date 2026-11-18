@@ -1,0 +1,19 @@
+syntax = "proto3";
+package relay_msg;
+option csharp_namespace = "MirProto.RelayMsg";
+
+import "messages.proto";
+import "ProtocolType.proto";
+
+message FrontEndMessages {
+  messages.PlayerEntity entity = 1;
+  bytes message = 3;
+}
+message GameServerMessages {
+  repeated uint64 front_end_client_session_ids = 1;
+  ProtocolType protocol_type = 2;
+  bytes message = 3;
+}
+message EncodedMessages {
+  bytes message = 1;
+}

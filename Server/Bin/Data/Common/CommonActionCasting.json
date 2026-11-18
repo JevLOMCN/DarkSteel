@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommonActionCasting",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CommonActionCasting",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CommonActionCastingTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_ActionCastingType::Ling",
+        "DataStage": 23,
+        "Version": "*",
+        "CastingTime": 5.0,
+        "CastingEndTime": 0.0,
+        "ID_InteractionPompt": {
+          "ID": 41007
+        },
+        "CastingText": {
+          "ID": 40007
+        },
+        "ID_Name": {
+          "ID": 41506
+        }
+      },
+      "2": {
+        "ID": "EDS_ActionCastingType::OpenLocks",
+        "DataStage": 23,
+        "Version": "*",
+        "CastingTime": 5.0,
+        "CastingEndTime": 0.0,
+        "ID_InteractionPompt": {
+          "ID": 41006
+        },
+        "CastingText": {
+          "ID": 40006
+        },
+        "ID_Name": {
+          "ID": 41507
+        }
+      },
+      "3": {
+        "ID": "EDS_ActionCastingType::Camp",
+        "DataStage": 23,
+        "Version": "*",
+        "CastingTime": 5.0,
+        "CastingEndTime": 1.0,
+        "ID_InteractionPompt": {
+          "ID": 41011
+        },
+        "CastingText": {
+          "ID": 40011
+        },
+        "ID_Name": {
+          "ID": 41508
+        }
+      },
+      "11": {
+        "ID": "EDS_ActionCastingType::ReturnHome",
+        "DataStage": 23,
+        "Version": "*",
+        "CastingTime": 3.0,
+        "CastingEndTime": 0.0,
+        "ID_InteractionPompt": {
+          "ID": 0
+        },
+        "CastingText": {
+          "ID": 40502
+        },
+        "ID_Name": {
+          "ID": 41503
+        }
+      },
+      "12": {
+        "ID": "EDS_ActionCastingType::WarpDevice",
+        "DataStage": 23,
+        "Version": "*",
+        "CastingTime": 3.0,
+        "CastingEndTime": 0.0,
+        "ID_InteractionPompt": {
+          "ID": 0
+        },
+        "CastingText": {
+          "ID": 40504
+        },
+        "ID_Name": {
+          "ID": 41504
+        }
+      }
+    }
+  }
+]

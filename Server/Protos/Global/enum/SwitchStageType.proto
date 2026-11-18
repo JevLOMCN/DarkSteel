@@ -1,0 +1,12 @@
+syntax = "proto3";
+package server_msg_common;
+option csharp_namespace = "MirProto.ServerMsgCommon";
+
+
+enum SwitchStageType {
+  SwitchStageType_None = 0;
+  SwitchStageType_Reservation = 1;
+  SwitchStageType_Complete = 2;
+  SwitchStageType_Cancel = 3;
+  SwitchStageType_DeckMainCharacterChaneComplete = 4;
+}

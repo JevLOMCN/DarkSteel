@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{5769EB36-D359-5C94-88BC-4AAD36F64689}</ProjectGuid><RootNamespace>DLSSUtility</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FComputeShaderUtils.cpp" />
+    <ClCompile Include="Private\FCreateBiasCurrentColorCS.cpp" />
+    <ClCompile Include="Private\FDLSSUtilityModule.cpp" />
+    <ClCompile Include="Private\FGBufferResolvePS.cpp" />
+    <ClCompile Include="Private\FParameters.cpp" />
+    <ClCompile Include="Private\FRDGAllocator.cpp" />
+    <ClCompile Include="Private\FRDGBuilder.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTypeInfo.cpp" />
+    <ClCompile Include="Private\FVelocityCombineCS.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TRDGLambdaPass.cpp" />
+    <ClCompile Include="Private\TShaderMapRef.cpp" />
+    <ClCompile Include="Private\TShaderPermutationDomain.cpp" />
+    <ClCompile Include="Private\TShaderRefBase.cpp" />
+    <ClCompile Include="Private\_Free\Module.DLSSUtility.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

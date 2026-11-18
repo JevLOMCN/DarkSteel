@@ -1,0 +1,4 @@
+; Copy this file to ClientLauncher.ini next to ProjectDS.exe (the launcher) to change the default arguments without rebuilding.
+; Arguments= replaces the embedded default (-GameServer=127.0.0.1:31101). A -Key= given on the command line still wins.
+[Launcher]
+Arguments=-GameServer=127.0.0.1:31101 -windowed -resx=1280 -resy=720

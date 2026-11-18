@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "2",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StuffSpawnGroup/Island/2",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StuffSpawnGroupTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "90": {
+        "ID": 90,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Territory": [
+          60
+        ],
+        "ID_BannedTerritory": [],
+        "CountMax": 50
+      },
+      "91": {
+        "ID": 91,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Territory": [
+          61
+        ],
+        "ID_BannedTerritory": [],
+        "CountMax": 50
+      },
+      "92": {
+        "ID": 92,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Territory": [
+          62
+        ],
+        "ID_BannedTerritory": [],
+        "CountMax": 50
+      },
+      "93": {
+        "ID": 93,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Territory": [
+          63
+        ],
+        "ID_BannedTerritory": [
+          64
+        ],
+        "CountMax": 60
+      }
+    }
+  }
+]

@@ -1,0 +1,15 @@
+syntax = "proto3";
+package ds_rank;
+option csharp_namespace = "MirProto.DsRank";
+
+import "_db.proto";
+
+message SqlRawRankTable {
+  int64 world_id = 1;
+  int32 rank_type = 2;
+  int64 player_uid = 3;
+  int64 unique_param = 4;
+  int64 score = 5;
+  int64 score_priority1 = 6;
+  int64 score_priority2 = 7;
+}

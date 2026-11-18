@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{AAF59F5F-56D2-5CBA-A0B2-C0435F9BA755}</ProjectGuid><RootNamespace>WNAbilityRuntime</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTimerManager.cpp" />
+    <ClCompile Include="Private\FWN_ASCLogOptions.cpp" />
+    <ClCompile Include="Private\FWN_AbilityBreakOptions.cpp" />
+    <ClCompile Include="Private\FWN_AbilityInstanceHandle.cpp" />
+    <ClCompile Include="Private\FWN_AbilityInstanceHandleImpl.cpp" />
+    <ClCompile Include="Private\FWN_AbilityRuntimeModule.cpp" />
+    <ClCompile Include="Private\FWN_AbilitySystemContext.cpp" />
+    <ClCompile Include="Private\FWN_AbilityTaskDebugMessage.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UWN_Ability.cpp" />
+    <ClCompile Include="Private\UWN_AbilityContext.cpp" />
+    <ClCompile Include="Private\UWN_AbilitySystemComponent.cpp" />
+    <ClCompile Include="Private\UWN_AbilityTask.cpp" />
+    <ClCompile Include="Private\_Free\Module.WNAbilityRuntime.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

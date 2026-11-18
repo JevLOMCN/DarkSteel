@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ServerInfoGlobal",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ServerInfoGlobal",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ServerInfoGlobalTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "Version": "*",
+        "DataStage": 1,
+        "Stream": "master",
+        "Name": "Master",
+        "DevServerListUrl": "https://mir5-master-config.azurewebsites.net/api/get_dev_server_list?",
+        "EventHubsConnectionString": "",
+        "EventHubsLogName": "",
+        "AzureFunctionsUri": "",
+        "AzureFunctionsCode": "",
+        "ServiceBusString": "",
+        "ServiceBusResourceGroup": "",
+        "ServiceBusNamespace": ""
+      }
+    }
+  }
+]

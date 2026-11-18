@@ -1,0 +1,667 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DungeonBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/DungeonBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_DungeonBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 1,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400998
+        },
+        "ID_Explanation": {
+          "ID": 401999
+        },
+        "ID_BackGroundNpc": 150000001,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 0,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7001,
+        "ID_ZoneBase": 6003,
+        "ID_WarpLocation": 20003,
+        "ID_DungeonBuff": [
+          8005,
+          9243
+        ],
+        "DungeonScript": "/Script/Dungeon/1_Test.py",
+        "DungeonScriptPart": [
+          "/Script/Dungeon/stage001.py",
+          "/Script/Dungeon/stage002.py",
+          "/Script/Dungeon/stage003_special.py",
+          "/Script/Dungeon/stage004.py"
+        ],
+        "IsLearningBattleAi": true,
+        "ID_ResurrectionWaiting": 1001,
+        "BlockingVolume": []
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 2,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400001
+        },
+        "ID_Explanation": {
+          "ID": 401001
+        },
+        "ID_BackGroundNpc": 150000001,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 0,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7001,
+        "ID_ZoneBase": 6004,
+        "ID_WarpLocation": 20002,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/2_Test.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 3,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400001
+        },
+        "ID_Explanation": {
+          "ID": 401001
+        },
+        "ID_BackGroundNpc": 150000001,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 0,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7001,
+        "ID_ZoneBase": 6001,
+        "ID_WarpLocation": 20003,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/3_Test.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Raid",
+        "LevelGroup": 4,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400999
+        },
+        "ID_Explanation": {
+          "ID": 401999
+        },
+        "ID_BackGroundNpc": 8007,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 0,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7001,
+        "ID_ZoneBase": 6003,
+        "ID_WarpLocation": 20003,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/4_Test.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "2004": {
+        "ID": 2004,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 12,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 409999
+        },
+        "ID_Explanation": {
+          "ID": 401001
+        },
+        "ID_BackGroundNpc": 150000001,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 0,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7001,
+        "ID_ZoneBase": 2004,
+        "ID_WarpLocation": 10003,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/2004.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "7001": {
+        "ID": 7001,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 5,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400001
+        },
+        "ID_Explanation": {
+          "ID": 401001
+        },
+        "ID_BackGroundNpc": 150000001,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 0,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7001,
+        "ID_ZoneBase": 7001,
+        "ID_WarpLocation": 10011,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/7001.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "7002": {
+        "ID": 7002,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 5,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400002
+        },
+        "ID_Explanation": {
+          "ID": 401002
+        },
+        "ID_BackGroundNpc": 150000001,
+        "OpenPlayerLevel": 10,
+        "ID_RequestQuest": 1000001,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7002,
+        "ID_ZoneBase": 7001,
+        "ID_WarpLocation": 10011,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/7001.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "7011": {
+        "ID": 7011,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 6,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400006
+        },
+        "ID_Explanation": {
+          "ID": 401006
+        },
+        "ID_BackGroundNpc": 11078,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 1000001,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7011,
+        "ID_ZoneBase": 7001,
+        "ID_WarpLocation": 10011,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/7001.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "7012": {
+        "ID": 7012,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 6,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400002
+        },
+        "ID_Explanation": {
+          "ID": 401002
+        },
+        "ID_BackGroundNpc": 11078,
+        "OpenPlayerLevel": 10,
+        "ID_RequestQuest": 1000001,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7012,
+        "ID_ZoneBase": 7001,
+        "ID_WarpLocation": 10011,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/7001.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "7013": {
+        "ID": 7013,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 6,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400003
+        },
+        "ID_Explanation": {
+          "ID": 401003
+        },
+        "ID_BackGroundNpc": 11078,
+        "OpenPlayerLevel": 20,
+        "ID_RequestQuest": 1000001,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7013,
+        "ID_ZoneBase": 7001,
+        "ID_WarpLocation": 10011,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/7001.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "7201": {
+        "ID": 7201,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Heroic",
+        "LevelGroup": 7,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400004
+        },
+        "ID_Explanation": {
+          "ID": 401004
+        },
+        "ID_BackGroundNpc": 150000001,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 1000001,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7201,
+        "ID_ZoneBase": 7001,
+        "ID_WarpLocation": 10011,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/7001.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "7301": {
+        "ID": 7301,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Raid",
+        "LevelGroup": 8,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400005
+        },
+        "ID_Explanation": {
+          "ID": 401005
+        },
+        "ID_BackGroundNpc": 11078,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 1000001,
+        "IsUseDungeonManager": false,
+        "ID_DungeonReward": 7301,
+        "ID_ZoneBase": 7001,
+        "ID_WarpLocation": 10011,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/7001.py",
+        "DungeonScriptPart": [],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      },
+      "7003": {
+        "ID": 7003,
+        "DataStage": 16,
+        "Version": "*",
+        "DungeonType": "EDS_DungeonType::Normal",
+        "LevelGroup": 9,
+        "ID_FirstRewardItemList": [
+          10150001,
+          100110001,
+          100210001,
+          10151001,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "FirstRewardItemValue": [
+          1,
+          10,
+          10,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ID_ClearRewardItemDPList": 1000,
+        "ID_Name": {
+          "ID": 400007
+        },
+        "ID_Explanation": {
+          "ID": 401007
+        },
+        "ID_BackGroundNpc": 150000001,
+        "OpenPlayerLevel": 1,
+        "ID_RequestQuest": 0,
+        "IsUseDungeonManager": true,
+        "ID_DungeonReward": 7003,
+        "ID_ZoneBase": 7003,
+        "ID_WarpLocation": 107011,
+        "ID_DungeonBuff": [],
+        "DungeonScript": "/Script/Dungeon/7003.py",
+        "DungeonScriptPart": [
+          "/Script/Dungeon/7003_B1.py",
+          "/Script/Dungeon/7003_B2.py",
+          "/Script/Dungeon/7003_B3.py",
+          "/Script/Dungeon/7003_NormalBoss.py"
+        ],
+        "IsLearningBattleAi": false,
+        "ID_ResurrectionWaiting": 21,
+        "BlockingVolume": []
+      }
+    }
+  }
+]

@@ -1,0 +1,124 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: Engine
+// Functions: 6
+
+// StaticClass @ 1472856e0
+
+UClass * __cdecl UMaterialExpressionArctangentFast::StaticClass(void)
+
+{
+  FUObjectCppClassStaticFunctions local_res8 [4];
+  
+  if (Z_Registration_Info_UClass_UMaterialExpressionArctangentFast.InnerSingleton == (UClass *)0x0)
+  {
+    local_res8[0].AddReferencedObjects = UObject::AddReferencedObjects;
+    GetPrivateStaticClassBody
+              (L"/Script/Engine",L"MaterialExpressionArctangentFast",
+               &Z_Registration_Info_UClass_UMaterialExpressionArctangentFast.InnerSingleton,
+               StaticRegisterNativesUMaterialExpressionArctangentFast,0xd8,8,
+               CLASS_Intrinsic|CLASS_Optional|CLASS_Config,CASTCLASS_None,L"MaterialExpressions",
+               InternalConstructor<UMaterialExpressionArctangentFast>,
+               InternalVTableHelperCtorCaller<UMaterialExpressionArctangentFast>,local_res8,
+               UMaterialExpression::StaticClass,UObject::StaticClass);
+  }
+  return Z_Registration_Info_UClass_UMaterialExpressionArctangentFast.InnerSingleton;
+}
+
+// UMaterialExpressionArctangentFast @ 14728ca00
+
+UMaterialExpressionArctangentFast * __thiscall
+UMaterialExpressionArctangentFast::UMaterialExpressionArctangentFast
+          (UMaterialExpressionArctangentFast *this,FVTableHelper *param_1)
+
+{
+  UObject::UObject((UObject *)this,param_1);
+  this->_padding_ = (longlong)&___7UMaterialExpressionArctangentFast__6B_;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  this->_padding_ = 0;
+  (this->Input).OutputIndex = 0;
+  (this->Input).InputName.ComparisonIndex = 0;
+  *(undefined8 *)&(this->Input).InputName.Number = 0;
+  (this->Input).MaskR = 0;
+  (this->Input).MaskG = 0;
+  (this->Input).MaskB = 0;
+  (this->Input).MaskA = 0;
+  (this->Input).Expression = (UMaterialExpression *)0x0;
+  return this;
+}
+
+// UMaterialExpressionArctangentFast @ 14728ca90
+
+UMaterialExpressionArctangentFast * __thiscall
+UMaterialExpressionArctangentFast::UMaterialExpressionArctangentFast
+          (UMaterialExpressionArctangentFast *this,FObjectInitializer *param_1)
+
+{
+  UMaterialExpression::UMaterialExpression((UMaterialExpression *)this,param_1);
+  this->_padding_ = (longlong)&___7UMaterialExpressionArctangentFast__6B_;
+  (this->Input).OutputIndex = 0;
+  (this->Input).InputName.ComparisonIndex = 0;
+  *(undefined8 *)&(this->Input).InputName.Number = 0;
+  (this->Input).MaskR = 0;
+  (this->Input).MaskG = 0;
+  (this->Input).MaskB = 0;
+  (this->Input).MaskA = 0;
+  (this->Input).Expression = (UMaterialExpression *)0x0;
+  return this;
+}
+
+// ~UMaterialExpressionArctangentFast @ 14728d790
+
+void __thiscall
+UMaterialExpressionArctangentFast::~UMaterialExpressionArctangentFast
+          (UMaterialExpressionArctangentFast *this)
+
+{
+  this->_padding_ = (longlong)&___7UMaterialExpressionArctangentFast__6B_;
+  UMaterialExpression::~UMaterialExpression((UMaterialExpression *)this);
+  return;
+}
+
+// GetPrivateStaticClass @ 147290910
+
+UClass * __cdecl UMaterialExpressionArctangentFast::GetPrivateStaticClass(void)
+
+{
+  FUObjectCppClassStaticFunctions local_res8 [4];
+  
+  if (Z_Registration_Info_UClass_UMaterialExpressionArctangentFast.InnerSingleton == (UClass *)0x0)
+  {
+    local_res8[0].AddReferencedObjects = UObject::AddReferencedObjects;
+    GetPrivateStaticClassBody
+              (L"/Script/Engine",L"MaterialExpressionArctangentFast",
+               &Z_Registration_Info_UClass_UMaterialExpressionArctangentFast.InnerSingleton,
+               StaticRegisterNativesUMaterialExpressionArctangentFast,0xd8,8,
+               CLASS_Intrinsic|CLASS_Optional|CLASS_Config,CASTCLASS_None,L"MaterialExpressions",
+               InternalConstructor<UMaterialExpressionArctangentFast>,
+               InternalVTableHelperCtorCaller<UMaterialExpressionArctangentFast>,local_res8,
+               UMaterialExpression::StaticClass,UObject::StaticClass);
+  }
+  return Z_Registration_Info_UClass_UMaterialExpressionArctangentFast.InnerSingleton;
+}
+
+// StaticRegisterNativesUMaterialExpressionArctangentFast @ 147291480
+
+void __cdecl
+UMaterialExpressionArctangentFast::StaticRegisterNativesUMaterialExpressionArctangentFast(void)
+
+{
+  return;
+}
+

@@ -1,0 +1,5081 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StringEnum_Kor",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/String/Kor/StringEnum_Kor",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StringEnumTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "EDS_CharEquipType_Ancient": {
+        "ID": "EDS_CharEquipType_Ancient",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "에이션트"
+      },
+      "EDS_CharEquipType_Makina": {
+        "ID": "EDS_CharEquipType_Makina",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "마나기어"
+      },
+      "EDS_CharEquipType_Elemental": {
+        "ID": "EDS_CharEquipType_Elemental",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "엘리멘탈"
+      },
+      "EDS_GradeType_Normal": {
+        "ID": "EDS_GradeType_Normal",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "일반"
+      },
+      "EDS_GradeType_High": {
+        "ID": "EDS_GradeType_High",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "고급"
+      },
+      "EDS_GradeType_Rare": {
+        "ID": "EDS_GradeType_Rare",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "희귀"
+      },
+      "EDS_GradeType_Epic": {
+        "ID": "EDS_GradeType_Epic",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "영웅"
+      },
+      "EDS_GradeType_Legendary": {
+        "ID": "EDS_GradeType_Legendary",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전설"
+      },
+      "EDS_GradeType_Myth": {
+        "ID": "EDS_GradeType_Myth",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신화"
+      },
+      "EDS_DropDownPopup_Use": {
+        "ID": "EDS_DropDownPopup_Use",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "사용"
+      },
+      "EDS_DropDownPopup_Equip": {
+        "ID": "EDS_DropDownPopup_Equip",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장착"
+      },
+      "EDS_DropDownPopup_QuickSlot": {
+        "ID": "EDS_DropDownPopup_QuickSlot",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "퀵슬롯"
+      },
+      "EDS_DropDownPopup_Growth": {
+        "ID": "EDS_DropDownPopup_Growth",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "성장"
+      },
+      "EDS_DropDownPopup_Decomposition": {
+        "ID": "EDS_DropDownPopup_Decomposition",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "분해"
+      },
+      "EDS_DropDownPopup_Destruction": {
+        "ID": "EDS_DropDownPopup_Destruction",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "파괴"
+      },
+      "EDS_DropDownPopup_Lock": {
+        "ID": "EDS_DropDownPopup_Lock",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잠금"
+      },
+      "EDS_DropDownPopup_Share": {
+        "ID": "EDS_DropDownPopup_Share",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "공유"
+      },
+      "EDS_DropDownPopup_Route": {
+        "ID": "EDS_DropDownPopup_Route",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "획득 경로"
+      },
+      "EDS_DropDownPopup_GemSocket": {
+        "ID": "EDS_DropDownPopup_GemSocket",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "보석"
+      },
+      "EDS_DropDownPopup_MountRegister": {
+        "ID": "EDS_DropDownPopup_MountRegister",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 등록"
+      },
+      "EDS_DropDownPopup_WarehouseToInventoryAll": {
+        "ID": "EDS_DropDownPopup_WarehouseToInventoryAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가방으로 꺼내기"
+      },
+      "EDS_DropDownPopup_WarehouseToInventorySplit": {
+        "ID": "EDS_DropDownPopup_WarehouseToInventorySplit",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가방으로 나누어 꺼내기"
+      },
+      "EDS_DropDownPopup_WarehouseToMountAll": {
+        "ID": "EDS_DropDownPopup_WarehouseToMountAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 가방으로 꺼내기"
+      },
+      "EDS_DropDownPopup_WarehouseToMountSplit": {
+        "ID": "EDS_DropDownPopup_WarehouseToMountSplit",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 가방으로 나누어 꺼내기"
+      },
+      "EDS_DropDownPopup_InventoryToWarehouseAll": {
+        "ID": "EDS_DropDownPopup_InventoryToWarehouseAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "창고에 보관"
+      },
+      "EDS_DropDownPopup_InventoryToStorageSplit": {
+        "ID": "EDS_DropDownPopup_InventoryToStorageSplit",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "창고에 나누어 보관"
+      },
+      "EDS_DropDownPopup_InventoryToMountAll": {
+        "ID": "EDS_DropDownPopup_InventoryToMountAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 가방으로 보내기"
+      },
+      "EDS_DropDownPopup_InventoryToMountSplit": {
+        "ID": "EDS_DropDownPopup_InventoryToMountSplit",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 가방으로 나누어 보내기"
+      },
+      "EDS_DropDownPopup_MountToWarehouseAll": {
+        "ID": "EDS_DropDownPopup_MountToWarehouseAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "창고에 보관"
+      },
+      "EDS_DropDownPopup_MountToWarehouseSplit": {
+        "ID": "EDS_DropDownPopup_MountToWarehouseSplit",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "창고에 나누어 보관"
+      },
+      "EDS_DropDownPopup_MountToInventoryAll": {
+        "ID": "EDS_DropDownPopup_MountToInventoryAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가방으로 보내기"
+      },
+      "EDS_DropDownPopup_MountToInventorySplit": {
+        "ID": "EDS_DropDownPopup_MountToInventorySplit",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가방으로 나누어 보내기"
+      },
+      "EDS_SortingType_Equip": {
+        "ID": "EDS_SortingType_Equip",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장착"
+      },
+      "EDS_SortingType_Grade": {
+        "ID": "EDS_SortingType_Grade",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "등급"
+      },
+      "EDS_SortingType_Level": {
+        "ID": "EDS_SortingType_Level",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "레벨"
+      },
+      "EDS_SortingType_Get": {
+        "ID": "EDS_SortingType_Get",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "획득순"
+      },
+      "EDS_SortingType_ItemWeight": {
+        "ID": "EDS_SortingType_ItemWeight",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무게"
+      },
+      "EDS_SortingType_CharGet": {
+        "ID": "EDS_SortingType_CharGet",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "획득순"
+      },
+      "EDS_SortingType_CharLevel": {
+        "ID": "EDS_SortingType_CharLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "레벨"
+      },
+      "EDS_SortingType_CharName": {
+        "ID": "EDS_SortingType_CharName",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "이름"
+      },
+      "EDS_SortingType_CharEquipGet": {
+        "ID": "EDS_SortingType_CharEquipGet",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "획득순"
+      },
+      "EDS_SortingType_CharEquipLevel": {
+        "ID": "EDS_SortingType_CharEquipLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "레벨"
+      },
+      "EDS_SortingType_CharEquipName": {
+        "ID": "EDS_SortingType_CharEquipName",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "이름"
+      },
+      "EDS_SortingType_MountGet": {
+        "ID": "EDS_SortingType_MountGet",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "획득순"
+      },
+      "EDS_SortingType_MountName": {
+        "ID": "EDS_SortingType_MountName",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "이름순"
+      },
+      "EDS_SortingType_MountSkill": {
+        "ID": "EDS_SortingType_MountSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탑승레벨순"
+      },
+      "EDS_SortingType_MountBodyType": {
+        "ID": "EDS_SortingType_MountBodyType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "계열순"
+      },
+      "EDS_SortingType_MountMoveSpeed": {
+        "ID": "EDS_SortingType_MountMoveSpeed",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "이동속도순"
+      },
+      "EDS_SortingType_MountWeight": {
+        "ID": "EDS_SortingType_MountWeight",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "적재하중순"
+      },
+      "EDS_SortingType_MountGrade": {
+        "ID": "EDS_SortingType_MountGrade",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "등급순"
+      },
+      "EDS_SortingType_LostListTimeLeft": {
+        "ID": "EDS_SortingType_LostListTimeLeft",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "발생시간순"
+      },
+      "EDS_SortingType_LostItemGrade": {
+        "ID": "EDS_SortingType_LostItemGrade",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "등급순"
+      },
+      "EDS_SortingType_LostItemLevel": {
+        "ID": "EDS_SortingType_LostItemLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "레벨순"
+      },
+      "EDS_SortingType_LostItemWeight": {
+        "ID": "EDS_SortingType_LostItemWeight",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무게"
+      },
+      "EDS_SortingType_Repair": {
+        "ID": "EDS_SortingType_Repair",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "내구도"
+      },
+      "EDS_SortingType_RepairRestore": {
+        "ID": "EDS_SortingType_RepairRestore",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "내구도"
+      },
+      "EDS_FilterState_Equip": {
+        "ID": "EDS_FilterState_Equip",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장착"
+      },
+      "EDS_FilterState_Lock": {
+        "ID": "EDS_FilterState_Lock",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잠금"
+      },
+      "EDS_FilterState_Grade": {
+        "ID": "EDS_FilterState_Grade",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "등급"
+      },
+      "EDS_FilterState_ItemType": {
+        "ID": "EDS_FilterState_ItemType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "아이템 타입"
+      },
+      "EDS_FilterStateEquip_Equipped": {
+        "ID": "EDS_FilterStateEquip_Equipped",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장착"
+      },
+      "EDS_FilterStateEquip_Unequipped": {
+        "ID": "EDS_FilterStateEquip_Unequipped",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비장착"
+      },
+      "EDS_FilterStateLock_Locked": {
+        "ID": "EDS_FilterStateLock_Locked",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잠금"
+      },
+      "EDS_FilterStateLock_Unlocked": {
+        "ID": "EDS_FilterStateLock_Unlocked",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "미잠금"
+      },
+      "EDS_FilterStateGrade_Normal": {
+        "ID": "EDS_FilterStateGrade_Normal",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "일반"
+      },
+      "EDS_FilterStateGrade_High": {
+        "ID": "EDS_FilterStateGrade_High",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "고급"
+      },
+      "EDS_FilterStateGrade_Rare": {
+        "ID": "EDS_FilterStateGrade_Rare",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "희귀"
+      },
+      "EDS_FilterStateGrade_Epic": {
+        "ID": "EDS_FilterStateGrade_Epic",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "영웅"
+      },
+      "EDS_FilterStateGrade_Legendary": {
+        "ID": "EDS_FilterStateGrade_Legendary",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전설"
+      },
+      "EDS_FilterStateGrade_Myth": {
+        "ID": "EDS_FilterStateGrade_Myth",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신화"
+      },
+      "EDS_ItemType_WeaponArtifact": {
+        "ID": "EDS_ItemType_WeaponArtifact",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_ItemType_WeaponKnuckle": {
+        "ID": "EDS_ItemType_WeaponKnuckle",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_ItemType_WeaponSwordShield": {
+        "ID": "EDS_ItemType_WeaponSwordShield",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_ItemType_WeaponLance": {
+        "ID": "EDS_ItemType_WeaponLance",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_ItemType_WeaponGreatAxe": {
+        "ID": "EDS_ItemType_WeaponGreatAxe",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_ItemType_WeaponLongBow": {
+        "ID": "EDS_ItemType_WeaponLongBow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_ItemType_WeaponDualPistols": {
+        "ID": "EDS_ItemType_WeaponDualPistols",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_ItemType_WeaponOrb": {
+        "ID": "EDS_ItemType_WeaponOrb",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_ItemType_WeaponFan": {
+        "ID": "EDS_ItemType_WeaponFan",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_ItemType_ArmorHelmet": {
+        "ID": "EDS_ItemType_ArmorHelmet",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_ItemType_ArmorChest": {
+        "ID": "EDS_ItemType_ArmorChest",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_ItemType_ArmorPants": {
+        "ID": "EDS_ItemType_ArmorPants",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_ItemType_ArmorGlobe": {
+        "ID": "EDS_ItemType_ArmorGlobe",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_ItemType_ArmorShoes": {
+        "ID": "EDS_ItemType_ArmorShoes",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_ItemType_Accessory1": {
+        "ID": "EDS_ItemType_Accessory1",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_ItemType_Accessory2": {
+        "ID": "EDS_ItemType_Accessory2",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_ItemType_Accessory3": {
+        "ID": "EDS_ItemType_Accessory3",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_ItemType_TokenEquipTalisman": {
+        "ID": "EDS_ItemType_TokenEquipTalisman",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_ItemType_Emblem": {
+        "ID": "EDS_ItemType_Emblem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_ItemType_ToolMining": {
+        "ID": "EDS_ItemType_ToolMining",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "곡괭이"
+      },
+      "EDS_ItemType_ToolHarvesting": {
+        "ID": "EDS_ItemType_ToolHarvesting",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채집용 칼"
+      },
+      "EDS_ItemType_ToolLogging": {
+        "ID": "EDS_ItemType_ToolLogging",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도끼"
+      },
+      "EDS_ItemType_ToolDetection": {
+        "ID": "EDS_ItemType_ToolDetection",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탐지 도구"
+      },
+      "EDS_ItemType_ToolLing": {
+        "ID": "EDS_ItemType_ToolLing",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "언어학 도구"
+      },
+      "EDS_ItemType_ToolArchaeology": {
+        "ID": "EDS_ItemType_ToolArchaeology",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "고고학"
+      },
+      "EDS_ItemType_ToolOpenLocks": {
+        "ID": "EDS_ItemType_ToolOpenLocks",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "해제"
+      },
+      "EDS_ItemType_ToolCooking": {
+        "ID": "EDS_ItemType_ToolCooking",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "요리 도구"
+      },
+      "EDS_ItemType_ToolPickax": {
+        "ID": "EDS_ItemType_ToolPickax",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "곡괭이"
+      },
+      "EDS_ItemType_ToolHoe": {
+        "ID": "EDS_ItemType_ToolHoe",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "호미"
+      },
+      "EDS_ItemType_ToolAxe": {
+        "ID": "EDS_ItemType_ToolAxe",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도끼"
+      },
+      "EDS_ItemType_MountGearAType": {
+        "ID": "EDS_ItemType_MountGearAType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_ItemType_MountGearBType": {
+        "ID": "EDS_ItemType_MountGearBType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_ItemType_MountGearCType": {
+        "ID": "EDS_ItemType_MountGearCType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_ItemType_ActionGearFlying": {
+        "ID": "EDS_ItemType_ActionGearFlying",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비행 도구"
+      },
+      "EDS_ItemType_ActionGearDiving": {
+        "ID": "EDS_ItemType_ActionGearDiving",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잠수 도구"
+      },
+      "EDS_ItemType_ActionGearCamp": {
+        "ID": "EDS_ItemType_ActionGearCamp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "야영 도구"
+      },
+      "EDS_ItemType_ConsumeHpPotion": {
+        "ID": "EDS_ItemType_ConsumeHpPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "체력 물약"
+      },
+      "EDS_ItemType_ConsumeMpPotion": {
+        "ID": "EDS_ItemType_ConsumeMpPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "마력 물약"
+      },
+      "EDS_ItemType_ConsumeSpPotion": {
+        "ID": "EDS_ItemType_ConsumeSpPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "SP 물약"
+      },
+      "EDS_ItemType_ConsumeApPotion": {
+        "ID": "EDS_ItemType_ConsumeApPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "행동력 회복제"
+      },
+      "EDS_ItemType_ConsumeBuffPotion": {
+        "ID": "EDS_ItemType_ConsumeBuffPotion",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비약"
+      },
+      "EDS_ItemType_ConsumeRecipe": {
+        "ID": "EDS_ItemType_ConsumeRecipe",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "제조법"
+      },
+      "EDS_ItemType_TicketSpeedUp": {
+        "ID": "EDS_ItemType_TicketSpeedUp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권"
+      },
+      "EDS_ItemType_TicketEntry": {
+        "ID": "EDS_ItemType_TicketEntry",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "입장권"
+      },
+      "EDS_ItemType_TicketInventory": {
+        "ID": "EDS_ItemType_TicketInventory",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "인벤토리 확장권"
+      },
+      "EDS_ItemType_OpenBoxRandom": {
+        "ID": "EDS_ItemType_OpenBoxRandom",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "랜덤 상자"
+      },
+      "EDS_ItemType_OpenBoxPackage": {
+        "ID": "EDS_ItemType_OpenBoxPackage",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "패키지 상자"
+      },
+      "EDS_ItemType_OpenBoxSelect": {
+        "ID": "EDS_ItemType_OpenBoxSelect",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선택 상자"
+      },
+      "EDS_ItemType_BoxRandom": {
+        "ID": "EDS_ItemType_BoxRandom",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "랜덤 상자"
+      },
+      "EDS_ItemType_BoxPackage": {
+        "ID": "EDS_ItemType_BoxPackage",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "패키지 상자"
+      },
+      "EDS_ItemType_BoxChoice": {
+        "ID": "EDS_ItemType_BoxChoice",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선택 상자"
+      },
+      "EDS_ItemType_MountRegister": {
+        "ID": "EDS_ItemType_MountRegister",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 등록증"
+      },
+      "EDS_ItemType_AccelItemCraft": {
+        "ID": "EDS_ItemType_AccelItemCraft",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권[아이템제작]"
+      },
+      "EDS_ItemType_AccelItemAscend": {
+        "ID": "EDS_ItemType_AccelItemAscend",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권[아이템승급]"
+      },
+      "EDS_ItemType_AccelChrAscend": {
+        "ID": "EDS_ItemType_AccelChrAscend",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권[캐릭터승급]"
+      },
+      "EDS_ItemType_AccelSkillAscend": {
+        "ID": "EDS_ItemType_AccelSkillAscend",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권[스킬승급]"
+      },
+      "EDS_ItemType_AccelChrEvolve": {
+        "ID": "EDS_ItemType_AccelChrEvolve",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권[캐릭터초월]"
+      },
+      "EDS_ItemType_AccelItemFusion": {
+        "ID": "EDS_ItemType_AccelItemFusion",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권[아이템초월]"
+      },
+      "EDS_ItemType_AccelPlayerSkillAscend": {
+        "ID": "EDS_ItemType_AccelPlayerSkillAscend",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권[플레이어스킬승급]"
+      },
+      "EDS_ItemType_AccelItemRestore": {
+        "ID": "EDS_ItemType_AccelItemRestore",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권[아이템복원]"
+      },
+      "EDS_ItemType_AccelAll": {
+        "ID": "EDS_ItemType_AccelAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가속권[만능]"
+      },
+      "EDS_ItemType_PlayerIcon": {
+        "ID": "EDS_ItemType_PlayerIcon",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "플레이어 아이콘"
+      },
+      "EDS_ItemType_CharEvolve": {
+        "ID": "EDS_ItemType_CharEvolve",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "진화석"
+      },
+      "EDS_ItemType_QuestUse": {
+        "ID": "EDS_ItemType_QuestUse",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "퀘스트"
+      },
+      "EDS_ItemType_QuestDelivery": {
+        "ID": "EDS_ItemType_QuestDelivery",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "퀘스트"
+      },
+      "EDS_ItemType_EXPCharacter": {
+        "ID": "EDS_ItemType_EXPCharacter",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "경험서"
+      },
+      "EDS_ItemType_EXPItem": {
+        "ID": "EDS_ItemType_EXPItem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "강화석"
+      },
+      "EDS_ItemType_MaterialGrow": {
+        "ID": "EDS_ItemType_MaterialGrow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "성장 재료"
+      },
+      "EDS_ItemType_MaterialMake": {
+        "ID": "EDS_ItemType_MaterialMake",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "제작 재료"
+      },
+      "EDS_ItemType_MaterialEnhance": {
+        "ID": "EDS_ItemType_MaterialEnhance",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "강화 재료"
+      },
+      "EDS_ItemType_JewelRainbow": {
+        "ID": "EDS_ItemType_JewelRainbow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "오팔"
+      },
+      "EDS_ItemType_JewelRed": {
+        "ID": "EDS_ItemType_JewelRed",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "루비"
+      },
+      "EDS_ItemType_JewelBlue": {
+        "ID": "EDS_ItemType_JewelBlue",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "사파이어"
+      },
+      "EDS_ItemType_JewelGreen": {
+        "ID": "EDS_ItemType_JewelGreen",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "에메랄드"
+      },
+      "EDS_ItemType_JewelYellow": {
+        "ID": "EDS_ItemType_JewelYellow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "토파즈"
+      },
+      "EDS_ItemType_GiftAType": {
+        "ID": "EDS_ItemType_GiftAType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_ItemType_GiftBType": {
+        "ID": "EDS_ItemType_GiftBType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_ItemType_GiftCType": {
+        "ID": "EDS_ItemType_GiftCType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_ItemType_PlayerSkillLing": {
+        "ID": "EDS_ItemType_PlayerSkillLing",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "생활스킬 재료"
+      },
+      "EDS_ItemType_PlayerSkillCamp": {
+        "ID": "EDS_ItemType_PlayerSkillCamp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "생활스킬 재료"
+      },
+      "EDS_ItemType_PlayerSkillArchaeology": {
+        "ID": "EDS_ItemType_PlayerSkillArchaeology",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "생활스킬 재료"
+      },
+      "EDS_ItemType_PlayerSkillOpenLocks": {
+        "ID": "EDS_ItemType_PlayerSkillOpenLocks",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "생활스킬 재료"
+      },
+      "EDS_ItemType_PlayerSkillCooking": {
+        "ID": "EDS_ItemType_PlayerSkillCooking",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "생활스킬 재료"
+      },
+      "EDS_ItemType_PlayerSkillCookingShare": {
+        "ID": "EDS_ItemType_PlayerSkillCookingShare",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "생활스킬 재료"
+      },
+      "EDS_ItemType_SummonBoss": {
+        "ID": "EDS_ItemType_SummonBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "소환"
+      },
+      "EDS_ItemType_MountTamingFood": {
+        "ID": "EDS_ItemType_MountTamingFood",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "길들이기 음식"
+      },
+      "EDS_ItemType_MountFoodAType": {
+        "ID": "EDS_ItemType_MountFoodAType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "먹이"
+      },
+      "EDS_ItemType_MountFoodBType": {
+        "ID": "EDS_ItemType_MountFoodBType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "먹이"
+      },
+      "EDS_ItemType_MountFoodCType": {
+        "ID": "EDS_ItemType_MountFoodCType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "먹이"
+      },
+      "EDS_ItemType_MaterialRepairItem": {
+        "ID": "EDS_ItemType_MaterialRepairItem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수리 룬"
+      },
+      "EDS_ItemType_ScrollPrefix": {
+        "ID": "EDS_ItemType_ScrollPrefix",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "마도서"
+      },
+      "EDS_ItemType_ScrollSetEffect": {
+        "ID": "EDS_ItemType_ScrollSetEffect",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "마도서"
+      },
+      "EDS_ItemType_SkillBookChar": {
+        "ID": "EDS_ItemType_SkillBookChar",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스킬 서판"
+      },
+      "EDS_ItemType_JewelMod": {
+        "ID": "EDS_ItemType_JewelMod",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "보석 개조 도구"
+      },
+      "EDS_ItemType_RandomReroll": {
+        "ID": "EDS_ItemType_RandomReroll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "랜덤옵션 스크롤"
+      },
+      "EDS_ItemType_Garbage": {
+        "ID": "EDS_ItemType_Garbage",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잡동사니"
+      },
+      "EDS_SlotType_EquipBattle": {
+        "ID": "EDS_SlotType_EquipBattle",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전투 장비"
+      },
+      "EDS_SlotType_EquipTool": {
+        "ID": "EDS_SlotType_EquipTool",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "생활 도구"
+      },
+      "EDS_SlotType_MountGear": {
+        "ID": "EDS_SlotType_MountGear",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_FilterType_EquipTab": {
+        "ID": "EDS_FilterType_EquipTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장비"
+      },
+      "EDS_FilterType_ConsumablesTab": {
+        "ID": "EDS_FilterType_ConsumablesTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "소모품"
+      },
+      "EDS_FilterType_MaterialsTab": {
+        "ID": "EDS_FilterType_MaterialsTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재료"
+      },
+      "EDS_FilterType_QuestTab": {
+        "ID": "EDS_FilterType_QuestTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "퀘스트"
+      },
+      "EDS_FilterType_StuffTab": {
+        "ID": "EDS_FilterType_StuffTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잡화"
+      },
+      "EDS_FilterType_GemBag": {
+        "ID": "EDS_FilterType_GemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "보석"
+      },
+      "EDS_FilterType_WeaponBag": {
+        "ID": "EDS_FilterType_WeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_ArmorBag": {
+        "ID": "EDS_FilterType_ArmorBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_FilterType_TalismanBag": {
+        "ID": "EDS_FilterType_TalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_AccessoryBag": {
+        "ID": "EDS_FilterType_AccessoryBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액세서리"
+      },
+      "EDS_FilterType_EmblemBag": {
+        "ID": "EDS_FilterType_EmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_FilterType_ToolBag": {
+        "ID": "EDS_FilterType_ToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_FilterType_ActionBag": {
+        "ID": "EDS_FilterType_ActionBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액션"
+      },
+      "EDS_FilterType_EXPBag": {
+        "ID": "EDS_FilterType_EXPBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "경험치"
+      },
+      "EDS_FilterType_EquipmentBag": {
+        "ID": "EDS_FilterType_EquipmentBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장착 장비"
+      },
+      "EDS_FilterType_ConsumablesBag": {
+        "ID": "EDS_FilterType_ConsumablesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "소모품"
+      },
+      "EDS_FilterType_MaterialsBag": {
+        "ID": "EDS_FilterType_MaterialsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재료"
+      },
+      "EDS_FilterType_GrowBag": {
+        "ID": "EDS_FilterType_GrowBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "성장"
+      },
+      "EDS_FilterType_GarbageBag": {
+        "ID": "EDS_FilterType_GarbageBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잡화"
+      },
+      "EDS_FilterType_QuestBag": {
+        "ID": "EDS_FilterType_QuestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "퀘스트"
+      },
+      "EDS_FilterType_MountItem": {
+        "ID": "EDS_FilterType_MountItem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것"
+      },
+      "EDS_FilterType_MaterialGrow": {
+        "ID": "EDS_FilterType_MaterialGrow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재료"
+      },
+      "EDS_FilterType_MaterialEnhance": {
+        "ID": "EDS_FilterType_MaterialEnhance",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "강화"
+      },
+      "EDS_FilterType_EXPCharacter": {
+        "ID": "EDS_FilterType_EXPCharacter",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "영웅 성장"
+      },
+      "EDS_FilterType_EXPItem": {
+        "ID": "EDS_FilterType_EXPItem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "아이템 성장"
+      },
+      "EDS_FilterType_EnhanceWeaponBag": {
+        "ID": "EDS_FilterType_EnhanceWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_EnhanceArmorBag": {
+        "ID": "EDS_FilterType_EnhanceArmorBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_FilterType_EnhanceTalismanBag": {
+        "ID": "EDS_FilterType_EnhanceTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_EnhanceAccessoryBag": {
+        "ID": "EDS_FilterType_EnhanceAccessoryBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액세서리"
+      },
+      "EDS_FilterType_EnhanceEmblemBag": {
+        "ID": "EDS_FilterType_EnhanceEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_FilterType_EnhanceToolBag": {
+        "ID": "EDS_FilterType_EnhanceToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_FilterType_DismantleTotalBag": {
+        "ID": "EDS_FilterType_DismantleTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "분해"
+      },
+      "EDS_FilterType_AccelCraftTab": {
+        "ID": "EDS_FilterType_AccelCraftTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "제작 가속"
+      },
+      "EDS_FilterType_AccelSkillTab": {
+        "ID": "EDS_FilterType_AccelSkillTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스킬 가속"
+      },
+      "EDS_FilterType_AccelChrAscendTab": {
+        "ID": "EDS_FilterType_AccelChrAscendTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "영웅 승급 가속"
+      },
+      "EDS_FilterType_AccelItemAscendTab": {
+        "ID": "EDS_FilterType_AccelItemAscendTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "아이템 승급 가속"
+      },
+      "EDS_FilterType_RingCmdItemFilter": {
+        "ID": "EDS_FilterType_RingCmdItemFilter",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "링 커맨드"
+      },
+      "EDS_FilterType_WeaponArtifact": {
+        "ID": "EDS_FilterType_WeaponArtifact",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_ArmorHelmet": {
+        "ID": "EDS_FilterType_ArmorHelmet",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_FilterType_ArmorChest": {
+        "ID": "EDS_FilterType_ArmorChest",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_FilterType_ArmorPants": {
+        "ID": "EDS_FilterType_ArmorPants",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_FilterType_ArmorGlobe": {
+        "ID": "EDS_FilterType_ArmorGlobe",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_FilterType_ArmorShoes": {
+        "ID": "EDS_FilterType_ArmorShoes",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_FilterType_Accessory1": {
+        "ID": "EDS_FilterType_Accessory1",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_FilterType_Accessory2": {
+        "ID": "EDS_FilterType_Accessory2",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_FilterType_Accessory3": {
+        "ID": "EDS_FilterType_Accessory3",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_FilterType_TokenEquipTalisman": {
+        "ID": "EDS_FilterType_TokenEquipTalisman",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_Emblem": {
+        "ID": "EDS_FilterType_Emblem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_FilterType_Mining": {
+        "ID": "EDS_FilterType_Mining",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "곡괭이"
+      },
+      "EDS_FilterType_Harvesting": {
+        "ID": "EDS_FilterType_Harvesting",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채집용 칼"
+      },
+      "EDS_FilterType_Logging": {
+        "ID": "EDS_FilterType_Logging",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도끼"
+      },
+      "EDS_FilterType_Detection": {
+        "ID": "EDS_FilterType_Detection",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탐지 도구"
+      },
+      "EDS_FilterType_Linguistic": {
+        "ID": "EDS_FilterType_Linguistic",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "언어학 도구"
+      },
+      "EDS_FilterType_Camp": {
+        "ID": "EDS_FilterType_Camp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "야영지 키트"
+      },
+      "EDS_FilterType_Archaeology": {
+        "ID": "EDS_FilterType_Archaeology",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "고고학"
+      },
+      "EDS_FilterType_Farming": {
+        "ID": "EDS_FilterType_Farming",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재배"
+      },
+      "EDS_FilterType_OpenLock": {
+        "ID": "EDS_FilterType_OpenLock",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "해제"
+      },
+      "EDS_FilterType_NaturalHistory": {
+        "ID": "EDS_FilterType_NaturalHistory",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "박물학"
+      },
+      "EDS_FilterType_Cook": {
+        "ID": "EDS_FilterType_Cook",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "요리 도구"
+      },
+      "EDS_FilterType_Mount": {
+        "ID": "EDS_FilterType_Mount",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탑승 도구"
+      },
+      "EDS_FilterType_ActionGearFlying": {
+        "ID": "EDS_FilterType_ActionGearFlying",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비행 장비"
+      },
+      "EDS_FilterType_ActionGearDiving": {
+        "ID": "EDS_FilterType_ActionGearDiving",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잠수 장비"
+      },
+      "EDS_FilterType_Consumables": {
+        "ID": "EDS_FilterType_Consumables",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "소모품"
+      },
+      "EDS_FilterType_Quest": {
+        "ID": "EDS_FilterType_Quest",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "퀘스트"
+      },
+      "EDS_FilterType_MaterialMake": {
+        "ID": "EDS_FilterType_MaterialMake",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "제작 재료"
+      },
+      "EDS_FilterType_Rainbow": {
+        "ID": "EDS_FilterType_Rainbow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "오팔"
+      },
+      "EDS_FilterType_Red": {
+        "ID": "EDS_FilterType_Red",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "루비"
+      },
+      "EDS_FilterType_Blue": {
+        "ID": "EDS_FilterType_Blue",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "사파이어"
+      },
+      "EDS_FilterType_Green": {
+        "ID": "EDS_FilterType_Green",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "에메랄드"
+      },
+      "EDS_FilterType_Yellow": {
+        "ID": "EDS_FilterType_Yellow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "토파즈"
+      },
+      "EDS_FilterType_Garbage": {
+        "ID": "EDS_FilterType_Garbage",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잡화"
+      },
+      "EDS_FilterType_Talisman": {
+        "ID": "EDS_FilterType_Talisman",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_GiftAType": {
+        "ID": "EDS_FilterType_GiftAType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_FilterType_GiftBType": {
+        "ID": "EDS_FilterType_GiftBType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_FilterType_GiftCType": {
+        "ID": "EDS_FilterType_GiftCType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_FilterType_PlayerSkillCooking": {
+        "ID": "EDS_FilterType_PlayerSkillCooking",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "개인 요리"
+      },
+      "EDS_FilterType_PlayerSkillCookingShare": {
+        "ID": "EDS_FilterType_PlayerSkillCookingShare",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "파티 요리"
+      },
+      "EDS_FilterType_EnTargetTotalBag": {
+        "ID": "EDS_FilterType_EnTargetTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_FilterType_EnTargetWeaponBag": {
+        "ID": "EDS_FilterType_EnTargetWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_EnTargethelmetBag": {
+        "ID": "EDS_FilterType_EnTargethelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_FilterType_EnTargetChestBag": {
+        "ID": "EDS_FilterType_EnTargetChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_FilterType_EnTargetPantsBag": {
+        "ID": "EDS_FilterType_EnTargetPantsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_FilterType_EnTargetGloveBag": {
+        "ID": "EDS_FilterType_EnTargetGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_FilterType_EnTargetShoesBag": {
+        "ID": "EDS_FilterType_EnTargetShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_FilterType_EnTargetNecklaceBag": {
+        "ID": "EDS_FilterType_EnTargetNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_FilterType_EnTargetBraceletBag": {
+        "ID": "EDS_FilterType_EnTargetBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_FilterType_EnTargetRingBag": {
+        "ID": "EDS_FilterType_EnTargetRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_FilterType_EnTargetTalismanBag": {
+        "ID": "EDS_FilterType_EnTargetTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_EnTargetEmblemBag": {
+        "ID": "EDS_FilterType_EnTargetEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_FilterType_EnTargetToolBag": {
+        "ID": "EDS_FilterType_EnTargetToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_FilterType_EnMaterialTotalBag": {
+        "ID": "EDS_FilterType_EnMaterialTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_FilterType_EnMaterialWeaponBag": {
+        "ID": "EDS_FilterType_EnMaterialWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_EnMaterialhelmetBag": {
+        "ID": "EDS_FilterType_EnMaterialhelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_FilterType_EnMaterialChestBag": {
+        "ID": "EDS_FilterType_EnMaterialChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_FilterType_EnMaterialPantsBag": {
+        "ID": "EDS_FilterType_EnMaterialPantsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_FilterType_EnMaterialGloveBag": {
+        "ID": "EDS_FilterType_EnMaterialGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_FilterType_EnMaterialShoesBag": {
+        "ID": "EDS_FilterType_EnMaterialShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_FilterType_EnMaterialnlNecklaceBag": {
+        "ID": "EDS_FilterType_EnMaterialnlNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_FilterType_EnMaterialBraceletBag": {
+        "ID": "EDS_FilterType_EnMaterialBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_FilterType_EnMaterialRingBag": {
+        "ID": "EDS_FilterType_EnMaterialRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_FilterType_EnMaterialTalismanBag": {
+        "ID": "EDS_FilterType_EnMaterialTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_EnMaterialEmblemBag": {
+        "ID": "EDS_FilterType_EnMaterialEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_FilterType_EnMaterialToolBag": {
+        "ID": "EDS_FilterType_EnMaterialToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_FilterType_EnMaterialGrowBag": {
+        "ID": "EDS_FilterType_EnMaterialGrowBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장비 강화"
+      },
+      "EDS_FilterType_FuTargetTotalBag": {
+        "ID": "EDS_FilterType_FuTargetTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_FilterType_FuTargetWeaponBag": {
+        "ID": "EDS_FilterType_FuTargetWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_FuTargethelmetBag": {
+        "ID": "EDS_FilterType_FuTargethelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_FilterType_FuTargetChestBag": {
+        "ID": "EDS_FilterType_FuTargetChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "갑옷"
+      },
+      "EDS_FilterType_FuTargetGloveBag": {
+        "ID": "EDS_FilterType_FuTargetGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_FilterType_FuTargetShoesBag": {
+        "ID": "EDS_FilterType_FuTargetShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_FilterType_FuTargetNecklaceBag": {
+        "ID": "EDS_FilterType_FuTargetNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_FilterType_FuTargetBraceletBag": {
+        "ID": "EDS_FilterType_FuTargetBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_FilterType_FuTargetRingBag": {
+        "ID": "EDS_FilterType_FuTargetRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_FilterType_FuTargetTalismanBag": {
+        "ID": "EDS_FilterType_FuTargetTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_FuTargetEmblemBag": {
+        "ID": "EDS_FilterType_FuTargetEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_FilterType_FuTargetToolBag": {
+        "ID": "EDS_FilterType_FuTargetToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_FilterType_FuMaterialTotalBag": {
+        "ID": "EDS_FilterType_FuMaterialTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_FilterType_FuMaterialWeaponBag": {
+        "ID": "EDS_FilterType_FuMaterialWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_FuMaterialhelmetBag": {
+        "ID": "EDS_FilterType_FuMaterialhelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_FilterType_FuMaterialChestBag": {
+        "ID": "EDS_FilterType_FuMaterialChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "갑옷"
+      },
+      "EDS_FilterType_FuMaterialGloveBag": {
+        "ID": "EDS_FilterType_FuMaterialGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_FilterType_FuMaterialShoesBag": {
+        "ID": "EDS_FilterType_FuMaterialShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_FilterType_FuMaterialnlNecklaceBag": {
+        "ID": "EDS_FilterType_FuMaterialnlNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_FilterType_FuMaterialBraceletBag": {
+        "ID": "EDS_FilterType_FuMaterialBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_FilterType_FuMaterialRingBag": {
+        "ID": "EDS_FilterType_FuMaterialRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_FilterType_FuMaterialTalismanBag": {
+        "ID": "EDS_FilterType_FuMaterialTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_FuMaterialEmblemBag": {
+        "ID": "EDS_FilterType_FuMaterialEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_FilterType_FuMaterialToolBag": {
+        "ID": "EDS_FilterType_FuMaterialToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_FilterType_FusionArmorBag": {
+        "ID": "EDS_FilterType_FusionArmorBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_FilterType_FusionAccessoryBag": {
+        "ID": "EDS_FilterType_FusionAccessoryBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액세서리"
+      },
+      "EDS_FilterType_EnMaterialArmorBag": {
+        "ID": "EDS_FilterType_EnMaterialArmorBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_FilterType_EnMaterialAccesoryBag": {
+        "ID": "EDS_FilterType_EnMaterialAccesoryBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액세서리"
+      },
+      "EDS_FilterType_DismantleWeaponBag": {
+        "ID": "EDS_FilterType_DismantleWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_DismantleArmorBag": {
+        "ID": "EDS_FilterType_DismantleArmorBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_FilterType_DismantleTalismanBag": {
+        "ID": "EDS_FilterType_DismantleTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_DismantleAccessoryBag": {
+        "ID": "EDS_FilterType_DismantleAccessoryBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액세서리"
+      },
+      "EDS_FilterType_DismantleEmblemBag": {
+        "ID": "EDS_FilterType_DismantleEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_FilterType_DismantleToolBag": {
+        "ID": "EDS_FilterType_DismantleToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_FilterType_DismantleActionBag": {
+        "ID": "EDS_FilterType_DismantleActionBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액션 도구"
+      },
+      "EDS_FilterType_DismantleConsumables": {
+        "ID": "EDS_FilterType_DismantleConsumables",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "소모품"
+      },
+      "EDS_FilterType_DismantleMaterialsBag": {
+        "ID": "EDS_FilterType_DismantleMaterialsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재료"
+      },
+      "EDS_FilterType_DismantleGarbage": {
+        "ID": "EDS_FilterType_DismantleGarbage",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잡화"
+      },
+      "EDS_FilterType_DismantleEquipmentBag": {
+        "ID": "EDS_FilterType_DismantleEquipmentBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장착 장비"
+      },
+      "EDS_FilterType_MountTab": {
+        "ID": "EDS_FilterType_MountTab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것"
+      },
+      "EDS_FilterType_MountGearAType": {
+        "ID": "EDS_FilterType_MountGearAType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_FilterType_MountGearBType": {
+        "ID": "EDS_FilterType_MountGearBType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_FilterType_MountGearCType": {
+        "ID": "EDS_FilterType_MountGearCType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_FilterType_MountFoodAType": {
+        "ID": "EDS_FilterType_MountFoodAType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 먹이"
+      },
+      "EDS_FilterType_MountFoodBType": {
+        "ID": "EDS_FilterType_MountFoodBType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 먹이"
+      },
+      "EDS_FilterType_MountFoodCType": {
+        "ID": "EDS_FilterType_MountFoodCType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 먹이"
+      },
+      "EDS_FilterType_CharMountAll": {
+        "ID": "EDS_FilterType_CharMountAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 가방 보관 가능"
+      },
+      "EDS_FilterType_MountInventory": {
+        "ID": "EDS_FilterType_MountInventory",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 가방"
+      },
+      "EDS_FilterType_ItemRepairTotalBag": {
+        "ID": "EDS_FilterType_ItemRepairTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_FilterType_ItemRepairWeaponBag": {
+        "ID": "EDS_FilterType_ItemRepairWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_ItemRepairhelmetBag": {
+        "ID": "EDS_FilterType_ItemRepairhelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_FilterType_ItemRepairChestBag": {
+        "ID": "EDS_FilterType_ItemRepairChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_FilterType_ItemRepairPantsBag": {
+        "ID": "EDS_FilterType_ItemRepairPantsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_FilterType_ItemRepairGloveBag": {
+        "ID": "EDS_FilterType_ItemRepairGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_FilterType_ItemRepairShoesBag": {
+        "ID": "EDS_FilterType_ItemRepairShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_FilterType_ItemRepairNecklaceBag": {
+        "ID": "EDS_FilterType_ItemRepairNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_FilterType_ItemRepairBraceletBag": {
+        "ID": "EDS_FilterType_ItemRepairBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_FilterType_ItemRepairRingBag": {
+        "ID": "EDS_FilterType_ItemRepairRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_FilterType_ItemRepairTalismanBag": {
+        "ID": "EDS_FilterType_ItemRepairTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_FilterType_ItemRepairEmblemBag": {
+        "ID": "EDS_FilterType_ItemRepairEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_FilterType_ItemRepairMaterialBag": {
+        "ID": "EDS_FilterType_ItemRepairMaterialBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재료"
+      },
+      "EDS_FilterType_ItemRepairArmorBag": {
+        "ID": "EDS_FilterType_ItemRepairArmorBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_FilterType_ItemRepairAccessoryBag": {
+        "ID": "EDS_FilterType_ItemRepairAccessoryBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액세서리"
+      },
+      "EDS_FilterType_EnchantTotalBag": {
+        "ID": "EDS_FilterType_EnchantTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_FilterType_EnchantWeaponBag": {
+        "ID": "EDS_FilterType_EnchantWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_FilterType_EnchanthelmetBag": {
+        "ID": "EDS_FilterType_EnchanthelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_FilterType_EnchantChestBag": {
+        "ID": "EDS_FilterType_EnchantChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_FilterType_EnchantPantsBag": {
+        "ID": "EDS_FilterType_EnchantPantsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_FilterType_EnchantGloveBag": {
+        "ID": "EDS_FilterType_EnchantGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_FilterType_EnchantShoesBag": {
+        "ID": "EDS_FilterType_EnchantShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_FilterType_EnchantNecklaceBag": {
+        "ID": "EDS_FilterType_EnchantNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_FilterType_EnchantBraceletBag": {
+        "ID": "EDS_FilterType_EnchantBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_FilterType_EnchantRingBag": {
+        "ID": "EDS_FilterType_EnchantRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_FilterType_EnchantScrollBag": {
+        "ID": "EDS_FilterType_EnchantScrollBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스크롤"
+      },
+      "EDS_FilterType_EnchantArmorBag": {
+        "ID": "EDS_FilterType_EnchantArmorBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_FilterType_EnchantAccessoryBag": {
+        "ID": "EDS_FilterType_EnchantAccessoryBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액세서리"
+      },
+      "EDS_BagType_CharacterInfoEquip": {
+        "ID": "EDS_BagType_CharacterInfoEquip",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_NpcCraft": {
+        "ID": "EDS_BagType_NpcCraft",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "NPC 제작"
+      },
+      "EDS_BagType_ItemEnhance": {
+        "ID": "EDS_BagType_ItemEnhance",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장비 강화"
+      },
+      "EDS_BagType_ItemEnhanceMaterial": {
+        "ID": "EDS_BagType_ItemEnhanceMaterial",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "강화 재료"
+      },
+      "EDS_BagType_ItemGem": {
+        "ID": "EDS_BagType_ItemGem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "보석"
+      },
+      "EDS_BagType_NpcShop": {
+        "ID": "EDS_BagType_NpcShop",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상점"
+      },
+      "EDS_BagType_ItemDismantle": {
+        "ID": "EDS_BagType_ItemDismantle",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "분해"
+      },
+      "EDS_BagType_Weapon": {
+        "ID": "EDS_BagType_Weapon",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_BagType_Armor": {
+        "ID": "EDS_BagType_Armor",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_BagType_Accessory": {
+        "ID": "EDS_BagType_Accessory",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액세서리"
+      },
+      "EDS_BagType_Consumables": {
+        "ID": "EDS_BagType_Consumables",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "소모품"
+      },
+      "EDS_BagType_Tool": {
+        "ID": "EDS_BagType_Tool",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_BagType_ActionTool": {
+        "ID": "EDS_BagType_ActionTool",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액션도구"
+      },
+      "EDS_BagType_Materials": {
+        "ID": "EDS_BagType_Materials",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재료"
+      },
+      "EDS_BagType_Gem": {
+        "ID": "EDS_BagType_Gem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "보석"
+      },
+      "EDS_BagType_Stuff": {
+        "ID": "EDS_BagType_Stuff",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잡화"
+      },
+      "EDS_BagType_MountItem": {
+        "ID": "EDS_BagType_MountItem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것"
+      },
+      "EDS_BagType_Talisman": {
+        "ID": "EDS_BagType_Talisman",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_BagType_Gift": {
+        "ID": "EDS_BagType_Gift",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_BagType_Exp": {
+        "ID": "EDS_BagType_Exp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "성장 재료"
+      },
+      "EDS_BagType_Helmet": {
+        "ID": "EDS_BagType_Helmet",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_BagType_Chest": {
+        "ID": "EDS_BagType_Chest",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_BagType_Pants": {
+        "ID": "EDS_BagType_Pants",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_BagType_Glove": {
+        "ID": "EDS_BagType_Glove",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_BagType_Shoes": {
+        "ID": "EDS_BagType_Shoes",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_BagType_Necklace": {
+        "ID": "EDS_BagType_Necklace",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_BagType_Bracelet": {
+        "ID": "EDS_BagType_Bracelet",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_BagType_Ring": {
+        "ID": "EDS_BagType_Ring",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_BagType_Emblem": {
+        "ID": "EDS_BagType_Emblem",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_BagType_CharGrow": {
+        "ID": "EDS_BagType_CharGrow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "영웅 성장"
+      },
+      "EDS_BagType_ItemGrow": {
+        "ID": "EDS_BagType_ItemGrow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "아이템 성장"
+      },
+      "EDS_BagType_Cooking": {
+        "ID": "EDS_BagType_Cooking",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "개인 요리"
+      },
+      "EDS_BagType_CookShare": {
+        "ID": "EDS_BagType_CookShare",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "파티 요리"
+      },
+      "EDS_BagType_Equipment": {
+        "ID": "EDS_BagType_Equipment",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장착 장비"
+      },
+      "EDS_BagType_CookingAll": {
+        "ID": "EDS_BagType_CookingAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_GiftAll": {
+        "ID": "EDS_BagType_GiftAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_GiftAType": {
+        "ID": "EDS_BagType_GiftAType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_BagType_GiftBType": {
+        "ID": "EDS_BagType_GiftBType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_BagType_GiftCType": {
+        "ID": "EDS_BagType_GiftCType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "선물"
+      },
+      "EDS_BagType_EnhanceAll": {
+        "ID": "EDS_BagType_EnhanceAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_FusionAll": {
+        "ID": "EDS_BagType_FusionAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_DismantleAll": {
+        "ID": "EDS_BagType_DismantleAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_EnhanceMaterialAll": {
+        "ID": "EDS_BagType_EnhanceMaterialAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_ShopTotalBag": {
+        "ID": "EDS_BagType_ShopTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_CraftTotalBag": {
+        "ID": "EDS_BagType_CraftTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_EnTargetTotalBag": {
+        "ID": "EDS_BagType_EnTargetTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_EnTargetWeaponBag": {
+        "ID": "EDS_BagType_EnTargetWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_BagType_EnTargethelmetBag": {
+        "ID": "EDS_BagType_EnTargethelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_BagType_EnTargetChestBag": {
+        "ID": "EDS_BagType_EnTargetChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_BagType_EnTargetPantsBag": {
+        "ID": "EDS_BagType_EnTargetPantsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_BagType_EnTargetGloveBag": {
+        "ID": "EDS_BagType_EnTargetGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_BagType_EnTargetShoesBag": {
+        "ID": "EDS_BagType_EnTargetShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_BagType_EnTargetNecklaceBag": {
+        "ID": "EDS_BagType_EnTargetNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_BagType_EnTargetBraceletBag": {
+        "ID": "EDS_BagType_EnTargetBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_BagType_EnTargetRingBag": {
+        "ID": "EDS_BagType_EnTargetRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_BagType_EnTargetTalismanBag": {
+        "ID": "EDS_BagType_EnTargetTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_BagType_EnTargetEmblemBag": {
+        "ID": "EDS_BagType_EnTargetEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_BagType_EnTargetToolBag": {
+        "ID": "EDS_BagType_EnTargetToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_BagType_EnMaterialTotalBag": {
+        "ID": "EDS_BagType_EnMaterialTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_EnMaterialWeaponBag": {
+        "ID": "EDS_BagType_EnMaterialWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_BagType_EnMaterialhelmetBag": {
+        "ID": "EDS_BagType_EnMaterialhelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_BagType_EnMaterialChestBag": {
+        "ID": "EDS_BagType_EnMaterialChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_BagType_EnMaterialPantsBag": {
+        "ID": "EDS_BagType_EnMaterialPantsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_BagType_EnMaterialGloveBag": {
+        "ID": "EDS_BagType_EnMaterialGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_BagType_EnMaterialShoesBag": {
+        "ID": "EDS_BagType_EnMaterialShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_BagType_EnMaterialnlNecklaceBag": {
+        "ID": "EDS_BagType_EnMaterialnlNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_BagType_EnMaterialBraceletBag": {
+        "ID": "EDS_BagType_EnMaterialBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_BagType_EnMaterialRingBag": {
+        "ID": "EDS_BagType_EnMaterialRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_BagType_EnMaterialTalismanBag": {
+        "ID": "EDS_BagType_EnMaterialTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_BagType_EnMaterialEmblemBag": {
+        "ID": "EDS_BagType_EnMaterialEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_BagType_EnMaterialToolBag": {
+        "ID": "EDS_BagType_EnMaterialToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_BagType_EnMaterialGrowBag": {
+        "ID": "EDS_BagType_EnMaterialGrowBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장비 강화"
+      },
+      "EDS_BagType_FuTargetTotalBag": {
+        "ID": "EDS_BagType_FuTargetTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_FuTargetWeaponBag": {
+        "ID": "EDS_BagType_FuTargetWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_BagType_FuTargethelmetBag": {
+        "ID": "EDS_BagType_FuTargethelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_BagType_FuTargetChestBag": {
+        "ID": "EDS_BagType_FuTargetChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "갑옷"
+      },
+      "EDS_BagType_FuTargetGloveBag": {
+        "ID": "EDS_BagType_FuTargetGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_BagType_FuTargetShoesBag": {
+        "ID": "EDS_BagType_FuTargetShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_BagType_FuTargetNecklaceBag": {
+        "ID": "EDS_BagType_FuTargetNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_BagType_FuTargetBraceletBag": {
+        "ID": "EDS_BagType_FuTargetBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_BagType_FuTargetRingBag": {
+        "ID": "EDS_BagType_FuTargetRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_BagType_FuTargetTalismanBag": {
+        "ID": "EDS_BagType_FuTargetTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_BagType_FuTargetEmblemBag": {
+        "ID": "EDS_BagType_FuTargetEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_BagType_FuTargetToolBag": {
+        "ID": "EDS_BagType_FuTargetToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_BagType_FuMaterialTotalBag": {
+        "ID": "EDS_BagType_FuMaterialTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_FuMaterialWeaponBag": {
+        "ID": "EDS_BagType_FuMaterialWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_BagType_FuMaterialhelmetBag": {
+        "ID": "EDS_BagType_FuMaterialhelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_BagType_FuMaterialChestBag": {
+        "ID": "EDS_BagType_FuMaterialChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "갑옷"
+      },
+      "EDS_BagType_FuMaterialGloveBag": {
+        "ID": "EDS_BagType_FuMaterialGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_BagType_FuMaterialShoesBag": {
+        "ID": "EDS_BagType_FuMaterialShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_BagType_FuMaterialnlNecklaceBag": {
+        "ID": "EDS_BagType_FuMaterialnlNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_BagType_FuMaterialBraceletBag": {
+        "ID": "EDS_BagType_FuMaterialBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_BagType_FuMaterialRingBag": {
+        "ID": "EDS_BagType_FuMaterialRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_BagType_FuMaterialTalismanBag": {
+        "ID": "EDS_BagType_FuMaterialTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_BagType_FuMaterialEmblemBag": {
+        "ID": "EDS_BagType_FuMaterialEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_BagType_FuMaterialToolBag": {
+        "ID": "EDS_BagType_FuMaterialToolBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_BagType_DismatleEquipment": {
+        "ID": "EDS_BagType_DismatleEquipment",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장착 장비"
+      },
+      "EDS_BagType_DismantleConsumables": {
+        "ID": "EDS_BagType_DismantleConsumables",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "소모품"
+      },
+      "EDS_BagType_DismantleMaterials": {
+        "ID": "EDS_BagType_DismantleMaterials",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재료"
+      },
+      "EDS_BagType_DismantleStuff": {
+        "ID": "EDS_BagType_DismantleStuff",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잡화"
+      },
+      "EDS_BagType_CharMountGearAType": {
+        "ID": "EDS_BagType_CharMountGearAType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_BagType_CharMountGearBType": {
+        "ID": "EDS_BagType_CharMountGearBType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_BagType_CharMountGearCType": {
+        "ID": "EDS_BagType_CharMountGearCType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 장비"
+      },
+      "EDS_BagType_CharMountFoodAType": {
+        "ID": "EDS_BagType_CharMountFoodAType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 먹이"
+      },
+      "EDS_BagType_CharMountFoodBType": {
+        "ID": "EDS_BagType_CharMountFoodBType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 먹이"
+      },
+      "EDS_BagType_CharMountFoodCType": {
+        "ID": "EDS_BagType_CharMountFoodCType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 먹이"
+      },
+      "EDS_BagType_CharMountAll": {
+        "ID": "EDS_BagType_CharMountAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 가방 보관 가능"
+      },
+      "EDS_BagType_MountInventory": {
+        "ID": "EDS_BagType_MountInventory",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탈것 가방"
+      },
+      "EDS_BagType_ItemRepairTotalBag": {
+        "ID": "EDS_BagType_ItemRepairTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_ItemRepairWeaponBag": {
+        "ID": "EDS_BagType_ItemRepairWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_BagType_ItemRepairhelmetBag": {
+        "ID": "EDS_BagType_ItemRepairhelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_BagType_ItemRepairChestBag": {
+        "ID": "EDS_BagType_ItemRepairChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_BagType_ItemRepairPantsBag": {
+        "ID": "EDS_BagType_ItemRepairPantsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_BagType_ItemRepairGloveBag": {
+        "ID": "EDS_BagType_ItemRepairGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_BagType_ItemRepairShoesBag": {
+        "ID": "EDS_BagType_ItemRepairShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_BagType_ItemRepairNecklaceBag": {
+        "ID": "EDS_BagType_ItemRepairNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_BagType_ItemRepairBraceletBag": {
+        "ID": "EDS_BagType_ItemRepairBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_BagType_ItemRepairRingBag": {
+        "ID": "EDS_BagType_ItemRepairRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_BagType_ItemRepairTalismanBag": {
+        "ID": "EDS_BagType_ItemRepairTalismanBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수호석"
+      },
+      "EDS_BagType_ItemRepairEmblemBag": {
+        "ID": "EDS_BagType_ItemRepairEmblemBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "훈장"
+      },
+      "EDS_BagType_ItemRepairMaterialBag": {
+        "ID": "EDS_BagType_ItemRepairMaterialBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수리 룬"
+      },
+      "EDS_BagType_ItemRepairArmorBag": {
+        "ID": "EDS_BagType_ItemRepairArmorBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_BagType_ItemRepairAccessoryBag": {
+        "ID": "EDS_BagType_ItemRepairAccessoryBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액세서리"
+      },
+      "EDS_BagType_EnchantTotalBag": {
+        "ID": "EDS_BagType_EnchantTotalBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_BagType_EnchantWeaponBag": {
+        "ID": "EDS_BagType_EnchantWeaponBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_BagType_EnchanthelmetBag": {
+        "ID": "EDS_BagType_EnchanthelmetBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "투구"
+      },
+      "EDS_BagType_EnchantChestBag": {
+        "ID": "EDS_BagType_EnchantChestBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상의"
+      },
+      "EDS_BagType_EnchantPantsBag": {
+        "ID": "EDS_BagType_EnchantPantsBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "하의"
+      },
+      "EDS_BagType_EnchantGloveBag": {
+        "ID": "EDS_BagType_EnchantGloveBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장갑"
+      },
+      "EDS_BagType_EnchantShoesBag": {
+        "ID": "EDS_BagType_EnchantShoesBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신발"
+      },
+      "EDS_BagType_EnchantNecklaceBag": {
+        "ID": "EDS_BagType_EnchantNecklaceBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "목걸이"
+      },
+      "EDS_BagType_EnchantBraceletBag": {
+        "ID": "EDS_BagType_EnchantBraceletBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팔찌"
+      },
+      "EDS_BagType_EnchantRingBag": {
+        "ID": "EDS_BagType_EnchantRingBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "반지"
+      },
+      "EDS_BagType_EnchantScrollBag": {
+        "ID": "EDS_BagType_EnchantScrollBag",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "마도서"
+      },
+      "EDS_BagType_Mining": {
+        "ID": "EDS_BagType_Mining",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채광"
+      },
+      "EDS_BagType_Harvesting": {
+        "ID": "EDS_BagType_Harvesting",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채집"
+      },
+      "EDS_BagType_Logging": {
+        "ID": "EDS_BagType_Logging",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "벌목"
+      },
+      "EDS_BagType_Linguistic": {
+        "ID": "EDS_BagType_Linguistic",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "언어학"
+      },
+      "EDS_BagType_Archaeology": {
+        "ID": "EDS_BagType_Archaeology",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "고고학"
+      },
+      "EDS_BagType_OpenLock": {
+        "ID": "EDS_BagType_OpenLock",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "해제"
+      },
+      "EDS_BagType_Cook": {
+        "ID": "EDS_BagType_Cook",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "요리"
+      },
+      "EDS_BagType_Farming": {
+        "ID": "EDS_BagType_Farming",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재배"
+      },
+      "EDS_BagType_PlayerSkillToolAll": {
+        "ID": "EDS_BagType_PlayerSkillToolAll",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_SkillType_NormalAttack": {
+        "ID": "EDS_SkillType_NormalAttack",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "기본 공격"
+      },
+      "EDS_SkillType_DefaultSkill": {
+        "ID": "EDS_SkillType_DefaultSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "일반"
+      },
+      "EDS_SkillType_SpecialSkill": {
+        "ID": "EDS_SkillType_SpecialSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "특수"
+      },
+      "EDS_SkillType_DodgeSkill": {
+        "ID": "EDS_SkillType_DodgeSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "회피"
+      },
+      "EDS_SkillUseType_ActiveSkill": {
+        "ID": "EDS_SkillUseType_ActiveSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액티브"
+      },
+      "EDS_SkillUseType_CastingSkill": {
+        "ID": "EDS_SkillUseType_CastingSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "캐스팅"
+      },
+      "EDS_SkillUseType_ChainSkill": {
+        "ID": "EDS_SkillUseType_ChainSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "연속"
+      },
+      "EDS_SkillUseType_StackSkill": {
+        "ID": "EDS_SkillUseType_StackSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "충전"
+      },
+      "EDS_SkillUseType_IndicatorSkill": {
+        "ID": "EDS_SkillUseType_IndicatorSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방향"
+      },
+      "EDS_SkillUseType_ToggleSkill": {
+        "ID": "EDS_SkillUseType_ToggleSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "토글"
+      },
+      "EDS_SkillUseType_ToggleAttackSkill": {
+        "ID": "EDS_SkillUseType_ToggleAttackSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "토글"
+      },
+      "EDS_SkillUseType_ToggleSkillShield": {
+        "ID": "EDS_SkillUseType_ToggleSkillShield",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "토글"
+      },
+      "EDS_SkillCostType_Mp": {
+        "ID": "EDS_SkillCostType_Mp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "마력"
+      },
+      "EDS_SkillCostType_Vigor": {
+        "ID": "EDS_SkillCostType_Vigor",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "기력"
+      },
+      "EDS_ElementType_NormalType": {
+        "ID": "EDS_ElementType_NormalType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무"
+      },
+      "EDS_ElementType_FireType": {
+        "ID": "EDS_ElementType_FireType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "불"
+      },
+      "EDS_ElementType_WaterType": {
+        "ID": "EDS_ElementType_WaterType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "물"
+      },
+      "EDS_ElementType_ElectroType": {
+        "ID": "EDS_ElementType_ElectroType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전기"
+      },
+      "EDS_ElementType_WindType": {
+        "ID": "EDS_ElementType_WindType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "바람"
+      },
+      "EDS_ElementType_LightType": {
+        "ID": "EDS_ElementType_LightType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "빛"
+      },
+      "EDS_ElementType_DarkType": {
+        "ID": "EDS_ElementType_DarkType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "어둠"
+      },
+      "EDS_ElementType_EtherType": {
+        "ID": "EDS_ElementType_EtherType",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "에테르"
+      },
+      "EDS_MapIndexCategoryType_All": {
+        "ID": "EDS_MapIndexCategoryType_All",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전체"
+      },
+      "EDS_MapIndexCategoryType_WorldInfo": {
+        "ID": "EDS_MapIndexCategoryType_WorldInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "월드 정보"
+      },
+      "EDS_MapIndexCategoryType_Player": {
+        "ID": "EDS_MapIndexCategoryType_Player",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "플레이어"
+      },
+      "EDS_MapIndexCategoryType_NPC": {
+        "ID": "EDS_MapIndexCategoryType_NPC",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "NPC"
+      },
+      "EDS_MapIndexCategoryType_Quest": {
+        "ID": "EDS_MapIndexCategoryType_Quest",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "퀘스트"
+      },
+      "EDS_MapIndexCategoryType_Gather": {
+        "ID": "EDS_MapIndexCategoryType_Gather",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채집"
+      },
+      "EDS_MapIndexCategoryType_Convenience": {
+        "ID": "EDS_MapIndexCategoryType_Convenience",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "편의 기능"
+      },
+      "EDS_MapIndexCategoryType_Breach": {
+        "ID": "EDS_MapIndexCategoryType_Breach",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "브리치"
+      },
+      "EDS_MapIndexCategoryType_Gate": {
+        "ID": "EDS_MapIndexCategoryType_Gate",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "게이트"
+      },
+      "EDS_MapIndexCategoryType_SummonBossAltar": {
+        "ID": "EDS_MapIndexCategoryType_SummonBossAltar",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "제단"
+      },
+      "EDS_MapIndexCategoryType_WorldBoss": {
+        "ID": "EDS_MapIndexCategoryType_WorldBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "월드 보스"
+      },
+      "EDS_PlayerSkillType_Fly": {
+        "ID": "EDS_PlayerSkillType_Fly",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비행"
+      },
+      "EDS_PlayerSkillType_Dive": {
+        "ID": "EDS_PlayerSkillType_Dive",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "잠수"
+      },
+      "EDS_PlayerSkillType_Mount": {
+        "ID": "EDS_PlayerSkillType_Mount",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탑승"
+      },
+      "EDS_PlayerSkillType_Camp": {
+        "ID": "EDS_PlayerSkillType_Camp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "야영"
+      },
+      "EDS_PlayerSkillType_Harvesting": {
+        "ID": "EDS_PlayerSkillType_Harvesting",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채집"
+      },
+      "EDS_PlayerSkillType_Mining": {
+        "ID": "EDS_PlayerSkillType_Mining",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채광"
+      },
+      "EDS_PlayerSkillType_Logging": {
+        "ID": "EDS_PlayerSkillType_Logging",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "벌목"
+      },
+      "EDS_PlayerSkillType_OpenLocks": {
+        "ID": "EDS_PlayerSkillType_OpenLocks",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "해제"
+      },
+      "EDS_PlayerSkillType_Smelting": {
+        "ID": "EDS_PlayerSkillType_Smelting",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "제련"
+      },
+      "EDS_PlayerSkillType_Manufacturing": {
+        "ID": "EDS_PlayerSkillType_Manufacturing",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가공"
+      },
+      "EDS_PlayerSkillType_Building": {
+        "ID": "EDS_PlayerSkillType_Building",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "건축"
+      },
+      "EDS_PlayerSkillType_Cooking": {
+        "ID": "EDS_PlayerSkillType_Cooking",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "요리"
+      },
+      "EDS_PlayerSkillType_Ling": {
+        "ID": "EDS_PlayerSkillType_Ling",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "언어학"
+      },
+      "EDS_PlayerSkillType_NaturalHistory": {
+        "ID": "EDS_PlayerSkillType_NaturalHistory",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "박물학"
+      },
+      "EDS_PlayerSkillType_Archaeology": {
+        "ID": "EDS_PlayerSkillType_Archaeology",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "고고학"
+      },
+      "EDS_PlayerSkillType_Detection": {
+        "ID": "EDS_PlayerSkillType_Detection",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탐지술"
+      },
+      "EDS_PlayerSkillType_Ground": {
+        "ID": "EDS_PlayerSkillType_Ground",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "지상 탑승"
+      },
+      "EDS_PlayerSkillType_Air": {
+        "ID": "EDS_PlayerSkillType_Air",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비행 탑승"
+      },
+      "EDS_PlayerSkillType_Water": {
+        "ID": "EDS_PlayerSkillType_Water",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수상 탑승"
+      },
+      "EDS_LanguageType_Local": {
+        "ID": "EDS_LanguageType_Local",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "기본언어"
+      },
+      "EDS_LanguageType_Korean": {
+        "ID": "EDS_LanguageType_Korean",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "한국어"
+      },
+      "EDS_LanguageType_English": {
+        "ID": "EDS_LanguageType_English",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "영어"
+      },
+      "EDS_KeyOptionActionType_IA_Move_Forward": {
+        "ID": "EDS_KeyOptionActionType_IA_Move_Forward",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "앞으로 이동"
+      },
+      "EDS_KeyOptionActionType_IA_Move_Left": {
+        "ID": "EDS_KeyOptionActionType_IA_Move_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "좌측으로 이동"
+      },
+      "EDS_KeyOptionActionType_IA_Move_Back": {
+        "ID": "EDS_KeyOptionActionType_IA_Move_Back",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "뒤로 이동"
+      },
+      "EDS_KeyOptionActionType_IA_Move_Right": {
+        "ID": "EDS_KeyOptionActionType_IA_Move_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "오른쪽으로 이동"
+      },
+      "EDS_KeyOptionActionType_IA_Move": {
+        "ID": "EDS_KeyOptionActionType_IA_Move",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "이동"
+      },
+      "EDS_KeyOptionActionType_IA_UI_Category_Left": {
+        "ID": "EDS_KeyOptionActionType_IA_UI_Category_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "UI 카테고리 좌측 이동"
+      },
+      "EDS_KeyOptionActionType_IA_UI_Category_Right": {
+        "ID": "EDS_KeyOptionActionType_IA_UI_Category_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "UI 카테고리 우측 이동"
+      },
+      "EDS_KeyOptionActionType_IA_Interaction": {
+        "ID": "EDS_KeyOptionActionType_IA_Interaction",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "상호작용"
+      },
+      "EDS_KeyOptionActionType_IA_UI_Accept": {
+        "ID": "EDS_KeyOptionActionType_IA_UI_Accept",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "수락"
+      },
+      "EDS_KeyOptionActionType_IA_UI_Escape": {
+        "ID": "EDS_KeyOptionActionType_IA_UI_Escape",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "나가기"
+      },
+      "EDS_KeyOptionActionType_IA_NormalAttack": {
+        "ID": "EDS_KeyOptionActionType_IA_NormalAttack",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "기본 공격"
+      },
+      "EDS_KeyOptionActionType_IA_AirWalk_Jump": {
+        "ID": "EDS_KeyOptionActionType_IA_AirWalk_Jump",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "점프"
+      },
+      "EDS_KeyOptionActionType_IA_AIrWalk_Hovering": {
+        "ID": "EDS_KeyOptionActionType_IA_AIrWalk_Hovering",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "호버링"
+      },
+      "EDS_KeyOptionActionType_IA_AIrWalk_Dash": {
+        "ID": "EDS_KeyOptionActionType_IA_AIrWalk_Dash",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "대시"
+      },
+      "EDS_KeyOptionActionType_IA_AIrWalk_PowerJump": {
+        "ID": "EDS_KeyOptionActionType_IA_AIrWalk_PowerJump",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "파워점프"
+      },
+      "EDS_KeyOptionActionType_IA_Avoid": {
+        "ID": "EDS_KeyOptionActionType_IA_Avoid",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "회피"
+      },
+      "EDS_KeyOptionActionType_IA_SkillSlot_1": {
+        "ID": "EDS_KeyOptionActionType_IA_SkillSlot_1",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스킬슬롯 1"
+      },
+      "EDS_KeyOptionActionType_IA_SkillSlot_2": {
+        "ID": "EDS_KeyOptionActionType_IA_SkillSlot_2",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스킬슬롯 2"
+      },
+      "EDS_KeyOptionActionType_IA_SkillSlot_3": {
+        "ID": "EDS_KeyOptionActionType_IA_SkillSlot_3",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스킬슬롯 3"
+      },
+      "EDS_KeyOptionActionType_IA_SkillSlot_4": {
+        "ID": "EDS_KeyOptionActionType_IA_SkillSlot_4",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스킬슬롯 4"
+      },
+      "EDS_KeyOptionActionType_IA_PopupSkill": {
+        "ID": "EDS_KeyOptionActionType_IA_PopupSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "팝업 스킬"
+      },
+      "EDS_KeyOptionActionType_IA_Select_SkillSet": {
+        "ID": "EDS_KeyOptionActionType_IA_Select_SkillSet",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스킬세트"
+      },
+      "EDS_KeyOptionActionType_IA_Function": {
+        "ID": "EDS_KeyOptionActionType_IA_Function",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키"
+      },
+      "EDS_KeyOptionActionType_IA_ItemSlot_1": {
+        "ID": "EDS_KeyOptionActionType_IA_ItemSlot_1",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "아이템슬롯 1"
+      },
+      "EDS_KeyOptionActionType_IA_ItemSlot_2": {
+        "ID": "EDS_KeyOptionActionType_IA_ItemSlot_2",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "아이템슬롯 2"
+      },
+      "EDS_KeyOptionActionType_IA_ItemSlot_3": {
+        "ID": "EDS_KeyOptionActionType_IA_ItemSlot_3",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "아이템슬롯 3"
+      },
+      "EDS_KeyOptionActionType_IA_ItemSlot_4": {
+        "ID": "EDS_KeyOptionActionType_IA_ItemSlot_4",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "아이템슬롯 4"
+      },
+      "EDS_KeyOptionActionType_IA_Select_ItemSet": {
+        "ID": "EDS_KeyOptionActionType_IA_Select_ItemSet",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "아이템세트"
+      },
+      "EDS_KeyOptionActionType_IA_CharacterInfo": {
+        "ID": "EDS_KeyOptionActionType_IA_CharacterInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "영웅 정보"
+      },
+      "EDS_KeyOptionActionType_IA_Inventory": {
+        "ID": "EDS_KeyOptionActionType_IA_Inventory",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가방"
+      },
+      "EDS_KeyOptionActionType_IA_Map": {
+        "ID": "EDS_KeyOptionActionType_IA_Map",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "지도"
+      },
+      "EDS_KeyOptionActionType_IA_ControlMode": {
+        "ID": "EDS_KeyOptionActionType_IA_ControlMode",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "조작모드 (일반/액션)"
+      },
+      "EDS_KeyOptionActionType_IA_CameraRotation": {
+        "ID": "EDS_KeyOptionActionType_IA_CameraRotation",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "카메라 회전"
+      },
+      "EDS_KeyOptionActionType_IA_CameraMode": {
+        "ID": "EDS_KeyOptionActionType_IA_CameraMode",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "카메라 모드 변경"
+      },
+      "EDS_KeyOptionActionType_IA_CameraReset": {
+        "ID": "EDS_KeyOptionActionType_IA_CameraReset",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "카메라 위치 리셋"
+      },
+      "EDS_KeyOptionActionType_IA_ZoomInOut": {
+        "ID": "EDS_KeyOptionActionType_IA_ZoomInOut",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "줌 인/아웃"
+      },
+      "EDS_KeyOptionActionType_IA_LockOnTarget": {
+        "ID": "EDS_KeyOptionActionType_IA_LockOnTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "타겟 락온"
+      },
+      "EDS_GameOptionAcquireItemGradeType_Normal": {
+        "ID": "EDS_GameOptionAcquireItemGradeType_Normal",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "일반"
+      },
+      "EDS_GameOptionAcquireItemGradeType_High": {
+        "ID": "EDS_GameOptionAcquireItemGradeType_High",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "고급"
+      },
+      "EDS_GameOptionAcquireItemGradeType_Rare": {
+        "ID": "EDS_GameOptionAcquireItemGradeType_Rare",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "희귀"
+      },
+      "EDS_GameOptionAcquireItemGradeType_Epic": {
+        "ID": "EDS_GameOptionAcquireItemGradeType_Epic",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "영웅"
+      },
+      "EDS_GameOptionAcquireItemGradeType_Legendary": {
+        "ID": "EDS_GameOptionAcquireItemGradeType_Legendary",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전설"
+      },
+      "EDS_GameOptionAcquireItemGradeType_Myth": {
+        "ID": "EDS_GameOptionAcquireItemGradeType_Myth",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "신화"
+      },
+      "EDS_ControlModeType_Normal": {
+        "ID": "EDS_ControlModeType_Normal",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "일반 모드"
+      },
+      "EDS_ControlModeType_Action": {
+        "ID": "EDS_ControlModeType_Action",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "액션 모드"
+      },
+      "EDS_KeyType_MouseScrollUp": {
+        "ID": "EDS_KeyType_MouseScrollUp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "마우스 스크롤 up"
+      },
+      "EDS_KeyType_MouseScrollDown": {
+        "ID": "EDS_KeyType_MouseScrollDown",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "마우스 스크롤 down"
+      },
+      "EDS_KeyType_MouseWheelAxis": {
+        "ID": "EDS_KeyType_MouseWheelAxis",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "마우스 스크롤"
+      },
+      "EDS_KeyType_LeftMouseButton": {
+        "ID": "EDS_KeyType_LeftMouseButton",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "왼쪽 마우스 버튼"
+      },
+      "EDS_KeyType_RightMouseButton": {
+        "ID": "EDS_KeyType_RightMouseButton",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "오른쪽 마우스 버튼"
+      },
+      "EDS_KeyType_MiddleMouseButton": {
+        "ID": "EDS_KeyType_MiddleMouseButton",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "중앙 마우스 버튼"
+      },
+      "EDS_KeyType_ThumbMouseButton": {
+        "ID": "EDS_KeyType_ThumbMouseButton",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "엄지 마우스 버튼"
+      },
+      "EDS_KeyType_ThumbMouseButton2": {
+        "ID": "EDS_KeyType_ThumbMouseButton2",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "엄지 마우스 버튼2"
+      },
+      "EDS_KeyType_BackSpace": {
+        "ID": "EDS_KeyType_BackSpace",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "백스페이스"
+      },
+      "EDS_KeyType_Tab": {
+        "ID": "EDS_KeyType_Tab",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "탭"
+      },
+      "EDS_KeyType_Enter": {
+        "ID": "EDS_KeyType_Enter",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "엔터"
+      },
+      "EDS_KeyType_Pause": {
+        "ID": "EDS_KeyType_Pause",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "포즈"
+      },
+      "EDS_KeyType_CapsLock": {
+        "ID": "EDS_KeyType_CapsLock",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "캡스락"
+      },
+      "EDS_KeyType_Escape": {
+        "ID": "EDS_KeyType_Escape",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "ESC 키"
+      },
+      "EDS_KeyType_SpaceBar": {
+        "ID": "EDS_KeyType_SpaceBar",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스페이스"
+      },
+      "EDS_KeyType_PageUp": {
+        "ID": "EDS_KeyType_PageUp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "페이지업"
+      },
+      "EDS_KeyType_PageDown": {
+        "ID": "EDS_KeyType_PageDown",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "페이지다운"
+      },
+      "EDS_KeyType_End": {
+        "ID": "EDS_KeyType_End",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "엔드"
+      },
+      "EDS_KeyType_Home": {
+        "ID": "EDS_KeyType_Home",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "홈"
+      },
+      "EDS_KeyType_Left": {
+        "ID": "EDS_KeyType_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방향키 왼쪽"
+      },
+      "EDS_KeyType_Up": {
+        "ID": "EDS_KeyType_Up",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방향키 위쪽"
+      },
+      "EDS_KeyType_Right": {
+        "ID": "EDS_KeyType_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방향키 오른쪽"
+      },
+      "EDS_KeyType_Down": {
+        "ID": "EDS_KeyType_Down",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방향키 아래쪽"
+      },
+      "EDS_KeyType_Insert": {
+        "ID": "EDS_KeyType_Insert",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Ins"
+      },
+      "EDS_KeyType_Delete": {
+        "ID": "EDS_KeyType_Delete",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Del"
+      },
+      "EDS_KeyType_Zero": {
+        "ID": "EDS_KeyType_Zero",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "0"
+      },
+      "EDS_KeyType_One": {
+        "ID": "EDS_KeyType_One",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "1"
+      },
+      "EDS_KeyType_Two": {
+        "ID": "EDS_KeyType_Two",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "2"
+      },
+      "EDS_KeyType_Three": {
+        "ID": "EDS_KeyType_Three",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "3"
+      },
+      "EDS_KeyType_Four": {
+        "ID": "EDS_KeyType_Four",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "4"
+      },
+      "EDS_KeyType_Five": {
+        "ID": "EDS_KeyType_Five",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "5"
+      },
+      "EDS_KeyType_Six": {
+        "ID": "EDS_KeyType_Six",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "6"
+      },
+      "EDS_KeyType_Seven": {
+        "ID": "EDS_KeyType_Seven",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "7"
+      },
+      "EDS_KeyType_Eight": {
+        "ID": "EDS_KeyType_Eight",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "8"
+      },
+      "EDS_KeyType_Nine": {
+        "ID": "EDS_KeyType_Nine",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "9"
+      },
+      "EDS_KeyType_A": {
+        "ID": "EDS_KeyType_A",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "A"
+      },
+      "EDS_KeyType_B": {
+        "ID": "EDS_KeyType_B",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "B"
+      },
+      "EDS_KeyType_C": {
+        "ID": "EDS_KeyType_C",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "C"
+      },
+      "EDS_KeyType_D": {
+        "ID": "EDS_KeyType_D",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "D"
+      },
+      "EDS_KeyType_E": {
+        "ID": "EDS_KeyType_E",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "E"
+      },
+      "EDS_KeyType_F": {
+        "ID": "EDS_KeyType_F",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "F"
+      },
+      "EDS_KeyType_G": {
+        "ID": "EDS_KeyType_G",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "G"
+      },
+      "EDS_KeyType_H": {
+        "ID": "EDS_KeyType_H",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "H"
+      },
+      "EDS_KeyType_I": {
+        "ID": "EDS_KeyType_I",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "I"
+      },
+      "EDS_KeyType_J": {
+        "ID": "EDS_KeyType_J",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "J"
+      },
+      "EDS_KeyType_K": {
+        "ID": "EDS_KeyType_K",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "K"
+      },
+      "EDS_KeyType_L": {
+        "ID": "EDS_KeyType_L",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "L"
+      },
+      "EDS_KeyType_M": {
+        "ID": "EDS_KeyType_M",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "M"
+      },
+      "EDS_KeyType_N": {
+        "ID": "EDS_KeyType_N",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "N"
+      },
+      "EDS_KeyType_O": {
+        "ID": "EDS_KeyType_O",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "O"
+      },
+      "EDS_KeyType_P": {
+        "ID": "EDS_KeyType_P",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "P"
+      },
+      "EDS_KeyType_Q": {
+        "ID": "EDS_KeyType_Q",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Q"
+      },
+      "EDS_KeyType_R": {
+        "ID": "EDS_KeyType_R",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "R"
+      },
+      "EDS_KeyType_S": {
+        "ID": "EDS_KeyType_S",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "S"
+      },
+      "EDS_KeyType_T": {
+        "ID": "EDS_KeyType_T",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "T"
+      },
+      "EDS_KeyType_U": {
+        "ID": "EDS_KeyType_U",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "U"
+      },
+      "EDS_KeyType_V": {
+        "ID": "EDS_KeyType_V",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "V"
+      },
+      "EDS_KeyType_W": {
+        "ID": "EDS_KeyType_W",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "W"
+      },
+      "EDS_KeyType_X": {
+        "ID": "EDS_KeyType_X",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "X"
+      },
+      "EDS_KeyType_Y": {
+        "ID": "EDS_KeyType_Y",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Y"
+      },
+      "EDS_KeyType_Z": {
+        "ID": "EDS_KeyType_Z",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Z"
+      },
+      "EDS_KeyType_NumPadZero": {
+        "ID": "EDS_KeyType_NumPadZero",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 0"
+      },
+      "EDS_KeyType_NumPadOne": {
+        "ID": "EDS_KeyType_NumPadOne",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 1"
+      },
+      "EDS_KeyType_NumPadTwo": {
+        "ID": "EDS_KeyType_NumPadTwo",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 2"
+      },
+      "EDS_KeyType_NumPadThree": {
+        "ID": "EDS_KeyType_NumPadThree",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 3"
+      },
+      "EDS_KeyType_NumPadFour": {
+        "ID": "EDS_KeyType_NumPadFour",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 4"
+      },
+      "EDS_KeyType_NumPadFive": {
+        "ID": "EDS_KeyType_NumPadFive",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 5"
+      },
+      "EDS_KeyType_NumPadSix": {
+        "ID": "EDS_KeyType_NumPadSix",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 6"
+      },
+      "EDS_KeyType_NumPadSeven": {
+        "ID": "EDS_KeyType_NumPadSeven",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 7"
+      },
+      "EDS_KeyType_NumPadEight": {
+        "ID": "EDS_KeyType_NumPadEight",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 8"
+      },
+      "EDS_KeyType_NumPadNine": {
+        "ID": "EDS_KeyType_NumPadNine",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 9"
+      },
+      "EDS_KeyType_Multiply": {
+        "ID": "EDS_KeyType_Multiply",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 * 키"
+      },
+      "EDS_KeyType_Add": {
+        "ID": "EDS_KeyType_Add",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키 '+ 키"
+      },
+      "EDS_KeyType_Subtract": {
+        "ID": "EDS_KeyType_Subtract",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키'- 키"
+      },
+      "EDS_KeyType_Decimal": {
+        "ID": "EDS_KeyType_Decimal",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키. 키"
+      },
+      "EDS_KeyType_Divide": {
+        "ID": "EDS_KeyType_Divide",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "숫자키'/ 키"
+      },
+      "EDS_KeyType_F1": {
+        "ID": "EDS_KeyType_F1",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 1"
+      },
+      "EDS_KeyType_F2": {
+        "ID": "EDS_KeyType_F2",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 2"
+      },
+      "EDS_KeyType_F3": {
+        "ID": "EDS_KeyType_F3",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 3"
+      },
+      "EDS_KeyType_F4": {
+        "ID": "EDS_KeyType_F4",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 4"
+      },
+      "EDS_KeyType_F5": {
+        "ID": "EDS_KeyType_F5",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 5"
+      },
+      "EDS_KeyType_F6": {
+        "ID": "EDS_KeyType_F6",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 6"
+      },
+      "EDS_KeyType_F7": {
+        "ID": "EDS_KeyType_F7",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 7"
+      },
+      "EDS_KeyType_F8": {
+        "ID": "EDS_KeyType_F8",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 8"
+      },
+      "EDS_KeyType_F9": {
+        "ID": "EDS_KeyType_F9",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 9"
+      },
+      "EDS_KeyType_F10": {
+        "ID": "EDS_KeyType_F10",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 10"
+      },
+      "EDS_KeyType_F11": {
+        "ID": "EDS_KeyType_F11",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 11"
+      },
+      "EDS_KeyType_F12": {
+        "ID": "EDS_KeyType_F12",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "펑션키 12"
+      },
+      "EDS_KeyType_NumLock": {
+        "ID": "EDS_KeyType_NumLock",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "NumLock키"
+      },
+      "EDS_KeyType_ScrollLock": {
+        "ID": "EDS_KeyType_ScrollLock",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "스크롤락 키"
+      },
+      "EDS_KeyType_LeftShift": {
+        "ID": "EDS_KeyType_LeftShift",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "왼쪽 시프트"
+      },
+      "EDS_KeyType_RightShift": {
+        "ID": "EDS_KeyType_RightShift",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "오른쪽 시프트"
+      },
+      "EDS_KeyType_LeftControl": {
+        "ID": "EDS_KeyType_LeftControl",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "왼쪽 컨트롤"
+      },
+      "EDS_KeyType_RightControl": {
+        "ID": "EDS_KeyType_RightControl",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "오른쪽 컨트롤"
+      },
+      "EDS_KeyType_LeftAlt": {
+        "ID": "EDS_KeyType_LeftAlt",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "왼쪽 알트"
+      },
+      "EDS_KeyType_RightAlt": {
+        "ID": "EDS_KeyType_RightAlt",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "오른쪽 알트"
+      },
+      "EDS_KeyType_LeftCommand": {
+        "ID": "EDS_KeyType_LeftCommand",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "왼쪽 Command키"
+      },
+      "EDS_KeyType_RightCommand": {
+        "ID": "EDS_KeyType_RightCommand",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "오른쪽 Command키"
+      },
+      "EDS_KeyType_Semicolon": {
+        "ID": "EDS_KeyType_Semicolon",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "; 키"
+      },
+      "EDS_KeyType_Equals": {
+        "ID": "EDS_KeyType_Equals",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "= 키"
+      },
+      "EDS_KeyType_Comma": {
+        "ID": "EDS_KeyType_Comma",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": ", 키"
+      },
+      "EDS_KeyType_Underscore": {
+        "ID": "EDS_KeyType_Underscore",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "_키"
+      },
+      "EDS_KeyType_Hyphen": {
+        "ID": "EDS_KeyType_Hyphen",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "- 키"
+      },
+      "EDS_KeyType_Period": {
+        "ID": "EDS_KeyType_Period",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": ". 키"
+      },
+      "EDS_KeyType_Slash": {
+        "ID": "EDS_KeyType_Slash",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "/ 키"
+      },
+      "EDS_KeyType_Tilde": {
+        "ID": "EDS_KeyType_Tilde",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "~ 키"
+      },
+      "EDS_KeyType_LeftBracket": {
+        "ID": "EDS_KeyType_LeftBracket",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "왼쪽 대괄호[ 키"
+      },
+      "EDS_KeyType_Backslash": {
+        "ID": "EDS_KeyType_Backslash",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "역슬래시() 키"
+      },
+      "EDS_KeyType_RightBracket": {
+        "ID": "EDS_KeyType_RightBracket",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "오른쪽 대괄호 ] 키"
+      },
+      "EDS_KeyType_Apostrophe": {
+        "ID": "EDS_KeyType_Apostrophe",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "작은 따옴표' 키"
+      },
+      "EDS_KeyType_Ampersand": {
+        "ID": "EDS_KeyType_Ampersand",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "& 키"
+      },
+      "EDS_KeyType_Asterisk": {
+        "ID": "EDS_KeyType_Asterisk",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "* 키"
+      },
+      "EDS_KeyType_Caret": {
+        "ID": "EDS_KeyType_Caret",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "^ 키"
+      },
+      "EDS_KeyType_Colon": {
+        "ID": "EDS_KeyType_Colon",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": ": 키"
+      },
+      "EDS_KeyType_Dollar": {
+        "ID": "EDS_KeyType_Dollar",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "$ 키"
+      },
+      "EDS_KeyType_Exclamation": {
+        "ID": "EDS_KeyType_Exclamation",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "! 키"
+      },
+      "EDS_KeyType_LeftParentheses": {
+        "ID": "EDS_KeyType_LeftParentheses",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "( 키"
+      },
+      "EDS_KeyType_RightParentheses": {
+        "ID": "EDS_KeyType_RightParentheses",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": ") 키"
+      },
+      "EDS_KeyType_Quote": {
+        "ID": "EDS_KeyType_Quote",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "따옴표 키"
+      },
+      "EDS_KeyType_Gamepad_Left2D": {
+        "ID": "EDS_KeyType_Gamepad_Left2D",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Left2D"
+      },
+      "EDS_KeyType_Gamepad_LeftX": {
+        "ID": "EDS_KeyType_Gamepad_LeftX",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Left2X"
+      },
+      "EDS_KeyType_Gamepad_LeftY": {
+        "ID": "EDS_KeyType_Gamepad_LeftY",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Left2Y"
+      },
+      "EDS_KeyType_Gamepad_Right2D": {
+        "ID": "EDS_KeyType_Gamepad_Right2D",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Right2D"
+      },
+      "EDS_KeyType_Gamepad_RightX": {
+        "ID": "EDS_KeyType_Gamepad_RightX",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Right2X"
+      },
+      "EDS_KeyType_Gamepad_RightY": {
+        "ID": "EDS_KeyType_Gamepad_RightY",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Right2Y"
+      },
+      "EDS_KeyType_Gamepad_LeftTriggerAxis": {
+        "ID": "EDS_KeyType_Gamepad_LeftTriggerAxis",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "LT"
+      },
+      "EDS_KeyType_Gamepad_RightTriggerAxis": {
+        "ID": "EDS_KeyType_Gamepad_RightTriggerAxis",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "RT"
+      },
+      "EDS_KeyType_Gamepad_LeftThumbstick": {
+        "ID": "EDS_KeyType_Gamepad_LeftThumbstick",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "LT-Stick"
+      },
+      "EDS_KeyType_Gamepad_RightThumbstick": {
+        "ID": "EDS_KeyType_Gamepad_RightThumbstick",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "LT-Stick"
+      },
+      "EDS_KeyType_Gamepad_Special_Left": {
+        "ID": "EDS_KeyType_Gamepad_Special_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Option"
+      },
+      "EDS_KeyType_Gamepad_Special_Left_X": {
+        "ID": "EDS_KeyType_Gamepad_Special_Left_X",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Menu"
+      },
+      "EDS_KeyType_Gamepad_Special_Left_Y": {
+        "ID": "EDS_KeyType_Gamepad_Special_Left_Y",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Menu"
+      },
+      "EDS_KeyType_Gamepad_Special_Right": {
+        "ID": "EDS_KeyType_Gamepad_Special_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Menu"
+      },
+      "EDS_KeyType_Gamepad_FaceButton_Bottom": {
+        "ID": "EDS_KeyType_Gamepad_FaceButton_Bottom",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "A"
+      },
+      "EDS_KeyType_Gamepad_FaceButton_Right": {
+        "ID": "EDS_KeyType_Gamepad_FaceButton_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "B"
+      },
+      "EDS_KeyType_Gamepad_FaceButton_Left": {
+        "ID": "EDS_KeyType_Gamepad_FaceButton_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "X"
+      },
+      "EDS_KeyType_Gamepad_FaceButton_Top": {
+        "ID": "EDS_KeyType_Gamepad_FaceButton_Top",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Y"
+      },
+      "EDS_KeyType_Gamepad_LeftShoulder": {
+        "ID": "EDS_KeyType_Gamepad_LeftShoulder",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "LB"
+      },
+      "EDS_KeyType_Gamepad_RightShoulder": {
+        "ID": "EDS_KeyType_Gamepad_RightShoulder",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "RB"
+      },
+      "EDS_KeyType_Gamepad_LeftTrigger": {
+        "ID": "EDS_KeyType_Gamepad_LeftTrigger",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "RT"
+      },
+      "EDS_KeyType_Gamepad_RightTrigger": {
+        "ID": "EDS_KeyType_Gamepad_RightTrigger",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "LT"
+      },
+      "EDS_KeyType_Gamepad_DPad_Up": {
+        "ID": "EDS_KeyType_Gamepad_DPad_Up",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Up"
+      },
+      "EDS_KeyType_Gamepad_DPad_Down": {
+        "ID": "EDS_KeyType_Gamepad_DPad_Down",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Down"
+      },
+      "EDS_KeyType_Gamepad_DPad_Right": {
+        "ID": "EDS_KeyType_Gamepad_DPad_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Right"
+      },
+      "EDS_KeyType_Gamepad_DPad_Left": {
+        "ID": "EDS_KeyType_Gamepad_DPad_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "Left"
+      },
+      "EDS_KeyType_Gamepad_LeftStick_Up": {
+        "ID": "EDS_KeyType_Gamepad_LeftStick_Up",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "L-Stick Up"
+      },
+      "EDS_KeyType_Gamepad_LeftStick_Down": {
+        "ID": "EDS_KeyType_Gamepad_LeftStick_Down",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "L-Stick Down"
+      },
+      "EDS_KeyType_Gamepad_LeftStick_Right": {
+        "ID": "EDS_KeyType_Gamepad_LeftStick_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "L-Stick Right"
+      },
+      "EDS_KeyType_Gamepad_LeftStick_Left": {
+        "ID": "EDS_KeyType_Gamepad_LeftStick_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "L-Stick Left"
+      },
+      "EDS_KeyType_Gamepad_RightStick_Up": {
+        "ID": "EDS_KeyType_Gamepad_RightStick_Up",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "R-Stick Up"
+      },
+      "EDS_KeyType_Gamepad_RightStick_Down": {
+        "ID": "EDS_KeyType_Gamepad_RightStick_Down",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "R-Stick Down"
+      },
+      "EDS_KeyType_Gamepad_RightStick_Right": {
+        "ID": "EDS_KeyType_Gamepad_RightStick_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "R-Stick Right"
+      },
+      "EDS_KeyType_Gamepad_RightStick_Left": {
+        "ID": "EDS_KeyType_Gamepad_RightStick_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "R-Stick Left"
+      },
+      "EDS_KeyType_Empty": {
+        "ID": "EDS_KeyType_Empty",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비어있는키"
+      },
+      "EDS_Notification_On": {
+        "ID": "EDS_Notification_On",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "활성"
+      },
+      "EDS_Notification_Off": {
+        "ID": "EDS_Notification_Off",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비활성"
+      },
+      "EDS_DeclineInvitesType_On": {
+        "ID": "EDS_DeclineInvitesType_On",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "활성"
+      },
+      "EDS_DeclineInvitesType_Off": {
+        "ID": "EDS_DeclineInvitesType_Off",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비활성"
+      },
+      "EDS_VisibleNameTag_On": {
+        "ID": "EDS_VisibleNameTag_On",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "활성"
+      },
+      "EDS_VisibleNameTag_Off": {
+        "ID": "EDS_VisibleNameTag_Off",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비활성"
+      },
+      "EDS_GraphicOptionType_Low": {
+        "ID": "EDS_GraphicOptionType_Low",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "낮음"
+      },
+      "EDS_GraphicOptionType_Medium": {
+        "ID": "EDS_GraphicOptionType_Medium",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "중간"
+      },
+      "EDS_GraphicOptionType_High": {
+        "ID": "EDS_GraphicOptionType_High",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "높음"
+      },
+      "EDS_GraphicOptionType_Epic": {
+        "ID": "EDS_GraphicOptionType_Epic",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "에픽"
+      },
+      "EDS_TargetModeType_Assist": {
+        "ID": "EDS_TargetModeType_Assist",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "어시스트"
+      },
+      "EDS_TargetModeType_NonTarget": {
+        "ID": "EDS_TargetModeType_NonTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "논타겟"
+      },
+      "EDS_StatusCategoryType_Basic_Status": {
+        "ID": "EDS_StatusCategoryType_Basic_Status",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "기본 능력치"
+      },
+      "EDS_StatusCategoryType_Attack_Status": {
+        "ID": "EDS_StatusCategoryType_Attack_Status",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "공격 능력치"
+      },
+      "EDS_StatusCategoryType_Defense_Status": {
+        "ID": "EDS_StatusCategoryType_Defense_Status",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어 능력치"
+      },
+      "EDS_StatusCategoryType_Life_Status": {
+        "ID": "EDS_StatusCategoryType_Life_Status",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "어센더 스킬"
+      },
+      "EDS_DeadZoneType_Field": {
+        "ID": "EDS_DeadZoneType_Field",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "필드"
+      },
+      "EDS_DeadZoneType_Dungeon": {
+        "ID": "EDS_DeadZoneType_Dungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "던전"
+      },
+      "EDS_DeadZoneType_Pasing": {
+        "ID": "EDS_DeadZoneType_Pasing",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "위상"
+      },
+      "EDS_DeadZoneType_Breach": {
+        "ID": "EDS_DeadZoneType_Breach",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "브리치"
+      },
+      "EDS_DeadZoneType_Gate": {
+        "ID": "EDS_DeadZoneType_Gate",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "게이트"
+      },
+      "EDS_DeadZoneType_Inn": {
+        "ID": "EDS_DeadZoneType_Inn",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "여관"
+      },
+      "EDS_ChatFontSizeType_FontSize1": {
+        "ID": "EDS_ChatFontSizeType_FontSize1",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "32"
+      },
+      "EDS_ChatFontSizeType_FontSize2": {
+        "ID": "EDS_ChatFontSizeType_FontSize2",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "34"
+      },
+      "EDS_ChatFontSizeType_FontSize3": {
+        "ID": "EDS_ChatFontSizeType_FontSize3",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "36"
+      },
+      "EDS_ChatFontSizeType_FontSize4": {
+        "ID": "EDS_ChatFontSizeType_FontSize4",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "38"
+      },
+      "EDS_ChatFontSizeType_FontSize5": {
+        "ID": "EDS_ChatFontSizeType_FontSize5",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "40"
+      },
+      "EDS_ChatFontSizeType_FontSize6": {
+        "ID": "EDS_ChatFontSizeType_FontSize6",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "42"
+      },
+      "EDS_ChatWindowType_SimpleChat": {
+        "ID": "EDS_ChatWindowType_SimpleChat",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "심플 채팅창"
+      },
+      "EDS_ChatWindowType_NormalChat": {
+        "ID": "EDS_ChatWindowType_NormalChat",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "일반 채팅창"
+      },
+      "EDS_ChatWindowType_FullChat": {
+        "ID": "EDS_ChatWindowType_FullChat",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "확장 채팅창"
+      },
+      "EDS_ChatPostSendActionType_InputCursorOn": {
+        "ID": "EDS_ChatPostSendActionType_InputCursorOn",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "입력 커서를 유지"
+      },
+      "EDS_ChatPostSendActionType_InputCursorOff": {
+        "ID": "EDS_ChatPostSendActionType_InputCursorOff",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "입력 커서를 해제"
+      },
+      "EDS_ChatPostSendActionType_CloseChatWindow": {
+        "ID": "EDS_ChatPostSendActionType_CloseChatWindow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채팅 창 닫기"
+      },
+      "EDS_ChatFontColorType_Zone": {
+        "ID": "EDS_ChatFontColorType_Zone",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "일반"
+      },
+      "EDS_ChatFontColorType_ZoneGroup": {
+        "ID": "EDS_ChatFontColorType_ZoneGroup",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "지역"
+      },
+      "EDS_ChatFontColorType_World": {
+        "ID": "EDS_ChatFontColorType_World",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "월드"
+      },
+      "EDS_ChatFontColorType_Whisper": {
+        "ID": "EDS_ChatFontColorType_Whisper",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "귓속말"
+      },
+      "EDS_ChatFontColorType_Party": {
+        "ID": "EDS_ChatFontColorType_Party",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "파티"
+      },
+      "EDS_ChatFontColorType_RaidParty": {
+        "ID": "EDS_ChatFontColorType_RaidParty",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "토벌대"
+      },
+      "EDS_ChatFontColorType_Guild": {
+        "ID": "EDS_ChatFontColorType_Guild",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "길드"
+      },
+      "EDS_ChatFontColorType_Group1": {
+        "ID": "EDS_ChatFontColorType_Group1",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹1"
+      },
+      "EDS_ChatFontColorType_Group2": {
+        "ID": "EDS_ChatFontColorType_Group2",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹2"
+      },
+      "EDS_ChatFontColorType_Group3": {
+        "ID": "EDS_ChatFontColorType_Group3",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹3"
+      },
+      "EDS_ChatFontColorType_Group4": {
+        "ID": "EDS_ChatFontColorType_Group4",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹4"
+      },
+      "EDS_ChatFontColorType_Group5": {
+        "ID": "EDS_ChatFontColorType_Group5",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹5"
+      },
+      "EDS_ChatFontColorType_Group6": {
+        "ID": "EDS_ChatFontColorType_Group6",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹6"
+      },
+      "EDS_ChatFontColorType_Group7": {
+        "ID": "EDS_ChatFontColorType_Group7",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹7"
+      },
+      "EDS_ChatFontColorType_Group8": {
+        "ID": "EDS_ChatFontColorType_Group8",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹8"
+      },
+      "EDS_ChatFontColorType_Group9": {
+        "ID": "EDS_ChatFontColorType_Group9",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹9"
+      },
+      "EDS_ChatFontColorType_Group10": {
+        "ID": "EDS_ChatFontColorType_Group10",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "그룹10"
+      },
+      "EDS_ChatSystemFontColorType_System": {
+        "ID": "EDS_ChatSystemFontColorType_System",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "일반"
+      },
+      "EDS_ChatSystemFontColorType_Battle": {
+        "ID": "EDS_ChatSystemFontColorType_Battle",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "전투"
+      },
+      "EDS_ClimateType_Mild": {
+        "ID": "EDS_ClimateType_Mild",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "온화한 지역"
+      },
+      "EDS_ClimateType_Hot": {
+        "ID": "EDS_ClimateType_Hot",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "더운 지역"
+      },
+      "EDS_ClimateType_Cold": {
+        "ID": "EDS_ClimateType_Cold",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "추운 지역"
+      },
+      "EDS_ClimateType_Humid": {
+        "ID": "EDS_ClimateType_Humid",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "습한 지역"
+      },
+      "EDS_WeatherType_Rain": {
+        "ID": "EDS_WeatherType_Rain",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비"
+      },
+      "EDS_WeatherType_Snow": {
+        "ID": "EDS_WeatherType_Snow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "눈"
+      },
+      "EDS_WeatherType_RainStorm": {
+        "ID": "EDS_WeatherType_RainStorm",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "폭풍우"
+      },
+      "EDS_WeatherType_SandStorm": {
+        "ID": "EDS_WeatherType_SandStorm",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "모래폭풍"
+      },
+      "EDS_WeatherType_Clear": {
+        "ID": "EDS_WeatherType_Clear",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "맑음"
+      },
+      "EDS_FlooringType_Road": {
+        "ID": "EDS_FlooringType_Road",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도로"
+      },
+      "EDS_FlooringType_Plain": {
+        "ID": "EDS_FlooringType_Plain",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "평지"
+      },
+      "EDS_FlooringType_Rough": {
+        "ID": "EDS_FlooringType_Rough",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "험지"
+      },
+      "EDS_FlooringType_Swamp": {
+        "ID": "EDS_FlooringType_Swamp",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "습지"
+      },
+      "EDS_FlooringType_Snow": {
+        "ID": "EDS_FlooringType_Snow",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "설지"
+      },
+      "EDS_FlooringType_Sand": {
+        "ID": "EDS_FlooringType_Sand",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "모래"
+      },
+      "EDS_BreachType_BattleNormal": {
+        "ID": "EDS_BreachType_BattleNormal",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "일반 전투 모드"
+      },
+      "EDS_BreachType_BattleWave": {
+        "ID": "EDS_BreachType_BattleWave",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "웨이브 모드"
+      },
+      "EDS_BreachType_BattleBoss": {
+        "ID": "EDS_BreachType_BattleBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "보스 모드"
+      },
+      "EDS_BreachType_Gather": {
+        "ID": "EDS_BreachType_Gather",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채집 모드"
+      },
+      "EDS_BreachType_Mining": {
+        "ID": "EDS_BreachType_Mining",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "채광 모드"
+      },
+      "EDS_BreachType_Mixed": {
+        "ID": "EDS_BreachType_Mixed",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "혼합 모드"
+      },
+      "EDS_CraftCategoryType_Weapon": {
+        "ID": "EDS_CraftCategoryType_Weapon",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "무기"
+      },
+      "EDS_CraftCategoryType_Armor": {
+        "ID": "EDS_CraftCategoryType_Armor",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "방어구"
+      },
+      "EDS_CraftCategoryType_Accessory": {
+        "ID": "EDS_CraftCategoryType_Accessory",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "장신구"
+      },
+      "EDS_CraftCategoryType_Tool": {
+        "ID": "EDS_CraftCategoryType_Tool",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "도구"
+      },
+      "EDS_CraftCategoryType_Jewel": {
+        "ID": "EDS_CraftCategoryType_Jewel",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "보석"
+      },
+      "EDS_CraftCategoryType_Consume": {
+        "ID": "EDS_CraftCategoryType_Consume",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "소모품"
+      },
+      "EDS_CraftCategoryType_Ticket": {
+        "ID": "EDS_CraftCategoryType_Ticket",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "티켓"
+      },
+      "EDS_CraftCategoryType_Material": {
+        "ID": "EDS_CraftCategoryType_Material",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "재료"
+      },
+      "EDS_CraftCategoryType_Random": {
+        "ID": "EDS_CraftCategoryType_Random",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "랜덤"
+      },
+      "EDS_CraftCategoryType_Bookmark": {
+        "ID": "EDS_CraftCategoryType_Bookmark",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "즐겨찾기"
+      },
+      "EDS_GameOptionTargetPriority_None": {
+        "ID": "EDS_GameOptionTargetPriority_None",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "없음"
+      },
+      "EDS_GameOptionTargetPriority_All": {
+        "ID": "EDS_GameOptionTargetPriority_All",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "모두"
+      },
+      "EDS_GameOptionTargetPriority_EnemyCharacter": {
+        "ID": "EDS_GameOptionTargetPriority_EnemyCharacter",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "적 캐릭터"
+      },
+      "EDS_GameOptionTargetPriority_EnemyNpc": {
+        "ID": "EDS_GameOptionTargetPriority_EnemyNpc",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "적 몬스터"
+      },
+      "EDS_GameOptionActionModeTargetingType_None": {
+        "ID": "EDS_GameOptionActionModeTargetingType_None",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "없음"
+      },
+      "EDS_GameOptionActionModeTargetingType_NearTarget": {
+        "ID": "EDS_GameOptionActionModeTargetingType_NearTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "가까운 대상"
+      },
+      "EDS_GameOptionActionModeTargetingType_CenterTarget": {
+        "ID": "EDS_GameOptionActionModeTargetingType_CenterTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "중앙 기준 가까운 대상"
+      },
+      "EDS_GameOptionActionModeTargetingType_ReticleTarget": {
+        "ID": "EDS_GameOptionActionModeTargetingType_ReticleTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "화면 중앙 대상"
+      },
+      "EDS_GameOptionTargetAutoLock_None": {
+        "ID": "EDS_GameOptionTargetAutoLock_None",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "없음"
+      },
+      "EDS_GameOptionTargetAutoLock_on": {
+        "ID": "EDS_GameOptionTargetAutoLock_on",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "활성화"
+      },
+      "EDS_GameOptionTargetAutoLock_off": {
+        "ID": "EDS_GameOptionTargetAutoLock_off",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비활성화"
+      },
+      "EDS_GameOptionActionModeShowReticle_None": {
+        "ID": "EDS_GameOptionActionModeShowReticle_None",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "없음"
+      },
+      "EDS_GameOptionActionModeShowReticle_on": {
+        "ID": "EDS_GameOptionActionModeShowReticle_on",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "활성화"
+      },
+      "EDS_GameOptionActionModeShowReticle_off": {
+        "ID": "EDS_GameOptionActionModeShowReticle_off",
+        "DataStage": 23,
+        "Version": "*",
+        "Text": "비활성화"
+      }
+    }
+  }
+]

@@ -1,0 +1,19 @@
+syntax = "proto3";
+package ds_account;
+option csharp_namespace = "MirProto.DsAccount";
+
+import "_db.proto";
+import "AccountAuthority.proto";
+import "google/protobuf/timestamp.proto";
+import "_unique_id.proto";
+
+message SqlSessionTable {
+  int64 player_uid = 1;
+  UniqueId player_session_uid = 2;
+  int32 region_index = 3;
+  int32 world_id = 5;
+  string nickname = 6;
+  AccountAuthority authority = 7;
+  google.protobuf.Timestamp login_dt = 8;
+  google.protobuf.Timestamp expire_dt = 9;
+}

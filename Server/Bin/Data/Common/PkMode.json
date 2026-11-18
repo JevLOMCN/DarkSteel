@@ -1,0 +1,240 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PkMode",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PkMode",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PkModeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_PkModeType::Peace",
+        "DataStage": 23,
+        "PkModeGroup": 1,
+        "IsDefault": true,
+        "ID_Name": {
+          "ID": 201
+        },
+        "ID_NameColor": 3001,
+        "ID_Icon": 701,
+        "ID_ToolTip": 0,
+        "ID_ModeChangeWidget": "EDS_WindowWidget::None",
+        "EnemyType": [
+          "EDS_PlayerEnemyType::SafeZone",
+          "EDS_PlayerEnemyType::PKUnusableTarget",
+          "EDS_PlayerEnemyType::MyPartyMember",
+          "EDS_PlayerEnemyType::MyGuildMonsterAttacker",
+          "EDS_PlayerEnemyType::MyForceAttackTarget",
+          "EDS_PlayerEnemyType::FirstAttackMe",
+          "EDS_PlayerEnemyType::MyGuildMember"
+        ],
+        "PkState": [
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckFriendly"
+        ]
+      },
+      "2": {
+        "ID": "EDS_PkModeType::Justice",
+        "DataStage": 23,
+        "PkModeGroup": 1,
+        "IsDefault": false,
+        "ID_Name": {
+          "ID": 202
+        },
+        "ID_NameColor": 3002,
+        "ID_Icon": 702,
+        "ID_ToolTip": 0,
+        "ID_ModeChangeWidget": "EDS_WindowWidget::None",
+        "EnemyType": [
+          "EDS_PlayerEnemyType::SafeZone",
+          "EDS_PlayerEnemyType::PKUnusableTarget",
+          "EDS_PlayerEnemyType::MyPartyMember",
+          "EDS_PlayerEnemyType::MyGuildMonsterAttacker",
+          "EDS_PlayerEnemyType::MyForceAttackTarget",
+          "EDS_PlayerEnemyType::FirstAttackMe",
+          "EDS_PlayerEnemyType::MyGuildMember",
+          "EDS_PlayerEnemyType::TargetPKCriminalGrade4"
+        ],
+        "PkState": [
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy"
+        ]
+      },
+      "3": {
+        "ID": "EDS_PkModeType::Wanted",
+        "DataStage": 23,
+        "PkModeGroup": 1,
+        "IsDefault": false,
+        "ID_Name": {
+          "ID": 203
+        },
+        "ID_NameColor": 3003,
+        "ID_Icon": 703,
+        "ID_ToolTip": 0,
+        "ID_ModeChangeWidget": "EDS_WindowWidget::None",
+        "EnemyType": [
+          "EDS_PlayerEnemyType::SafeZone",
+          "EDS_PlayerEnemyType::PKUnusableTarget",
+          "EDS_PlayerEnemyType::MyPartyMember",
+          "EDS_PlayerEnemyType::MyGuildMonsterAttacker",
+          "EDS_PlayerEnemyType::MyForceAttackTarget",
+          "EDS_PlayerEnemyType::FirstAttackMe",
+          "EDS_PlayerEnemyType::MyGuildMember",
+          "EDS_PlayerEnemyType::MyGuildWanted",
+          "EDS_PlayerEnemyType::MyEnemyGuildMember"
+        ],
+        "PkState": [
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy"
+        ]
+      },
+      "4": {
+        "ID": "EDS_PkModeType::GuildEnemy",
+        "DataStage": 23,
+        "PkModeGroup": 1,
+        "IsDefault": false,
+        "ID_Name": {
+          "ID": 204
+        },
+        "ID_NameColor": 3004,
+        "ID_Icon": 704,
+        "ID_ToolTip": 0,
+        "ID_ModeChangeWidget": "EDS_WindowWidget::None",
+        "EnemyType": [
+          "EDS_PlayerEnemyType::SafeZone",
+          "EDS_PlayerEnemyType::PKUnusableTarget",
+          "EDS_PlayerEnemyType::MyPartyMember",
+          "EDS_PlayerEnemyType::MyGuildMonsterAttacker",
+          "EDS_PlayerEnemyType::MyForceAttackTarget",
+          "EDS_PlayerEnemyType::FirstAttackMe",
+          "EDS_PlayerEnemyType::MyGuildMember",
+          "EDS_PlayerEnemyType::MyGuildWanted",
+          "EDS_PlayerEnemyType::MyUnionGuildMember",
+          "EDS_PlayerEnemyType::MyEnemyGuildMember"
+        ],
+        "PkState": [
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy"
+        ]
+      },
+      "5": {
+        "ID": "EDS_PkModeType::Lawless",
+        "DataStage": 23,
+        "PkModeGroup": 1,
+        "IsDefault": false,
+        "ID_Name": {
+          "ID": 205
+        },
+        "ID_NameColor": 3005,
+        "ID_Icon": 705,
+        "ID_ToolTip": 0,
+        "ID_ModeChangeWidget": "EDS_WindowWidget::HUDPkModeChange",
+        "EnemyType": [
+          "EDS_PlayerEnemyType::SafeZone",
+          "EDS_PlayerEnemyType::PKUnusableTarget",
+          "EDS_PlayerEnemyType::MyPartyMember",
+          "EDS_PlayerEnemyType::MyGuildMonsterAttacker",
+          "EDS_PlayerEnemyType::MyForceAttackTarget",
+          "EDS_PlayerEnemyType::FirstAttackMe",
+          "EDS_PlayerEnemyType::FirstAttacker",
+          "EDS_PlayerEnemyType::TargetPKCriminalGrade1",
+          "EDS_PlayerEnemyType::TargetPKCriminalGrade2",
+          "EDS_PlayerEnemyType::TargetPKCriminalGrade3",
+          "EDS_PlayerEnemyType::TargetPKCriminalGrade4"
+        ],
+        "PkState": [
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy"
+        ]
+      },
+      "11": {
+        "ID": "EDS_PkModeType::Duel",
+        "DataStage": 23,
+        "PkModeGroup": 11,
+        "IsDefault": true,
+        "ID_Name": {
+          "ID": 206
+        },
+        "ID_NameColor": 3006,
+        "ID_Icon": 706,
+        "ID_ToolTip": 0,
+        "ID_ModeChangeWidget": "EDS_WindowWidget::None",
+        "EnemyType": [
+          "EDS_PlayerEnemyType::MyDuelTarget",
+          "EDS_PlayerEnemyType::MyForceAttackTarget",
+          "EDS_PlayerEnemyType::FirstAttackMe"
+        ],
+        "PkState": [
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy"
+        ]
+      },
+      "12": {
+        "ID": "EDS_PkModeType::TeamMode",
+        "DataStage": 23,
+        "PkModeGroup": 12,
+        "IsDefault": true,
+        "ID_Name": {
+          "ID": 207
+        },
+        "ID_NameColor": 3007,
+        "ID_Icon": 707,
+        "ID_ToolTip": 0,
+        "ID_ModeChangeWidget": "EDS_WindowWidget::HUDPkModeChange",
+        "EnemyType": [
+          "EDS_PlayerEnemyType::SafeZone",
+          "EDS_PlayerEnemyType::EnemyTeamTarget",
+          "EDS_PlayerEnemyType::FirstAttackMe",
+          "EDS_PlayerEnemyType::MyGuildMember"
+        ],
+        "PkState": [
+          "EDS_PlayerEnemyResult::CheckFriendly",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckEnemy",
+          "EDS_PlayerEnemyResult::CheckFriendly"
+        ]
+      }
+    }
+  }
+]

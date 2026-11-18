@@ -1,0 +1,47 @@
+syntax = "proto3";
+package ds_proto;
+option csharp_namespace = "MirProto.DsProto";
+
+import "RaidMemberState.proto";
+
+message RaidPartyInvitedInfo {
+  int64 party_id = 1;
+  double end_time = 2;
+}
+message RaidCharInfo {
+  int32 char_id = 1;
+  int32 char_level = 2;
+  int32 char_ascend = 3;
+}
+message RaidPartyMemberInfo {
+  uint32 slot_index = 1;
+  int64 player_uid = 2;
+  string nick_name = 3;
+  ds_proto.RaidCharInfo char_info = 5;
+  RaidMemberState member_state = 7;
+}
+message RaidPartyInfo {
+  int64 raid_party_uid = 1;
+  int32 dungeon_id = 2;
+  string party_name = 3;
+  bool is_password = 4;
+  repeated ds_proto.RaidPartyMemberInfo members = 7;
+  int64 leader_uid = 9;
+  bool is_public = 10;
+  int32 member_count = 11;
+  int32 state = 12;
+}
+message RaidPartySimpleInfo {
+  int64 raid_party_uid = 1;
+  int32 dungeon_id = 2;
+  string party_name = 3;
+  bool is_password = 4;
+  int64 leader_uid = 6;
+  string leader_nick_name = 7;
+  bool is_public = 10;
+  int32 member_count = 11;
+}
+message RaidNoticeInfo {
+  int64 player_uid = 1;
+  int32 server_index = 2;
+}

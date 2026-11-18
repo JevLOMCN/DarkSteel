@@ -1,0 +1,55 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Theme merged relative to this file for the XAML designer; the runtime
+         loader sets ParserContext.BaseUri so the relative Source resolves. -->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <TabControl>
+
+        <TabItem Header="Items">
+            <DockPanel Margin="0,8,0,0">
+                <Grid DockPanel.Dock="Top" Margin="0,0,0,12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="ItemSearchBox" Grid.Column="0" Margin="0,0,8,0"
+                             ToolTip="Item ID or name"/>
+                    <Button Grid.Column="1" Content="Search" IsEnabled="False"/>
+                </Grid>
+                <TextBlock DockPanel.Dock="Top" Style="{StaticResource MutedTextStyle}" Margin="0,0,0,12"
+                           Text="Item lookup and granting are not wired yet."/>
+                <DataGrid x:Name="ItemsGrid" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Item ID" Width="120"/>
+                        <DataGridTextColumn Header="Name" Width="260"/>
+                        <DataGridTextColumn Header="Grade" Width="90"/>
+                        <DataGridTextColumn Header="Type" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </DockPanel>
+        </TabItem>
+
+        <TabItem Header="Mail">
+            <StackPanel Margin="0,8,0,0" MaxWidth="720" HorizontalAlignment="Left">
+                <TextBlock Style="{StaticResource MutedTextStyle}" Margin="0,0,0,12"
+                           Text="Mail sending is not wired yet."/>
+                <TextBlock Text="Recipient (character name or ID)" Style="{StaticResource MutedTextStyle}" Margin="0,0,0,4"/>
+                <TextBox x:Name="MailRecipientBox" Margin="0,0,0,12"/>
+                <TextBlock Text="Title" Style="{StaticResource MutedTextStyle}" Margin="0,0,0,4"/>
+                <TextBox x:Name="MailTitleBox" Margin="0,0,0,12"/>
+                <TextBlock Text="Body" Style="{StaticResource MutedTextStyle}" Margin="0,0,0,4"/>
+                <TextBox x:Name="MailBodyBox" AcceptsReturn="True" TextWrapping="Wrap" Height="160"
+                         VerticalScrollBarVisibility="Auto" VerticalContentAlignment="Top" Margin="0,0,0,12"/>
+                <Button x:Name="MailSendButton" Content="Send" IsEnabled="False"
+                        Style="{StaticResource PrimaryButtonStyle}" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </TabItem>
+
+    </TabControl>
+</UserControl>

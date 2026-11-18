@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<OutputType>Library</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MySqlConnector" Version="2.6.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\M5.Core\M5.Core.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Migrations\Event\" />
+		<Folder Include="Services\Game\" />
+	</ItemGroup>
+</Project>

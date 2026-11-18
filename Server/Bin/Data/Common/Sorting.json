@@ -1,0 +1,282 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Sorting",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/Sorting",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SortingTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_SortingType::Equip",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::CharNowEquip",
+          "EDS_SortingValue::CharOtherNowEquip",
+          "EDS_SortingValue::QuickSlotEquip",
+          "EDS_SortingValue::Type",
+          "EDS_SortingValue::TypeValue",
+          "EDS_SortingValue::Grade",
+          "EDS_SortingValue::Level",
+          "EDS_SortingValue::Tid",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "2": {
+        "ID": "EDS_SortingType::Grade",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::CharNowEquip",
+          "EDS_SortingValue::CharOtherNowEquip",
+          "EDS_SortingValue::QuickSlotEquip",
+          "EDS_SortingValue::Grade",
+          "EDS_SortingValue::Type",
+          "EDS_SortingValue::TypeValue",
+          "EDS_SortingValue::Level",
+          "EDS_SortingValue::Tid",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "3": {
+        "ID": "EDS_SortingType::Level",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::CharNowEquip",
+          "EDS_SortingValue::CharOtherNowEquip",
+          "EDS_SortingValue::QuickSlotEquip",
+          "EDS_SortingValue::Level",
+          "EDS_SortingValue::Grade",
+          "EDS_SortingValue::Type",
+          "EDS_SortingValue::TypeValue",
+          "EDS_SortingValue::Tid",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "4": {
+        "ID": "EDS_SortingType::Get",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::CharNowEquip",
+          "EDS_SortingValue::CharOtherNowEquip",
+          "EDS_SortingValue::QuickSlotEquip",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "14": {
+        "ID": "EDS_SortingType::ItemWeight",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Weight",
+          "EDS_SortingValue::Grade",
+          "EDS_SortingValue::Type",
+          "EDS_SortingValue::TypeValue",
+          "EDS_SortingValue::Level",
+          "EDS_SortingValue::Tid",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "5": {
+        "ID": "EDS_SortingType::CharGet",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Equip",
+          "EDS_SortingValue::Have",
+          "EDS_SortingValue::Order"
+        ]
+      },
+      "6": {
+        "ID": "EDS_SortingType::CharLevel",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Equip",
+          "EDS_SortingValue::Have",
+          "EDS_SortingValue::Level",
+          "EDS_SortingValue::Order"
+        ]
+      },
+      "7": {
+        "ID": "EDS_SortingType::CharName",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Equip",
+          "EDS_SortingValue::Have",
+          "EDS_SortingValue::SortName",
+          "EDS_SortingValue::Order"
+        ]
+      },
+      "8": {
+        "ID": "EDS_SortingType::GachaChar",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Order",
+          "EDS_SortingValue::GachaOrder"
+        ]
+      },
+      "9": {
+        "ID": "EDS_SortingType::GachaItem",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Grade",
+          "EDS_SortingValue::Tid",
+          "EDS_SortingValue::GachaOrder"
+        ]
+      },
+      "10": {
+        "ID": "EDS_SortingType::PlayerIcon",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Equip",
+          "EDS_SortingValue::Have",
+          "EDS_SortingValue::UnLock",
+          "EDS_SortingValue::Order"
+        ]
+      },
+      "11": {
+        "ID": "EDS_SortingType::CharEquipGet",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::EquipAble",
+          "EDS_SortingValue::Equip",
+          "EDS_SortingValue::Have",
+          "EDS_SortingValue::Order"
+        ]
+      },
+      "12": {
+        "ID": "EDS_SortingType::CharEquipLevel",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::EquipAble",
+          "EDS_SortingValue::Equip",
+          "EDS_SortingValue::Have",
+          "EDS_SortingValue::Level"
+        ]
+      },
+      "13": {
+        "ID": "EDS_SortingType::CharEquipName",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::EquipAble",
+          "EDS_SortingValue::Equip",
+          "EDS_SortingValue::Have",
+          "EDS_SortingValue::SortName"
+        ]
+      },
+      "15": {
+        "ID": "EDS_SortingType::MountGet",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Equip",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "16": {
+        "ID": "EDS_SortingType::MountName",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::SortName",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "17": {
+        "ID": "EDS_SortingType::MountSkill",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Level",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "18": {
+        "ID": "EDS_SortingType::MountBodyType",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Type",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "19": {
+        "ID": "EDS_SortingType::MountMoveSpeed",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::MoveSpeed",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "20": {
+        "ID": "EDS_SortingType::MountWeight",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Weight",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "21": {
+        "ID": "EDS_SortingType::MountGrade",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Grade",
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "22": {
+        "ID": "EDS_SortingType::LostListTimeLeft",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Uid"
+        ]
+      },
+      "23": {
+        "ID": "EDS_SortingType::LostItemGrade",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Grade",
+          "EDS_SortingValue::Tid"
+        ]
+      },
+      "24": {
+        "ID": "EDS_SortingType::LostItemLevel",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Level",
+          "EDS_SortingValue::Tid"
+        ]
+      },
+      "25": {
+        "ID": "EDS_SortingType::LostItemWeight",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Weight",
+          "EDS_SortingValue::Tid"
+        ]
+      },
+      "26": {
+        "ID": "EDS_SortingType::Repair",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Intact",
+          "EDS_SortingValue::Broken",
+          "EDS_SortingValue::Durability"
+        ]
+      },
+      "27": {
+        "ID": "EDS_SortingType::RepairRestore",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Durability"
+        ]
+      },
+      "28": {
+        "ID": "EDS_SortingType::MoveToWarehouse",
+        "DataStage": 23,
+        "SortingValue": [
+          "EDS_SortingValue::Grade",
+          "EDS_SortingValue::Tid"
+        ]
+      }
+    }
+  }
+]

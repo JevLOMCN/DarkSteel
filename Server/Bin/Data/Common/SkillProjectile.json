@@ -1,0 +1,269 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillProjectile",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SkillProjectile",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SkillProjectileTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 2000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Hand_L",
+        "ID_ProjectileEffect": 1,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 2.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetCurve",
+        "ProjectileSpeed": 2000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Hand_L",
+        "ID_ProjectileEffect": 1,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 2000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Hand_R",
+        "ID_ProjectileEffect": 10001,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 2000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Head_root",
+        "ID_ProjectileEffect": 10002,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 5000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Hand_R",
+        "ID_ProjectileEffect": 10003,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 5000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Hand_R",
+        "ID_ProjectileEffect": 10004,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 2000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Hand_R",
+        "ID_ProjectileEffect": 10005,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 2000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Head_root",
+        "ID_ProjectileEffect": 10007,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "501": {
+        "ID": 501,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 4000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Hand_R",
+        "ID_ProjectileEffect": 44,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "1201": {
+        "ID": 1201,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 3500.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Hand_L",
+        "ID_ProjectileEffect": 54,
+        "ProjectileEffectScale": 1.5,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": true,
+        "AfterTime": 4.0
+      },
+      "1202": {
+        "ID": 1202,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 3500.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "Hand_L",
+        "ID_ProjectileEffect": 55,
+        "ProjectileEffectScale": 1.5,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::ZoneCurve",
+        "ProjectileSpeed": 2000.0,
+        "ProjectileTime": 1.0,
+        "ProjectileSocketName": "ObjectAct_01",
+        "ID_ProjectileEffect": 1,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "100810301": {
+        "ID": 100810301,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetCurve",
+        "ProjectileSpeed": 2000.0,
+        "ProjectileTime": 0.3,
+        "ProjectileSocketName": "skl3_Projectile",
+        "ID_ProjectileEffect": 10006,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      },
+      "180130101": {
+        "ID": 180130101,
+        "DataStage": 23,
+        "ProjectileMoveType": "EDS_ProjectileMoveType::TargetMove",
+        "ProjectileSpeed": 4000.0,
+        "ProjectileTime": 0.7,
+        "ProjectileSocketName": "skl1_Projectile",
+        "ID_ProjectileEffect": 10006,
+        "ProjectileEffectScale": 1.0,
+        "CurveData": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ProjectileCurveTime": 1.0,
+        "ProjectileHeight": 200,
+        "IsAfterType": false,
+        "AfterTime": 0.0
+      }
+    }
+  }
+]

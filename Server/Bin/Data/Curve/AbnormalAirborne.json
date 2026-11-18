@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "AbnormalAirborne",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Package": "/Game/Datas/Curve/AbnormalAirborne",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 7.3279644E-08,
+            "ArriveTangent": 10.250935,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 10.250935,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.2,
+            "Value": 0.9000001,
+            "ArriveTangent": 1.0614945,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 1.0614945,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.0,
+            "ArriveTangent": -0.041964483,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -0.041964483,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 7.3279644E-08,
+            "ArriveTangent": -6.5892,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -6.5892,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

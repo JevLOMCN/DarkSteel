@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "OpenBoxPackage",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/OpenBoxPackage",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_OpenBoxPackageTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "GroupID": 1,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 100110001,
+        "RewardValue": 10
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "GroupID": 1,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 100210001,
+        "RewardValue": 10
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "GroupID": 1,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 100510001,
+        "RewardValue": 10
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "GroupID": 2,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 70110001,
+        "RewardValue": 1
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "GroupID": 2,
+        "RewardCategory": "EDS_RewardCategory::Money",
+        "RewardId": 1,
+        "RewardValue": 1000
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "GroupID": 2,
+        "RewardCategory": "EDS_RewardCategory::Money",
+        "RewardId": 11,
+        "RewardValue": 1000
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "GroupID": 3,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 10150001,
+        "RewardValue": 1
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "GroupID": 3,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 20150001,
+        "RewardValue": 1
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "GroupID": 3,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 20250001,
+        "RewardValue": 1
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "GroupID": 3,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 20350001,
+        "RewardValue": 1
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "GroupID": 3,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 20450001,
+        "RewardValue": 1
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "GroupID": 3,
+        "RewardCategory": "EDS_RewardCategory::Item",
+        "RewardId": 20550001,
+        "RewardValue": 1
+      }
+    }
+  }
+]

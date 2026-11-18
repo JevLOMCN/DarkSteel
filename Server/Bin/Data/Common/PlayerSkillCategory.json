@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerSkillCategory",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PlayerSkillCategory",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PlayerSkillCategoryTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_CategoryIcon": 180101,
+        "ID_CategoryName": {
+          "ID": 440201
+        }
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_CategoryIcon": 180102,
+        "ID_CategoryName": {
+          "ID": 440202
+        }
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_CategoryIcon": 180103,
+        "ID_CategoryName": {
+          "ID": 440203
+        }
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_CategoryIcon": 180104,
+        "ID_CategoryName": {
+          "ID": 440204
+        }
+      }
+    }
+  }
+]

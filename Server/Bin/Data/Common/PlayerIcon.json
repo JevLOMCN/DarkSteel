@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerIcon",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PlayerIcon",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PlayerIconTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_PlayerIcon": 100001,
+        "ID_UnLockItem": 0,
+        "Order": 1
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_PlayerIcon": 100002,
+        "ID_UnLockItem": 0,
+        "Order": 2
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_PlayerIcon": 100003,
+        "ID_UnLockItem": 150110001,
+        "Order": 3
+      }
+    }
+  }
+]

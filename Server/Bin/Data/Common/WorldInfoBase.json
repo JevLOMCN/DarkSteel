@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WorldInfoBase",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/WorldInfoBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_WorldInfoBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "MapResourcePath": {
+          "AssetPathName": "/Game/Maps/DSMap.DSMap_C",
+          "SubPathString": ""
+        },
+        "MapInfoPath": {
+          "AssetPathName": "/Game/Generated/WorldInfo/DSMapInfo.DSMapInfo",
+          "SubPathString": ""
+        }
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 16,
+        "Version": "*",
+        "MapResourcePath": {
+          "AssetPathName": "/Game/Maps/DsWorldMap",
+          "SubPathString": ""
+        },
+        "MapInfoPath": {
+          "AssetPathName": "/Game/Maps/DsWorldMapInfo",
+          "SubPathString": ""
+        }
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 16,
+        "Version": "*",
+        "MapResourcePath": {
+          "AssetPathName": "/Game/AIgyms/Maps/DSAIgymMap.DSAIgymMap",
+          "SubPathString": ""
+        },
+        "MapInfoPath": {
+          "AssetPathName": "/Game/AIgyms/Maps/DSAIgymMapInfo.DSAIgymMapInfo",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

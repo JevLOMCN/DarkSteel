@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{D5161975-A657-55EF-8EE4-BDBC203DC1BC}</ProjectGuid><RootNamespace>TraceLog</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FChannel.cpp" />
+    <ClCompile Include="Private\FEventNode.cpp" />
+    <ClCompile Include="Private\FImportantLogScope.cpp" />
+    <ClCompile Include="Private\FIter.cpp" />
+    <ClCompile Include="Private\FLogScope.cpp" />
+    <ClCompile Include="Private\FPacketRing.cpp" />
+    <ClCompile Include="Private\FTraceChannelAnnounceFields.cpp" />
+    <ClCompile Include="Private\FTraceChannelToggleFields.cpp" />
+    <ClCompile Include="Private\FTraceNewTraceFields.cpp" />
+    <ClCompile Include="Private\FTraceThreadGroupBeginFields.cpp" />
+    <ClCompile Include="Private\FTraceThreadGroupEndFields.cpp" />
+    <ClCompile Include="Private\FTraceThreadInfoFields.cpp" />
+    <ClCompile Include="Private\FTraceThreadTimingFields.cpp" />
+    <ClCompile Include="Private\FTraceTraceStallFields.cpp" />
+    <ClCompile Include="Private\FWriteTlsContext.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.TraceLog.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

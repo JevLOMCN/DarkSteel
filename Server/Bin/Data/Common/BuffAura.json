@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BuffAura",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/BuffAura",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_BuffAuraTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10001": {
+        "ID": 10001,
+        "DataStage": 23,
+        "TargetRelationship": "EDS_AuraTargetRelationShip::Friendly",
+        "ID_BuffBase": [
+          20002
+        ],
+        "OwnerIncluded": true,
+        "AuraRadius": 500,
+        "AuraHeight": 500,
+        "MaxCount": 10
+      },
+      "2108": {
+        "ID": 2108,
+        "DataStage": 23,
+        "TargetRelationship": "EDS_AuraTargetRelationShip::Friendly",
+        "ID_BuffBase": [
+          2109
+        ],
+        "OwnerIncluded": true,
+        "AuraRadius": 500,
+        "AuraHeight": 500,
+        "MaxCount": 10
+      },
+      "4109": {
+        "ID": 4109,
+        "DataStage": 23,
+        "TargetRelationship": "EDS_AuraTargetRelationShip::Friendly",
+        "ID_BuffBase": [
+          4110
+        ],
+        "OwnerIncluded": true,
+        "AuraRadius": 10,
+        "AuraHeight": 100,
+        "MaxCount": 1
+      },
+      "5108": {
+        "ID": 5108,
+        "DataStage": 23,
+        "TargetRelationship": "EDS_AuraTargetRelationShip::Hostile",
+        "ID_BuffBase": [
+          5109
+        ],
+        "OwnerIncluded": false,
+        "AuraRadius": 900,
+        "AuraHeight": 500,
+        "MaxCount": 10
+      }
+    }
+  }
+]

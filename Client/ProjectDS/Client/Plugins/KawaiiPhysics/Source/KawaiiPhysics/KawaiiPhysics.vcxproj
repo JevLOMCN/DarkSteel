@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{1B329FBC-DC50-5709-A854-18992778A76B}</ProjectGuid><RootNamespace>KawaiiPhysics</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAnimNodeReference.cpp" />
+    <ClCompile Include="Private\FAnimNode_KawaiiPhysics.cpp" />
+    <ClCompile Include="Private\FCapsuleLimit.cpp" />
+    <ClCompile Include="Private\FCapsuleLimitData.cpp" />
+    <ClCompile Include="Private\FCollisionLimitBase.cpp" />
+    <ClCompile Include="Private\FCollisionLimitDataBase.cpp" />
+    <ClCompile Include="Private\FKawaiiPhysicsModifyBone.cpp" />
+    <ClCompile Include="Private\FKawaiiPhysicsModule.cpp" />
+    <ClCompile Include="Private\FKawaiiPhysicsReference.cpp" />
+    <ClCompile Include="Private\FKawaiiPhysicsSettings.cpp" />
+    <ClCompile Include="Private\FModifyBoneConstraint.cpp" />
+    <ClCompile Include="Private\FModifyBoneConstraintData.cpp" />
+    <ClCompile Include="Private\FPlanarLimit.cpp" />
+    <ClCompile Include="Private\FPlanarLimitData.cpp" />
+    <ClCompile Include="Private\FRegexPatternBoneSet.cpp" />
+    <ClCompile Include="Private\FSphericalLimit.cpp" />
+    <ClCompile Include="Private\FSphericalLimitData.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UKawaiiPhysicsBoneConstraintsDataAsset.cpp" />
+    <ClCompile Include="Private\UKawaiiPhysicsLibrary.cpp" />
+    <ClCompile Include="Private\UKawaiiPhysicsLimitsDataAsset.cpp" />
+    <ClCompile Include="Private\_Free\Module.KawaiiPhysics.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

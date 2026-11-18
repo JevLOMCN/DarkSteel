@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{23D0D999-DC42-514C-B517-CABC34EDA4AF}</ProjectGuid><RootNamespace>AVEncoder</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AVEncoder.cpp" />
+    <ClCompile Include="Private\FAVEncoderModule.cpp" />
+    <ClCompile Include="Private\FAudioEncoder.cpp" />
+    <ClCompile Include="Private\FAudioEncoderFactory.cpp" />
+    <ClCompile Include="Private\FCodecPacket.cpp" />
+    <ClCompile Include="Private\FDXDeviceInfo.cpp" />
+    <ClCompile Include="Private\FF5PlayerVideoDecoderOutputDX.cpp" />
+    <ClCompile Include="Private\FIMFSampleWrapper.cpp" />
+    <ClCompile Include="Private\FNativeVideoDecoderOutput.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FVideoDecoder.cpp" />
+    <ClCompile Include="Private\FVideoDecoderFactory.cpp" />
+    <ClCompile Include="Private\FVideoDecoderH264_Dummy.cpp" />
+    <ClCompile Include="Private\FVideoDecoderH264_Impl.cpp" />
+    <ClCompile Include="Private\FVideoDecoderH264_Windows.cpp" />
+    <ClCompile Include="Private\FVideoDecoderH264_WindowsImpl.cpp" />
+    <ClCompile Include="Private\FVideoDecoderInput.cpp" />
+    <ClCompile Include="Private\FVideoDecoderInputImpl.cpp" />
+    <ClCompile Include="Private\FVideoDecoderMPEG4.cpp" />
+    <ClCompile Include="Private\FVideoDecoderMPEG4_Impl.cpp" />
+    <ClCompile Include="Private\FVideoDecoderOutput.cpp" />
+    <ClCompile Include="Private\FVideoDecoderOutputDX.cpp" />
+    <ClCompile Include="Private\FVideoDecoderOutputDummy.cpp" />
+    <ClCompile Include="Private\FVideoDecoderOutputH264_Windows.cpp" />
+    <ClCompile Include="Private\FVideoDecoderOutputMPEG4.cpp" />
+    <ClCompile Include="Private\FVideoDecoderVP8.cpp" />
+    <ClCompile Include="Private\FVideoEncoder.cpp" />
+    <ClCompile Include="Private\FVideoEncoderFactory.cpp" />
+    <ClCompile Include="Private\FVideoEncoderInfo.cpp" />
+    <ClCompile Include="Private\FVideoEncoderInput.cpp" />
+    <ClCompile Include="Private\FVideoEncoderInputFrame.cpp" />
+    <ClCompile Include="Private\FVideoEncoderInputFrameImpl.cpp" />
+    <ClCompile Include="Private\FVideoEncoderInputImpl.cpp" />
+    <ClCompile Include="Private\FWmfAudioEncoder.cpp" />
+    <ClCompile Include="Private\FWmfAudioEncoderFactory.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TFunction.cpp" />
+    <ClCompile Include="Private\TFunctionRefBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TQueue.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\_Free\Module.AVEncoder.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

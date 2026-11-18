@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{9EF54222-756A-552B-8855-64BFE7A8E70F}</ProjectGuid><RootNamespace>MeshConversionEngineTypes</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FGeometryCollectionToDynamicMeshes.cpp" />
+    <ClCompile Include="Private\FMeshConversionEngineTypesModule.cpp" />
+    <ClCompile Include="Private\FSkeletalMeshLODModelToDynamicMesh.cpp" />
+    <ClCompile Include="Private\FSkeletalMeshLODRenderDataMeshAdapter.cpp" />
+    <ClCompile Include="Private\FSkeletalMeshLODRenderDataToDynamicMesh.cpp" />
+    <ClCompile Include="Private\FStaticMeshLODResourcesMeshAdapter.cpp" />
+    <ClCompile Include="Private\FStaticMeshLODResourcesToDynamicMesh.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TManagedArrayAccessor.cpp" />
+    <ClCompile Include="Private\TUniqueMeshVertex.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.MeshConversionEngineTypes.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

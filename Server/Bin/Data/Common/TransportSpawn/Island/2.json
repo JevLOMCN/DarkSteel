@@ -1,0 +1,67 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "2",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/TransportSpawn/Island/2",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_TransportSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_Transport": 9,
+        "ID_Island": 2,
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2833801.0,
+          "Y": -2710463.0,
+          "Z": 1344.0
+        },
+        "RotateYaw": 180.0,
+        "SpawnTriggerType": 1,
+        "SpawnRadius": 1.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": false,
+        "WanderingRadius": 0.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "RouteType": true
+      },
+      "1": {
+        "ID": 1,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Transport": 2,
+        "ID_Island": 2,
+        "ID_Zone": 2002,
+        "Location": {
+          "X": -2515685.2,
+          "Y": -2740140.2,
+          "Z": 1426.7814
+        },
+        "RotateYaw": 0.0,
+        "SpawnTriggerType": 1,
+        "SpawnRadius": 0.0,
+        "FirstSpawnDelayMin": 0.0,
+        "FirstSpawnDelayMax": 0.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "IsWandering": false,
+        "WanderingRadius": 0.0,
+        "LinkGroupID": 0,
+        "LinkGroupRadius": 0.0,
+        "RouteType": true
+      }
+    }
+  }
+]

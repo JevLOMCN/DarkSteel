@@ -1,0 +1,1637 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "InventoryBag",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/InventoryBag",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_InventoryBagTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_BagType::CharacterInfoEquip",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::Character",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::WeaponBag",
+          "EDS_FilterType::ArmorBag",
+          "EDS_FilterType::AccessoryBag",
+          "EDS_FilterType::EmblemBag",
+          "EDS_FilterType::EXPCharacter"
+        ]
+      },
+      "14": {
+        "ID": "EDS_BagType::ItemGem",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemGem",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::GemBag"
+        ]
+      },
+      "132": {
+        "ID": "EDS_BagType::ShopTotalBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EquipmentBag",
+          "EDS_FilterType::ConsumablesBag",
+          "EDS_FilterType::MaterialsBag",
+          "EDS_FilterType::GarbageBag"
+        ]
+      },
+      "133": {
+        "ID": "EDS_BagType::CraftTotalBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EquipmentBag",
+          "EDS_FilterType::ConsumablesBag",
+          "EDS_FilterType::MaterialsBag",
+          "EDS_FilterType::GarbageBag",
+          "EDS_FilterType::QuestBag"
+        ]
+      },
+      "34": {
+        "ID": "EDS_BagType::Weapon",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::Character",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::WeaponArtifact"
+        ]
+      },
+      "37": {
+        "ID": "EDS_BagType::Consumables",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ShopBagItem",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Consumables"
+        ]
+      },
+      "38": {
+        "ID": "EDS_BagType::Tool",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::Character",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Mining",
+          "EDS_FilterType::Harvesting",
+          "EDS_FilterType::Logging",
+          "EDS_FilterType::Detection",
+          "EDS_FilterType::Linguistic",
+          "EDS_FilterType::Camp",
+          "EDS_FilterType::Archaeology",
+          "EDS_FilterType::OpenLock",
+          "EDS_FilterType::Cook",
+          "EDS_FilterType::Mount"
+        ]
+      },
+      "40": {
+        "ID": "EDS_BagType::Materials",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ShopBagItem",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::MaterialsBag"
+        ]
+      },
+      "42": {
+        "ID": "EDS_BagType::Stuff",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ShopBagItem",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Garbage"
+        ]
+      },
+      "173": {
+        "ID": "EDS_BagType::MountItem",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ShopBagItem",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::MountItem"
+        ]
+      },
+      "43": {
+        "ID": "EDS_BagType::Talisman",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::Character",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Talisman"
+        ]
+      },
+      "46": {
+        "ID": "EDS_BagType::Helmet",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ArmorHelmet"
+        ]
+      },
+      "47": {
+        "ID": "EDS_BagType::Chest",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ArmorChest"
+        ]
+      },
+      "48": {
+        "ID": "EDS_BagType::Pants",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ArmorPants"
+        ]
+      },
+      "49": {
+        "ID": "EDS_BagType::Glove",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ArmorGlobe"
+        ]
+      },
+      "50": {
+        "ID": "EDS_BagType::Shoes",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ArmorShoes"
+        ]
+      },
+      "51": {
+        "ID": "EDS_BagType::Necklace",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Accessory1"
+        ]
+      },
+      "52": {
+        "ID": "EDS_BagType::Bracelet",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Accessory2"
+        ]
+      },
+      "53": {
+        "ID": "EDS_BagType::Ring",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Accessory3"
+        ]
+      },
+      "54": {
+        "ID": "EDS_BagType::Emblem",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Emblem"
+        ]
+      },
+      "55": {
+        "ID": "EDS_BagType::CharGrow",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EXPCharacter"
+        ]
+      },
+      "69": {
+        "ID": "EDS_BagType::CookShare",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::PlayerSkillCookingShare"
+        ]
+      },
+      "70": {
+        "ID": "EDS_BagType::Cooking",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::PlayerSkillCooking"
+        ]
+      },
+      "71": {
+        "ID": "EDS_BagType::Equipment",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EquipmentBag"
+        ]
+      },
+      "72": {
+        "ID": "EDS_BagType::CookingAll",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::PlayerSkillCooking",
+          "EDS_FilterType::PlayerSkillCookingShare"
+        ]
+      },
+      "73": {
+        "ID": "EDS_BagType::GiftAll",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::GiftAType",
+          "EDS_FilterType::GiftBType",
+          "EDS_FilterType::GiftCType"
+        ]
+      },
+      "74": {
+        "ID": "EDS_BagType::GiftAType",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::GiftAType"
+        ]
+      },
+      "75": {
+        "ID": "EDS_BagType::GiftBType",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::GiftBType"
+        ]
+      },
+      "76": {
+        "ID": "EDS_BagType::GiftCType",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::GiftCType"
+        ]
+      },
+      "139": {
+        "ID": "EDS_BagType::CharMountGearAType",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::MountGearAType"
+        ]
+      },
+      "140": {
+        "ID": "EDS_BagType::CharMountGearBType",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::MountGearBType"
+        ]
+      },
+      "141": {
+        "ID": "EDS_BagType::CharMountGearCType",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::MountGearCType"
+        ]
+      },
+      "142": {
+        "ID": "EDS_BagType::CharMountFoodAType",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::MountFoodAType"
+        ]
+      },
+      "143": {
+        "ID": "EDS_BagType::CharMountFoodBType",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::MountFoodBType"
+        ]
+      },
+      "144": {
+        "ID": "EDS_BagType::CharMountFoodCType",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::MountFoodCType"
+        ]
+      },
+      "145": {
+        "ID": "EDS_BagType::CharMountAll",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::CharMountAll"
+        ]
+      },
+      "146": {
+        "ID": "EDS_BagType::MountInventory",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::MountInventory"
+        ]
+      },
+      "79": {
+        "ID": "EDS_BagType::DismantleAll",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::None",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::DismantleWeaponBag",
+          "EDS_FilterType::DismantleArmorBag",
+          "EDS_FilterType::DismantleAccessoryBag",
+          "EDS_FilterType::DismantleToolBag",
+          "EDS_FilterType::DismantleConsumables",
+          "EDS_FilterType::DismantleMaterialsBag",
+          "EDS_FilterType::DismantleGarbage"
+        ]
+      },
+      "81": {
+        "ID": "EDS_BagType::EnTargetTotalBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetWeaponBag",
+          "EDS_FilterType::EnhanceArmorBag",
+          "EDS_FilterType::EnhanceAccessoryBag"
+        ]
+      },
+      "82": {
+        "ID": "EDS_BagType::EnTargetWeaponBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetWeaponBag"
+        ]
+      },
+      "83": {
+        "ID": "EDS_BagType::EnTargethelmetBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargethelmetBag"
+        ]
+      },
+      "84": {
+        "ID": "EDS_BagType::EnTargetChestBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetChestBag"
+        ]
+      },
+      "85": {
+        "ID": "EDS_BagType::EnTargetPantsBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetPantsBag"
+        ]
+      },
+      "86": {
+        "ID": "EDS_BagType::EnTargetGloveBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetGloveBag"
+        ]
+      },
+      "87": {
+        "ID": "EDS_BagType::EnTargetShoesBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetShoesBag"
+        ]
+      },
+      "88": {
+        "ID": "EDS_BagType::EnTargetNecklaceBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetNecklaceBag"
+        ]
+      },
+      "89": {
+        "ID": "EDS_BagType::EnTargetBraceletBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetBraceletBag"
+        ]
+      },
+      "90": {
+        "ID": "EDS_BagType::EnTargetRingBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetRingBag"
+        ]
+      },
+      "91": {
+        "ID": "EDS_BagType::EnTargetTalismanBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetTalismanBag"
+        ]
+      },
+      "92": {
+        "ID": "EDS_BagType::EnTargetEmblemBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetEmblemBag"
+        ]
+      },
+      "93": {
+        "ID": "EDS_BagType::EnTargetToolBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnTargetToolBag"
+        ]
+      },
+      "94": {
+        "ID": "EDS_BagType::EnMaterialTotalBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialGrowBag"
+        ]
+      },
+      "95": {
+        "ID": "EDS_BagType::EnMaterialWeaponBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialWeaponBag"
+        ]
+      },
+      "96": {
+        "ID": "EDS_BagType::EnMaterialhelmetBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialhelmetBag"
+        ]
+      },
+      "97": {
+        "ID": "EDS_BagType::EnMaterialChestBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialChestBag"
+        ]
+      },
+      "98": {
+        "ID": "EDS_BagType::EnMaterialPantsBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialPantsBag"
+        ]
+      },
+      "99": {
+        "ID": "EDS_BagType::EnMaterialGloveBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialGloveBag"
+        ]
+      },
+      "100": {
+        "ID": "EDS_BagType::EnMaterialShoesBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialShoesBag"
+        ]
+      },
+      "101": {
+        "ID": "EDS_BagType::EnMaterialnlNecklaceBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialnlNecklaceBag"
+        ]
+      },
+      "102": {
+        "ID": "EDS_BagType::EnMaterialBraceletBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialBraceletBag"
+        ]
+      },
+      "103": {
+        "ID": "EDS_BagType::EnMaterialRingBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialRingBag"
+        ]
+      },
+      "104": {
+        "ID": "EDS_BagType::EnMaterialTalismanBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialTalismanBag"
+        ]
+      },
+      "105": {
+        "ID": "EDS_BagType::EnMaterialEmblemBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialEmblemBag"
+        ]
+      },
+      "106": {
+        "ID": "EDS_BagType::EnMaterialToolBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialToolBag"
+        ]
+      },
+      "107": {
+        "ID": "EDS_BagType::EnMaterialGrowBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnMaterialGrowBag"
+        ]
+      },
+      "108": {
+        "ID": "EDS_BagType::FuTargetTotalBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetWeaponBag",
+          "EDS_FilterType::FusionArmorBag",
+          "EDS_FilterType::FusionAccessoryBag",
+          "EDS_FilterType::FuTargetToolBag"
+        ]
+      },
+      "109": {
+        "ID": "EDS_BagType::FuTargetWeaponBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetWeaponBag"
+        ]
+      },
+      "110": {
+        "ID": "EDS_BagType::FuTargethelmetBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargethelmetBag"
+        ]
+      },
+      "111": {
+        "ID": "EDS_BagType::FuTargetChestBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetChestBag"
+        ]
+      },
+      "112": {
+        "ID": "EDS_BagType::FuTargetGloveBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetGloveBag"
+        ]
+      },
+      "113": {
+        "ID": "EDS_BagType::FuTargetShoesBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetShoesBag"
+        ]
+      },
+      "114": {
+        "ID": "EDS_BagType::FuTargetNecklaceBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetNecklaceBag"
+        ]
+      },
+      "115": {
+        "ID": "EDS_BagType::FuTargetBraceletBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetBraceletBag"
+        ]
+      },
+      "116": {
+        "ID": "EDS_BagType::FuTargetRingBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetRingBag"
+        ]
+      },
+      "117": {
+        "ID": "EDS_BagType::FuTargetTalismanBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetTalismanBag"
+        ]
+      },
+      "118": {
+        "ID": "EDS_BagType::FuTargetEmblemBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetEmblemBag"
+        ]
+      },
+      "119": {
+        "ID": "EDS_BagType::FuTargetToolBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuTargetToolBag"
+        ]
+      },
+      "120": {
+        "ID": "EDS_BagType::FuMaterialTotalBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::FuMaterialTotalBag"
+        ]
+      },
+      "135": {
+        "ID": "EDS_BagType::DismatleEquipment",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::DismantleEquipmentBag"
+        ]
+      },
+      "136": {
+        "ID": "EDS_BagType::DismantleConsumables",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::DismantleConsumables"
+        ]
+      },
+      "137": {
+        "ID": "EDS_BagType::DismantleMaterials",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::DismantleMaterialsBag"
+        ]
+      },
+      "138": {
+        "ID": "EDS_BagType::DismantleStuff",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::DismantleGarbage"
+        ]
+      },
+      "147": {
+        "ID": "EDS_BagType::ItemRepairTotalBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairWeaponBag",
+          "EDS_FilterType::ItemRepairArmorBag",
+          "EDS_FilterType::ItemRepairAccessoryBag"
+        ]
+      },
+      "148": {
+        "ID": "EDS_BagType::ItemRepairWeaponBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairWeaponBag"
+        ]
+      },
+      "149": {
+        "ID": "EDS_BagType::ItemRepairhelmetBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairhelmetBag"
+        ]
+      },
+      "150": {
+        "ID": "EDS_BagType::ItemRepairChestBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairChestBag"
+        ]
+      },
+      "151": {
+        "ID": "EDS_BagType::ItemRepairPantsBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairPantsBag"
+        ]
+      },
+      "152": {
+        "ID": "EDS_BagType::ItemRepairGloveBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairGloveBag"
+        ]
+      },
+      "153": {
+        "ID": "EDS_BagType::ItemRepairShoesBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairShoesBag"
+        ]
+      },
+      "154": {
+        "ID": "EDS_BagType::ItemRepairNecklaceBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairNecklaceBag"
+        ]
+      },
+      "155": {
+        "ID": "EDS_BagType::ItemRepairBraceletBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairBraceletBag"
+        ]
+      },
+      "156": {
+        "ID": "EDS_BagType::ItemRepairRingBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairRingBag"
+        ]
+      },
+      "157": {
+        "ID": "EDS_BagType::ItemRepairTalismanBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairTalismanBag"
+        ]
+      },
+      "158": {
+        "ID": "EDS_BagType::ItemRepairEmblemBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairEmblemBag"
+        ]
+      },
+      "159": {
+        "ID": "EDS_BagType::ItemRepairMaterialBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::ItemRepairMaterialBag"
+        ]
+      },
+      "160": {
+        "ID": "EDS_BagType::EnchantTotalBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantWeaponBag",
+          "EDS_FilterType::EnchantArmorBag",
+          "EDS_FilterType::EnchantAccessoryBag"
+        ]
+      },
+      "161": {
+        "ID": "EDS_BagType::EnchantWeaponBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantWeaponBag"
+        ]
+      },
+      "162": {
+        "ID": "EDS_BagType::EnchanthelmetBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchanthelmetBag"
+        ]
+      },
+      "163": {
+        "ID": "EDS_BagType::EnchantChestBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantChestBag"
+        ]
+      },
+      "164": {
+        "ID": "EDS_BagType::EnchantPantsBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantPantsBag"
+        ]
+      },
+      "165": {
+        "ID": "EDS_BagType::EnchantGloveBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantGloveBag"
+        ]
+      },
+      "166": {
+        "ID": "EDS_BagType::EnchantShoesBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantShoesBag"
+        ]
+      },
+      "167": {
+        "ID": "EDS_BagType::EnchantNecklaceBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantNecklaceBag"
+        ]
+      },
+      "168": {
+        "ID": "EDS_BagType::EnchantBraceletBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantBraceletBag"
+        ]
+      },
+      "169": {
+        "ID": "EDS_BagType::EnchantRingBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantRingBag"
+        ]
+      },
+      "170": {
+        "ID": "EDS_BagType::EnchantScrollBag",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantScrollList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::EnchantScrollBag"
+        ]
+      },
+      "60": {
+        "ID": "EDS_BagType::Mining",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Mining"
+        ]
+      },
+      "61": {
+        "ID": "EDS_BagType::Harvesting",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Harvesting"
+        ]
+      },
+      "62": {
+        "ID": "EDS_BagType::Logging",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Logging"
+        ]
+      },
+      "64": {
+        "ID": "EDS_BagType::Linguistic",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Linguistic"
+        ]
+      },
+      "66": {
+        "ID": "EDS_BagType::Archaeology",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Archaeology"
+        ]
+      },
+      "67": {
+        "ID": "EDS_BagType::OpenLock",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::OpenLock"
+        ]
+      },
+      "68": {
+        "ID": "EDS_BagType::Cook",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Cook"
+        ]
+      },
+      "171": {
+        "ID": "EDS_BagType::Farming",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Farming"
+        ]
+      },
+      "172": {
+        "ID": "EDS_BagType::PlayerSkillToolAll",
+        "DataStage": 23,
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ItemFilter": [
+          "EDS_FilterType::Mining",
+          "EDS_FilterType::Harvesting",
+          "EDS_FilterType::Logging",
+          "EDS_FilterType::Linguistic",
+          "EDS_FilterType::Archaeology",
+          "EDS_FilterType::OpenLock",
+          "EDS_FilterType::Cook",
+          "EDS_FilterType::Farming"
+        ]
+      }
+    }
+  }
+]

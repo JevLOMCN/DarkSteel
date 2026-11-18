@@ -1,0 +1,259 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ActionAirWalk",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ActionAirWalk",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ActionAirWalkTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "AirStep": "EDS_AirWalkStep::Jump1",
+        "IsAirKeyType": false,
+        "ID_AirStepIcon": 10002,
+        "ID_AirStopIcon": 0,
+        "AirCoolTime": 0.0,
+        "UseCostStamina": 0,
+        "CostStaminaPerSecond": 0,
+        "ExpMagnification": 0.0,
+        "StandardSpeed": 830.0,
+        "AirMoveHeight": 830.0,
+        "AirWalkTime": 1.0,
+        "UnableTime": 0.05,
+        "NextUseAirStep": [
+          2
+        ],
+        "AvailableTime": [
+          1.2
+        ],
+        "AirMotionBlur": false,
+        "HovStopSpeedDown": 0.0,
+        "FallStartSpeed": 500.0,
+        "FallMoveSpeed": 100.0,
+        "ChargingTimeMin": 0.0,
+        "ChargingTimeMax": 0.0,
+        "PowerJumpDefaultSpeed": 0.0
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "AirStep": "EDS_AirWalkStep::Jump2",
+        "IsAirKeyType": false,
+        "ID_AirStepIcon": 10002,
+        "ID_AirStopIcon": 0,
+        "AirCoolTime": 0.2,
+        "UseCostStamina": 0,
+        "CostStaminaPerSecond": 0,
+        "ExpMagnification": 0.0,
+        "StandardSpeed": 540.0,
+        "AirMoveHeight": 540.0,
+        "AirWalkTime": 1.5,
+        "UnableTime": 0.2,
+        "NextUseAirStep": [
+          4,
+          3,
+          7
+        ],
+        "AvailableTime": [
+          0.0,
+          4.0,
+          4.0
+        ],
+        "AirMotionBlur": false,
+        "HovStopSpeedDown": 0.0,
+        "FallStartSpeed": 500.0,
+        "FallMoveSpeed": 100.0,
+        "ChargingTimeMin": 0.0,
+        "ChargingTimeMax": 0.0,
+        "PowerJumpDefaultSpeed": 0.0
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "AirStep": "EDS_AirWalkStep::Hovering",
+        "IsAirKeyType": true,
+        "ID_AirStepIcon": 10003,
+        "ID_AirStopIcon": 10006,
+        "AirCoolTime": 0.5,
+        "UseCostStamina": 360,
+        "CostStaminaPerSecond": 180,
+        "ExpMagnification": 0.0,
+        "StandardSpeed": 50.0,
+        "AirMoveHeight": 0.0,
+        "AirWalkTime": 200.0,
+        "UnableTime": 1.0,
+        "NextUseAirStep": [
+          4,
+          3,
+          7,
+          8
+        ],
+        "AvailableTime": [
+          0.0,
+          4.0,
+          4.0,
+          0.0
+        ],
+        "AirMotionBlur": false,
+        "HovStopSpeedDown": 2800.0,
+        "FallStartSpeed": 500.0,
+        "FallMoveSpeed": 100.0,
+        "ChargingTimeMin": 0.0,
+        "ChargingTimeMax": 0.0,
+        "PowerJumpDefaultSpeed": 0.0
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "AirStep": "EDS_AirWalkStep::AirDash",
+        "IsAirKeyType": true,
+        "ID_AirStepIcon": 10004,
+        "ID_AirStopIcon": 10006,
+        "AirCoolTime": 0.5,
+        "UseCostStamina": 720,
+        "CostStaminaPerSecond": 360,
+        "ExpMagnification": 2.0,
+        "StandardSpeed": 1300.0,
+        "AirMoveHeight": 0.0,
+        "AirWalkTime": 100.0,
+        "UnableTime": 0.5,
+        "NextUseAirStep": [
+          4,
+          3,
+          7,
+          8
+        ],
+        "AvailableTime": [
+          0.0,
+          4.0,
+          4.0,
+          0.0
+        ],
+        "AirMotionBlur": true,
+        "HovStopSpeedDown": 2800.0,
+        "FallStartSpeed": 500.0,
+        "FallMoveSpeed": 100.0,
+        "ChargingTimeMin": 0.0,
+        "ChargingTimeMax": 0.0,
+        "PowerJumpDefaultSpeed": 0.0
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "AirStep": "EDS_AirWalkStep::PowerJumpCharging",
+        "IsAirKeyType": true,
+        "ID_AirStepIcon": 10005,
+        "ID_AirStopIcon": 0,
+        "AirCoolTime": 2.0,
+        "UseCostStamina": 0,
+        "CostStaminaPerSecond": 2000,
+        "ExpMagnification": 3.0,
+        "StandardSpeed": 4000.0,
+        "AirMoveHeight": 2000.0,
+        "AirWalkTime": 20.0,
+        "UnableTime": 0.0,
+        "NextUseAirStep": [
+          6
+        ],
+        "AvailableTime": [
+          0.0
+        ],
+        "AirMotionBlur": true,
+        "HovStopSpeedDown": 0.0,
+        "FallStartSpeed": 2000.0,
+        "FallMoveSpeed": 500.0,
+        "ChargingTimeMin": 1.0,
+        "ChargingTimeMax": 4.0,
+        "PowerJumpDefaultSpeed": 2000.0
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "AirStep": "EDS_AirWalkStep::PowerJump",
+        "IsAirKeyType": true,
+        "ID_AirStepIcon": 10005,
+        "ID_AirStopIcon": 0,
+        "AirCoolTime": 2.0,
+        "UseCostStamina": 0,
+        "CostStaminaPerSecond": 0,
+        "ExpMagnification": 0.0,
+        "StandardSpeed": 0.0,
+        "AirMoveHeight": 0.0,
+        "AirWalkTime": 4.0,
+        "UnableTime": 5.0,
+        "NextUseAirStep": [],
+        "AvailableTime": [],
+        "AirMotionBlur": false,
+        "HovStopSpeedDown": 0.0,
+        "FallStartSpeed": 0.0,
+        "FallMoveSpeed": 0.0,
+        "ChargingTimeMin": 0.0,
+        "ChargingTimeMax": 0.0,
+        "PowerJumpDefaultSpeed": 0.0
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "AirStep": "EDS_AirWalkStep::AirStop",
+        "IsAirKeyType": true,
+        "ID_AirStepIcon": 0,
+        "ID_AirStopIcon": 0,
+        "AirCoolTime": 0.0,
+        "UseCostStamina": 0,
+        "CostStaminaPerSecond": 0,
+        "ExpMagnification": 0.0,
+        "StandardSpeed": 50.0,
+        "AirMoveHeight": 0.0,
+        "AirWalkTime": 200.0,
+        "UnableTime": 0.0,
+        "NextUseAirStep": [
+          4,
+          3
+        ],
+        "AvailableTime": [
+          0.0,
+          4.0
+        ],
+        "AirMotionBlur": false,
+        "HovStopSpeedDown": 2800.0,
+        "FallStartSpeed": 500.0,
+        "FallMoveSpeed": 100.0,
+        "ChargingTimeMin": 0.0,
+        "ChargingTimeMax": 0.0,
+        "PowerJumpDefaultSpeed": 0.0
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "AirStep": "EDS_AirWalkStep::UseSkillAirDash",
+        "IsAirKeyType": true,
+        "ID_AirStepIcon": 10005,
+        "ID_AirStopIcon": 0,
+        "AirCoolTime": 3.0,
+        "UseCostStamina": 3000,
+        "CostStaminaPerSecond": 0,
+        "ExpMagnification": 0.0,
+        "StandardSpeed": 4000.0,
+        "AirMoveHeight": 0.0,
+        "AirWalkTime": 2.0,
+        "UnableTime": 2.0,
+        "NextUseAirStep": [],
+        "AvailableTime": [],
+        "AirMotionBlur": true,
+        "HovStopSpeedDown": 2800.0,
+        "FallStartSpeed": 500.0,
+        "FallMoveSpeed": 100.0,
+        "ChargingTimeMin": 0.0,
+        "ChargingTimeMax": 0.0,
+        "PowerJumpDefaultSpeed": 0.0
+      }
+    }
+  }
+]

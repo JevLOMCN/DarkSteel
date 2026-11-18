@@ -1,0 +1,11 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum MoneyType {
+  MoneyType_None = 0;
+  MoneyType_Copper = 1;
+  MoneyType_Gold = 11;
+  MoneyType_NotTradeGold = 12;
+  MoneyType_Mileage = 51;
+}

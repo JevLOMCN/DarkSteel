@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{F76ECAA3-60A7-5BA2-A1CD-ABF9BA443C37}</ProjectGuid><RootNamespace>DynamicWind</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FComputeShaderUtils.cpp" />
+    <ClCompile Include="Private\FDynamicWindBoneChainData.cpp" />
+    <ClCompile Include="Private\FDynamicWindDataRenderProxy.cpp" />
+    <ClCompile Include="Private\FDynamicWindEvalCS.cpp" />
+    <ClCompile Include="Private\FDynamicWindExtraBoneData.cpp" />
+    <ClCompile Include="Private\FDynamicWindModule.cpp" />
+    <ClCompile Include="Private\FDynamicWindParameters.cpp" />
+    <ClCompile Include="Private\FDynamicWindSimulationGroupBoneLookup.cpp" />
+    <ClCompile Include="Private\FDynamicWindSimulationGroupData.cpp" />
+    <ClCompile Include="Private\FDynamicWindTransformProvider.cpp" />
+    <ClCompile Include="Private\FParameters.cpp" />
+    <ClCompile Include="Private\FRDGBuilder.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTypeInfo.cpp" />
+    <ClCompile Include="Private\IInterface_AssetUserData.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBufferScatterUploader.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDefaultDelete.cpp" />
+    <ClCompile Include="Private\TExecutableTask.cpp" />
+    <ClCompile Include="Private\TExecutableTaskBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TLinearArrayAllocatorBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TRDGLambdaPass.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TShaderRefBase.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\UDynamicWindData.cpp" />
+    <ClCompile Include="Private\UDynamicWindSkeletalData.cpp" />
+    <ClCompile Include="Private\UDynamicWindSubsystem.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.DynamicWind.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

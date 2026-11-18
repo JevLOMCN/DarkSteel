@@ -1,0 +1,454 @@
+syntax = "proto3";
+package server_msg_twoway;
+option csharp_namespace = "MirProto.ServerMsgTwoway";
+
+import "ErrorCode.proto";
+import "PkModeType.proto";
+import "messages.proto";
+import "role_register.proto";
+import "structs_character.proto";
+import "ds_game.proto";
+import "RaidMemberState.proto";
+import "structs_raid_party.proto";
+import "PhasingType.proto";
+import "StatusContentsInfo.proto";
+import "MailCategoryType.proto";
+import "_unique_id.proto";
+
+message ServerMessagesTwoway {
+  ErrorCode error_code = 100000000;
+  oneof ServerMessageTwoway {
+    server_msg_twoway.PongResponse PongRes = 5;
+    server_msg_twoway.PlayerGradeCapUpResponse PlayerGradeCapUpRes = 20;
+    server_msg_twoway.PkModeChangeResponse PkModeChangeRes = 70;
+    server_msg_twoway.ForceAttackCommandResponse ForceAttackCommandRes = 71;
+    server_msg_twoway.JoinGameServerResponse JoinGameServerRes = 72;
+    server_msg_twoway.CharacterExpUpResponse CharacterExpUpRes = 20000;
+    server_msg_twoway.CharacterAscendResponse CharacterAscendRes = 20001;
+    server_msg_twoway.CharacterEvolveResponse CharacterEvolveRes = 20002;
+    server_msg_twoway.CharacterEvolveCompleteResponse CharacterEvolveCompleteRes = 20003;
+    server_msg_twoway.PartyCreateResponse PartyCreateRes = 20100;
+    server_msg_twoway.PartyInviteResponse PartyInviteRes = 20101;
+    server_msg_twoway.PartyInvitedAcceptResponse PartyInvitedAcceptRes = 20102;
+    server_msg_twoway.PartyInvitedRejectResponse PartyInvitedRejectRes = 20103;
+    server_msg_twoway.PartyKickResponse PartyKickRes = 20104;
+    server_msg_twoway.PartyLeaveResponse PartyLeaveRes = 20105;
+    server_msg_twoway.PartyDismissResponse PartyDismissRes = 20106;
+    server_msg_twoway.PartyLeaderChangeResponse PartyLeaderChangeRes = 20107;
+    server_msg_twoway.PartySlotChangeResponse PartySlotChangeRes = 20108;
+    server_msg_twoway.PartyJoinResponse PartyJoinRes = 20109;
+    server_msg_twoway.QuestMoveResponse QuestMoveRes = 20200;
+    server_msg_twoway.QuestNpcTalkResponse QuestNpcTalkRes = 20201;
+    server_msg_twoway.QuestDailyPoolResponse QuestDailyPoolRes = 20202;
+    server_msg_twoway.QuestCompleteAllResponse QuestCompleteAllRes = 20203;
+    server_msg_twoway.ItemLockResponse ItemLockRes = 20300;
+    server_msg_twoway.ItemCraftResponse ItemCraftRes = 20301;
+    server_msg_twoway.ItemGemSocketEquipResponse ItemGemSocketEquipRes = 20306;
+    server_msg_twoway.ItemBuyResponse ItemBuyRes = 20307;
+    server_msg_twoway.ItemSellResponse ItemSellRes = 20308;
+    server_msg_twoway.ItemDestroyResponse ItemDestroyRes = 20309;
+    server_msg_twoway.ItemDismantleResponse ItemDismantleRes = 20310;
+    server_msg_twoway.ItemCampCookingResponse ItemCampCookingRes = 20313;
+    server_msg_twoway.EquipQuickSlotResponse EquipQuickSlotRes = 20316;
+    server_msg_twoway.ItemInventoryMoveResponse ItemInventoryMoveRes = 20317;
+    server_msg_twoway.ItemEnchantResponse ItemEnchantRes = 20318;
+    server_msg_twoway.ItemRepairResponse ItemRepairRes = 20319;
+    server_msg_twoway.ItemRestoreResponse ItemRestoreRes = 20320;
+    server_msg_twoway.ItemRestoreCancelResponse ItemRestoreCancelRes = 20321;
+    server_msg_twoway.ItemRestoreCompleteResponse ItemRestoreCompleteRes = 20322;
+    server_msg_twoway.ItemRestoreCompleteAllResponse ItemRestoreCompleteAllRes = 20323;
+    server_msg_twoway.ItemCraftWaitCompleteResponse ItemCraftWaitCompleteRes = 20330;
+    server_msg_twoway.ItemCraftWaitCompleteAllResponse ItemCraftWaitCompleteAllRes = 20331;
+    server_msg_twoway.ItemCraftWaitCompleteCancelResponse ItemCraftWaitCompleteCancelRes = 20332;
+    server_msg_twoway.WarpDeviceActivateResponse WarpDeviceActivateRes = 20500;
+    server_msg_twoway.ReturnHomeSaveResponse ReturnHomeSaveRes = 20501;
+    server_msg_twoway.ReturnHomeWarpResponse ReturnHomeWarpRes = 20502;
+    server_msg_twoway.ResurrectWarpResponse ResurrectWarpRes = 20503;
+    server_msg_twoway.WarpDeviceWarpResponse WarpDeviceWarpRes = 20504;
+    server_msg_twoway.PortalWarpResponse PortalWarpRes = 20505;
+    server_msg_twoway.GachaResponse GachaRes = 20600;
+    server_msg_twoway.PhasingPositionResponse PhasingPositionRes = 20800;
+    server_msg_twoway.RaidPartyCreateResponse RaidPartyCreateRes = 20900;
+    server_msg_twoway.RaidPartyInviteResponse RaidPartyInviteRes = 20901;
+    server_msg_twoway.RaidPartyInvitedResResponse RaidPartyInvitedResRes = 20902;
+    server_msg_twoway.RaidPartyKickVoteResponse RaidPartyKickVoteRes = 20903;
+    server_msg_twoway.RaidPartyLeaveResponse RaidPartyLeaveRes = 20904;
+    server_msg_twoway.RaidPartyDelegateLeaderResponse RaidPartyDelegateLeaderRes = 20905;
+    server_msg_twoway.RaidPartyKickVoteResResponse RaidPartyKickVoteResRes = 20906;
+    server_msg_twoway.RaidPartyKickResponse RaidPartyKickRes = 20907;
+    server_msg_twoway.RaidPartyMemberUpdateStateResponse RaidPartyMemberUpdateStateRes = 20908;
+    server_msg_twoway.RaidPartySlotChangeResponse RaidPartySlotChangeRes = 20909;
+    server_msg_twoway.RaidPartyJoinResponse RaidPartyJoinRes = 20910;
+    server_msg_twoway.RaidPartyChangeSettingResponse RaidPartyChangeSettingRes = 20913;
+    server_msg_twoway.GetRaidPartyPassWordResponse GetRaidPartyPassWordRes = 20914;
+    server_msg_twoway.GetRaidPartyInfoResponse GetRaidPartyInfoRes = 20915;
+    server_msg_twoway.RaidPartyDungeonStartResponse RaidPartyDungeonStartRes = 20916;
+    server_msg_twoway.DungeonInResponse DungeonInRes = 20917;
+    server_msg_twoway.DungeonOutResponse DungeonOutRes = 20918;
+    server_msg_twoway.SkillSlotChangeResponse SkillSlotChangeRes = 21000;
+    server_msg_twoway.SkillLevelUpResponse SkillLevelUpRes = 21001;
+    server_msg_twoway.SkillAscendCompleteResponse SkillAscendCompleteRes = 21002;
+    server_msg_twoway.AccelWaitResponse AccelWaitRes = 21100;
+    server_msg_twoway.PlayerIconOpenResponse PlayerIconOpenRes = 21200;
+    server_msg_twoway.PlayerIconChangeResponse PlayerIconChangeRes = 21201;
+    server_msg_twoway.RingCommandSettingResponse RingCommandSettingRes = 21300;
+    server_msg_twoway.NpcRelationItemGrowResponse NpcRelationItemGrowRes = 21400;
+    server_msg_twoway.AchievementCompleteResponse AchievementCompleteRes = 21500;
+    server_msg_twoway.AchievementCompleteAllResponse AchievementCompleteAllRes = 21501;
+    server_msg_twoway.PlayerSkillLearnResponse PlayerSkillLearnRes = 21600;
+    server_msg_twoway.PlayerSkillLevelUpResponse PlayerSkillLevelUpRes = 21601;
+    server_msg_twoway.PlayerSkillResetResponse PlayerSkillResetRes = 21602;
+    server_msg_twoway.StatusDetailViewResponse StatusDetailViewRes = 21800;
+    server_msg_twoway.PersonalMailSendResponse PersonalMailSendRes = 21900;
+    server_msg_twoway.MailItemReceiveResponse MailItemReceiveRes = 21901;
+    server_msg_twoway.MailDeleteResponse MailDeleteRes = 21902;
+    server_msg_twoway.BreachDetailInfoResponse BreachDetailInfoRes = 22000;
+    server_msg_twoway.BreachEnterResponse BreachEnterRes = 22001;
+    server_msg_twoway.InnEnterResponse InnEnterRes = 22002;
+    server_msg_twoway.MountListSlotExtendResponse MountListSlotExtendRes = 22100;
+    server_msg_twoway.MountChangeCompanionResponse MountChangeCompanionRes = 22101;
+    server_msg_twoway.MountDeleteResponse MountDeleteRes = 22102;
+    server_msg_twoway.MountChangeNickNameResponse MountChangeNickNameRes = 22103;
+    server_msg_twoway.MountItemEquipResponse MountItemEquipRes = 22104;
+    server_msg_twoway.WeatherResponse WeatherRes = 22200;
+    protocol.ServerRoleRegister RoleRegister = 99999999;
+  }
+}
+message SubCharacterResponse {
+  CharacterInfo character_info = 1;
+}
+message PongResponse {
+  double server_ticks = 1;
+  double client_ticks = 2;
+}
+message GetAllCharactersResponse {
+  repeated CharacterInfo character_info = 2;
+}
+message PlayerGradeCapUpResponse {
+  int32 grade_cap = 1;
+}
+message PkModeChangeResponse {
+  PkModeType pk_mode_type = 2;
+}
+message ForceAttackCommandResponse {
+  bool phantom = 1;
+}
+message JoinGameServerResponse {
+  ErrorCode error_code = 100;
+  messages.FrontEndClientSession front_end_client_session = 1;
+  messages.PlayerEntity player = 2;
+  messages.MainCharacter main_character = 3;
+  int32 gmt_offset = 4;
+  repeated ds_game.DbWorkItem db_work_items = 5;
+  string nick_name = 6;
+  int32 char_level = 7;
+  string guild_name = 8;
+  uint32 last_zone_id = 9;
+}
+message CharacterExpUpResponse {
+  int32 cur_level = 1;
+  int32 prev_level = 2;
+  float prev_combat_power = 3;
+  map<int32, int32> remain_map = 4;
+  int32 char_id = 5;
+}
+message CharacterAscendResponse {
+  int32 ascend = 1;
+  int32 char_id = 2;
+  int32 cur_level = 3;
+  int32 prev_level = 4;
+  float prev_combat_power = 5;
+}
+message CharacterEvolveResponse {
+  int32 char_id = 1;
+  int64 wait_complete_uid = 2;
+}
+message CharacterEvolveCompleteResponse {
+  int32 char_id = 1;
+  int32 evolve = 2;
+}
+message PartyCreateResponse {
+  int64 party_uid = 1;
+}
+message PartyInviteResponse {
+}
+message PartyInvitedAcceptResponse {
+}
+message PartyInvitedRejectResponse {
+}
+message PartyKickResponse {
+}
+message PartyLeaveResponse {
+}
+message PartyDismissResponse {
+}
+message PartyLeaderChangeResponse {
+}
+message PartySlotChangeResponse {
+}
+message PartyJoinResponse {
+}
+message QuestMoveResponse {
+}
+message QuestNpcTalkResponse {
+}
+message QuestDailyPoolResponse {
+  int32 suggest_id = 2;
+}
+message QuestCompleteAllResponse {
+}
+message ItemLockResponse {
+  int64 item_uid = 1;
+  bool is_lock = 2;
+}
+message ItemCraftResponse {
+  ErrorCode error_code = 1;
+  repeated ds_game.DbWorkItem db_work_items = 2;
+}
+message ItemCraftWaitCompleteCancelResponse {
+  ErrorCode error_code = 1;
+  int64 wait_complete_uid = 2;
+}
+message ItemCraftWaitCompleteResponse {
+  int64 wait_complete_uid = 1;
+  repeated ds_game.DbWorkItem db_work_items = 2;
+  repeated ds_game.DbWorkItem db_work_items_great_success = 3;
+}
+message ItemCraftWaitCompleteAllResponse {
+  repeated int64 wait_complete_uids = 1;
+  repeated ds_game.DbWorkItem db_work_items = 2;
+  repeated ds_game.DbWorkItem db_work_items_great_success = 3;
+}
+message ItemGemSocketEquipResponse {
+  ErrorCode error_code = 1;
+  ds_game.DbWorkItem db_work_item = 2;
+}
+message ItemBuyResponse {
+  ErrorCode error_code = 1;
+  repeated ds_game.DbWorkItem db_work_items_cost = 2;
+  repeated ds_game.DbWorkItem db_work_items_buy = 3;
+}
+message ItemSellResponse {
+  ErrorCode error_code = 1;
+  repeated ds_game.DbWorkItem db_work_items = 2;
+}
+message ItemDestroyResponse {
+  ErrorCode error_code = 1;
+  repeated ds_game.DbWorkItem db_work_items = 2;
+}
+message ItemDismantleResponse {
+  ErrorCode error_code = 1;
+  repeated ds_game.DbWorkItem db_work_items_decomposition = 2;
+  repeated ds_game.DbWorkItem db_work_items_cost = 3;
+  repeated ds_game.DbWorkItem db_work_items_result = 4;
+}
+message ItemCampCookingResponse {
+  bool is_share = 1;
+  bool is_success = 2;
+}
+message EquipQuickSlotResponse {
+  repeated ds_game.DbWorkItem db_work_items = 1;
+}
+message ItemInventoryMoveResponse {
+}
+message ItemEnchantResponse {
+  ds_game.DbWorkItem db_work_item = 1;
+}
+message ItemRepairResponse {
+  repeated ds_game.DbWorkItem db_work_items = 1;
+}
+message ItemRestoreResponse {
+  ds_game.DbWorkItem db_work_item = 1;
+}
+message ItemRestoreCancelResponse {
+  ds_game.DbWorkItem db_work_item = 1;
+}
+message ItemRestoreCompleteResponse {
+  ds_game.DbWorkItem db_work_item = 1;
+}
+message ItemRestoreCompleteAllResponse {
+  repeated ds_game.DbWorkItem db_work_items = 1;
+}
+message WarpDeviceActivateResponse {
+}
+message ReturnHomeSaveResponse {
+  int32 return_home_id = 1;
+}
+message ReturnHomeWarpResponse {
+}
+message ResurrectWarpResponse {
+}
+message WarpDeviceWarpResponse {
+}
+message PortalWarpResponse {
+}
+message GachaResponse {
+  repeated ds_game.DbWorkItem db_work_items = 1;
+}
+message RaidPartyCreateResponse {
+  ds_proto.RaidPartyInfo raid_party_info = 2;
+}
+message RaidPartyLeaveResponse {
+  int64 raid_party_uid = 2;
+}
+message RaidPartyDelegateLeaderResponse {
+  int64 raid_party_uid = 2;
+  int64 leader_player_uid = 3;
+}
+message RaidPartyMemberUpdateStateResponse {
+  int64 raid_party_uid = 2;
+  RaidMemberState member_state = 3;
+}
+message RaidPartyJoinResponse {
+  ds_proto.RaidPartyInfo raid_party_info = 2;
+}
+message RaidPartyInviteResponse {
+}
+message RaidPartyInvitedResResponse {
+  ds_proto.RaidPartyInfo raid_party_info = 2;
+}
+message RaidPartyKickVoteResponse {
+  int64 raid_party_uid = 2;
+  int64 target_player_uid = 3;
+}
+message RaidPartyKickVoteResResponse {
+  int64 raid_party_uid = 2;
+  int64 vote_player_uid = 3;
+  bool is_kick = 4;
+}
+message RaidPartyKickResponse {
+  int64 raid_party_uid = 2;
+  int64 kick_player_uid = 3;
+}
+message RaidPartySlotChangeResponse {
+  int64 raid_party_uid = 2;
+  uint32 dest_slot_index = 3;
+  uint32 change_slot_index = 4;
+}
+message RaidPartyChangeSettingResponse {
+  int64 raid_party_uid = 2;
+  string party_name = 3;
+  string password = 4;
+  bool is_public = 5;
+}
+message GetRaidPartyInfoResponse {
+  int64 raid_party_uid = 2;
+  ds_proto.RaidPartyInfo raid_party_info = 3;
+}
+message RaidPartyDungeonStartResponse {
+  int64 raid_party_uid = 2;
+}
+message GetRaidPartyPassWordResponse {
+  int64 raid_party_uid = 2;
+  string password = 3;
+}
+message DungeonInResponse {
+  int64 raid_party_uid = 1;
+}
+message DungeonOutResponse {
+  int64 raid_party_uid = 1;
+}
+message PlayerIconOpenResponse {
+  ErrorCode error_code = 1;
+  int32 player_icon_id = 2;
+}
+message PlayerIconChangeResponse {
+  ErrorCode error_code = 1;
+  int32 player_icon_id = 2;
+}
+message PhasingPositionResponse {
+  ErrorCode error_code = 1;
+  PhasingType phasing_type = 2;
+  int64 phasing_value = 3;
+}
+message RingCommandSettingResponse {
+}
+message SkillSlotChangeResponse {
+  repeated int32 after_skill_slot = 1;
+}
+message SkillLevelUpResponse {
+  ds_game.DbWorkItem skill_row = 1;
+}
+message SkillAscendCompleteResponse {
+  ds_game.DbWorkItem skill_row = 1;
+}
+message AccelWaitResponse {
+  repeated ds_game.DbWorkItem returned_accel_item = 2;
+}
+message AchievementCompleteResponse {
+  int32 achievement_id = 1;
+  repeated ds_game.DbWorkItem reward_view = 2;
+}
+message AchievementCompleteAllResponse {
+  repeated int32 achievement_ids = 1;
+  repeated ds_game.DbWorkItem reward_view = 2;
+}
+message PlayerSkillLearnResponse {
+}
+message PlayerSkillLevelUpResponse {
+}
+message PlayerSkillResetResponse {
+}
+message NpcRelationItemGrowResponse {
+  bool is_grade_evolve = 1;
+  int32 npc_id = 2;
+}
+message ContentsStatusInteger {
+  StatusContentsInfo contents = 1;
+  int32 status_value = 2;
+}
+message ContentsStatusIntegers {
+  repeated server_msg_twoway.ContentsStatusInteger contents_list = 1;
+}
+message StatusDetailViewResponse {
+  int32 char_id = 1;
+  map<uint64, server_msg_twoway.ContentsStatusIntegers> contents_status = 2;
+}
+message PersonalMailSendResponse {
+}
+message MailItemReceiveResponse {
+  MailCategoryType mail_category_type = 1;
+  UniqueId mail_uid = 2;
+}
+message MailDeleteResponse {
+  MailCategoryType mail_category_type = 1;
+  UniqueId mail_uid = 2;
+}
+message BreachDetailInfoResponse {
+  uint64 stuffportal_entity_id = 1;
+  ErrorCode error_code = 2;
+  uint32 reward_grade = 3;
+  optional string first_player_name = 4;
+  uint64 find_entity_id = 5;
+  uint32 cur_try_count = 6;
+  uint32 max_try_count = 7;
+  double life_end_time = 8;
+}
+message BreachEnterResponse {
+  uint64 stuffportal_entity_id = 1;
+  ErrorCode error_code = 2;
+}
+message MountListSlotExtendResponse {
+}
+message MountChangeCompanionResponse {
+  int64 mount_uid = 1;
+}
+message MountDeleteResponse {
+  int64 mount_uid = 1;
+}
+message MountChangeNickNameResponse {
+  int64 mount_uid = 1;
+}
+message MountItemEquipResponse {
+  int64 mount_uid = 1;
+}
+message WeatherResponse {
+  int32 today_weather_probability = 1;
+  repeated int32 today_weather = 2;
+  int32 tomorrow_weather_probability = 3;
+  repeated int32 tomorrow_weather = 4;
+}
+message InnEnterResponse {
+  uint64 stuffportal_entity_id = 1;
+  ErrorCode error_code = 2;
+}

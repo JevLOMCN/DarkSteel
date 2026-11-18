@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MoneyExchange",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MoneyExchange",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MoneyExchangeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "110": {
+        "ID": 110,
+        "DataStage": 23,
+        "Version": "*",
+        "StandardMoney": "EDS_MoneyType::Copper",
+        "ExchangeMoney": "EDS_MoneyType::Gold",
+        "ExchangeRate": 200000,
+        "StandardMoneyMin": 100
+      },
+      "120": {
+        "ID": 120,
+        "DataStage": 23,
+        "Version": "*",
+        "StandardMoney": "EDS_MoneyType::Copper",
+        "ExchangeMoney": "EDS_MoneyType::NotTradeGold",
+        "ExchangeRate": 200000,
+        "StandardMoneyMin": 100
+      },
+      "210": {
+        "ID": 210,
+        "DataStage": 23,
+        "Version": "*",
+        "StandardMoney": "EDS_MoneyType::Gold",
+        "ExchangeMoney": "EDS_MoneyType::Copper",
+        "ExchangeRate": 200000,
+        "StandardMoneyMin": 1
+      },
+      "220": {
+        "ID": 220,
+        "DataStage": 23,
+        "Version": "*",
+        "StandardMoney": "EDS_MoneyType::Gold",
+        "ExchangeMoney": "EDS_MoneyType::Mileage",
+        "ExchangeRate": 500000,
+        "StandardMoneyMin": 1
+      },
+      "230": {
+        "ID": 230,
+        "DataStage": 23,
+        "Version": "*",
+        "StandardMoney": "EDS_MoneyType::NotTradeGold",
+        "ExchangeMoney": "EDS_MoneyType::Gold",
+        "ExchangeRate": 1000000,
+        "StandardMoneyMin": 1
+      },
+      "310": {
+        "ID": 310,
+        "DataStage": 23,
+        "Version": "*",
+        "StandardMoney": "EDS_MoneyType::NotTradeGold",
+        "ExchangeMoney": "EDS_MoneyType::Copper",
+        "ExchangeRate": 200000,
+        "StandardMoneyMin": 1
+      },
+      "320": {
+        "ID": 320,
+        "DataStage": 23,
+        "Version": "*",
+        "StandardMoney": "EDS_MoneyType::Mileage",
+        "ExchangeMoney": "EDS_MoneyType::Gold",
+        "ExchangeRate": 2000000,
+        "StandardMoneyMin": 1
+      }
+    }
+  }
+]

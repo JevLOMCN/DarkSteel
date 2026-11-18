@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcNormalTalk",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcNormalTalk",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcNormalTalkTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20009,
+        "TalkType": "EDS_TalkType::Quest",
+        "TalkTypeCondition": 2991012,
+        "ID_TalkTitleId": {
+          "ID": 10000910010
+        },
+        "ID_DialogueGroupId": 20009101
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20009,
+        "TalkType": "EDS_TalkType::Always",
+        "TalkTypeCondition": 0,
+        "ID_TalkTitleId": {
+          "ID": 10000910020
+        },
+        "ID_DialogueGroupId": 20009102
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20009,
+        "TalkType": "EDS_TalkType::Always",
+        "TalkTypeCondition": 0,
+        "ID_TalkTitleId": {
+          "ID": 10000910030
+        },
+        "ID_DialogueGroupId": 20009103
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20009,
+        "TalkType": "EDS_TalkType::Once",
+        "TalkTypeCondition": 0,
+        "ID_TalkTitleId": {
+          "ID": 10000910040
+        },
+        "ID_DialogueGroupId": 20009104
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20005,
+        "TalkType": "EDS_TalkType::Quest",
+        "TalkTypeCondition": 2991002,
+        "ID_TalkTitleId": {
+          "ID": 10000910050
+        },
+        "ID_DialogueGroupId": 20005101
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20008,
+        "TalkType": "EDS_TalkType::Quest",
+        "TalkTypeCondition": 2991011,
+        "ID_TalkTitleId": {
+          "ID": 10000910060
+        },
+        "ID_DialogueGroupId": 20008101
+      }
+    }
+  }
+]

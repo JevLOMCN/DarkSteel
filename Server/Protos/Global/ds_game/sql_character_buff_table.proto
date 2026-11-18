@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlCharacterBuffTable {
+  int64 player_uid = 1;
+  int32 buff_id = 3;
+  string buff_states = 4;
+  google.protobuf.Timestamp created_at = 5;
+}

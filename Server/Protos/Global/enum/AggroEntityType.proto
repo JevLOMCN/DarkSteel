@@ -1,0 +1,9 @@
+syntax = "proto3";
+package server_msg;
+option csharp_namespace = "MirProto.ServerMsg";
+
+
+enum AggroEntityType {
+  AggroEntityType_PLAYER = 0;
+  AggroEntityType_NPC = 1;
+}

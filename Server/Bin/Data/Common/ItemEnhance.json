@@ -1,0 +1,6497 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemEnhance",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemEnhance",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemEnhanceTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10111": {
+        "ID": 10111,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          10,
+          10
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10112": {
+        "ID": 10112,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          15,
+          15
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10113": {
+        "ID": 10113,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          20,
+          20
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10114": {
+        "ID": 10114,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          25,
+          25
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10115": {
+        "ID": 10115,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          30,
+          30
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10116": {
+        "ID": 10116,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          35,
+          35
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10117": {
+        "ID": 10117,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          40,
+          40
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10118": {
+        "ID": 10118,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          45,
+          45
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10119": {
+        "ID": 10119,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          50,
+          50
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101110": {
+        "ID": 101110,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          55,
+          55
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101111": {
+        "ID": 101111,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          60,
+          60
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101112": {
+        "ID": 101112,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          65,
+          65
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10121": {
+        "ID": 10121,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          20,
+          20
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10122": {
+        "ID": 10122,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          25,
+          25
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10123": {
+        "ID": 10123,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          30,
+          30
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10124": {
+        "ID": 10124,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          35,
+          35
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10125": {
+        "ID": 10125,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          40,
+          40
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10126": {
+        "ID": 10126,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          45,
+          45
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10127": {
+        "ID": 10127,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          50,
+          50
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10128": {
+        "ID": 10128,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          55,
+          55
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10129": {
+        "ID": 10129,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          60,
+          60
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101210": {
+        "ID": 101210,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          65,
+          65
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101211": {
+        "ID": 101211,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          70,
+          70
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101212": {
+        "ID": 101212,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          75,
+          75
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10131": {
+        "ID": 10131,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          30,
+          30
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10132": {
+        "ID": 10132,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          35,
+          35
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10133": {
+        "ID": 10133,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          40,
+          40
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10134": {
+        "ID": 10134,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          45,
+          45
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10135": {
+        "ID": 10135,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          50,
+          50
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10136": {
+        "ID": 10136,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          55,
+          55
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10137": {
+        "ID": 10137,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          60,
+          60
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10138": {
+        "ID": 10138,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          65,
+          65
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10139": {
+        "ID": 10139,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          70,
+          70
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101310": {
+        "ID": 101310,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          75,
+          75
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101311": {
+        "ID": 101311,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          80,
+          80
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101312": {
+        "ID": 101312,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          85,
+          85
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10141": {
+        "ID": 10141,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          40,
+          40
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10142": {
+        "ID": 10142,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          45,
+          45
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10143": {
+        "ID": 10143,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          50,
+          50
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10144": {
+        "ID": 10144,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          55,
+          55
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10145": {
+        "ID": 10145,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          60,
+          60
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10146": {
+        "ID": 10146,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          65,
+          65
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10147": {
+        "ID": 10147,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          70,
+          70
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10148": {
+        "ID": 10148,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          75,
+          75
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10149": {
+        "ID": 10149,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          80,
+          80
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101410": {
+        "ID": 101410,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          85,
+          85
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101411": {
+        "ID": 101411,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          90,
+          90
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101412": {
+        "ID": 101412,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          95,
+          95
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10151": {
+        "ID": 10151,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          50,
+          50
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10152": {
+        "ID": 10152,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          55,
+          55
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10153": {
+        "ID": 10153,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          60,
+          60
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10154": {
+        "ID": 10154,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          65,
+          65
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10155": {
+        "ID": 10155,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          70,
+          70
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10156": {
+        "ID": 10156,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          75,
+          75
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10157": {
+        "ID": 10157,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          80,
+          80
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10158": {
+        "ID": 10158,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          85,
+          85
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "10159": {
+        "ID": 10159,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          90,
+          90
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101510": {
+        "ID": 101510,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          95,
+          95
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101511": {
+        "ID": 101511,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          100,
+          100
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "101512": {
+        "ID": 101512,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          105,
+          105
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20111": {
+        "ID": 20111,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          60,
+          60
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20112": {
+        "ID": 20112,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          65,
+          65
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20113": {
+        "ID": 20113,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          70,
+          70
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20114": {
+        "ID": 20114,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          75,
+          75
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20115": {
+        "ID": 20115,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          80,
+          80
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20116": {
+        "ID": 20116,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          85,
+          85
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20117": {
+        "ID": 20117,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          90,
+          90
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20118": {
+        "ID": 20118,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          95,
+          95
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20119": {
+        "ID": 20119,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          100,
+          100
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201110": {
+        "ID": 201110,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          105,
+          105
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201111": {
+        "ID": 201111,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          110,
+          110
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201112": {
+        "ID": 201112,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          115,
+          115
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20121": {
+        "ID": 20121,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          70,
+          70
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20122": {
+        "ID": 20122,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          75,
+          75
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20123": {
+        "ID": 20123,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          80,
+          80
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20124": {
+        "ID": 20124,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          85,
+          85
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20125": {
+        "ID": 20125,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          90,
+          90
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20126": {
+        "ID": 20126,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          95,
+          95
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20127": {
+        "ID": 20127,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          100,
+          100
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20128": {
+        "ID": 20128,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          105,
+          105
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20129": {
+        "ID": 20129,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          110,
+          110
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201210": {
+        "ID": 201210,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          115,
+          115
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201211": {
+        "ID": 201211,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          120,
+          120
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201212": {
+        "ID": 201212,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          125,
+          125
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20131": {
+        "ID": 20131,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          80,
+          80
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20132": {
+        "ID": 20132,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          85,
+          85
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20133": {
+        "ID": 20133,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          90,
+          90
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20134": {
+        "ID": 20134,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          95,
+          95
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20135": {
+        "ID": 20135,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          100,
+          100
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20136": {
+        "ID": 20136,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          105,
+          105
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20137": {
+        "ID": 20137,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          110,
+          110
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20138": {
+        "ID": 20138,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          115,
+          115
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20139": {
+        "ID": 20139,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          120,
+          120
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201310": {
+        "ID": 201310,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          125,
+          125
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201311": {
+        "ID": 201311,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          130,
+          130
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201312": {
+        "ID": 201312,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          135,
+          135
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20141": {
+        "ID": 20141,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          90,
+          90
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20142": {
+        "ID": 20142,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          95,
+          95
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20143": {
+        "ID": 20143,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          100,
+          100
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20144": {
+        "ID": 20144,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          105,
+          105
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20145": {
+        "ID": 20145,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          110,
+          110
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20146": {
+        "ID": 20146,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          115,
+          115
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20147": {
+        "ID": 20147,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          120,
+          120
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20148": {
+        "ID": 20148,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          125,
+          125
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20149": {
+        "ID": 20149,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          130,
+          130
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201410": {
+        "ID": 201410,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          135,
+          135
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201411": {
+        "ID": 201411,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          140,
+          140
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201412": {
+        "ID": 201412,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          145,
+          145
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20151": {
+        "ID": 20151,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          100,
+          100
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20152": {
+        "ID": 20152,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          105,
+          105
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20153": {
+        "ID": 20153,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          110,
+          110
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20154": {
+        "ID": 20154,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          115,
+          115
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20155": {
+        "ID": 20155,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          120,
+          120
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20156": {
+        "ID": 20156,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          125,
+          125
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20157": {
+        "ID": 20157,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          130,
+          130
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20158": {
+        "ID": 20158,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          135,
+          135
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "20159": {
+        "ID": 20159,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          140,
+          140
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201510": {
+        "ID": 201510,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          145,
+          145
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201511": {
+        "ID": 201511,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          150,
+          150
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "201512": {
+        "ID": 201512,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          155,
+          155
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30111": {
+        "ID": 30111,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          110,
+          110
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30112": {
+        "ID": 30112,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          115,
+          115
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30113": {
+        "ID": 30113,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          120,
+          120
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30114": {
+        "ID": 30114,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          125,
+          125
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30115": {
+        "ID": 30115,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          130,
+          130
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30116": {
+        "ID": 30116,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          135,
+          135
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30117": {
+        "ID": 30117,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          140,
+          140
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30118": {
+        "ID": 30118,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          145,
+          145
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30119": {
+        "ID": 30119,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          150,
+          150
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301110": {
+        "ID": 301110,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          155,
+          155
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301111": {
+        "ID": 301111,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          160,
+          160
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301112": {
+        "ID": 301112,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          165,
+          165
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30121": {
+        "ID": 30121,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          120,
+          120
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30122": {
+        "ID": 30122,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          125,
+          125
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30123": {
+        "ID": 30123,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          130,
+          130
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30124": {
+        "ID": 30124,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          135,
+          135
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30125": {
+        "ID": 30125,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          140,
+          140
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30126": {
+        "ID": 30126,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          145,
+          145
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30127": {
+        "ID": 30127,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          150,
+          150
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30128": {
+        "ID": 30128,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          155,
+          155
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30129": {
+        "ID": 30129,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          160,
+          160
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301210": {
+        "ID": 301210,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          165,
+          165
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301211": {
+        "ID": 301211,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          170,
+          170
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301212": {
+        "ID": 301212,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          175,
+          175
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30131": {
+        "ID": 30131,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          130,
+          130
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30132": {
+        "ID": 30132,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          135,
+          135
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30133": {
+        "ID": 30133,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          140,
+          140
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30134": {
+        "ID": 30134,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          145,
+          145
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30135": {
+        "ID": 30135,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          150,
+          150
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30136": {
+        "ID": 30136,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          155,
+          155
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30137": {
+        "ID": 30137,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          160,
+          160
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30138": {
+        "ID": 30138,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          165,
+          165
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30139": {
+        "ID": 30139,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          170,
+          170
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301310": {
+        "ID": 301310,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          175,
+          175
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301311": {
+        "ID": 301311,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          180,
+          180
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301312": {
+        "ID": 301312,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          185,
+          185
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30141": {
+        "ID": 30141,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          140,
+          140
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30142": {
+        "ID": 30142,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          145,
+          145
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30143": {
+        "ID": 30143,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          150,
+          150
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30144": {
+        "ID": 30144,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          155,
+          155
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30145": {
+        "ID": 30145,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          160,
+          160
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30146": {
+        "ID": 30146,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          165,
+          165
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30147": {
+        "ID": 30147,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          170,
+          170
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30148": {
+        "ID": 30148,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          175,
+          175
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30149": {
+        "ID": 30149,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          180,
+          180
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301410": {
+        "ID": 301410,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          185,
+          185
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301411": {
+        "ID": 301411,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          190,
+          190
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301412": {
+        "ID": 301412,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          195,
+          195
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30151": {
+        "ID": 30151,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          150,
+          150
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30152": {
+        "ID": 30152,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          155,
+          155
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30153": {
+        "ID": 30153,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          160,
+          160
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30154": {
+        "ID": 30154,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          165,
+          165
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30155": {
+        "ID": 30155,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          170,
+          170
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30156": {
+        "ID": 30156,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          175,
+          175
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30157": {
+        "ID": 30157,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          180,
+          180
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30158": {
+        "ID": 30158,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          185,
+          185
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "30159": {
+        "ID": 30159,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          190,
+          190
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301510": {
+        "ID": 301510,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          195,
+          195
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301511": {
+        "ID": 301511,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          200,
+          200
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "301512": {
+        "ID": 301512,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          205,
+          205
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40111": {
+        "ID": 40111,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          160,
+          160
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40112": {
+        "ID": 40112,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          165,
+          165
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40113": {
+        "ID": 40113,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          170,
+          170
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40114": {
+        "ID": 40114,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          175,
+          175
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40115": {
+        "ID": 40115,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          180,
+          180
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40116": {
+        "ID": 40116,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          185,
+          185
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40117": {
+        "ID": 40117,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          190,
+          190
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40118": {
+        "ID": 40118,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          195,
+          195
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40119": {
+        "ID": 40119,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          200,
+          200
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401110": {
+        "ID": 401110,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          205,
+          205
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401111": {
+        "ID": 401111,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          210,
+          210
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401112": {
+        "ID": 401112,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Normal",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          215,
+          215
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40121": {
+        "ID": 40121,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          170,
+          170
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40122": {
+        "ID": 40122,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          175,
+          175
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40123": {
+        "ID": 40123,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          180,
+          180
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40124": {
+        "ID": 40124,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          185,
+          185
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40125": {
+        "ID": 40125,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          190,
+          190
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40126": {
+        "ID": 40126,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          195,
+          195
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40127": {
+        "ID": 40127,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          200,
+          200
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40128": {
+        "ID": 40128,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          205,
+          205
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40129": {
+        "ID": 40129,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          210,
+          210
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401210": {
+        "ID": 401210,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          215,
+          215
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401211": {
+        "ID": 401211,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          220,
+          220
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401212": {
+        "ID": 401212,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          225,
+          225
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40131": {
+        "ID": 40131,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          180,
+          180
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40132": {
+        "ID": 40132,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          185,
+          185
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40133": {
+        "ID": 40133,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          190,
+          190
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40134": {
+        "ID": 40134,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          195,
+          195
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40135": {
+        "ID": 40135,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          200,
+          200
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40136": {
+        "ID": 40136,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          205,
+          205
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40137": {
+        "ID": 40137,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          210,
+          210
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40138": {
+        "ID": 40138,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          215,
+          215
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40139": {
+        "ID": 40139,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          220,
+          220
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401310": {
+        "ID": 401310,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          225,
+          225
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401311": {
+        "ID": 401311,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          230,
+          230
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401312": {
+        "ID": 401312,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Rare",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          235,
+          235
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40141": {
+        "ID": 40141,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          190,
+          190
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40142": {
+        "ID": 40142,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          195,
+          195
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40143": {
+        "ID": 40143,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          200,
+          200
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40144": {
+        "ID": 40144,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          205,
+          205
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40145": {
+        "ID": 40145,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          210,
+          210
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40146": {
+        "ID": 40146,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          215,
+          215
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40147": {
+        "ID": 40147,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          220,
+          220
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40148": {
+        "ID": 40148,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          225,
+          225
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40149": {
+        "ID": 40149,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          230,
+          230
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401410": {
+        "ID": 401410,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          235,
+          235
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401411": {
+        "ID": 401411,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          240,
+          240
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401412": {
+        "ID": 401412,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Epic",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          245,
+          245
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40151": {
+        "ID": 40151,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 1,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          200,
+          200
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40152": {
+        "ID": 40152,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 2,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          205,
+          205
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40153": {
+        "ID": 40153,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 3,
+        "SuccessRate": 1000000,
+        "FailRate": 0,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          210,
+          210
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40154": {
+        "ID": 40154,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 4,
+        "SuccessRate": 800000,
+        "FailRate": 200000,
+        "GreatFailRate": 0,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          215,
+          215
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40155": {
+        "ID": 40155,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 5,
+        "SuccessRate": 700000,
+        "FailRate": 200000,
+        "GreatFailRate": 100000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          220,
+          220
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40156": {
+        "ID": 40156,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 6,
+        "SuccessRate": 600000,
+        "FailRate": 200000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          225,
+          225
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40157": {
+        "ID": 40157,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 7,
+        "SuccessRate": 500000,
+        "FailRate": 300000,
+        "GreatFailRate": 200000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          230,
+          230
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40158": {
+        "ID": 40158,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 8,
+        "SuccessRate": 400000,
+        "FailRate": 0,
+        "GreatFailRate": 600000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          235,
+          235
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "40159": {
+        "ID": 40159,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 9,
+        "SuccessRate": 300000,
+        "FailRate": 0,
+        "GreatFailRate": 700000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          240,
+          240
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401510": {
+        "ID": 401510,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 10,
+        "SuccessRate": 200000,
+        "FailRate": 0,
+        "GreatFailRate": 800000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          245,
+          245
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401511": {
+        "ID": 401511,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 11,
+        "SuccessRate": 100000,
+        "FailRate": 0,
+        "GreatFailRate": 900000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          250,
+          250
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      },
+      "401512": {
+        "ID": 401512,
+        "DataStage": 23,
+        "Version": "*",
+        "ItemType": [
+          "EDS_ItemType::TokenEquipTalisman"
+        ],
+        "ID_GradeType": "EDS_GradeType::Legendary",
+        "EnhanceStep": 12,
+        "SuccessRate": 50000,
+        "FailRate": 0,
+        "GreatFailRate": 9500000,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Copper"
+        ],
+        "MoneyCount": [
+          255,
+          255
+        ],
+        "ID_MoneyExchange": [
+          320
+        ],
+        "ID_MaterialEnhanceItem": 0,
+        "MaterialEnhanceItemCount": 0
+      }
+    }
+  }
+]

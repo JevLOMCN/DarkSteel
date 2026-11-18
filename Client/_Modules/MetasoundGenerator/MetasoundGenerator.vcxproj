@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{71432D5A-F971-53A4-924B-1D4E921F9D05}</ProjectGuid><RootNamespace>MetasoundGenerator</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAnyDataReference.cpp" />
+    <ClCompile Include="Private\FAsyncDynamicMetaSoundBuilder.cpp" />
+    <ClCompile Include="Private\FAsyncMetaSoundBuilder.cpp" />
+    <ClCompile Include="Private\FAsyncMetaSoundBuilderBase.cpp" />
+    <ClCompile Include="Private\FAsyncTask.cpp" />
+    <ClCompile Include="Private\FConcurrentInstanceCounter.cpp" />
+    <ClCompile Include="Private\FConcurrentInstanceCounterManager.cpp" />
+    <ClCompile Include="Private\FDataTransmissionCenter.cpp" />
+    <ClCompile Include="Private\FGeneratorInitParams.cpp" />
+    <ClCompile Include="Private\FInputVertexInterfaceData.cpp" />
+    <ClCompile Include="Private\FMetasoundConstGraphGenerator.cpp" />
+    <ClCompile Include="Private\FMetasoundDynamicGraphGenerator.cpp" />
+    <ClCompile Include="Private\FMetasoundDynamicGraphGeneratorInitParams.cpp" />
+    <ClCompile Include="Private\FMetasoundGenerator.cpp" />
+    <ClCompile Include="Private\FMetasoundGeneratorData.cpp" />
+    <ClCompile Include="Private\FMetasoundGeneratorModule.cpp" />
+    <ClCompile Include="Private\FModuleManager.cpp" />
+    <ClCompile Include="Private\FOperatorAndInputs.cpp" />
+    <ClCompile Include="Private\FOperatorBuildData.cpp" />
+    <ClCompile Include="Private\FOperatorCacheStatTracker.cpp" />
+    <ClCompile Include="Private\FOperatorContext.cpp" />
+    <ClCompile Include="Private\FOperatorPool.cpp" />
+    <ClCompile Include="Private\FOperatorPoolEntryID.cpp" />
+    <ClCompile Include="Private\FOutputBinding.cpp" />
+    <ClCompile Include="Private\FParameter.cpp" />
+    <ClCompile Include="Private\FRenderTimer.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FStats.cpp" />
+    <ClCompile Include="Private\FVertexInterfaceData.cpp" />
+    <ClCompile Include="Private\FWindowedHitRate.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseKeyIterator.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TCounter.cpp" />
+    <ClCompile Include="Private\TDataReadReference.cpp" />
+    <ClCompile Include="Private\TDataWriteReference.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TExecutableTaskBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGetAs.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMultiMap.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TOptional.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSortedMap.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\TUniquePtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.MetasoundGenerator.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

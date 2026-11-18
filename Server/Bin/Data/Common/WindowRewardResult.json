@@ -1,0 +1,197 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WindowRewardResult",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/WindowRewardResult",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_WindowRewardResultTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_RewardType::LevelUp",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::None"
+      },
+      "2": {
+        "ID": "EDS_RewardType::StuffGather",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::None"
+      },
+      "3": {
+        "ID": "EDS_RewardType::QuestComplete",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::None"
+      },
+      "4": {
+        "ID": "EDS_RewardType::Cheat",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::None"
+      },
+      "5": {
+        "ID": "EDS_RewardType::Drop",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::None"
+      },
+      "6": {
+        "ID": "EDS_RewardType::DropLucky",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::None"
+      },
+      "7": {
+        "ID": "EDS_RewardType::StuffGather_Lucky",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::None"
+      },
+      "15": {
+        "ID": "EDS_RewardType::DungeonFirstClear_inventory",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::None"
+      },
+      "16": {
+        "ID": "EDS_RewardType::DungeonFirstClear_Mail",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::None"
+      },
+      "17": {
+        "ID": "EDS_RewardType::ItemCraft",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6501
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultNormal"
+      },
+      "8": {
+        "ID": "EDS_RewardType::DungeonClear",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6504
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultLite"
+      },
+      "9": {
+        "ID": "EDS_RewardType::DungeonClear_Lucky",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6504
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultLite"
+      },
+      "10": {
+        "ID": "EDS_RewardType::AchievementComplete",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6502
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultLite"
+      },
+      "11": {
+        "ID": "EDS_RewardType::QuestMissionComplete",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6503
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultLite"
+      },
+      "18": {
+        "ID": "EDS_RewardType::ItemDismantle",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6505
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultLite"
+      },
+      "19": {
+        "ID": "EDS_RewardType::AccelWait",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6506
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultLite"
+      },
+      "20": {
+        "ID": "EDS_RewardType::Breach",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6507
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultLite"
+      },
+      "21": {
+        "ID": "EDS_RewardType::Gate",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6508
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultLite"
+      },
+      "22": {
+        "ID": "EDS_RewardType::ItemRestore",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6509
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultLite"
+      },
+      "23": {
+        "ID": "EDS_RewardType::Mail",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 6510
+        },
+        "ID_Icon": 0,
+        "Widget": "EDS_WindowWidget::CommonRewardResultNormal"
+      }
+    }
+  }
+]

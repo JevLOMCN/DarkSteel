@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MiniGameKeyTimeAttack",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MiniGameKeyTimeAttack",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MiniGameKeyTimeAttackTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "LimitTime1": 5.0,
+        "CommandList1": [
+          "EDS_KeyActionType::IA_MiniGame_Key_1",
+          "EDS_KeyActionType::IA_MiniGame_Key_1",
+          "EDS_KeyActionType::IA_MiniGame_Key_3",
+          "EDS_KeyActionType::IA_MiniGame_Key_2",
+          "EDS_KeyActionType::IA_MiniGame_Key_4"
+        ],
+        "LimitTime2": 4.0,
+        "CommandList2": [
+          "EDS_KeyActionType::IA_MiniGame_Key_4",
+          "EDS_KeyActionType::IA_MiniGame_Key_2",
+          "EDS_KeyActionType::IA_MiniGame_Key_2",
+          "EDS_KeyActionType::IA_MiniGame_Key_3",
+          "EDS_KeyActionType::IA_MiniGame_Key_1",
+          "EDS_KeyActionType::IA_MiniGame_Key_2"
+        ],
+        "LimitTime3": 0.0,
+        "CommandList3": [],
+        "ServerVerificationTime": 1.0,
+        "ID_ResourceSound": 9101
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "LimitTime1": 4.0,
+        "CommandList1": [
+          "EDS_KeyActionType::IA_MiniGame_Key_3",
+          "EDS_KeyActionType::IA_MiniGame_Key_3",
+          "EDS_KeyActionType::IA_MiniGame_Key_3",
+          "EDS_KeyActionType::IA_MiniGame_Key_1"
+        ],
+        "LimitTime2": 0.0,
+        "CommandList2": [],
+        "LimitTime3": 0.0,
+        "CommandList3": [],
+        "ServerVerificationTime": 1.0,
+        "ID_ResourceSound": 9101
+      }
+    }
+  }
+]

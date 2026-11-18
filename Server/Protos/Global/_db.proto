@@ -1,0 +1,93 @@
+syntax = "proto3";
+package db;
+option csharp_namespace = "MirProto.Db";
+
+import "google/protobuf/descriptor.proto";
+import "_db_enum.proto";
+
+message IndexSpec {
+  string name = 1;
+  db.OrderBy order = 2;
+  optional bool unique = 3;
+  optional bool is_clustered = 4;
+  int32 index_order = 5;
+}
+message IndexIncludeSpec {
+  string name = 1;
+}
+message ColumnSpec {
+  optional bool ignore = 99;
+  optional bool null = 100;
+  optional db.OrderBy primary_key = 101;
+  optional int32 repeated = 102;
+  optional bool select_where = 103;
+  optional db.IndexSpec index = 105;
+  optional db.DataTableSpec data_table = 106;
+  repeated db.IndexSpec indexes = 107;
+  repeated db.IndexIncludeSpec index_includes = 108;
+  optional string primary_key_name = 110;
+  optional int32 primary_key_index_order = 111;
+  oneof item {
+    db.BoolSpec bool = 1;
+    db.FloatSpec float = 2;
+    db.DoubleSpec double = 3;
+    db.Int32Spec int32 = 4;
+    db.Int64Spec int64 = 5;
+    db.BytesSpec bytes = 6;
+    db.EnumSpec enum = 7;
+    db.StringSpec string = 9;
+    db.TimestampSpec timestamp = 10;
+    db.UniqueIdSpec unique_id = 11;
+    db.VectorSpec vector = 12;
+  }
+}
+message DataTableSpec {
+  string table = 1;
+  string id = 2;
+  string text = 3;
+}
+message BoolSpec {
+  optional bool sql_default = 1;
+  optional bool select_not_in = 10;
+}
+message FloatSpec {
+  optional float sql_default = 1;
+}
+message DoubleSpec {
+  optional double sql_default = 1;
+}
+message Int32Spec {
+  optional db.SqlInt32Type sql_type = 1;
+  optional int32 sql_default = 2;
+  optional bool identity = 3;
+  optional bool select_not_in = 10;
+}
+message Int64Spec {
+  optional int64 sql_default = 1;
+  optional bool identity = 2;
+  optional db.SqlInt64Type sql_type = 3;
+}
+message BytesSpec {
+  int32 len = 1;
+  db.SqlBinaryType sql_type = 2;
+}
+message EnumSpec {
+  optional int32 sql_default = 1;
+}
+message StringSpec {
+  int32 len = 1;
+  db.SqlStringType sql_type = 2;
+  optional string sql_default = 3;
+  optional bool password = 4;
+  optional bool is_optional = 6;
+}
+message TimestampSpec {
+  optional db.SqlDateTimeType sql_type = 1;
+  optional db.SqlDatetimeDefault sql_default = 2;
+}
+message UniqueIdSpec {
+  optional db.SqlUniqueIdDefault sql_default = 1;
+}
+message VectorSpec {
+  optional double sql_default = 1;
+}

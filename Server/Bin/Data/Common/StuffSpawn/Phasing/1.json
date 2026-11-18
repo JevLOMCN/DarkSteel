@@ -1,0 +1,1135 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StuffSpawn/Phasing/1",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StuffSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "90000001": {
+        "ID": 90000001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          110101
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": 107290.0,
+          "Y": 95520.0,
+          "Z": 6520.737
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 100.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 10.0,
+        "RespawnTimeMax": 20.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "90000002": {
+        "ID": 90000002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          110101
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": 108270.0,
+          "Y": 95050.0,
+          "Z": 6532.948
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 100.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 10.0,
+        "RespawnTimeMax": 20.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "90000003": {
+        "ID": 90000003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          110101
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": 108480.0,
+          "Y": 95580.0,
+          "Z": 6526.5293
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 100.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 10.0,
+        "RespawnTimeMax": 20.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -206743.0,
+          "Y": -81634.0,
+          "Z": 8616.89
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -208369.0,
+          "Y": -80360.0,
+          "Z": 8622.745
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -210394.0,
+          "Y": -79846.0,
+          "Z": 8721.565
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -206095.0,
+          "Y": -83291.0,
+          "Z": 8850.252
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -199717.0,
+          "Y": -80521.0,
+          "Z": 8835.467
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -214935.0,
+          "Y": -77166.0,
+          "Z": 8907.187
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -216848.0,
+          "Y": -72026.0,
+          "Z": 8469.041
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -218991.0,
+          "Y": -71005.0,
+          "Z": 8747.154
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -215857.0,
+          "Y": -67094.0,
+          "Z": 9073.719
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1004
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -214824.0,
+          "Y": -64239.0,
+          "Z": 8686.349
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 600.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -227423.0,
+          "Y": -79940.0,
+          "Z": 7558.0
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -228312.0,
+          "Y": -76835.0,
+          "Z": 7480.577
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -229290.0,
+          "Y": -75706.0,
+          "Z": 7422.4785
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -229529.0,
+          "Y": -82117.0,
+          "Z": 7560.606
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -226066.0,
+          "Y": -85801.0,
+          "Z": 8330.877
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -225494.0,
+          "Y": -85020.0,
+          "Z": 8256.442
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -223976.0,
+          "Y": -81794.0,
+          "Z": 7840.9287
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -220711.0,
+          "Y": -84507.0,
+          "Z": 7901.315
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -220687.0,
+          "Y": -86231.0,
+          "Z": 8336.584
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1003
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -224033.0,
+          "Y": -81288.0,
+          "Z": 7980.457
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -183556.0,
+          "Y": -45351.0,
+          "Z": 5915.0
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -185995.0,
+          "Y": -44675.0,
+          "Z": 6192.456
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -188893.0,
+          "Y": -46834.0,
+          "Z": 7089.954
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -185790.0,
+          "Y": -41524.0,
+          "Z": 5660.318
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -190123.0,
+          "Y": -41430.0,
+          "Z": 6358.459
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -188915.0,
+          "Y": -37904.0,
+          "Z": 6025.703
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -186986.0,
+          "Y": -36479.0,
+          "Z": 5706.5366
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "33": {
+        "ID": 33,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -181662.0,
+          "Y": -41503.0,
+          "Z": 5150.787
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "34": {
+        "ID": 34,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -179425.0,
+          "Y": -41503.0,
+          "Z": 4948.3623
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "35": {
+        "ID": 35,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1005
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -180995.0,
+          "Y": -46759.0,
+          "Z": 5871.7207
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "36": {
+        "ID": 36,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -177232.0,
+          "Y": -76024.0,
+          "Z": 7580.595
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "37": {
+        "ID": 37,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -171697.0,
+          "Y": -76837.0,
+          "Z": 8011.8726
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "38": {
+        "ID": 38,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -176746.0,
+          "Y": -79967.0,
+          "Z": 7732.8687
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "39": {
+        "ID": 39,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -173121.0,
+          "Y": -80660.0,
+          "Z": 7481.2847
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "40": {
+        "ID": 40,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -164808.0,
+          "Y": -81449.0,
+          "Z": 6963.6416
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "41": {
+        "ID": 41,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -162810.0,
+          "Y": -80908.0,
+          "Z": 6481.035
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "42": {
+        "ID": 42,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -168434.0,
+          "Y": -74689.0,
+          "Z": 8064.9165
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "43": {
+        "ID": 43,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -175519.0,
+          "Y": -79234.0,
+          "Z": 7795.1016
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "44": {
+        "ID": 44,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -169986.0,
+          "Y": -72121.0,
+          "Z": 8194.979
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "45": {
+        "ID": 45,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1002
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 0,
+        "Location": {
+          "X": -168172.0,
+          "Y": -76828.0,
+          "Z": 8063.655
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 500.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldNormal",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 2.0,
+        "RespawnTimeMin": 15.0,
+        "RespawnTimeMax": 30.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      }
+    }
+  }
+]

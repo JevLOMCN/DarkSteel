@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum VelocityState {
+  VelocityState_Stop = 0;
+  VelocityState_Acceleration = 1;
+  VelocityState_ConstantVelocity = 2;
+  VelocityState_Deceleration = 3;
+}

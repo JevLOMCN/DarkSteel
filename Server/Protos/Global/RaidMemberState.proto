@@ -1,0 +1,14 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum RaidMemberState {
+  RaidMemberState_None = 0;
+  RaidMemberState_Waiting = 1;
+  RaidMemberState_Ready = 2;
+  RaidMemberState_DungeonInWarp = 3;
+  RaidMemberState_DungeonInPlay = 4;
+  RaidMemberState_DungeonOutWarp = 5;
+  RaidMemberState_DungeonOutPlay = 6;
+  RaidMemberState_OffLine = 9;
+}

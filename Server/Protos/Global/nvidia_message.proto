@@ -1,0 +1,226 @@
+syntax = "proto3";
+package nvidia_message;
+option csharp_namespace = "MirProto.NvidiaMessage";
+
+import "server_msg.proto";
+import "_vector.proto";
+import "MoveMode.proto";
+import "DamageMessage.proto";
+import "ability.proto";
+import "NpcBattleGrade.proto";
+import "enum/AiEntityType.proto";
+import "enum/Winner.proto";
+
+message NvidiaMessage {
+  oneof Messages {
+    nvidia_message.CommandReceivedProto CommandReceived = 1;
+    nvidia_message.AiTransferDataProto AiTransferData = 2;
+    server_msg.AiTrainingRoundResultResponse AiTrainingRoundResultRes = 3;
+  }
+}
+message CommandReceivedProto {
+  uint64 entity = 1;
+  uint64 command_id = 2;
+  uint32 server_id = 3;
+}
+message AiTransferDataProto {
+  uint64 round = 1;
+  double timestamp = 2;
+  nvidia_message.AiEventDataProto event_data = 3;
+  repeated nvidia_message.AiStateDataProto state_data = 4;
+  uint32 server_id = 5;
+}
+message AiEventDataProto {
+  repeated nvidia_message.GroupDamageEvents damage = 1;
+  repeated nvidia_message.AbnormalEvent abnormal = 2;
+  repeated nvidia_message.GroggyEvent groggy = 3;
+}
+message GroupDamageEvents {
+  repeated nvidia_message.DamageEvent damage_events = 1;
+}
+message GroggyEvent {
+  uint64 entity_id = 1;
+  double end_time = 2;
+}
+message AbnormalEvent {
+  uint64 entity_id = 1;
+  uint64 target_entity_id = 2;
+  int32 abnormal_id = 3;
+  Vector destination = 4;
+  double end_time = 5;
+  double event_time = 6;
+}
+message DamageEvent {
+  uint64 attacker_entity_id = 1;
+  uint64 defender_entity_id = 2;
+  Damage damage = 3;
+  int32 skill_attack_id = 4;
+  DamageMessage damage_info = 5;
+  double execute_time = 6;
+  double event_time = 7;
+  bool is_candidate_skill = 8;
+  int32 skill_id = 9;
+}
+message AiStateDataProto {
+  nvidia_message.CommonAiDataProto common = 1;
+  nvidia_message.SpecificAiDataProto specific = 2;
+}
+message CommonAiDataProto {
+  uint64 entity = 1;
+  nvidia_message.AiEntityType entity_type = 2;
+  Vector position = 3;
+  float direction = 4;
+  VectorF velocity = 5;
+  components.MoveMode move_mode = 6;
+  uint64 target = 7;
+  nvidia_message.SkillInfo skill_info = 8;
+  Vector destination = 9;
+  int32 hp = 10;
+  int32 mp = 11;
+  int32 vigor = 12;
+  int32 stamina = 13;
+  bool is_dead = 16;
+  int32 height_type = 17;
+  int32 accuracy = 18;
+  int32 physical_attack = 19;
+  int32 magic_attack = 20;
+  int32 critical = 21;
+  int32 smite_skill_damage = 22;
+  int32 critical_outcome = 23;
+  int32 atk_pvp_damage = 24;
+  int32 atk_normal_pve_damage = 25;
+  int32 normal_atk_damage = 26;
+  int32 atk_boss_damage = 27;
+  int32 skill_damage = 28;
+  int32 atk_all_damage = 29;
+  int32 normal_type_attack = 30;
+  int32 fire_type_attack = 31;
+  int32 water_type_attack = 32;
+  int32 electro_type_attack = 33;
+  int32 wind_type_attack = 34;
+  int32 light_type_attack = 35;
+  int32 dark_type_attack = 36;
+  int32 atk_cutting_damage = 37;
+  int32 atk_smash_damage = 38;
+  int32 atk_piercing_damage = 39;
+  int32 atk_projectile_damage = 40;
+  int32 atk_blaster_damage = 41;
+  int32 atk_explosion_damage = 42;
+  int32 atk_air_damage = 43;
+  int32 atk_ground_damage = 44;
+  int32 atk_underground_damage = 45;
+  int32 atk_all_position_damage = 46;
+  bool immune = 47;
+  bool immortal = 48;
+  bool unbeatable = 49;
+  bool pk_guard = 50;
+  int32 avoid_critical = 51;
+  int32 physical_defense = 52;
+  int32 magic_defense = 53;
+  int32 def_critical_outcome = 54;
+  int32 def_pvp_damage = 55;
+  int32 def_normal_pve_damage = 56;
+  int32 def_boss_damage = 57;
+  int32 def_normal_atk_damage = 58;
+  int32 def_skill_damage = 59;
+  int32 def_all_damage = 60;
+  int32 def_smite_skill_damage = 61;
+  int32 normal_type_defence = 62;
+  int32 fire_type_defence = 63;
+  int32 water_type_defence = 64;
+  int32 electro_type_defence = 65;
+  int32 wind_type_defence = 66;
+  int32 light_type_defence = 67;
+  int32 dark_type_defence = 68;
+  int32 dodge = 69;
+  int32 def_cutting_damage = 70;
+  int32 def_smash_damage = 71;
+  int32 def_piercing_damage = 72;
+  int32 def_projectile_damage = 73;
+  int32 def_blaster_damage = 74;
+  int32 def_explosion_damage = 75;
+  int32 def_air_damage = 76;
+  int32 def_ground_damage = 77;
+  int32 def_underground_damage = 78;
+  int32 def_all_position_damage = 79;
+  int32 def_element_type = 80;
+  int32 max_hp = 81;
+  int32 max_mp = 82;
+  int32 max_vigor = 83;
+  int32 max_stamina = 84;
+  nvidia_message.BuffStates buff_states = 87;
+  uint32 instance_id = 88;
+}
+message SpecificAiDataProto {
+  oneof data {
+    nvidia_message.BotAiDataProto bot = 2;
+    nvidia_message.NpcAiDataProto npc = 3;
+    nvidia_message.TotemAiDataProto totem = 4;
+  }
+}
+message BotAiDataProto {
+  int32 char_id = 1;
+  bool is_main_character = 2;
+  nvidia_message.SkillIds available_skill_ids = 3;
+  uint64 player_entity_id = 4;
+}
+message NpcAiDataProto {
+  int32 npc_id = 1;
+  double next_attack_time = 2;
+  int32 current_groggy_point = 3;
+  int32 max_groggy_point = 4;
+  nvidia_message.SkillIds available_skill_ids = 5;
+  nvidia_message.GroggyCount groggy_count = 6;
+  nvidia_message.Groggy groggy = 7;
+  NpcBattleGrade npc_battle_grade = 8;
+  bool is_ai_boss = 9;
+  bool is_using_chain_skill = 10;
+}
+message TotemAiDataProto {
+  int32 totem_id = 1;
+  double next_attack_time = 2;
+  uint64 owner_entity = 3;
+  double expired_time = 4;
+  int32 skill_id = 5;
+}
+message GroggyCount {
+  int32 count = 1;
+}
+message Groggy {
+  double expired_time = 1;
+}
+message BuffStates {
+  repeated nvidia_message.BuffState buff_state = 1;
+}
+message BuffState {
+  int32 buff_id = 1;
+  uint64 trigger_entity = 2;
+  int32 overlap_count = 3;
+}
+message SkillInfo {
+  int32 skill_id = 1;
+  uint64 target_entity_id = 2;
+  double end_ticks = 3;
+  Vector start_position = 4;
+  nvidia_message.SkillMoveAngles skill_move_random_angles = 5;
+  VectorF start_direction = 6;
+  nvidia_message.SkillIds candidate_skill_ids = 7;
+}
+message SkillMoveAngles {
+  repeated nvidia_message.SkillMoveAngle random_move_angles = 1;
+}
+message SkillMoveAngle {
+  int32 skill_attack_id = 1;
+  int32 move_angle = 2;
+}
+message SkillIds {
+  repeated int32 skill_ids = 1;
+}
+message DungeonLog {
+  uint32 dungeon_inst_Id = 1;
+  nvidia_message.AiTransferDataProto ai_data = 2;
+  nvidia_message.WinnerResult winner = 3;
+}
+message WinnerResult {
+  server_msg.Winner winner = 1;
+}

@@ -1,0 +1,2721 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcGimmickEvent",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcGimmickEvent",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcGimmickEventTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30003
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30006
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::InEvent",
+        "GimmickConditionValue": 3,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30007
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300013
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30007
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300013
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30007
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300013
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 1.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30011
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 2.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 1.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::CloseState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30011
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 2.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::InEvent",
+        "GimmickConditionValue": 2,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30013
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30013
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeIn",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeIn",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::EventSkill"
+        ],
+        "GimmickActionValue": [
+          1
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 2.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeIn",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeIn",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::EventSkill"
+        ],
+        "GimmickActionValue": [
+          10228
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 2.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Script",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30022
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30022
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::InEvent",
+        "GimmickConditionValue": 2,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SealAwake"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          11084
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SealAwake"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          11086
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Script",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeIn",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1001,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeIn",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1002,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeIn",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeIn",
+        "GimmickConditionValue": 74,
+        "GimmickConditionValueEX": 1005,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeIn",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1007,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeOut",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 5.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::OnHandling",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30034
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "33": {
+        "ID": 33,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::InEvent",
+        "GimmickConditionValue": 1,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 5.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "34": {
+        "ID": 34,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::OffHandling",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          30035
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "35": {
+        "ID": 35,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::InEvent",
+        "GimmickConditionValue": 1,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 5.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "36": {
+        "ID": 36,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1001,
+        "GimmickConditionValueEX2": 0.1,
+        "GimmickStateType": "EDS_GimmickStateType::HandlingStart",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "37": {
+        "ID": 37,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1001,
+        "GimmickConditionValueEX2": 0.1,
+        "GimmickStateType": "EDS_GimmickStateType::Handling",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "38": {
+        "ID": 38,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1001,
+        "GimmickConditionValueEX2": 0.1,
+        "GimmickStateType": "EDS_GimmickStateType::HandlingEnd",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "39": {
+        "ID": 39,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1003,
+        "GimmickConditionValueEX2": 0.1,
+        "GimmickStateType": "EDS_GimmickStateType::HandlingEnd",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "40": {
+        "ID": 40,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillDetection",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "41": {
+        "ID": 41,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          1074
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "42": {
+        "ID": 42,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          1075
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1000": {
+        "ID": 1000,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [],
+        "GimmickActionValue": [],
+        "GimmickActionTargetType": [],
+        "GimmickActionTargetValue": [],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Script",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          270039006
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::InEvent",
+        "GimmickConditionValue": 1,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          270039004
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1006": {
+        "ID": 1006,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          270039008
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1007": {
+        "ID": 1007,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          270039010
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1008": {
+        "ID": 1008,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          270039011
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1009": {
+        "ID": 1009,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::SendEvent"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          270039011
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1010": {
+        "ID": 1010,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::InEvent",
+        "GimmickConditionValue": 2,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "1011": {
+        "ID": 1011,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OpenState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "10002": {
+        "ID": 10002,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::SummonBoss",
+        "GimmickConditionValue": 80000003,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OffState",
+          "EDS_GimmickActionType::OffState"
+        ],
+        "GimmickActionValue": [
+          0,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID",
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          80000001,
+          0
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "10003": {
+        "ID": 10003,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 30000001,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OnState",
+          "EDS_GimmickActionType::OnState",
+          "EDS_GimmickActionType::Enable"
+        ],
+        "GimmickActionValue": [
+          0,
+          0,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID",
+          "EDS_GimmickActionTargetType::NpcID",
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          80000001,
+          80000002,
+          80000002
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "10004": {
+        "ID": 10004,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 30000001,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OnState",
+          "EDS_GimmickActionType::OnState",
+          "EDS_GimmickActionType::Enable"
+        ],
+        "GimmickActionValue": [
+          0,
+          0,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID",
+          "EDS_GimmickActionTargetType::NpcID",
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          80000001,
+          80000002,
+          80000002
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "10005": {
+        "ID": 10005,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Suicide",
+        "GimmickConditionValue": 80000003,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OnState",
+          "EDS_GimmickActionType::OnState",
+          "EDS_GimmickActionType::Enable"
+        ],
+        "GimmickActionValue": [
+          0,
+          0,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID",
+          "EDS_GimmickActionTargetType::NpcID",
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          80000001,
+          80000002,
+          80000002
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "20001": {
+        "ID": 20001,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40000001
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "20002": {
+        "ID": 20002,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40000002
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "20003": {
+        "ID": 20003,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow",
+          "EDS_GimmickActionType::Enable"
+        ],
+        "GimmickActionValue": [
+          15,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID",
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          40000003,
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "20004": {
+        "ID": 20004,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1001,
+        "GimmickConditionValueEX2": 0.1,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow",
+          "EDS_GimmickActionType::Enable"
+        ],
+        "GimmickActionValue": [
+          15,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID",
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          40000004,
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "20005": {
+        "ID": 20005,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillDetection",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "20006": {
+        "ID": 20006,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillCamp",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "30001": {
+        "ID": 30001,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 80000003,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::OnState"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::NpcID"
+        ],
+        "GimmickActionTargetValue": [
+          80000005
+        ],
+        "ActionCountMax": 1,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "40001": {
+        "ID": 40001,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          41101003
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "40002": {
+        "ID": 40002,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          41000002
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "40003": {
+        "ID": 40003,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Interaction",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow",
+          "EDS_GimmickActionType::Enable"
+        ],
+        "GimmickActionValue": [
+          15,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID",
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          41000003,
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "40004": {
+        "ID": 40004,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1001,
+        "GimmickConditionValueEX2": 0.1,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow",
+          "EDS_GimmickActionType::Enable"
+        ],
+        "GimmickActionValue": [
+          15,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID",
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          41000004,
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "40005": {
+        "ID": 40005,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillDetection",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "40006": {
+        "ID": 40006,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillCamp",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          15
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      },
+      "21001": {
+        "ID": 21001,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40101001
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21002": {
+        "ID": 21002,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillDetection",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21003": {
+        "ID": 21003,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillCamp",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21004": {
+        "ID": 21004,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40101004
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21005": {
+        "ID": 21005,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::VolumeHold",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 1001,
+        "GimmickConditionValueEX2": 0.1,
+        "GimmickStateType": "EDS_GimmickStateType::HandlingEnd",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow",
+          "EDS_GimmickActionType::CloseState"
+        ],
+        "GimmickActionValue": [
+          120,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID",
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          40101005,
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21006": {
+        "ID": 21006,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40101006
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21007": {
+        "ID": 21007,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40101007
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21008": {
+        "ID": 21008,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow",
+          "EDS_GimmickActionType::CloseState"
+        ],
+        "GimmickActionValue": [
+          120,
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID",
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          40101008,
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21009": {
+        "ID": 21009,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::InEvent",
+        "GimmickConditionValue": 1,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::Die"
+        ],
+        "GimmickActionValue": [
+          0
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21010": {
+        "ID": 21010,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40101009
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21011": {
+        "ID": 21011,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillDetection",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21012": {
+        "ID": 21012,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillDetection",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21101": {
+        "ID": 21101,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillDetection",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21102": {
+        "ID": 21102,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40102002
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21103": {
+        "ID": 21103,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40102003
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21104": {
+        "ID": 21104,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::PlayerSkillCamp",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::MySelf"
+        ],
+        "GimmickActionTargetValue": [
+          0
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21105": {
+        "ID": 21105,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40102005
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21106": {
+        "ID": 21106,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40102006
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21107": {
+        "ID": 21107,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40102007
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21201": {
+        "ID": 21201,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40103001
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21202": {
+        "ID": 21202,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40103002
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21203": {
+        "ID": 21203,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40103003
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "21204": {
+        "ID": 21204,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::StuffComplete",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          40103004
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::RangeParty"
+      },
+      "41001": {
+        "ID": 41001,
+        "DataStage": 23,
+        "GimmickConditionType": "EDS_GimmickConditionType::Die",
+        "GimmickConditionValue": 0,
+        "GimmickConditionValueEX": 0,
+        "GimmickConditionValueEX2": 0.0,
+        "GimmickStateType": "EDS_GimmickStateType::None",
+        "GimmickActionType": [
+          "EDS_GimmickActionType::DisplayShow"
+        ],
+        "GimmickActionValue": [
+          120
+        ],
+        "GimmickActionTargetType": [
+          "EDS_GimmickActionTargetType::StuffID"
+        ],
+        "GimmickActionTargetValue": [
+          41101001
+        ],
+        "ActionCountMax": 0,
+        "ActionCooltime": 0.0,
+        "IsActionCheck": 0,
+        "ID_StringUi": {
+          "ID": 300011
+        },
+        "ActionBroadcastTarget": "EDS_ActionBroadcastTargetType::All"
+      }
+    }
+  }
+]

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{88AC099E-455D-598F-AE56-EF7448CE3585}</ProjectGuid><RootNamespace>RHICore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAllocationContext.cpp" />
+    <ClCompile Include="Private\FCrashResult.cpp" />
+    <ClCompile Include="Private\FInitializer.cpp" />
+    <ClCompile Include="Private\FRHICommand.cpp" />
+    <ClCompile Include="Private\FRHICommandList.cpp" />
+    <ClCompile Include="Private\FRHICommandListBase.cpp" />
+    <ClCompile Include="Private\FRHIComputeCommandList.cpp" />
+    <ClCompile Include="Private\FRHIDescriptorAllocator.cpp" />
+    <ClCompile Include="Private\FRHIDiagnosticBuffer.cpp" />
+    <ClCompile Include="Private\FRHIHeapDescriptorAllocator.cpp" />
+    <ClCompile Include="Private\FRHIMemoryPool.cpp" />
+    <ClCompile Include="Private\FRHIOffsetHeapDescriptorAllocator.cpp" />
+    <ClCompile Include="Private\FRHIPoolAllocationData.cpp" />
+    <ClCompile Include="Private\FRHIPoolAllocator.cpp" />
+    <ClCompile Include="Private\FRHITextureDesc.cpp" />
+    <ClCompile Include="Private\FRHITransientHeap.cpp" />
+    <ClCompile Include="Private\FRHITransientHeapAllocator.cpp" />
+    <ClCompile Include="Private\FRHITransientHeapCache.cpp" />
+    <ClCompile Include="Private\FRHITransientMemoryStats.cpp" />
+    <ClCompile Include="Private\FRHITransientPagePool.cpp" />
+    <ClCompile Include="Private\FRHITransientPagePoolCache.cpp" />
+    <ClCompile Include="Private\FRHITransientPageSpanAllocator.cpp" />
+    <ClCompile Include="Private\FRHITransientResource.cpp" />
+    <ClCompile Include="Private\FRHITransientResourceHeapAllocator.cpp" />
+    <ClCompile Include="Private\FRHITransientResourcePageAllocator.cpp" />
+    <ClCompile Include="Private\FShaderCodeReader.cpp" />
+    <ClCompile Include="Private\FUniformBufferStaticSlotRegistry.cpp" />
+    <ClCompile Include="Private\IRHITransientMemoryCache.cpp" />
+    <ClCompile Include="Private\IRHITransientResourceAllocator.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayPrivateFriend.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TLinearArrayAllocatorBase.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TRHILambdaCommand.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTupleBaseElement.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.RHICore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

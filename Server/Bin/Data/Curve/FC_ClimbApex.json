@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "FC_ClimbApex",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Package": "/Game/Datas/Curve/FC_ClimbApex",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 3.0,
+            "ArriveTangent": -0.0024398626,
+            "ArriveTangentWeight": 0.57588124,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.57588124
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.5,
+            "ArriveTangent": -0.0009444911,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -0.0009444911,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 0.2,
+            "ArriveTangent": -0.009576604,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -0.009576604,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,4769 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WindowBase",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/WindowBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_WindowBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_WindowWidget::Login",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Login_N/W_Login.W_Login_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "2": {
+        "ID": "EDS_WindowWidget::APIServerList",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 40.0,
+          "Y": 190.0
+        },
+        "DefaultSize": {
+          "X": 1380.0,
+          "Y": 680.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Login_N/W_Login_APIServerSelectPopup.W_Login_APIServerSelectPopup_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "3": {
+        "ID": "EDS_WindowWidget::ServerList",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 40.0,
+          "Y": 190.0
+        },
+        "DefaultSize": {
+          "X": 1380.0,
+          "Y": 680.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Login_N/W_Login_ServerSelectPopup.W_Login_ServerSelectPopup_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "10002": {
+        "ID": "EDS_WindowWidget::LoginLocalList",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 40.0,
+          "Y": 190.0
+        },
+        "DefaultSize": {
+          "X": 1380.0,
+          "Y": 680.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Login_N/W_Login_AccountPopup.W_Login_AccountPopup_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "4": {
+        "ID": "EDS_WindowWidget::CreateCharacter",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/CharacterCreat_N/W_B_CharacterCreate_N.W_B_CharacterCreate_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::UI_CreateCharacter"
+      },
+      "5": {
+        "ID": "EDS_WindowWidget::Lobby",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/LogIn_N/W_B_Lobby_N.W_B_Lobby_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "10": {
+        "ID": "EDS_WindowWidget::Loading",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::TopUpper8",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Loading.W_Loading_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "903": {
+        "ID": "EDS_WindowWidget::CommonCenterLoading",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_Center_Loading.W_Common_Center_Loading_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "11": {
+        "ID": "EDS_WindowWidget::FadeInOut",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_FadeInOut_N.W_Common_FadeInOut_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "22": {
+        "ID": "EDS_WindowWidget::PopupLogOut",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::TopUpper9",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_SystemPopup01_N.W_Common_SystemPopup01_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "26": {
+        "ID": "EDS_WindowWidget::PopupCommon",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper9",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_SystemPopup01_N.W_Common_SystemPopup01_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "20": {
+        "ID": "EDS_WindowWidget::PopupSystem",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::TopUpper9",
+        "WindowInstanceType": "EDS_WindowInstanceType::Multiple",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_SystemPopup01_N.W_Common_SystemPopup01_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "23": {
+        "ID": "EDS_WindowWidget::PopupRequest",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper1",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -551.0,
+          "Y": -319.0
+        },
+        "DefaultSize": {
+          "X": 1102.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Message_N/W_Common_RequestPopup.W_Common_RequestPopup",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "28": {
+        "ID": "EDS_WindowWidget::PopupMoneyExchange",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper1",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_MoneyExchange_Popup_N.W_Common_MoneyExchange_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "249": {
+        "ID": "EDS_WindowWidget::PopupAccelBase",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_AccelBase_Popup_N.W_Common_AccelBase_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "27": {
+        "ID": "EDS_WindowWidget::PopupInput",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper9",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_Input_Popup_N.W_Common_Input_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "36": {
+        "ID": "EDS_WindowWidget::PopupConsumeMoney",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper9",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_ConsumeMoney_Popup.W_Common_ConsumeMoney_Popup_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "260": {
+        "ID": "EDS_WindowWidget::CommonRewardResultLite",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper1",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_Reward_Result_Lite_N.W_Common_Reward_Result_Lite_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "261": {
+        "ID": "EDS_WindowWidget::CommonRewardResultNormal",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper1",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_Reward_Result_Normal_N.W_Common_Reward_Result_Normal_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "208": {
+        "ID": "EDS_WindowWidget::CharacterTooltip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper6",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::None",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 560.0,
+          "Y": 830.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Character_Info_N/W_Character_ToolTip_N.W_Character_ToolTip_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "256": {
+        "ID": "EDS_WindowWidget::SkillDetailInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper6",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::None",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/SkillInfo_N/W_SkillDetailPopup_N.W_SkillDetailPopup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "233": {
+        "ID": "EDS_WindowWidget::RaidPartyMemberTooltip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 856.0,
+          "Y": 575.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Dungeon_N/W_Dungeon_RaidPartyFinder_Tooltip_MemberList_N.W_Dungeon_RaidPartyFinder_Tooltip_MemberList_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "234": {
+        "ID": "EDS_WindowWidget::RaidPartyDungeonTooltip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 856.0,
+          "Y": 575.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Dungeon_N/W_Dungeon_RaidPartyFinder_Tooltip_DungeonInfo_N.W_Dungeon_RaidPartyFinder_Tooltip_DungeonInfo_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "29": {
+        "ID": "EDS_WindowWidget::ActionTooltip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper1",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/W_Action_Tooltip_N.W_Action_Tooltip_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "31": {
+        "ID": "EDS_WindowWidget::CoinToolTip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper6",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_Property_ToolTip_N.W_Common_Property_ToolTip_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "32": {
+        "ID": "EDS_WindowWidget::CommonTextTooltip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper1",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_Text_ToolTip.W_Common_Text_ToolTip_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "33": {
+        "ID": "EDS_WindowWidget::RelationTooltip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper1",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/NPC_Contents_N/W_RelationTooltip_N.W_RelationTooltip_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "34": {
+        "ID": "EDS_WindowWidget::PointSlotTooltip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper1",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 520.0,
+          "Y": 650.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/W_Point_Tooltip_N.W_Point_Tooltip_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "258": {
+        "ID": "EDS_WindowWidget::StatusToolTip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper6",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::None",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 2000.0,
+          "Y": 367.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Character_Info_N/W_Character_Status_Detail_Tooltip_N.W_Character_Status_Detail_Tooltip_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "25": {
+        "ID": "EDS_WindowWidget::ContextMenu",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_ContextMenu_Popup_N.W_ContextMenu_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "225": {
+        "ID": "EDS_WindowWidget::ContentsTabFrame",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/W_B_ContentsFrame_N.W_B_ContentsFrame_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "204": {
+        "ID": "EDS_WindowWidget::ItemDetailInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightCenter",
+        "DefaultPosition": {
+          "X": -1910.0,
+          "Y": -500.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/ItemDetail_N/W_ItemDetailPopup_N.W_ItemDetailPopup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "215": {
+        "ID": "EDS_WindowWidget::ItemDetailInfoComparison",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightCenter",
+        "DefaultPosition": {
+          "X": -2750.0,
+          "Y": -500.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/ItemDetail_N/W_ItemDetailPopup_N.W_ItemDetailPopup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "259": {
+        "ID": "EDS_WindowWidget::StatusDetailPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper6",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Character_Info_N/W_Character_Status_Detail_Popup_N.W_Character_Status_Detail_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "906": {
+        "ID": "EDS_WindowWidget::CommonLevelUpResultPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_LevelUp_Result.W_Common_LevelUp_Result_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "50": {
+        "ID": "EDS_WindowWidget::MessageAlert",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": 555.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Message/W_HUD_Alert_Message_N.W_HUD_Alert_Message_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "51": {
+        "ID": "EDS_WindowWidget::MessageComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -510.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Message/W_HUD_Complete_Message_List_N.W_HUD_Complete_Message_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "57": {
+        "ID": "EDS_WindowWidget::MessageGm",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -1608.0,
+          "Y": -563.0
+        },
+        "DefaultSize": {
+          "X": 3217.0,
+          "Y": 238.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Message/W_HUD_GM_Message_N.W_HUD_GM_Message_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "52": {
+        "ID": "EDS_WindowWidget::MessageHeadline",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -745.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Message/W_HUD_Headline_Message_N.W_HUD_Headline_Message_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "53": {
+        "ID": "EDS_WindowWidget::MessageHeadlineLow",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -745.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Message/W_HUD_Headline_Message_N.W_HUD_Headline_Message_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "56": {
+        "ID": "EDS_WindowWidget::MessageContentsOpen",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -530.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Message/W_HUD_New_Contents_Message_N.W_HUD_New_Contents_Message_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "54": {
+        "ID": "EDS_WindowWidget::MessageWarning",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -385.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Message/W_HUD_Warning_Message.W_HUD_Warning_Message_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "55": {
+        "ID": "EDS_WindowWidget::MessageAttention",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Top",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -1608.0,
+          "Y": -563.0
+        },
+        "DefaultSize": {
+          "X": 3217.0,
+          "Y": 238.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Message/W_HUD_GM_Message_N.W_HUD_GM_Message_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "58": {
+        "ID": "EDS_WindowWidget::MessageNotification",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUpper9",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightCenter",
+        "DefaultPosition": {
+          "X": -767.0,
+          "Y": 190.0
+        },
+        "DefaultSize": {
+          "X": 767.0,
+          "Y": 373.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Message/W_HUD_Notification_System_N.W_HUD_Notification_System_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "105": {
+        "ID": "EDS_WindowWidget::HUDZoneInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -555.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/Hud_Message/W_HUD_Region_Message_N.W_HUD_Region_Message_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "107": {
+        "ID": "EDS_WindowWidget::HUDCrossHair",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_CrossHair.W_HUD_CrossHair_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "116": {
+        "ID": "EDS_WindowWidget::HUDPhasingComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -483.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/Hud_Message/W_HUD_Success_Failure_N.W_HUD_Success_Failure_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "35": {
+        "ID": "EDS_WindowWidget::SuccessFailureAlarm",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper6",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -483.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/Hud_Notification/W_HUD_CompleteAlarm_N.W_HUD_CompleteAlarm_N",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "103": {
+        "ID": "EDS_WindowWidget::PlayerLevelUp",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -483.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/Hud_Message/W_PlayerLevelUp.W_PlayerLevelUp_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1002": {
+        "ID": "EDS_WindowWidget::QuickSlot",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightBottom",
+        "DefaultPosition": {
+          "X": -478.0,
+          "Y": -168.0
+        },
+        "DefaultSize": {
+          "X": 432.0,
+          "Y": 108.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_PC_Quick_Slot_List_N.W_HUD_PC_Quick_Slot_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1060": {
+        "ID": "EDS_WindowWidget::RingCommandQuickSlot",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightBottom",
+        "DefaultPosition": {
+          "X": -478.0,
+          "Y": -294.0
+        },
+        "DefaultSize": {
+          "X": 432.0,
+          "Y": 296.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_PC_RingCommand_Quick_Slot_List_N.W_HUD_PC_RingCommand_Quick_Slot_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1003": {
+        "ID": "EDS_WindowWidget::SkillSlot",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::CenterBottom",
+        "DefaultPosition": {
+          "X": -1210.0,
+          "Y": -206.0
+        },
+        "DefaultSize": {
+          "X": 2420.0,
+          "Y": 143.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_PC_Skill_List_N.W_HUD_PC_Skill_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1010": {
+        "ID": "EDS_WindowWidget::GaugeCharacter",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 80.0,
+          "Y": 70.0
+        },
+        "DefaultSize": {
+          "X": 655.0,
+          "Y": 246.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_MyCharacter.W_HUD_MyCharacter_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1011": {
+        "ID": "EDS_WindowWidget::GaugeAction",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::CenterBottom",
+        "DefaultPosition": {
+          "X": -375.0,
+          "Y": -538.0
+        },
+        "DefaultSize": {
+          "X": 750.0,
+          "Y": 130.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_ActionProgress.W_HUD_ActionProgress_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "325": {
+        "ID": "EDS_WindowWidget::QuestNavigation",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::CenterBottom",
+        "DefaultPosition": {
+          "X": -50.0,
+          "Y": -380.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_Quest_Navigation.W_Quest_Navigation_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1012": {
+        "ID": "EDS_WindowWidget::CampAction",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindow",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::CenterBottom",
+        "DefaultPosition": {
+          "X": -1249.0,
+          "Y": -631.0
+        },
+        "DefaultSize": {
+          "X": 2500.0,
+          "Y": 400.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_Camp_N.W_HUD_Camp_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1022": {
+        "ID": "EDS_WindowWidget::BtnPopupSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightCenter",
+        "DefaultPosition": {
+          "X": -1510.0,
+          "Y": 155.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_SkillGroup.W_HUD_SkillGroup_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1032": {
+        "ID": "EDS_WindowWidget::TargetInfoMain",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::CenterTop",
+        "DefaultPosition": {
+          "X": -510.0,
+          "Y": 60.0
+        },
+        "DefaultSize": {
+          "X": 1020.0,
+          "Y": 200.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_BossProgress.W_HUD_BossProgress_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1036": {
+        "ID": "EDS_WindowWidget::DropItemNormal",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightCenter",
+        "DefaultPosition": {
+          "X": -1336.0,
+          "Y": 370.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_ItemDropGroup.W_HUD_ItemDropGroup_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1037": {
+        "ID": "EDS_WindowWidget::TrackerList",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightCenter",
+        "DefaultPosition": {
+          "X": -619.0,
+          "Y": -430.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_QuestTracker.W_HUD_QuestTracker_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1038": {
+        "ID": "EDS_WindowWidget::MiniMap",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightTop",
+        "DefaultPosition": {
+          "X": -572.0,
+          "Y": 76.0
+        },
+        "DefaultSize": {
+          "X": 460.0,
+          "Y": 420.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_Minimap.W_HUD_Minimap_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1035": {
+        "ID": "EDS_WindowWidget::SmallTalk",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::CenterBottom",
+        "DefaultPosition": {
+          "X": -348.0,
+          "Y": -620.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_SmallTalk.W_HUD_SmallTalk_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1050": {
+        "ID": "EDS_WindowWidget::BtnDungeonExit",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightCenter",
+        "DefaultPosition": {
+          "X": -350.0,
+          "Y": 100.0
+        },
+        "DefaultSize": {
+          "X": 350.0,
+          "Y": 100.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Button_N/W_Common_Button_TextIcon.W_Common_Button_TextIcon_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1049": {
+        "ID": "EDS_WindowWidget::BtnParty",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftCenter",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": -650.0
+        },
+        "DefaultSize": {
+          "X": 206.0,
+          "Y": 94.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_PartyBTN.W_HUD_PartyBTN_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1047": {
+        "ID": "EDS_WindowWidget::MyParty",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftCenter",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": -540.0
+        },
+        "DefaultSize": {
+          "X": 420.0,
+          "Y": 240.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_MyPartyGroup.W_HUD_MyPartyGroup_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1048": {
+        "ID": "EDS_WindowWidget::GroupParty",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftCenter",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": -220.0
+        },
+        "DefaultSize": {
+          "X": 470.0,
+          "Y": 390.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_PartyGroup.W_HUD_PartyGroup_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1039": {
+        "ID": "EDS_WindowWidget::Chatting",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Chat_N/W_Chat_N.W_Chat_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "242": {
+        "ID": "EDS_WindowWidget::InputKeyGroup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 130.0,
+          "Y": 230.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_Interaction_CampInstallation.W_HUD_Interaction_CampInstallation_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1051": {
+        "ID": "EDS_WindowWidget::HUDPhasingTimer",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::CenterTop",
+        "DefaultPosition": {
+          "X": -226.0,
+          "Y": 330.0
+        },
+        "DefaultSize": {
+          "X": 455.0,
+          "Y": 66.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_Phasing.W_HUD_Phasing_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "117": {
+        "ID": "EDS_WindowWidget::HUDTotalMenu",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightTop",
+        "DefaultPosition": {
+          "X": -150.0,
+          "Y": 40.0
+        },
+        "DefaultSize": {
+          "X": 120.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_Totalmenu_Btn.W_Totalmenu_Btn_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "326": {
+        "ID": "EDS_WindowWidget::InstanceTrackerList",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightTop",
+        "DefaultPosition": {
+          "X": -619.0,
+          "Y": 830.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_QuestInstanceTracker.W_HUD_QuestInstanceTracker_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "106": {
+        "ID": "EDS_WindowWidget::HUDPkModeChange",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindow",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "207": {
+        "ID": "EDS_WindowWidget::TotalMenu",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindow",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/TotalMenu_N/W_B_TotalMenu_N.W_B_TotalMenu_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "321": {
+        "ID": "EDS_WindowWidget::AcceptQuestList",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindow",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Quest_N/W_ActiveQuest_Popup_N.W_ActiveQuest_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1004": {
+        "ID": "EDS_WindowWidget::RingCommand",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -512.0,
+          "Y": -512.0
+        },
+        "DefaultSize": {
+          "X": 1024.0,
+          "Y": 1024.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/RingCommand_N/W_RingCommand_Contents_N.W_RingCommand_Contents_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1005": {
+        "ID": "EDS_WindowWidget::RingCommandSetting",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::None",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/RingCommand_N/W_B_RingCommand_Setting_N.W_B_RingCommand_Setting_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::UI_RingCmd"
+      },
+      "101": {
+        "ID": "EDS_WindowWidget::HUDCharHpLack",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper9",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_HPlack.W_HUD_HPlack_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "102": {
+        "ID": "EDS_WindowWidget::HUDDeath",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/Hud_Death/W_HUD_Death.W_HUD_Death_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "323": {
+        "ID": "EDS_WindowWidget::QuestMainComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Quest_N/W_QuestMainCompletePopup_N.W_QuestMainCompletePopup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "241": {
+        "ID": "EDS_WindowWidget::PlayerIconPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/TotalMenu_N/W_TotalMenu_Character_Player_Icon_Popup_N.W_TotalMenu_Character_Player_Icon_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "2001": {
+        "ID": "EDS_WindowWidget::DamageFontDefault",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUnder",
+        "WindowInstanceType": "EDS_WindowInstanceType::Multiple",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 130.0,
+          "Y": 230.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/DamageFont/W_DamageFont_Default.W_DamageFont_Default_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "2004": {
+        "ID": "EDS_WindowWidget::DamageFontsStunDown",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUnder",
+        "WindowInstanceType": "EDS_WindowInstanceType::Multiple",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 130.0,
+          "Y": 230.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/DamageFont/W_DamageFont_Stun_Down.W_DamageFont_Stun_Down_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "2005": {
+        "ID": "EDS_WindowWidget::DamageFontNumber",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUnder",
+        "WindowInstanceType": "EDS_WindowInstanceType::Multiple",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 130.0,
+          "Y": 230.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/DamageFont/W_DamageFont_Number.W_DamageFont_Number_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "2006": {
+        "ID": "EDS_WindowWidget::DamageFontMiss",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUnder",
+        "WindowInstanceType": "EDS_WindowInstanceType::Multiple",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 130.0,
+          "Y": 230.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/DamageFont/W_Damagefont_Text.W_Damagefont_Text_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "2007": {
+        "ID": "EDS_WindowWidget::BuffFont",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUnder",
+        "WindowInstanceType": "EDS_WindowInstanceType::Multiple",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 100.0,
+          "Y": 30.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_BuffMessage.W_BuffMessage_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "2008": {
+        "ID": "EDS_WindowWidget::TargetLockOn",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUnder",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 32.0,
+          "Y": 32.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/Effect/Widget_FX/W_LockOnTarget.W_LockOnTarget_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "2009": {
+        "ID": "EDS_WindowWidget::TargetSmite",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUnder",
+        "WindowInstanceType": "EDS_WindowInstanceType::Multiple",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/Effect/Widget_FX/W_SmiteTarget.W_SmiteTarget_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "2010": {
+        "ID": "EDS_WindowWidget::TargetSmiteOutgame",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudUnder",
+        "WindowInstanceType": "EDS_WindowInstanceType::Multiple",
+        "IsUseUiScale": true,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/Effect/Widget_FX/W_SmiteTarget_Outgame.W_SmiteTarget_Outgame_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "203": {
+        "ID": "EDS_WindowWidget::Character",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::None",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Character_Info_N/W_B_Character_Info_N.W_B_Character_Info_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "218": {
+        "ID": "EDS_WindowWidget::Skill",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::None",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/SkillInfo_N/W_B_SkillInfo_N.W_B_SkillInfo_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "257": {
+        "ID": "EDS_WindowWidget::CharacterEvolving",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::None",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Evolve_N/W_Evolve_N.W_Evolve_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "901": {
+        "ID": "EDS_WindowWidget::CharacterLevelResultPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Character_Info_N/W_Character_LevelUp_Complete_Message_N.W_Character_LevelUp_Complete_Message_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1059": {
+        "ID": "EDS_WindowWidget::ScreenOffIndicator",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -588.0,
+          "Y": -375.0
+        },
+        "DefaultSize": {
+          "X": 1177.0,
+          "Y": 1177.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Indicator/W_HUD_OffScreen_Indicator_N.W_HUD_OffScreen_Indicator_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "201": {
+        "ID": "EDS_WindowWidget::Inventory",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::None",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Inventory_N/W_B_Inventory_N.W_B_Inventory_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "202": {
+        "ID": "EDS_WindowWidget::InventoryFilter",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Inventory_N/W_Inventory_ItemFilter.W_Inventory_ItemFilter_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "209": {
+        "ID": "EDS_WindowWidget::Dungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::None",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Dungeon_N/W_B_Dungeon_N.W_B_Dungeon_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "211": {
+        "ID": "EDS_WindowWidget::PartyCreate",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Dungeon_N/W_CreateParty_Popup_N.W_CreateParty_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "231": {
+        "ID": "EDS_WindowWidget::RaidPartyFind",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::None",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Dungeon_N/W_B_Dungeon_RaidPartyFInder_N.W_B_Dungeon_RaidPartyFInder_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "232": {
+        "ID": "EDS_WindowWidget::RaidPartyFindFilter",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Dungeon_N/W_Dungeon_RaidPartyFinder_Filter_N.W_Dungeon_RaidPartyFinder_Filter_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "235": {
+        "ID": "EDS_WindowWidget::RaidPartyMemberSetting",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/Party_N/W_Hud_Party_Menu_Popup_N.W_Hud_Party_Menu_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "236": {
+        "ID": "EDS_WindowWidget::RaidPartySetting",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/Party_N/W_Hud_Party_Menu_Popup_N.W_Hud_Party_Menu_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "237": {
+        "ID": "EDS_WindowWidget::RaidPartyInputPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Dungeon_N/W_RaidParty_Popup_N.W_RaidParty_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "239": {
+        "ID": "EDS_WindowWidget::RaidPartyVote",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 500.0,
+          "Y": 440.0
+        },
+        "DefaultSize": {
+          "X": 372.0,
+          "Y": 244.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Dungeon_N/W_RaidParty_Vote_Popup_N.W_RaidParty_Vote_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "254": {
+        "ID": "EDS_WindowWidget::PartyMenu",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/Party_N/W_HUD_Party_Management_Popup_N.W_HUD_Party_Management_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "255": {
+        "ID": "EDS_WindowWidget::PartyInvitation",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/Party_N/W_Hud_PartyInvitation_Popup_N.W_Hud_PartyInvitation_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "226": {
+        "ID": "EDS_WindowWidget::OptionMenu",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Option_N/W_B_GameOption_N.W_B_GameOption_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::UI_GameOption"
+      },
+      "227": {
+        "ID": "EDS_WindowWidget::NpcInteraction",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/NPC_Interaction_N/W_Npc_Interaction_Main_N.W_Npc_Interaction_Main_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "311": {
+        "ID": "EDS_WindowWidget::InteractionQuestInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper1",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/NPC_Interaction_N/W_Npc_Interaction_QuestInfo_N.W_Npc_Interaction_QuestInfo_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "322": {
+        "ID": "EDS_WindowWidget::QuestDialogueScene",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Quest_N/W_QuestDialogueScene_N.W_QuestDialogueScene_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "302": {
+        "ID": "EDS_WindowWidget::QuestLocal",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Quest_N/Local_Quest_N/W_B_LocalQuest_N.W_B_LocalQuest_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "301": {
+        "ID": "EDS_WindowWidget::QuestMain",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Quest_N/Main_N/W_B_MainQuest_N.W_B_MainQuest_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "308": {
+        "ID": "EDS_WindowWidget::QuestRepeatAccept",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Quest_N/Repeat_N/W_B_QuestRepeatAccept_N.W_B_QuestRepeatAccept_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "309": {
+        "ID": "EDS_WindowWidget::QuestRepeatAcceptPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Quest_N/Repeat_N/W_QuestRepeatAccept_Popup_N.W_QuestRepeatAccept_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "350": {
+        "ID": "EDS_WindowWidget::Achievement",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Achievement_N/W_B_Achievement_N.W_B_Achievement_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "306": {
+        "ID": "EDS_WindowWidget::QuestWeekly",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Quest_N/Mission_N/W_B_Mission_N.W_B_Mission_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "307": {
+        "ID": "EDS_WindowWidget::QuestMonthly",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Quest_N/Mission_N/W_B_Mission_N.W_B_Mission_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "305": {
+        "ID": "EDS_WindowWidget::QuestDaily",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindow",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Quest_N/Daily_N/W_B_DailyQuest_N.W_B_DailyQuest_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "112": {
+        "ID": "EDS_WindowWidget::ItemGemPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper2",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/ItemGem_N/W_ItemGem_PopUp_N.W_ItemGem_PopUp_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "113": {
+        "ID": "EDS_WindowWidget::ItemGemChangePopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/ItemGem_N/W_ItemGem_Change_PopUp_N.W_ItemGem_Change_PopUp_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "110": {
+        "ID": "EDS_WindowWidget::ItemDismantle",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/ItemCraft_N/W_B_ItemDismantle_N.W_B_ItemDismantle_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "118": {
+        "ID": "EDS_WindowWidget::ItemRepair",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/ItemRepair_N/W_B_ItemRepair_N.W_B_ItemRepair_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "119": {
+        "ID": "EDS_WindowWidget::ItemEnchant",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/ItemEnchant_N/W_B_ItemEnchant_N.W_B_ItemEnchant_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "120": {
+        "ID": "EDS_WindowWidget::ItemEnchantResult",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/ItemEnchant_N/W_ItemEnchant_Result_N.W_ItemEnchant_Result_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "121": {
+        "ID": "EDS_WindowWidget::OpenBoxPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper2",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_OpenBox_Popup_N.W_Common_OpenBox_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "122": {
+        "ID": "EDS_WindowWidget::NumberPadPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/W_Common_NumberPad_Popup_N.W_Common_NumberPad_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "221": {
+        "ID": "EDS_WindowWidget::Gacha",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Gacha_N/W_B_Gacha.W_B_Gacha_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "222": {
+        "ID": "EDS_WindowWidget::GachaReward",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper0",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Gacha_N/W_GachaReward.W_GachaReward_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "206": {
+        "ID": "EDS_WindowWidget::NpcShop",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/NPC_Contents_N/W_Npc_Shop_N.W_Npc_Shop_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "219": {
+        "ID": "EDS_WindowWidget::NpcGift",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/NPC_Contents_N/W_Npc_Relation_N.W_Npc_Relation_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "220": {
+        "ID": "EDS_WindowWidget::ItemCraft",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/ItemCraft_N/W_B_ItemCraft_N.W_B_ItemCraft_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "210": {
+        "ID": "EDS_WindowWidget::NpcWarehouse",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Warehouse_N/W_B_Warehouse_N.W_B_Warehouse_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "331": {
+        "ID": "EDS_WindowWidget::Map",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_B_WorldMap_N.W_B_WorldMap_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::UI_WorldMap"
+      },
+      "332": {
+        "ID": "EDS_WindowWidget::MapTooltip",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper6",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::None",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_Tooltip_N.W_WorldMap_Tooltip_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0.3",
+        "WindowHideDelay": "0.3",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "333": {
+        "ID": "EDS_WindowWidget::MapMarkerNote",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper2",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Child",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldMap_N/W_WorldMap_MarkerNote_Popup_N.W_WorldMap_MarkerNote_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "341": {
+        "ID": "EDS_WindowWidget::Mail",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Mail_N/W_B_Mail_N.W_B_Mail_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "342": {
+        "ID": "EDS_WindowWidget::MailSendPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Mail_N/W_Mail_Reply_Popup_N.W_Mail_Reply_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "343": {
+        "ID": "EDS_WindowWidget::MailRecipientSearchPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Mail_N/W_Mail_PlayerSearch_Popup_N.W_Mail_PlayerSearch_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "905": {
+        "ID": "EDS_WindowWidget::SummonBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/SummonBoss_N/W_SummonBoss_N.W_SummonBoss_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "907": {
+        "ID": "EDS_WindowWidget::Breach",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Breach_N/W_Breach_N.W_Breach_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "",
+        "WindowHideDelay": "",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "908": {
+        "ID": "EDS_WindowWidget::Gate",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Gate_N/W_B_Gate_N.W_B_Gate_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "",
+        "WindowHideDelay": "",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "381": {
+        "ID": "EDS_WindowWidget::WorldBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WorldBoss_N/W_B_WorldBoss_N.W_B_WorldBoss_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1100": {
+        "ID": "EDS_WindowWidget::PlayerSkillInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::None",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/PlayerSkill/W_B_PlayerSkill_N.W_B_PlayerSkill_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1103": {
+        "ID": "EDS_WindowWidget::PlayerSkillCooking",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::None",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_Cooking/W_HUD_Cooking_N.W_HUD_Cooking_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "372": {
+        "ID": "EDS_WindowWidget::MountManagement",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Mounts_N/W_B_Mounts_Main_N.W_B_Mounts_Main_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "371": {
+        "ID": "EDS_WindowWidget::MountRegisterPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Mounts_N/W_Mount_Get_Popup_N.W_Mount_Get_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "374": {
+        "ID": "EDS_WindowWidget::MountRestorePopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Mounts_N/W_Mount_Restoration_Popup_N.W_Mount_Restoration_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "375": {
+        "ID": "EDS_WindowWidget::MountRepairPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Mounts_N/W_Mount_Repair_Popup_N.W_Mount_Repair_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "376": {
+        "ID": "EDS_WindowWidget::MountInteraction",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Mounts_N/W_B_Mounts_Interaction_Main_N.W_B_Mounts_Interaction_Main_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "377": {
+        "ID": "EDS_WindowWidget::MountLostReclaim",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Mounts_N/W_Mount_Lostarticle_N.W_Mount_Lostarticle_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "3001": {
+        "ID": "EDS_WindowWidget::MiniGame_KeyTimeAttack",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindow",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -779.0,
+          "Y": 21.0
+        },
+        "DefaultSize": {
+          "X": 1559.0,
+          "Y": 700.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/HUD_MiniGame/KeyTimeAttack/W_MiniGame_KeyTimeAttack_N.W_MiniGame_KeyTimeAttack_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::MiniGame_KeyTimeAttack"
+      },
+      "1053": {
+        "ID": "EDS_WindowWidget::ChattingGroupSettingPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Chat_N/Popup/W_Chat_GroupSetting_Popup_N.W_Chat_GroupSetting_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1054": {
+        "ID": "EDS_WindowWidget::ChattingGroupParticipantsPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Chat_N/Popup/W_Chat_GroupParticipants_Popup_N.W_Chat_GroupParticipants_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1055": {
+        "ID": "EDS_WindowWidget::ChattingGroupInvitationPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Chat_N/Popup/W_Chat_GroupInvitation_Popup_N.W_Chat_GroupInvitation_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1056": {
+        "ID": "EDS_WindowWidget::ChattingCustomSettingPopup",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Chat_N/Popup/W_Chat_Custom_Popup_N.W_Chat_Custom_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1057": {
+        "ID": "EDS_WindowWidget::ChattingSubTabList",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Chat_N/W_Chat_TabList_N.W_Chat_TabList_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1058": {
+        "ID": "EDS_WindowWidget::ChattingColorPicker",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::WindowUpper3",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::LeftTop",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Option_N/W_GameOption_ColorPicker_Popup_N.W_GameOption_ColorPicker_Popup_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "10006": {
+        "ID": "EDS_WindowWidget::CheatKeyBtn",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::RightTop",
+        "DefaultPosition": {
+          "X": -632.0,
+          "Y": 164.0
+        },
+        "DefaultSize": {
+          "X": 80.0,
+          "Y": 80.0
+        },
+        "IsClose": false,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/HUD_N/W_HUD_CheatBtn.W_HUD_CheatBtn_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "10005": {
+        "ID": "EDS_WindowWidget::CheatKey",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::HudWindow",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Center",
+        "DefaultPosition": {
+          "X": -1800.0,
+          "Y": -1000.0
+        },
+        "DefaultSize": {
+          "X": 3600.0,
+          "Y": 2000.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/DoNotPackages/EditorOnly/Cheat/EW_CheatWidget.EW_CheatWidget_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "10003": {
+        "ID": "EDS_WindowWidget::HeronPurifying",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/HeronPurifying_N/WB_HeronPurifying.WB_HeronPurifying_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "10004": {
+        "ID": "EDS_WindowWidget::ServerMap",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Hud",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::None",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/WarMap_N/W_WarMap.W_WarMap_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1201": {
+        "ID": "EDS_WindowWidget::GuildList",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_List_N.W_Guild_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1202": {
+        "ID": "EDS_WindowWidget::GuildInvited",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Invite_List_N.W_Guild_Invite_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1203": {
+        "ID": "EDS_WindowWidget::GuildCreate",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Create_N.W_Guild_Create_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1204": {
+        "ID": "EDS_WindowWidget::GuildJoinWaiting",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_JoinWaiting_List_N.W_Guild_JoinWaiting_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1205": {
+        "ID": "EDS_WindowWidget::GuildMain",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Main_N.W_Guild_Main_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1206": {
+        "ID": "EDS_WindowWidget::GuildMemberList",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Member_List_N.W_Guild_Member_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1207": {
+        "ID": "EDS_WindowWidget::GuildHistroy",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Histroy_List_N.W_Guild_Histroy_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1208": {
+        "ID": "EDS_WindowWidget::GuildSetting",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Setting_N.W_Guild_Setting_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1209": {
+        "ID": "EDS_WindowWidget::GuildSettingMember",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Setting_Member_N.W_Guild_Setting_Member_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1210": {
+        "ID": "EDS_WindowWidget::GuildPopupMemberGrade",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Popup_MemberGrade_N.W_Guild_Popup_MemberGrade_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1211": {
+        "ID": "EDS_WindowWidget::GuildPopupMemberPermission",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Popup_MemberPermission_N.W_Guild_Popup_MemberPermission_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1212": {
+        "ID": "EDS_WindowWidget::GuildSettingJoinWatting",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Setting_JoinWatting_List_N.W_Guild_Setting_JoinWatting_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1213": {
+        "ID": "EDS_WindowWidget::GuildSettingInvite",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Setting_Invite_List_N.W_Guild_Setting_Invite_List_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1214": {
+        "ID": "EDS_WindowWidget::GuildPopupNameChange",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Popup_NameChange_N.W_Guild_Popup_NameChange_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1215": {
+        "ID": "EDS_WindowWidget::GuildPopupMemberInvite",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Popup_MemberInvite_N.W_Guild_Popup_MemberInvite_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      },
+      "1216": {
+        "ID": "EDS_WindowWidget::GuildPopupGuildMasterTransfer",
+        "DataStage": 23,
+        "Version": "*",
+        "WindowLayerGroupType": "EDS_WindowLayerGroupType::Window",
+        "WindowInstanceType": "EDS_WindowInstanceType::One",
+        "IsUseUiScale": false,
+        "WindowAnchorType": "EDS_WindowAnchorType::Full",
+        "DefaultPosition": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DefaultSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "IsClose": true,
+        "Subordination": "EDS_WindowSubordination::Parent",
+        "WidgetPath": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Contents_N/Guild_N/W_Guild_Popup_GuildMasterTransfer_N.W_Guild_Popup_GuildMasterTransfer_N_C",
+          "SubPathString": ""
+        },
+        "TestID": 0,
+        "WindowOverDelay": "0",
+        "WindowHideDelay": "0",
+        "InputMappingType": "EDS_InputMappingType::None"
+      }
+    }
+  }
+]

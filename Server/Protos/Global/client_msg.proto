@@ -1,0 +1,514 @@
+syntax = "proto3";
+package client_msg;
+option csharp_namespace = "MirProto.ClientMsg";
+
+import "_options.proto";
+import "_vector.proto";
+import "messages.proto";
+import "role_register.proto";
+import "_unique_id.proto";
+import "MoveState.proto";
+import "VelocityState.proto";
+import "ChattingType.proto";
+import "SyncState.proto";
+import "LogoutReason.proto";
+import "MoveMode.proto";
+import "PkModeType.proto";
+import "ForceAttackRegistrationType.proto";
+import "GuildSortCriterion.proto";
+import "structs_guild.proto";
+import "DungeonType.proto";
+import "WaitCompleteType.proto";
+import "TamingMountSide.proto";
+import "GuildJoinType.proto";
+import "GuildAutoKickType.proto";
+import "api_guild.proto";
+
+enum TamingRequestType {
+  TamingRequestType_Taming = 0;
+  TamingRequestType_MiniGameSuccess = 1;
+  TamingRequestType_MiniGameFail = 2;
+}
+message ClientMessages {
+  oneof ClientMessage {
+    client_msg.JoinContinentRequest JoinContinentReq = 2;
+    client_msg.LogoutRequest LogoutReq = 3;
+    client_msg.NetSyncRequest NetSyncReq = 6;
+    client_msg.CastSkillRequest CastSkillReq = 7;
+    client_msg.FacingPitchUpdateRequest FacingPitchUpdateReq = 8;
+    client_msg.EffectBuffUpdateRequest EffectBuffUpdateReq = 9;
+    client_msg.JoinMapReadyComplete JoinMapReadyCompleteReq = 10;
+    client_msg.TerminateSkillRequest TerminateSkillReq = 11;
+    client_msg.NetSkillAttackSyncRequest NetSkillAttackSyncReq = 12;
+    client_msg.MoveSyncRequest MoveSyncReq = 13;
+    client_msg.HeightSyncRequest HeightSyncReq = 14;
+    client_msg.TimeSyncRequest TimeSyncReq = 15;
+    client_msg.GetAllCharactersRequest GetAllCharactersReq = 16;
+    client_msg.ItemUseRequest ItemUseReq = 21;
+    client_msg.StuffGatherStartRequest StuffGatherStartReq = 22;
+    client_msg.StuffGatherCancelRequest StuffGatherCancelReq = 23;
+    client_msg.HeartStoneCancelRequest HeartStoneCancelReq = 24;
+    client_msg.TransportWarpRequest TransportWarpReq = 29;
+    client_msg.CombatPowerRequest CombatPowerReq = 30;
+    client_msg.PkModeChangeRequest PkModeChangeReq = 70;
+    client_msg.ForceAttackCommandRequest ForceAttackCommandReq = 71;
+    client_msg.PkHistoryRequest PkHistoryReq = 72;
+    client_msg.InventoryExtendRequest InvenExtendReq = 82;
+    client_msg.PhasingLeaveRequest PhasingLeaveReq = 101;
+    client_msg.WeatherRequest weatherReq = 161;
+    client_msg.ActionPointCurrencyChargeRequest ActionPointCurrencyChargeReq = 300;
+    client_msg.CreateCharacterRequest CreateCharacterReq = 321;
+    client_msg.WaitCompleteLoadRequest WaitCompleteLoadReq = 401;
+    client_msg.StopSkillMoveRequest StopSkillMoveReq = 420;
+    client_msg.CharacterAvailableSkillRequest CharacterAvailableSkillReq = 421;
+    client_msg.SkillModeEndRequest SkillModeEndReq = 422;
+    client_msg.GimmickInteractionRequest GimmickInteraction = 440;
+    client_msg.HandlingStartRequest HandlingStartReq = 450;
+    client_msg.HandlingEndRequest HandlingEndReq = 451;
+    client_msg.TamingRequest TamingReq = 480;
+    client_msg.MountRequest MountReq = 490;
+    client_msg.DisMountRequest DisMountReq = 491;
+    client_msg.ItemCampCookingPopupReplyRequest ItemCampCookingPopupReplyReq = 500;
+    client_msg.ItemOpenBoxRequest ItemOpenBoxReq = 501;
+    client_msg.CutSceneSkipRequest CutSceneSkipReq = 550;
+    client_msg.AltarBossSummonRequest AltarBossSummonReq = 560;
+    client_msg.EquipRequest EquipReq = 700;
+    client_msg.LogTimeSyncRequest LogTimeSyncReq = 999;
+    client_msg.ResetRequest ResetReq = 1000;
+    client_msg.QuestCancelRequest QuestCancelReq = 20000;
+    client_msg.QuestAcceptRequest QuestAcceptReq = 20001;
+    client_msg.QuestCompleteRequest QuestCompleteReq = 20002;
+    client_msg.QuestTrackingRequest QuestTrackingReq = 20003;
+    client_msg.QuestAutoTrackingRequest QuestAutoTrackingReq = 20004;
+    client_msg.GetPartGuildsInfoRequest GetPartGuildsInfoReq = 20100;
+    client_msg.GetGuildRequest GetGuildReq = 20101;
+    client_msg.CreateGuildRequest CreateGuildReq = 20102;
+    client_msg.UpdateGuildRequest UpdateGuildReq = 20103;
+    client_msg.DeleteGuildRequest DeleteGuildReq = 20104;
+    client_msg.GetGuildMembersRequest GetGuildMembersReq = 20105;
+    client_msg.JoinGuildRequest JoinGuildReq = 20106;
+    client_msg.ApproveJoinGuildRequest ApproveJoinGuildReq = 20107;
+    client_msg.DelegateGuildMasterRequest DelegateGuildMasterReq = 20108;
+    client_msg.ChangeGuildMemberGradeRequest ChangeGuildMemberGradeReq = 20109;
+    client_msg.DeleteGuildMemberRequest DeleteGuildMemberReq = 20110;
+    client_msg.GetGuildListRequest GetGuildListReq = 20111;
+    client_msg.LeaveGuildRequest LeaveGuildReq = 20113;
+    client_msg.InviteGuildRequest InviteGuildReq = 20114;
+    client_msg.AcceptGuildInvitationRequest AcceptGuildInvitationReq = 20115;
+    client_msg.GetGuildPendingListRequest GetGuildPendingListReq = 20116;
+    client_msg.GetMyPendingListRequest GetMyPendingListReq = 20117;
+    client_msg.CancelGuildInvitationRequest CancelGuildInvitationReq = 20118;
+    client_msg.CancelJoinGuildRequest CancelJoinGuildReq = 20119;
+    client_msg.UpdateGuildMarkRequest UpdateGuildMarkReq = 20120;
+    client_msg.UpdateGuildNameRequest UpdateGuildNameReq = 20121;
+    client_msg.UpdateGuildSettingRequest UpdateGuildSettingReq = 20122;
+    client_msg.CheckGuildNameExistRequest CheckGuildNameExistReq = 20123;
+    client_msg.WarpLoadingRequest WarpLoadingReq = 20214;
+    client_msg.WarpArriveRequest WarpArriveReq = 20215;
+    client_msg.WarpCancelRequest WarpCancelReq = 20216;
+    client_msg.RaidPartyListRequest RaidPartyListReq = 20300;
+    client_msg.GetRaidPartyInfoSearchRequest GetRaidPartyInfoSearchReq = 20301;
+    client_msg.RaidPartyAllDungeonOutRequest RaidPartyAllDungeonOutReq = 20302;
+    client_msg.PlayerSkillDetectRequest PlayerSkillDetectReq = 20400;
+    client_msg.OpenLockSkillUseRequest OpenLockSkillUseReq = 20500;
+    client_msg.OpenLockSkillCancelRequest OpenLockSkillCancelReq = 20501;
+    client_msg.LingSkillUseRequest LingSkillUseReq = 20600;
+    client_msg.LingSkillCancelRequest LingSkillCancelReq = 20601;
+    client_msg.LingSuccessNpcTalkStartRequest LingSuccessNpcTalkStartReq = 20602;
+    client_msg.LingSuccessNpcTalkEndRequest LingSuccessNpcTalkEndReq = 20603;
+    client_msg.CampInstallCastingRequest CampInstallCastingReq = 20700;
+    client_msg.CampSeatSitDownRequest CampSeatSitDownReq = 20701;
+    client_msg.CampSeatStandUpRequest CampSeatStandUpReq = 20702;
+    client_msg.RemoveCampRequest RemoveCampReq = 20703;
+    client_msg.ChatRequest ChatReq = 20900;
+    client_msg.MountLostViewRequest MountLostViewReq = 21400;
+    client_msg.MountLostReclaimRequest MountLostReclaimReq = 21401;
+    client_msg.HeartbeatRequest HeartbeatReq = 99998;
+    protocol.ServerRoleRegister RoleRegister = 99999;
+  }
+}
+message WeatherRequest {
+  uint64 entity = 1;
+}
+message StopSkillMoveRequest {
+  uint64 entity = 1;
+  Vector position = 2;
+  int32 skill_attack_id = 3;
+  client_msg.StopSkillInfo stop_skill_info = 4;
+}
+message CharacterAvailableSkillRequest {
+  repeated int32 skill_ids = 1;
+}
+message StopSkillInfo {
+  Vector position = 1;
+  double stop_time = 2;
+}
+message GimmickInteractionRequest {
+  uint64 entity_id = 1;
+  int32 interaction_id = 2;
+}
+message CharacterCustomHead {
+  string head_type = 1;
+  int32 head_color = 2;
+  int32 face_type = 3;
+  string hair_type = 4;
+}
+message CharacterCustomBody {
+  string body_type = 1;
+  int32 body_size = 2;
+  int32 body_head_size = 3;
+  int32 body_hand_size = 4;
+  int32 body_foot_size = 5;
+}
+message CharacterCustomInfo {
+  int32 gender = 1;
+  int32 voice_type = 2;
+  int32 skin_color = 4;
+  float pitch = 5;
+  client_msg.CharacterCustomHead head_info = 6;
+  client_msg.CharacterCustomBody body_info = 7;
+}
+message CreateCharacterRequest {
+  int64 player_uid = 1;
+  string nickname = 2;
+  int32 weapon = 3;
+  client_msg.CharacterCustomInfo custom_info = 4;
+}
+message NetSyncRequest {
+  Vector position = 1;
+  VectorF direction = 2;
+  VectorF velocity = 3;
+  VelocityState velocity_state = 4;
+  double ticks = 5;
+  components.MoveMode move_mode = 6;
+  SyncState sync_state = 7;
+  float acceleration = 8;
+  messages.MyTransport my_transport = 9;
+  messages.FallingInfo falling_info = 10;
+}
+message NetSkillAttackSyncRequest {
+  Vector position = 1;
+  float direction = 2;
+  VectorF velocity = 3;
+  double ticks = 4;
+  int64 skill_attack_id = 5;
+  Vector predicted_arrival_position = 6;
+}
+message JoinContinentRequest {
+  uint32 island_id = 1;
+}
+message LogoutRequest {
+  LogoutReason logout_reason = 1;
+}
+message ChatRequest {
+  string text = 1;
+  ChattingType chatting_type = 2;
+}
+message CastSkillRequest {
+  int32 skill_id = 1;
+  Vector position = 2;
+  float direction = 3;
+  uint64 target_id = 4;
+  double client_ticks = 5;
+  messages.MultiTargetHitPoint multi_target_hit_point = 6;
+  client_msg.StopSkillInfo stop_skill_info = 7;
+  messages.ProjectileInfo projectile_info = 8;
+}
+message TerminateSkillRequest {
+  int32 skill_id = 1;
+}
+message EffectBuffUpdateRequest {
+  int32 effect_buff_type = 1;
+  int32 effect_buff_add_value = 2;
+}
+message JoinMapReadyComplete {
+  bool phantom = 1;
+}
+message MoveSyncRequest {
+  Vector input_direction = 1;
+  Vector input_rotation = 2;
+  Vector position = 3;
+  Vector rotation = 4;
+  Vector direction = 5;
+  double velocity = 6;
+  double accelerate = 7;
+  MoveState move_state = 8;
+  double real_ticks = 9;
+}
+message HeightSyncRequest {
+  double height = 1;
+}
+message TimeSyncRequest {
+  double client_ticks = 1;
+}
+message GetAllCharactersRequest {
+  messages.FrontEndClientSession front_end_client_session = 1;
+  UniqueId player_session_uid = 2;
+}
+message EquipRequest {
+  int32 slot_type = 1;
+  int32 slot_index = 2;
+  int64 item_uid = 3;
+}
+message ItemUseRequest {
+  int32 item_id = 1;
+  uint64 target_id = 2;
+}
+message StuffGatherStartRequest {
+  uint64 stuff_entity_id = 1;
+  int32 interaction_id = 2;
+}
+message StuffGatherCancelRequest {
+  uint64 stuff_entity_id = 1;
+}
+message QuestAcceptRequest {
+  int32 quest_id = 1;
+}
+message QuestCompleteRequest {
+  int32 quest_id = 1;
+}
+message QuestTrackingRequest {
+  int32 quest_id = 1;
+}
+message QuestAutoTrackingRequest {
+  int32 quest_id = 1;
+  bool auto_tracking = 2;
+}
+message HeartStoneCancelRequest {
+}
+message TransportWarpRequest {
+  uint64 transport_entity_id = 1;
+  double ticks = 4;
+}
+message WarpLoadingRequest {
+}
+message WarpArriveRequest {
+}
+message WarpCancelRequest {
+}
+message LogTimeSyncRequest {
+  string client_ip = 1;
+  string client_name = 2;
+  float latency = 3;
+  double diff_server_time = 4;
+  double diff_local_time = 5;
+}
+message CombatPowerRequest {
+  uint64 target_id = 1;
+  int32 char_id = 2;
+}
+message QuestCancelRequest {
+  int32 quest_id = 1;
+}
+message PkModeChangeRequest {
+  PkModeType pk_mode_type = 1;
+}
+message ResetRequest {
+  int32 time_schedule_id = 1;
+}
+message ForceAttackCommandRequest {
+  ForceAttackRegistrationType cmd_type = 1;
+  uint64 target_entity_id = 2;
+  int64 target_player_uid = 3;
+}
+message PkHistoryRequest {
+}
+message GetPartGuildsInfoRequest {
+  uint32 page = 1;
+}
+message GetGuildRequest {
+  int64 guild_uid = 1;
+}
+message GetGuildListRequest {
+  optional int64 cursor = 1;
+  optional int32 size = 2;
+  optional GuildSortCriterion guild_sort_criterion = 3;
+}
+message CreateGuildRequest {
+  string guild_name = 1;
+  string mark_info = 2;
+  string recruit_message = 4;
+  string notice = 5;
+  GuildJoinType recruit_type = 6;
+  int32 recruit_level = 7;
+}
+message UpdateGuildRequest {
+  int64 guild_uid = 1;
+  repeated ds_proto.GuildInfo guild_infos = 2;
+}
+message DeleteGuildRequest {
+  int64 guild_uid = 1;
+}
+message GetGuildMembersRequest {
+  int64 guild_uid = 1;
+}
+message JoinGuildRequest {
+  int64 guild_uid = 1;
+}
+message InviteGuildRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+}
+message AcceptGuildInvitationRequest {
+  int64 guild_uid = 1;
+  bool accept_flag = 2;
+}
+message ApproveJoinGuildRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  bool approve_flag = 3;
+}
+message DelegateGuildMasterRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+}
+message ChangeGuildMemberGradeRequest {
+  int64 guild_uid = 1;
+  repeated api_guild.ChangeGuildMemberGradeInfo change_grade_member_list = 5;
+}
+message DeleteGuildMemberRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+}
+message LeaveGuildRequest {
+  int64 guild_uid = 1;
+}
+message CancelGuildInvitationRequest {
+  int64 dest_player_uid = 1;
+}
+message CancelJoinGuildRequest {
+  int64 guild_uid = 1;
+}
+message GetGuildPendingListRequest {
+  int64 guild_uid = 1;
+  int32 join_type = 2;
+}
+message GetMyPendingListRequest {
+  int32 join_type = 1;
+}
+message UpdateGuildMarkRequest {
+  int64 guild_uid = 1;
+  string mark_info = 2;
+}
+message UpdateGuildNameRequest {
+  int64 guild_uid = 1;
+  string guild_name = 2;
+}
+message UpdateGuildSettingRequest {
+  int64 guild_uid = 1;
+  GuildAutoKickType kick_auto_type = 2;
+  GuildJoinType recruit_type = 3;
+  int32 recruit_level = 4;
+  string recruit_message = 5;
+  string notice = 6;
+}
+message CheckGuildNameExistRequest {
+  string guild_name = 1;
+}
+message ActionPointCurrencyChargeRequest {
+}
+message InventoryExtendRequest {
+  int32 extend_id = 1;
+  int32 extend_count = 2;
+}
+message RaidPartyListRequest {
+  DungeonType dungeon_type = 1;
+  repeated int32 dungeon_ids = 2;
+  bool is_enable_join = 3;
+}
+message GetRaidPartyInfoSearchRequest {
+  string search_text = 1;
+}
+message RaidPartyAllDungeonOutRequest {
+  int64 raid_party_uid = 1;
+}
+message WaitCompleteLoadRequest {
+  WaitCompleteType wait_complete_type = 1;
+}
+message PhasingLeaveRequest {
+}
+message PlayerSkillDetectRequest {
+}
+message OpenLockSkillUseRequest {
+  uint64 target_entity_id = 1;
+  int32 interaction_id = 2;
+}
+message OpenLockSkillCancelRequest {
+  uint64 target_entity_id = 1;
+}
+message LingSkillUseRequest {
+  uint64 target_entity_id = 1;
+  int32 interaction_id = 2;
+}
+message LingSkillCancelRequest {
+  uint64 target_entity_id = 1;
+}
+message LingSuccessNpcTalkStartRequest {
+  uint64 target_entity_id = 1;
+}
+message LingSuccessNpcTalkEndRequest {
+}
+message CampInstallCastingRequest {
+  Vector camp_install_position = 1;
+  int32 item_id = 2;
+}
+message CampSeatSitDownRequest {
+  uint64 camp_npc_entity_id = 1;
+  int32 camp_seat_index = 2;
+  int32 interaction_id = 3;
+}
+message CampSeatStandUpRequest {
+}
+message RemoveCampRequest {
+  uint64 camp_npc_entity_id = 1;
+}
+message MountRequest {
+  uint32 seat_index = 1;
+}
+message DisMountRequest {
+  bool is_move_dismount = 1;
+}
+message ItemCampCookingPopupReplyRequest {
+  bool is_ok = 1;
+}
+message ItemOpenBoxRequest {
+  int32 item_id = 1;
+  int32 quantity = 2;
+  int32 open_box_select_id = 3;
+}
+message CutSceneSkipRequest {
+  int32 cutscene_id = 1;
+}
+message HeartbeatRequest {
+  double client_ticks = 1;
+}
+message AltarBossSummonRequest {
+  uint64 altar_entity_id = 1;
+  int32 summon_boss_id = 2;
+  int32 interaction_id = 3;
+}
+message TamingRequest {
+  uint64 taming_mount_entity_id = 1;
+  client_msg.TamingRequestType request_type = 2;
+  optional TamingMountSide taming_mount_side = 3;
+  int32 interaction_id = 4;
+}
+message SkillModeEndRequest {
+}
+message HandlingStartRequest {
+  uint64 handling_npc_entity_id = 1;
+  int32 interaction_id = 2;
+}
+message HandlingEndRequest {
+}
+message FacingPitchUpdateRequest {
+  float pitch_degree = 1;
+}
+message MountLostViewRequest {
+  int32 interaction_id = 1;
+  uint64 npc_entity_id = 2;
+}
+message MountLostReclaimRequest {
+  int64 list_id = 1;
+  int32 interaction_id = 2;
+}

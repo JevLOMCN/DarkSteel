@@ -1,0 +1,1161 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ScriptMissionTracker",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ScriptMissionTracker",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ScriptMissionTrackerTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2001001001
+        },
+        "ID_TrackerObjectiveId": [
+          2001001003
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          110105
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2001002001
+        },
+        "ID_TrackerObjectiveId": [
+          2001009003,
+          2001005003
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather",
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          1004,
+          1003
+        ],
+        "TrackerCount": [
+          3,
+          3
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2001003001
+        },
+        "ID_TrackerObjectiveId": [
+          2001010003,
+          2001005003,
+          2001001003
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill",
+          "EDS_TrackerCountType::StuffAppointGather",
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          110117,
+          1003,
+          110105
+        ],
+        "TrackerCount": [
+          1,
+          3,
+          1
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2001004001
+        },
+        "ID_TrackerObjectiveId": [
+          2001007003
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          1002
+        ],
+        "TrackerCount": [
+          3
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2001005001
+        },
+        "ID_TrackerObjectiveId": [
+          2001005003
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          1003
+        ],
+        "TrackerCount": [
+          3
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 1000000049
+        },
+        "ID_TrackerObjectiveId": [
+          1000000050
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::None"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          0
+        ]
+      },
+      "10001": {
+        "ID": 10001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 13000000000
+        },
+        "ID_TrackerObjectiveId": [
+          13000010000
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          270035001
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "10002": {
+        "ID": 10002,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 13000000001
+        },
+        "ID_TrackerObjectiveId": [
+          13000010001
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          270034001
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "10003": {
+        "ID": 10003,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 13000000002
+        },
+        "ID_TrackerObjectiveId": [
+          13000010002
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          270034005
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "10004": {
+        "ID": 10004,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 13000000003
+        },
+        "ID_TrackerObjectiveId": [
+          13000010003
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          270034006
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "2991042": {
+        "ID": 2991042,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2991019004
+        },
+        "ID_TrackerObjectiveId": [
+          2991019006
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          31006008
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "101009001": {
+        "ID": 101009001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 1010090200
+        },
+        "ID_TrackerObjectiveId": [
+          1010090300
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610021301
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "201100301": {
+        "ID": 201100301,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2011003200
+        },
+        "ID_TrackerObjectiveId": [
+          2011003300
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610022301
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "201300401": {
+        "ID": 201300401,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2013004200
+        },
+        "ID_TrackerObjectiveId": [
+          2014003320
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610041301
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "201300402": {
+        "ID": 201300402,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2013004200
+        },
+        "ID_TrackerObjectiveId": [
+          2013004300
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610041101
+        ],
+        "TrackerCount": [
+          4
+        ]
+      },
+      "201300403": {
+        "ID": 201300403,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2013004200
+        },
+        "ID_TrackerObjectiveId": [
+          2013004310
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610041101
+        ],
+        "TrackerCount": [
+          8
+        ]
+      },
+      "201500101": {
+        "ID": 201500101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2015001200
+        },
+        "ID_TrackerObjectiveId": [
+          2015001300,
+          2015001310
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill",
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610023101,
+          610023301
+        ],
+        "TrackerCount": [
+          4,
+          1
+        ]
+      },
+      "201600101": {
+        "ID": 201600101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2016001200
+        },
+        "ID_TrackerObjectiveId": [
+          2016001300
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610024301
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "201600102": {
+        "ID": 201600102,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2016001200
+        },
+        "ID_TrackerObjectiveId": [
+          2016001310
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610024101
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "201600103": {
+        "ID": 201600103,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2016001200
+        },
+        "ID_TrackerObjectiveId": [
+          2016001320
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610024102
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "202200101": {
+        "ID": 202200101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2022001200
+        },
+        "ID_TrackerObjectiveId": [
+          2022001320
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610025301
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "202200102": {
+        "ID": 202200102,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2022001200
+        },
+        "ID_TrackerObjectiveId": [
+          2022001300
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610025101
+        ],
+        "TrackerCount": [
+          6
+        ]
+      },
+      "202200103": {
+        "ID": 202200103,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 2022001200
+        },
+        "ID_TrackerObjectiveId": [
+          2022001310
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610025101
+        ],
+        "TrackerCount": [
+          8
+        ]
+      },
+      "300000005": {
+        "ID": 300000005,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 1000000049
+        },
+        "ID_TrackerObjectiveId": [
+          1000000050
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610026301
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "10104501": {
+        "ID": 10104501,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 1010090200
+        },
+        "ID_TrackerObjectiveId": [
+          1010090300
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610021301
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "10104502": {
+        "ID": 10104502,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 1010090200
+        },
+        "ID_TrackerObjectiveId": [
+          1010090300
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610022301
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "10104503": {
+        "ID": 10104503,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 1010090200
+        },
+        "ID_TrackerObjectiveId": [
+          1010090300
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610025301
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "10104504": {
+        "ID": 10104504,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 1010090200
+        },
+        "ID_TrackerObjectiveId": [
+          1010090300
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          610023101
+        ],
+        "TrackerCount": [
+          4
+        ]
+      },
+      "10104505": {
+        "ID": 10104505,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 1000000049
+        },
+        "ID_TrackerObjectiveId": [
+          1000000050
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::None"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          0
+        ]
+      },
+      "105010011": {
+        "ID": 105010011,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010001
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          10
+        ]
+      },
+      "105010021": {
+        "ID": 105010021,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010002
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          8
+        ]
+      },
+      "105010022": {
+        "ID": 105010022,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010002
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          10
+        ]
+      },
+      "105010023": {
+        "ID": 105010023,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010002
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          12
+        ]
+      },
+      "105010031": {
+        "ID": 105010031,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010001
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          10
+        ]
+      },
+      "105010041": {
+        "ID": 105010041,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010010
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          6
+        ]
+      },
+      "105010051": {
+        "ID": 105010051,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010014
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          42101002
+        ],
+        "TrackerCount": [
+          5
+        ]
+      },
+      "105010052": {
+        "ID": 105010052,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010015
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          42101003
+        ],
+        "TrackerCount": [
+          3
+        ]
+      },
+      "105010061": {
+        "ID": 105010061,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010011
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          7
+        ]
+      },
+      "105010071": {
+        "ID": 105010071,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010003
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          13
+        ]
+      },
+      "105010081": {
+        "ID": 105010081,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010012,
+          12000010013,
+          12000010012
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill",
+          "EDS_TrackerCountType::NpcAppointKill",
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          90101083,
+          90101082,
+          90101086
+        ],
+        "TrackerCount": [
+          9,
+          4,
+          5
+        ]
+      },
+      "105010082": {
+        "ID": 105010082,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010007
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          90101081
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "105010091": {
+        "ID": 105010091,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010001
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          8
+        ]
+      },
+      "105010092": {
+        "ID": 105010092,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010001
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          10
+        ]
+      },
+      "105010093": {
+        "ID": 105010093,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010001
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          12
+        ]
+      },
+      "105010101": {
+        "ID": 105010101,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010011
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          10
+        ]
+      },
+      "105010111": {
+        "ID": 105010111,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010002
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          16
+        ]
+      },
+      "105010121": {
+        "ID": 105010121,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010005
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "105010131": {
+        "ID": 105010131,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010009
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::None"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          0
+        ]
+      },
+      "105010141": {
+        "ID": 105010141,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010001
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          21
+        ]
+      },
+      "105010151": {
+        "ID": 105010151,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010008
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          90102071
+        ],
+        "TrackerCount": [
+          15
+        ]
+      },
+      "105010161": {
+        "ID": 105010161,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010006
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          12
+        ]
+      },
+      "105010171": {
+        "ID": 105010171,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010009
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          12
+        ]
+      },
+      "105010181": {
+        "ID": 105010181,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010010
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::StuffAppointGather"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          5
+        ]
+      },
+      "105010191": {
+        "ID": 105010191,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000001
+        },
+        "ID_TrackerObjectiveId": [
+          12000010006
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          0
+        ],
+        "TrackerCount": [
+          15
+        ]
+      },
+      "1106010010": {
+        "ID": 1106010010,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000002
+        },
+        "ID_TrackerObjectiveId": [
+          12000010007
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          140101101
+        ],
+        "TrackerCount": [
+          1
+        ]
+      },
+      "1106010020": {
+        "ID": 1106010020,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_TrackerTitleId": {
+          "ID": 12000000002
+        },
+        "ID_TrackerObjectiveId": [
+          12000010007
+        ],
+        "TrackerCountType": [
+          "EDS_TrackerCountType::NpcAppointKill"
+        ],
+        "TrackerCountTarget": [
+          140101102
+        ],
+        "TrackerCount": [
+          1
+        ]
+      }
+    }
+  }
+]

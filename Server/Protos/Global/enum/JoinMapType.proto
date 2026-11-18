@@ -1,0 +1,10 @@
+syntax = "proto3";
+package server_msg;
+option csharp_namespace = "MirProto.ServerMsg";
+
+
+enum JoinMapType {
+  JoinMapType_Login = 0;
+  JoinMapType_DeckChange = 1;
+  JoinMapType_ServerChangeLoin = 2;
+}

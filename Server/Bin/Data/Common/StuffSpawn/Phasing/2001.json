@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "2001",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StuffSpawn/Phasing/2001",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StuffSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "30000002": {
+        "ID": 30000002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1021
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2834139.0,
+          "Y": -2742969.0,
+          "Z": 481.29102
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 1.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 1.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "30000003": {
+        "ID": 30000003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1022
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2833731.0,
+          "Y": -2743459.0,
+          "Z": 481.29102
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 1.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 1.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      },
+      "30000004": {
+        "ID": 30000004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "ID_Stuff": [
+          1023
+        ],
+        "StuffSpawnChance": [
+          1000000
+        ],
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2833232.0,
+          "Y": -2744347.0,
+          "Z": 481.29102
+        },
+        "RotateYaw": 0.0,
+        "SpawnRadius": 1.0,
+        "IsGroupSpawn": false,
+        "SpawnTriggerType": "EDS_SpawnTriggerType::FieldEvent",
+        "FirstSpawnDelayMin": 1.0,
+        "FirstSpawnDelayMax": 1.0,
+        "RespawnTimeMin": 0.0,
+        "RespawnTimeMax": 0.0,
+        "StuffSpawnType": "EDS_StuffSpawnType::Navi"
+      }
+    }
+  }
+]

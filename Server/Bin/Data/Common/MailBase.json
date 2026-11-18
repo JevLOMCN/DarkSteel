@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MailBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MailBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MailBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_MailType::System",
+        "DataStage": 23,
+        "Version": "*",
+        "CostMoneyType": "EDS_MoneyType::None",
+        "CostMoneyCount": 0,
+        "ID_MailCategoryType": "EDS_MailCategoryType::System",
+        "isMailContentRequired": true,
+        "MailStorageTime": 1200.0,
+        "MailResendCooldown": 0.0,
+        "ID_MailBg": 40001
+      },
+      "2": {
+        "ID": "EDS_MailType::Personal",
+        "DataStage": 23,
+        "Version": "*",
+        "CostMoneyType": "EDS_MoneyType::Gold",
+        "CostMoneyCount": 1,
+        "ID_MailCategoryType": "EDS_MailCategoryType::Personal",
+        "isMailContentRequired": false,
+        "MailStorageTime": 900.0,
+        "MailResendCooldown": 10.0,
+        "ID_MailBg": 40002
+      }
+    }
+  }
+]

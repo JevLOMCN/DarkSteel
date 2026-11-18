@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{9EB09483-D1DC-5BFB-8921-BA7B18D2B936}</ProjectGuid><RootNamespace>ImageCore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\ERawImageFormat.cpp" />
+    <ClCompile Include="Private\FDDSFile.cpp" />
+    <ClCompile Include="Private\FGenericPlatformMath.cpp" />
+    <ClCompile Include="Private\FImage.cpp" />
+    <ClCompile Include="Private\FImageCore.cpp" />
+    <ClCompile Include="Private\FImageCoreDelta.cpp" />
+    <ClCompile Include="Private\FImageCoreUtils.cpp" />
+    <ClCompile Include="Private\FImageInfo.cpp" />
+    <ClCompile Include="Private\FImageView.cpp" />
+    <ClCompile Include="Private\FMipMapImage.cpp" />
+    <ClCompile Include="Private\FSharedImageConstRefBlueprint.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TExecutableTask.cpp" />
+    <ClCompile Include="Private\TExecutableTaskBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\USharedImageConstRefBlueprintFns.cpp" />
+    <ClCompile Include="Private\_Free\Module.ImageCore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EnvFlooring",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/EnvFlooring",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_EnvFlooringTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1000": {
+        "ID": 1000,
+        "DataStage": 23,
+        "FlooringType": "EDS_FlooringType::Road",
+        "FlooringValue": 10,
+        "ID_FlooringMountBuff": 110004
+      },
+      "1100": {
+        "ID": 1100,
+        "DataStage": 23,
+        "FlooringType": "EDS_FlooringType::Plain",
+        "FlooringValue": 10,
+        "ID_FlooringMountBuff": 110004
+      },
+      "1200": {
+        "ID": 1200,
+        "DataStage": 23,
+        "FlooringType": "EDS_FlooringType::Rough",
+        "FlooringValue": 10,
+        "ID_FlooringMountBuff": 110004
+      },
+      "1300": {
+        "ID": 1300,
+        "DataStage": 23,
+        "FlooringType": "EDS_FlooringType::Swamp",
+        "FlooringValue": 10,
+        "ID_FlooringMountBuff": 110004
+      },
+      "1400": {
+        "ID": 1400,
+        "DataStage": 23,
+        "FlooringType": "EDS_FlooringType::Snow",
+        "FlooringValue": 10,
+        "ID_FlooringMountBuff": 110004
+      },
+      "1500": {
+        "ID": 1500,
+        "DataStage": 23,
+        "FlooringType": "EDS_FlooringType::Sand",
+        "FlooringValue": 10,
+        "ID_FlooringMountBuff": 110004
+      }
+    }
+  }
+]

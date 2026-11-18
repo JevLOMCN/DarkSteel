@@ -1,0 +1,18 @@
+syntax = "proto3";
+package ds_guild;
+option csharp_namespace = "MirProto.DsGuild";
+
+import "_options.proto";
+import "DirtyFlag.proto";
+import "ds_guild/sql_guild.proto";
+import "ds_guild/sql_guild_member.proto";
+import "ds_guild/sql_guild_join_request.proto";
+
+message DbWorkItem {
+  DirtyFlag dirty_flag = 1;
+  oneof Item {
+    ds_guild.SqlGuildTable Guild = 2;
+    ds_guild.SqlGuildMemberTable GuildMember = 3;
+    ds_guild.SqlGuildJoinRequestTable GuildJoinRequest = 4;
+  }
+}

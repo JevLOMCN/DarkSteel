@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum GuildJoinType {
+  GuildJoinType_None = 0;
+  GuildJoinType_Free = 1;
+  GuildJoinType_Approval = 2;
+  GuildJoinType_Private = 3;
+}

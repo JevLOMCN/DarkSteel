@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{02E1E001-9B73-586A-9E5D-B975B34B7A23}</ProjectGuid><RootNamespace>CompositeCore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FBuiltInRenderPassOptions.cpp" />
+    <ClCompile Include="Private\FCompositeCoreCustomRenderPass.cpp" />
+    <ClCompile Include="Private\FCompositeCoreDilateShader.cpp" />
+    <ClCompile Include="Private\FCompositeCoreDisplayTransformShader.cpp" />
+    <ClCompile Include="Private\FCompositeCoreMergeShader.cpp" />
+    <ClCompile Include="Private\FCompositeCoreModule.cpp" />
+    <ClCompile Include="Private\FCompositeCorePassProxy.cpp" />
+    <ClCompile Include="Private\FCompositeCoreSceneViewExtension.cpp" />
+    <ClCompile Include="Private\FComputeShaderUtils.cpp" />
+    <ClCompile Include="Private\FCustomRenderPassRendererInput.cpp" />
+    <ClCompile Include="Private\FFXAAPassProxy.cpp" />
+    <ClCompile Include="Private\FInputPassTextureParameters.cpp" />
+    <ClCompile Include="Private\FMergePassProxy.cpp" />
+    <ClCompile Include="Private\FParameters.cpp" />
+    <ClCompile Include="Private\FPassInputArray.cpp" />
+    <ClCompile Include="Private\FPixelShaderUtils.cpp" />
+    <ClCompile Include="Private\FRDGBuilder.cpp" />
+    <ClCompile Include="Private\FRDGScope_RHI.cpp" />
+    <ClCompile Include="Private\FRenderWork.cpp" />
+    <ClCompile Include="Private\FScopedExternalTextureMap.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTypeInfo.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TConcurrentLinearBulkObjectAllocator.cpp" />
+    <ClCompile Include="Private\TCopyConstructorCaller.cpp" />
+    <ClCompile Include="Private\TDefaultDelete.cpp" />
+    <ClCompile Include="Private\TDestructorCaller.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TLinearArrayAllocatorBase.cpp" />
+    <ClCompile Include="Private\TObject.cpp" />
+    <ClCompile Include="Private\TOptional.cpp" />
+    <ClCompile Include="Private\TRDGLambdaPass.cpp" />
+    <ClCompile Include="Private\TRHIBreadcrumb.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TShaderRefBase.cpp" />
+    <ClCompile Include="Private\TSharedFromThis.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSortedMap.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UCompositeCorePluginSettings.cpp" />
+    <ClCompile Include="Private\UCompositeCoreSubsystem.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UHoldoutCompositeComponent.cpp" />
+    <ClCompile Include="Private\UWorld.cpp" />
+    <ClCompile Include="Private\_Free\Module.CompositeCore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

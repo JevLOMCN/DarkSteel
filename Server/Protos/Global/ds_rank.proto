@@ -1,0 +1,18 @@
+syntax = "proto3";
+package ds_rank;
+option csharp_namespace = "MirProto.DsRank";
+
+import "_options.proto";
+import "DirtyFlag.proto";
+import "ds_rank/sql_raw_rank_table.proto";
+import "ds_rank/sql_summary_rank_table.proto";
+import "ds_rank/sql_rank_state.proto";
+
+message DbWorkItem {
+  DirtyFlag dirty_flag = 1000;
+  oneof Item {
+    ds_rank.SqlRawRankTable RawRank = 1;
+    ds_rank.SqlSummaryRankTable SummaryRank = 2;
+    ds_rank.SqlRankStateTable RankState = 3;
+  }
+}

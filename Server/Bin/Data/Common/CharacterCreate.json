@@ -1,0 +1,242 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CharacterCreate",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CharacterCreate",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CharacterCreateTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID_WeaponType": "EDS_WeaponType::Fist",
+        "DataStage": 23,
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1,
+        "ID_InitWeapon": 0,
+        "ID_InitWeaponCnt": 0,
+        "ID_InitChest": 0,
+        "ID_InitChestCnt": 0,
+        "ID_InitPants": 0,
+        "ID_InitPantsCnt": 0,
+        "ID_InitShoes": 0,
+        "ID_InitShoesCnt": 0
+      },
+      "2": {
+        "ID_WeaponType": "EDS_WeaponType::Knuckle",
+        "DataStage": 23,
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1,
+        "ID_InitWeapon": 10210001,
+        "ID_InitWeaponCnt": 1,
+        "ID_InitChest": 20210001,
+        "ID_InitChestCnt": 1,
+        "ID_InitPants": 20512001,
+        "ID_InitPantsCnt": 1,
+        "ID_InitShoes": 20410001,
+        "ID_InitShoesCnt": 1
+      },
+      "3": {
+        "ID_WeaponType": "EDS_WeaponType::SwordShield",
+        "DataStage": 23,
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1,
+        "ID_InitWeapon": 10310001,
+        "ID_InitWeaponCnt": 1,
+        "ID_InitChest": 20210001,
+        "ID_InitChestCnt": 1,
+        "ID_InitPants": 20512001,
+        "ID_InitPantsCnt": 1,
+        "ID_InitShoes": 20410001,
+        "ID_InitShoesCnt": 1
+      },
+      "4": {
+        "ID_WeaponType": "EDS_WeaponType::Lance",
+        "DataStage": 23,
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1,
+        "ID_InitWeapon": 10410001,
+        "ID_InitWeaponCnt": 1,
+        "ID_InitChest": 20210001,
+        "ID_InitChestCnt": 1,
+        "ID_InitPants": 20512001,
+        "ID_InitPantsCnt": 1,
+        "ID_InitShoes": 20410001,
+        "ID_InitShoesCnt": 1
+      },
+      "5": {
+        "ID_WeaponType": "EDS_WeaponType::GreatAxe",
+        "DataStage": 23,
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1,
+        "ID_InitWeapon": 10510001,
+        "ID_InitWeaponCnt": 1,
+        "ID_InitChest": 20210001,
+        "ID_InitChestCnt": 1,
+        "ID_InitPants": 20512001,
+        "ID_InitPantsCnt": 1,
+        "ID_InitShoes": 20410001,
+        "ID_InitShoesCnt": 1
+      },
+      "11": {
+        "ID_WeaponType": "EDS_WeaponType::LongBow",
+        "DataStage": 23,
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1,
+        "ID_InitWeapon": 11110001,
+        "ID_InitWeaponCnt": 1,
+        "ID_InitChest": 20210001,
+        "ID_InitChestCnt": 1,
+        "ID_InitPants": 20512001,
+        "ID_InitPantsCnt": 1,
+        "ID_InitShoes": 20410001,
+        "ID_InitShoesCnt": 1
+      },
+      "12": {
+        "ID_WeaponType": "EDS_WeaponType::DualPistols",
+        "DataStage": 23,
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1,
+        "ID_InitWeapon": 11210001,
+        "ID_InitWeaponCnt": 1,
+        "ID_InitChest": 20210001,
+        "ID_InitChestCnt": 1,
+        "ID_InitPants": 20512001,
+        "ID_InitPantsCnt": 1,
+        "ID_InitShoes": 20410001,
+        "ID_InitShoesCnt": 1
+      },
+      "21": {
+        "ID_WeaponType": "EDS_WeaponType::Orb",
+        "DataStage": 23,
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1,
+        "ID_InitWeapon": 12110001,
+        "ID_InitWeaponCnt": 1,
+        "ID_InitChest": 20210001,
+        "ID_InitChestCnt": 1,
+        "ID_InitPants": 20512001,
+        "ID_InitPantsCnt": 1,
+        "ID_InitShoes": 20410001,
+        "ID_InitShoesCnt": 1
+      },
+      "22": {
+        "ID_WeaponType": "EDS_WeaponType::Fan",
+        "DataStage": 23,
+        "ID_InitStackableItem": [
+          200000000,
+          200200000
+        ],
+        "ID_InitStackableItemCnt": [
+          50,
+          50
+        ],
+        "ID_InitQuest": 1000000,
+        "ID_InitWarpLocation": 1,
+        "ID_InItPlayerIcon": 1,
+        "InitHaloPoint": 100,
+        "ID_InitReturnHome": 1,
+        "ID_InitWeapon": 12210001,
+        "ID_InitWeaponCnt": 1,
+        "ID_InitChest": 20210001,
+        "ID_InitChestCnt": 1,
+        "ID_InitPants": 20512001,
+        "ID_InitPantsCnt": 1,
+        "ID_InitShoes": 20410001,
+        "ID_InitShoesCnt": 1
+      }
+    }
+  }
+]

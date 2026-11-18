@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{C2D2B2A0-14EC-5B3F-88A9-DEBF6920911B}</ProjectGuid><RootNamespace>NiagaraVertexFactories</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FMeshDrawSingleShaderBindings.cpp" />
+    <ClCompile Include="Private\FNiagaraCutoutVertexBuffer.cpp" />
+    <ClCompile Include="Private\FNiagaraDispatchIndirectArgsGenCS.cpp" />
+    <ClCompile Include="Private\FNiagaraDrawIndirectArgsGenCS.cpp" />
+    <ClCompile Include="Private\FNiagaraDrawIndirectResetCountsCS.cpp" />
+    <ClCompile Include="Private\FNiagaraGPURayTracingTransformsCS.cpp" />
+    <ClCompile Include="Private\FNiagaraInstanceCountsInitCS.cpp" />
+    <ClCompile Include="Private\FNiagaraMeshCommonParameters.cpp" />
+    <ClCompile Include="Private\FNiagaraMeshUniformParameters.cpp" />
+    <ClCompile Include="Private\FNiagaraMeshVertexFactory.cpp" />
+    <ClCompile Include="Private\FNiagaraMeshVertexFactoryShaderParametersPS.cpp" />
+    <ClCompile Include="Private\FNiagaraMeshVertexFactoryShaderParametersVS.cpp" />
+    <ClCompile Include="Private\FNiagaraNullSortedIndicesVertexBuffer.cpp" />
+    <ClCompile Include="Private\FNiagaraRibbonUniformParameters.cpp" />
+    <ClCompile Include="Private\FNiagaraRibbonVFLooseParameters.cpp" />
+    <ClCompile Include="Private\FNiagaraRibbonVertexDeclaration.cpp" />
+    <ClCompile Include="Private\FNiagaraRibbonVertexFactory.cpp" />
+    <ClCompile Include="Private\FNiagaraRibbonVertexFactoryShaderParametersPS.cpp" />
+    <ClCompile Include="Private\FNiagaraRibbonVertexFactoryShaderParametersVS.cpp" />
+    <ClCompile Include="Private\FNiagaraSortKeyGenCS.cpp" />
+    <ClCompile Include="Private\FNiagaraSpriteUniformParameters.cpp" />
+    <ClCompile Include="Private\FNiagaraSpriteVFLooseParameters.cpp" />
+    <ClCompile Include="Private\FNiagaraSpriteVertexDeclaration.cpp" />
+    <ClCompile Include="Private\FNiagaraSpriteVertexFactory.cpp" />
+    <ClCompile Include="Private\FNiagaraSpriteVertexFactoryShaderParametersPS.cpp" />
+    <ClCompile Include="Private\FNiagaraSpriteVertexFactoryShaderParametersVS.cpp" />
+    <ClCompile Include="Private\FNiagaraVertexFactoryExportCS.cpp" />
+    <ClCompile Include="Private\FNiagaraVertexFactoryShaderParametersBase.cpp" />
+    <ClCompile Include="Private\FParameters.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTypeInfo.cpp" />
+    <ClCompile Include="Private\INiagaraVertexFactoriesModule.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TGlobalResource.cpp" />
+    <ClCompile Include="Private\TShaderPermutationDomain.cpp" />
+    <ClCompile Include="Private\_Free\Module.NiagaraVertexFactories.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

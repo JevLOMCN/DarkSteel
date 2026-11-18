@@ -1,0 +1,10 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlWarpDeviceTable {
+  int64 player_uid = 1;
+  int32 device_stuff_id = 2;
+}

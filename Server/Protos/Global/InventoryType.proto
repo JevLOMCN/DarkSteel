@@ -1,0 +1,11 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum InventoryType {
+  InventoryType_None = 0;
+  InventoryType_PlayerNormal = 1;
+  InventoryType_PlayerQuest = 2;
+  InventoryType_PlayerWareHouse = 3;
+  InventoryType_Mount = 6;
+}

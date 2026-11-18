@@ -1,0 +1,1113 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "KeyActionData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/KeyActionData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_KeyActionDataTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10101": {
+        "ID": "EDS_KeyActionType::IA_Move",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10102": {
+        "ID": "EDS_KeyActionType::IA_Move_Forward",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10103": {
+        "ID": "EDS_KeyActionType::IA_Move_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10104": {
+        "ID": "EDS_KeyActionType::IA_Move_Back",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10105": {
+        "ID": "EDS_KeyActionType::IA_Move_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10201": {
+        "ID": "EDS_KeyActionType::IA_AirDashAttack",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10202": {
+        "ID": "EDS_KeyActionType::IA_AIrWalk_Dash",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10203": {
+        "ID": "EDS_KeyActionType::IA_AIrWalk_Hovering",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10204": {
+        "ID": "EDS_KeyActionType::IA_AirWalk_Jump",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10205": {
+        "ID": "EDS_KeyActionType::IA_AIrWalk_PowerJump",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10301": {
+        "ID": "EDS_KeyActionType::IA_Avoid",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10401": {
+        "ID": "EDS_KeyActionType::IA_NormalAttack",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10402": {
+        "ID": "EDS_KeyActionType::IA_PopupSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10403": {
+        "ID": "EDS_KeyActionType::IA_SkillSlot_1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10404": {
+        "ID": "EDS_KeyActionType::IA_SkillSlot_2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10405": {
+        "ID": "EDS_KeyActionType::IA_SkillSlot_3",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10406": {
+        "ID": "EDS_KeyActionType::IA_SkillSlot_4",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10407": {
+        "ID": "EDS_KeyActionType::IA_SkillSlot_5",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10408": {
+        "ID": "EDS_KeyActionType::IA_SkillSlot_6",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10409": {
+        "ID": "EDS_KeyActionType::IA_ActionNormalAttack",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10601": {
+        "ID": "EDS_KeyActionType::IA_CameraMode",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10602": {
+        "ID": "EDS_KeyActionType::IA_CameraReset",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10603": {
+        "ID": "EDS_KeyActionType::IA_CameraRotation",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10604": {
+        "ID": "EDS_KeyActionType::IA_ZoomInOut",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10605": {
+        "ID": "EDS_KeyActionType::IA_LockOnTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10606": {
+        "ID": "EDS_KeyActionType::IA_LockOnTargetChange",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10701": {
+        "ID": "EDS_KeyActionType::IA_Interaction",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10702": {
+        "ID": "EDS_KeyActionType::IA_PromptSelectUp",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10703": {
+        "ID": "EDS_KeyActionType::IA_PromptSelectDown",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10704": {
+        "ID": "EDS_KeyActionType::IA_PromptMouseUpDown",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10801": {
+        "ID": "EDS_KeyActionType::IA_ItemSlot_1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10802": {
+        "ID": "EDS_KeyActionType::IA_ItemSlot_2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10803": {
+        "ID": "EDS_KeyActionType::IA_ItemSlot_3",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10804": {
+        "ID": "EDS_KeyActionType::IA_ItemSlot_4",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10810": {
+        "ID": "EDS_KeyActionType::IA_RingCommandQuickSlot_0",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10811": {
+        "ID": "EDS_KeyActionType::IA_RingCommandQuickSlot_1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10812": {
+        "ID": "EDS_KeyActionType::IA_RingCommandQuickSlot_2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10813": {
+        "ID": "EDS_KeyActionType::IA_RingCommandQuickSlot_3",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10814": {
+        "ID": "EDS_KeyActionType::IA_RingCommandQuickSlot_4",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10815": {
+        "ID": "EDS_KeyActionType::IA_RingCommandQuickSlot_5",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10816": {
+        "ID": "EDS_KeyActionType::IA_RingCommandQuickSlot_6",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "10817": {
+        "ID": "EDS_KeyActionType::IA_RingCommandQuickSlot_7",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "12101": {
+        "ID": "EDS_KeyActionType::IA_PartyCreate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "12001": {
+        "ID": "EDS_KeyActionType::IA_PartyMemberSelect_1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "12002": {
+        "ID": "EDS_KeyActionType::IA_PartyMemberSelect_2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "12003": {
+        "ID": "EDS_KeyActionType::IA_PartyMemberSelect_3",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "12201": {
+        "ID": "EDS_KeyActionType::IA_Construction_Building",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "12202": {
+        "ID": "EDS_KeyActionType::IA_Construction_Cancel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "12203": {
+        "ID": "EDS_KeyActionType::IA_Construction_Left_Rotation",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "12204": {
+        "ID": "EDS_KeyActionType::IA_Construction_Right_Rotation",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20003": {
+        "ID": "EDS_KeyActionType::IA_Enter",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "11001": {
+        "ID": "EDS_KeyActionType::IA_Select_ItemSet",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "11002": {
+        "ID": "EDS_KeyActionType::IA_Select_SkillSet",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "11003": {
+        "ID": "EDS_KeyActionType::IA_Select_RingCommandSet",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "11101": {
+        "ID": "EDS_KeyActionType::IA_RingCmdQuickSlot_ChangeDeck_Prev",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "11102": {
+        "ID": "EDS_KeyActionType::IA_RingCmdQuickSlot_ChangeDeck_Next",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20010": {
+        "ID": "EDS_KeyActionType::IA_Inventory",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20011": {
+        "ID": "EDS_KeyActionType::IA_CharacterInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20013": {
+        "ID": "EDS_KeyActionType::IA_Map",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "30001": {
+        "ID": "EDS_KeyActionType::IA_Function",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "30002": {
+        "ID": "EDS_KeyActionType::IA_Function_Alt",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "30003": {
+        "ID": "EDS_KeyActionType::IA_Function_Shift",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "30004": {
+        "ID": "EDS_KeyActionType::IA_Gamepad_LeftTrigger",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "30005": {
+        "ID": "EDS_KeyActionType::IA_RingCmd",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "30006": {
+        "ID": "EDS_KeyActionType::IA_ControlMode",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20015": {
+        "ID": "EDS_KeyActionType::IA_TotalMenu",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20005": {
+        "ID": "EDS_KeyActionType::IA_UI_Category_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20006": {
+        "ID": "EDS_KeyActionType::IA_UI_Category_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20007": {
+        "ID": "EDS_KeyActionType::IA_UI_Accept",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 9
+        }
+      },
+      "20008": {
+        "ID": "EDS_KeyActionType::IA_UI_Escape",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 10
+        }
+      },
+      "20009": {
+        "ID": "EDS_KeyActionType::IA_UI_Back",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 410003
+        }
+      },
+      "20001": {
+        "ID": "EDS_KeyActionType::IA_MouseLeft",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20002": {
+        "ID": "EDS_KeyActionType::IA_MouseRight",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20012": {
+        "ID": "EDS_KeyActionType::IA_UI_Reset",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 410060
+        }
+      },
+      "20014": {
+        "ID": "EDS_KeyActionType::IA_UI_Select",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 410059
+        }
+      },
+      "20017": {
+        "ID": "EDS_KeyActionType::IA_UI_SelectUp",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20018": {
+        "ID": "EDS_KeyActionType::IA_UI_SelectDown",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20019": {
+        "ID": "EDS_KeyActionType::IA_UI_Cancel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450004
+        }
+      },
+      "20020": {
+        "ID": "EDS_KeyActionType::IA_UI_Change",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450005
+        }
+      },
+      "20023": {
+        "ID": "EDS_KeyActionType::IA_UI_ItemFunctionList",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20024": {
+        "ID": "EDS_KeyActionType::IA_GamePad_Lstick",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20025": {
+        "ID": "EDS_KeyActionType::IA_GamePad_Dpad",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "40001": {
+        "ID": "EDS_KeyActionType::IA_Map_CenterOfCharacter",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450007
+        }
+      },
+      "40002": {
+        "ID": "EDS_KeyActionType::IA_Map_ViewTopMap",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450016
+        }
+      },
+      "40003": {
+        "ID": "EDS_KeyActionType::IA_Map_MapIndexFilterToggle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450015
+        }
+      },
+      "40004": {
+        "ID": "EDS_KeyActionType::IA_Map_MarkerChanged",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450008
+        }
+      },
+      "40005": {
+        "ID": "EDS_KeyActionType::IA_Map_DeleteAllMarker",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450009
+        }
+      },
+      "40006": {
+        "ID": "EDS_KeyActionType::IA_Map_OpenMarkerNote",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450010
+        }
+      },
+      "40007": {
+        "ID": "EDS_KeyActionType::IA_Map_MarkerChatLink",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450011
+        }
+      },
+      "30008": {
+        "ID": "EDS_KeyActionType::IA_RingCmd_ChangeDeck_Prev",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450001
+        }
+      },
+      "30009": {
+        "ID": "EDS_KeyActionType::IA_RingCmd_ChangeDeck_Next",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450002
+        }
+      },
+      "30010": {
+        "ID": "EDS_KeyActionType::IA_RingCmd_Custom_PrevDeck",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450001
+        }
+      },
+      "30011": {
+        "ID": "EDS_KeyActionType::IA_RingCmd_Custom_NextDeck",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450002
+        }
+      },
+      "30012": {
+        "ID": "EDS_KeyActionType::IA_RingCmd_RemoveDeckItem",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450006
+        }
+      },
+      "50001": {
+        "ID": "EDS_KeyActionType::IA_UI_CampSelect",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 440301
+        }
+      },
+      "50002": {
+        "ID": "EDS_KeyActionType::IA_UI_CampCancel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 440302
+        }
+      },
+      "20021": {
+        "ID": "EDS_KeyActionType::IA_ChatOpen",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "60002": {
+        "ID": "EDS_KeyActionType::IA_SwimSurfaceSprint",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "60003": {
+        "ID": "EDS_KeyActionType::IA_SwimDown",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "60004": {
+        "ID": "EDS_KeyActionType::IA_SwimSubmergeSprint",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "60005": {
+        "ID": "EDS_KeyActionType::IA_SwimUp",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "20022": {
+        "ID": "EDS_KeyActionType::IA_AnyKey",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "50003": {
+        "ID": "EDS_KeyActionType::IA_HoldCancel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450012
+        }
+      },
+      "50006": {
+        "ID": "EDS_KeyActionType::IA_PutDown",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450013
+        }
+      },
+      "50004": {
+        "ID": "EDS_KeyActionType::IA_Throw",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 7016
+        }
+      },
+      "50005": {
+        "ID": "EDS_KeyActionType::IA_ThrowCancel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 450014
+        }
+      },
+      "70002": {
+        "ID": "EDS_KeyActionType::IA_MountSprint",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "70003": {
+        "ID": "EDS_KeyActionType::IA_Dismount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "70004": {
+        "ID": "EDS_KeyActionType::IA_Descent",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "70005": {
+        "ID": "EDS_KeyActionType::IA_MountDash",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "70006": {
+        "ID": "EDS_KeyActionType::IA_MountBackMove",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "80001": {
+        "ID": "EDS_KeyActionType::IA_MiniGame_Key_1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "80002": {
+        "ID": "EDS_KeyActionType::IA_MiniGame_Key_2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "80003": {
+        "ID": "EDS_KeyActionType::IA_MiniGame_Key_3",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "80004": {
+        "ID": "EDS_KeyActionType::IA_MiniGame_Key_4",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "80005": {
+        "ID": "EDS_KeyActionType::IA_MiniGame_Escape",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "90001": {
+        "ID": "EDS_KeyActionType::IA_Chatting_SendMessage",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280101
+        }
+      },
+      "90002": {
+        "ID": "EDS_KeyActionType::IA_Chatting_SelectChattingType",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280102
+        }
+      },
+      "90003": {
+        "ID": "EDS_KeyActionType::IA_Chatting_SelectQuickMessage",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280103
+        }
+      },
+      "90004": {
+        "ID": "EDS_KeyActionType::IA_Chatting_SelectFavorite",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280104
+        }
+      },
+      "90005": {
+        "ID": "EDS_KeyActionType::IA_Chatting_SelectChattingGroup",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280105
+        }
+      },
+      "90006": {
+        "ID": "EDS_KeyActionType::IA_Chatting_SelectWhisperTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280106
+        }
+      },
+      "90007": {
+        "ID": "EDS_KeyActionType::IA_Chatting_SelectCustomTab",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280107
+        }
+      },
+      "90008": {
+        "ID": "EDS_KeyActionType::IA_Chatting_SelectChattingTab",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280108
+        }
+      },
+      "90009": {
+        "ID": "EDS_KeyActionType::IA_Chatting_ChangeNormalToMinSize",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280109
+        }
+      },
+      "90010": {
+        "ID": "EDS_KeyActionType::IA_Chatting_ChangeMaxToMinSize",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280109
+        }
+      },
+      "90011": {
+        "ID": "EDS_KeyActionType::IA_Chatting_ChangeMinToNormalSize",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280111
+        }
+      },
+      "90012": {
+        "ID": "EDS_KeyActionType::IA_Chatting_ChangeNormalToMaxSize",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280112
+        }
+      },
+      "90013": {
+        "ID": "EDS_KeyActionType::IA_Chatting_ChangeMaxToNormalSize",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280111
+        }
+      },
+      "90014": {
+        "ID": "EDS_KeyActionType::IA_Chatting_ChangeChattingType",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280114
+        }
+      },
+      "90015": {
+        "ID": "EDS_KeyActionType::IA_Chatting_OpenQuickMessageList",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280115
+        }
+      },
+      "90016": {
+        "ID": "EDS_KeyActionType::IA_Chatting_OpenEmoticonWindow",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280116
+        }
+      },
+      "90017": {
+        "ID": "EDS_KeyActionType::IA_Chatting_VoiceInput",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 280117
+        }
+      },
+      "100001": {
+        "ID": "EDS_KeyActionType::IA_Warehouse_MoveItem_1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "100002": {
+        "ID": "EDS_KeyActionType::IA_Warehouse_MoveItem_2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "100003": {
+        "ID": "EDS_KeyActionType::IA_Warehouse_AutoMoveItems",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      },
+      "100004": {
+        "ID": "EDS_KeyActionType::IA_Warehouse_MoveAllMountItems",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ActionName": {
+          "ID": 0
+        }
+      }
+    }
+  }
+]

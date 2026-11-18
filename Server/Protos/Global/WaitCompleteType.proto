@@ -1,0 +1,14 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum WaitCompleteType {
+  WaitCompleteType_None = 0;
+  WaitCompleteType_ItemCraft = 1;
+  WaitCompleteType_ItemAscend = 2;
+  WaitCompleteType_ChrAscend = 3;
+  WaitCompleteType_SkillAscend = 4;
+  WaitCompleteType_ChrEvolve = 5;
+  WaitCompleteType_ItemFusion = 7;
+  WaitCompleteType_ItemRestore = 8;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{401D4714-0DE1-5213-A8E3-85114F0F40A1}</ProjectGuid><RootNamespace>WN_WorldUtils</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AActor.cpp" />
+    <ClCompile Include="Private\AWN_BGMVolume.cpp" />
+    <ClCompile Include="Private\AWN_BVC_VoxelVisualizer.cpp" />
+    <ClCompile Include="Private\AWN_OcclusionVolume.cpp" />
+    <ClCompile Include="Private\AWN_PhasingVolume.cpp" />
+    <ClCompile Include="Private\AWN_StaticMesh_Inherited.cpp" />
+    <ClCompile Include="Private\AWN_StaticMesh_NoVoxel.cpp" />
+    <ClCompile Include="Private\AWN_StaticMesh_NoWPMerge.cpp" />
+    <ClCompile Include="Private\AWN_ZoneVolume.cpp" />
+    <ClCompile Include="Private\FKAggregateGeom.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWN_BGMSoundInfo.cpp" />
+    <ClCompile Include="Private\FWN_DistrictInfo.cpp" />
+    <ClCompile Include="Private\FWN_IslandInfo.cpp" />
+    <ClCompile Include="Private\FWN_PhasingVolumeInfo.cpp" />
+    <ClCompile Include="Private\FWN_PropertyInfo.cpp" />
+    <ClCompile Include="Private\FWN_ViewExtension.cpp" />
+    <ClCompile Include="Private\FWN_VolumeMinMax.cpp" />
+    <ClCompile Include="Private\FWN_WorldUtilsModule.cpp" />
+    <ClCompile Include="Private\FWN_ZoneInfo.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseDynamicDelegate.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TContainerElementTypeCompatibility_DefaultOperatorFunc.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TOptional.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseDynamicDelegate.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UWN_BGMVolumeComponent.cpp" />
+    <ClCompile Include="Private\UWN_DistrictVolumeComponent.cpp" />
+    <ClCompile Include="Private\UWN_Island_ZoneIDMap.cpp" />
+    <ClCompile Include="Private\UWN_OcclusionVolumeComponent.cpp" />
+    <ClCompile Include="Private\UWN_WorldEditInfo.cpp" />
+    <ClCompile Include="Private\UWN_WorldInfo.cpp" />
+    <ClCompile Include="Private\UWN_WorldUtils_Subsystem.cpp" />
+    <ClCompile Include="Private\UWN_ZoneVolumeComponent.cpp" />
+    <ClCompile Include="Private\UWorld.cpp" />
+    <ClCompile Include="Private\_Free\Module.WN_WorldUtils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

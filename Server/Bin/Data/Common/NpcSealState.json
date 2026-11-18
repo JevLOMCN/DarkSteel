@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcSealState",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcSealState",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcSealStateTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "11081": {
+        "ID": 11081,
+        "DataStage": 23,
+        "Version": "*",
+        "AnimIndex": 1,
+        "SelfBuff": [
+          60003,
+          60006
+        ],
+        "AwakeType": "EDS_AwakeType::Attack",
+        "AwakeValue": 5,
+        "AwakeTime": 1.0,
+        "IsReSeal": false
+      },
+      "11082": {
+        "ID": 11082,
+        "DataStage": 23,
+        "Version": "*",
+        "AnimIndex": 2,
+        "SelfBuff": [
+          1801,
+          60004
+        ],
+        "AwakeType": "EDS_AwakeType::Cognize",
+        "AwakeValue": 200,
+        "AwakeTime": 0.83,
+        "IsReSeal": false
+      },
+      "11083": {
+        "ID": 11083,
+        "DataStage": 23,
+        "Version": "*",
+        "AnimIndex": 3,
+        "SelfBuff": [
+          1801,
+          60004
+        ],
+        "AwakeType": "EDS_AwakeType::Cognize",
+        "AwakeValue": 200,
+        "AwakeTime": 1.26,
+        "IsReSeal": true
+      },
+      "11084": {
+        "ID": 11084,
+        "DataStage": 23,
+        "Version": "*",
+        "AnimIndex": 4,
+        "SelfBuff": [
+          1801,
+          60005
+        ],
+        "AwakeType": "EDS_AwakeType::GimmickEvent",
+        "AwakeValue": 0,
+        "AwakeTime": 1.0,
+        "IsReSeal": false
+      },
+      "11086": {
+        "ID": 11086,
+        "DataStage": 23,
+        "Version": "*",
+        "AnimIndex": 1,
+        "SelfBuff": [
+          60002
+        ],
+        "AwakeType": "EDS_AwakeType::GimmickEvent",
+        "AwakeValue": 0,
+        "AwakeTime": 0.83,
+        "IsReSeal": false
+      }
+    }
+  }
+]

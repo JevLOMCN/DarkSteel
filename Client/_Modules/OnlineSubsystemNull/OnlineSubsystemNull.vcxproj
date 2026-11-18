@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{99FC5480-A291-5AA5-BAFA-275637EFF72F}</ProjectGuid><RootNamespace>OnlineSubsystemNull</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FLANSession.cpp" />
+    <ClCompile Include="Private\FLeaderboardNull.cpp" />
+    <ClCompile Include="Private\FMessageSanitizerNull.cpp" />
+    <ClCompile Include="Private\FNamedOnlineSession.cpp" />
+    <ClCompile Include="Private\FOnlineAchievementDesc.cpp" />
+    <ClCompile Include="Private\FOnlineAchievementsNull.cpp" />
+    <ClCompile Include="Private\FOnlineAsyncTaskManagerNull.cpp" />
+    <ClCompile Include="Private\FOnlineExternalUINull.cpp" />
+    <ClCompile Include="Private\FOnlineFactoryNull.cpp" />
+    <ClCompile Include="Private\FOnlineIdentityNull.cpp" />
+    <ClCompile Include="Private\FOnlineLeaderboardRead.cpp" />
+    <ClCompile Include="Private\FOnlineLeaderboardsNull.cpp" />
+    <ClCompile Include="Private\FOnlinePurchaseNull.cpp" />
+    <ClCompile Include="Private\FOnlineSessionInfo.cpp" />
+    <ClCompile Include="Private\FOnlineSessionInfoNull.cpp" />
+    <ClCompile Include="Private\FOnlineSessionNull.cpp" />
+    <ClCompile Include="Private\FOnlineSessionSearchResult.cpp" />
+    <ClCompile Include="Private\FOnlineStatsRow.cpp" />
+    <ClCompile Include="Private\FOnlineStoreOffer.cpp" />
+    <ClCompile Include="Private\FOnlineStoreV2Null.cpp" />
+    <ClCompile Include="Private\FOnlineSubsystemNull.cpp" />
+    <ClCompile Include="Private\FOnlineSubsystemNullModule.cpp" />
+    <ClCompile Include="Private\FOnlineUser.cpp" />
+    <ClCompile Include="Private\FPurchaseReceipt.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FUniqueNetIdNull.cpp" />
+    <ClCompile Include="Private\FUserOnlineAccount.cpp" />
+    <ClCompile Include="Private\FUserOnlineAccountNull.cpp" />
+    <ClCompile Include="Private\IMessageSanitizer.cpp" />
+    <ClCompile Include="Private\IOnlineAchievements.cpp" />
+    <ClCompile Include="Private\IOnlineExternalUI.cpp" />
+    <ClCompile Include="Private\IOnlineFactory.cpp" />
+    <ClCompile Include="Private\IOnlineIdentity.cpp" />
+    <ClCompile Include="Private\IOnlineLeaderboards.cpp" />
+    <ClCompile Include="Private\IOnlinePlatformData.cpp" />
+    <ClCompile Include="Private\IOnlinePurchase.cpp" />
+    <ClCompile Include="Private\IOnlineSession.cpp" />
+    <ClCompile Include="Private\IOnlineStoreV2.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedFromThis.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTupleBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.OnlineSubsystemNull.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

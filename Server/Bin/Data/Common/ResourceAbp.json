@@ -1,0 +1,1583 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceAbp",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceAbp",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceAbpTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_01/ABP_M01.ABP_M01_C",
+          "SubPathString": ""
+        }
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/F_01/ABP_F01.ABP_F01_C",
+          "SubPathString": ""
+        }
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape02/HectorAnimBP.HectorAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape01/VoltAnimBP.VoltAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape01/MariusAnimBP.MariusAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape02/BelmondAnimBP.BelmondAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/F_Shape01/AdaAnimBP.AdaAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/F_Shape01/CindyAnimBP.CindyAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/F_Shape01/ShizukaAnimBP.ShizukaAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/F_Shape01/CirceAnimBP.CirceAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/F_Shape02/AriaAnimBP.AriaAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/F_Shape02/FreyaAnimBP.FreyaAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "111": {
+        "ID": 111,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape01/KairosAnimBP.KairosAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "221": {
+        "ID": 221,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape02/HectorAnimBP.HectorAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "312": {
+        "ID": 312,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape01/KairosAnimBP.KairosAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "432": {
+        "ID": 432,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "512": {
+        "ID": 512,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape01/OutGame/KairosAnimBP_OutGame.KairosAnimBP_OutGame_C",
+          "SubPathString": ""
+        }
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/F_Shape01/OutGame/SeoYoungAnimBP_OutGame.SeoYoungAnimBP_OutGame_C",
+          "SubPathString": ""
+        }
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape02/OutGame/HectorAnimBP_OutGame.HectorAnimBP_OutGame_C",
+          "SubPathString": ""
+        }
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape01/OutGame/VoltAnimBP_OutGame.VoltAnimBP_OutGame_C",
+          "SubPathString": ""
+        }
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape01/OutGame/MariusAnimBP_OutGame.MariusAnimBP_OutGame_C",
+          "SubPathString": ""
+        }
+      },
+      "1006": {
+        "ID": 1006,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/M_Shape02/OutGame/BelmondAnimBP_OutGame.BelmondAnimBP_OutGame_C",
+          "SubPathString": ""
+        }
+      },
+      "20001": {
+        "ID": 20001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/PCs/Warrior/WPN_Shield01_AnimBP.WPN_Shield01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10001": {
+        "ID": 10001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Uma_11_01_AnimBP.NPC_Uma_11_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10101": {
+        "ID": 10101,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Dondon_31_01_AnimBP.NPC_Dondon_31_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10201": {
+        "ID": 10201,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/DoNotPackages/Client/Animations/Monsters/OmaCrimson01AnimBP.OmaCrimson01AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10301": {
+        "ID": 10301,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Juma_72_01_AnimBP.NPC_Juma_72_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10401": {
+        "ID": 10401,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_War_M_01_AnimBP.NPC_War_M_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10501": {
+        "ID": 10501,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Fig_M_01_AnimBP.NPC_Fig_M_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10601": {
+        "ID": 10601,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Animal_11_Chicken_01_AnimBP.NPC_Animal_11_Chicken_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10701": {
+        "ID": 10701,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Bor_1_N_01_AnimBP.NPC_Ani_Bor_1_N_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10702": {
+        "ID": 10702,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Beast_WildBoar_NA11_AnimBP.NPC_Beast_WildBoar_NA11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10801": {
+        "ID": 10801,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_HuW_Bas_1_M_01_AnimBP.NPC_HuW_Bas_1_M_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "10901": {
+        "ID": 10901,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_HuW_Bas_1_M_02_AnimBP.NPC_HuW_Bas_1_M_02_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11001": {
+        "ID": 11001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_HuW_Bas_1_M_03_AnimBP.NPC_HuW_Bas_1_M_03_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11101": {
+        "ID": 11101,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_HuW_Bas_1_M_04_AnimBP.NPC_HuW_Bas_1_M_04_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11201": {
+        "ID": 11201,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_HuW_Bas_1_M_05_AnimBP.NPC_HuW_Bas_1_M_05_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11301": {
+        "ID": 11301,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_HuW_Bas_1_F_01_AnimBP.NPC_HuW_Bas_1_F_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11401": {
+        "ID": 11401,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_HuW_Bas_1_F_01_AnimBP.NPC_HuW_Bas_1_F_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11501": {
+        "ID": 11501,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Chi_1_N_03_AnimBP.NPC_Ani_Chi_1_N_03_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11601": {
+        "ID": 11601,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Chi_1_F_01_AnimBP.NPC_Ani_Chi_1_F_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11701": {
+        "ID": 11701,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Chi_1_M_01_AnimBP.NPC_Ani_Chi_1_M_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11801": {
+        "ID": 11801,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Duc_1_N_01_AnimBP.NPC_Ani_Duc_1_N_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "11901": {
+        "ID": 11901,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Pig_1_N_01_AnimBP.NPC_Ani_Pig_1_N_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12001": {
+        "ID": 12001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Pig_1_N_02_AnimBP.NPC_Ani_Pig_1_N_02_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12101": {
+        "ID": 12101,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Rav_1_N_01_AnimBP.NPC_Ani_Rav_1_N_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12201": {
+        "ID": 12201,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Liz_1_N_01_AnimBP.NPC_Ani_Liz_1_N_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12291": {
+        "ID": 12291,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Object/NPC_Object_Camp11_AnimBP.NPC_Object_Camp11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12292": {
+        "ID": 12292,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Object/NPC_Object_Camp02_Camp11_AnimBP.NPC_Object_Camp02_Camp11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12301": {
+        "ID": 12301,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Demon_Altherion51_AnimBP.NPC_Demon_Altherion51_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12302": {
+        "ID": 12302,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Demon_Altherion51_Ground_AnimBP.NPC_Demon_Altherion51_Ground_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12401": {
+        "ID": 12401,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_Althelikin11_AnimBP.NPC_Demon_Althelikin11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12402": {
+        "ID": 12402,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_Althelikin11_AnimBP1.NPC_Demon_Althelikin11_AnimBP1_C",
+          "SubPathString": ""
+        }
+      },
+      "12403": {
+        "ID": 12403,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_Althelikin12_AnimBP.NPC_Demon_Althelikin12_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12404": {
+        "ID": 12404,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_Althelikin12_AnimBP1.NPC_Demon_Althelikin12_AnimBP1_C",
+          "SubPathString": ""
+        }
+      },
+      "12501": {
+        "ID": 12501,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_AltherionEgg11.NPC_Demon_AltherionEgg11_C",
+          "SubPathString": ""
+        }
+      },
+      "12601": {
+        "ID": 12601,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Object_AltherionMeteoStone.NPC_Object_AltherionMeteoStone_C",
+          "SubPathString": ""
+        }
+      },
+      "12611": {
+        "ID": 12611,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Object_AltherionEruptionStone.NPC_Object_AltherionEruptionStone_C",
+          "SubPathString": ""
+        }
+      },
+      "12612": {
+        "ID": 12612,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Object_AltherionEruptionStone_01.NPC_Object_AltherionEruptionStone_01_C",
+          "SubPathString": ""
+        }
+      },
+      "12701": {
+        "ID": 12701,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_AltherionTentacle11.NPC_Demon_AltherionTentacle11_C",
+          "SubPathString": ""
+        }
+      },
+      "12801": {
+        "ID": 12801,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_Normal_SwordShield_NM01_AnimBP.NPC_Human_Normal_SwordShield_NM01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12802": {
+        "ID": 12802,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NM01_SwordShield11_Patrol_AnimBP.NPC_Human_NM01_SwordShield11_Patrol_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12891": {
+        "ID": 12891,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_Normal_NPC_NM01_AnimBP.NPC_Human_Normal_NPC_NM01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12901": {
+        "ID": 12901,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_Normal_Polearm_BM01_AnimBP.NPC_Human_Normal_Polearm_BM01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "12991": {
+        "ID": 12991,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_Normal_NPC_BM01_AnimBP.NPC_Human_Normal_NPC_BM01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13001": {
+        "ID": 13001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_Normal_NF01_Wand_AnimBP.NPC_Human_Normal_NF01_Wand_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13002": {
+        "ID": 13002,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_Normal_NF01_PriestWand_AnimBP.NPC_Human_Normal_NF01_PriestWand_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13091": {
+        "ID": 13091,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_Normal_NPC_NF01_AnimBP.NPC_Human_Normal_NPC_NF01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13092": {
+        "ID": 13092,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Tot_Bas_1_N_01.NPC_Tot_Bas_1_N_01_C",
+          "SubPathString": ""
+        }
+      },
+      "13093": {
+        "ID": 13093,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Object_Invisible_AN01_AnimBP.NPC_Object_Invisible_AN01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13101": {
+        "ID": 13101,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Gimmick_Door_Stone_AnimBP.NPC_Gimmick_Door_Stone_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13201": {
+        "ID": 13201,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Gimmick_Lever_AnimBP.NPC_Gimmick_Lever_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13111": {
+        "ID": 13111,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_Normal_SwordShield_NM01_AnimBP.NPC_Human_Normal_SwordShield_NM01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13301": {
+        "ID": 13301,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Humanoid/NPC_Humanoid_NA_HarpyJavelineerSpear11_AnimBP.NPC_Humanoid_NA_HarpyJavelineerSpear11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13401": {
+        "ID": 13401,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Object/NPC_Object_NA_IronGolem11_AnimBP.NPC_Object_NA_IronGolem11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13501": {
+        "ID": 13501,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Undead/NPC_Undead_NM_NectariCreature11_AnimBP.NPC_Undead_NM_NectariCreature11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13502": {
+        "ID": 13502,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Undead/NPC_Undead_NA_Romulus41_AnimBP.NPC_Undead_NA_Romulus41_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13601": {
+        "ID": 13601,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NPC_Beast_NA_BlackSpider11_AnimBP.NPC_Beast_NA_BlackSpider11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13701": {
+        "ID": 13701,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NPC_Beast_Ecotitans01_GallantStrider11_AnimBP.NPC_Beast_Ecotitans01_GallantStrider11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13801": {
+        "ID": 13801,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NPC_Beast_Feldar01_PlainCow11_AnimBP.NPC_Beast_Feldar01_PlainCow11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13802": {
+        "ID": 13802,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NonBattleNPC/NPC_Beast_Feldar01_PlainCow11_Btl_Std02_AnimBP.NPC_Beast_Feldar01_PlainCow11_Btl_Std02_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13803": {
+        "ID": 13803,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NonBattleNPC/NPC_Beast_Feldar01_PlainCow11_Dmg_DwnFrontLoop_AnimBP.NPC_Beast_Feldar01_PlainCow11_Dmg_DwnFrontLoop_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "13901": {
+        "ID": 13901,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_M_Shape01_Volt01_AnimBP.NPC_M_Shape01_Volt01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14001": {
+        "ID": 14001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_M_Shape02_Belmond01_AnimBP.NPC_M_Shape02_Belmond01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14101": {
+        "ID": 14101,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_F_Shape01_Ada01_AnimBP.NPC_F_Shape01_Ada01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14102": {
+        "ID": 14102,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_F_Shape01_NonBattleAda01_AnimBP.NPC_F_Shape01_NonBattleAda01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14201": {
+        "ID": 14201,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_F_Shape01_Cindy01_AnimBP.NPC_F_Shape01_Cindy01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14301": {
+        "ID": 14301,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NormalMale01_Sword11_AnimBP.NPC_Human_NormalMale01_Sword11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14401": {
+        "ID": 14401,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NormalMale01_Sword11_AnimBP.NPC_Human_NormalMale01_Sword11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14501": {
+        "ID": 14501,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NormalMale01_Staff11_AnimBP.NPC_Human_NormalMale01_Staff11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14601": {
+        "ID": 14601,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_BigMale01_MaceShield11_AnimBP.NPC_Human_BigMale01_MaceShield11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14602": {
+        "ID": 14602,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_BM01_MaceShield11_Patrol_AnimBP.NPC_Human_BM01_MaceShield11_Patrol_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14701": {
+        "ID": 14701,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_BigMale01_Axe11_AnimBP.NPC_Human_BigMale01_Axe11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14801": {
+        "ID": 14801,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NormalFemale01_VictoriaVereen11_AnimBP.NPC_Human_NormalFemale01_VictoriaVereen11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "14901": {
+        "ID": 14901,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NormalFemale01_SpearShield11_AnimBP.NPC_Human_NormalFemale01_SpearShield11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15001": {
+        "ID": 15001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NPC_Beast_Ant01_BattleAnt11_AnimBP.NPC_Beast_Ant01_BattleAnt11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15101": {
+        "ID": 15101,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_Dreadspawn01_Uarthas11_AnimBP.NPC_Demon_Dreadspawn01_Uarthas11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15201": {
+        "ID": 15201,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_Slime01_WindSlime11_AnimBP.NPC_Demon_Slime01_WindSlime11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15301": {
+        "ID": 15301,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_M_Shape01_Marius01_AnimBP.NPC_M_Shape01_Marius01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15401": {
+        "ID": 15401,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_M_Shape01_Kairos01_AnimBP.NPC_M_Shape01_Kairos01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15501": {
+        "ID": 15501,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_M_Shape02_Hector01_AnimBP.NPC_M_Shape02_Hector01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15601": {
+        "ID": 15601,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_F_Shape01_Shizuka01_AnimBP.NPC_F_Shape01_Shizuka01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15701": {
+        "ID": 15701,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_F_Shape01_Circe01_AnimBP.NPC_F_Shape01_Circe01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15801": {
+        "ID": 15801,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Demon_Abyssion51_AnimBP.NPC_Demon_Abyssion51_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "15901": {
+        "ID": 15901,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Undead/NPC_Undead_Imara_Imara51_AnimBP.NPC_Undead_Imara_Imara51_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16001": {
+        "ID": 16001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NPC_Beast_Wolf01_Wolf11_AnimBP.NPC_Beast_Wolf01_Wolf11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16101": {
+        "ID": 16101,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NM01_Rifle11_AnimBP.NPC_Human_NM01_Rifle11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16201": {
+        "ID": 16201,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NF01_DoublePistol_AnimBP.NPC_Human_NF01_DoublePistol_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16301": {
+        "ID": 16301,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NM01_Cine_Afraid_AnimBP.NPC_Human_NM01_Cine_Afraid_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16401": {
+        "ID": 16401,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Mount/NPC_Mount_BattleRavanos01_NA11_AnimBP.NPC_Mount_BattleRavanos01_NA11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16402": {
+        "ID": 16402,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Mount/NPC_Mount_Ravanos01_NA11_AnimBP.NPC_Mount_Ravanos01_NA11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16403": {
+        "ID": 16403,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Mount/NPC_Mount_BattleHorse01_NA11_AnimBP.NPC_Mount_BattleHorse01_NA11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16404": {
+        "ID": 16404,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Mount/NPC_Mount_Horse01_NA11_AnimBP.NPC_Mount_Horse01_NA11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16501": {
+        "ID": 16501,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NM01_Lby_Std_AnimBP.NPC_Human_NM01_Lby_Std_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16502": {
+        "ID": 16502,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NM01_WarehouseKeeper_Idle01_AnimBP.NPC_Human_NM01_WarehouseKeeper_Idle01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16503": {
+        "ID": 16503,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NM01_Cine_Talk01_AnimBP.NPC_Human_NM01_Cine_Talk01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16504": {
+        "ID": 16504,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NM01_Cine_Search01_AnimBP.NPC_Human_NM01_Cine_Search01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16505": {
+        "ID": 16505,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NM01_Cine_Repair01_AnimBP.NPC_Human_NM01_Cine_Repair01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16601": {
+        "ID": 16601,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NF01_Lby_Std_AnimBP.NPC_Human_NF01_Lby_Std_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16602": {
+        "ID": 16602,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NF01_Innkeeper_Social01_AnimBP.NPC_Human_NF01_Innkeeper_Social01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16603": {
+        "ID": 16603,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NF01_Cine_Talk01_AnimBP.NPC_Human_NF01_Cine_Talk01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16604": {
+        "ID": 16604,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NF01_Cine_Search01_AnimBP.NPC_Human_NF01_Cine_Search01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16605": {
+        "ID": 16605,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_NF01_Cine_Search02_AnimBP.NPC_Human_NF01_Cine_Search02_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16701": {
+        "ID": 16701,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NPC_Beast_Hyena01_Desert11_AnimBP.NPC_Beast_Hyena01_Desert11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16801": {
+        "ID": 16801,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Undead/NPC_Undead_NoxParasite01_NA11_AnimBP.NPC_Undead_NoxParasite01_NA11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "16901": {
+        "ID": 16901,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_BigMale01_Draven41_AnimBP.NPC_Human_BigMale01_Draven41_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17001": {
+        "ID": 17001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_EtherElemental_NA11_AnimBP.NPC_Demon_EtherElemental_NA11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17101": {
+        "ID": 17101,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_ThornVine_NA11_AnimBP.NPC_Demon_ThornVine_NA11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17201": {
+        "ID": 17201,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NPC_Beast_Scorpion01_Desert11_AnimBP.NPC_Beast_Scorpion01_Desert11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17301": {
+        "ID": 17301,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Undead/NPC_Undead_Nightshade_NA11_AnimBP.NPC_Undead_Nightshade_NA11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17401": {
+        "ID": 17401,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NF01_RagingBarbara41_AnimBP.NPC_Human_NF01_RagingBarbara41_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17501": {
+        "ID": 17501,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NonBattleNPC/NPC_Human_BM01_Lby_Std_AnimBP.NPC_Human_BM01_Lby_Std_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17601": {
+        "ID": 17601,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Demon/NPC_Demon_Moruru01_Desert11_AnimBP.NPC_Demon_Moruru01_Desert11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17702": {
+        "ID": 17702,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NPC_Beast_Gigathorax01_Stoneback11_AnimBP.NPC_Beast_Gigathorax01_Stoneback11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17801": {
+        "ID": 17801,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Beast/NPC_Beast_Bear_NA12_AnimBP.NPC_Beast_Bear_NA12_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17802": {
+        "ID": 17802,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NormalFemale01_AzuleiInvestigatorDoubleDagger11_AnimBP.NPC_Human_NormalFemale01_AzuleiInvestigatorDoubleDagger11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "17901": {
+        "ID": 17901,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Human/NPC_Human_NM01_Spear11_AnimBP.NPC_Human_NM01_Spear11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30001": {
+        "ID": 30001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/ETC/DarkSteelAnimBlueprint.DarkSteelAnimBlueprint_C",
+          "SubPathString": ""
+        }
+      },
+      "30002": {
+        "ID": 30002,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/ETC/TreasureBoxAnimBP.TreasureBoxAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30003": {
+        "ID": 30003,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/ETC/FieldTreeAnim_01.FieldTreeAnim_01_C",
+          "SubPathString": ""
+        }
+      },
+      "30004": {
+        "ID": 30004,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/ETC/HerbWildGrassAnim_01.HerbWildGrassAnim_01_C",
+          "SubPathString": ""
+        }
+      },
+      "30005": {
+        "ID": 30005,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/ETC/OreStoneAnim_01.OreStoneAnim_01_C",
+          "SubPathString": ""
+        }
+      },
+      "30006": {
+        "ID": 30006,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Portal/Stuff_Portal_01_AnimBP.Stuff_Portal_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30007": {
+        "ID": 30007,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/ETC/NPC_Object_InvisibleStuff_AN01_AnimBP.NPC_Object_InvisibleStuff_AN01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30008": {
+        "ID": 30008,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Portal/Stuff_InnPortal_01_AnimBP.Stuff_InnPortal_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30009": {
+        "ID": 30009,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Gather/Stuff_Gather_Plants_TundraBerry_11_AnimBP.Stuff_Gather_Plants_TundraBerry_11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30010": {
+        "ID": 30010,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Gather/Stuff_Gather_Ore_Gneiss_11_AnimBP.Stuff_Gather_Ore_Gneiss_11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30011": {
+        "ID": 30011,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Gather/Stuff_Gather_Tree_BirchTree_11_AnimBP.Stuff_Gather_Tree_BirchTree_11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30012": {
+        "ID": 30012,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Gather/Stuff_Gather_UnderWater_Shell_11_AnimBP.Stuff_Gather_UnderWater_Shell_11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30013": {
+        "ID": 30013,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Gather/Stuff_Gather_Box_TundraBox_11_AnimBP.Stuff_Gather_Box_TundraBox_11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30014": {
+        "ID": 30014,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Gather/Stuff_Gather_Arch_TundraDirt_11_AnimBP.Stuff_Gather_Arch_TundraDirt_11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30015": {
+        "ID": 30015,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Gather/Stuff_Gather_DigSite_11_AnimBP.Stuff_Gather_DigSite_11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30016": {
+        "ID": 30016,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Breach/Stuff_Breach_StoneTablet_01_AnimBP.Stuff_Breach_StoneTablet_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30017": {
+        "ID": 30017,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Breach/Stuff_Breach_DecoPortal_01_AnimBP.Stuff_Breach_DecoPortal_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30018": {
+        "ID": 30018,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Breach/Stuff_Breach_SmallAlter_01_AnimBP.Stuff_Breach_SmallAlter_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30019": {
+        "ID": 30019,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Breach/Stuff_Breach_PortalSign_01_AnimBP.Stuff_Breach_PortalSign_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30020": {
+        "ID": 30020,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Breach/Stuff_Breach_StoneTower_01_AnimBP.Stuff_Breach_StoneTower_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "30100": {
+        "ID": 30100,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Quest/Stuff_Quest_Vergence_01_AnimBP.Stuff_Quest_Vergence_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "40001": {
+        "ID": 40001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/WarpDevice/WarpDeviceAnimBlueprint.WarpDeviceAnimBlueprint_C",
+          "SubPathString": ""
+        }
+      },
+      "50001": {
+        "ID": 50001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Transports/TransportAnimBP.TransportAnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "50002": {
+        "ID": 50002,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Transports/Transport_Ship_TirBigShip_01_AnimBp.Transport_Ship_TirBigShip_01_AnimBp_C",
+          "SubPathString": ""
+        }
+      },
+      "61001": {
+        "ID": 61001,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Object/NPC_Object_MountFood_Vegetable11_AnimBP.NPC_Object_MountFood_Vegetable11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "61002": {
+        "ID": 61002,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Object/NPC_Object_MountFood_Meat11_AnimBP.NPC_Object_MountFood_Meat11_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "70001": {
+        "ID": 70001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Gimmick_Door_Stone_AnimBP.NPC_Gimmick_Door_Stone_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "70002": {
+        "ID": 70002,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Gimmick_Lever_AnimBP.NPC_Gimmick_Lever_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "80001": {
+        "ID": 80001,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Gimmick/NPC_Gimmick_LiftUp_NatureRock_AnimBP.NPC_Gimmick_LiftUp_NatureRock_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "80002": {
+        "ID": 80002,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/NPC_Ani_Bor_1_N_01_Handling_AnimBP.NPC_Ani_Bor_1_N_01_Handling_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "80003": {
+        "ID": 80003,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Gimmick/NPC_Gimmick_Liftup_SphereBomb01_S.NPC_Gimmick_Liftup_SphereBomb01_S_C",
+          "SubPathString": ""
+        }
+      },
+      "80004": {
+        "ID": 80004,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Gimmick/NPC_Gimmick_Liftup_Breachstone02_S.NPC_Gimmick_Liftup_Breachstone02_S_C",
+          "SubPathString": ""
+        }
+      },
+      "80005": {
+        "ID": 80005,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Gimmick/NPC_Gimmick_CrumblingRock_AnimBP.NPC_Gimmick_CrumblingRock_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "80006": {
+        "ID": 80006,
+        "DataStage": 16,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/NPCs/Gimmick/NPC_Gimmick_Liftup_SphereBomb01_S1.NPC_Gimmick_Liftup_SphereBomb01_S1_C",
+          "SubPathString": ""
+        }
+      },
+      "90001": {
+        "ID": 90001,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Portal/Stuff_BreachPortal_01_AnimBP.Stuff_BreachPortal_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      },
+      "90002": {
+        "ID": 90002,
+        "DataStage": 23,
+        "Version": "*",
+        "AbpPath": {
+          "AssetPathName": "/Game/AnimationBPs/Stuffs/Portal/Stuff_GatePortal_01_AnimBP.Stuff_GatePortal_01_AnimBP_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

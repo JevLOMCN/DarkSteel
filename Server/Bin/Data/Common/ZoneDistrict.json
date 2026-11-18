@@ -1,0 +1,692 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ZoneDistrict",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ZoneDistrict",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ZoneDistrictTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1002001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1002,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1100,
+        "ID": 1002001,
+        "ID_DistrictName": 111002,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "1002002": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1002,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 1002002,
+        "ID_DistrictName": 112055,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11,
+          12
+        ],
+        "IsDistrictVolume": false
+      },
+      "1003001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1003,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1200,
+        "ID": 1003001,
+        "ID_DistrictName": 111003,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "1004001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1004,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1300,
+        "ID": 1004001,
+        "ID_DistrictName": 111006,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "1004002": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1004,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 1004002,
+        "ID_DistrictName": 112030,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11,
+          12
+        ],
+        "IsDistrictVolume": false
+      },
+      "1005001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1005,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1400,
+        "ID": 1005001,
+        "ID_DistrictName": 111007,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "101010201": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1010102,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1100,
+        "ID": 101010201,
+        "ID_DistrictName": 111002,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "101010202": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1010102,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 101010202,
+        "ID_DistrictName": 112055,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11,
+          12
+        ],
+        "IsDistrictVolume": false
+      },
+      "101010301": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1010103,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1200,
+        "ID": 101010301,
+        "ID_DistrictName": 111003,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "101010401": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1010104,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1300,
+        "ID": 101010401,
+        "ID_DistrictName": 111006,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "101010402": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1010104,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 101010402,
+        "ID_DistrictName": 112030,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11,
+          12
+        ],
+        "IsDistrictVolume": false
+      },
+      "101010501": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 1010105,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 1400,
+        "ID": 101010501,
+        "ID_DistrictName": 111007,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "2001001": {
+        "DataStage": 16,
+        "IsDistrictName": false,
+        "ID_Zone": 2001,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 2001001,
+        "ID_DistrictName": 119117,
+        "ID_DistrictProp": [
+          1,
+          4
+        ],
+        "IsDistrictVolume": false
+      },
+      "2002001": {
+        "DataStage": 16,
+        "IsDistrictName": false,
+        "ID_Zone": 2002,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 9999,
+        "ID_RamdomWeather": 1001,
+        "ID_Flooring": 0,
+        "ID": 2002001,
+        "ID_DistrictName": 119118,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "2501001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 2501,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 2501001,
+        "ID_DistrictName": 119137,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "2502001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 2502,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 2502001,
+        "ID_DistrictName": 119145,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": true
+      },
+      "2503001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 2503,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 2503001,
+        "ID_DistrictName": 119146,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": true
+      },
+      "2504001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 2504,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 2504001,
+        "ID_DistrictName": 119140,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "6001001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 6001,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 6001001,
+        "ID_DistrictName": 119120,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "6002001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 6002,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 6002001,
+        "ID_DistrictName": 119121,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "6003001": {
+        "DataStage": 23,
+        "IsDistrictName": true,
+        "ID_Zone": 6003,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 6003001,
+        "ID_DistrictName": 119122,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "7001001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 7001,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 7001001,
+        "ID_DistrictName": 119123,
+        "ID_DistrictProp": [
+          1,
+          4,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "7002001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 7002,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": true,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 7002001,
+        "ID_DistrictName": 119124,
+        "ID_DistrictProp": [
+          1,
+          4,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "7003001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 7003,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 7003001,
+        "ID_DistrictName": 119132,
+        "ID_DistrictProp": [
+          1,
+          4,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "9001001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 9001,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 9001001,
+        "ID_DistrictName": 119142,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      },
+      "11001001": {
+        "DataStage": 16,
+        "IsDistrictName": true,
+        "ID_Zone": 11001,
+        "ID_DistrictBuff": [],
+        "ID_FixedReturnWarpLocation": 0,
+        "Id_ZoneDeathPenalty": 11,
+        "IsRide": false,
+        "MountLocationType": [
+          "EDS_MountActionType::Ground",
+          "EDS_MountActionType::Air"
+        ],
+        "ID_Climate": 1001,
+        "ID_FixedWeather": 0,
+        "ID_RamdomWeather": 0,
+        "ID_Flooring": 0,
+        "ID": 11001001,
+        "ID_DistrictName": 200001,
+        "ID_DistrictProp": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "IsDistrictVolume": false
+      }
+    }
+  }
+]

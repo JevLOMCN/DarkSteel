@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StuffQuest",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StuffQuest",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StuffQuestTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10100001": {
+        "ID": 10100001,
+        "DataStage": 23,
+        "Version": "*",
+        "ActivationQuest": 1000000
+      }
+    }
+  }
+]

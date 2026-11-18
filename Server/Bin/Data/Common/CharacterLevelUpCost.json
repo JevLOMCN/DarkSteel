@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CharacterLevelUpCost",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CharacterLevelUpCost",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CharacterLevelUpCostTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "330000001": {
+        "ID": 330000001,
+        "DataStage": 23,
+        "ID_Item": 330000001,
+        "RewardCharExp": 750,
+        "ReqMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "ReqMoneyValue": [
+          400
+        ]
+      },
+      "330000014": {
+        "ID": 330000014,
+        "DataStage": 23,
+        "ID_Item": 330000014,
+        "RewardCharExp": 750,
+        "ReqMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "ReqMoneyValue": [
+          400
+        ]
+      },
+      "330000019": {
+        "ID": 330000019,
+        "DataStage": 23,
+        "ID_Item": 330000019,
+        "RewardCharExp": 750,
+        "ReqMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "ReqMoneyValue": [
+          400
+        ]
+      },
+      "330000029": {
+        "ID": 330000029,
+        "DataStage": 23,
+        "ID_Item": 330000029,
+        "RewardCharExp": 750,
+        "ReqMoneyType": [
+          "EDS_MoneyType::Copper"
+        ],
+        "ReqMoneyValue": [
+          400
+        ]
+      }
+    }
+  }
+]

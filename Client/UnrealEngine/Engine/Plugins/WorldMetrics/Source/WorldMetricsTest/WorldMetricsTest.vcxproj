@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{0B795256-8020-5DB6-82D3-1BF069CCB3D3}</ProjectGuid><RootNamespace>WorldMetricsTest</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricA.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricB.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricBarBase.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricBase.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricC.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricD.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricE.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricF.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricFooBase.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricG.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricH.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricI.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricJ.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionA.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionB.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionBase.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionC.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionD.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionE.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionF.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionG.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionH.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionI.cpp" />
+    <ClCompile Include="Private\UMockWorldMetricsExtensionJ.cpp" />
+    <ClCompile Include="Private\UWorldMetricInterface.cpp" />
+    <ClCompile Include="Private\UWorldMetricsSubsystem.cpp" />
+    <ClCompile Include="Private\_Free\Module.WorldMetricsTest.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

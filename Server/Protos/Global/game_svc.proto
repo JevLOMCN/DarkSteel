@@ -1,0 +1,160 @@
+syntax = "proto3";
+package game_svc;
+option csharp_namespace = "MirProto.GameSvc";
+
+import "_unique_id.proto";
+import "ErrorCode.proto";
+import "service_bus_response.proto";
+import "mail.proto";
+import "api_player.proto";
+import "ds_game.proto";
+import "messages.proto";
+import "google/protobuf/timestamp.proto";
+import "AccountAuthority.proto";
+import "rank.proto";
+import "raid_party.proto";
+import "dai_character.proto";
+
+message KickOutRequest {
+  UniqueId player_session_uid = 1;
+  int64 player_uid = 2;
+}
+message KickOutResponse {
+  ErrorCode error_code = 1;
+}
+message KickOutAllRequest {
+  bool phantom_data = 1;
+}
+message KickOutAllResponse {
+  ErrorCode error_code = 1;
+}
+message ReloadDataTableRequest {
+  bool phantom_data = 1;
+}
+message ReloadDataTableResponse {
+  ErrorCode error_code = 1;
+}
+message GetPlayerInfoRequest {
+  bool phantom_data = 1;
+}
+message GetPlayerInfoResponse {
+  ErrorCode error_code = 1;
+  repeated UniqueId player_session_uid = 2;
+  repeated int64 player_uid = 3;
+  repeated string nickname = 4;
+  repeated int32 server_list = 5;
+}
+message SendServerMessageFeRequest {
+  string message = 1;
+}
+message SendServerMessageFeResponse {
+  ErrorCode error_code = 1;
+}
+message ReloadPhasingTableRequest {
+  bool phantom_data = 1;
+}
+message ReloadPhasingTableResponse {
+  ErrorCode error_code = 1;
+}
+message ChangeGuildInfoRequest {
+  int64 guild_uid = 1;
+}
+message ChangeGuildInfoResponse {
+  ErrorCode error_code = 1;
+}
+message DeleteGuildInfoRequest {
+  int64 guild_uid = 1;
+}
+message DeleteGuildInfoResponse {
+  ErrorCode error_code = 1;
+}
+message ChangeGuildMemberInfoRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+}
+message ChangeGuildMemberInfoResponse {
+  ErrorCode error_code = 1;
+}
+message DeleteGuildMemberInfoRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  float combat_power = 3;
+}
+message DeleteGuildMemberInfoResponse {
+  ErrorCode error_code = 1;
+}
+message GameServerTopic {
+  string server_name = 100;
+  oneof item {
+    ServiceBusResponse service_bus_res = 1;
+    mail.MailServerResponse mail_res = 2;
+    CreateNicknameServiceBusRequest create_nickname_req = 3;
+    game_svc.KickOutRequest kickout_req = 4;
+    rank.ServiceBusRankResponse rank_res = 5;
+    raid_party.RaidPartyResponse raid_party_res = 6;
+    dai_character.GetPlayerInfoResponse get_player_info_res = 7;
+    dai_character.CreateNicknameDaiFailureResponse create_nickname_dai_failure_res = 8;
+    dai_character.WorldDbDataResponse world_db_data_res = 9;
+  }
+}
+message GameServerChangeRequest {
+  uint64 player_entity = 1;
+  int32 from_game_server_index = 2;
+  int32 world_id = 3;
+  int64 player_uid = 4;
+  string nickname = 5;
+  AccountAuthority account_authority = 6;
+  google.protobuf.Timestamp login_dt = 10;
+  messages.FrontEndClientSession front_end_client_session = 11;
+  UniqueId player_session_uid = 12;
+  int64 party_id = 20;
+  int64 guild_uid = 21;
+  string guild_name = 22;
+  messages.ServerChangeType server_change_type = 30;
+  repeated ds_game.DbWorkItem db_work_items = 100;
+  int32 to_game_server_index = 101;
+}
+message GameServerChangeResponse {
+  ErrorCode error_code = 1;
+  uint64 player_entity = 2;
+  int64 player_uid = 3;
+  int32 game_server_index = 4;
+}
+message PartyInviteRequest {
+  int64 player_uid = 1;
+}
+message PartyInviteResponse {
+  ErrorCode error_code = 1;
+  int64 player_uid = 2;
+}
+message GameServerRequest {
+  oneof item {
+    game_svc.PartyInviteRequest party_invite = 1;
+    game_svc.TransportSpawnRequest transport_spawn = 2;
+    game_svc.TransportReadyRequest transport_ready = 3;
+    raid_party.RaidPartyRequest raid_party_request = 4;
+  }
+}
+message GameServerResponse {
+  oneof item {
+    game_svc.PartyInviteResponse party_invite = 1;
+    game_svc.TransportSpawnResponse transport_spawn = 2;
+    game_svc.TransportReadyResponse transport_ready = 3;
+    raid_party.RaidPartyResponse raid_party_response = 4;
+  }
+}
+message TransportSpawnRequest {
+  int32 transport_spawn_id = 1;
+  int32 spawn_island_id = 2;
+}
+message TransportSpawnResponse {
+  ErrorCode error_code = 1;
+  uint64 transport_spawn_entity = 2;
+}
+message TransportReadyRequest {
+  uint64 transport_spawn_entity = 2;
+  repeated uint64 player_uids = 3;
+}
+message TransportReadyResponse {
+  ErrorCode error_code = 1;
+}

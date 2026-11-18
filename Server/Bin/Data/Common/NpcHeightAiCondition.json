@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcHeightAiCondition",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcHeightAiCondition",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcHeightAiConditionTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1060401": {
+        "ID": 1060401,
+        "DataStage": 23,
+        "ChangeHeightConditionType": "EDS_HeightConditionType::Air",
+        "HeightApplyType": "EDS_HeightApplyType::StartTime",
+        "StartTime": 1.5,
+        "EndTime": 2.0,
+        "HeightDistance": 500.0
+      },
+      "1060402": {
+        "ID": 1060402,
+        "DataStage": 23,
+        "ChangeHeightConditionType": "EDS_HeightConditionType::Ground",
+        "HeightApplyType": "EDS_HeightApplyType::EndTime",
+        "StartTime": 4.0,
+        "EndTime": 4.3,
+        "HeightDistance": 0.0
+      },
+      "1060501": {
+        "ID": 1060501,
+        "DataStage": 23,
+        "ChangeHeightConditionType": "EDS_HeightConditionType::Ground",
+        "HeightApplyType": "EDS_HeightApplyType::EndTime",
+        "StartTime": 1.5,
+        "EndTime": 2.0,
+        "HeightDistance": 0.0
+      }
+    }
+  }
+]

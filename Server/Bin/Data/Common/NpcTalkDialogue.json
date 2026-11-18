@@ -1,0 +1,7961 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcTalkDialogue",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcTalkDialogue",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcTalkDialogueTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991001,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991001100,
+          2991001101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991001,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991001400,
+          2991001401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991002,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20003,
+        "ID_StringQuest": [
+          2991002100,
+          2991002101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991002,
+        "DialogueType": "EDS_DialogueType::QuestOngoing",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991002200,
+          2991002201
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991002,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20003,
+        "ID_StringQuest": [
+          2991002400,
+          2991002401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991003,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991003100,
+          2991003101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991003,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991003400,
+          2991003401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991004,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991004100,
+          2991004101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991004,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991004400,
+          2991004401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991005,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991005100,
+          2991005101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991005,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991005400,
+          2991006101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991006,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991006100,
+          2991006101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991006,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991006400,
+          2991006401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991007,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20003,
+        "ID_StringQuest": [
+          2991007100,
+          2991007101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991007,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20003,
+        "ID_StringQuest": [
+          2991007400,
+          2991007401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991008,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20003,
+        "ID_StringQuest": [
+          2991008100,
+          2991008101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991008,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20003,
+        "ID_StringQuest": [
+          2991008400,
+          2991008401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991009,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20003,
+        "ID_StringQuest": [
+          2991009100,
+          2991009101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991009,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20003,
+        "ID_StringQuest": [
+          2991009400,
+          2991009401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991010,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991010100,
+          2991010101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991010,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20013,
+        "ID_StringQuest": [
+          2991010400,
+          2991010401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991011,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20007,
+        "ID_StringQuest": [
+          2991011100,
+          2991011101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991011,
+        "DialogueType": "EDS_DialogueType::QuestOngoing",
+        "ID_TalkNpcId": 20008,
+        "ID_StringQuest": [
+          2991011200,
+          2991011201
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991011,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20012,
+        "ID_StringQuest": [
+          2991011400,
+          2991011401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991012,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20008,
+        "ID_StringQuest": [
+          2991012100,
+          2991012101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991012,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20011,
+        "ID_StringQuest": [
+          2991012400,
+          2991012401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991013,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20009,
+        "ID_StringQuest": [
+          2991013100,
+          2991013101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991013,
+        "DialogueType": "EDS_DialogueType::QuestOngoing",
+        "ID_TalkNpcId": 20009,
+        "ID_StringQuest": [
+          2991013200
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1
+        ]
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991013,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20010,
+        "ID_StringQuest": [
+          2991013400,
+          2991013401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991014,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20010,
+        "ID_StringQuest": [
+          2991014100,
+          2991014101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991014,
+        "DialogueType": "EDS_DialogueType::QuestOngoing",
+        "ID_TalkNpcId": 20010,
+        "ID_StringQuest": [
+          2991014200
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1
+        ]
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991014,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20009,
+        "ID_StringQuest": [
+          2991014400,
+          2991014401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "33": {
+        "ID": 33,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991015,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20011,
+        "ID_StringQuest": [
+          2991015100,
+          2991015101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "34": {
+        "ID": 34,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991015,
+        "DialogueType": "EDS_DialogueType::QuestOngoing",
+        "ID_TalkNpcId": 20011,
+        "ID_StringQuest": [
+          2991015200
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1
+        ]
+      },
+      "35": {
+        "ID": 35,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991015,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20008,
+        "ID_StringQuest": [
+          2991015400,
+          2991015401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "36": {
+        "ID": 36,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991016,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20012,
+        "ID_StringQuest": [
+          2991016100,
+          2991016101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "37": {
+        "ID": 37,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991016,
+        "DialogueType": "EDS_DialogueType::QuestOngoing",
+        "ID_TalkNpcId": 20007,
+        "ID_StringQuest": [
+          2991016200
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1
+        ]
+      },
+      "38": {
+        "ID": 38,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991016,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20007,
+        "ID_StringQuest": [
+          2991016400,
+          2991016401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "39": {
+        "ID": 39,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991017,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20013,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "40": {
+        "ID": 40,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991017,
+        "DialogueType": "EDS_DialogueType::QuestOngoing",
+        "ID_TalkNpcId": 20013,
+        "ID_StringQuest": [
+          2991017200
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1
+        ]
+      },
+      "41": {
+        "ID": 41,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991017,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "42": {
+        "ID": 42,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20002,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "43": {
+        "ID": 43,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20003,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20003,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "44": {
+        "ID": 44,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20004,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "45": {
+        "ID": 45,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20005,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "46": {
+        "ID": 46,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20006,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "47": {
+        "ID": 47,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20007,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20007,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "48": {
+        "ID": 48,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20008,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20008,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "49": {
+        "ID": 49,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20009,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20009,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "50": {
+        "ID": 50,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20010,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20010,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "51": {
+        "ID": 51,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20011,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20011,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "52": {
+        "ID": 52,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20012,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20012,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "53": {
+        "ID": 53,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20013,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20013,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "54": {
+        "ID": 54,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20009101,
+        "DialogueType": "EDS_DialogueType::NpcNormalTalk",
+        "ID_TalkNpcId": 20009,
+        "ID_StringQuest": [
+          11002000901,
+          11002000902,
+          1
+        ],
+        "PlayTime": [
+          5.0,
+          5.0,
+          1.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1,
+          0
+        ]
+      },
+      "55": {
+        "ID": 55,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20009102,
+        "DialogueType": "EDS_DialogueType::NpcNormalTalk",
+        "ID_TalkNpcId": 20009,
+        "ID_StringQuest": [
+          11002000903,
+          1
+        ],
+        "PlayTime": [
+          5.0,
+          1.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "56": {
+        "ID": 56,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20009103,
+        "DialogueType": "EDS_DialogueType::NpcNormalTalk",
+        "ID_TalkNpcId": 20009,
+        "ID_StringQuest": [
+          11002000904,
+          11002000905,
+          1
+        ],
+        "PlayTime": [
+          5.0,
+          5.0,
+          1.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1,
+          0
+        ]
+      },
+      "57": {
+        "ID": 57,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20009104,
+        "DialogueType": "EDS_DialogueType::NpcNormalTalk",
+        "ID_TalkNpcId": 20009,
+        "ID_StringQuest": [
+          11002000906,
+          11002000907,
+          1
+        ],
+        "PlayTime": [
+          5.0,
+          5.0,
+          1.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1,
+          0
+        ]
+      },
+      "58": {
+        "ID": 58,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991018,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20014,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "59": {
+        "ID": 59,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991018,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20014,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "60": {
+        "ID": 60,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991019,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20015,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "61": {
+        "ID": 61,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991019,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20015,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "62": {
+        "ID": 62,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20005101,
+        "DialogueType": "EDS_DialogueType::NpcNormalTalk",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991002200,
+          2991002201,
+          1
+        ],
+        "PlayTime": [
+          5.0,
+          5.0,
+          1.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1,
+          0
+        ]
+      },
+      "63": {
+        "ID": 63,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20008101,
+        "DialogueType": "EDS_DialogueType::NpcNormalTalk",
+        "ID_TalkNpcId": 20008,
+        "ID_StringQuest": [
+          2991011200,
+          2991011201,
+          1
+        ],
+        "PlayTime": [
+          5.0,
+          5.0,
+          1.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1,
+          0
+        ]
+      },
+      "64": {
+        "ID": 64,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 510101,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 510101,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "65": {
+        "ID": 65,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991019,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20015,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "66": {
+        "ID": 66,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991019,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20015,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "67": {
+        "ID": 67,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991021,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20015,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "68": {
+        "ID": 68,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991021,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20015,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "69": {
+        "ID": 69,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991024,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991001100,
+          2991001101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "70": {
+        "ID": 70,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991024,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991001400,
+          2991001401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "71": {
+        "ID": 71,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991025,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991001100,
+          2991001101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "72": {
+        "ID": 72,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991025,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991001400,
+          2991001401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "73": {
+        "ID": 73,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991026,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991001100,
+          2991001101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "74": {
+        "ID": 74,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991026,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20002,
+        "ID_StringQuest": [
+          2991001400,
+          2991001401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          1,
+          1
+        ]
+      },
+      "75": {
+        "ID": 75,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991027,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "76": {
+        "ID": 76,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991027,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "77": {
+        "ID": 77,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991028,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "78": {
+        "ID": 78,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991028,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "79": {
+        "ID": 79,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991029,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "80": {
+        "ID": 80,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991029,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "81": {
+        "ID": 81,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991030,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "82": {
+        "ID": 82,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991030,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20004,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "83": {
+        "ID": 83,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991031,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "84": {
+        "ID": 84,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991031,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "85": {
+        "ID": 85,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991032,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "86": {
+        "ID": 86,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991032,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "87": {
+        "ID": 87,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991033,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "88": {
+        "ID": 88,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991033,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "89": {
+        "ID": 89,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991034,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "90": {
+        "ID": 90,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991034,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20005,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "91": {
+        "ID": 91,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991035,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20014,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "92": {
+        "ID": 92,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991035,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20014,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "93": {
+        "ID": 93,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991036,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20014,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "94": {
+        "ID": 94,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991036,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20014,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "95": {
+        "ID": 95,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991037,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20014,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "96": {
+        "ID": 96,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991037,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20014,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "97": {
+        "ID": 97,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991038,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "98": {
+        "ID": 98,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991038,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "99": {
+        "ID": 99,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991039,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991039,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991040,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991040,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991041,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "104": {
+        "ID": 104,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991041,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20006,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "105": {
+        "ID": 105,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991042,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20013,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "106": {
+        "ID": 106,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991042,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20013,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "107": {
+        "ID": 107,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20020,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20020,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "108": {
+        "ID": 108,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20021,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "109": {
+        "ID": 109,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20022,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20022,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "110": {
+        "ID": 110,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20023,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20023,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "111": {
+        "ID": 111,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20024,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "112": {
+        "ID": 112,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991043,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20020,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "113": {
+        "ID": 113,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991043,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20020,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "114": {
+        "ID": 114,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991044,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20020,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "115": {
+        "ID": 115,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991044,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20020,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "116": {
+        "ID": 116,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991045,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "117": {
+        "ID": 117,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991045,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "118": {
+        "ID": 118,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991046,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "119": {
+        "ID": 119,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991046,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "120": {
+        "ID": 120,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991047,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "121": {
+        "ID": 121,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991047,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "122": {
+        "ID": 122,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991048,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "123": {
+        "ID": 123,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991048,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "124": {
+        "ID": 124,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991049,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20022,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "125": {
+        "ID": 125,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991049,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20022,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "126": {
+        "ID": 126,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991050,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20022,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "127": {
+        "ID": 127,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991050,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20022,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "128": {
+        "ID": 128,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991051,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20022,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "129": {
+        "ID": 129,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991051,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20022,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "130": {
+        "ID": 130,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991052,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20023,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "131": {
+        "ID": 131,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991052,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20023,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "132": {
+        "ID": 132,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991053,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20023,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "133": {
+        "ID": 133,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991053,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20023,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "134": {
+        "ID": 134,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991054,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20023,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "135": {
+        "ID": 135,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991054,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20023,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "136": {
+        "ID": 136,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991055,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20015,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "137": {
+        "ID": 137,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991055,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20015,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "138": {
+        "ID": 138,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991056,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "139": {
+        "ID": 139,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991056,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "140": {
+        "ID": 140,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991057,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "141": {
+        "ID": 141,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991057,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "142": {
+        "ID": 142,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991058,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "143": {
+        "ID": 143,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991058,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "144": {
+        "ID": 144,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991059,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "145": {
+        "ID": 145,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991059,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "146": {
+        "ID": 146,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991060,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900072,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "147": {
+        "ID": 147,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991060,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900072,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "148": {
+        "ID": 148,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991061,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900068,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "149": {
+        "ID": 149,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991061,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900068,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "150": {
+        "ID": 150,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991062,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900068,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "151": {
+        "ID": 151,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991062,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900068,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "152": {
+        "ID": 152,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991063,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900069,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "153": {
+        "ID": 153,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991063,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900069,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "154": {
+        "ID": 154,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991064,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900069,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "155": {
+        "ID": 155,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991064,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900069,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "156": {
+        "ID": 156,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991065,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900069,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "157": {
+        "ID": 157,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991065,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900069,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "158": {
+        "ID": 158,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991066,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900073,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "159": {
+        "ID": 159,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991066,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900073,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "160": {
+        "ID": 160,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991067,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900073,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "161": {
+        "ID": 161,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991067,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900073,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "162": {
+        "ID": 162,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991068,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900073,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "163": {
+        "ID": 163,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991068,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900073,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "164": {
+        "ID": 164,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991069,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900073,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "165": {
+        "ID": 165,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991069,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900073,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "166": {
+        "ID": 166,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991070,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "167": {
+        "ID": 167,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991070,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "168": {
+        "ID": 168,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991071,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "169": {
+        "ID": 169,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991071,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "170": {
+        "ID": 170,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991072,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "171": {
+        "ID": 171,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991072,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "172": {
+        "ID": 172,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991073,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "173": {
+        "ID": 173,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991073,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "174": {
+        "ID": 174,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991074,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "175": {
+        "ID": 175,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991074,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "176": {
+        "ID": 176,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991075,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "177": {
+        "ID": 177,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991075,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 900067,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "178": {
+        "ID": 178,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000000,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20020,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "179": {
+        "ID": 179,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000000,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20020,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "180": {
+        "ID": 180,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000001,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "181": {
+        "ID": 181,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000001,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20021,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "182": {
+        "ID": 182,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000002,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20022,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "183": {
+        "ID": 183,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000002,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20022,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "184": {
+        "ID": 184,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000003,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20023,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "185": {
+        "ID": 185,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000003,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20023,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "186": {
+        "ID": 186,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000004,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017100,
+          2991017101
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "187": {
+        "ID": 187,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 3000004,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20024,
+        "ID_StringQuest": [
+          2991017400,
+          2991017401
+        ],
+        "PlayTime": [
+          5.0,
+          5.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          1
+        ]
+      },
+      "188": {
+        "ID": 188,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20025,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20025,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [],
+        "ID_DialogueSound": [],
+        "TalkNpcAnimation": [],
+        "ID_NpcTalkCameraId": []
+      },
+      "189": {
+        "ID": 189,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20026,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20026,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [],
+        "ID_DialogueSound": [],
+        "TalkNpcAnimation": [],
+        "ID_NpcTalkCameraId": []
+      },
+      "190": {
+        "ID": 190,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20027,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20027,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [],
+        "ID_DialogueSound": [],
+        "TalkNpcAnimation": [],
+        "ID_NpcTalkCameraId": []
+      },
+      "191": {
+        "ID": 191,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20028,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20028,
+        "ID_StringQuest": [
+          50056
+        ],
+        "PlayTime": [],
+        "ID_DialogueSound": [],
+        "TalkNpcAnimation": [],
+        "ID_NpcTalkCameraId": []
+      },
+      "192": {
+        "ID": 192,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991077,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20007,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "193": {
+        "ID": 193,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991077,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20007,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "194": {
+        "ID": 194,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991078,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20007,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "195": {
+        "ID": 195,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991078,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20007,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "196": {
+        "ID": 196,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991079,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "197": {
+        "ID": 197,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991079,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "198": {
+        "ID": 198,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991080,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "199": {
+        "ID": 199,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991080,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "200": {
+        "ID": 200,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991081,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991081,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991082,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "203": {
+        "ID": 203,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991082,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "204": {
+        "ID": 204,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991083,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "205": {
+        "ID": 205,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991083,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "206": {
+        "ID": 206,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20071,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          11201000501
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "207": {
+        "ID": 207,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991084,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "208": {
+        "ID": 208,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991084,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20071,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "209": {
+        "ID": 209,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20073,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20073,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "210": {
+        "ID": 210,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20074,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20074,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "211": {
+        "ID": 211,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20075,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20075,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "212": {
+        "ID": 212,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20076,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20076,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "213": {
+        "ID": 213,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20077,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20077,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "214": {
+        "ID": 214,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20078,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20078,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "215": {
+        "ID": 215,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20079,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20079,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "216": {
+        "ID": 216,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2024009,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20100056,
+        "ID_StringQuest": [
+          2024009100,
+          2024009101,
+          2024009102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "217": {
+        "ID": 217,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2024009,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20100056,
+        "ID_StringQuest": [
+          2024009400,
+          2024009401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "218": {
+        "ID": 218,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2024009101,
+        "DialogueType": "EDS_DialogueType::NpcNormalTalk",
+        "ID_TalkNpcId": 20100056,
+        "ID_StringQuest": [
+          11002001107,
+          11002001108,
+          11002001109,
+          11002001110,
+          11002001111
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "219": {
+        "ID": 219,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20080,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20080,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "220": {
+        "ID": 220,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20081,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20081,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "221": {
+        "ID": 221,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 270038001,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 270038001,
+        "ID_StringQuest": [
+          13000020001
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "222": {
+        "ID": 222,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 270038002,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 270038002,
+        "ID_StringQuest": [
+          13000020002
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "223": {
+        "ID": 223,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 270038003,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 270038003,
+        "ID_StringQuest": [
+          13000020003
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "224": {
+        "ID": 224,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20016,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20016,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "225": {
+        "ID": 225,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20017,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20017,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "226": {
+        "ID": 226,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20018,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20018,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "227": {
+        "ID": 227,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20019,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20019,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "228": {
+        "ID": 228,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991085,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20016,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "229": {
+        "ID": 229,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991085,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20016,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "230": {
+        "ID": 230,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991086,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20016,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "231": {
+        "ID": 231,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991086,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20016,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "232": {
+        "ID": 232,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991087,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20017,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "233": {
+        "ID": 233,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991087,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20017,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "234": {
+        "ID": 234,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991088,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20017,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "235": {
+        "ID": 235,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991088,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20017,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "236": {
+        "ID": 236,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991089,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20017,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "237": {
+        "ID": 237,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991089,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20017,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "238": {
+        "ID": 238,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991090,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20018,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "239": {
+        "ID": 239,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991090,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20018,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "240": {
+        "ID": 240,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991091,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20018,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "241": {
+        "ID": 241,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991091,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20018,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "242": {
+        "ID": 242,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991092,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20018,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "243": {
+        "ID": 243,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991092,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20018,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "244": {
+        "ID": 244,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991093,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20019,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "245": {
+        "ID": 245,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991093,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20019,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "246": {
+        "ID": 246,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991094,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20019,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "247": {
+        "ID": 247,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991094,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20019,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "248": {
+        "ID": 248,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20082,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20082,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "249": {
+        "ID": 249,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20083,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20083,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "250": {
+        "ID": 250,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20084,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20084,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "251": {
+        "ID": 251,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20085,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20085,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "252": {
+        "ID": 252,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20086,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20086,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "253": {
+        "ID": 253,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20087,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20087,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "254": {
+        "ID": 254,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20088,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20088,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "255": {
+        "ID": 255,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20089,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20089,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "256": {
+        "ID": 256,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20090,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20090,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "257": {
+        "ID": 257,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 20091,
+        "DialogueType": "EDS_DialogueType::NpcTalk",
+        "ID_TalkNpcId": 20091,
+        "ID_StringQuest": [
+          11201000941
+        ],
+        "PlayTime": [
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0
+        ],
+        "TalkNpcAnimation": [
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0
+        ]
+      },
+      "258": {
+        "ID": 258,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991095,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20082,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "259": {
+        "ID": 259,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991095,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20082,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "260": {
+        "ID": 260,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991096,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20082,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "261": {
+        "ID": 261,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991096,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20082,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "262": {
+        "ID": 262,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991097,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20082,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "263": {
+        "ID": 263,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991097,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20082,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "264": {
+        "ID": 264,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991098,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20082,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "265": {
+        "ID": 265,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991098,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20082,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "266": {
+        "ID": 266,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991099,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20083,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "267": {
+        "ID": 267,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991099,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20083,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "268": {
+        "ID": 268,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991100,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20083,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "269": {
+        "ID": 269,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991100,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20083,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "270": {
+        "ID": 270,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991101,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20084,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "271": {
+        "ID": 271,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991101,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20084,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "272": {
+        "ID": 272,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991102,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20084,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "273": {
+        "ID": 273,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991102,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20084,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "274": {
+        "ID": 274,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991103,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20085,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "275": {
+        "ID": 275,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991103,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20085,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "276": {
+        "ID": 276,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991104,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20085,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "277": {
+        "ID": 277,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991104,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20085,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "278": {
+        "ID": 278,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991105,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20086,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "279": {
+        "ID": 279,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991105,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20086,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "280": {
+        "ID": 280,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991106,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20087,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "281": {
+        "ID": 281,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991106,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20087,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "282": {
+        "ID": 282,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991107,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20088,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "283": {
+        "ID": 283,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991107,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20088,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "284": {
+        "ID": 284,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991108,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20089,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "285": {
+        "ID": 285,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991108,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20089,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      },
+      "286": {
+        "ID": 286,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991109,
+        "DialogueType": "EDS_DialogueType::QuestStart",
+        "ID_TalkNpcId": 20089,
+        "ID_StringQuest": [
+          2024001100,
+          2024001101,
+          2024001102
+        ],
+        "PlayTime": [
+          15.0,
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0,
+          0
+        ]
+      },
+      "287": {
+        "ID": 287,
+        "DataStage": 23,
+        "Version": "*",
+        "GroupID": 2991109,
+        "DialogueType": "EDS_DialogueType::QuestComplete",
+        "ID_TalkNpcId": 20089,
+        "ID_StringQuest": [
+          2024001400,
+          2024001401
+        ],
+        "PlayTime": [
+          15.0,
+          15.0
+        ],
+        "ID_DialogueSound": [
+          0,
+          0
+        ],
+        "TalkNpcAnimation": [
+          0,
+          0
+        ],
+        "ID_NpcTalkCameraId": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+]

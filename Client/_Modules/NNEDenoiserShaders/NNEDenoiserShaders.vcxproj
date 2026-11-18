@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{DC9CAD61-4E77-5AE6-8F9A-A7055E78C1F7}</ProjectGuid><RootNamespace>NNEDenoiserShaders</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAutoExposureDownsampleCS.cpp" />
+    <ClCompile Include="Private\FAutoExposureReduceCS.cpp" />
+    <ClCompile Include="Private\FAutoExposureReduceFinalCS.cpp" />
+    <ClCompile Include="Private\FBufferTextureMappedCopyCS.cpp" />
+    <ClCompile Include="Private\FDefaultIOProcessCS.cpp" />
+    <ClCompile Include="Private\FNNEDenoiserShadersModule.cpp" />
+    <ClCompile Include="Private\FParameters.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTextureBufferMappedCopyCS.cpp" />
+    <ClCompile Include="Private\FTransferFunctionOidnCS.cpp" />
+    <ClCompile Include="Private\FTypeInfo.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TShaderPermutationDomain.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.NNEDenoiserShaders.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

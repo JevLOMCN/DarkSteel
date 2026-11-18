@@ -1,0 +1,125 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ZoneDeathPenalty",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ZoneDeathPenalty",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ZoneDeathPenaltyTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_ZonePenaltyInfoIcon": 20001,
+        "IsPKCriminalPoint": false,
+        "DeathPenaltyEXP": [],
+        "DeathPenaltyInjure": [],
+        "DeathPenaltyItemDurability": [],
+        "DeathPenaltyMountLostItem": [],
+        "ZoneNotiCenterResourcePath": "/Game/UIs/DS/Resource/Sprite/LevelUP_Zone/Zone_Bg_PkPeace_Sprite.Zone_Bg_PkPeace_Sprite",
+        "ID_ZoneNameMiniMapTitleColor": 40002,
+        "ID_ZoneNameMsgBg": 20002,
+        "ID_FontStyle": 4203
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ID_ZonePenaltyInfoIcon": 20003,
+        "IsPKCriminalPoint": false,
+        "DeathPenaltyEXP": [],
+        "DeathPenaltyInjure": [],
+        "DeathPenaltyItemDurability": [],
+        "DeathPenaltyMountLostItem": [],
+        "ZoneNotiCenterResourcePath": "/Game/UIs/DS/Resource/Sprite/LevelUP_Zone/Zone_Bg_PkPeace_Sprite.Zone_Bg_PkPeace_Sprite",
+        "ID_ZoneNameMiniMapTitleColor": 40002,
+        "ID_ZoneNameMsgBg": 20002,
+        "ID_FontStyle": 4202
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "ID_ZonePenaltyInfoIcon": 20002,
+        "IsPKCriminalPoint": false,
+        "DeathPenaltyEXP": [
+          1,
+          2,
+          3
+        ],
+        "DeathPenaltyInjure": [
+          1,
+          2,
+          3
+        ],
+        "DeathPenaltyItemDurability": [
+          1,
+          2,
+          3
+        ],
+        "DeathPenaltyMountLostItem": [
+          1,
+          2,
+          3
+        ],
+        "ZoneNotiCenterResourcePath": "/Game/UIs/DS/Resource/Sprite/LevelUP_Zone/Zone_Bg_PkNone_Sprite.Zone_Bg_PkNone_Sprite",
+        "ID_ZoneNameMiniMapTitleColor": 40001,
+        "ID_ZoneNameMsgBg": 20004,
+        "ID_FontStyle": 4201
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "ID_ZonePenaltyInfoIcon": 20004,
+        "IsPKCriminalPoint": false,
+        "DeathPenaltyEXP": [
+          1,
+          2,
+          3
+        ],
+        "DeathPenaltyInjure": [
+          1,
+          2,
+          3
+        ],
+        "DeathPenaltyItemDurability": [
+          1,
+          2,
+          3
+        ],
+        "DeathPenaltyMountLostItem": [
+          1,
+          2,
+          3
+        ],
+        "ZoneNotiCenterResourcePath": "/Game/UIs/DS/Resource/Sprite/LevelUP_Zone/Zone_Bg_Pk_Sprite.Zone_Bg_Pk_Sprite",
+        "ID_ZoneNameMiniMapTitleColor": 40003,
+        "ID_ZoneNameMsgBg": 20003,
+        "ID_FontStyle": 4202
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "ID_ZonePenaltyInfoIcon": 20005,
+        "IsPKCriminalPoint": false,
+        "DeathPenaltyEXP": [],
+        "DeathPenaltyInjure": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "DeathPenaltyItemDurability": [],
+        "DeathPenaltyMountLostItem": [],
+        "ZoneNotiCenterResourcePath": "/Game/UIs/DS/Resource/Sprite/LevelUP_Zone/Zone_Bg_Pk_Sprite.Zone_Bg_Pk_Sprite",
+        "ID_ZoneNameMiniMapTitleColor": 40003,
+        "ID_ZoneNameMsgBg": 20003,
+        "ID_FontStyle": 4202
+      }
+    }
+  }
+]

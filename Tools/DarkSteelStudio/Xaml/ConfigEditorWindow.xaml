@@ -1,0 +1,51 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Config" Width="900" Height="720" MinWidth="560" MinHeight="360"
+        WindowStartupLocation="CenterOwner" FontFamily="Segoe UI" FontSize="13"
+        Background="{DynamicResource Brush.Window}" Foreground="{DynamicResource Brush.Text}">
+    <!-- Raw-text config.json editor: keeps the file's own formatting. Logic in ConfigEditorWindow.cpp. -->
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <Border DockPanel.Dock="Top" Background="{StaticResource Brush.Sidebar}"
+                BorderBrush="{StaticResource Brush.Border}" BorderThickness="0,0,0,1" Padding="16,10">
+            <DockPanel>
+                <WrapPanel DockPanel.Dock="Right" VerticalAlignment="Center">
+                    <Button x:Name="CfgSaveButton" Content="Save" Style="{StaticResource PrimaryButtonStyle}" Margin="0,0,8,0"
+                            ToolTip="Ctrl+S. A one-time config.json.bak is kept next to the file."/>
+                    <Button x:Name="CfgValidateButton" Content="Validate" Margin="0,0,8,0"/>
+                    <Button x:Name="CfgRevertButton" Content="Revert" Margin="0,0,8,0" ToolTip="Reload the file from disk, discarding edits"/>
+                    <Button x:Name="CfgOpenButton" Content="Open in editor"/>
+                </WrapPanel>
+                <StackPanel>
+                    <TextBlock x:Name="CfgTitleText" Style="{StaticResource HeadingTextStyle}" Text="Config"/>
+                    <TextBlock x:Name="CfgPathText" Style="{StaticResource MutedTextStyle}" FontSize="11.5" TextTrimming="CharacterEllipsis"/>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+        <Border DockPanel.Dock="Bottom" Background="{StaticResource Brush.Sidebar}"
+                BorderBrush="{StaticResource Brush.Border}" BorderThickness="0,1,0,0" Padding="16,6">
+            <TextBlock x:Name="CfgStatusText" Style="{StaticResource MutedTextStyle}" TextWrapping="Wrap"
+                       Text="Restart the server for changes to take effect."/>
+        </Border>
+        <TabControl x:Name="CfgTabs" Margin="12" SelectedIndex="0">
+            <!-- Form: one labelled field per value; edits are patched into the file text in place -->
+            <TabItem Header="Form">
+                <ScrollViewer x:Name="CfgFormScroll" VerticalScrollBarVisibility="Auto" Padding="4,10,12,10">
+                    <StackPanel x:Name="CfgFormPanel" MaxWidth="900" HorizontalAlignment="Left"/>
+                </ScrollViewer>
+            </TabItem>
+            <!-- Raw text: the file exactly as written -->
+            <TabItem Header="Raw text">
+                <TextBox x:Name="CfgTextBox" Margin="0,10,0,0" FontFamily="Consolas" FontSize="13"
+                         AcceptsReturn="True" AcceptsTab="True" TextWrapping="NoWrap" SpellCheck.IsEnabled="False"
+                         VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

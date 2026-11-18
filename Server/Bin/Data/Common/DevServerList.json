@@ -1,0 +1,827 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DevServerList",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/DevServerList",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_DevServerListTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1011": {
+        "ID": 1011,
+        "DataStage": 16,
+        "RegionIndex": 1010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=mir5-master",
+        "ServerAddr": "40.82.137.86",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "mir5-master",
+        "FrontEndServerIndex": [
+          1
+        ],
+        "GameServerIndex": [
+          10011
+        ]
+      },
+      "1012": {
+        "ID": 1012,
+        "DataStage": 23,
+        "RegionIndex": 1010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=ai-gym",
+        "ServerAddr": "20.41.116.92",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "ai-gym",
+        "FrontEndServerIndex": [
+          2
+        ],
+        "GameServerIndex": [
+          10012
+        ]
+      },
+      "1013": {
+        "ID": 1013,
+        "DataStage": 23,
+        "RegionIndex": 1010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=ai-gym-hk",
+        "ServerAddr": "20.2.92.92",
+        "AiAddr": "47.238.105.44:36000",
+        "ServerName": "ai-gym-hk",
+        "FrontEndServerIndex": [
+          3
+        ],
+        "GameServerIndex": [
+          10013
+        ]
+      },
+      "1015": {
+        "ID": 1015,
+        "DataStage": 16,
+        "RegionIndex": 1010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=mir5-master-2",
+        "ServerAddr": "20.41.115.243",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "mir5-master-2",
+        "FrontEndServerIndex": [
+          4
+        ],
+        "GameServerIndex": [
+          10015
+        ]
+      },
+      "1021": {
+        "ID": 1021,
+        "DataStage": 16,
+        "RegionIndex": 1020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=NOT_USE_1",
+        "ServerAddr": "20.41.106.203",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "NOT_USE_1",
+        "FrontEndServerIndex": [
+          5
+        ],
+        "GameServerIndex": [
+          10021
+        ]
+      },
+      "2011": {
+        "ID": 2011,
+        "DataStage": 23,
+        "RegionIndex": 2010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=localhost",
+        "ServerAddr": "127.0.0.1",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "localhost",
+        "FrontEndServerIndex": [
+          10
+        ],
+        "GameServerIndex": [
+          20011
+        ]
+      },
+      "2012": {
+        "ID": 2012,
+        "DataStage": 23,
+        "RegionIndex": 2010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=silent272",
+        "ServerAddr": "172.20.64.141",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "silent272",
+        "FrontEndServerIndex": [
+          11
+        ],
+        "GameServerIndex": [
+          20012
+        ]
+      },
+      "2013": {
+        "ID": 2013,
+        "DataStage": 23,
+        "RegionIndex": 2010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=law80",
+        "ServerAddr": "172.20.64.204",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "law80",
+        "FrontEndServerIndex": [
+          12
+        ],
+        "GameServerIndex": [
+          20013
+        ]
+      },
+      "2014": {
+        "ID": 2014,
+        "DataStage": 23,
+        "RegionIndex": 2010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=sloth76y",
+        "ServerAddr": "172.20.64.167",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "sloth76y",
+        "FrontEndServerIndex": [
+          13
+        ],
+        "GameServerIndex": [
+          20014
+        ]
+      },
+      "2015": {
+        "ID": 2015,
+        "DataStage": 23,
+        "RegionIndex": 2010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=mir5-master-ai",
+        "ServerAddr": "20.41.113.61",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "mir5-master-ai",
+        "FrontEndServerIndex": [
+          14
+        ],
+        "GameServerIndex": [
+          20015
+        ]
+      },
+      "2021": {
+        "ID": 2021,
+        "DataStage": 23,
+        "RegionIndex": 2020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=ybu9983",
+        "ServerAddr": "172.20.64.115",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "ybu9983",
+        "FrontEndServerIndex": [
+          15
+        ],
+        "GameServerIndex": [
+          20021
+        ]
+      },
+      "2022": {
+        "ID": 2022,
+        "DataStage": 23,
+        "RegionIndex": 2020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=jichangho",
+        "ServerAddr": "172.20.65.113",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "jichangho",
+        "FrontEndServerIndex": [
+          16
+        ],
+        "GameServerIndex": [
+          20022
+        ]
+      },
+      "2023": {
+        "ID": 2023,
+        "DataStage": 23,
+        "RegionIndex": 2020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=yoojoon",
+        "ServerAddr": "172.20.64.214",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "yoojoon",
+        "FrontEndServerIndex": [
+          17
+        ],
+        "GameServerIndex": [
+          20023
+        ]
+      },
+      "2024": {
+        "ID": 2024,
+        "DataStage": 23,
+        "RegionIndex": 2020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=aoqk4",
+        "ServerAddr": "172.20.64.213",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "aoqk4",
+        "FrontEndServerIndex": [
+          18
+        ],
+        "GameServerIndex": [
+          20024
+        ]
+      },
+      "2025": {
+        "ID": 2025,
+        "DataStage": 23,
+        "RegionIndex": 2020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=kimjihoon",
+        "ServerAddr": "172.20.64.229",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "kimjihoon",
+        "FrontEndServerIndex": [
+          19
+        ],
+        "GameServerIndex": [
+          20025
+        ]
+      },
+      "2031": {
+        "ID": 2031,
+        "DataStage": 23,
+        "RegionIndex": 2030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=wjlee715",
+        "ServerAddr": "172.20.64.231",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "wjlee715",
+        "FrontEndServerIndex": [
+          20
+        ],
+        "GameServerIndex": [
+          20031
+        ]
+      },
+      "2032": {
+        "ID": 2032,
+        "DataStage": 23,
+        "RegionIndex": 2030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=zigione",
+        "ServerAddr": "172.20.65.33",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "zigione",
+        "FrontEndServerIndex": [
+          21
+        ],
+        "GameServerIndex": [
+          20032
+        ]
+      },
+      "2033": {
+        "ID": 2033,
+        "DataStage": 23,
+        "RegionIndex": 2030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=lansaid",
+        "ServerAddr": "172.20.65.42",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "lansaid",
+        "FrontEndServerIndex": [
+          22
+        ],
+        "GameServerIndex": [
+          20033
+        ]
+      },
+      "2034": {
+        "ID": 2034,
+        "DataStage": 23,
+        "RegionIndex": 2030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=lms0806",
+        "ServerAddr": "172.20.65.100",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "lms0806",
+        "FrontEndServerIndex": [
+          23
+        ],
+        "GameServerIndex": [
+          20034
+        ]
+      },
+      "2035": {
+        "ID": 2035,
+        "DataStage": 23,
+        "RegionIndex": 2030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=jeong2006",
+        "ServerAddr": "172.20.64.238",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "jeong2006",
+        "FrontEndServerIndex": [
+          24
+        ],
+        "GameServerIndex": [
+          20035
+        ]
+      },
+      "3011": {
+        "ID": 3011,
+        "DataStage": 23,
+        "RegionIndex": 3010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=lsrsp",
+        "ServerAddr": "172.20.65.32",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "lsrsp",
+        "FrontEndServerIndex": [
+          25
+        ],
+        "GameServerIndex": [
+          30011
+        ]
+      },
+      "3012": {
+        "ID": 3012,
+        "DataStage": 23,
+        "RegionIndex": 3010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=snrkgotdj",
+        "ServerAddr": "172.20.65.38",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "snrkgotdj",
+        "FrontEndServerIndex": [
+          26
+        ],
+        "GameServerIndex": [
+          30012
+        ]
+      },
+      "3013": {
+        "ID": 3013,
+        "DataStage": 23,
+        "RegionIndex": 3010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=knkim",
+        "ServerAddr": "172.20.64.210",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "knkim",
+        "FrontEndServerIndex": [
+          27
+        ],
+        "GameServerIndex": [
+          30013
+        ]
+      },
+      "3014": {
+        "ID": 3014,
+        "DataStage": 23,
+        "RegionIndex": 3010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=gsh1593",
+        "ServerAddr": "172.20.65.29",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "gsh1593",
+        "FrontEndServerIndex": [
+          28
+        ],
+        "GameServerIndex": [
+          30014
+        ]
+      },
+      "3015": {
+        "ID": 3015,
+        "DataStage": 23,
+        "RegionIndex": 3010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=giseob63",
+        "ServerAddr": "172.20.64.234",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "giseob63",
+        "FrontEndServerIndex": [
+          29
+        ],
+        "GameServerIndex": [
+          30015
+        ]
+      },
+      "3021": {
+        "ID": 3021,
+        "DataStage": 23,
+        "RegionIndex": 3020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=gitae14",
+        "ServerAddr": "172.20.64.43",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "gitae14",
+        "FrontEndServerIndex": [
+          30
+        ],
+        "GameServerIndex": [
+          30021
+        ]
+      },
+      "3022": {
+        "ID": 3022,
+        "DataStage": 23,
+        "RegionIndex": 3020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=wjkim",
+        "ServerAddr": "172.20.64.188",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "wjkim",
+        "FrontEndServerIndex": [
+          30
+        ],
+        "GameServerIndex": [
+          30022
+        ]
+      },
+      "4011": {
+        "ID": 4011,
+        "DataStage": 23,
+        "RegionIndex": 4010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=darkseed",
+        "ServerAddr": "172.20.64.190",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "darkseed",
+        "FrontEndServerIndex": [
+          31
+        ],
+        "GameServerIndex": [
+          40011
+        ]
+      },
+      "4012": {
+        "ID": 4012,
+        "DataStage": 23,
+        "RegionIndex": 4010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=seohj2",
+        "ServerAddr": "172.20.64.179",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "seohj2",
+        "FrontEndServerIndex": [
+          32
+        ],
+        "GameServerIndex": [
+          40012
+        ]
+      },
+      "4013": {
+        "ID": 4013,
+        "DataStage": 23,
+        "RegionIndex": 4010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=shindc1222",
+        "ServerAddr": "172.20.64.195",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "shindc1222",
+        "FrontEndServerIndex": [
+          33
+        ],
+        "GameServerIndex": [
+          40013
+        ]
+      },
+      "4014": {
+        "ID": 4014,
+        "DataStage": 23,
+        "RegionIndex": 4010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=parkknowhyun",
+        "ServerAddr": "172.20.64.240",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "parkknowhyun",
+        "FrontEndServerIndex": [
+          34
+        ],
+        "GameServerIndex": [
+          40014
+        ]
+      },
+      "4015": {
+        "ID": 4015,
+        "DataStage": 23,
+        "RegionIndex": 4010,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=hjin",
+        "ServerAddr": "172.20.64.57",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "hjin",
+        "FrontEndServerIndex": [
+          35
+        ],
+        "GameServerIndex": [
+          40015
+        ]
+      },
+      "4021": {
+        "ID": 4021,
+        "DataStage": 23,
+        "RegionIndex": 4020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=chan4199",
+        "ServerAddr": "172.20.64.130",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "chan4199",
+        "FrontEndServerIndex": [
+          36
+        ],
+        "GameServerIndex": [
+          40021
+        ]
+      },
+      "4022": {
+        "ID": 4022,
+        "DataStage": 23,
+        "RegionIndex": 4020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=plokras",
+        "ServerAddr": "172.20.64.37",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "plokras",
+        "FrontEndServerIndex": [
+          37
+        ],
+        "GameServerIndex": [
+          40022
+        ]
+      },
+      "4023": {
+        "ID": 4023,
+        "DataStage": 23,
+        "RegionIndex": 4020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=river9",
+        "ServerAddr": "172.20.64.209",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "river9",
+        "FrontEndServerIndex": [
+          38
+        ],
+        "GameServerIndex": [
+          40023
+        ]
+      },
+      "4024": {
+        "ID": 4024,
+        "DataStage": 23,
+        "RegionIndex": 4020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=nstardy",
+        "ServerAddr": "172.20.64.198",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "nstardy",
+        "FrontEndServerIndex": [
+          39
+        ],
+        "GameServerIndex": [
+          40024
+        ]
+      },
+      "4025": {
+        "ID": 4025,
+        "DataStage": 23,
+        "RegionIndex": 4020,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=eremes",
+        "ServerAddr": "172.20.65.25",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "eremes",
+        "FrontEndServerIndex": [
+          40
+        ],
+        "GameServerIndex": [
+          40025
+        ]
+      },
+      "4031": {
+        "ID": 4031,
+        "DataStage": 23,
+        "RegionIndex": 4030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=cidlee",
+        "ServerAddr": "172.20.65.254",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "cidlee",
+        "FrontEndServerIndex": [
+          41
+        ],
+        "GameServerIndex": [
+          40031
+        ]
+      },
+      "4032": {
+        "ID": 4032,
+        "DataStage": 23,
+        "RegionIndex": 4030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=rio1",
+        "ServerAddr": "172.20.64.196",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "rio1",
+        "FrontEndServerIndex": [
+          42
+        ],
+        "GameServerIndex": [
+          40032
+        ]
+      },
+      "4033": {
+        "ID": 4033,
+        "DataStage": 23,
+        "RegionIndex": 4030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=milody",
+        "ServerAddr": "172.20.64.63",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "milody",
+        "FrontEndServerIndex": [
+          43
+        ],
+        "GameServerIndex": [
+          40033
+        ]
+      },
+      "4034": {
+        "ID": 4034,
+        "DataStage": 23,
+        "RegionIndex": 4030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=florin_jy",
+        "ServerAddr": "172.20.64.173",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "florin_jy",
+        "FrontEndServerIndex": [
+          44
+        ],
+        "GameServerIndex": [
+          40034
+        ]
+      },
+      "4035": {
+        "ID": 4035,
+        "DataStage": 23,
+        "RegionIndex": 4030,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=jangjul",
+        "ServerAddr": "172.20.65.19",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "jangjul",
+        "FrontEndServerIndex": [
+          45
+        ],
+        "GameServerIndex": [
+          40035
+        ]
+      },
+      "4041": {
+        "ID": 4041,
+        "DataStage": 23,
+        "RegionIndex": 4040,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=eks77",
+        "ServerAddr": "172.20.64.208",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "eks77",
+        "FrontEndServerIndex": [
+          46
+        ],
+        "GameServerIndex": [
+          40041
+        ]
+      },
+      "4042": {
+        "ID": 4042,
+        "DataStage": 23,
+        "RegionIndex": 4040,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=ghjang95",
+        "ServerAddr": "172.20.65.21",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "ghjang95",
+        "FrontEndServerIndex": [
+          47
+        ],
+        "GameServerIndex": [
+          40042
+        ]
+      },
+      "4043": {
+        "ID": 4043,
+        "DataStage": 23,
+        "RegionIndex": 4040,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=decca",
+        "ServerAddr": "172.20.64.56",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "decca",
+        "FrontEndServerIndex": [
+          48
+        ],
+        "GameServerIndex": [
+          40043
+        ]
+      },
+      "4044": {
+        "ID": 4044,
+        "DataStage": 23,
+        "RegionIndex": 4040,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=mykang0302",
+        "ServerAddr": "172.20.65.59",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "mykang0302",
+        "FrontEndServerIndex": [
+          49
+        ],
+        "GameServerIndex": [
+          40044
+        ]
+      },
+      "4045": {
+        "ID": 4045,
+        "DataStage": 23,
+        "RegionIndex": 4040,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=unknown",
+        "ServerAddr": "172.20.65.136",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "unknown",
+        "FrontEndServerIndex": [
+          50
+        ],
+        "GameServerIndex": [
+          40045
+        ]
+      },
+      "4051": {
+        "ID": 4051,
+        "DataStage": 23,
+        "RegionIndex": 4050,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=leesujae17",
+        "ServerAddr": "172.20.64.212",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "leesujae17",
+        "FrontEndServerIndex": [
+          51
+        ],
+        "GameServerIndex": [
+          40051
+        ]
+      },
+      "4052": {
+        "ID": 4052,
+        "DataStage": 23,
+        "RegionIndex": 4050,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=friendship",
+        "ServerAddr": "172.20.64.124",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "friendship",
+        "FrontEndServerIndex": [
+          52
+        ],
+        "GameServerIndex": [
+          40052
+        ]
+      },
+      "4053": {
+        "ID": 4053,
+        "DataStage": 23,
+        "RegionIndex": 4050,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=godong9848",
+        "ServerAddr": "172.20.65.55",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "godong9848",
+        "FrontEndServerIndex": [
+          53
+        ],
+        "GameServerIndex": [
+          40053
+        ]
+      },
+      "4054": {
+        "ID": 4054,
+        "DataStage": 23,
+        "RegionIndex": 4050,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=ljs8841",
+        "ServerAddr": "172.20.65.102",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "ljs8841",
+        "FrontEndServerIndex": [
+          54
+        ],
+        "GameServerIndex": [
+          40054
+        ]
+      },
+      "4055": {
+        "ID": 4055,
+        "DataStage": 23,
+        "RegionIndex": 4050,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=cidlee",
+        "ServerAddr": "172.20.65.95",
+        "AiAddr": "47.80.10.189:36001",
+        "ServerName": "cidlee",
+        "FrontEndServerIndex": [
+          55
+        ],
+        "GameServerIndex": [
+          40055
+        ]
+      },
+      "4061": {
+        "ID": 4061,
+        "DataStage": 23,
+        "RegionIndex": 4060,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=axiom21",
+        "ServerAddr": "172.20.65.101",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "axiom21",
+        "FrontEndServerIndex": [
+          56
+        ],
+        "GameServerIndex": [
+          40061
+        ]
+      },
+      "4062": {
+        "ID": 4062,
+        "DataStage": 23,
+        "RegionIndex": 4060,
+        "Urls": "https://mir5-master-config.azurewebsites.net/api/urls?server_name=dltmfrl",
+        "ServerAddr": "172.20.65.228",
+        "AiAddr": "47.80.10.189:36000",
+        "ServerName": "dltmfrl",
+        "FrontEndServerIndex": [
+          56
+        ],
+        "GameServerIndex": [
+          40062
+        ]
+      }
+    }
+  }
+]

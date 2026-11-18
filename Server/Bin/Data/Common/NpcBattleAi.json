@@ -1,0 +1,4919 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcBattleAi",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcBattleAi",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcBattleAiTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "GroupID": 10102,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          50,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::ChangePhase",
+        "NpcBattleActionTypeValue": 1010201,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 300.0,
+        "StepCallCountMax": 1
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "GroupID": 10102,
+        "ID_NpcBattlePhaseSkillSet": 1010201,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::EnemyAll",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MinHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          50,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107006,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "GroupID": 10201,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::MinHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          50,
+          30,
+          100000,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107004,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 3.0,
+        "StepCallCountMax": 0
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "GroupID": 10202,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          90,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::SummonNpc",
+        "NpcBattleActionTypeValue": 1,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "GroupID": 10202,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 1,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::FriendAll",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MinDistance",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          1000,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::SummonNpc",
+        "NpcBattleActionTypeValue": 1,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "GroupID": 10203,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::FriendAll",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxDistance",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          1500,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FriendAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::AggroSharing",
+        "NpcBattleActionTypeValue": 1500,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 3.0,
+        "StepCallCountMax": 0
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "GroupID": 10204,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::EnemyAll",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MinDistance",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          500,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107004,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 3.0,
+        "StepCallCountMax": 0
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "GroupID": 10205,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          50,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::AggroList",
+        "NpcBattleActionTargetTypeValue": 2,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107004,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 3.0,
+        "StepCallCountMax": 0
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "GroupID": 10206,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::NearEnemy",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxDistance",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          300,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::RunAway",
+        "NpcBattleActionTypeValue": 10206,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "GroupID": 10207,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::FarEnemy",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::Hovering",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::RunAway",
+        "NpcBattleActionTypeValue": 10207,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 2.0,
+        "StepCallCountMax": 0
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "GroupID": 10208,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::RandomAggro",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MinHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          99,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::Suicide",
+        "NpcBattleActionTypeValue": 0,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "GroupID": 10301,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::BattleTriggerVariableMaxStack",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::SummonNpc",
+        "NpcBattleActionTypeValue": 1,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "GroupID": 10302,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::BattleTriggerVariableMaxStack",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::AggroList",
+        "NpcBattleActionTargetTypeValue": 1,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107004,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 3.0,
+        "StepCallCountMax": 0
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "GroupID": 10303,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::BattleTriggerVariableMaxStack",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::AggroList",
+        "NpcBattleActionTargetTypeValue": 1,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107004,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 3.0,
+        "StepCallCountMax": 0
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "GroupID": 10304,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::BattleTriggerVariableMaxStack",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::AggroList",
+        "NpcBattleActionTargetTypeValue": 1,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107004,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 3.0,
+        "StepCallCountMax": 0
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "GroupID": 10305,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::BattleTriggerVariableMaxStack",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::AggroList",
+        "NpcBattleActionTargetTypeValue": 1,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107004,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 3.0,
+        "StepCallCountMax": 0
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "GroupID": 10306,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::BattleTriggerVariableMaxStack",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::Suicide",
+        "NpcBattleActionTypeValue": 0,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "GroupID": 10307,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::BattleTriggerVariableMaxStack",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::AggroList",
+        "NpcBattleActionTargetTypeValue": 1,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107004,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 3.0,
+        "StepCallCountMax": 0
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "GroupID": 10307,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 1,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          50,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::SummonNpc",
+        "NpcBattleActionTypeValue": 1,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "GroupID": 10308,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::BattleTriggerVariableMaxStack",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::SummonNpc",
+        "NpcBattleActionTypeValue": 1,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "GroupID": 10604,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          50,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107008,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 1,
+        "ID_NpcHeightAiCondition": 1060401,
+        "StepCoolTime": 20.0,
+        "StepCallCountMax": 0
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "GroupID": 10604,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 1,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          100,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107009,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 1060402,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "GroupID": 10605,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          50,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 107010,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 1060501,
+        "StepCoolTime": 20.0,
+        "StepCallCountMax": 0
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "GroupID": 110123,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::BuffID",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          70001,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 111001,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 1.0,
+        "StepCallCountMax": 0
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          95,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109011,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 1,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 180.0,
+        "StepCallCountMax": 0
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 1,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          95,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109012,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 2,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          94,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109013,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 1
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 3,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          90,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109013,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 1
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 4,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          85,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109013,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 1
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 5,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::EnemyAll",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109013,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 1
+      },
+      "33": {
+        "ID": 33,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 6,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          98,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109008,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 7,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "34": {
+        "ID": 34,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 7,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          98,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109009,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 8,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "35": {
+        "ID": 35,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 8,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          98,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109009,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 9,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "36": {
+        "ID": 36,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 9,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          98,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109010,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "37": {
+        "ID": 37,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 10,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::NearEnemy",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxDistance",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          800,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109006,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "38": {
+        "ID": 38,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 11,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          98,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109006,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 12,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "39": {
+        "ID": 39,
+        "DataStage": 23,
+        "GroupID": 110121,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 12,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          98,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109007,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "40": {
+        "ID": 40,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          75,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109016,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 1,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 180.0,
+        "StepCallCountMax": 1
+      },
+      "41": {
+        "ID": 41,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 1,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109017,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 2,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "42": {
+        "ID": 42,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 2,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::ChangePhase",
+        "NpcBattleActionTypeValue": 800301,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "43": {
+        "ID": 43,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 3,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          95,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109011,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 4,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 120.0,
+        "StepCallCountMax": 0
+      },
+      "44": {
+        "ID": 44,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 4,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109014,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "45": {
+        "ID": 45,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 5,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          90,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109014,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 70.0,
+        "StepCallCountMax": 0
+      },
+      "46": {
+        "ID": 46,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 6,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::MinHPRate",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          95,
+          90,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109013,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 60.0,
+        "StepCallCountMax": 1
+      },
+      "47": {
+        "ID": 47,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 7,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::MinHPRate",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          90,
+          80,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109013,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 60.0,
+        "StepCallCountMax": 1
+      },
+      "48": {
+        "ID": 48,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 8,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::MinHPRate",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          80,
+          75,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109013,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 60.0,
+        "StepCallCountMax": 1
+      },
+      "49": {
+        "ID": 49,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 9,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::FarEnemy",
+          "EDS_NpcAiTargetType::MySelf"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::MaxDistance",
+          "EDS_NpcBattleConditionType::Percentage"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          98,
+          3500,
+          500000
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109007,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 45.0,
+        "StepCallCountMax": 0
+      },
+      "50": {
+        "ID": 50,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 10,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::FarEnemy",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::MaxDistance",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          98,
+          3500,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109008,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 11,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 60.0,
+        "StepCallCountMax": 0
+      },
+      "51": {
+        "ID": 51,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 11,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109009,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 12,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "52": {
+        "ID": 52,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 12,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109009,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 13,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "53": {
+        "ID": 53,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 13,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109010,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "54": {
+        "ID": 54,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 14,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::NearEnemy",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::MaxDistance",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          98,
+          800,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109006,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 20.0,
+        "StepCallCountMax": 0
+      },
+      "60": {
+        "ID": 60,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::BuffID",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          2,
+          70004,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109020,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      },
+      "61": {
+        "ID": 61,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 1,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          40,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109025,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 2,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 180.0,
+        "StepCallCountMax": 1
+      },
+      "62": {
+        "ID": 62,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 2,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::ChangePhase",
+        "NpcBattleActionTypeValue": 800302,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "63": {
+        "ID": 63,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 3,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          60,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109016,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 4,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 180.0,
+        "StepCallCountMax": 0
+      },
+      "64": {
+        "ID": 64,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 4,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109017,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "65": {
+        "ID": 65,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 5,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          2,
+          75,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109019,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      },
+      "66": {
+        "ID": 66,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 6,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          2,
+          75,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109018,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 45.0,
+        "StepCallCountMax": 0
+      },
+      "67": {
+        "ID": 67,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 7,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          70,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109007,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 45.0,
+        "StepCallCountMax": 0
+      },
+      "68": {
+        "ID": 68,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 8,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          70,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109021,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 45.0,
+        "StepCallCountMax": 0
+      },
+      "69": {
+        "ID": 69,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 9,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          70,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109022,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 20.0,
+        "StepCallCountMax": 0
+      },
+      "70": {
+        "ID": 70,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::BuffID",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          1,
+          70006,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109028,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      },
+      "71": {
+        "ID": 71,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 1,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          1,
+          40,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109030,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 20.0,
+        "StepCallCountMax": 0
+      },
+      "72": {
+        "ID": 72,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 2,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109025,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 180.0,
+        "StepCallCountMax": 0
+      },
+      "73": {
+        "ID": 73,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 3,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          40,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109024,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 45.0,
+        "StepCallCountMax": 0
+      },
+      "74": {
+        "ID": 74,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 4,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          40,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109023,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 50.0,
+        "StepCallCountMax": 0
+      },
+      "75": {
+        "ID": 75,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 5,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          1,
+          40,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109029,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 45.0,
+        "StepCallCountMax": 0
+      },
+      "76": {
+        "ID": 76,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 6,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          1,
+          40,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109027,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 40.0,
+        "StepCallCountMax": 0
+      },
+      "77": {
+        "ID": 77,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 7,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109008,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 8,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 60.0,
+        "StepCallCountMax": 0
+      },
+      "78": {
+        "ID": 78,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 8,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109009,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 9,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "79": {
+        "ID": 79,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 9,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109009,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 10,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "80": {
+        "ID": 80,
+        "DataStage": 23,
+        "GroupID": 8003,
+        "ID_NpcBattlePhaseSkillSet": 800302,
+        "Step": 10,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109010,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "85": {
+        "ID": 85,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          90,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::MySelf",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::ChangePhase",
+        "NpcBattleActionTypeValue": 800301,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "86": {
+        "ID": 86,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 1,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          98,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109007,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 45.0,
+        "StepCallCountMax": 0
+      },
+      "87": {
+        "ID": 87,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 2,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          98,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109008,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 60.0,
+        "StepCallCountMax": 0
+      },
+      "88": {
+        "ID": 88,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 3,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          100,
+          500000,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109001,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 2.0,
+        "StepCallCountMax": 0
+      },
+      "89": {
+        "ID": 89,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 4,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          100,
+          1000000,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109002,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 2.0,
+        "StepCallCountMax": 0
+      },
+      "90": {
+        "ID": 90,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          85,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109011,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 120.0,
+        "StepCallCountMax": 0
+      },
+      "91": {
+        "ID": 91,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 1,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          80,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109013,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 60.0,
+        "StepCallCountMax": 1
+      },
+      "92": {
+        "ID": 92,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 2,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::NearEnemy",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxDistance",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          500,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109006,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 10.0,
+        "StepCallCountMax": 0
+      },
+      "93": {
+        "ID": 93,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 3,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          100,
+          500000,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109004,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 2.0,
+        "StepCallCountMax": 0
+      },
+      "94": {
+        "ID": 94,
+        "DataStage": 23,
+        "GroupID": 8005,
+        "ID_NpcBattlePhaseSkillSet": 800301,
+        "Step": 4,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          100,
+          1000000,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109005,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 2.0,
+        "StepCallCountMax": 0
+      },
+      "95": {
+        "ID": 95,
+        "DataStage": 23,
+        "GroupID": 8002,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109016,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      },
+      "96": {
+        "ID": 96,
+        "DataStage": 23,
+        "GroupID": 11071,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::AggroList",
+        "NpcBattleActionTargetTypeValue": 1,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109001,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "97": {
+        "ID": 97,
+        "DataStage": 23,
+        "GroupID": 11071,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 1,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::AggroList",
+        "NpcBattleActionTargetTypeValue": 2,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 109002,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "98": {
+        "ID": 98,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 0,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          80,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800711,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 1,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "99": {
+        "ID": 99,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 1,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800712,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 2,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 2,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800713,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 3,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          60,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800711,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 4,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 4,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800712,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 5,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 5,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800713,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "104": {
+        "ID": 104,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 6,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          40,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800711,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 7,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "105": {
+        "ID": 105,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 7,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800712,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 8,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "106": {
+        "ID": 106,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 8,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800713,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "107": {
+        "ID": 107,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 9,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800711,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 10,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "108": {
+        "ID": 108,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 10,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800712,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 11,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "109": {
+        "ID": 109,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 11,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800713,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "110": {
+        "ID": 110,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 12,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          70,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800714,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 13,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "111": {
+        "ID": 111,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 13,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800720,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "112": {
+        "ID": 112,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 14,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800714,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 15,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "113": {
+        "ID": 113,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 15,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800720,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 1
+      },
+      "114": {
+        "ID": 114,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 16,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::BuffID",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          1,
+          70004,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800723,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "115": {
+        "ID": 115,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 17,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800721,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 15.0,
+        "StepCallCountMax": 0
+      },
+      "117": {
+        "ID": 117,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 18,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800722,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 15.0,
+        "StepCallCountMax": 0
+      },
+      "118": {
+        "ID": 118,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 19,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          50,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800711,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 20,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 60.0,
+        "StepCallCountMax": 0
+      },
+      "119": {
+        "ID": 119,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 20,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800718,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 5.0,
+        "StepCallCountMax": 0
+      },
+      "120": {
+        "ID": 120,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 21,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800711,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::Always",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 22,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      },
+      "121": {
+        "ID": 121,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 22,
+        "IsLinkStep": true,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800718,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 0.0,
+        "StepCallCountMax": 0
+      },
+      "122": {
+        "ID": 122,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 23,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          95,
+          500000,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800718,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      },
+      "123": {
+        "ID": 123,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 24,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          90,
+          500000,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800716,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      },
+      "124": {
+        "ID": 124,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 25,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          90,
+          500000,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::FarEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800717,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      },
+      "125": {
+        "ID": 125,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 26,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          98,
+          500000,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800719,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      },
+      "126": {
+        "ID": 126,
+        "DataStage": 23,
+        "GroupID": 8007,
+        "ID_NpcBattlePhaseSkillSet": 0,
+        "Step": 27,
+        "IsLinkStep": false,
+        "NpcAiTargetType": [
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::MySelf",
+          "EDS_NpcAiTargetType::None"
+        ],
+        "NpcAiTargetTypeValue": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "NpcBattleConditionType": [
+          "EDS_NpcBattleConditionType::HeightConditionType",
+          "EDS_NpcBattleConditionType::MaxHPRate",
+          "EDS_NpcBattleConditionType::Percentage",
+          "EDS_NpcBattleConditionType::None"
+        ],
+        "NpcBattleConditionTypeValue": [
+          0,
+          80,
+          500000,
+          0
+        ],
+        "NpcBattleActionTargetType": "EDS_NpcAiTargetType::NearEnemy",
+        "NpcBattleActionTargetTypeValue": 0,
+        "NpcBattleActionType": "EDS_NpcBattleActionType::UseSkill",
+        "NpcBattleActionTypeValue": 1800707,
+        "IsConditionCheck": false,
+        "LinkAIConditionType": "EDS_LinkAIConditionType::None",
+        "LinkAIConditionTypeValue": 0,
+        "LinkStep": 0,
+        "ID_NpcHeightAiCondition": 0,
+        "StepCoolTime": 30.0,
+        "StepCallCountMax": 0
+      }
+    }
+  }
+]

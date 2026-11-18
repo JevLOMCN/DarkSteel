@@ -1,0 +1,43 @@
+syntax = "proto3";
+package db;
+option csharp_namespace = "MirProto.Db";
+
+import "_options.proto";
+
+enum OrderBy {
+  Asc = 0;
+  Desc = 1;
+}
+enum SqlInt32Type {
+  Int = 0;
+  Tinyint = 1;
+  Smallint = 2;
+}
+enum SqlInt64Type {
+  Bigint = 0;
+}
+enum SqlDateTimeType {
+  Datetime2 = 0;
+  Datetime = 1;
+  DatetimeOffset = 2;
+}
+enum SqlStringType {
+  NVarchar = 0;
+  NChar = 1;
+  Varchar = 2;
+  Char = 3;
+}
+enum SqlDatetimeDefault {
+  SqlDatetimeDefault_None = 0;
+  GetDate = 1;
+}
+enum SqlUniqueIdDefault {
+  SqlUniqueIdDefault_None = 0;
+  NewId = 1;
+  NewSequentialId = 2;
+}
+enum SqlBinaryType {
+  SqlBinaryType_None = 0;
+  Binary = 1;
+  VarBinary = 2;
+}

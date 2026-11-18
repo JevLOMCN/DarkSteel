@@ -1,0 +1,11 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum RaidPartyState {
+  RaidPartyState_Waiting = 0;
+  RaidPartyState_Starting = 1;
+  RaidPartyState_Raiding = 2;
+  RaidPartyState_Rewarding = 3;
+  RaidPartyState_End = 4;
+}

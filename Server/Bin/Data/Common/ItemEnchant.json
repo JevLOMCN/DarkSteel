@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemEnchant",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemEnchant",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemEnchantTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnchantType": 1,
+        "ID_Prefix": 1,
+        "ID_SetEffect": 0,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 1000
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_GradeType": "EDS_GradeType::High",
+        "EnchantType": 2,
+        "ID_Prefix": 0,
+        "ID_SetEffect": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 1000
+      }
+    }
+  }
+]

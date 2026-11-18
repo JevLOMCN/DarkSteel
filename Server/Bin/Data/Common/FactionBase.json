@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "FactionBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/FactionBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_FactionBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "0": {
+        "ID": "EDS_FactionType::None",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [],
+        "Enemy": []
+      },
+      "1": {
+        "ID": "EDS_FactionType::Player",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::Player",
+          "EDS_FactionType::NpcFactionE"
+        ],
+        "Enemy": [
+          "EDS_FactionType::BattleNpc",
+          "EDS_FactionType::NpcFactionB",
+          "EDS_FactionType::NpcFactionG"
+        ]
+      },
+      "2": {
+        "ID": "EDS_FactionType::BattleNpc",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::BattleNpc",
+          "EDS_FactionType::NpcFactionB",
+          "EDS_FactionType::NpcFactionF"
+        ],
+        "Enemy": [
+          "EDS_FactionType::Player",
+          "EDS_FactionType::NpcFriendly",
+          "EDS_FactionType::NpcFactionA"
+        ]
+      },
+      "3": {
+        "ID": "EDS_FactionType::NpcFriendly",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::Player",
+          "EDS_FactionType::NpcFriendly"
+        ],
+        "Enemy": [
+          "EDS_FactionType::BattleNpc",
+          "EDS_FactionType::NpcFactionA",
+          "EDS_FactionType::NpcFactionB",
+          "EDS_FactionType::NpcFactionC"
+        ]
+      },
+      "4": {
+        "ID": "EDS_FactionType::NpcFactionA",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::NpcFactionA"
+        ],
+        "Enemy": [
+          "EDS_FactionType::Player",
+          "EDS_FactionType::BattleNpc"
+        ]
+      },
+      "5": {
+        "ID": "EDS_FactionType::NpcFactionB",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::BattleNpc",
+          "EDS_FactionType::NpcFactionB"
+        ],
+        "Enemy": [
+          "EDS_FactionType::Player",
+          "EDS_FactionType::NpcFriendly"
+        ]
+      },
+      "6": {
+        "ID": "EDS_FactionType::NpcFactionC",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::NpcFactionC"
+        ],
+        "Enemy": [
+          "EDS_FactionType::NpcFriendly"
+        ]
+      },
+      "7": {
+        "ID": "EDS_FactionType::NpcFactionD",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::Player",
+          "EDS_FactionType::BattleNpc",
+          "EDS_FactionType::NpcFactionD"
+        ],
+        "Enemy": []
+      },
+      "8": {
+        "ID": "EDS_FactionType::NpcFactionE",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::BattleNpc",
+          "EDS_FactionType::NpcFactionD",
+          "EDS_FactionType::NpcFactionE"
+        ],
+        "Enemy": [
+          "EDS_FactionType::Player"
+        ]
+      },
+      "9": {
+        "ID": "EDS_FactionType::NpcFactionF",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::NpcFactionF"
+        ],
+        "Enemy": []
+      },
+      "10": {
+        "ID": "EDS_FactionType::NpcFactionG",
+        "DataStage": 23,
+        "Version": "*",
+        "Friendly": [
+          "EDS_FactionType::NpcFactionG"
+        ],
+        "Enemy": [
+          "EDS_FactionType::Player",
+          "EDS_FactionType::NpcFriendly"
+        ]
+      }
+    }
+  }
+]

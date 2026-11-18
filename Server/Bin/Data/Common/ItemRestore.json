@@ -1,0 +1,982 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemRestore",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemRestore",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemRestoreTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          100000000
+        ],
+        "IngredientItemValue": [
+          1
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200016,
+          540200094,
+          540200056
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200008,
+          540200089,
+          540200048,
+          540200188
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200000,
+          540200084,
+          540200040
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          110000000
+        ],
+        "IngredientItemValue": [
+          1
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200017,
+          540200095,
+          540200057
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200009,
+          540200090,
+          540200049,
+          540200189
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200001,
+          540200085,
+          540200041
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          110200000
+        ],
+        "IngredientItemValue": [
+          1
+        ]
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200018,
+          540200095,
+          540200058
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200010,
+          540200090,
+          540200050,
+          540200190
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200002,
+          540200085,
+          540200042
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          110400000
+        ],
+        "IngredientItemValue": [
+          1
+        ]
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200019,
+          540200095,
+          540200059
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200011,
+          540200090,
+          540200051,
+          540200191
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200003,
+          540200085,
+          540200043
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          110600000
+        ],
+        "IngredientItemValue": [
+          1
+        ]
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200020,
+          540200095,
+          540200060
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200012,
+          540200090,
+          540200052,
+          540200192
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200004,
+          540200085,
+          540200044
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          120000000
+        ],
+        "IngredientItemValue": [
+          1
+        ]
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200023,
+          540200098,
+          540200063
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200015,
+          540200093,
+          540200055,
+          540200195
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "24": {
+        "ID": 24,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200007,
+          540200088,
+          540200047
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "25": {
+        "ID": 25,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          120200000
+        ],
+        "IngredientItemValue": [
+          1
+        ]
+      },
+      "26": {
+        "ID": 26,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200022,
+          540200097,
+          540200062
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "27": {
+        "ID": 27,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200014,
+          540200092,
+          540200054,
+          540200194
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "28": {
+        "ID": 28,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200006,
+          540200087,
+          540200046
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "29": {
+        "ID": 29,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          0,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          120400000
+        ],
+        "IngredientItemValue": [
+          1
+        ]
+      },
+      "30": {
+        "ID": 30,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200021,
+          540200096,
+          540200061
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200013,
+          540200091,
+          540200053,
+          540200193
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "RestoreTimeSec": 30,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::None",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3000,
+          0,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200005,
+          540200086,
+          540200045
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "90001": {
+        "ID": 90001,
+        "DataStage": 23,
+        "RestoreTimeSec": 1800,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          1000,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200016,
+          540200094,
+          540200056
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "90002": {
+        "ID": 90002,
+        "DataStage": 23,
+        "RestoreTimeSec": 3600,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          2000,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200008,
+          540200089,
+          540200048,
+          540200188
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "90003": {
+        "ID": 90003,
+        "DataStage": 23,
+        "RestoreTimeSec": 3600,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          3000,
+          3000,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200000,
+          540200084,
+          540200040
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "90004": {
+        "ID": 90004,
+        "DataStage": 23,
+        "RestoreTimeSec": 3600,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          4000,
+          4000,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200017,
+          540200095,
+          540200057
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "90005": {
+        "ID": 90005,
+        "DataStage": 23,
+        "RestoreTimeSec": 3600,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          1000,
+          1000,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200009,
+          540200090,
+          540200049,
+          540200189
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      "90006": {
+        "ID": 90006,
+        "DataStage": 23,
+        "RestoreTimeSec": 3600,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          2000,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200001,
+          540200085,
+          540200041
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5
+        ]
+      },
+      "90007": {
+        "ID": 90007,
+        "DataStage": 23,
+        "RestoreTimeSec": 3600,
+        "MoneyType": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "MoneyValue": [
+          2000,
+          2000,
+          0
+        ],
+        "ID_IngredientItem": [
+          540200015,
+          540200093,
+          540200055,
+          540200195
+        ],
+        "IngredientItemValue": [
+          1,
+          1,
+          5,
+          1
+        ]
+      }
+    }
+  }
+]

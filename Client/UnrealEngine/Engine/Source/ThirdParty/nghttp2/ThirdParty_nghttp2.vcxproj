@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{CEB44196-CA6D-5C04-9590-C7CE47D8DB2B}</ProjectGuid><RootNamespace>ThirdParty_nghttp2</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_buf.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_callbacks.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_extpri.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_frame.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_hd.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_hd_huffman.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_helper.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_http.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_map.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_mem.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_option.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_outbound_item.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_pq.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_priority_spec.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_ratelim.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_rcbuf.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_session.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_stream.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_submit.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_time.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\nghttp2_version.cpp" />
+    <ClCompile Include="nghttp2_static.dir\Release\sfparse.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

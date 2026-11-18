@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcTamingFoodBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcTamingFoodBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcTamingFoodBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Vegetable",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Normal"
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Vegetable",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::High"
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Vegetable",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Rare"
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Vegetable",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Epic"
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Vegetable",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Legendary"
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Vegetable",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Myth"
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Meat",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Normal"
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Meat",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::High"
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Meat",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Rare"
+      },
+      "104": {
+        "ID": 104,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Meat",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Epic"
+      },
+      "105": {
+        "ID": 105,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Meat",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Legendary"
+      },
+      "106": {
+        "ID": 106,
+        "DataStage": 23,
+        "TamingRadius": 5000,
+        "MountFoodType": "EDS_MountFoodType::Meat",
+        "MountFoodGradeType": "EDS_MountFoodGradeType::Myth"
+      }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+syntax = "proto3";
+package protocol;
+option csharp_namespace = "MirProto.Protocol";
+
+import "ServerRoleType.proto";
+
+message ServerRoleRegister {
+  int32 world_id = 1;
+  int32 server_index = 2;
+  ServerRoleType role_type = 3;
+  string ip = 4;
+  int32 port = 5;
+}

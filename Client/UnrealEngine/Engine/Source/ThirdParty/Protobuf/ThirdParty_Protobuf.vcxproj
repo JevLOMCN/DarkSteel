@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{94DD3DF1-160F-560D-B7AF-2B3EF99912B0}</ProjectGuid><RootNamespace>ThirdParty_Protobuf</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="google\protobuf\io\coded_stream.cc.cpp" />
+    <ClCompile Include="google\protobuf\io\io_win32.cc.cpp" />
+    <ClCompile Include="google\protobuf\io\strtod.cc.cpp" />
+    <ClCompile Include="google\protobuf\io\tokenizer.cc.cpp" />
+    <ClCompile Include="google\protobuf\io\zero_copy_sink.cc.cpp" />
+    <ClCompile Include="google\protobuf\io\zero_copy_stream.cc.cpp" />
+    <ClCompile Include="google\protobuf\io\zero_copy_stream_impl.cc.cpp" />
+    <ClCompile Include="google\protobuf\io\zero_copy_stream_impl_lite.cc.cpp" />
+    <ClCompile Include="google\protobuf\json\json.cc.cpp" />
+    <ClCompile Include="google\protobuf\stubs\common.cc.cpp" />
+    <ClCompile Include="google\protobuf\util\type_resolver_util.cc.cpp" />
+    <ClCompile Include="protobuf\json\internal\lexer.cc.cpp" />
+    <ClCompile Include="protobuf\json\internal\message_path.cc.cpp" />
+    <ClCompile Include="protobuf\json\internal\parser.cc.cpp" />
+    <ClCompile Include="protobuf\json\internal\unparser.cc.cpp" />
+    <ClCompile Include="protobuf\json\internal\untyped_message.cc.cpp" />
+    <ClCompile Include="protobuf\json\internal\writer.cc.cpp" />
+    <ClCompile Include="protobuf\json\internal\zero_copy_buffered_stream.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\any.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\any.pb.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\any_lite.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\arena.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\arenastring.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\cpp_features.pb.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\descriptor.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\descriptor.pb.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\descriptor_database.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\dynamic_message.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\extension_set.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\extension_set_heavy.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\feature_resolver.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\generated_enum_util.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\generated_message_bases.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\generated_message_reflection.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\generated_message_tctable_full.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\generated_message_tctable_gen.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\generated_message_tctable_lite.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\generated_message_util.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\inlined_string_field.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\map.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\map_field.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\message.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\message_lite.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\parse_context.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\port.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\reflection_ops.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\repeated_field.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\repeated_ptr_field.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\source_context.pb.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\text_format.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\timestamp.pb.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\type.pb.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\unknown_field_set.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\wire_format.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\wire_format_lite.cc.cpp" />
+    <ClCompile Include="src\google\protobuf\wrappers.pb.cc.cpp" />
+    <ClCompile Include="utf8_range\CMakeFiles\utf8_validity.dir\utf8_range.c.cpp" />
+    <ClCompile Include="utf8_range\CMakeFiles\utf8_validity.dir\utf8_validity.cc.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

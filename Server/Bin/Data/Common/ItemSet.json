@@ -1,0 +1,227 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemSet",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemSet",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemSetTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 1011101
+        },
+        "ID_Item": [
+          10110001,
+          20110001,
+          20210001,
+          20310001,
+          20410001,
+          30110001,
+          30210001,
+          0
+        ],
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetEffectType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          100,
+          100,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000001
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 1012101
+        },
+        "ID_Item": [
+          10120001,
+          20120001,
+          20220001,
+          20320001,
+          20420001,
+          30120001,
+          30220001,
+          0
+        ],
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetEffectType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          10,
+          5,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000002
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 1013101
+        },
+        "ID_Item": [
+          10130001,
+          20130001,
+          20230001,
+          20330001,
+          20430001,
+          30130001,
+          30230001,
+          0
+        ],
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetEffectType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          10,
+          10,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000003
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 1014101
+        },
+        "ID_Item": [
+          10140001,
+          20140001,
+          20240001,
+          20340001,
+          20440001,
+          30140001,
+          30240001,
+          0
+        ],
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetEffectType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          10,
+          20,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000004
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 1015101
+        },
+        "ID_Item": [
+          10150001,
+          20150001,
+          20250001,
+          20350001,
+          20450001,
+          30150001,
+          30250001,
+          0
+        ],
+        "SetCount": [
+          3,
+          4,
+          6
+        ],
+        "SetEffectType": [
+          1,
+          1,
+          2
+        ],
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::None"
+        ],
+        "StatusValue": [
+          20,
+          20,
+          0
+        ],
+        "ID_Passive": [
+          0,
+          0,
+          1000005
+        ]
+      }
+    }
+  }
+]

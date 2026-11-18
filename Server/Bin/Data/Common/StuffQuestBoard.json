@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StuffQuestBoard",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StuffQuestBoard",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StuffQuestBoardTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1000000": {
+        "ID": 1000000,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ZoneIsland": 2,
+        "ID_ZoneBase": 2001,
+        "SpawnCoordinate": {
+          "X": -2827470.0,
+          "Y": -2727170.0,
+          "Z": 681.0
+        }
+      },
+      "1000001": {
+        "ID": 1000001,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ZoneIsland": 1,
+        "ID_ZoneBase": 1002,
+        "SpawnCoordinate": {
+          "X": -136485.47,
+          "Y": -503036.38,
+          "Z": 16695.059
+        }
+      }
+    }
+  }
+]

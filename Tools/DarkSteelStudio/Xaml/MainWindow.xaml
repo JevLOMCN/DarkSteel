@@ -1,0 +1,101 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DarkSteel Studio - Mir 5 Server Management"
+        Width="1400" Height="860" MinWidth="1000" MinHeight="640"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI" FontSize="13"
+        Background="{DynamicResource Brush.Window}"
+        Foreground="{DynamicResource Brush.Text}">
+
+    <!--
+        Theme.xaml is merged here (relative to this file) so the VS XAML
+        designer can resolve the keys, and again into Application.Resources
+        at startup. The runtime loader sets ParserContext.BaseUri to this
+        file, which is what makes the relative Source work with XamlReader.
+        The root attributes above use DynamicResource because they are set
+        before Window.Resources is parsed.
+    -->
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <DockPanel>
+
+        <!-- Status bar -->
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusText" Text="Ready"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock x:Name="DbStatusText" Text="DB: not connected"/>
+            </StatusBarItem>
+        </StatusBar>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Sidebar -->
+            <Border Grid.Column="0"
+                    Background="{StaticResource Brush.Sidebar}"
+                    BorderBrush="{StaticResource Brush.Border}"
+                    BorderThickness="0,0,1,0">
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Top" Margin="18,20,16,14">
+                        <TextBlock Text="DARKSTEEL" FontSize="24" FontWeight="Bold"
+                                   Foreground="{StaticResource Brush.Accent}"/>
+                        <TextBlock Text="STUDIO" FontSize="24" FontWeight="Light"
+                                   Foreground="{StaticResource Brush.Text}" Margin="0,-6,0,0"/>
+                        <TextBlock Text="Mir 5 server management" FontSize="11"
+                                   Foreground="{StaticResource Brush.TextMuted}" Margin="0,4,0,0"/>
+                    </StackPanel>
+
+                    <Border DockPanel.Dock="Top" Height="1" Background="{StaticResource Brush.Border}" Margin="0,0,0,8"/>
+
+                    <ListBox x:Name="NavList"
+                             Background="Transparent" BorderThickness="0"
+                             ItemContainerStyle="{StaticResource NavItemStyle}">
+                        <ListBoxItem Tag="Servers.xaml"    Content="Servers"/>
+                        <ListBoxItem Tag="Client.xaml"     Content="Client"/>
+                        <ListBoxItem Tag="GameData.xaml"   Content="Game Data"/>
+                        <ListBoxItem Tag="Database.xaml"   Content="Run Script"/>
+                        <ListBoxItem Tag="DatabaseBrowser.xaml" Content="Database"/>
+                        <ListBoxItem Tag="Settings.xaml"   Content="Settings"/>
+                    </ListBox>
+                </DockPanel>
+            </Border>
+
+            <!-- Content area -->
+            <DockPanel Grid.Column="1">
+                <Border DockPanel.Dock="Top"
+                        Background="{StaticResource Brush.Sidebar}"
+                        BorderBrush="{StaticResource Brush.Border}"
+                        BorderThickness="0,0,0,1"
+                        Padding="24,14">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock x:Name="PageTitle" Grid.Column="0" Text="Servers"
+                                   Style="{StaticResource PageTitleStyle}"/>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                            <Button x:Name="ReloadXamlButton" Content="Reload UI (F5)" Margin="0,0,8,0"/>
+                            <Button x:Name="AboutButton" Content="About"/>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+
+                <ContentControl x:Name="ContentHost" Margin="24"
+                                HorizontalContentAlignment="Stretch"
+                                VerticalContentAlignment="Stretch"/>
+            </DockPanel>
+        </Grid>
+    </DockPanel>
+</Window>

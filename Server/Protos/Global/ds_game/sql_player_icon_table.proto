@@ -1,0 +1,10 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlPlayerIconTable {
+  int64 player_uid = 1;
+  int32 player_icon_id = 2;
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "20000005",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PatrolBase/Phasing/20000005",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PatrolBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "20000": {
+        "ID": 20000,
+        "DataStage": 23,
+        "DataStageString": "",
+        "PatrolDesc": "",
+        "PatrolPath": [
+          {
+            "X": -2761569.8,
+            "Y": -2704902.8,
+            "Z": 5583.0
+          },
+          {
+            "X": -2761971.5,
+            "Y": -2704687.2,
+            "Z": 5583.0
+          },
+          {
+            "X": -2763179.2,
+            "Y": -2703678.5,
+            "Z": 5583.0
+          },
+          {
+            "X": -2764254.8,
+            "Y": -2702109.0,
+            "Z": 5583.0
+          },
+          {
+            "X": -2764932.8,
+            "Y": -2701473.5,
+            "Z": 5583.0
+          }
+        ],
+        "Location": {
+          "X": -2761569.8,
+          "Y": -2704902.8,
+          "Z": 5533.0
+        },
+        "RotateYaw": 145.19,
+        "PatrolStepGID": 20000,
+        "ID_PatrolFormation": 1,
+        "PatrolType": "EDS_PatrolType::OneWay",
+        "PatrolEscortValue1": 200,
+        "PatrolEscortValue2": 1
+      }
+    }
+  }
+]

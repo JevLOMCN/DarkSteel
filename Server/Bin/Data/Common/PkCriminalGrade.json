@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PkCriminalGrade",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PkCriminalGrade",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PkCriminalGradeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_PkCriminalGradeType::PKCriminalGrade1",
+        "DataStage": 23,
+        "Grade": 1,
+        "ID_Name": {
+          "ID": 101
+        },
+        "ID_Color": 3101,
+        "ID_CharNameColor": 3101,
+        "CriminalPointMax": 499,
+        "IncreasePcFirstAttack": 10,
+        "IncreasePcKill": 1000,
+        "DecreasePerNpcKill": 1,
+        "PenaltyHuntExp": 0,
+        "PenaltyPvpDamageMinRate": 0,
+        "PenaltyPvpDamageMaxRate": 0,
+        "ID_PenaltyBuff": 0,
+        "PenaltyInjureCnt": 3
+      },
+      "2": {
+        "ID": "EDS_PkCriminalGradeType::PKCriminalGrade2",
+        "DataStage": 23,
+        "Grade": 2,
+        "ID_Name": {
+          "ID": 102
+        },
+        "ID_Color": 3102,
+        "ID_CharNameColor": 3102,
+        "CriminalPointMax": 3999,
+        "IncreasePcFirstAttack": 10,
+        "IncreasePcKill": 1000,
+        "DecreasePerNpcKill": 1,
+        "PenaltyHuntExp": 300000,
+        "PenaltyPvpDamageMinRate": 0,
+        "PenaltyPvpDamageMaxRate": 0,
+        "ID_PenaltyBuff": 0,
+        "PenaltyInjureCnt": 3
+      },
+      "3": {
+        "ID": "EDS_PkCriminalGradeType::PKCriminalGrade3",
+        "DataStage": 23,
+        "Grade": 3,
+        "ID_Name": {
+          "ID": 103
+        },
+        "ID_Color": 3103,
+        "ID_CharNameColor": 3103,
+        "CriminalPointMax": 9999,
+        "IncreasePcFirstAttack": 10,
+        "IncreasePcKill": 1000,
+        "DecreasePerNpcKill": 1,
+        "PenaltyHuntExp": 500000,
+        "PenaltyPvpDamageMinRate": 0,
+        "PenaltyPvpDamageMaxRate": 0,
+        "ID_PenaltyBuff": 0,
+        "PenaltyInjureCnt": 5
+      },
+      "4": {
+        "ID": "EDS_PkCriminalGradeType::PKCriminalGrade4",
+        "DataStage": 23,
+        "Grade": 4,
+        "ID_Name": {
+          "ID": 104
+        },
+        "ID_Color": 3104,
+        "ID_CharNameColor": 3104,
+        "CriminalPointMax": 100000,
+        "IncreasePcFirstAttack": 10,
+        "IncreasePcKill": 1000,
+        "DecreasePerNpcKill": 1,
+        "PenaltyHuntExp": 700000,
+        "PenaltyPvpDamageMinRate": 900000,
+        "PenaltyPvpDamageMaxRate": 1000000,
+        "ID_PenaltyBuff": 0,
+        "PenaltyInjureCnt": 7
+      }
+    }
+  }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{14E71E12-AB68-5CB0-B0D5-30016387F5EE}</ProjectGuid><RootNamespace>AudioCaptureRtAudio</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAudioCaptureRtAudioFactory.cpp" />
+    <ClCompile Include="Private\FAudioCaptureRtAudioModule.cpp" />
+    <ClCompile Include="Private\FAudioCaptureRtAudioStream.cpp" />
+    <ClCompile Include="Private\FCaptureDeviceInfo.cpp" />
+    <ClCompile Include="Private\FRtAudioInputWrapper.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IAudioCaptureStream.cpp" />
+    <ClCompile Include="Private\TFunction.cpp" />
+    <ClCompile Include="Private\TStringConversion.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.AudioCaptureRtAudio.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

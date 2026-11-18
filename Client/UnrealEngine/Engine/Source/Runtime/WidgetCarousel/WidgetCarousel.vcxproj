@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{AC29EF23-624F-5211-BA9C-99C9AE33C9D7}</ProjectGuid><RootNamespace>WidgetCarousel</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FSlateStyleSet.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWidgetCarouselModule.cpp" />
+    <ClCompile Include="Private\FWidgetCarouselModuleStyle.cpp" />
+    <ClCompile Include="Private\FWidgetCarouselNavigationBarStyle.cpp" />
+    <ClCompile Include="Private\FWidgetCarouselNavigationButtonStyle.cpp" />
+    <ClCompile Include="Private\SCarouselNavigationBar.cpp" />
+    <ClCompile Include="Private\TBaseSPMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.WidgetCarousel.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

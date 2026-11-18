@@ -1,0 +1,136 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "KeyMappingData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/KeyMappingData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_KeyMappingDataTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Fixed",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Escape"
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Self",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Select"
+        ]
+      },
+      "10000": {
+        "ID": 10000,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Fixed",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Escape",
+          "EDS_KeyActionType::IA_UI_Reset"
+        ]
+      },
+      "20000": {
+        "ID": 20000,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Fixed",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_RingCmd_RemoveDeckItem",
+          "EDS_KeyActionType::IA_UI_Change",
+          "EDS_KeyActionType::IA_UI_Cancel",
+          "EDS_KeyActionType::IA_UI_Accept",
+          "EDS_KeyActionType::IA_RingCmd_Custom_NextDeck",
+          "EDS_KeyActionType::IA_RingCmd_Custom_PrevDeck"
+        ]
+      },
+      "20001": {
+        "ID": 20001,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Fixed",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_RingCmd_RemoveDeckItem",
+          "EDS_KeyActionType::IA_UI_Change",
+          "EDS_KeyActionType::IA_UI_Cancel",
+          "EDS_KeyActionType::IA_UI_Accept",
+          "EDS_KeyActionType::IA_RingCmd_Custom_NextDeck",
+          "EDS_KeyActionType::IA_RingCmd_Custom_PrevDeck"
+        ]
+      },
+      "20002": {
+        "ID": 20002,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Fixed",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_RingCmd_RemoveDeckItem",
+          "EDS_KeyActionType::IA_UI_Change",
+          "EDS_KeyActionType::IA_UI_Cancel",
+          "EDS_KeyActionType::IA_UI_Accept",
+          "EDS_KeyActionType::IA_RingCmd_Custom_NextDeck",
+          "EDS_KeyActionType::IA_RingCmd_Custom_PrevDeck"
+        ]
+      },
+      "20003": {
+        "ID": 20003,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Fixed",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_RingCmd_RemoveDeckItem",
+          "EDS_KeyActionType::IA_UI_Change",
+          "EDS_KeyActionType::IA_UI_Cancel",
+          "EDS_KeyActionType::IA_UI_Accept",
+          "EDS_KeyActionType::IA_RingCmd_Custom_NextDeck",
+          "EDS_KeyActionType::IA_RingCmd_Custom_PrevDeck"
+        ]
+      },
+      "30000": {
+        "ID": 30000,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Fixed",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Escape",
+          "EDS_KeyActionType::IA_Map_MarkerChanged",
+          "EDS_KeyActionType::IA_Map_CenterOfCharacter",
+          "EDS_KeyActionType::IA_Map_ViewTopMap",
+          "EDS_KeyActionType::IA_Map_MapIndexFilterToggle"
+        ]
+      },
+      "40000": {
+        "ID": 40000,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Fixed",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Escape",
+          "EDS_KeyActionType::IA_UI_ItemFunctionList"
+        ]
+      },
+      "50000": {
+        "ID": 50000,
+        "DataStage": 23,
+        "Version": "*",
+        "KeyRemoveType": "EDS_KeyRemoveType::Fixed",
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Back",
+          "EDS_KeyActionType::IA_UI_Select",
+          "EDS_KeyActionType::IA_ZoomInOut",
+          "EDS_KeyActionType::IA_CameraRotation"
+        ]
+      }
+    }
+  }
+]

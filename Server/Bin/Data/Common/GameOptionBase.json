@@ -1,0 +1,2068 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GameOptionBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/GameOptionBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_GameOptionBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_Forward",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410001
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10102
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "11": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_Left",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410002
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10103
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "12": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_Back",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410003
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10104
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "13": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_Right",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410004
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10105
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "14": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_AirWalkAttack",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410005
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10201
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "15": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_AirWalkDash",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410006
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10202
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "16": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_AirWalkHovering",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410007
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10203
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "17": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_AirWalkJump",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410008
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10204
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "18": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_AirWalkPowerJump",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410009
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10205
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "19": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_Avoid",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410010
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10301
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "20": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_NormalAttack",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410011
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10401
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "21": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_PopupSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410012
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10402
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "22": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_SkillSlot1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410013
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10403
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "40": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_SkillSlot2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410014
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10404
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "41": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_SkillSlot3",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410015
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10405
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "42": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_SkillSlot4",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410016
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10406
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "43": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_SkillSlot5",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410017
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10407
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "44": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_SkillSlot6",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410018
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10408
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "45": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_CameraMode",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410019
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10601
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "46": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_CameraReset",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410020
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10602
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "48": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_ZoomInOut",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410022
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10604
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "49": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_LockOnTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410023
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10605
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "50": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_LockOnTargetChange",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410024
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10606
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "51": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_Interaction",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410025
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10701
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "52": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_ItemSlot1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410026
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10801
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "53": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_ItemSlot2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410027
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10802
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "54": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_ItemSlot3",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410028
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10803
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "55": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_ItemSlot4",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410029
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          10804
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "56": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_Inventory",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410030
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          20010
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "57": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_CharacterInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410031
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          20011
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "84": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_Map",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410058
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          20013
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "85": {
+        "ID": "EDS_GameOptionType::CommonKeyboard_PartyCreate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415001
+        },
+        "ComponentType": "EDS_ComponentType::KeySettings",
+        "ID_OptionName": {
+          "ID": 410061
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Template",
+        "GameOptionData": "KeyActionData",
+        "DefaultValue": [
+          12101
+        ],
+        "Value1": 1,
+        "Value2": 1,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "201": {
+        "ID": "EDS_GameOptionType::GameOptionControlModeType",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 7,
+        "ID_CategoryName": {
+          "ID": 415003
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410035
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "ControlModeType",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "200": {
+        "ID": "EDS_GameOptionType::GameOptionLanguageType",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 7,
+        "ID_CategoryName": {
+          "ID": 415111
+        },
+        "ComponentType": "EDS_ComponentType::Dropdown",
+        "ID_OptionName": {
+          "ID": 410036
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "LanguageType",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "300": {
+        "ID": "EDS_GameOptionType::GameOptionNotiGrowth",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 10,
+        "ID_CategoryName": {
+          "ID": 415004
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410040
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "301": {
+        "ID": "EDS_GameOptionType::GameOptionNotiGet",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 10,
+        "ID_CategoryName": {
+          "ID": 415004
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410041
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "302": {
+        "ID": "EDS_GameOptionType::GameOptionNotiInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 10,
+        "ID_CategoryName": {
+          "ID": 415004
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410042
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "303": {
+        "ID": "EDS_GameOptionType::GameOptionNotiEtc",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 10,
+        "ID_CategoryName": {
+          "ID": 415004
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410043
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "205": {
+        "ID": "EDS_GameOptionType::GameOptionAutoDeclinePartyInvites",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 8,
+        "ID_CategoryName": {
+          "ID": 415109
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410057
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "DeclineInvitesType",
+        "DefaultValue": [
+          2
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "304": {
+        "ID": "EDS_GameOptionType::GamOptionVisibleMyname",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionUi",
+        "Category": 9,
+        "ID_CategoryName": {
+          "ID": 415112
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410066
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "VisibleNameTag",
+        "DefaultValue": [
+          2
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "206": {
+        "ID": "EDS_GameOptionType::MouseCursorSensitivity",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 7,
+        "ID_CategoryName": {
+          "ID": 415003
+        },
+        "ComponentType": "EDS_ComponentType::Slider",
+        "ID_OptionName": {
+          "ID": 410062
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Float",
+        "GameOptionData": "",
+        "DefaultValue": [
+          1000000
+        ],
+        "Value1": 500000,
+        "Value2": 1500000,
+        "Value3": 15,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "207": {
+        "ID": "EDS_GameOptionType::GamepadCursorSensitivity",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionControl",
+        "Category": 7,
+        "ID_CategoryName": {
+          "ID": 415003
+        },
+        "ComponentType": "EDS_ComponentType::Slider",
+        "ID_OptionName": {
+          "ID": 410063
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Float",
+        "GameOptionData": "",
+        "DefaultValue": [
+          1000000
+        ],
+        "Value1": 500000,
+        "Value2": 1500000,
+        "Value3": 15,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "401": {
+        "ID": "EDS_GameOptionType::Graphic_Setting",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410044
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "403": {
+        "ID": "EDS_GameOptionType::Graphic_ViewDistanceQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410046
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "404": {
+        "ID": "EDS_GameOptionType::Graphic_AntiAliasingQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410047
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "405": {
+        "ID": "EDS_GameOptionType::Graphic_ShadowQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410048
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "406": {
+        "ID": "EDS_GameOptionType::Graphic_GlobalIlluminationQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410049
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "407": {
+        "ID": "EDS_GameOptionType::Graphic_ReflectionQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410050
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "408": {
+        "ID": "EDS_GameOptionType::Graphic_PostProcessQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410051
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "409": {
+        "ID": "EDS_GameOptionType::Graphic_TextureQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410052
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "410": {
+        "ID": "EDS_GameOptionType::Graphic_EffectsQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410053
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "411": {
+        "ID": "EDS_GameOptionType::Graphic_FoliageQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410054
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "412": {
+        "ID": "EDS_GameOptionType::Graphic_ShadingQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410055
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "413": {
+        "ID": "EDS_GameOptionType::Graphic_LandscapeQuality",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "Category": 11,
+        "ID_CategoryName": {
+          "ID": 415005
+        },
+        "ComponentType": "EDS_ComponentType::ComboBox",
+        "ID_OptionName": {
+          "ID": 410056
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GraphicOptionType",
+        "DefaultValue": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "502": {
+        "ID": "EDS_GameOptionType::SoundMasterVolume",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionSound",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415101
+        },
+        "ComponentType": "EDS_ComponentType::SoundSlider",
+        "ID_OptionName": {
+          "ID": 415102
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          100,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 100,
+        "Value3": 5,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "504": {
+        "ID": "EDS_GameOptionType::SoundBgmVolume",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionSound",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415101
+        },
+        "ComponentType": "EDS_ComponentType::SoundSlider",
+        "ID_OptionName": {
+          "ID": 415103
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          60,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 100,
+        "Value3": 5,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "506": {
+        "ID": "EDS_GameOptionType::SoundSfxVolume",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionSound",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415101
+        },
+        "ComponentType": "EDS_ComponentType::SoundSlider",
+        "ID_OptionName": {
+          "ID": 415104
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          80,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 100,
+        "Value3": 5,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "508": {
+        "ID": "EDS_GameOptionType::SoundAmbienceVolume",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionSound",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415101
+        },
+        "ComponentType": "EDS_ComponentType::SoundSlider",
+        "ID_OptionName": {
+          "ID": 415105
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          50,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 100,
+        "Value3": 5,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "510": {
+        "ID": "EDS_GameOptionType::SoundVoiceVolume",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionSound",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415101
+        },
+        "ComponentType": "EDS_ComponentType::SoundSlider",
+        "ID_OptionName": {
+          "ID": 415106
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          80,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 100,
+        "Value3": 5,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "512": {
+        "ID": "EDS_GameOptionType::SoundUiVolume",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionSound",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415101
+        },
+        "ComponentType": "EDS_ComponentType::SoundSlider",
+        "ID_OptionName": {
+          "ID": 415107
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          50,
+          1
+        ],
+        "Value1": 0,
+        "Value2": 100,
+        "Value3": 5,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "500": {
+        "ID": "EDS_GameOptionType::SoundAllowBackgroundAudio",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionSound",
+        "Category": 1,
+        "ID_CategoryName": {
+          "ID": 415101
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 415108
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          2
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "600": {
+        "ID": "EDS_GameOptionType::HudScale",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionUi",
+        "Category": 7,
+        "ID_CategoryName": {
+          "ID": 415003
+        },
+        "ComponentType": "EDS_ComponentType::Slider",
+        "ID_OptionName": {
+          "ID": 410064
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Float",
+        "GameOptionData": "",
+        "DefaultValue": [
+          1000000
+        ],
+        "Value1": 500000,
+        "Value2": 1200000,
+        "Value3": 10000,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "208": {
+        "ID": "EDS_GameOptionType::TargetMode",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 8,
+        "ID_CategoryName": {
+          "ID": 415109
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410065
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "TargetModeType",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "209": {
+        "ID": "EDS_GameOptionType::CameraNotify",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 8,
+        "ID_CategoryName": {
+          "ID": 415109
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410082
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Float",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "701": {
+        "ID": "EDS_GameOptionType::GameOptionChatTransparent",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 12,
+        "ID_CategoryName": {
+          "ID": 415115
+        },
+        "ComponentType": "EDS_ComponentType::Slider",
+        "ID_OptionName": {
+          "ID": 410067
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Float",
+        "GameOptionData": "",
+        "DefaultValue": [
+          0
+        ],
+        "Value1": 0,
+        "Value2": 1000000,
+        "Value3": 100000,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "702": {
+        "ID": "EDS_GameOptionType::GameOptionChatCategoryDisplay",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 12,
+        "ID_CategoryName": {
+          "ID": 415115
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410068
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "703": {
+        "ID": "EDS_GameOptionType::GameOptionChatTimestampDisplay",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 12,
+        "ID_CategoryName": {
+          "ID": 415115
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410069
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "704": {
+        "ID": "EDS_GameOptionType::GameOptionChatAutoTranslate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 12,
+        "ID_CategoryName": {
+          "ID": 415115
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410070
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "705": {
+        "ID": "EDS_GameOptionType::GameOptionChatMatureLanguageFilter",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 12,
+        "ID_CategoryName": {
+          "ID": 415115
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410071
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "Notification",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "709": {
+        "ID": "EDS_GameOptionType::GameOptionChatDefaultChatWindow",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 12,
+        "ID_CategoryName": {
+          "ID": 415115
+        },
+        "ComponentType": "EDS_ComponentType::Dropdown",
+        "ID_OptionName": {
+          "ID": 410080
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "ChatWindowType",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "710": {
+        "ID": "EDS_GameOptionType::GameOptionChatPostSendAction",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 12,
+        "ID_CategoryName": {
+          "ID": 415115
+        },
+        "ComponentType": "EDS_ComponentType::Dropdown",
+        "ID_OptionName": {
+          "ID": 410081
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "ChatPostSendActionType",
+        "DefaultValue": [
+          3
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "706": {
+        "ID": "EDS_GameOptionType::GameOptionChatFontSize",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 13,
+        "ID_CategoryName": {
+          "ID": 415116
+        },
+        "ComponentType": "EDS_ComponentType::Dropdown",
+        "ID_OptionName": {
+          "ID": 410072
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "ChatFontSizeType",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "707": {
+        "ID": "EDS_GameOptionType::GameOptionChatFontColor",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 13,
+        "ID_CategoryName": {
+          "ID": 415116
+        },
+        "ComponentType": "EDS_ComponentType::ColorButton",
+        "ID_OptionName": {
+          "ID": 410073
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "ChatFontColorType",
+        "DefaultValue": [
+          20004,
+          20005,
+          20006,
+          20007,
+          20008,
+          20009,
+          20010,
+          20014,
+          20015,
+          20016,
+          20017,
+          20018,
+          20019,
+          20020,
+          20021,
+          20022,
+          20023
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "708": {
+        "ID": "EDS_GameOptionType::GameOptionChatSystemFontColor",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 13,
+        "ID_CategoryName": {
+          "ID": 415116
+        },
+        "ComponentType": "EDS_ComponentType::ColorButton",
+        "ID_OptionName": {
+          "ID": 410074
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "ChatSystemFontColorType",
+        "DefaultValue": [
+          20012,
+          20013
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "801": {
+        "ID": "EDS_GameOptionType::GameOptionChatMacro1",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 14,
+        "ID_CategoryName": {
+          "ID": 415117
+        },
+        "ComponentType": "EDS_ComponentType::TextField",
+        "ID_OptionName": {
+          "ID": 410075
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          205001
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "802": {
+        "ID": "EDS_GameOptionType::GameOptionChatMacro2",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 14,
+        "ID_CategoryName": {
+          "ID": 415117
+        },
+        "ComponentType": "EDS_ComponentType::TextField",
+        "ID_OptionName": {
+          "ID": 410076
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          205002
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "803": {
+        "ID": "EDS_GameOptionType::GameOptionChatMacro3",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 14,
+        "ID_CategoryName": {
+          "ID": 415117
+        },
+        "ComponentType": "EDS_ComponentType::TextField",
+        "ID_OptionName": {
+          "ID": 410077
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          205003
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "804": {
+        "ID": "EDS_GameOptionType::GameOptionChatMacro4",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 14,
+        "ID_CategoryName": {
+          "ID": 415117
+        },
+        "ComponentType": "EDS_ComponentType::TextField",
+        "ID_OptionName": {
+          "ID": 410078
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          205004
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "805": {
+        "ID": "EDS_GameOptionType::GameOptionChatMacro5",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionChatting",
+        "Category": 14,
+        "ID_CategoryName": {
+          "ID": 415117
+        },
+        "ComponentType": "EDS_ComponentType::TextField",
+        "ID_OptionName": {
+          "ID": 410079
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Int32",
+        "GameOptionData": "",
+        "DefaultValue": [
+          205005
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DeviceStorage",
+        "ApplyType": "EDS_ApplyType::Confirmation"
+      },
+      "901": {
+        "ID": "EDS_GameOptionType::GameOptionTargetPriority",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 15,
+        "ID_CategoryName": {
+          "ID": 415118
+        },
+        "ComponentType": "EDS_ComponentType::Dropdown",
+        "ID_OptionName": {
+          "ID": 410083
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GameOptionTargetPriority",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "902": {
+        "ID": "EDS_GameOptionType::GameOptionActionModeTargetingType",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 15,
+        "ID_CategoryName": {
+          "ID": 415118
+        },
+        "ComponentType": "EDS_ComponentType::Dropdown",
+        "ID_OptionName": {
+          "ID": 410084
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GameOptionActionModeTargetingType",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "903": {
+        "ID": "EDS_GameOptionType::GameOptionTargetAutoLock",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 15,
+        "ID_CategoryName": {
+          "ID": 415118
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410085
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GameOptionTargetAutoLock",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      },
+      "904": {
+        "ID": "EDS_GameOptionType::GameOptionActionModeShowReticle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "Category": 15,
+        "ID_CategoryName": {
+          "ID": 415118
+        },
+        "ComponentType": "EDS_ComponentType::SpinButton",
+        "ID_OptionName": {
+          "ID": 410086
+        },
+        "GameOptionDataType": "EDS_GameOptionDataType::Enum",
+        "GameOptionData": "GameOptionActionModeShowReticle",
+        "DefaultValue": [
+          1
+        ],
+        "Value1": 0,
+        "Value2": 0,
+        "Value3": 0,
+        "OptionStorageType": "EDS_OptionStorageType::DBStorage",
+        "ApplyType": "EDS_ApplyType::Rightaway"
+      }
+    }
+  }
+]

@@ -1,0 +1,52 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: PoseSearch
+// Functions: 2
+
+// IsFilterActive @ 14a8c0b80
+
+bool __thiscall
+UE::PoseSearch::FSearchFilters::FSelectableAssetIdxFilter::IsFilterActive
+          (FSelectableAssetIdxFilter *this)
+
+{
+  return (this->SelectableAssetIdxFilter).ArrayNum != 0;
+}
+
+// IsFilterValid @ 14a8c0c30
+
+bool __thiscall
+UE::PoseSearch::FSearchFilters::FSelectableAssetIdxFilter::IsFilterValid
+          (FSelectableAssetIdxFilter *this,TArrayView<float_const_,int> *param_1,
+          TArrayView<float_const_,int> *param_2,int param_3,FPoseMetadata *param_4)
+
+{
+  int iVar1;
+  uint uVar2;
+  int *piVar3;
+  uint uVar4;
+  int iVar5;
+  uint uVar6;
+  uint uVar7;
+  
+  uVar2 = (this->SelectableAssetIdxFilter).ArrayNum;
+  piVar3 = (this->SelectableAssetIdxFilter).DataPtr;
+  iVar5 = 0;
+  uVar7 = param_4->AssetIndex;
+  uVar6 = uVar2;
+  if (0 < (int)uVar2) {
+    do {
+      iVar1 = (uVar6 >> 1) + iVar5;
+      if (piVar3[iVar1] < (int)uVar7) {
+        iVar5 = iVar1 + (uVar6 & 1);
+      }
+      uVar4 = uVar6 >> 1;
+      uVar6 = uVar6 >> 1;
+    } while (uVar4 != 0);
+  }
+  if (((int)uVar2 <= iVar5) || ((int)uVar7 < piVar3[iVar5])) {
+    iVar5 = -1;
+  }
+  return iVar5 != -1;
+}
+

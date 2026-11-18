@@ -1,0 +1,8 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum StuffSpawnType {
+  StuffSpawnType_Navi = 0;
+  StuffSpawnType_Air = 1;
+}

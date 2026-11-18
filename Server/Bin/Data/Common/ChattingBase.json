@@ -1,0 +1,290 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ChattingBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ChattingBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ChattingBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::World",
+        "ChattingNumber": 3,
+        "ID_ChattingChannelName": {
+          "ID": 281001
+        },
+        "ID_SubjectImage": 606,
+        "ID_ChattingColor": 20006,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingWorld"
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::ZoneGroup",
+        "ChattingNumber": 2,
+        "ID_ChattingChannelName": {
+          "ID": 281002
+        },
+        "ID_SubjectImage": 605,
+        "ID_ChattingColor": 20005,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingArea"
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Zone",
+        "ChattingNumber": 1,
+        "ID_ChattingChannelName": {
+          "ID": 281003
+        },
+        "ID_SubjectImage": 604,
+        "ID_ChattingColor": 20004,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingZone"
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Party",
+        "ChattingNumber": 5,
+        "ID_ChattingChannelName": {
+          "ID": 281004
+        },
+        "ID_SubjectImage": 608,
+        "ID_ChattingColor": 20008,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingParty"
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::RaidParty",
+        "ChattingNumber": 6,
+        "ID_ChattingChannelName": {
+          "ID": 281005
+        },
+        "ID_SubjectImage": 609,
+        "ID_ChattingColor": 20009,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingRaidParty"
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Guild",
+        "ChattingNumber": 7,
+        "ID_ChattingChannelName": {
+          "ID": 281006
+        },
+        "ID_SubjectImage": 610,
+        "ID_ChattingColor": 20010,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingGuild"
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::System",
+        "ChattingNumber": 0,
+        "ID_ChattingChannelName": {
+          "ID": 281007
+        },
+        "ID_SubjectImage": 612,
+        "ID_ChattingColor": 20012,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingSystem"
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Personal",
+        "ChattingType": "EDS_ChattingType::Whisper",
+        "ChattingNumber": 4,
+        "ID_ChattingChannelName": {
+          "ID": 281008
+        },
+        "ID_SubjectImage": 607,
+        "ID_ChattingColor": 20007,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingWhisper"
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Personal",
+        "ChattingType": "EDS_ChattingType::Organization",
+        "ChattingNumber": 0,
+        "ID_ChattingChannelName": {
+          "ID": 281009
+        },
+        "ID_SubjectImage": 611,
+        "ID_ChattingColor": 20011,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Total",
+        "ChattingNumber": 0,
+        "ID_ChattingChannelName": {
+          "ID": 281010
+        },
+        "ID_SubjectImage": 612,
+        "ID_ChattingColor": 20001,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::None"
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Battle",
+        "ChattingNumber": 0,
+        "ID_ChattingChannelName": {
+          "ID": 281011
+        },
+        "ID_SubjectImage": 613,
+        "ID_ChattingColor": 20013,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group1",
+        "ChattingNumber": 8,
+        "ID_ChattingChannelName": {
+          "ID": 281012
+        },
+        "ID_SubjectImage": 614,
+        "ID_ChattingColor": 20014,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group2",
+        "ChattingNumber": 9,
+        "ID_ChattingChannelName": {
+          "ID": 281013
+        },
+        "ID_SubjectImage": 615,
+        "ID_ChattingColor": 20015,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group3",
+        "ChattingNumber": 10,
+        "ID_ChattingChannelName": {
+          "ID": 281014
+        },
+        "ID_SubjectImage": 616,
+        "ID_ChattingColor": 20016,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group4",
+        "ChattingNumber": 11,
+        "ID_ChattingChannelName": {
+          "ID": 281015
+        },
+        "ID_SubjectImage": 617,
+        "ID_ChattingColor": 20017,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "18": {
+        "ID": 18,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group5",
+        "ChattingNumber": 12,
+        "ID_ChattingChannelName": {
+          "ID": 281016
+        },
+        "ID_SubjectImage": 618,
+        "ID_ChattingColor": 20018,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "19": {
+        "ID": 19,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group6",
+        "ChattingNumber": 13,
+        "ID_ChattingChannelName": {
+          "ID": 281017
+        },
+        "ID_SubjectImage": 619,
+        "ID_ChattingColor": 20019,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "20": {
+        "ID": 20,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group7",
+        "ChattingNumber": 14,
+        "ID_ChattingChannelName": {
+          "ID": 281018
+        },
+        "ID_SubjectImage": 620,
+        "ID_ChattingColor": 20020,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group8",
+        "ChattingNumber": 15,
+        "ID_ChattingChannelName": {
+          "ID": 281019
+        },
+        "ID_SubjectImage": 621,
+        "ID_ChattingColor": 20021,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group9",
+        "ChattingNumber": 16,
+        "ID_ChattingChannelName": {
+          "ID": 281020
+        },
+        "ID_SubjectImage": 622,
+        "ID_ChattingColor": 20022,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "ChattingCategoryType": "EDS_ChattingCategoryType::Public",
+        "ChattingType": "EDS_ChattingType::Group10",
+        "ChattingNumber": 17,
+        "ID_ChattingChannelName": {
+          "ID": 281021
+        },
+        "ID_SubjectImage": 623,
+        "ID_ChattingColor": 20023,
+        "ID_ChattingCoolDown": "EDS_CoolDownType::ChattingOrganization"
+      }
+    }
+  }
+]

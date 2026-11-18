@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{FF804129-D3B2-5527-AF3C-22DB947B3BC4}</ProjectGuid><RootNamespace>ChaosClothAsset</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAnisotropicData.cpp" />
+    <ClCompile Include="Private\FClothAssetModule.cpp" />
+    <ClCompile Include="Private\FClothCollection.cpp" />
+    <ClCompile Include="Private\FClothGeometryTools.cpp" />
+    <ClCompile Include="Private\FCollectionClothConstFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothFabricConstFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothFabricFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothRenderPatternConstFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothRenderPatternFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSeamConstFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSeamFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSelectionConstFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSelectionFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSimAccessoryMeshConstFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSimAccessoryMeshFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSimMorphTargetConstFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSimMorphTargetFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSimPatternConstFacade.cpp" />
+    <ClCompile Include="Private\FCollectionClothSimPatternFacade.cpp" />
+    <ClCompile Include="Private\FConstClothCollection.cpp" />
+    <ClCompile Include="Private\FManagedArrayCollection.cpp" />
+    <ClCompile Include="Private\FParallelForData.cpp" />
+    <ClCompile Include="Private\FSeam.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FValueType.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDynamicVertexSkinWeightsAttribute.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.ChaosClothAsset.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,26 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: CookOnTheFly
+// Functions: 1
+
+// Empty @ 14311d560
+
+void __thiscall
+TArray<FPackageStoreEntryResource,TSizedDefaultAllocator<32>_>::Empty
+          (TArray<FPackageStoreEntryResource,TSizedDefaultAllocator<32>_> *this,int param_1)
+
+{
+  if (-1 < param_1) {
+    DestructItems<FPackageStoreEntryResource,int>
+              ((FPackageStoreEntryResource *)(this->AllocatorInstance).Data,this->ArrayNum);
+    this->ArrayNum = 0;
+    if (this->ArrayMax != param_1) {
+      UE::Core::Private::ReallocTo<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                (0x58,8,param_1,&this->AllocatorInstance,0,&this->ArrayMax);
+    }
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  UE::Core::Private::OnInvalidArrayNum((ulonglong)(uint)param_1);
+}
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{516815F8-A925-500C-B6EC-8732382C6A20}</ProjectGuid><RootNamespace>NullDrv</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FChunk.cpp" />
+    <ClCompile Include="Private\FColorEntry.cpp" />
+    <ClCompile Include="Private\FDynamicRHI.cpp" />
+    <ClCompile Include="Private\FDynamicRHIPSOFallback.cpp" />
+    <ClCompile Include="Private\FGenericRHIStagingBuffer.cpp" />
+    <ClCompile Include="Private\FNullDynamicRHI.cpp" />
+    <ClCompile Include="Private\FNullDynamicRHIModule.cpp" />
+    <ClCompile Include="Private\FNullGPUFence.cpp" />
+    <ClCompile Include="Private\FNullTextureInitializer.cpp" />
+    <ClCompile Include="Private\FRHIBlendState.cpp" />
+    <ClCompile Include="Private\FRHIBreadcrumbAllocatorArray.cpp" />
+    <ClCompile Include="Private\FRHIBuffer.cpp" />
+    <ClCompile Include="Private\FRHIComputePipelineState.cpp" />
+    <ClCompile Include="Private\FRHIDepthStencilState.cpp" />
+    <ClCompile Include="Private\FRHIGPUFence.cpp" />
+    <ClCompile Include="Private\FRHIGraphicsPipelineStateFallBack.cpp" />
+    <ClCompile Include="Private\FRHIRasterizerState.cpp" />
+    <ClCompile Include="Private\FRHIResource.cpp" />
+    <ClCompile Include="Private\FRHISamplerState.cpp" />
+    <ClCompile Include="Private\FRHIShader.cpp" />
+    <ClCompile Include="Private\FRHIStagingBuffer.cpp" />
+    <ClCompile Include="Private\FRHITexture.cpp" />
+    <ClCompile Include="Private\FRHITextureCreateDesc.cpp" />
+    <ClCompile Include="Private\FRHIVertexDeclaration.cpp" />
+    <ClCompile Include="Private\FRHIView.cpp" />
+    <ClCompile Include="Private\FRHIViewableResource.cpp" />
+    <ClCompile Include="Private\FRHIViewport.cpp" />
+    <ClCompile Include="Private\FResource.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTextureResource.cpp" />
+    <ClCompile Include="Private\IDynamicRHIModule.cpp" />
+    <ClCompile Include="Private\IRHICommandContext.cpp" />
+    <ClCompile Include="Private\IRHICommandContextPSOFallback.cpp" />
+    <ClCompile Include="Private\IRHIComputeContext.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.NullDrv.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

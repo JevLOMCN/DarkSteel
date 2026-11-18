@@ -1,0 +1,298 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SlotBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SlotBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SlotBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "11001": {
+        "ID": "EDS_EquipSlotType::Weapon",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 1,
+        "ID_SlotIcon": 30001,
+        "EquipItemType": [
+          "EDS_ItemType::WeaponArtifact",
+          "EDS_ItemType::WeaponKnuckle",
+          "EDS_ItemType::WeaponSwordShield",
+          "EDS_ItemType::WeaponLance",
+          "EDS_ItemType::WeaponGreatAxe",
+          "EDS_ItemType::WeaponLongBow",
+          "EDS_ItemType::WeaponDualPistols",
+          "EDS_ItemType::WeaponOrb",
+          "EDS_ItemType::WeaponFan"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Weapon",
+        "IsEquipVisual": true
+      },
+      "11002": {
+        "ID": "EDS_EquipSlotType::ArmorChest",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 2,
+        "ID_SlotIcon": 30003,
+        "EquipItemType": [
+          "EDS_ItemType::ArmorChest"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Chest",
+        "IsEquipVisual": true
+      },
+      "11003": {
+        "ID": "EDS_EquipSlotType::ArmorPants",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 3,
+        "ID_SlotIcon": 30015,
+        "EquipItemType": [
+          "EDS_ItemType::ArmorPants"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Pants",
+        "IsEquipVisual": true
+      },
+      "11004": {
+        "ID": "EDS_EquipSlotType::ArmorGloves",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 4,
+        "ID_SlotIcon": 30004,
+        "EquipItemType": [
+          "EDS_ItemType::ArmorGlobe"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Glove",
+        "IsEquipVisual": true
+      },
+      "11005": {
+        "ID": "EDS_EquipSlotType::ArmorShoes",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 5,
+        "ID_SlotIcon": 30005,
+        "EquipItemType": [
+          "EDS_ItemType::ArmorShoes"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Shoes",
+        "IsEquipVisual": true
+      },
+      "11006": {
+        "ID": "EDS_EquipSlotType::ArmorHelmet",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 6,
+        "ID_SlotIcon": 30002,
+        "EquipItemType": [
+          "EDS_ItemType::ArmorHelmet"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Helmet",
+        "IsEquipVisual": true
+      },
+      "11007": {
+        "ID": "EDS_EquipSlotType::Accessory1",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 7,
+        "ID_SlotIcon": 30008,
+        "EquipItemType": [
+          "EDS_ItemType::Accessory1"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Necklace",
+        "IsEquipVisual": false
+      },
+      "11008": {
+        "ID": "EDS_EquipSlotType::Accessory2",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 8,
+        "ID_SlotIcon": 30007,
+        "EquipItemType": [
+          "EDS_ItemType::Accessory2"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Bracelet",
+        "IsEquipVisual": false
+      },
+      "11009": {
+        "ID": "EDS_EquipSlotType::Accessory3",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 9,
+        "ID_SlotIcon": 30013,
+        "EquipItemType": [
+          "EDS_ItemType::Accessory3"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Ring",
+        "IsEquipVisual": false
+      },
+      "11010": {
+        "ID": "EDS_EquipSlotType::Emblem",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipBattle",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 10,
+        "ID_SlotIcon": 30014,
+        "EquipItemType": [
+          "EDS_ItemType::Emblem"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Emblem",
+        "IsEquipVisual": false
+      },
+      "21001": {
+        "ID": "EDS_EquipSlotType::Harvesting",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipTool",
+        "IsVisibleSlotTypeName": true,
+        "SlotNumber": 1,
+        "ID_SlotIcon": 30010,
+        "EquipItemType": [
+          "EDS_ItemType::ToolHarvesting"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Harvesting",
+        "IsEquipVisual": false
+      },
+      "21002": {
+        "ID": "EDS_EquipSlotType::Mining",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipTool",
+        "IsVisibleSlotTypeName": true,
+        "SlotNumber": 2,
+        "ID_SlotIcon": 30010,
+        "EquipItemType": [
+          "EDS_ItemType::ToolMining"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Mining",
+        "IsEquipVisual": false
+      },
+      "21003": {
+        "ID": "EDS_EquipSlotType::Logging",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipTool",
+        "IsVisibleSlotTypeName": true,
+        "SlotNumber": 3,
+        "ID_SlotIcon": 30010,
+        "EquipItemType": [
+          "EDS_ItemType::ToolLogging"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Logging",
+        "IsEquipVisual": false
+      },
+      "21004": {
+        "ID": "EDS_EquipSlotType::Cooking",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipTool",
+        "IsVisibleSlotTypeName": true,
+        "SlotNumber": 4,
+        "ID_SlotIcon": 30010,
+        "EquipItemType": [
+          "EDS_ItemType::ToolCooking"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Cook",
+        "IsEquipVisual": false
+      },
+      "21005": {
+        "ID": "EDS_EquipSlotType::Linguistics",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipTool",
+        "IsVisibleSlotTypeName": true,
+        "SlotNumber": 5,
+        "ID_SlotIcon": 30010,
+        "EquipItemType": [
+          "EDS_ItemType::ToolLing"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Linguistic",
+        "IsEquipVisual": false
+      },
+      "21006": {
+        "ID": "EDS_EquipSlotType::OpenLocks",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipTool",
+        "IsVisibleSlotTypeName": true,
+        "SlotNumber": 6,
+        "ID_SlotIcon": 30010,
+        "EquipItemType": [
+          "EDS_ItemType::ToolOpenLocks"
+        ],
+        "ClickLinkedBag": "EDS_BagType::OpenLock",
+        "IsEquipVisual": false
+      },
+      "21007": {
+        "ID": "EDS_EquipSlotType::Archaeology",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipTool",
+        "IsVisibleSlotTypeName": true,
+        "SlotNumber": 7,
+        "ID_SlotIcon": 30010,
+        "EquipItemType": [
+          "EDS_ItemType::ToolArchaeology"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Archaeology",
+        "IsEquipVisual": false
+      },
+      "21008": {
+        "ID": "EDS_EquipSlotType::Farming",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::EquipTool",
+        "IsVisibleSlotTypeName": true,
+        "SlotNumber": 8,
+        "ID_SlotIcon": 30010,
+        "EquipItemType": [
+          "EDS_ItemType::ToolArchaeology"
+        ],
+        "ClickLinkedBag": "EDS_BagType::Farming",
+        "IsEquipVisual": false
+      },
+      "51001": {
+        "ID": "EDS_EquipSlotType::MountGearTypeA",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::MountGear",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 1,
+        "ID_SlotIcon": 0,
+        "EquipItemType": [
+          "EDS_ItemType::MountGearAType"
+        ],
+        "ClickLinkedBag": "EDS_BagType::CharMountGearAType",
+        "IsEquipVisual": false
+      },
+      "51002": {
+        "ID": "EDS_EquipSlotType::MountGearTypeB",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::MountGear",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 2,
+        "ID_SlotIcon": 0,
+        "EquipItemType": [
+          "EDS_ItemType::MountGearBType"
+        ],
+        "ClickLinkedBag": "EDS_BagType::CharMountGearBType",
+        "IsEquipVisual": false
+      },
+      "51003": {
+        "ID": "EDS_EquipSlotType::MountGearTypeC",
+        "DataStage": 23,
+        "SlotType": "EDS_SlotType::MountGear",
+        "IsVisibleSlotTypeName": false,
+        "SlotNumber": 3,
+        "ID_SlotIcon": 0,
+        "EquipItemType": [
+          "EDS_ItemType::MountGearCType"
+        ],
+        "ClickLinkedBag": "EDS_BagType::CharMountGearCType",
+        "IsEquipVisual": false
+      }
+    }
+  }
+]

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{D2984061-3BBE-58B8-9D1A-62E9E5B6C50C}</ProjectGuid><RootNamespace>PlanarCut</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FCellMeshes.cpp" />
+    <ClCompile Include="Private\FDisjointSet.cpp" />
+    <ClCompile Include="Private\FDynamicMeshCollection.cpp" />
+    <ClCompile Include="Private\FDynamicMeshTriangleAttributeChange.cpp" />
+    <ClCompile Include="Private\FGeomFlatUVMesh.cpp" />
+    <ClCompile Include="Private\FGeomMesh.cpp" />
+    <ClCompile Include="Private\FImageOccupancyMap.cpp" />
+    <ClCompile Include="Private\FInternalSurfaceMaterials.cpp" />
+    <ClCompile Include="Private\FMarchingCubes.cpp" />
+    <ClCompile Include="Private\FMeshBoolean.cpp" />
+    <ClCompile Include="Private\FMeshCurvatureMapBaker.cpp" />
+    <ClCompile Include="Private\FMeshData.cpp" />
+    <ClCompile Include="Private\FMeshImageBaker.cpp" />
+    <ClCompile Include="Private\FMeshImageBakingCache.cpp" />
+    <ClCompile Include="Private\FMeshOcclusionMapBaker.cpp" />
+    <ClCompile Include="Private\FPlanarCells.cpp" />
+    <ClCompile Include="Private\FPlanarCutPlugin.cpp" />
+    <ClCompile Include="Private\FRemoveGroup.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FUVPacker.cpp" />
+    <ClCompile Include="Private\FVertexConnectedComponents.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseKeyIterator.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDefaultDelete.cpp" />
+    <ClCompile Include="Private\TDynamicMeshTriangleAttribute.cpp" />
+    <ClCompile Include="Private\TDynamicVector.cpp" />
+    <ClCompile Include="Private\TDynamicVertexAttribute.cpp" />
+    <ClCompile Include="Private\TDynamicVertexAttributeChange.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGeneralPolygon2.cpp" />
+    <ClCompile Include="Private\TImplicitSolidify.cpp" />
+    <ClCompile Include="Private\TIndexMap.cpp" />
+    <ClCompile Include="Private\TIndirectArray.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMeshAABBTree3.cpp" />
+    <ClCompile Include="Private\TMeshQueries.cpp" />
+    <ClCompile Include="Private\TMeshSpatialSort.cpp" />
+    <ClCompile Include="Private\TMultiMap.cpp" />
+    <ClCompile Include="Private\TOptional.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TPointHashGrid3.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TWrapAroundGridIndexer3.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UV.cpp" />
+    <ClCompile Include="Private\UVPacking.cpp" />
+    <ClCompile Include="Private\_Free\Module.PlanarCut.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

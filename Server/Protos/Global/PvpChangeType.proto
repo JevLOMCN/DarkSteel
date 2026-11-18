@@ -1,0 +1,11 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum PvpChangeType {
+  PvpChangeType_None = 0;
+  PvpChangeType_PkMode = 1;
+  PvpChangeType_PcFirstAttack = 2;
+  PvpChangeType_PcKill = 3;
+  PvpChangeType_NpcKill = 4;
+}

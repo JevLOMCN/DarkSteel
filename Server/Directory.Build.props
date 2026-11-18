@@ -1,0 +1,14 @@
+<Project>
+
+  <!--
+    Every project under Server/ builds into Server/Bin/<ProjectName>/ (for example Server/Bin/M5.Server).
+    Runtime files sit next to those folders: Server/Bin/Data (game data JSON, tracked) and Server/Bin/Config (local settings and
+    certificates, not tracked). The servers find them by walking up from their own folder.
+  -->
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <OutputPath>$(MSBuildThisFileDirectory)Bin\$(MSBuildProjectName)\</OutputPath>
+  </PropertyGroup>
+
+</Project>

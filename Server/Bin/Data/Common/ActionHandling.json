@@ -1,0 +1,290 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ActionHandling",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ActionHandling",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ActionHandlingTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::Hold",
+        "ActivityRange": 5000,
+        "ResetTime": 10.0,
+        "ID_ThrowSkillReady": 0,
+        "ID_ThrowSkillStart": 0,
+        "ID_ThrowSkillEnd": 0,
+        "IsRotation": false,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::None",
+        "ActivityRangeType": "EDS_ActivityRangeType::TimedRelease",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 0.0
+      },
+      "2001": {
+        "ID": 2001,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 20000,
+        "ResetTime": 15.0,
+        "ID_ThrowSkillReady": 10208,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::None",
+        "ActivityRangeType": "EDS_ActivityRangeType::Blocked",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "2002": {
+        "ID": 2002,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 1000,
+        "ResetTime": 0.0,
+        "ID_ThrowSkillReady": 10208,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::Despawn",
+        "ActivityRangeType": "EDS_ActivityRangeType::Blocked",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "2003": {
+        "ID": 2003,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 10000,
+        "ResetTime": 20.0,
+        "ID_ThrowSkillReady": 0,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::None",
+        "ActivityRangeType": "EDS_ActivityRangeType::Blocked",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "2004": {
+        "ID": 2004,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 1000,
+        "ResetTime": 0.0,
+        "ID_ThrowSkillReady": 10208,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::Despawn",
+        "ActivityRangeType": "EDS_ActivityRangeType::TimedRelease",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "2005": {
+        "ID": 2005,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 20000,
+        "ResetTime": 15.0,
+        "ID_ThrowSkillReady": 10208,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10229,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::None",
+        "ActivityRangeType": "EDS_ActivityRangeType::Blocked",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "3001": {
+        "ID": 3001,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::HeavyLiftUp",
+        "ActivityRange": 10000,
+        "ResetTime": 0.0,
+        "ID_ThrowSkillReady": 0,
+        "ID_ThrowSkillStart": 0,
+        "ID_ThrowSkillEnd": 0,
+        "IsRotation": false,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::Despawn",
+        "ActivityRangeType": "EDS_ActivityRangeType::Blocked",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8400
+        ],
+        "HandlingDropDetachDelay": 0.0
+      },
+      "4001": {
+        "ID": 4001,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 10000,
+        "ResetTime": 0.0,
+        "ID_ThrowSkillReady": 10208,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::ComeBack",
+        "ActivityRangeType": "EDS_ActivityRangeType::TimedRelease",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8400
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "9001": {
+        "ID": 9001,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 1000,
+        "ResetTime": 20.0,
+        "ID_ThrowSkillReady": 10208,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::None",
+        "ActivityRangeType": "EDS_ActivityRangeType::Blocked",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "9002": {
+        "ID": 9002,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 1000,
+        "ResetTime": 0.0,
+        "ID_ThrowSkillReady": 10208,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::Despawn",
+        "ActivityRangeType": "EDS_ActivityRangeType::Blocked",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "9003": {
+        "ID": 9003,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 1000,
+        "ResetTime": 0.0,
+        "ID_ThrowSkillReady": 10208,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::ComeBack",
+        "ActivityRangeType": "EDS_ActivityRangeType::Blocked",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "9004": {
+        "ID": 9004,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 1000,
+        "ResetTime": 20.0,
+        "ID_ThrowSkillReady": 0,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::None",
+        "ActivityRangeType": "EDS_ActivityRangeType::TimedRelease",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      },
+      "9005": {
+        "ID": 9005,
+        "DataStage": 23,
+        "HandlingType": "EDS_HandlingType::LiftUp",
+        "ActivityRange": 1000,
+        "ResetTime": 0.0,
+        "ID_ThrowSkillReady": 10208,
+        "ID_ThrowSkillStart": 10218,
+        "ID_ThrowSkillEnd": 10228,
+        "IsRotation": true,
+        "HandlingGrade": 1,
+        "OnDropActionType": "EDS_OnDropActionType::Despawn",
+        "ActivityRangeType": "EDS_ActivityRangeType::TimedRelease",
+        "ID_ActionBuff": [
+          230000
+        ],
+        "ID_ActionBuffPC": [
+          8401
+        ],
+        "HandlingDropDetachDelay": 1.0
+      }
+    }
+  }
+]

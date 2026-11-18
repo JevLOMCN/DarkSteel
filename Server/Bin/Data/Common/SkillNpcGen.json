@@ -1,0 +1,731 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SkillNpcGen",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SkillNpcGen",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SkillNpcGenTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 110101,
+        "GenCount": 5,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 110101,
+        "GenCount": 5,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": true,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 5,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 1,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackImpactTarget",
+        "IsCapsuleCheck": true,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 500.0,
+          "Y": 500.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 2,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackImpactTarget",
+        "IsCapsuleCheck": false,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 500.0,
+          "Y": 500.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 2,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackMainTarget",
+        "IsCapsuleCheck": true,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 500.0,
+          "Y": 500.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 2,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackMainTarget",
+        "IsCapsuleCheck": false,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 500.0,
+          "Y": 500.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 2,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::Myself",
+        "IsCapsuleCheck": true,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 1500.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 2,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::Myself",
+        "IsCapsuleCheck": false,
+        "GenRadius": 75.0,
+        "GenOffset": {
+          "X": 1500.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 2,
+        "GenLevel": 10,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 10.0
+      },
+      "11100101": {
+        "ID": 11100101,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::Myself",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 1,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionB",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": false,
+        "Lifetime": 0.0
+      },
+      "10901201": {
+        "ID": 10901201,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 36,
+        "GenCount": 3,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10901401": {
+        "ID": 10901401,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 37,
+        "GenCount": 3,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10901601": {
+        "ID": 10901601,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 32,
+        "GenCount": 3,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10901602": {
+        "ID": 10901602,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 32,
+        "GenCount": 4,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10901603": {
+        "ID": 10901603,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 32,
+        "GenCount": 5,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10902003": {
+        "ID": 10902003,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 51,
+        "GenCount": 2,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionA",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10902004": {
+        "ID": 10902004,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 51,
+        "GenCount": 1,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionA",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10902005": {
+        "ID": 10902005,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 51,
+        "GenCount": 1,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionA",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10902404": {
+        "ID": 10902404,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 42,
+        "GenCount": 1,
+        "GenLevel": 1,
+        "FactionType": "EDS_FactionType::NpcFactionA",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "10620": {
+        "ID": 10620,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::Myself",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 1,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": false,
+        "Lifetime": 0.0
+      },
+      "10621": {
+        "ID": 10621,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::KilledMe",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 35,
+        "GenCount": 1,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": false,
+        "Lifetime": 0.0
+      },
+      "10901901": {
+        "ID": 10901901,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 5,
+        "ID_GenNpc": 43,
+        "GenCount": 1,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "43": {
+        "ID": 43,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::Myself",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 52,
+        "GenCount": 1,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFriendly",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::SummonerRotateYaw",
+        "IsOwnerCheck": false,
+        "Lifetime": 5.0
+      },
+      "10903001": {
+        "ID": 10903001,
+        "DataStage": 16,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 44,
+        "GenCount": 10,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "180051201": {
+        "ID": 180051201,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 37,
+        "GenCount": 3,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "180051401": {
+        "ID": 180051401,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 44,
+        "GenCount": 3,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionB",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "180051402": {
+        "ID": 180051402,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 44,
+        "GenCount": 4,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionB",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "180051403": {
+        "ID": 180051403,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 44,
+        "GenCount": 2,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionB",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "180051404": {
+        "ID": 180051404,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 32,
+        "GenCount": 2,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionB",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "180051405": {
+        "ID": 180051405,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 32,
+        "GenCount": 3,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionB",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "180051406": {
+        "ID": 180051406,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 32,
+        "GenCount": 3,
+        "GenLevel": 0,
+        "FactionType": "EDS_FactionType::NpcFactionB",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": true,
+        "Lifetime": 0.0
+      },
+      "180051903": {
+        "ID": 180051903,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangeRandom",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 60005700,
+        "GenCount": 1,
+        "GenLevel": 1,
+        "FactionType": "EDS_FactionType::NpcFactionA",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": false,
+        "Lifetime": 0.0
+      },
+      "100570101": {
+        "ID": 100570101,
+        "DataStage": 23,
+        "Version": "*",
+        "TargetPositionType": "EDS_TargetPositionType::SkillAttackRangePoint",
+        "IsCapsuleCheck": false,
+        "GenRadius": 10.0,
+        "GenOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "TargetMaxCount": 0,
+        "ID_GenNpc": 9004,
+        "GenCount": 1,
+        "GenLevel": 1,
+        "FactionType": "EDS_FactionType::NpcFactionA",
+        "SkillGenRotateYawType": "EDS_SkillGenRotateYawType::RandomRotateYaw",
+        "IsOwnerCheck": false,
+        "Lifetime": 0.0
+      }
+    }
+  }
+]

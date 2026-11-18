@@ -1,0 +1,674 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceStyle",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceStyle",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceStyleTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "2011": {
+        "ID": 2011,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Normal_S.Sty_Grade_Normal_S_C",
+          "SubPathString": ""
+        }
+      },
+      "2012": {
+        "ID": 2012,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Normal_M.Sty_Grade_Normal_M_C",
+          "SubPathString": ""
+        }
+      },
+      "2013": {
+        "ID": 2013,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Normal_L.Sty_Grade_Normal_L_C",
+          "SubPathString": ""
+        }
+      },
+      "2021": {
+        "ID": 2021,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_High_S.Sty_Grade_High_S_C",
+          "SubPathString": ""
+        }
+      },
+      "2022": {
+        "ID": 2022,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_High_M.Sty_Grade_High_M_C",
+          "SubPathString": ""
+        }
+      },
+      "2023": {
+        "ID": 2023,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_High_L.Sty_Grade_High_L_C",
+          "SubPathString": ""
+        }
+      },
+      "2031": {
+        "ID": 2031,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Rare_S.Sty_Grade_Rare_S_C",
+          "SubPathString": ""
+        }
+      },
+      "2032": {
+        "ID": 2032,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Rare_M.Sty_Grade_Rare_M_C",
+          "SubPathString": ""
+        }
+      },
+      "2033": {
+        "ID": 2033,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Rare_L.Sty_Grade_Rare_L_C",
+          "SubPathString": ""
+        }
+      },
+      "2041": {
+        "ID": 2041,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Epic_S.Sty_Grade_Epic_S_C",
+          "SubPathString": ""
+        }
+      },
+      "2042": {
+        "ID": 2042,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Epic_M.Sty_Grade_Epic_M_C",
+          "SubPathString": ""
+        }
+      },
+      "2043": {
+        "ID": 2043,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Epic_L.Sty_Grade_Epic_L_C",
+          "SubPathString": ""
+        }
+      },
+      "2051": {
+        "ID": 2051,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Legendary_S.Sty_Grade_Legendary_S_C",
+          "SubPathString": ""
+        }
+      },
+      "2052": {
+        "ID": 2052,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Legendary_M.Sty_Grade_Legendary_M_C",
+          "SubPathString": ""
+        }
+      },
+      "2053": {
+        "ID": 2053,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Legendary_L.Sty_Grade_Legendary_L_C",
+          "SubPathString": ""
+        }
+      },
+      "2061": {
+        "ID": 2061,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Myth_S.Sty_Grade_Myth_S_C",
+          "SubPathString": ""
+        }
+      },
+      "2062": {
+        "ID": 2062,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Myth_M.Sty_Grade_Myth_M_C",
+          "SubPathString": ""
+        }
+      },
+      "2063": {
+        "ID": 2063,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Grade/Sty_Grade_Myth_L.Sty_Grade_Myth_L_C",
+          "SubPathString": ""
+        }
+      },
+      "2101": {
+        "ID": 2101,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Default_S.Sty_Default_S_C",
+          "SubPathString": ""
+        }
+      },
+      "2102": {
+        "ID": 2102,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Default_M.Sty_Default_M_C",
+          "SubPathString": ""
+        }
+      },
+      "2121": {
+        "ID": 2121,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Lake_S.Sty_Lake_S_C",
+          "SubPathString": ""
+        }
+      },
+      "2122": {
+        "ID": 2122,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Lake_M.Sty_Lake_M_C",
+          "SubPathString": ""
+        }
+      },
+      "3001": {
+        "ID": 3001,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Color_Wihte_OutLine_S.Sty_Color_Wihte_OutLine_S_C",
+          "SubPathString": ""
+        }
+      },
+      "3002": {
+        "ID": 3002,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Color_Blue_OutLine_S.Sty_Color_Blue_OutLine_S_C",
+          "SubPathString": ""
+        }
+      },
+      "3003": {
+        "ID": 3003,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Color_Red_OutLine_S.Sty_Color_Red_OutLine_S_C",
+          "SubPathString": ""
+        }
+      },
+      "3004": {
+        "ID": 3004,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Color_Yellow_OutLine_S.Sty_Color_Yellow_OutLine_S_C",
+          "SubPathString": ""
+        }
+      },
+      "4101": {
+        "ID": 4101,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/NotoSans_Sty_Font/Sty_30_NotoSans/Sty_NotoSans_30_Regular_Outline.Sty_NotoSans_30_Regular_Outline_C",
+          "SubPathString": ""
+        }
+      },
+      "4102": {
+        "ID": 4102,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/NotoSans_Sty_Font/Sty_30_NotoSans/Sty_NotoSans_30_Regular_Outline_Color_03.Sty_NotoSans_30_Regular_Outline_Color_03_C",
+          "SubPathString": ""
+        }
+      },
+      "4108": {
+        "ID": 4108,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/NotoSans_Sty_Font/Sty_30_NotoSans/Sty_NotoSans_30_Regular_Outline.Sty_NotoSans_30_Regular_Outline_C",
+          "SubPathString": ""
+        }
+      },
+      "4109": {
+        "ID": 4109,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/NotoSans_Sty_Font/Sty_30_NotoSans/Sty_NotoSans_30_Regular_Outline_Color_08.Sty_NotoSans_30_Regular_Outline_Color_08_C",
+          "SubPathString": ""
+        }
+      },
+      "4121": {
+        "ID": 4121,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/NotoSans_Sty_Font/Sty_30_NotoSans/Sty_NotoSans_30_Regular_Outline.Sty_NotoSans_30_Regular_Outline_C",
+          "SubPathString": ""
+        }
+      },
+      "4122": {
+        "ID": 4122,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/NotoSans_Sty_Font/Sty_30_NotoSans/Sty_NotoSans_30_Regular_Outline_Color_08.Sty_NotoSans_30_Regular_Outline_Color_08_C",
+          "SubPathString": ""
+        }
+      },
+      "4123": {
+        "ID": 4123,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/NotoSans_Sty_Font/Sty_30_NotoSans/Sty_NotoSans_30_Regular_Outline_Color_04.Sty_NotoSans_30_Regular_Outline_Color_04_C",
+          "SubPathString": ""
+        }
+      },
+      "4124": {
+        "ID": 4124,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/NotoSans_Sty_Font/Sty_30_NotoSans/Sty_NotoSans_30_Regular_Outline_Color_02.Sty_NotoSans_30_Regular_Outline_Color_02_C",
+          "SubPathString": ""
+        }
+      },
+      "4125": {
+        "ID": 4125,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/NotoSans_Sty_Font/Sty_30_NotoSans/Sty_NotoSans_30_Regular_Outline.Sty_NotoSans_30_Regular_Outline_C",
+          "SubPathString": ""
+        }
+      },
+      "4201": {
+        "ID": 4201,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ZoneAlram_Default_L.Sty_ZoneAlram_Default_L_C",
+          "SubPathString": ""
+        }
+      },
+      "4202": {
+        "ID": 4202,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ZoneAlram_Red_L.Sty_ZoneAlram_Red_L_C",
+          "SubPathString": ""
+        }
+      },
+      "4203": {
+        "ID": 4203,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ZoneAlram_Green_L.Sty_ZoneAlram_Green_L_C",
+          "SubPathString": ""
+        }
+      },
+      "5001": {
+        "ID": 5001,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Brown_M.Sty_Regular_Brown_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5002": {
+        "ID": 5002,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_M.Sty_Regular_Red_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5003": {
+        "ID": 5003,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_White_S.Sty_Regular_White_S_C",
+          "SubPathString": ""
+        }
+      },
+      "5004": {
+        "ID": 5004,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_S.Sty_Regular_Red_S_C",
+          "SubPathString": ""
+        }
+      },
+      "5005": {
+        "ID": 5005,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_White_S.Sty_Regular_White_S_C",
+          "SubPathString": ""
+        }
+      },
+      "5006": {
+        "ID": 5006,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_S.Sty_Regular_Red_S_C",
+          "SubPathString": ""
+        }
+      },
+      "5051": {
+        "ID": 5051,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_White_M.Sty_Regular_White_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5052": {
+        "ID": 5052,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_M.Sty_Regular_Red_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5053": {
+        "ID": 5053,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_White_S.Sty_Regular_White_S_C",
+          "SubPathString": ""
+        }
+      },
+      "5054": {
+        "ID": 5054,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_S.Sty_Regular_Red_S_C",
+          "SubPathString": ""
+        }
+      },
+      "5055": {
+        "ID": 5055,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_White_S.Sty_Regular_White_S_C",
+          "SubPathString": ""
+        }
+      },
+      "5056": {
+        "ID": 5056,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_S.Sty_Regular_Red_S_C",
+          "SubPathString": ""
+        }
+      },
+      "5201": {
+        "ID": 5201,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_White_M.Sty_Regular_White_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5202": {
+        "ID": 5202,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Brown_M.Sty_Regular_Brown_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5203": {
+        "ID": 5203,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_M.Sty_Regular_Red_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5204": {
+        "ID": 5204,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Green_M.Sty_Regular_Green_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5205": {
+        "ID": 5205,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Yellow_M.Sty_Regular_Yellow_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5251": {
+        "ID": 5251,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_White_M.Sty_Regular_White_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5252": {
+        "ID": 5252,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Brown_M.Sty_Regular_Brown_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5253": {
+        "ID": 5253,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_M.Sty_Regular_Red_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5254": {
+        "ID": 5254,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Green_M.Sty_Regular_Green_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5255": {
+        "ID": 5255,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Yellow_M.Sty_Regular_Yellow_M_C",
+          "SubPathString": ""
+        }
+      },
+      "5401": {
+        "ID": 5401,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Able_S.Sty_Able_S_C",
+          "SubPathString": ""
+        }
+      },
+      "5402": {
+        "ID": 5402,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_AbleNot_S.Sty_AbleNot_S_C",
+          "SubPathString": ""
+        }
+      },
+      "6001": {
+        "ID": 6001,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ProbabilityPercent_High_S.Sty_ProbabilityPercent_High_S_C",
+          "SubPathString": ""
+        }
+      },
+      "6002": {
+        "ID": 6002,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ProbabilityPercent_Middle_S.Sty_ProbabilityPercent_Middle_S_C",
+          "SubPathString": ""
+        }
+      },
+      "6003": {
+        "ID": 6003,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ProbabilityPercent_Low_S.Sty_ProbabilityPercent_Low_S_C",
+          "SubPathString": ""
+        }
+      },
+      "7001": {
+        "ID": 7001,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_S.Sty_Regular_Red_S_C",
+          "SubPathString": ""
+        }
+      },
+      "7002": {
+        "ID": 7002,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_Regular_Red_M.Sty_Regular_Red_M_C",
+          "SubPathString": ""
+        }
+      },
+      "8001": {
+        "ID": 8001,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ChatFontSizeType_FontSize1.Sty_ChatFontSizeType_FontSize1_C",
+          "SubPathString": ""
+        }
+      },
+      "8002": {
+        "ID": 8002,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ChatFontSizeType_FontSize2.Sty_ChatFontSizeType_FontSize2_C",
+          "SubPathString": ""
+        }
+      },
+      "8003": {
+        "ID": 8003,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ChatFontSizeType_FontSize3.Sty_ChatFontSizeType_FontSize3_C",
+          "SubPathString": ""
+        }
+      },
+      "8004": {
+        "ID": 8004,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ChatFontSizeType_FontSize4.Sty_ChatFontSizeType_FontSize4_C",
+          "SubPathString": ""
+        }
+      },
+      "8005": {
+        "ID": 8005,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ChatFontSizeType_FontSize5.Sty_ChatFontSizeType_FontSize5_C",
+          "SubPathString": ""
+        }
+      },
+      "8006": {
+        "ID": 8006,
+        "DataStage": 23,
+        "Version": "*",
+        "Path": {
+          "AssetPathName": "/Game/UIs/MIR_FIVE/UMG_BP_N/Common_N/Sty_Font/ResourceStyle/Sty_ChatFontSizeType_FontSize6.Sty_ChatFontSizeType_FontSize6_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

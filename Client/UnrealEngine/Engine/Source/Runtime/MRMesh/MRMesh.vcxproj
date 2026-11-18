@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{1E7A24AC-7246-53D4-BDD9-B02CE15ED2D0}</ProjectGuid><RootNamespace>MRMesh</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FBrickDataReceipt.cpp" />
+    <ClCompile Include="Private\FCachedMeshData.cpp" />
+    <ClCompile Include="Private\FMRMeshConfiguration.cpp" />
+    <ClCompile Include="Private\FMRMeshProxy.cpp" />
+    <ClCompile Include="Private\FMeshArrayHolder.cpp" />
+    <ClCompile Include="Private\FMeshTrackerComponentBrickDataReceipt.cpp" />
+    <ClCompile Include="Private\FMockDataMeshTrackerImpl.cpp" />
+    <ClCompile Include="Private\FSendBrickDataArgs.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IInterface_CollisionDataProvider.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TObject.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMRMeshBodyHolder.cpp" />
+    <ClCompile Include="Private\UMRMeshComponent.cpp" />
+    <ClCompile Include="Private\UMeshReconstructorBase.cpp" />
+    <ClCompile Include="Private\UMockDataMeshTrackerComponent.cpp" />
+    <ClCompile Include="Private\_Free\Module.MRMesh.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

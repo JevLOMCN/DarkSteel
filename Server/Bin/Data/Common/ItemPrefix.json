@@ -1,0 +1,205 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemPrefix",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemPrefix",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemPrefixTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 101
+        },
+        "StatusType": [
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::NormalAtkDamage",
+          "EDS_StatusType::SkillDamage"
+        ],
+        "StatusValue": [
+          100,
+          100,
+          50,
+          50
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 102
+        },
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AtkAllDamage"
+        ],
+        "StatusValue": [
+          10,
+          5,
+          5,
+          1000
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 103
+        },
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          10,
+          10,
+          2000,
+          2000
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 104
+        },
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::DefKnockDownPer",
+          "EDS_StatusType::DefDeBuffPer"
+        ],
+        "StatusValue": [
+          10,
+          20,
+          1500,
+          1500
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 105
+        },
+        "StatusType": [
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::DefSilencePer",
+          "EDS_StatusType::DefAbnormalPer"
+        ],
+        "StatusValue": [
+          20,
+          20,
+          3000,
+          3500
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 106
+        },
+        "StatusType": [
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::RatePhysicalDefense",
+          "EDS_StatusType::RateMagicDefense"
+        ],
+        "StatusValue": [
+          30,
+          30,
+          1500,
+          1500
+        ]
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 107
+        },
+        "StatusType": [
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AllDefense"
+        ],
+        "StatusValue": [
+          30,
+          30,
+          30,
+          5000
+        ]
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 108
+        },
+        "StatusType": [
+          "EDS_StatusType::DefKnockDownPer",
+          "EDS_StatusType::DefDeBuffPer",
+          "EDS_StatusType::DefSilencePer"
+        ],
+        "StatusValue": [
+          3000,
+          2000,
+          1000
+        ]
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 109
+        },
+        "StatusType": [
+          "EDS_StatusType::AtkAllDamage",
+          "EDS_StatusType::StunPer",
+          "EDS_StatusType::KnockDownPer",
+          "EDS_StatusType::DeBuffPer"
+        ],
+        "StatusValue": [
+          5000,
+          2000,
+          3000,
+          1200
+        ]
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 110
+        },
+        "StatusType": [
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AtkAllDamage",
+          "EDS_StatusType::StunPer",
+          "EDS_StatusType::KnockDownPer"
+        ],
+        "StatusValue": [
+          10,
+          30,
+          1,
+          1
+        ]
+      }
+    }
+  }
+]

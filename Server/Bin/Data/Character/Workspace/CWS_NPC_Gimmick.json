@@ -1,0 +1,579 @@
+[
+  {
+    "Type": "WN_CS_CharacterWorkspace",
+    "Name": "CWS_NPC_Gimmick",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WN_CS_CharacterWorkspace'",
+    "Package": "/Game/Datas/Character/Workspace/CWS_NPC_Gimmick",
+    "Properties": {
+      "CharacterDescs": [
+        {
+          "ID": 1,
+          "Name": "NatureRock",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_LiftUp/SKEL_NPC_Gimmick_LiftUp_NatureRock.SKEL_NPC_Gimmick_LiftUp_NatureRock",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "NatureRock_S",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_LiftUp/SK_NPC_Gimmick_LiftUp_NatureRock_S.SK_NPC_Gimmick_LiftUp_NatureRock_S",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            },
+            {
+              "ID": 2,
+              "Name": "NatureRock_L",
+              "ID_Character": 1,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_LiftUp/SK_NPC_Gimmick_LiftUp_NatureRock_L.SK_NPC_Gimmick_LiftUp_NatureRock_L",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Gimmick_LiftUp_NatureRock_S",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_E824DDD541704C7B45AA1AA79ADBD454.SKM_Soul_E824DDD541704C7B45AA1AA79ADBD454",
+                "SubPathString": ""
+              },
+              "Guid": "E824DDD5-41704C7B-45AA1AA7-9ADBD454",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            },
+            {
+              "ID": 2,
+              "Name": "NPC_Gimmick_LiftUp_NatureRock_L",
+              "ID_Character": 1,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_8CCCCC6F4EFAC64CC86179B849BD3144.SKM_Soul_8CCCCC6F4EFAC64CC86179B849BD3144",
+                "SubPathString": ""
+              },
+              "Guid": "8CCCCC6F-4EFAC64C-C86179B8-49BD3144",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 1,
+                  "ID_Preset": 2,
+                  "ID_Part": 2,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        },
+        {
+          "ID": 2,
+          "Name": "BreachStone02",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Gimmick/Liftup/NPC_Gimmick_Breachstone01_Liftup_S_BreachStone02/SKEL_NPC_Gimmick_Liftup_Breachstone02_S.SKEL_NPC_Gimmick_Liftup_Breachstone02_S",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 2,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Gimmick/Liftup/NPC_Gimmick_Breachstone01_Liftup_S_BreachStone02/SK_NPC_Gimmick_Liftup_Breachstone02_S.SK_NPC_Gimmick_Liftup_Breachstone02_S",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Gimmick_BreachStone01_Liftup_S_BreachStone02",
+              "ID_Character": 2,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_E6D1043B4706331721721198673E3CFF.SKM_Soul_E6D1043B4706331721721198673E3CFF",
+                "SubPathString": ""
+              },
+              "Guid": "E6D1043B-47063317-21721198-673E3CFF",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 2,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 7
+            }
+          ]
+        },
+        {
+          "ID": 3,
+          "Name": "SphereBomb01",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Gimmick/Liftup/NPC_Gimmick_Liftup_SphereBomb01_S/SKEL_NPC_Gimmick_Liftup_SphereBomb01_S.SKEL_NPC_Gimmick_Liftup_SphereBomb01_S",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 3,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Gimmick/Liftup/NPC_Gimmick_Liftup_SphereBomb01_S/SK_NPC_Gimmick_Liftup_SphereBomb01_S.SK_NPC_Gimmick_Liftup_SphereBomb01_S",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Gimmick_Liftup_SphereBomb01_S",
+              "ID_Character": 3,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_7A53E284441067CC83C6ED9853FECE05.SKM_Soul_7A53E284441067CC83C6ED9853FECE05",
+                "SubPathString": ""
+              },
+              "Guid": "7A53E284-441067CC-83C6ED98-53FECE05",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 3,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 4,
+          "Name": "CrumblingRock",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_CrumblingRock01/SKEL_NPC_Gimmick_CrumblingRock01.SKEL_NPC_Gimmick_CrumblingRock01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 4,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::SkeletalMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_CrumblingRock01/SK_NPC_Gimmick_CrumblingRock01.SK_NPC_Gimmick_CrumblingRock01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Gimmick_CrumblingRock01",
+              "ID_Character": 4,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_0A016D654A5F1C809AD41FB0EC2907ED.SKM_Soul_0A016D654A5F1C809AD41FB0EC2907ED",
+                "SubPathString": ""
+              },
+              "Guid": "0A016D65-4A5F1C80-9AD41FB0-EC2907ED",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 4,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 5,
+          "Name": "NPC_Gimmick_ControllerPanel",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/BGs/Stuffs/Gimmick/Stuff_Gimmick_ControllerPanel_01/SKEL_Stuff_Gimmick_ControllerPanel_01.SKEL_Stuff_Gimmick_ControllerPanel_01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 5,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/BGs/Stuffs/Gimmick/Stuff_Gimmick_ControllerPanel_01/Stuff_Gimmick_ControllerPanel_01.Stuff_Gimmick_ControllerPanel_01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Gimmick_ControllerPanel01",
+              "ID_Character": 5,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_6DAD13FF4A3A50F1F0E75EBA7BB0DB94.SKM_Soul_6DAD13FF4A3A50F1F0E75EBA7BB0DB94",
+                "SubPathString": ""
+              },
+              "Guid": "6DAD13FF-4A3A50F1-F0E75EBA-7BB0DB94",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 5,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 6,
+          "Name": "BlockingDoor",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_BlockingDoor_01/SKEL_Stuff_Gimmick_BlokingDoor_01.SKEL_Stuff_Gimmick_BlokingDoor_01",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 6,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_BlockingDoor_01/NPC_Gimmick_BlockingDoor01.NPC_Gimmick_BlockingDoor01",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Gimmick_BlockingDoor01",
+              "ID_Character": 6,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_63E4D0C54800CDECC12EDE92EF2F8A19.SKM_Soul_63E4D0C54800CDECC12EDE92EF2F8A19",
+                "SubPathString": ""
+              },
+              "Guid": "63E4D0C5-4800CDEC-C12EDE92-EF2F8A19",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 6,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 7,
+          "Name": "NPC_Gimmick_SpareEnergyTank",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_SpareEnergyTank/SKEL_NPC_Gimmick_SpareEnergyTank.SKEL_NPC_Gimmick_SpareEnergyTank",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 7,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_SpareEnergyTank/NPC_Gimmick_SpareEnergyTank.NPC_Gimmick_SpareEnergyTank",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Gimmick_SpareEnergyTank",
+              "ID_Character": 7,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_F5B83A7E40FEBB1ABF36FBB3BDC16A13.SKM_Soul_F5B83A7E40FEBB1ABF36FBB3BDC16A13",
+                "SubPathString": ""
+              },
+              "Guid": "F5B83A7E-40FEBB1A-BF36FBB3-BDC16A13",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 7,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        },
+        {
+          "ID": 8,
+          "Name": "NPC_Gimmick_SecurityPanelCore",
+          "bIsSoulVisible": false,
+          "bUseISKM": true,
+          "bIsHidden": true,
+          "Skeleton": {
+            "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_SecurityPanelCore/SKEL_NPC_Gimmick_SecurityPanelCore.SKEL_NPC_Gimmick_SecurityPanelCore",
+            "SubPathString": ""
+          },
+          "AnimationType": "EWN_CS_AnimationType::AnimAsset",
+          "AnimationPath": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "CharacterPartDescs": [
+            {
+              "ID": 1,
+              "Name": "Part_1",
+              "ID_Character": 8,
+              "Socket": "None",
+              "bIsTickable": false,
+              "bIsHidden": false,
+              "ResourceType": "EWN_CS_ResourceType::StaticMesh",
+              "ResourcePath": {
+                "AssetPathName": "/Game/Characters/NPCs/Gimmick/NPC_Gimmick_SecurityPanelCore/NPC_Gimmick_SecurityPanelCore.NPC_Gimmick_SecurityPanelCore",
+                "SubPathString": ""
+              },
+              "bUseLeaderPose": true,
+              "FootStepProvider": "None",
+              "CollisionProfileName": "None",
+              "HitSphereInfoArray": [],
+              "ServerHitCapsuleInfoArray": [],
+              "ColliderInfoArray": []
+            }
+          ],
+          "CharacterPresetDescs": [
+            {
+              "ID": 1,
+              "Name": "NPC_Gimmick_SecurityPanelCore",
+              "ID_Character": 8,
+              "SoulSKM": {
+                "AssetPathName": "/Game/Generated/Character/Souls/SKM_Soul_15CD7E764F2EE22175061EA9CCC83305.SKM_Soul_15CD7E764F2EE22175061EA9CCC83305",
+                "SubPathString": ""
+              },
+              "Guid": "15CD7E76-4F2EE221-75061EA9-CCC83305",
+              "Scale": 1.0,
+              "FootStepProvider": "None",
+              "CharacterLightDescs": [],
+              "CharacterPresetSlotDescs": [
+                {
+                  "ID": 1,
+                  "SlotName": "EWN_CS_CharacterSlotName::FullBody",
+                  "ID_Character": 8,
+                  "ID_Preset": 1,
+                  "ID_Part": 1,
+                  "Scale": 1.0,
+                  "MaterialDescs": []
+                }
+              ],
+              "CollectBoundVertex": [],
+              "Version": 5
+            }
+          ]
+        }
+      ],
+      "Version": "EWN_CS_CharacterWorkspaceVersion::Latest"
+    }
+  }
+]

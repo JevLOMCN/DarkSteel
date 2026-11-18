@@ -1,0 +1,22 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: WN_ISKM
+// Functions: 1
+
+// StaticStruct @ 14a836ea0
+
+UScriptStruct * __cdecl FWN_ISKM_AnimationInfo::StaticStruct(void)
+
+{
+  UPackage *pUVar1;
+  
+  if (Z_Registration_Info_UScriptStruct_FWN_ISKM_AnimationInfo.OuterSingleton ==
+      (UScriptStruct *)0x0) {
+    pUVar1 = Z_Construct_UPackage__Script_WN_ISKM();
+    Z_Registration_Info_UScriptStruct_FWN_ISKM_AnimationInfo.OuterSingleton =
+         GetStaticStruct(Z_Construct_UScriptStruct_FWN_ISKM_AnimationInfo,(UObject *)pUVar1,
+                         L"WN_ISKM_AnimationInfo");
+  }
+  return Z_Registration_Info_UScriptStruct_FWN_ISKM_AnimationInfo.OuterSingleton;
+}
+

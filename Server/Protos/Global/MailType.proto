@@ -1,0 +1,9 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum MailType {
+  MailType_None = 0;
+  MailType_System = 1;
+  MailType_Personal = 2;
+}

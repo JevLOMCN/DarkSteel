@@ -1,0 +1,28 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: Voronoi
+// Functions: 1
+
+// operator() @ 1504a10e0
+
+bool __thiscall
+`TCheckedPointerIterator<`FVoronoiDiagram::ComputeCellEdges'::__l2::FChunkOutput,int,0>::operator!='
+::__l2::<lambda_1>::operator()(void *this)
+
+{
+  code *pcVar1;
+  bool bVar2;
+  
+  bVar2 = UE::Assert::Private::CheckEnsureFailed(false,&bGEnsureHasExecuted<2846541355549720852>);
+  if (bVar2) {
+    bVar2 = UE::Assert::Private::EnsureFailed
+                      (&bGEnsureHasExecuted<2846541355549720852>,&::ENSURE_Static);
+    if (bVar2) {
+      pcVar1 = (code *)swi(3);
+      bVar2 = (bool)(*pcVar1)();
+      return bVar2;
+    }
+  }
+  return false;
+}
+

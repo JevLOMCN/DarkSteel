@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcAiRunAway",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcAiRunAway",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcAiRunAwayTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10102": {
+        "ID": 10102,
+        "DataStage": 23,
+        "RunAwayType": "EDS_RunAwayType::RunAwayTarget",
+        "RunAwayTypeValue": 0.0,
+        "MinRange": 500.0,
+        "MaxRange": 1500,
+        "Angle": 45,
+        "TargetDistance": 0.0,
+        "TargetPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "10206": {
+        "ID": 10206,
+        "DataStage": 23,
+        "RunAwayType": "EDS_RunAwayType::RunAwayTarget",
+        "RunAwayTypeValue": 0.0,
+        "MinRange": 300.0,
+        "MaxRange": 1000,
+        "Angle": 45,
+        "TargetDistance": 0.0,
+        "TargetPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "10207": {
+        "ID": 10207,
+        "DataStage": 23,
+        "RunAwayType": "EDS_RunAwayType::RunAwayTarget",
+        "RunAwayTypeValue": 0.0,
+        "MinRange": 300.0,
+        "MaxRange": 1000,
+        "Angle": 45,
+        "TargetDistance": 0.0,
+        "TargetPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      }
+    }
+  }
+]

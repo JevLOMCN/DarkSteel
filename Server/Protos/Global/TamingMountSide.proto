@@ -1,0 +1,8 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum TamingMountSide {
+  TamingMountSide_MountSideLeft = 0;
+  TamingMountSide_MountSideRight = 1;
+}

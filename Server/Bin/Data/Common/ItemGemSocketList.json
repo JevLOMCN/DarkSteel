@@ -1,0 +1,198 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemGemSocketList",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemGemSocketList",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemGemSocketListTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 1,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          1
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 2,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          1,
+          2
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 3,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          1,
+          2,
+          3
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 0,
+        "RandomSocketCnt": 1,
+        "ID_FixedSocket": [],
+        "ID_RandomSocket": [
+          1,
+          2,
+          3
+        ],
+        "RandomSocketRate": [
+          350000,
+          350000,
+          300000
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 1,
+        "RandomSocketCnt": 1,
+        "ID_FixedSocket": [
+          1
+        ],
+        "ID_RandomSocket": [
+          1,
+          2,
+          3
+        ],
+        "RandomSocketRate": [
+          350000,
+          350000,
+          300000
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 2,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          1,
+          1
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 2,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          4,
+          1
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 2,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          2,
+          4
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 2,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          3,
+          4
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 2,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          1,
+          2
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 2,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          4,
+          2
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 2,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          2,
+          3
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Version": "*",
+        "FixedSocketCnt": 2,
+        "RandomSocketCnt": 0,
+        "ID_FixedSocket": [
+          3,
+          3
+        ],
+        "ID_RandomSocket": [],
+        "RandomSocketRate": []
+      }
+    }
+  }
+]

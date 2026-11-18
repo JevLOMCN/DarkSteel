@@ -1,0 +1,10 @@
+syntax = "proto3";
+package server_msg;
+option csharp_namespace = "MirProto.ServerMsg";
+
+
+enum Winner {
+  Characters = 0;
+  Boss = 1;
+  Draw = 2;
+}

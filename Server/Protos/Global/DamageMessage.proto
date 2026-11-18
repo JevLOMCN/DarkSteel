@@ -1,0 +1,16 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum DamageMessage {
+  DamageMessage_None = 0;
+  DamageMessage_Dodge = 1;
+  DamageMessage_DamageHit = 10;
+  DamageMessage_DamageImmune = 11;
+  DamageMessage_Unbeatable = 12;
+  DamageMessage_PkGuard = 13;
+  DamageMessage_Critical = 21;
+  DamageMessage_Smite = 22;
+  DamageMessage_CriticalSmite = 23;
+  DamageMessage_Immortal = 31;
+}

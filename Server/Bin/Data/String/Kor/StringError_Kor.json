@@ -1,0 +1,3500 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StringError_Kor",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/String/Kor/StringError_Kor",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StringErrorTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "0": {
+        "ID": "EDS_ErrorCode::Failure",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "1": {
+        "ID": "EDS_ErrorCode::Success",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "2": {
+        "ID": "EDS_ErrorCode::DBError",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18003
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "3": {
+        "ID": "EDS_ErrorCode::Unknown",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18004
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "4": {
+        "ID": "EDS_ErrorCode::InvalidData",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18005
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "5": {
+        "ID": "EDS_ErrorCode::DBConnectError",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18006
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "6": {
+        "ID": "EDS_ErrorCode::RedisError",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18007
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "7": {
+        "ID": "EDS_ErrorCode::GeneratorError",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18008
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "8": {
+        "ID": "EDS_ErrorCode::TimeOut",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18009
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "25": {
+        "ID": "EDS_ErrorCode::VersionMismatch",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18025
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "26": {
+        "ID": "EDS_ErrorCode::InvalidUpdateTime",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18026
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "30": {
+        "ID": "EDS_ErrorCode::InvalidWaitingPlayer",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18030
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "31": {
+        "ID": "EDS_ErrorCode::NotExistNickname",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18031
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "32": {
+        "ID": "EDS_ErrorCode::NotCompleteTutorial",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18032
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "8000": {
+        "ID": "EDS_ErrorCode::InvalidParam",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9001": {
+        "ID": "EDS_ErrorCode::RegisterPlayerExistId",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18101
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9002": {
+        "ID": "EDS_ErrorCode::RegisterPlayerInvalidData",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18102
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9003": {
+        "ID": "EDS_ErrorCode::InvalidNickname",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18103
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9009": {
+        "ID": "EDS_ErrorCode::InvalidSession",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18109
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9010": {
+        "ID": "EDS_ErrorCode::InvalidHttpRequest",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18110
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9011": {
+        "ID": "EDS_ErrorCode::LoginAndCreateSessionNotMatchPassword",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18111
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9012": {
+        "ID": "EDS_ErrorCode::LoginAndCreateSessionInvalidPlayerSession",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18112
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9013": {
+        "ID": "EDS_ErrorCode::LoginAndCreateSessionNotExistId",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18113
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9021": {
+        "ID": "EDS_ErrorCode::CreateCharacterInvalidData",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18121
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9022": {
+        "ID": "EDS_ErrorCode::DuplicatedNickname",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18122
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9023": {
+        "ID": "EDS_ErrorCode::HaloPointNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "9061": {
+        "ID": "EDS_ErrorCode::InvalidPositionUpdate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Popup_Close_None_01"
+      },
+      "9100": {
+        "ID": "EDS_ErrorCode::CastSkillNotEnoughHp",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "9101": {
+        "ID": "EDS_ErrorCode::CastSkillNotEnoughMp",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "9102": {
+        "ID": "EDS_ErrorCode::StopSkillMismatchSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "9103": {
+        "ID": "EDS_ErrorCode::StopSkillNotSkillState",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "9104": {
+        "ID": "EDS_ErrorCode::CanNotSkillAbnormalStateControl",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "9105": {
+        "ID": "EDS_ErrorCode::CanNotSkillAbnormalMoveControl",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "9106": {
+        "ID": "EDS_ErrorCode::CanNotCastChainSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "9107": {
+        "ID": "EDS_ErrorCode::CastSkillNotEnoughVigor",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "9108": {
+        "ID": "EDS_ErrorCode::CastSkillNotEnoughStamina",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10001": {
+        "ID": "EDS_ErrorCode::CantResurrectCauseAlive",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 33013
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10002": {
+        "ID": "EDS_ErrorCode::CantResurrectNotExistCharacter",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 33014
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10003": {
+        "ID": "EDS_ErrorCode::PlayerNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18301
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10004": {
+        "ID": "EDS_ErrorCode::InvalidQueryData",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18302
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10101": {
+        "ID": "EDS_ErrorCode::PartyNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270007
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10102": {
+        "ID": "EDS_ErrorCode::PartyAlreadyExist",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270008
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10103": {
+        "ID": "EDS_ErrorCode::PartyNotEnoughSlot",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270009
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10104": {
+        "ID": "EDS_ErrorCode::PartyInvalidIntroduction",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10105": {
+        "ID": "EDS_ErrorCode::PartyInvalidPassword",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10106": {
+        "ID": "EDS_ErrorCode::PartyWrongPassword",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10107": {
+        "ID": "EDS_ErrorCode::PartyNotEnoughCombatPower",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10108": {
+        "ID": "EDS_ErrorCode::PartyMemberNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270010
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10109": {
+        "ID": "EDS_ErrorCode::PartyDuplicatedId",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270011
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10110": {
+        "ID": "EDS_ErrorCode::PartyNotLeader",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270012
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10111": {
+        "ID": "EDS_ErrorCode::PartyAlreadyInvited",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270013
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10112": {
+        "ID": "EDS_ErrorCode::PartyNotInvited",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270014
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10113": {
+        "ID": "EDS_ErrorCode::PartyNotConnected",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270015
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10114": {
+        "ID": "EDS_ErrorCode::PartyAlreadyKicked",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270016
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10115": {
+        "ID": "EDS_ErrorCode::PartyGuildNotJoined",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10116": {
+        "ID": "EDS_ErrorCode::PartyGuildNotSame",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10117": {
+        "ID": "EDS_ErrorCode::PartySlotNotChange",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270017
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10118": {
+        "ID": "EDS_ErrorCode::PartyGuildNotJoinedSearch",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 270018
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10190": {
+        "ID": "EDS_ErrorCode::PlayerGradeUpConditionNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 220001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10191": {
+        "ID": "EDS_ErrorCode::PlayerExpNotGain",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 220002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10192": {
+        "ID": "EDS_ErrorCode::PlayerGradeNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 220003
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10201": {
+        "ID": "EDS_ErrorCode::PacketArgumentError",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40019
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10202": {
+        "ID": "EDS_ErrorCode::ItemNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40020
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10203": {
+        "ID": "EDS_ErrorCode::ItemNotEquipAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40021
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10204": {
+        "ID": "EDS_ErrorCode::ItemAlreadyEquip",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40022
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10205": {
+        "ID": "EDS_ErrorCode::ItemWareHouseDisable",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10206": {
+        "ID": "EDS_ErrorCode::ItemNotDestroyable",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40024
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10207": {
+        "ID": "EDS_ErrorCode::ItemDuplication",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40025
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10208": {
+        "ID": "EDS_ErrorCode::ItemQuantityNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40026
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10209": {
+        "ID": "EDS_ErrorCode::ItemNotUse",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40027
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10210": {
+        "ID": "EDS_ErrorCode::ItemCraftCostNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40028
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10211": {
+        "ID": "EDS_ErrorCode::ItemBuyCostNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40029
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10212": {
+        "ID": "EDS_ErrorCode::ItemEquippedNotUse",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40030
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10213": {
+        "ID": "EDS_ErrorCode::MoneyMaximumHolding",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40031
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10214": {
+        "ID": "EDS_ErrorCode::MoneyNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40032
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10215": {
+        "ID": "EDS_ErrorCode::ItemEquipSlotWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40033
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10216": {
+        "ID": "EDS_ErrorCode::NpcNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 20040
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10217": {
+        "ID": "EDS_ErrorCode::ShopListNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 20041
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10218": {
+        "ID": "EDS_ErrorCode::BuyMaxCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 20042
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10219": {
+        "ID": "EDS_ErrorCode::ItemNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40035
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10220": {
+        "ID": "EDS_ErrorCode::ItemConditionWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40036
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10221": {
+        "ID": "EDS_ErrorCode::CoolTimeWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40037
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10222": {
+        "ID": "EDS_ErrorCode::UseStatusWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40038
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10223": {
+        "ID": "EDS_ErrorCode::ItemEquipClassWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40034
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10224": {
+        "ID": "EDS_ErrorCode::ItemCraftQuantityWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40039
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10225": {
+        "ID": "EDS_ErrorCode::ItemCraftIngredientNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40040
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10226": {
+        "ID": "EDS_ErrorCode::ItemCraftWaitWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40041
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10227": {
+        "ID": "EDS_ErrorCode::ItemCraftNotComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40042
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10228": {
+        "ID": "EDS_ErrorCode::ItemEnhanceNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40043
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10229": {
+        "ID": "EDS_ErrorCode::ItemMaxLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40044
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10230": {
+        "ID": "EDS_ErrorCode::ItemEnhanceIngredientNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40045
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10231": {
+        "ID": "EDS_ErrorCode::ItemNotDismantle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40046
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10232": {
+        "ID": "EDS_ErrorCode::InventorySlotShortage",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40047
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10233": {
+        "ID": "EDS_ErrorCode::ItemDecompositionIngredientNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40048
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10234": {
+        "ID": "EDS_ErrorCode::ItemCraftWaitFull",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40049
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10235": {
+        "ID": "EDS_ErrorCode::MoneyArgumentWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40050
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10236": {
+        "ID": "EDS_ErrorCode::MoneyOver",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40051
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10237": {
+        "ID": "EDS_ErrorCode::CharacterNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40052
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10238": {
+        "ID": "EDS_ErrorCode::ItemEquipIndexWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40053
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10239": {
+        "ID": "EDS_ErrorCode::ItemRequireLevelWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40054
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10240": {
+        "ID": "EDS_ErrorCode::QuickSlotTemplateTypeWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40055
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10241": {
+        "ID": "EDS_ErrorCode::QuickSlotDeckIndexWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40056
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10242": {
+        "ID": "EDS_ErrorCode::QuickSlotIndexWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40057
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10243": {
+        "ID": "EDS_ErrorCode::ItemInventoryWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10244": {
+        "ID": "EDS_ErrorCode::ItemEquipCharEquipTypeWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40058
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10245": {
+        "ID": "EDS_ErrorCode::InventoryExtendMax",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40059
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10246": {
+        "ID": "EDS_ErrorCode::ItemNotLockAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40060
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10247": {
+        "ID": "EDS_ErrorCode::ItemLockStateSame",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40061
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10248": {
+        "ID": "EDS_ErrorCode::CharacterAscendNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 179005
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10249": {
+        "ID": "EDS_ErrorCode::NpcTooFar",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10250": {
+        "ID": "EDS_ErrorCode::ItemFusionMax",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40843
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10251": {
+        "ID": "EDS_ErrorCode::ItemFusionNotSameCan",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40844
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10252": {
+        "ID": "EDS_ErrorCode::ItemFusionOptionSelectWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40845
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10253": {
+        "ID": "EDS_ErrorCode::ItemFusionNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40846
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10254": {
+        "ID": "EDS_ErrorCode::ItemFusionWaitFull",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40847
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10255": {
+        "ID": "EDS_ErrorCode::ItemFusionWaitNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40848
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10256": {
+        "ID": "EDS_ErrorCode::ItemFusionWaitNotComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40849
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10257": {
+        "ID": "EDS_ErrorCode::MountInventoryNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10300": {
+        "ID": "EDS_ErrorCode::StuffDead",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10301": {
+        "ID": "EDS_ErrorCode::StuffNotExists",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10302": {
+        "ID": "EDS_ErrorCode::StuffAlreadyStarted",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121003
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10303": {
+        "ID": "EDS_ErrorCode::StuffGatherNotStarted",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121004
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10304": {
+        "ID": "EDS_ErrorCode::StuffMaxPeopleNumber",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121005
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10305": {
+        "ID": "EDS_ErrorCode::StuffTooFarAway",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121006
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10306": {
+        "ID": "EDS_ErrorCode::StuffGatherNeedItemNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121014
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10307": {
+        "ID": "EDS_ErrorCode::StuffGatherNotEnableMoveMode",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10400": {
+        "ID": "EDS_ErrorCode::ResurrectNotAvailableTime",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 33015
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10417": {
+        "ID": "EDS_ErrorCode::CannotUseProhibitedWord",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 176108
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10502": {
+        "ID": "EDS_ErrorCode::QuestNotCancel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69909
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10503": {
+        "ID": "EDS_ErrorCode::QuestLocationTooFar",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69910
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10504": {
+        "ID": "EDS_ErrorCode::QuestNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69911
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10505": {
+        "ID": "EDS_ErrorCode::QuestNotDailyResetTime",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69911
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10506": {
+        "ID": "EDS_ErrorCode::QuestAcceptMaxCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69935
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10507": {
+        "ID": "EDS_ErrorCode::QuestDailyPoolFull",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69936
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10508": {
+        "ID": "EDS_ErrorCode::QuestDailyPoolDuplicate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69937
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10509": {
+        "ID": "EDS_ErrorCode::QuestDailyCompleteMaxCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69938
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10510": {
+        "ID": "EDS_ErrorCode::QuestNothingComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69939
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10511": {
+        "ID": "EDS_ErrorCode::QuestRepeatCompleteMaxCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69940
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10512": {
+        "ID": "EDS_ErrorCode::QuestAlreadyAccept",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69933
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10513": {
+        "ID": "EDS_ErrorCode::QuestAlreadyComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69934
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10514": {
+        "ID": "EDS_ErrorCode::QuestNotInteractNpc",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69922
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10515": {
+        "ID": "EDS_ErrorCode::QuestDailyPoolNotEnoughPlayerGrade",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69942
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10530": {
+        "ID": "EDS_ErrorCode::QuestNotAcceptPlayerGrade",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69923
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10531": {
+        "ID": "EDS_ErrorCode::QuestNotAcceptAppointQuest",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69924
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10532": {
+        "ID": "EDS_ErrorCode::QuestNotAcceptNpcRelationEvolveAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69925
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10533": {
+        "ID": "EDS_ErrorCode::QuestNotAcceptAppointAchievement",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69926
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10534": {
+        "ID": "EDS_ErrorCode::QuestNotAcceptAppointCharacterGet",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69927
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10535": {
+        "ID": "EDS_ErrorCode::QuestNotAcceptPosition",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69928
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10536": {
+        "ID": "EDS_ErrorCode::QuestNotAcceptDailyPool",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69929
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10537": {
+        "ID": "EDS_ErrorCode::QuestNotAcceptRepeatCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69930
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10560": {
+        "ID": "EDS_ErrorCode::QuestNotCompleteState",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69931
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10561": {
+        "ID": "EDS_ErrorCode::QuestNotCompletePosition",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 69932
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10600": {
+        "ID": "EDS_ErrorCode::WarpDeviceTooFar",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10601": {
+        "ID": "EDS_ErrorCode::WarpDeviceConditionLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10602": {
+        "ID": "EDS_ErrorCode::WarpDeviceConditionQuest",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10603": {
+        "ID": "EDS_ErrorCode::WarpDeviceConditionItem",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10604": {
+        "ID": "EDS_ErrorCode::WarpDeviceNotActivated",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10605": {
+        "ID": "EDS_ErrorCode::WarpDeviceNotEnoughMoney",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10606": {
+        "ID": "EDS_ErrorCode::WarpDeviceNotEnoughItem",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10607": {
+        "ID": "EDS_ErrorCode::WarpDeviceAlreadyActivated",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10608": {
+        "ID": "EDS_ErrorCode::WarpDeviceNotTeleport",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10620": {
+        "ID": "EDS_ErrorCode::TalkTooFar",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10621": {
+        "ID": "EDS_ErrorCode::TalkWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10630": {
+        "ID": "EDS_ErrorCode::NotEnoughActionPoint",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 230001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10631": {
+        "ID": "EDS_ErrorCode::MaxCountChargeActionPoint",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 230002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10632": {
+        "ID": "EDS_ErrorCode::ActionPointFull",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 230003
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10700": {
+        "ID": "EDS_ErrorCode::ReturnHomeAlreadySaved",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10701": {
+        "ID": "EDS_ErrorCode::ReturnHomeNotSaved",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10702": {
+        "ID": "EDS_ErrorCode::ReturnHomeNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 1410
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10800": {
+        "ID": "EDS_ErrorCode::ContentsNotEnable",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18201
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10850": {
+        "ID": "EDS_ErrorCode::RaidPartyAlreadyJoined",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215035
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10851": {
+        "ID": "EDS_ErrorCode::RaidPartyNoJoined",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215036
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10852": {
+        "ID": "EDS_ErrorCode::RaidPartyNotExited",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215037
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10853": {
+        "ID": "EDS_ErrorCode::RaidPartyInvalidCondition",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215038
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10854": {
+        "ID": "EDS_ErrorCode::RaidPartyInvalidPassword",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215039
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10900": {
+        "ID": "EDS_ErrorCode::GuildNameExist",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10901": {
+        "ID": "EDS_ErrorCode::PrevGuildMemberExist",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10902": {
+        "ID": "EDS_ErrorCode::GuildNotEnoughMoney",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240003
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10903": {
+        "ID": "EDS_ErrorCode::GuildInfoInvalid",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240004
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10904": {
+        "ID": "EDS_ErrorCode::GuildMemberInfoInvalid",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240005
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10905": {
+        "ID": "EDS_ErrorCode::NotEnableGuildMemberRole",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240006
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10906": {
+        "ID": "EDS_ErrorCode::NotExistGuild",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240007
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10907": {
+        "ID": "EDS_ErrorCode::GuildMemberCountOver",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240008
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10908": {
+        "ID": "EDS_ErrorCode::GuildMemberNotEnoughLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240009
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10909": {
+        "ID": "EDS_ErrorCode::NotDeleteMaster",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240010
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10910": {
+        "ID": "EDS_ErrorCode::InvalidRequest",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240011
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10911": {
+        "ID": "EDS_ErrorCode::NotFoundGuildMember",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240012
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10912": {
+        "ID": "EDS_ErrorCode::PrevGuildMemberRole",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240013
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10913": {
+        "ID": "EDS_ErrorCode::GuildNameInvalid",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 240014
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10914": {
+        "ID": "EDS_ErrorCode::CombatPowerNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11000": {
+        "ID": "EDS_ErrorCode::LowLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215032
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11001": {
+        "ID": "EDS_ErrorCode::OverEnterCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215033
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11002": {
+        "ID": "EDS_ErrorCode::OverRewardCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215034
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11003": {
+        "ID": "EDS_ErrorCode::NotFoundRaidParty",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215045
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11004": {
+        "ID": "EDS_ErrorCode::NotFoundRaidPartyMember",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215046
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11005": {
+        "ID": "EDS_ErrorCode::NotUpdateRaidInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215047
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11006": {
+        "ID": "EDS_ErrorCode::NotUpdateRaidMemberInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215048
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11007": {
+        "ID": "EDS_ErrorCode::RaidMemberIsFull",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215049
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11009": {
+        "ID": "EDS_ErrorCode::InvalidPassword",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215050
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11010": {
+        "ID": "EDS_ErrorCode::InvalidDungeonName",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215051
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11011": {
+        "ID": "EDS_ErrorCode::NotMatchPassword",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215052
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11012": {
+        "ID": "EDS_ErrorCode::NotEnableDelegate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215053
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11013": {
+        "ID": "EDS_ErrorCode::NotEnableDelegateMaster",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215054
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11014": {
+        "ID": "EDS_ErrorCode::NotChangeMemberInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215055
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11015": {
+        "ID": "EDS_ErrorCode::NotRaidPartyMember",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215056
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11016": {
+        "ID": "EDS_ErrorCode::NotEnableRaidPartyMember",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215057
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11017": {
+        "ID": "EDS_ErrorCode::NotEnableRaidPartyMaster",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215058
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11018": {
+        "ID": "EDS_ErrorCode::AlreadyRaidPartyMemberExist",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215059
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11019": {
+        "ID": "EDS_ErrorCode::NotFoundInviteList",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215060
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11020": {
+        "ID": "EDS_ErrorCode::InviteTimeOver",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215061
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11021": {
+        "ID": "EDS_ErrorCode::NotJoinRaidPartyByKickPlayer",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215062
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11022": {
+        "ID": "EDS_ErrorCode::NotEnableVoteDuringVote",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215063
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11023": {
+        "ID": "EDS_ErrorCode::NotEnableKickDuringVote",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215064
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11024": {
+        "ID": "EDS_ErrorCode::NotEnableVoteTimeOver",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215065
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11025": {
+        "ID": "EDS_ErrorCode::TargetUserNotRaidPartyMember",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215066
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11026": {
+        "ID": "EDS_ErrorCode::AlreadyKickVote",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215067
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11027": {
+        "ID": "EDS_ErrorCode::VoteMemberCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215068
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11028": {
+        "ID": "EDS_ErrorCode::NotEnableVote",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215069
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11029": {
+        "ID": "EDS_ErrorCode::NotEnableKick",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215070
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11030": {
+        "ID": "EDS_ErrorCode::NotEnableChangeSlot",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215071
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11031": {
+        "ID": "EDS_ErrorCode::InvalidChangeSlot",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215072
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11032": {
+        "ID": "EDS_ErrorCode::ChangeSlotsIsEmpty",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215073
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11033": {
+        "ID": "EDS_ErrorCode::NotEnableChangeChar",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215074
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11034": {
+        "ID": "EDS_ErrorCode::NotEnableChangeDeckIndex",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215075
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11035": {
+        "ID": "EDS_ErrorCode::NotEnableRaidPartyName",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215076
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11036": {
+        "ID": "EDS_ErrorCode::InvalidMemberState",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215077
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11037": {
+        "ID": "EDS_ErrorCode::NotEnableInviteRaidStart",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215078
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11038": {
+        "ID": "EDS_ErrorCode::NotEnableJoinRaidStart",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215079
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11039": {
+        "ID": "EDS_ErrorCode::NotEnableSettingAfterStart",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215080
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11040": {
+        "ID": "EDS_ErrorCode::NotEnableKickAfterStart",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215081
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11041": {
+        "ID": "EDS_ErrorCode::AlreadyRaidPartyStart",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215082
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11042": {
+        "ID": "EDS_ErrorCode::NotReadyUserExists",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215083
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11043": {
+        "ID": "EDS_ErrorCode::NotFoundInviteUser",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215084
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11044": {
+        "ID": "EDS_ErrorCode::NotDungeonStateStart",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215085
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11045": {
+        "ID": "EDS_ErrorCode::NotEnableRaidingMemberState",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215086
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11046": {
+        "ID": "EDS_ErrorCode::AlreadyDungeonReward",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215087
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11047": {
+        "ID": "EDS_ErrorCode::NotEnableDungeonStartByZone",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215088
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11048": {
+        "ID": "EDS_ErrorCode::NotGainDungeonReward",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215089
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11049": {
+        "ID": "EDS_ErrorCode::NotEnableDungeonByDeadUser",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215090
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11050": {
+        "ID": "EDS_ErrorCode::InvalidDungeonDeckId",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215091
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11051": {
+        "ID": "EDS_ErrorCode::WaitingDungeonStart",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215092
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11052": {
+        "ID": "EDS_ErrorCode::NotEnableDungeonBySwim",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215093
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11053": {
+        "ID": "EDS_ErrorCode::NotEnableDungeonByBattle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215094
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11054": {
+        "ID": "EDS_ErrorCode::NotEnableDungeonByAirWalkMode",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215095
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11055": {
+        "ID": "EDS_ErrorCode::InvalidDungeonCharInfo",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215096
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11056": {
+        "ID": "EDS_ErrorCode::KickVoteSuggestTimeNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215097
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11057": {
+        "ID": "EDS_ErrorCode::NotDungeonStateOut",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215098
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11058": {
+        "ID": "EDS_ErrorCode::NotEnableDungeonOutMemberState",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215099
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11059": {
+        "ID": "EDS_ErrorCode::NotEnableDungeonByTransport",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215100
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11060": {
+        "ID": "EDS_ErrorCode::NotEnableChangeDeckByDungeonIn",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215101
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11061": {
+        "ID": "EDS_ErrorCode::NotEnableChangeCharByDungeonIn",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215102
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11062": {
+        "ID": "EDS_ErrorCode::DungeonNeedQuestNotComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 215103
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11080": {
+        "ID": "EDS_ErrorCode::PlayerIconAlreadyHave",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 11028
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11081": {
+        "ID": "EDS_ErrorCode::PlayerIconNotHave",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 11023
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11082": {
+        "ID": "EDS_ErrorCode::PlayerIconAlreadyApply",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 11024
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11083": {
+        "ID": "EDS_ErrorCode::PlayerIconNotHaveOpenItem",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 11025
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11100": {
+        "ID": "EDS_ErrorCode::ItemAscendNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11101": {
+        "ID": "EDS_ErrorCode::ItemGemSocketEquipNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11102": {
+        "ID": "EDS_ErrorCode::ItemGemSocketEquipNotIndex",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11103": {
+        "ID": "EDS_ErrorCode::ItemBuyLimitContents",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 20054
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11104": {
+        "ID": "EDS_ErrorCode::ItemSellNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 20055
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11105": {
+        "ID": "EDS_ErrorCode::ItemLocked",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 20056
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11106": {
+        "ID": "EDS_ErrorCode::ItemUseNotActionCasting",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11107": {
+        "ID": "EDS_ErrorCode::ItemSeasonDiff",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11108": {
+        "ID": "EDS_ErrorCode::ItemEnchantAbleWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11109": {
+        "ID": "EDS_ErrorCode::ItemEnchantScrollAbleWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11110": {
+        "ID": "EDS_ErrorCode::ItemEnchantGradeWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11200": {
+        "ID": "EDS_ErrorCode::PhasingInvalidQuestId",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11201": {
+        "ID": "EDS_ErrorCode::PhasingInvalidPosition",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11202": {
+        "ID": "EDS_ErrorCode::PhasingDeadUser",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11203": {
+        "ID": "EDS_ErrorCode::PhasingInProgress",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11300": {
+        "ID": "EDS_ErrorCode::PortalNotEnable",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11400": {
+        "ID": "EDS_ErrorCode::QuestConditionNotComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 75002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11402": {
+        "ID": "EDS_ErrorCode::SkillMaxLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 75007
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11403": {
+        "ID": "EDS_ErrorCode::AlreadySkillAscend",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 11023
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11404": {
+        "ID": "EDS_ErrorCode::NotHaveCharacter",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 75009
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11405": {
+        "ID": "EDS_ErrorCode::NotHaveActionFunction",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 260004
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11500": {
+        "ID": "EDS_ErrorCode::AlreadyCompleteWait",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 100505
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11501": {
+        "ID": "EDS_ErrorCode::NotEnableAccelWaitCompleteType",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 100506
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11502": {
+        "ID": "EDS_ErrorCode::WaitCompleteNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 100507
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11503": {
+        "ID": "EDS_ErrorCode::WaitCompleteNotTime",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11504": {
+        "ID": "EDS_ErrorCode::NotInputAnyAccelWaitItem",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 100513
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12000": {
+        "ID": "EDS_ErrorCode::AchievementAlreadyComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 330023
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12001": {
+        "ID": "EDS_ErrorCode::AchievementNotCompletableCondition",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 330024
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12002": {
+        "ID": "EDS_ErrorCode::AchievementPartiallyCompleted",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 330025
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12003": {
+        "ID": "EDS_ErrorCode::AchievementRewardPaymentInventoryFull",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 330026
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11600": {
+        "ID": "EDS_ErrorCode::GimmickInteractionStarted",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11601": {
+        "ID": "EDS_ErrorCode::GimmickInteractionCanceled",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11602": {
+        "ID": "EDS_ErrorCode::GimmickInteractionCompleted",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11603": {
+        "ID": "EDS_ErrorCode::GimmickNotEnable",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11604": {
+        "ID": "EDS_ErrorCode::GimmickInteractionInProgress",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11700": {
+        "ID": "EDS_ErrorCode::PlayerSkillDuplicated",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 310020
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11701": {
+        "ID": "EDS_ErrorCode::PlayerSkillNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 310021
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11702": {
+        "ID": "EDS_ErrorCode::PlayerSkillAscendNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 310022
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11703": {
+        "ID": "EDS_ErrorCode::PlayerSkillResetNotAllowed",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11704": {
+        "ID": "EDS_ErrorCode::PlayerSkillMaxLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11751": {
+        "ID": "EDS_ErrorCode::NotEnoughPlayerSkillLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 310023
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11752": {
+        "ID": "EDS_ErrorCode::NotDetectionPlayerSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 315004
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11753": {
+        "ID": "EDS_ErrorCode::NotOpenLocksPlayerSkill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121013
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11754": {
+        "ID": "EDS_ErrorCode::DetectionCountOver",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 315005
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11755": {
+        "ID": "EDS_ErrorCode::DetectionNotFoundObject",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 315003
+        },
+        "MessageDefine": "EDS_MessageDefineType::None"
+      },
+      "11756": {
+        "ID": "EDS_ErrorCode::OpenLockNotFoundTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11757": {
+        "ID": "EDS_ErrorCode::OpenLockNotEnableTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121012
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11758": {
+        "ID": "EDS_ErrorCode::OpenLockEnablePeopleOver",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121005
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11759": {
+        "ID": "EDS_ErrorCode::OpenLockAlreadyStart",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121015
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11760": {
+        "ID": "EDS_ErrorCode::OpenLockNotStartStuff",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11761": {
+        "ID": "EDS_ErrorCode::DetectionCoolTimeEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 1409
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11800": {
+        "ID": "EDS_ErrorCode::CharacterEvolveNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 191007
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11900": {
+        "ID": "EDS_ErrorCode::NpcFunctionNotEnable",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 106001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11901": {
+        "ID": "EDS_ErrorCode::NpcFunctionNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 106002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11892": {
+        "ID": "EDS_ErrorCode::NotEnableItemType",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11762": {
+        "ID": "EDS_ErrorCode::LingNotFoundTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 317001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11763": {
+        "ID": "EDS_ErrorCode::LingNotEnableTarget",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 317002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11764": {
+        "ID": "EDS_ErrorCode::LingAlreadyStart",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 317003
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11765": {
+        "ID": "EDS_ErrorCode::LingAlreadyComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 317004
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11766": {
+        "ID": "EDS_ErrorCode::LingNotStartStuff",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 317005
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11767": {
+        "ID": "EDS_ErrorCode::LingCoolTimeEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 317006
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11768": {
+        "ID": "EDS_ErrorCode::LingSkillRetry",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 317007
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11769": {
+        "ID": "EDS_ErrorCode::OpenLockAlreadyComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121016
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11770": {
+        "ID": "EDS_ErrorCode::NotExistEnableItem",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 310028
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12201": {
+        "ID": "EDS_ErrorCode::CookingShareActionPointShortAge",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 1415
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12202": {
+        "ID": "EDS_ErrorCode::NpcRelationShortAge",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12203": {
+        "ID": "EDS_ErrorCode::CookingShareTimeOver",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 316019
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10005": {
+        "ID": "EDS_ErrorCode::WaitCompleteFull",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 1416
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12100": {
+        "ID": "EDS_ErrorCode::CampLevelNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 312001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12101": {
+        "ID": "EDS_ErrorCode::CampInstallFailed",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 313001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12102": {
+        "ID": "EDS_ErrorCode::CampMaterialLack",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 313002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12103": {
+        "ID": "EDS_ErrorCode::CampActionPointLack",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 312002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12104": {
+        "ID": "EDS_ErrorCode::CampNoPermission",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 312002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12105": {
+        "ID": "EDS_ErrorCode::CampReplacedOld",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 313003
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12106": {
+        "ID": "EDS_ErrorCode::CampInvalidInstallRegion",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 313004
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12107": {
+        "ID": "EDS_ErrorCode::CampObstacleBlock",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 313005
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12108": {
+        "ID": "EDS_ErrorCode::CampSlopeInvalid",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 313006
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12109": {
+        "ID": "EDS_ErrorCode::CampTooFar",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 313007
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12110": {
+        "ID": "EDS_ErrorCode::CampMaxUserLimitReached",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 313009
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12111": {
+        "ID": "EDS_ErrorCode::CampInstallFailedByProbability",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12200": {
+        "ID": "EDS_ErrorCode::CampNotSit",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12310": {
+        "ID": "EDS_ErrorCode::SubMergeNotAvailableWaterVolume",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 314000
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12312": {
+        "ID": "EDS_ErrorCode::SubMergeSkillNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12311": {
+        "ID": "EDS_ErrorCode::SubMergeLevelNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 312001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12313": {
+        "ID": "EDS_ErrorCode::SubMergeWaterVolumeNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12320": {
+        "ID": "EDS_ErrorCode::FlyModeSkillNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12321": {
+        "ID": "EDS_ErrorCode::FlyModeLevelNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 312001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12330": {
+        "ID": "EDS_ErrorCode::NotEnoughStamina",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12331": {
+        "ID": "EDS_ErrorCode::LowCharacterLevel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 18303
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12430": {
+        "ID": "EDS_ErrorCode::MountSkillLevelNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350053
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12431": {
+        "ID": "EDS_ErrorCode::MountCooldown",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12432": {
+        "ID": "EDS_ErrorCode::MountSkillNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350009
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12438": {
+        "ID": "EDS_ErrorCode::MountNotEnoughStaminaToSprint",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 318006
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12433": {
+        "ID": "EDS_ErrorCode::MountNotAllowedInState",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 318003
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12434": {
+        "ID": "EDS_ErrorCode::MountDistrictRestricted",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12435": {
+        "ID": "EDS_ErrorCode::MountAlreadyMounted",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12436": {
+        "ID": "EDS_ErrorCode::MountNotEquipped",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12437": {
+        "ID": "EDS_ErrorCode::MountEnoughStaminaToMount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12441": {
+        "ID": "EDS_ErrorCode::MountListSlotExtendMax",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350001
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12442": {
+        "ID": "EDS_ErrorCode::MountAlreadySelected",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350002
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12443": {
+        "ID": "EDS_ErrorCode::MountAlreadyDeselected",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350003
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12444": {
+        "ID": "EDS_ErrorCode::MountBagIsNotEmpty",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350004
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12445": {
+        "ID": "EDS_ErrorCode::MountListSlotFull",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350005
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12446": {
+        "ID": "EDS_ErrorCode::NotEnableInnByBattle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12447": {
+        "ID": "EDS_ErrorCode::MountDestroyed",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350055
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12448": {
+        "ID": "EDS_ErrorCode::MountWrongNameLength",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350057
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12449": {
+        "ID": "EDS_ErrorCode::DisMountNotAllowedInState",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12450": {
+        "ID": "EDS_ErrorCode::MountLostReclaimTimeOver",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350079
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12451": {
+        "ID": "EDS_ErrorCode::MountLostListIdNotFound",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12452": {
+        "ID": "EDS_ErrorCode::StorageSlotShortage",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 350080
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_System_01"
+      },
+      "12439": {
+        "ID": "EDS_ErrorCode::NotSearchStuffPortal",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 380201
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12440": {
+        "ID": "EDS_ErrorCode::OverDailyPlayLimitCount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 380202
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11605": {
+        "ID": "EDS_ErrorCode::SummonBossAlreadyExisted",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 360103
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10308": {
+        "ID": "EDS_ErrorCode::StuffOwnership",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 121018
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11606": {
+        "ID": "EDS_ErrorCode::SummonBossStuffAlreadyExisted",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 360105
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12550": {
+        "ID": "EDS_ErrorCode::HandlingNotAllowedInState",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 400009
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12551": {
+        "ID": "EDS_ErrorCode::TargetNotHandleableNpc",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 400010
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12552": {
+        "ID": "EDS_ErrorCode::HandlingDistanceExceeded",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 400011
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12553": {
+        "ID": "EDS_ErrorCode::HandlingGradeTooLow",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 400012
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "12500": {
+        "ID": "EDS_ErrorCode::StatusDetailCharacterInterval",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "10006": {
+        "ID": "EDS_ErrorCode::InvalidResurrectType",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 35004
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11111": {
+        "ID": "EDS_ErrorCode::ItemRepairDurabilityWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40950
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11112": {
+        "ID": "EDS_ErrorCode::ItemRepairNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40901
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11113": {
+        "ID": "EDS_ErrorCode::ItemRepairMaterialWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40951
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11114": {
+        "ID": "EDS_ErrorCode::ItemRepairCostNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40952
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11115": {
+        "ID": "EDS_ErrorCode::ItemRestoreDurabilityWrong",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40910
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11116": {
+        "ID": "EDS_ErrorCode::ItemRestoreNotAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40909
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11117": {
+        "ID": "EDS_ErrorCode::ItemRestoreCostNotEnough",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40953
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11118": {
+        "ID": "EDS_ErrorCode::ItemEnchantSameEffect",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11119": {
+        "ID": "EDS_ErrorCode::ItemRestoreNotComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40954
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      },
+      "11120": {
+        "ID": "EDS_ErrorCode::ItemBreakageUseAble",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_StringUi": {
+          "ID": 40908
+        },
+        "MessageDefine": "EDS_MessageDefineType::Alert_None_01"
+      }
+    }
+  }
+]

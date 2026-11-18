@@ -1,0 +1,87 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: Sockets
+// Functions: 2
+
+// TSharedRef<FInternetAddr,1><FInternetAddrBSD> @ 143109290
+
+TSharedRef<FInternetAddr,1> * __thiscall
+TSharedRef<FInternetAddr,1>::TSharedRef<FInternetAddr,1><FInternetAddrBSD>
+          (TSharedRef<FInternetAddr,1> *this,TRawPtrProxy<FInternetAddrBSD> *param_1)
+
+{
+  FInternetAddrBSD *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  TReferenceControllerBase<1> *pTVar4;
+  TSharedRef<FInternetAddr,1> *pTVar5;
+  
+  this->Object = (FInternetAddr *)param_1->Object;
+  pFVar1 = param_1->Object;
+  pTVar4 = ::operator_new(0x18);
+  if (pTVar4 != (TReferenceControllerBase<1> *)0x0) {
+    pTVar4->SharedReferenceCount = (atomic<int>)0x1;
+    pTVar4->_padding_ =
+         (longlong)
+         &
+         ___7__TReferenceControllerWithDeleter_VFInternetAddrBSD__U__DefaultDeleter_VFInternetAddrBSD___SharedPointerInternals___00_SharedPointerInternals__6B_
+    ;
+    pTVar4->WeakReferenceCount = (atomic<int>)0x1;
+    pTVar4[1]._padding_ = (longlong)pFVar1;
+  }
+  (this->SharedReferenceCount).ReferenceController = pTVar4;
+  if (param_1->Object == (FInternetAddrBSD *)0x0) {
+    bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                      ("InRawPtrProxy.Object != nullptr",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Templates\\SharedPointer.h"
+                       ,0xe3,L"");
+    if (bVar3) {
+      pcVar2 = (code *)swi(3);
+      pTVar5 = (TSharedRef<FInternetAddr,1> *)(*pcVar2)();
+      return pTVar5;
+    }
+  }
+  return this;
+}
+
+// TSharedRef<FInternetAddrBSD,1><FInternetAddrBSD> @ 143109330
+
+TSharedRef<FInternetAddrBSD,1> * __thiscall
+TSharedRef<FInternetAddrBSD,1>::TSharedRef<FInternetAddrBSD,1><FInternetAddrBSD>
+          (TSharedRef<FInternetAddrBSD,1> *this,TRawPtrProxy<FInternetAddrBSD> *param_1)
+
+{
+  FInternetAddrBSD *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  TReferenceControllerBase<1> *pTVar4;
+  TSharedRef<FInternetAddrBSD,1> *pTVar5;
+  
+  this->Object = param_1->Object;
+  pFVar1 = param_1->Object;
+  pTVar4 = ::operator_new(0x18);
+  if (pTVar4 != (TReferenceControllerBase<1> *)0x0) {
+    pTVar4->SharedReferenceCount = (atomic<int>)0x1;
+    pTVar4->_padding_ =
+         (longlong)
+         &
+         ___7__TReferenceControllerWithDeleter_VFInternetAddrBSD__U__DefaultDeleter_VFInternetAddrBSD___SharedPointerInternals___00_SharedPointerInternals__6B_
+    ;
+    pTVar4->WeakReferenceCount = (atomic<int>)0x1;
+    pTVar4[1]._padding_ = (longlong)pFVar1;
+  }
+  (this->SharedReferenceCount).ReferenceController = pTVar4;
+  if (param_1->Object == (FInternetAddrBSD *)0x0) {
+    bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                      ("InRawPtrProxy.Object != nullptr",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Templates\\SharedPointer.h"
+                       ,0xe3,L"");
+    if (bVar3) {
+      pcVar2 = (code *)swi(3);
+      pTVar5 = (TSharedRef<FInternetAddrBSD,1> *)(*pcVar2)();
+      return pTVar5;
+    }
+  }
+  return this;
+}
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{4C1A50A9-A3EB-5D4E-9A70-2CECA4A4C87B}</ProjectGuid><RootNamespace>ChaosCore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AABB.ispc.cpp" />
+    <ClCompile Include="Private\AABB.ispc_avx.cpp" />
+    <ClCompile Include="Private\AABB.ispc_avx2.cpp" />
+    <ClCompile Include="Private\AABB.ispc_avx512skx.cpp" />
+    <ClCompile Include="Private\AABB.ispc_sse4.cpp" />
+    <ClCompile Include="Private\FChaosCoreEngineModule.cpp" />
+    <ClCompile Include="Private\FCoreCapsule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TAABB.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCorePlane.cpp" />
+    <ClCompile Include="Private\TRigidTransform.cpp" />
+    <ClCompile Include="Private\TRotation.cpp" />
+    <ClCompile Include="Private\TVector.cpp" />
+    <ClCompile Include="Private\_Free\Module.ChaosCore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

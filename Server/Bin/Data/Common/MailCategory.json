@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MailCategory",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MailCategory",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MailCategoryTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_MailCategoryType::System",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 380001
+        }
+      },
+      "2": {
+        "ID": "EDS_MailCategoryType::Personal",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 380002
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PresetCamera",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PresetCamera",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PresetCameraTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Note": "기본",
+        "IsAutoPitch": false,
+        "AutoPitchDelayTime": 1.0,
+        "IsAutoYaw": false,
+        "AutoYawDelayTime": 1.0,
+        "DefaultDistance": 800.0,
+        "RotationSpeedX": 0.5,
+        "RotationSpeedY": 0.5,
+        "ZoomAmountValue": 100.0,
+        "ZoomSpeed": 1500.0,
+        "ZoomInterpSpeed": 7.0,
+        "FovInterpSpeed": 10.0,
+        "RotateInterpSpeed": 10.0,
+        "RotateInterpSpeedAuto": 1.0,
+        "CharacterTraceDelaySpeed": 20.0,
+        "CameraRotationDelaySpeed": 20.0,
+        "MouseRotateLerpSpeed": 15.0,
+        "FOV": 75.0,
+        "DefaultPitch": -30.0,
+        "MinPitch": -65.0,
+        "MaxPitch": 50.0,
+        "TargetOffset": 100.0,
+        "MinDistance": 400.0,
+        "MaxDistance": 1600.0,
+        "IsAutoDistance": false,
+        "DistanceInterpDelay": 4.0,
+        "DistanceInterpSpeed": 1.0
+      }
+    }
+  }
+]

@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlCharacterLevelTable {
+  int64 player_uid = 1;
+  int32 char_level = 3;
+  int64 exp = 4;
+  int32 ascend = 5;
+  int32 evolve = 6;
+}

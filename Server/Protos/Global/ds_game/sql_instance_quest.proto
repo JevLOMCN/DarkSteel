@@ -1,0 +1,16 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+import "QuestStateType.proto";
+
+message SqlInstanceQuestTable {
+  int64 player_uid = 1;
+  int32 quest_id = 3;
+  QuestStateType quest_state = 4;
+  repeated int32 objective_count = 5;
+  google.protobuf.Timestamp limit_dt = 7;
+  int64 instance_quest_uid = 8;
+}

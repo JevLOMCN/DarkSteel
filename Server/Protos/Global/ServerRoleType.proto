@@ -1,0 +1,16 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum ServerRoleType {
+  ServerRoleType_None = 0;
+  ServerRoleType_AccountDb = 1;
+  ServerRoleType_GameDb = 2;
+  ServerROleType_ConfigDb = 3;
+  ServerRoleType_PlayerCache = 4;
+  ServerRoleType_Api = 11;
+  ServerRoleType_mgmt = 12;
+  ServerRoleType_FrontEnd = 21;
+  ServerRoleType_GameServer = 22;
+  ServerRoleType_Region = 31;
+}

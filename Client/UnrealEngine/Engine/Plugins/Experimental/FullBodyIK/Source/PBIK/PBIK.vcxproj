@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{E96A9C39-0991-55B3-A476-B7A8799D5536}</ProjectGuid><RootNamespace>PBIK</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FBone.cpp" />
+    <ClCompile Include="Private\FConstraint.cpp" />
+    <ClCompile Include="Private\FEffector.cpp" />
+    <ClCompile Include="Private\FJointConstraint.cpp" />
+    <ClCompile Include="Private\FPBIKBoneSetting.cpp" />
+    <ClCompile Include="Private\FPBIKDebug.cpp" />
+    <ClCompile Include="Private\FPBIKEffector.cpp" />
+    <ClCompile Include="Private\FPBIKModule.cpp" />
+    <ClCompile Include="Private\FPBIKSolver.cpp" />
+    <ClCompile Include="Private\FPBIKSolverSettings.cpp" />
+    <ClCompile Include="Private\FPBIKWorkData.cpp" />
+    <ClCompile Include="Private\FPinConstraint.cpp" />
+    <ClCompile Include="Private\FRigUnit_PBIK.cpp" />
+    <ClCompile Include="Private\FRigidBody.cpp" />
+    <ClCompile Include="Private\FRootPrePullSettings.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.PBIK.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

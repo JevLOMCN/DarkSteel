@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{1CA00AB5-6206-5FCC-B706-9CEA055AB000}</ProjectGuid><RootNamespace>SkeletalMeshDescription</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAttributesRefAdapter.cpp" />
+    <ClCompile Include="Private\FAttributesSetBase.cpp" />
+    <ClCompile Include="Private\FBoneID.cpp" />
+    <ClCompile Include="Private\FCreateAndCopyAttributeValues.cpp" />
+    <ClCompile Include="Private\FMeshAttributesHelper.cpp" />
+    <ClCompile Include="Private\FMeshDescriptionTriangleMeshAdapter.cpp" />
+    <ClCompile Include="Private\FParallelExecutor.cpp" />
+    <ClCompile Include="Private\FSkeletalMeshAttributes.cpp" />
+    <ClCompile Include="Private\FSkeletalMeshAttributesShared.cpp" />
+    <ClCompile Include="Private\FSkeletalMeshDescriptionModule.cpp" />
+    <ClCompile Include="Private\FSkeletalMeshOperations.cpp" />
+    <ClCompile Include="Private\FSourceGeometryPartID.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TAttributeArrayContainer.cpp" />
+    <ClCompile Include="Private\TAttributesSet.cpp" />
+    <ClCompile Include="Private\TBoneWeights.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMeshAABBTree3.cpp" />
+    <ClCompile Include="Private\TMeshAttributeArrayBase.cpp" />
+    <ClCompile Include="Private\TMeshAttributesRef.cpp" />
+    <ClCompile Include="Private\TMeshQueries.cpp" />
+    <ClCompile Include="Private\TMeshUnboundedAttributeArraySet.cpp" />
+    <ClCompile Include="Private\TOctree2.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\USkeletalMeshDescription.cpp" />
+    <ClCompile Include="Private\_Free\Module.SkeletalMeshDescription.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

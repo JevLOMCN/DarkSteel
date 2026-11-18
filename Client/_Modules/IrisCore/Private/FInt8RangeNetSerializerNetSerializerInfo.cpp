@@ -1,0 +1,30 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: IrisCore
+// Functions: 3
+
+// GetDefaultConfig @ 144330220
+
+FNetSerializerConfig * __cdecl
+UE::Net::FInt8RangeNetSerializerNetSerializerInfo::GetDefaultConfig(void)
+
+{
+  return (FNetSerializerConfig *)0x0;
+}
+
+// GetQuantizedTypeAlignment @ 144330c80
+
+uint __cdecl UE::Net::FInt8RangeNetSerializerNetSerializerInfo::GetQuantizedTypeAlignment(void)
+
+{
+  return 1;
+}
+
+// GetQuantizedTypeSize @ 144330fc0
+
+uint __cdecl UE::Net::FInt8RangeNetSerializerNetSerializerInfo::GetQuantizedTypeSize(void)
+
+{
+  return 1;
+}
+

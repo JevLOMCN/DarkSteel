@@ -1,0 +1,297 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceSequence",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceSequence",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceSequenceTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceResurrection.LS_SequenceResurrection",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 0.0,
+        "MaxLoopCnt": 1000,
+        "RunningTime": 5.0
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceWarp.LS_SequenceWarp",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 0.0,
+        "MaxLoopCnt": 1000,
+        "RunningTime": 5.0
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceWarp.LS_SequenceWarp",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 3.0,
+        "MaxLoopCnt": 1000,
+        "RunningTime": 4.29
+      },
+      "50": {
+        "ID": 50,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.0,
+        "FadeOutTime": 0.0,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Quest/QuestPhasingStart.QuestPhasingStart",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 0.25,
+        "MaxLoopCnt": 0,
+        "RunningTime": 0.25
+      },
+      "51": {
+        "ID": 51,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.0,
+        "FadeOutTime": 0.0,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Quest/QuestPhasingEnd.QuestPhasingEnd",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 0.25,
+        "MaxLoopCnt": 0,
+        "RunningTime": 0.25
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceWarp.LS_SequenceWarp",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 0.0,
+        "MaxLoopCnt": 1000,
+        "RunningTime": 5.0
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceWarp.LS_SequenceWarp",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 2.0,
+        "MaxLoopCnt": 1000,
+        "RunningTime": 5.0
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceWarp.LS_SequenceWarp",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 3.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceWarp.LS_SequenceWarp",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 3.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceWarp_Inn_01.LS_SequenceWarp_Inn_01",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 3.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "10001": {
+        "ID": 10001,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/CharGallery/LS_CharGallery_Kairos_Std.LS_CharGallery_Kairos_Std",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 1.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "10002": {
+        "ID": 10002,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/CharGallery/LS_CharGallery_SeoYoung_Std.LS_CharGallery_SeoYoung_Std",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 1.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "10003": {
+        "ID": 10003,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/CharGallery/LS_CharGallery_Hector_Std.LS_CharGallery_Hector_Std",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 1.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "10004": {
+        "ID": 10004,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/CharGallery/LS_CharGallery_Volt_Std.LS_CharGallery_Volt_Std",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 1.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "10005": {
+        "ID": 10005,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/CharGallery/LS_CharGallery_Marius_Std.LS_CharGallery_Marius_Std",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 1.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "10006": {
+        "ID": 10006,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/CharGallery/LS_CharGallery_Belmond_Std.LS_CharGallery_Belmond_Std",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 1.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "10007": {
+        "ID": 10007,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/CharGallery/LS_CharGallery_Kairos_Std.LS_CharGallery_Kairos_Std",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 1.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "10008": {
+        "ID": 10008,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 0.3,
+        "FadeOutTime": 0.3,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/CharGallery/LS_CharGallery_Hector_Std.LS_CharGallery_Hector_Std",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 1.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 5.0
+      },
+      "90001": {
+        "ID": 90001,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 1.5,
+        "FadeOutTime": 1.5,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceWarp_Inn_01.LS_SequenceWarp_Inn_01",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 0.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 0.0
+      },
+      "90002": {
+        "ID": 90002,
+        "DataStage": 23,
+        "Version": "*",
+        "FadeInTime": 1.5,
+        "FadeOutTime": 1.5,
+        "SequenceResourcePath": {
+          "AssetPathName": "/Game/Directings/Sequence/Warp/LS_SequenceWarp_Inn_02.LS_SequenceWarp_Inn_02",
+          "SubPathString": ""
+        },
+        "MinHoldingTime": 0.0,
+        "MaxLoopCnt": 0,
+        "RunningTime": 0.0
+      }
+    }
+  }
+]

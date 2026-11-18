@@ -1,0 +1,4822 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "2",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PatrolStep/Island/2",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PatrolStepTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "20000001": {
+        "ID": 20000001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20000002": {
+        "ID": 20000002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20000003": {
+        "ID": 20000003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20000004": {
+        "ID": 20000004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20000005": {
+        "ID": 20000005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20001001": {
+        "ID": 20001001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20001,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20001002": {
+        "ID": 20001002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20001,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20001003": {
+        "ID": 20001003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20001,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20001004": {
+        "ID": 20001004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20001,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20001005": {
+        "ID": 20001005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20001,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::WanderingStart",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20002001": {
+        "ID": 20002001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20002,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20002002": {
+        "ID": 20002002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20002,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20002003": {
+        "ID": 20002003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20002,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20002004": {
+        "ID": 20002004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20002,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::WanderingStart",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20002005": {
+        "ID": 20002005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20002,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20003001": {
+        "ID": 20003001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20003,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20003002": {
+        "ID": 20003002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20003,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20003003": {
+        "ID": 20003003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20003,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20003004": {
+        "ID": 20003004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20003,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20003005": {
+        "ID": 20003005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20003,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Suicide",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20004001": {
+        "ID": 20004001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20004,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20004002": {
+        "ID": 20004002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20004,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20004003": {
+        "ID": 20004003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20004,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20004004": {
+        "ID": 20004004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20004,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20004005": {
+        "ID": 20004005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20004,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Disappear",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          0
+        ],
+        "ActionValue4": [
+          0
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20005001": {
+        "ID": 20005001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20005,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20005002": {
+        "ID": 20005002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20005,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20005003": {
+        "ID": 20005003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20005,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20005004": {
+        "ID": 20005004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20005,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20005005": {
+        "ID": 20005005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20005,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20006001": {
+        "ID": 20006001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20006,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20006002": {
+        "ID": 20006002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20006,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20006003": {
+        "ID": 20006003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20006,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20006004": {
+        "ID": 20006004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20006,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20006005": {
+        "ID": 20006005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20006,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20007001": {
+        "ID": 20007001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20007,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20007002": {
+        "ID": 20007002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20007,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20007003": {
+        "ID": 20007003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20007,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20007004": {
+        "ID": 20007004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20007,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20007005": {
+        "ID": 20007005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20007,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20008001": {
+        "ID": 20008001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20008,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20008002": {
+        "ID": 20008002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20008,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20008003": {
+        "ID": 20008003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20008,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20008004": {
+        "ID": 20008004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20008,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20008005": {
+        "ID": 20008005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20008,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20009001": {
+        "ID": 20009001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20009,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20009002": {
+        "ID": 20009002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20009,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20009003": {
+        "ID": 20009003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20009,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20009004": {
+        "ID": 20009004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20009,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20009005": {
+        "ID": 20009005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20009,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20010001": {
+        "ID": 20010001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20010,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20010002": {
+        "ID": 20010002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20010,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20010003": {
+        "ID": 20010003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20010,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20010004": {
+        "ID": 20010004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20010,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20010005": {
+        "ID": 20010005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20010,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20010006": {
+        "ID": 20010006,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20010,
+        "Step": 6,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          6
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          6
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20011001": {
+        "ID": 20011001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20011,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20011002": {
+        "ID": 20011002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20011,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20011003": {
+        "ID": 20011003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20011,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20011004": {
+        "ID": 20011004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20011,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20011005": {
+        "ID": 20011005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20011,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20011006": {
+        "ID": 20011006,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20011,
+        "Step": 6,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          6
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          6
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20011007": {
+        "ID": 20011007,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20011,
+        "Step": 7,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          7
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          7
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20011008": {
+        "ID": 20011008,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20011,
+        "Step": 8,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          8
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          8
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20011009": {
+        "ID": 20011009,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20011,
+        "Step": 9,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          9
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          9
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20013001": {
+        "ID": 20013001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20013,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20013002": {
+        "ID": 20013002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20013,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20013003": {
+        "ID": 20013003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20013,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20013004": {
+        "ID": 20013004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20013,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20014001": {
+        "ID": 20014001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20014,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20014002": {
+        "ID": 20014002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20014,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20014003": {
+        "ID": 20014003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20014,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3,
+          4
+        ],
+        "ActionValue2": [
+          50,
+          50
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20014004": {
+        "ID": 20014004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20014,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20014005": {
+        "ID": 20014005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20014,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20014006": {
+        "ID": 20014006,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20014,
+        "Step": 6,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 113.0,
+        "WaitingTime": 5.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20016001": {
+        "ID": 20016001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20016,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20016002": {
+        "ID": 20016002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20016,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20016003": {
+        "ID": 20016003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20016,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20016004": {
+        "ID": 20016004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20016,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20016005": {
+        "ID": 20016005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20016,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20017001": {
+        "ID": 20017001,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20017,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "20017002": {
+        "ID": 20017002,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20017,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "20017003": {
+        "ID": 20017003,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20017,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "20017004": {
+        "ID": 20017004,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20017,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "20017005": {
+        "ID": 20017005,
+        "DataStage": 16,
+        "DataStageString": "",
+        "GroupID": 20017,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "20018001": {
+        "ID": 20018001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20018,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20018002": {
+        "ID": 20018002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20018,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2,
+          3,
+          4
+        ],
+        "ActionValue2": [
+          33,
+          34,
+          33
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20018003": {
+        "ID": 20018003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20018,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20018004": {
+        "ID": 20018004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20018,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20018005": {
+        "ID": 20018005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20018,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20019001": {
+        "ID": 20019001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20019,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20019002": {
+        "ID": 20019002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20019,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 500.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20019003": {
+        "ID": 20019003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20019,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::EventAnim",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          3
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          3
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20019004": {
+        "ID": 20019004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20019,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 500.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20019005": {
+        "ID": 20019005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20019,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20020001": {
+        "ID": 20020001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20020,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20020002": {
+        "ID": 20020002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20020,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20020003": {
+        "ID": 20020003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20020,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20020004": {
+        "ID": 20020004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20020,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20020005": {
+        "ID": 20020005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20020,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3
+        ]
+      },
+      "20021001": {
+        "ID": 20021001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20021,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2
+        ]
+      },
+      "20021002": {
+        "ID": 20021002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20021,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2
+        ]
+      },
+      "20021003": {
+        "ID": 20021003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20021,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2
+        ]
+      },
+      "20021004": {
+        "ID": 20021004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20021,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2
+        ]
+      },
+      "20021005": {
+        "ID": 20021005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20021,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2
+        ]
+      },
+      "20021006": {
+        "ID": 20021006,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20021,
+        "Step": 6,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          6
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          6
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2
+        ]
+      },
+      "20015001": {
+        "ID": 20015001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20015,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20015002": {
+        "ID": 20015002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20015,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20015003": {
+        "ID": 20015003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20015,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20015004": {
+        "ID": 20015004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20015,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20015005": {
+        "ID": 20015005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20015,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20015006": {
+        "ID": 20015006,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20015,
+        "Step": 6,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          6
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          6
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20015007": {
+        "ID": 20015007,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20015,
+        "Step": 7,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          7
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          7
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20015008": {
+        "ID": 20015008,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20015,
+        "Step": 8,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          8
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          8
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022001": {
+        "ID": 20022001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022002": {
+        "ID": 20022002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022003": {
+        "ID": 20022003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022004": {
+        "ID": 20022004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022005": {
+        "ID": 20022005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022006": {
+        "ID": 20022006,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 6,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          6
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          6
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022007": {
+        "ID": 20022007,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 7,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          7
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          7
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022008": {
+        "ID": 20022008,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 8,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          8
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          8
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022009": {
+        "ID": 20022009,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 9,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          9
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          9
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022010": {
+        "ID": 20022010,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 10,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          10
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          10
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022011": {
+        "ID": 20022011,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 11,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          11
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          11
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022012": {
+        "ID": 20022012,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 12,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          12
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          12
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022013": {
+        "ID": 20022013,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 13,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          13
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          13
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022014": {
+        "ID": 20022014,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 14,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          14
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          14
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022015": {
+        "ID": 20022015,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 15,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          15
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          15
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022016": {
+        "ID": 20022016,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 16,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          16
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          16
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022017": {
+        "ID": 20022017,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 17,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          17
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          17
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022018": {
+        "ID": 20022018,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 18,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          18
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          18
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022019": {
+        "ID": 20022019,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 19,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          19
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          19
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20022020": {
+        "ID": 20022020,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20022,
+        "Step": 20,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          20
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          20
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "20012001": {
+        "ID": 20012001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20012,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20012002": {
+        "ID": 20012002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20012,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20012003": {
+        "ID": 20012003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20012,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::EventAnim",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          3
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          3
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20012004": {
+        "ID": 20012004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20012,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20012005": {
+        "ID": 20012005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20012,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20023001": {
+        "ID": 20023001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20023,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20023002": {
+        "ID": 20023002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20023,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20023003": {
+        "ID": 20023003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20023,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20023004": {
+        "ID": 20023004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20023,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20024001": {
+        "ID": 20024001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20024,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 3.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20024002": {
+        "ID": 20024002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20024,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 3.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20024003": {
+        "ID": 20024003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20024,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 3.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20024004": {
+        "ID": 20024004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20024,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 3.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20025001": {
+        "ID": 20025001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20025,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::EventAnim",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          2
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          2
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20025002": {
+        "ID": 20025002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20025,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20025003": {
+        "ID": 20025003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20025,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::EventAnim",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          3
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          3
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20025004": {
+        "ID": 20025004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20025,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20025005": {
+        "ID": 20025005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20025,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20026001": {
+        "ID": 20026001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20026,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::EventAnim",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          11
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          11
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20026002": {
+        "ID": 20026002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20026,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20026003": {
+        "ID": 20026003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20026,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::EventAnim",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          5
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          5
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20026004": {
+        "ID": 20026004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20026,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20026005": {
+        "ID": 20026005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20026,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 3.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20027001": {
+        "ID": 20027001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20027,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 2.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20027002": {
+        "ID": 20027002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20027,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 2.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20027003": {
+        "ID": 20027003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20027,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 2.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20027004": {
+        "ID": 20027004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20027,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 2.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20027005": {
+        "ID": 20027005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20027,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 2.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20028001": {
+        "ID": 20028001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20028,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          1
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20028002": {
+        "ID": 20028002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20028,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          2
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20028003": {
+        "ID": 20028003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20028,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          3
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20028004": {
+        "ID": 20028004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20028,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          4
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20028005": {
+        "ID": 20028005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20028,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": true,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [
+          5
+        ],
+        "ActionValue4": [
+          100
+        ],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      }
+    }
+  }
+]

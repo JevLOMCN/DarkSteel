@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlRepeatQuestCompleteTable {
+  int64 player_uid = 1;
+  int32 quest_id = 2;
+  int32 complete_count = 3;
+}

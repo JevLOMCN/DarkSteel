@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "UniqueBp",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/UniqueBp",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_UniqueBpTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_UniqueBpType::MainPlayer",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 10001
+      },
+      "2": {
+        "ID": "EDS_UniqueBpType::NetPlayer",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 11001
+      },
+      "3": {
+        "ID": "EDS_UniqueBpType::DummyNetPlayer",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 12001
+      },
+      "4": {
+        "ID": "EDS_UniqueBpType::NameTagPlayer",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 50001
+      },
+      "5": {
+        "ID": "EDS_UniqueBpType::NameTagNetPlayer",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 50002
+      },
+      "6": {
+        "ID": "EDS_UniqueBpType::NameTagNonBattleNpc",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 50003
+      },
+      "7": {
+        "ID": "EDS_UniqueBpType::NameTagBattleNpc",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 50004
+      },
+      "8": {
+        "ID": "EDS_UniqueBpType::NameTagStuff",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 50005
+      },
+      "9": {
+        "ID": "EDS_UniqueBpType::NameTagWarpDevice",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 50006
+      },
+      "16": {
+        "ID": "EDS_UniqueBpType::NameTagMountNpc",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 50007
+      },
+      "12": {
+        "ID": "EDS_UniqueBpType::InteractionPrompt",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 60001
+      },
+      "11": {
+        "ID": "EDS_UniqueBpType::InteractionPrepare",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 60002
+      },
+      "13": {
+        "ID": "EDS_UniqueBpType::SmiteEffect",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 42001
+      },
+      "14": {
+        "ID": "EDS_UniqueBpType::SoundData",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 70001
+      },
+      "10": {
+        "ID": "EDS_UniqueBpType::InteractionIcon",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 60001
+      },
+      "15": {
+        "ID": "EDS_UniqueBpType::CampInstallation",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 43001
+      },
+      "17": {
+        "ID": "EDS_UniqueBpType::CustomizeRenderRoom",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_BpLink": 45001
+      }
+    }
+  }
+]

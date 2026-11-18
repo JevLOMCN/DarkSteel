@@ -1,0 +1,199 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WarpBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/WarpBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_WarpBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_WarpType::Common",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 0.0,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 2,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "3": {
+        "ID": "EDS_WarpType::Resurrect",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 1.5,
+        "WarpEndAnimTime": 1.5,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 1,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "2": {
+        "ID": "EDS_WarpType::ReturnHome",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::ReturnHome",
+        "WarpStartAnimTime": 1.0,
+        "WarpEndAnimTime": 1.0,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 2,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "4": {
+        "ID": "EDS_WarpType::Device",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::WarpDevice",
+        "WarpStartAnimTime": 1.5,
+        "WarpEndAnimTime": 1.5,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 2,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "5": {
+        "ID": "EDS_WarpType::Portal",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 1.5,
+        "WarpEndAnimTime": 1.5,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 3,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "11": {
+        "ID": "EDS_WarpType::Dungeon",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 0.0,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 2,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "51": {
+        "ID": "EDS_WarpType::EnterPhasingQuest",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 0.0,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 50,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "52": {
+        "ID": "EDS_WarpType::ExitPhasingQuest",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 0.0,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 51,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "53": {
+        "ID": "EDS_WarpType::EnterPhasingInn",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 0.0,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 90001,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "54": {
+        "ID": "EDS_WarpType::ExitPhasingInn",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 0.0,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 90002,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "55": {
+        "ID": "EDS_WarpType::EnterPhasingBreach",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 2.5,
+        "VisualEffectType": "EDS_VisualEffectType::None",
+        "VisualEffectValue": 0,
+        "FadeTime": 0.0,
+        "IsHideActor": false,
+        "IsHideNameTag": false,
+        "IsUiHide": false
+      },
+      "56": {
+        "ID": "EDS_WarpType::ExitPhasingBreach",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 2.5,
+        "VisualEffectType": "EDS_VisualEffectType::None",
+        "VisualEffectValue": 0,
+        "FadeTime": 0.0,
+        "IsHideActor": false,
+        "IsHideNameTag": false,
+        "IsUiHide": false
+      },
+      "57": {
+        "ID": "EDS_WarpType::EnterPhasingGate",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 0.0,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 2,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      },
+      "89": {
+        "ID": "EDS_WarpType::ExitPhasingGate",
+        "DataStage": 23,
+        "CastingInfo": "EDS_ActionCastingType::None",
+        "WarpStartAnimTime": 0.0,
+        "WarpEndAnimTime": 0.0,
+        "VisualEffectType": "EDS_VisualEffectType::Sequence",
+        "VisualEffectValue": 2,
+        "FadeTime": 0.0,
+        "IsHideActor": true,
+        "IsHideNameTag": true,
+        "IsUiHide": true
+      }
+    }
+  }
+]

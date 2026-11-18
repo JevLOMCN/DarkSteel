@@ -1,0 +1,2086 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MapIndexBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MapIndexBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MapIndexBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_MapIndexType::Player",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 0
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::None",
+        "MapIndexPriority": 1000000,
+        "MapIndexGroupID": 0,
+        "MapIndexIcon": 3404,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": true,
+        "isShownHeight": false,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "2": {
+        "ID": "EDS_MapIndexType::PlayerCamera",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 0
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::None",
+        "MapIndexPriority": 2000000,
+        "MapIndexGroupID": 0,
+        "MapIndexIcon": 3405,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": false,
+        "WorldMapZoomStep": [],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": false,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "3": {
+        "ID": "EDS_MapIndexType::PartyLeader",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290001
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 3000000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3406,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "4": {
+        "ID": "EDS_MapIndexType::PartyMember01",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4000000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3407,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "5": {
+        "ID": "EDS_MapIndexType::PartyMember02",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4100000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3408,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "6": {
+        "ID": "EDS_MapIndexType::PartyMember03",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4200000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3409,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "7": {
+        "ID": "EDS_MapIndexType::PartyMember04",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4300000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3410,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "8": {
+        "ID": "EDS_MapIndexType::PartyMember05",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4400000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3411,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "9": {
+        "ID": "EDS_MapIndexType::PartyMember06",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4500000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3412,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "10": {
+        "ID": "EDS_MapIndexType::PartyMember07",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4600000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3413,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "11": {
+        "ID": "EDS_MapIndexType::PartyMember08",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4700000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3414,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "12": {
+        "ID": "EDS_MapIndexType::PartyMember09",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4800000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3415,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "13": {
+        "ID": "EDS_MapIndexType::PartyMember10",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 4900000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3416,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "14": {
+        "ID": "EDS_MapIndexType::PartyMember11",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 5000000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3417,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "15": {
+        "ID": "EDS_MapIndexType::PartyMember12",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::PartyLeader",
+        "MapIndexPriority": 5100000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3418,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "48": {
+        "ID": "EDS_MapIndexType::RaidPartyLeader",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290003
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyLeader",
+        "MapIndexPriority": 3000000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3406,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "49": {
+        "ID": "EDS_MapIndexType::RaidPartyMember01",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4000000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3407,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "50": {
+        "ID": "EDS_MapIndexType::RaidPartyMember02",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4100000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3408,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "51": {
+        "ID": "EDS_MapIndexType::RaidPartyMember03",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4200000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3409,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "52": {
+        "ID": "EDS_MapIndexType::RaidPartyMember04",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4300000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3410,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "53": {
+        "ID": "EDS_MapIndexType::RaidPartyMember05",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4400000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3411,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "54": {
+        "ID": "EDS_MapIndexType::RaidPartyMember06",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4500000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3412,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "55": {
+        "ID": "EDS_MapIndexType::RaidPartyMember07",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4600000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3413,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "56": {
+        "ID": "EDS_MapIndexType::RaidPartyMember08",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4700000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3414,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "57": {
+        "ID": "EDS_MapIndexType::RaidPartyMember09",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4800000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3415,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "58": {
+        "ID": "EDS_MapIndexType::RaidPartyMember10",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 4900000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3416,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "59": {
+        "ID": "EDS_MapIndexType::RaidPartyMember11",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 5000000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3417,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "60": {
+        "ID": "EDS_MapIndexType::RaidPartyMember12",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290004
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::RaidPartyMember",
+        "MapIndexPriority": 5100000,
+        "MapIndexGroupID": 20,
+        "MapIndexIcon": 3418,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "16": {
+        "ID": "EDS_MapIndexType::NpcShop",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290010
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6000000,
+        "MapIndexGroupID": 30,
+        "MapIndexIcon": 3419,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "37": {
+        "ID": "EDS_MapIndexType::NpcItemCraft",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290014
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6100000,
+        "MapIndexGroupID": 31,
+        "MapIndexIcon": 3420,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "38": {
+        "ID": "EDS_MapIndexType::ReturnHome",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290013
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6200000,
+        "MapIndexGroupID": 32,
+        "MapIndexIcon": 3421,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "43": {
+        "ID": "EDS_MapIndexType::NpcItemDismantle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290017
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6300000,
+        "MapIndexGroupID": 33,
+        "MapIndexIcon": 3422,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "44": {
+        "ID": "EDS_MapIndexType::NpcItemEnhance",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290012
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6400000,
+        "MapIndexGroupID": 34,
+        "MapIndexIcon": 3423,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "45": {
+        "ID": "EDS_MapIndexType::NpcItemFusion",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290016
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6500000,
+        "MapIndexGroupID": 35,
+        "MapIndexIcon": 3424,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "19": {
+        "ID": "EDS_MapIndexType::NpcGift",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290015
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6600000,
+        "MapIndexGroupID": 36,
+        "MapIndexIcon": 3425,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "77": {
+        "ID": "EDS_MapIndexType::NpcItemRepair",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290019
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6700000,
+        "MapIndexGroupID": 37,
+        "MapIndexIcon": 3426,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "20": {
+        "ID": "EDS_MapIndexType::NpcWarehouse",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290020
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6800000,
+        "MapIndexGroupID": 38,
+        "MapIndexIcon": 3427,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "21": {
+        "ID": "EDS_MapIndexType::NpcMountManagement",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290025
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 6900000,
+        "MapIndexGroupID": 39,
+        "MapIndexIcon": 3428,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "29": {
+        "ID": "EDS_MapIndexType::Marker01",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290005
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Marker",
+        "MapIndexPriority": 200000,
+        "MapIndexGroupID": 0,
+        "MapIndexIcon": 3434,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": true,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_Map_MarkerChanged",
+          "EDS_KeyActionType::IA_Map_DeleteAllMarker",
+          "EDS_KeyActionType::IA_Map_OpenMarkerNote",
+          "EDS_KeyActionType::IA_Map_MarkerChatLink"
+        ]
+      },
+      "30": {
+        "ID": "EDS_MapIndexType::Marker02",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290005
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Marker",
+        "MapIndexPriority": 300000,
+        "MapIndexGroupID": 0,
+        "MapIndexIcon": 3435,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": true,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_Map_MarkerChanged",
+          "EDS_KeyActionType::IA_Map_DeleteAllMarker",
+          "EDS_KeyActionType::IA_Map_OpenMarkerNote",
+          "EDS_KeyActionType::IA_Map_MarkerChatLink"
+        ]
+      },
+      "31": {
+        "ID": "EDS_MapIndexType::Marker03",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290005
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Marker",
+        "MapIndexPriority": 400000,
+        "MapIndexGroupID": 0,
+        "MapIndexIcon": 3436,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": true,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_Map_MarkerChanged",
+          "EDS_KeyActionType::IA_Map_DeleteAllMarker",
+          "EDS_KeyActionType::IA_Map_OpenMarkerNote",
+          "EDS_KeyActionType::IA_Map_MarkerChatLink"
+        ]
+      },
+      "32": {
+        "ID": "EDS_MapIndexType::Marker04",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290005
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Marker",
+        "MapIndexPriority": 500000,
+        "MapIndexGroupID": 0,
+        "MapIndexIcon": 3437,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": true,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_Map_MarkerChanged",
+          "EDS_KeyActionType::IA_Map_DeleteAllMarker",
+          "EDS_KeyActionType::IA_Map_OpenMarkerNote",
+          "EDS_KeyActionType::IA_Map_MarkerChatLink"
+        ]
+      },
+      "33": {
+        "ID": "EDS_MapIndexType::Marker05",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290005
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Marker",
+        "MapIndexPriority": 600000,
+        "MapIndexGroupID": 0,
+        "MapIndexIcon": 3438,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": true,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_Map_MarkerChanged",
+          "EDS_KeyActionType::IA_Map_DeleteAllMarker",
+          "EDS_KeyActionType::IA_Map_OpenMarkerNote",
+          "EDS_KeyActionType::IA_Map_MarkerChatLink"
+        ]
+      },
+      "34": {
+        "ID": "EDS_MapIndexType::LinkMarker",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290006
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Marker",
+        "MapIndexPriority": 100000,
+        "MapIndexGroupID": 0,
+        "MapIndexIcon": 3439,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": true,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "78": {
+        "ID": "EDS_MapIndexType::Inn",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290026
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::MapIndexSpawn",
+        "MapIndexPriority": 15000000,
+        "MapIndexGroupID": 130,
+        "MapIndexIcon": 3452,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": false,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": false,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "90": {
+        "ID": "EDS_MapIndexType::InnEntrance",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290026
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::MapIndexSpawn",
+        "MapIndexPriority": 15000000,
+        "MapIndexGroupID": 130,
+        "MapIndexIcon": 3452,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": false,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Select"
+        ]
+      },
+      "35": {
+        "ID": "EDS_MapIndexType::Dungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290007
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::MapIndexSpawn",
+        "MapIndexPriority": 12000000,
+        "MapIndexGroupID": 140,
+        "MapIndexIcon": 3440,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          2,
+          3
+        ],
+        "isShownInIndoorMap": false,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Select"
+        ]
+      },
+      "36": {
+        "ID": "EDS_MapIndexType::InstanceDungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290007
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::MapIndexSpawn",
+        "MapIndexPriority": 13000000,
+        "MapIndexGroupID": 150,
+        "MapIndexIcon": 3441,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          2,
+          3
+        ],
+        "isShownInIndoorMap": false,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "39": {
+        "ID": "EDS_MapIndexType::Detection",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290009
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Detection",
+        "MapIndexPriority": 700000,
+        "MapIndexGroupID": 210,
+        "MapIndexIcon": 3442,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "40": {
+        "ID": "EDS_MapIndexType::Boss",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290011
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 0,
+        "MapIndexIcon": 3443,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "42": {
+        "ID": "EDS_MapIndexType::ResurrectionPoint",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290021
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::MapIndexSpawn",
+        "MapIndexPriority": 20000000,
+        "MapIndexGroupID": 200,
+        "MapIndexIcon": 3444,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "46": {
+        "ID": "EDS_MapIndexType::WarpDevice01",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290008
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::WarpDevice",
+        "MapIndexPriority": 7100000,
+        "MapIndexGroupID": 71,
+        "MapIndexIcon": 3445,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Select"
+        ]
+      },
+      "47": {
+        "ID": "EDS_MapIndexType::WarpDevice02",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290008
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::WarpDevice",
+        "MapIndexPriority": 7200000,
+        "MapIndexGroupID": 71,
+        "MapIndexIcon": 3446,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Select"
+        ]
+      },
+      "63": {
+        "ID": "EDS_MapIndexType::WarpDevice",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290008
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::WarpDevice",
+        "MapIndexPriority": 7100000,
+        "MapIndexGroupID": 71,
+        "MapIndexIcon": 3445,
+        "ID_MapIndexIcon02": 3446,
+        "ID_MapIndexIcon03": 3462,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": [
+          "EDS_KeyActionType::IA_UI_Select"
+        ]
+      },
+      "22": {
+        "ID": "EDS_MapIndexType::ZoneIsland",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 0
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::None",
+        "MapIndexPriority": 2100000000,
+        "MapIndexGroupID": 21000,
+        "MapIndexIcon": 0,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1
+        ],
+        "isShownInIndoorMap": false,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": false,
+        "IconSpawnSize": 360.0,
+        "ID_KeyAction": []
+      },
+      "17": {
+        "ID": "EDS_MapIndexType::ZoneField",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290031
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::MapIndexSpawn",
+        "MapIndexPriority": 2000000000,
+        "MapIndexGroupID": 20000,
+        "MapIndexIcon": 3459,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": false,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": false,
+        "IconSpawnSize": 240.0,
+        "ID_KeyAction": []
+      },
+      "88": {
+        "ID": "EDS_MapIndexType::ZoneCitadel",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290031
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::MapIndexSpawn",
+        "MapIndexPriority": 2000000000,
+        "MapIndexGroupID": 20000,
+        "MapIndexIcon": 3460,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": false,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": false,
+        "IconSpawnSize": 240.0,
+        "ID_KeyAction": []
+      },
+      "89": {
+        "ID": "EDS_MapIndexType::ZoneRiver",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290031
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::MapIndexSpawn",
+        "MapIndexPriority": 2000000000,
+        "MapIndexGroupID": 20000,
+        "MapIndexIcon": 3461,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": false,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": false,
+        "IconSpawnSize": 240.0,
+        "ID_KeyAction": []
+      },
+      "23": {
+        "ID": "EDS_MapIndexType::ZoneDistrict",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 0
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::None",
+        "MapIndexPriority": 1900000000,
+        "MapIndexGroupID": 19000,
+        "MapIndexIcon": 0,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          2,
+          3
+        ],
+        "isShownInIndoorMap": false,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": false,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": false,
+        "IconSpawnSize": 160.0,
+        "ID_KeyAction": []
+      },
+      "61": {
+        "ID": "EDS_MapIndexType::SummonBossAltar",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 460002
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 7300000,
+        "MapIndexGroupID": 400,
+        "MapIndexIcon": 150101,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": []
+      },
+      "70": {
+        "ID": "EDS_MapIndexType::BreachBattleNormal",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 470001
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Breach",
+        "MapIndexPriority": 7400000,
+        "MapIndexGroupID": 300,
+        "MapIndexIcon": 210101,
+        "ID_MapIndexIcon02": 210111,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": []
+      },
+      "71": {
+        "ID": "EDS_MapIndexType::BreachBattleWave",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 470001
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Breach",
+        "MapIndexPriority": 7500000,
+        "MapIndexGroupID": 300,
+        "MapIndexIcon": 210102,
+        "ID_MapIndexIcon02": 210112,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": []
+      },
+      "72": {
+        "ID": "EDS_MapIndexType::BreachBattleBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 470001
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Breach",
+        "MapIndexPriority": 7600000,
+        "MapIndexGroupID": 300,
+        "MapIndexIcon": 210103,
+        "ID_MapIndexIcon02": 210113,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": []
+      },
+      "73": {
+        "ID": "EDS_MapIndexType::BreachGather",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 470001
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Breach",
+        "MapIndexPriority": 7700000,
+        "MapIndexGroupID": 300,
+        "MapIndexIcon": 210104,
+        "ID_MapIndexIcon02": 210114,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": []
+      },
+      "74": {
+        "ID": "EDS_MapIndexType::BreachMining",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 470001
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Breach",
+        "MapIndexPriority": 7800000,
+        "MapIndexGroupID": 300,
+        "MapIndexIcon": 210105,
+        "ID_MapIndexIcon02": 210115,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": []
+      },
+      "75": {
+        "ID": "EDS_MapIndexType::BreachMixed",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 470001
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Breach",
+        "MapIndexPriority": 7900000,
+        "MapIndexGroupID": 300,
+        "MapIndexIcon": 210106,
+        "ID_MapIndexIcon02": 210116,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": []
+      },
+      "41": {
+        "ID": "EDS_MapIndexType::WorldBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290018
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::WorldBoss",
+        "MapIndexPriority": 7000000,
+        "MapIndexGroupID": 500,
+        "MapIndexIcon": 3443,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": []
+      },
+      "76": {
+        "ID": "EDS_MapIndexType::Gate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 480001
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Gate",
+        "MapIndexPriority": 7100000,
+        "MapIndexGroupID": 310,
+        "MapIndexIcon": 230101,
+        "ID_MapIndexIcon02": 230111,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": false,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 120.0,
+        "ID_KeyAction": []
+      },
+      "79": {
+        "ID": "EDS_MapIndexType::QuestMainComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 0
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::QuestTitle",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 50,
+        "MapIndexIcon": 3453,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "80": {
+        "ID": "EDS_MapIndexType::QuestLocalAccept",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 0
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::QuestTitle",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 51,
+        "MapIndexIcon": 3454,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "81": {
+        "ID": "EDS_MapIndexType::QuestLocalComplete",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 0
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::QuestTitle",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 51,
+        "MapIndexIcon": 3455,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "82": {
+        "ID": "EDS_MapIndexType::QuestProgressLocation",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 0
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::QuestObjectiveTitle",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 54,
+        "MapIndexIcon": 3456,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          1,
+          2,
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "83": {
+        "ID": "EDS_MapIndexType::QuestRepeatLocation01",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290027
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 52,
+        "MapIndexIcon": 3457,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "84": {
+        "ID": "EDS_MapIndexType::QuestRepeatLocation02",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290028
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 52,
+        "MapIndexIcon": 3457,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "85": {
+        "ID": "EDS_MapIndexType::QuestRepeatLocation03",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290029
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 52,
+        "MapIndexIcon": 3457,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "86": {
+        "ID": "EDS_MapIndexType::QuestRepeatLocation04",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 290030
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::Npc",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 52,
+        "MapIndexIcon": 3457,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      },
+      "87": {
+        "ID": "EDS_MapIndexType::QuestDailyLocation",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MapIndexTypeName": {
+          "ID": 0
+        },
+        "MapIndexTextType": "EDS_MapIndexTextType::QuestDaily",
+        "MapIndexPriority": 5900000,
+        "MapIndexGroupID": 53,
+        "MapIndexIcon": 3458,
+        "ID_MapIndexIcon02": 0,
+        "ID_MapIndexIcon03": 0,
+        "isShownInWorldMap": true,
+        "WorldMapZoomStep": [
+          3
+        ],
+        "isShownInIndoorMap": true,
+        "isShownInRadar": true,
+        "isPanToLocationEnabled": true,
+        "isShownEvenOutOfRange": false,
+        "isShownHeight": true,
+        "IconSpawnSize": 60.0,
+        "ID_KeyAction": []
+      }
+    }
+  }
+]

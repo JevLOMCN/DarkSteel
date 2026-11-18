@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{88FDAA57-DD13-5244-A5C0-4CB9E2728B0D}</ProjectGuid><RootNamespace>ThirdParty_Draco</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include=".dir\draco_attributes.dir\Release\attribute_octahedron_transform.cpp" />
+    <ClCompile Include=".dir\draco_attributes.dir\Release\attribute_quantization_transform.cpp" />
+    <ClCompile Include=".dir\draco_attributes.dir\Release\attribute_transform.cpp" />
+    <ClCompile Include=".dir\draco_attributes.dir\Release\geometry_attribute.cpp" />
+    <ClCompile Include=".dir\draco_attributes.dir\Release\point_attribute.cpp" />
+    <ClCompile Include=".dir\draco_compression_attributes_dec.dir\Release\attributes_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_attributes_dec.dir\Release\kd_tree_attributes_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_attributes_dec.dir\Release\sequential_attribute_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_attributes_dec.dir\Release\sequential_attribute_decoders_controller.cpp" />
+    <ClCompile Include=".dir\draco_compression_attributes_dec.dir\Release\sequential_integer_attribute_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_attributes_dec.dir\Release\sequential_normal_attribute_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_attributes_dec.dir\Release\sequential_quantization_attribute_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_bit_coders.dir\Release\direct_bit_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_bit_coders.dir\Release\rans_bit_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_decode.dir\Release\decode.cpp" />
+    <ClCompile Include=".dir\draco_compression_entropy.dir\Release\symbol_decoding.cpp" />
+    <ClCompile Include=".dir\draco_compression_mesh_dec.dir\Release\mesh_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_mesh_dec.dir\Release\mesh_edgebreaker_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_mesh_dec.dir\Release\mesh_edgebreaker_decoder_impl.cpp" />
+    <ClCompile Include=".dir\draco_compression_mesh_dec.dir\Release\mesh_sequential_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_point_cloud_dec.dir\Release\point_cloud_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_point_cloud_dec.dir\Release\point_cloud_kd_tree_decoder.cpp" />
+    <ClCompile Include=".dir\draco_compression_point_cloud_dec.dir\Release\point_cloud_sequential_decoder.cpp" />
+    <ClCompile Include=".dir\draco_core.dir\Release\bit_utils.cpp" />
+    <ClCompile Include=".dir\draco_core.dir\Release\bounding_box.cpp" />
+    <ClCompile Include=".dir\draco_core.dir\Release\data_buffer.cpp" />
+    <ClCompile Include=".dir\draco_core.dir\Release\decoder_buffer.cpp" />
+    <ClCompile Include=".dir\draco_core.dir\Release\draco_types.cpp" />
+    <ClCompile Include=".dir\draco_core.dir\Release\options.cpp" />
+    <ClCompile Include=".dir\draco_core.dir\Release\quantization_utils.cpp" />
+    <ClCompile Include=".dir\draco_mesh.dir\Release\corner_table.cpp" />
+    <ClCompile Include=".dir\draco_mesh.dir\Release\mesh.cpp" />
+    <ClCompile Include=".dir\draco_mesh.dir\Release\mesh_attribute_corner_table.cpp" />
+    <ClCompile Include=".dir\draco_metadata.dir\Release\geometry_metadata.cpp" />
+    <ClCompile Include=".dir\draco_metadata.dir\Release\metadata.cpp" />
+    <ClCompile Include=".dir\draco_metadata_dec.dir\Release\metadata_decoder.cpp" />
+    <ClCompile Include=".dir\draco_point_cloud.dir\Release\point_cloud.cpp" />
+    <ClCompile Include=".dir\draco_points_dec.dir\Release\dynamic_integer_points_kd_tree_decoder.cpp" />
+    <ClCompile Include=".dir\draco_points_dec.dir\Release\float_points_tree_decoder.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

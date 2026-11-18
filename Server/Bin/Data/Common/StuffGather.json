@@ -1,0 +1,6256 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StuffGather",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StuffGather",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StuffGatherTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": false,
+        "GatherMinCount": 10,
+        "GatherMaxCount": 100,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": false,
+        "GatherMinCount": 6,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 2002001,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 2002002,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 500101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 600201,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "1017": {
+        "ID": 1017,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1018": {
+        "ID": 1018,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1021": {
+        "ID": 1021,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::MeshAll",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining",
+          "EDS_PlayerSkillTypeStuff::Detection",
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Myth",
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1022": {
+        "ID": 1022,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 500101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting",
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1023": {
+        "ID": 1023,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 600201,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging",
+          "EDS_PlayerSkillTypeStuff::Detection"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1024": {
+        "ID": 1024,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::Default",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Detection",
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1025": {
+        "ID": 1025,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::Default",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology",
+          "EDS_PlayerSkillTypeStuff::Detection",
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1026": {
+        "ID": 1026,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining",
+          "EDS_PlayerSkillTypeStuff::Detection",
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1027": {
+        "ID": 1027,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 500101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting",
+          "EDS_PlayerSkillTypeStuff::Detection",
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1028": {
+        "ID": 1028,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 600201,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging",
+          "EDS_PlayerSkillTypeStuff::Detection",
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1029": {
+        "ID": 1029,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Detection",
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1030": {
+        "ID": 1030,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology",
+          "EDS_PlayerSkillTypeStuff::Detection",
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1031": {
+        "ID": 1031,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1032": {
+        "ID": 1032,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::ActionPoint",
+        "CostTicketValue": 50,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Myth"
+        ]
+      },
+      "1033": {
+        "ID": 1033,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [
+          990110001
+        ],
+        "CostItemValue": [
+          1
+        ],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1034": {
+        "ID": 1034,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::ActionPoint",
+        "CostTicketValue": 50,
+        "ID_CostItem": [
+          990110001
+        ],
+        "CostItemValue": [
+          1
+        ],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1035": {
+        "ID": 1035,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1036": {
+        "ID": 1036,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1037": {
+        "ID": 1037,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          3
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1038": {
+        "ID": 1038,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          4
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1039": {
+        "ID": 1039,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          5
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1040": {
+        "ID": 1040,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          6
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1041": {
+        "ID": 1041,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          7
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1042": {
+        "ID": 1042,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          8
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1043": {
+        "ID": 1043,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          9
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1044": {
+        "ID": 1044,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          10
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "1045": {
+        "ID": 1045,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 3,
+        "GatherMaxPeopleNumber": 3,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1046": {
+        "ID": 1046,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 3,
+        "GatherMaxPeopleNumber": 3,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1047": {
+        "ID": 1047,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 3,
+        "GatherMaxPeopleNumber": 3,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1048": {
+        "ID": 1048,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1049": {
+        "ID": 1049,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1050": {
+        "ID": 1050,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "1051": {
+        "ID": 1051,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "10000": {
+        "ID": 10000,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 4,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "110101": {
+        "ID": 110101,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": false,
+        "GatherMinCount": 6,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 300101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "110102": {
+        "ID": 110102,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": false,
+        "GatherMinCount": 6,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 300201,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "310101": {
+        "ID": 310101,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "410101": {
+        "ID": 410101,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 1106,
+        "ID_DropGroup": 500101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "410102": {
+        "ID": 410102,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 500102,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "510101": {
+        "ID": 510101,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 500102,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "610101": {
+        "ID": 610101,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": false,
+        "GatherMinCount": 10,
+        "GatherMaxCount": 100,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "710101": {
+        "ID": 710101,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "900001": {
+        "ID": 900001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "900002": {
+        "ID": 900002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "10000000": {
+        "ID": 10000000,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "10000001": {
+        "ID": 10000001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "10000002": {
+        "ID": 10000002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "10000003": {
+        "ID": 10000003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "10000004": {
+        "ID": 10000004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "30000001": {
+        "ID": 30000001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 60.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "40000010": {
+        "ID": 40000010,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::None",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::MeshAll",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Detection"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::None"
+        ]
+      },
+      "40000011": {
+        "ID": 40000011,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::None",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "40101111": {
+        "ID": 40101111,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 2,
+        "GatherMaxCount": 2,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000004,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "40101121": {
+        "ID": 40101121,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 2,
+        "GatherMaxCount": 2,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000001,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "40101102": {
+        "ID": 40101102,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 2,
+        "GatherMaxCount": 2,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000010,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "40101112": {
+        "ID": 40101112,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 2,
+        "GatherMaxCount": 2,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000004,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "40101122": {
+        "ID": 40101122,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 2,
+        "GatherMaxCount": 2,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000003,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "40101103": {
+        "ID": 40101103,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 2,
+        "GatherMaxCount": 2,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000010,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "40101113": {
+        "ID": 40101113,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 2,
+        "GatherMaxCount": 2,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000004,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "40101123": {
+        "ID": 40101123,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 2,
+        "GatherMaxCount": 2,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000003,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "42101002": {
+        "ID": 42101002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000001,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "42101003": {
+        "ID": 42101003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000003,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "42101004": {
+        "ID": 42101004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::None",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 0,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Detection"
+        ],
+        "PlayerSKillLevel": [
+          50
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::None"
+        ]
+      },
+      "42101005": {
+        "ID": 42101005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::None",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 0,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "42101006": {
+        "ID": 42101006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::None",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "42101007": {
+        "ID": 42101007,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000004,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::MeshAll",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Detection",
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1,
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::None",
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "67003001": {
+        "ID": 67003001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "67003002": {
+        "ID": 67003002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "67003003": {
+        "ID": 67003003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "67003004": {
+        "ID": 67003004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "10200001": {
+        "ID": 10200001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Air",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 400101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "10200002": {
+        "ID": 10200002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 5,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 500101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "270031001": {
+        "ID": 270031001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "270031002": {
+        "ID": 270031002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "270031003": {
+        "ID": 270031003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "270031004": {
+        "ID": 270031004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::DungeonReward",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 700101,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "210021001": {
+        "ID": 210021001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000004,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210021002": {
+        "ID": 210021002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000001,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210021003": {
+        "ID": 210021003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000010,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210021004": {
+        "ID": 210021004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000016,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::None"
+        ]
+      },
+      "210021005": {
+        "ID": 210021005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000007,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210021006": {
+        "ID": 210021006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210021007": {
+        "ID": 210021007,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000013,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210022001": {
+        "ID": 210022001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000006,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022002": {
+        "ID": 210022002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000003,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022003": {
+        "ID": 210022003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000012,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022004": {
+        "ID": 210022004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000018,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022005": {
+        "ID": 210022005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000009,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022006": {
+        "ID": 210022006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022007": {
+        "ID": 210022007,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000015,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022008": {
+        "ID": 210022008,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000005,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022009": {
+        "ID": 210022009,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000002,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022010": {
+        "ID": 210022010,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000011,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022011": {
+        "ID": 210022011,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000017,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022012": {
+        "ID": 210022012,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000008,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022013": {
+        "ID": 210022013,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210022014": {
+        "ID": 210022014,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000014,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210031001": {
+        "ID": 210031001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000004,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210031002": {
+        "ID": 210031002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000001,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210031003": {
+        "ID": 210031003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000010,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210031004": {
+        "ID": 210031004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000016,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210031005": {
+        "ID": 210031005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000007,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210031006": {
+        "ID": 210031006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210031007": {
+        "ID": 210031007,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000013,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210032001": {
+        "ID": 210032001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000006,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032002": {
+        "ID": 210032002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000003,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032003": {
+        "ID": 210032003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000012,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032004": {
+        "ID": 210032004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000018,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032005": {
+        "ID": 210032005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000009,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032006": {
+        "ID": 210032006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032007": {
+        "ID": 210032007,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000015,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032008": {
+        "ID": 210032008,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000005,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032009": {
+        "ID": 210032009,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000002,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032010": {
+        "ID": 210032010,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000011,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032011": {
+        "ID": 210032011,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000017,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032012": {
+        "ID": 210032012,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000008,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032013": {
+        "ID": 210032013,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210032014": {
+        "ID": 210032014,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000014,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210041001": {
+        "ID": 210041001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000004,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210041002": {
+        "ID": 210041002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000003,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210041003": {
+        "ID": 210041003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000010,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210041004": {
+        "ID": 210041004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000001,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210041005": {
+        "ID": 210041005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000007,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210041006": {
+        "ID": 210041006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210041007": {
+        "ID": 210041007,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000013,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210042001": {
+        "ID": 210042001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000006,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042002": {
+        "ID": 210042002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000003,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042003": {
+        "ID": 210042003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000012,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042004": {
+        "ID": 210042004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000018,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042005": {
+        "ID": 210042005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000009,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042006": {
+        "ID": 210042006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042007": {
+        "ID": 210042007,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000015,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042008": {
+        "ID": 210042008,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000005,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042009": {
+        "ID": 210042009,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000002,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042010": {
+        "ID": 210042010,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000011,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042011": {
+        "ID": 210042011,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000017,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042012": {
+        "ID": 210042012,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000008,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042013": {
+        "ID": 210042013,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210042014": {
+        "ID": 210042014,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000014,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210051001": {
+        "ID": 210051001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000004,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210051002": {
+        "ID": 210051002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000003,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210051003": {
+        "ID": 210051003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000010,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210051004": {
+        "ID": 210051004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000016,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210051005": {
+        "ID": 210051005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000001,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210051006": {
+        "ID": 210051006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210051007": {
+        "ID": 210051007,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000013,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "210052001": {
+        "ID": 210052001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000006,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052002": {
+        "ID": 210052002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000003,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052003": {
+        "ID": 210052003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000012,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052004": {
+        "ID": 210052004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000018,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052005": {
+        "ID": 210052005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 7,
+        "GatherMaxCount": 7,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000009,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052006": {
+        "ID": 210052006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052007": {
+        "ID": 210052007,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000015,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          2
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052008": {
+        "ID": 210052008,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000005,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052009": {
+        "ID": 210052009,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000002,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052010": {
+        "ID": 210052010,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Tree",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 3,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000011,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Logging"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052011": {
+        "ID": 210052011,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000017,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::OpenLocks"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052012": {
+        "ID": 210052012,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Water",
+        "StuffGatherType": "EDS_StuffGatherType::UnderWaterStuff",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": true,
+        "GatherMinCount": 5,
+        "GatherMaxCount": 5,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000008,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052013": {
+        "ID": 210052013,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "210052014": {
+        "ID": 210052014,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Archaeology",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": true,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 510000014,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Archaeology"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::High"
+        ]
+      },
+      "670030001": {
+        "ID": 670030001,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "670030002": {
+        "ID": 670030002,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Box",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 4,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "670030003": {
+        "ID": 670030003,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 0,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [],
+        "PlayerSKillLevel": [],
+        "PlayerSkillGrade": []
+      },
+      "670030004": {
+        "ID": 670030004,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Stone",
+        "InitTime": 1.0,
+        "DieTime": 6.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 1,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Mining"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "670030005": {
+        "ID": 670030005,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::Plant",
+        "InitTime": 1.0,
+        "DieTime": 5.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 2,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Harvesting"
+        ],
+        "PlayerSKillLevel": [
+          1
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal"
+        ]
+      },
+      "670030006": {
+        "ID": 670030006,
+        "DataStage": 23,
+        "StuffLocationType": "EDS_StuffLocationType::Land",
+        "StuffGatherType": "EDS_StuffGatherType::None",
+        "InitTime": 1.0,
+        "DieTime": 1.0,
+        "Lifetime": 0.0,
+        "IsImmediatelyDelete": false,
+        "GatherAniType": 0,
+        "IsContinuous": false,
+        "GatherMinCount": 1,
+        "GatherMaxCount": 1,
+        "GatherMaxPeopleNumber": 1,
+        "CostTicketType": "EDS_TicketType::None",
+        "CostTicketValue": 0,
+        "ID_CostItem": [],
+        "CostItemValue": [],
+        "StuffQuestGroup": 0,
+        "ID_DropGroup": 0,
+        "IsCasting": false,
+        "CastingRange": 0.0,
+        "ID_CastingMessage": {
+          "ID": 0
+        },
+        "DetectionHiddenType": "EDS_DetectionHiddenType::None",
+        "PlayerSkillType": [
+          "EDS_PlayerSkillTypeStuff::Detection"
+        ],
+        "PlayerSKillLevel": [
+          50
+        ],
+        "PlayerSkillGrade": [
+          "EDS_GradeType::None"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{F1E19BED-A66B-5E53-9C7A-0D0BA2F80817}</ProjectGuid><RootNamespace>ClothingSystemRuntimeCommon</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FClothConfig_Legacy.cpp" />
+    <ClCompile Include="Private\FClothConstraintSetup_Legacy.cpp" />
+    <ClCompile Include="Private\FClothLODDataCommon.cpp" />
+    <ClCompile Include="Private\FClothParameterMask_Legacy.cpp" />
+    <ClCompile Include="Private\FClothPhysicalMeshData.cpp" />
+    <ClCompile Include="Private\FClothTetherData.cpp" />
+    <ClCompile Include="Private\FClothTetherDataPrivate.cpp" />
+    <ClCompile Include="Private\FClothingSimulationCommon.cpp" />
+    <ClCompile Include="Private\FClothingSimulationContextCommon.cpp" />
+    <ClCompile Include="Private\FClothingSystemRuntimeCommonModule.cpp" />
+    <ClCompile Include="Private\FMeshToMeshVertData.cpp" />
+    <ClCompile Include="Private\FPointWeightMap.cpp" />
+    <ClCompile Include="Private\FSplitInfo.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FText.cpp" />
+    <ClCompile Include="Private\FThreadSafeStaticStatInner.cpp" />
+    <ClCompile Include="Private\FVertexParameterMapper.cpp" />
+    <ClCompile Include="Private\TAABBTree.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayAsMap.cpp" />
+    <ClCompile Include="Private\TArrayPrivateFriend.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TPlane.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTuple.cpp" />
+    <ClCompile Include="Private\UClothConfigCommon.cpp" />
+    <ClCompile Include="Private\UClothLODDataCommon_Legacy.cpp" />
+    <ClCompile Include="Private\UClothSharedConfigCommon.cpp" />
+    <ClCompile Include="Private\UClothingAssetCommon.cpp" />
+    <ClCompile Include="Private\UClothingAssetCustomData.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UObjectBaseUtility.cpp" />
+    <ClCompile Include="Private\_Free\Module.ClothingSystemRuntimeCommon.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

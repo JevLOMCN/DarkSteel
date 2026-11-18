@@ -1,0 +1,25 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "InventoryType.proto";
+
+message SqlItemEquipmentTable {
+  int64 player_uid = 1;
+  int64 item_uid = 2;
+  int32 item_id = 3;
+  InventoryType inventory_type = 4;
+  bool is_trade = 5;
+  int32 ascend = 6;
+  int32 level = 7;
+  int32 exp = 8;
+  bool is_lock = 9;
+  int32 prefix = 10;
+  int32 passive_skill_id = 11;
+  repeated int32 item_gem_socket_tid = 12;
+  repeated int32 gem_tid = 13;
+  int32 set_effect_tid = 14;
+  int32 fusion = 15;
+  int32 durability = 16;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{BD764E55-3B08-5E88-8814-7927CE61709C}</ProjectGuid><RootNamespace>StateStream</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FPow2ChunkedArray.cpp" />
+    <ClCompile Include="Private\FStateStreamCreator.cpp" />
+    <ClCompile Include="Private\FStateStreamHandle.cpp" />
+    <ClCompile Include="Private\FStateStreamManagerImpl.cpp" />
+    <ClCompile Include="Private\FStateStreamRegisterContext.cpp" />
+    <ClCompile Include="Private\FTransformDynamicState.cpp" />
+    <ClCompile Include="Private\FTransformHandle.cpp" />
+    <ClCompile Include="Private\FTransformObject.cpp" />
+    <ClCompile Include="Private\FTransformStateStreamImpl.cpp" />
+    <ClCompile Include="Private\FTransformStaticState.cpp" />
+    <ClCompile Include="Private\IStateStream.cpp" />
+    <ClCompile Include="Private\IStateStreamManager.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TExecutableTaskBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TRefCountingMixin.cpp" />
+    <ClCompile Include="Private\TStateStream.cpp" />
+    <ClCompile Include="Private\TStateStreamStore.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.StateStream.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

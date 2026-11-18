@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{AF050615-5C79-520C-AEEC-34BD76882A68}</ProjectGuid><RootNamespace>NiagaraNanite</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FComputeShaderUtils.cpp" />
+    <ClCompile Include="Private\FNiagaraDataSetReaderFloat.cpp" />
+    <ClCompile Include="Private\FNiagaraFloatParameterComponentBinding.cpp" />
+    <ClCompile Include="Private\FNiagaraNaniteMICOverride.cpp" />
+    <ClCompile Include="Private\FNiagaraNaniteMaterialOverride.cpp" />
+    <ClCompile Include="Private\FNiagaraNaniteMeshRendererMeshProperties.cpp" />
+    <ClCompile Include="Private\FNiagaraNaniteModule.cpp" />
+    <ClCompile Include="Private\FNiagaraParameterComponentBinding.cpp" />
+    <ClCompile Include="Private\FNiagaraParameterStore.cpp" />
+    <ClCompile Include="Private\FNiagaraRendererNanite.cpp" />
+    <ClCompile Include="Private\FRDGBuilder.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FUpdateInstancesContext.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TRDGLambdaPass.cpp" />
+    <ClCompile Include="Private\TShaderRefBase.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UNiagaraNaniteRendererProperties.cpp" />
+    <ClCompile Include="Private\UNiagaraRendererProperties.cpp" />
+    <ClCompile Include="Private\UNiagaraStaticMeshComponent.cpp" />
+    <ClCompile Include="Private\_Free\Module.NiagaraNanite.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

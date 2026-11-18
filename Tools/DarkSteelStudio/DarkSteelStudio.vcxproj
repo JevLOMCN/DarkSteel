@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7F3A2D1-6B4E-4E9A-8D21-5F0B7C9E3A62}</ProjectGuid>
+    <RootNamespace>DarkSteelStudio</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(WindowsTargetPlatformVersion)'==''">10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_UNICODE;UNICODE;_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary Condition="'$(Configuration)'=='Debug'">MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary Condition="'$(Configuration)'=='Release'">MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir)external\rapidjson\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\mysql-connector-c\prebuilt\windows;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <!--
+        The XAML is NOT compiled into the exe (vcxproj has no BAML step) - it is
+        loaded from a "Xaml" folder next to the executable at runtime, so it
+        must travel with the build output. Edit the .xaml files, rebuild (or
+        just re-run this copy) and press F5 in the app to reload the UI.
+      -->
+      <Command>copy /Y "$(ProjectDir)DarkSteelStudio.config.json" "$(TargetDir)DarkSteelStudio.config.json"
+if exist "$(ProjectDir)external\mysql-connector-c\prebuilt\windows\libmysql.dll" copy /Y "$(ProjectDir)external\mysql-connector-c\prebuilt\windows\libmysql.dll" "$(TargetDir)libmysql.dll"
+xcopy /Y /I /E "$(ProjectDir)Xaml\*" "$(TargetDir)Xaml\"</Command>
+      <Message>Running '$(TargetName)' post-build-event ...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CodexCatalog.h" />
+    <ClInclude Include="CodexIconCache.h" />
+    <ClInclude Include="CodexModels.h" />
+    <ClInclude Include="CharacterWindow.h" />
+    <ClInclude Include="ConfigEditorWindow.h" />
+    <ClInclude Include="DbBridge.h" />
+    <ClInclude Include="DbBrowser.h" />
+    <ClInclude Include="GameDataBridge.h" />
+    <ClInclude Include="ItemBrowser.h" />
+    <ClInclude Include="ClientPanel.h" />
+    <ClInclude Include="GameDataEnums.h" />
+    <ClInclude Include="GameDataStore.h" />
+    <ClInclude Include="StageMapData.h" />
+    <ClInclude Include="MainWindow.h" />
+    <ClInclude Include="StageMapWindow.h" />
+    <ClInclude Include="MySqlClient.h" />
+    <ClInclude Include="PlayerAdmin.h" />
+    <ClInclude Include="ClassIcons.h" />
+    <ClInclude Include="StudioLog.h" />
+    <ClInclude Include="StudioLogNative.h" />
+    <ClInclude Include="ServerControl.h" />
+    <ClInclude Include="StudioSettings.h" />
+    <ClInclude Include="ToolConfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="CodexCatalog.cpp" />
+    <ClCompile Include="CodexIconCache.cpp" />
+    <ClCompile Include="CharacterWindow.cpp" />
+    <ClCompile Include="ConfigEditorWindow.cpp" />
+    <ClCompile Include="DbBridge.cpp" />
+    <ClCompile Include="DbBrowser.cpp" />
+    <ClCompile Include="GameDataBridge.cpp" />
+    <ClCompile Include="ItemBrowser.cpp" />
+    <ClCompile Include="ClientPanel.cpp" />
+    <ClCompile Include="GameDataStore.cpp" />
+    <ClCompile Include="MySqlClient.cpp">
+      <AdditionalIncludeDirectories>$(ProjectDir)external\mysql-connector-c\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="PlayerAdmin.cpp" />
+    <ClCompile Include="ClassIcons.cpp" />
+    <ClCompile Include="StudioLog.cpp" />
+    <ClCompile Include="ServerControl.cpp" />
+    <ClCompile Include="StageMapData.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="StageMapWindow.cpp" />
+    <ClCompile Include="ToolConfig.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DarkSteelStudio.config.json" />
+    <None Include="README.md" />
+    <None Include="Xaml\Theme.xaml" />
+    <None Include="Xaml\MainWindow.xaml" />
+    <None Include="Xaml\CharacterWindow.xaml" />
+    <None Include="Xaml\ConfigEditorWindow.xaml" />
+    <None Include="Xaml\StageMapWindow.xaml" />
+    <None Include="Xaml\Pages\Servers.xaml" />
+    <None Include="Xaml\Pages\Client.xaml" />
+    <None Include="Xaml\Pages\Accounts.xaml" />
+    <None Include="Xaml\Pages\Characters.xaml" />
+    <None Include="Xaml\Pages\ItemsMail.xaml" />
+    <None Include="Xaml\Pages\GameData.xaml" />
+    <None Include="Xaml\Pages\Database.xaml" />
+    <None Include="Xaml\Pages\DatabaseBrowser.xaml" />
+    <None Include="Xaml\Pages\Settings.xaml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
+
+
+

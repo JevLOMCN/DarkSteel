@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{44B0C990-270B-588B-8A1C-C6E083723B48}</ProjectGuid><RootNamespace>DragonIKPlugin</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AActor.cpp" />
+    <ClCompile Include="Private\ADragonIKPhysicsHolder.cpp" />
+    <ClCompile Include="Private\FAnimNode_ChineseDragonSolver.cpp" />
+    <ClCompile Include="Private\FAnimNode_DragonAimSolver.cpp" />
+    <ClCompile Include="Private\FAnimNode_DragonControlBase.cpp" />
+    <ClCompile Include="Private\FAnimNode_DragonFabrikSolver.cpp" />
+    <ClCompile Include="Private\FAnimNode_DragonFeetSolver.cpp" />
+    <ClCompile Include="Private\FAnimNode_DragonPhysicsSolver.cpp" />
+    <ClCompile Include="Private\FAnimNode_DragonSpineSolver.cpp" />
+    <ClCompile Include="Private\FAnimNode_DragonTwistArmSolver.cpp" />
+    <ClCompile Include="Private\FAnimNode_DragonWarpSolver.cpp" />
+    <ClCompile Include="Private\FAnimNode_DragonWeaponArmSolver.cpp" />
+    <ClCompile Include="Private\FBoneDragonSocketTarget.cpp" />
+    <ClCompile Include="Private\FCCDIK_Modified_ChainLink.cpp" />
+    <ClCompile Include="Private\FChinaDragonChainLink.cpp" />
+    <ClCompile Include="Private\FCollisionQueryParams.cpp" />
+    <ClCompile Include="Private\FDragonData_AimSolver_SkeletonInput.cpp" />
+    <ClCompile Include="Private\FDragonData_ArmSizeStruct.cpp" />
+    <ClCompile Include="Private\FDragonData_ArmsData.cpp" />
+    <ClCompile Include="Private\FDragonData_BoneStruct.cpp" />
+    <ClCompile Include="Private\FDragonData_ChineseDragonBoneInput.cpp" />
+    <ClCompile Include="Private\FDragonData_CustomArmLengths.cpp" />
+    <ClCompile Include="Private\FDragonData_CustomLimbClamp.cpp" />
+    <ClCompile Include="Private\FDragonData_ElbowOffset_Struct.cpp" />
+    <ClCompile Include="Private\FDragonData_FeetAlpha_Struct.cpp" />
+    <ClCompile Include="Private\FDragonData_FeetOffset_Struct.cpp" />
+    <ClCompile Include="Private\FDragonData_FingerData.cpp" />
+    <ClCompile Include="Private\FDragonData_FootData.cpp" />
+    <ClCompile Include="Private\FDragonData_FootPairData.cpp" />
+    <ClCompile Include="Private\FDragonData_HitPairs.cpp" />
+    <ClCompile Include="Private\FDragonData_MultiInput.cpp" />
+    <ClCompile Include="Private\FDragonData_Overrided_Location_Data.cpp" />
+    <ClCompile Include="Private\FDragonData_PhysicsBoneStrip.cpp" />
+    <ClCompile Include="Private\FDragonData_PhysicsHandleMultiplier.cpp" />
+    <ClCompile Include="Private\FDragonData_PhysicsParentRelationship.cpp" />
+    <ClCompile Include="Private\FDragonData_SingleArmElement.cpp" />
+    <ClCompile Include="Private\FDragonData_SpineFeetPair.cpp" />
+    <ClCompile Include="Private\FDragonData_SpineFeetPair_TRANSFORM_WSPACE.cpp" />
+    <ClCompile Include="Private\FDragonData_StickyFeetStruct.cpp" />
+    <ClCompile Include="Private\FDragonData_StickySocketStruct.cpp" />
+    <ClCompile Include="Private\FDragonData_Type2MultiInput.cpp" />
+    <ClCompile Include="Private\FDragonData_WarpLimbStruct.cpp" />
+    <ClCompile Include="Private\FDragonData_WarpLimbsData.cpp" />
+    <ClCompile Include="Private\FDragonIKPluginModule.cpp" />
+    <ClCompile Include="Private\FDragonIKTraceKeyValuePair.cpp" />
+    <ClCompile Include="Private\FDragonIKTraceMParams.cpp" />
+    <ClCompile Include="Private\FDragonIKTraceParamKeyValuePair.cpp" />
+    <ClCompile Include="Private\FMath.cpp" />
+    <ClCompile Include="Private\FRuntimeFloatCurve.cpp" />
+    <ClCompile Include="Private\FSocketDragonReference.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseDynamicDelegate.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\UDragonIKFootStepsComponent.cpp" />
+    <ClCompile Include="Private\UDragonIKPhysicsComponent.cpp" />
+    <ClCompile Include="Private\UDragonIKTraceManagerComponent.cpp" />
+    <ClCompile Include="Private\UDragonIKWeaponPhysicsComponent.cpp" />
+    <ClCompile Include="Private\UDragonIK_Library.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UKismetMathLibrary.cpp" />
+    <ClCompile Include="Private\_Free\Module.DragonIKPlugin.1.cpp" />
+    <ClCompile Include="Private\_Free\Module.DragonIKPlugin.2.cpp" />
+    <ClCompile Include="Private\_Free\Module.DragonIKPlugin.3.cpp" />
+    <ClCompile Include="Private\_Free\Module.DragonIKPlugin.4.cpp" />
+    <ClCompile Include="Private\_Free\Module.DragonIKPlugin.5.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

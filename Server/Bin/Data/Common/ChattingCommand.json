@@ -1,0 +1,888 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ChattingCommand",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ChattingCommand",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ChattingCommandTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::World",
+        "CommandType": "EDS_CommandType::World",
+        "ID_CommandName": {
+          "ID": 51001
+        },
+        "ID_Command": {
+          "ID": 288001
+        }
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::World",
+        "CommandType": "EDS_CommandType::World",
+        "ID_CommandName": {
+          "ID": 51021
+        },
+        "ID_Command": {
+          "ID": 288002
+        }
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::World",
+        "CommandType": "EDS_CommandType::World",
+        "ID_CommandName": {
+          "ID": 51041
+        },
+        "ID_Command": {
+          "ID": 288003
+        }
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::ZoneGroup",
+        "CommandType": "EDS_CommandType::ZoneGroup",
+        "ID_CommandName": {
+          "ID": 51061
+        },
+        "ID_Command": {
+          "ID": 288011
+        }
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::ZoneGroup",
+        "CommandType": "EDS_CommandType::ZoneGroup",
+        "ID_CommandName": {
+          "ID": 51081
+        },
+        "ID_Command": {
+          "ID": 288012
+        }
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::ZoneGroup",
+        "CommandType": "EDS_CommandType::ZoneGroup",
+        "ID_CommandName": {
+          "ID": 51101
+        },
+        "ID_Command": {
+          "ID": 288013
+        }
+      },
+      "21": {
+        "ID": 21,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::Zone",
+        "CommandType": "EDS_CommandType::Zone",
+        "ID_CommandName": {
+          "ID": 51121
+        },
+        "ID_Command": {
+          "ID": 288021
+        }
+      },
+      "22": {
+        "ID": 22,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::Zone",
+        "CommandType": "EDS_CommandType::Zone",
+        "ID_CommandName": {
+          "ID": 51141
+        },
+        "ID_Command": {
+          "ID": 288022
+        }
+      },
+      "23": {
+        "ID": 23,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::Zone",
+        "CommandType": "EDS_CommandType::Zone",
+        "ID_CommandName": {
+          "ID": 51161
+        },
+        "ID_Command": {
+          "ID": 288023
+        }
+      },
+      "31": {
+        "ID": 31,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::Party",
+        "CommandType": "EDS_CommandType::Party",
+        "ID_CommandName": {
+          "ID": 51181
+        },
+        "ID_Command": {
+          "ID": 288031
+        }
+      },
+      "32": {
+        "ID": 32,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::Party",
+        "CommandType": "EDS_CommandType::Party",
+        "ID_CommandName": {
+          "ID": 51201
+        },
+        "ID_Command": {
+          "ID": 288032
+        }
+      },
+      "33": {
+        "ID": 33,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::Party",
+        "CommandType": "EDS_CommandType::Party",
+        "ID_CommandName": {
+          "ID": 51221
+        },
+        "ID_Command": {
+          "ID": 288033
+        }
+      },
+      "41": {
+        "ID": 41,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::RaidParty",
+        "CommandType": "EDS_CommandType::RaidParty",
+        "ID_CommandName": {
+          "ID": 51241
+        },
+        "ID_Command": {
+          "ID": 288041
+        }
+      },
+      "42": {
+        "ID": 42,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::RaidParty",
+        "CommandType": "EDS_CommandType::RaidParty",
+        "ID_CommandName": {
+          "ID": 51261
+        },
+        "ID_Command": {
+          "ID": 288042
+        }
+      },
+      "43": {
+        "ID": 43,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::RaidParty",
+        "CommandType": "EDS_CommandType::RaidParty",
+        "ID_CommandName": {
+          "ID": 51281
+        },
+        "ID_Command": {
+          "ID": 288043
+        }
+      },
+      "51": {
+        "ID": 51,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::Guild",
+        "CommandType": "EDS_CommandType::Guild",
+        "ID_CommandName": {
+          "ID": 51301
+        },
+        "ID_Command": {
+          "ID": 288051
+        }
+      },
+      "52": {
+        "ID": 52,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::ChattingChannel",
+        "ChattingType": "EDS_ChattingType::Guild",
+        "CommandType": "EDS_CommandType::Guild",
+        "ID_CommandName": {
+          "ID": 51321
+        },
+        "ID_Command": {
+          "ID": 288052
+        }
+      },
+      "53": {
+        "ID": 53,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Guild",
+        "CommandType": "EDS_CommandType::Guild",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288053
+        }
+      },
+      "61": {
+        "ID": 61,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Whisper",
+        "CommandType": "EDS_CommandType::Whisper",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288061
+        }
+      },
+      "62": {
+        "ID": 62,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Whisper",
+        "CommandType": "EDS_CommandType::Whisper",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288062
+        }
+      },
+      "63": {
+        "ID": 63,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Whisper",
+        "CommandType": "EDS_CommandType::Whisper",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288063
+        }
+      },
+      "71": {
+        "ID": 71,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group1",
+        "CommandType": "EDS_CommandType::Group1",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288071
+        }
+      },
+      "72": {
+        "ID": 72,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group1",
+        "CommandType": "EDS_CommandType::Group1",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288072
+        }
+      },
+      "73": {
+        "ID": 73,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group1",
+        "CommandType": "EDS_CommandType::Group1",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288073
+        }
+      },
+      "81": {
+        "ID": 81,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group2",
+        "CommandType": "EDS_CommandType::Group2",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288081
+        }
+      },
+      "82": {
+        "ID": 82,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group2",
+        "CommandType": "EDS_CommandType::Group2",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288082
+        }
+      },
+      "83": {
+        "ID": 83,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group2",
+        "CommandType": "EDS_CommandType::Group2",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288083
+        }
+      },
+      "91": {
+        "ID": 91,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group3",
+        "CommandType": "EDS_CommandType::Group3",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288091
+        }
+      },
+      "92": {
+        "ID": 92,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group3",
+        "CommandType": "EDS_CommandType::Group3",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288092
+        }
+      },
+      "93": {
+        "ID": 93,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group3",
+        "CommandType": "EDS_CommandType::Group3",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288093
+        }
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group4",
+        "CommandType": "EDS_CommandType::Group4",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288101
+        }
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group4",
+        "CommandType": "EDS_CommandType::Group4",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288102
+        }
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group4",
+        "CommandType": "EDS_CommandType::Group4",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288103
+        }
+      },
+      "111": {
+        "ID": 111,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group5",
+        "CommandType": "EDS_CommandType::Group5",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288111
+        }
+      },
+      "112": {
+        "ID": 112,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group5",
+        "CommandType": "EDS_CommandType::Group5",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288112
+        }
+      },
+      "113": {
+        "ID": 113,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group5",
+        "CommandType": "EDS_CommandType::Group5",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288113
+        }
+      },
+      "121": {
+        "ID": 121,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group6",
+        "CommandType": "EDS_CommandType::Group6",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288121
+        }
+      },
+      "122": {
+        "ID": 122,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group6",
+        "CommandType": "EDS_CommandType::Group6",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288122
+        }
+      },
+      "123": {
+        "ID": 123,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group6",
+        "CommandType": "EDS_CommandType::Group6",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288123
+        }
+      },
+      "131": {
+        "ID": 131,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group7",
+        "CommandType": "EDS_CommandType::Group7",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288131
+        }
+      },
+      "132": {
+        "ID": 132,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group7",
+        "CommandType": "EDS_CommandType::Group7",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288132
+        }
+      },
+      "133": {
+        "ID": 133,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group7",
+        "CommandType": "EDS_CommandType::Group7",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288133
+        }
+      },
+      "141": {
+        "ID": 141,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group8",
+        "CommandType": "EDS_CommandType::Group8",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288141
+        }
+      },
+      "142": {
+        "ID": 142,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group8",
+        "CommandType": "EDS_CommandType::Group8",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288142
+        }
+      },
+      "143": {
+        "ID": 143,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group8",
+        "CommandType": "EDS_CommandType::Group8",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288143
+        }
+      },
+      "151": {
+        "ID": 151,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group9",
+        "CommandType": "EDS_CommandType::Group9",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288151
+        }
+      },
+      "152": {
+        "ID": 152,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group9",
+        "CommandType": "EDS_CommandType::Group9",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288152
+        }
+      },
+      "153": {
+        "ID": 153,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group9",
+        "CommandType": "EDS_CommandType::Group9",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288153
+        }
+      },
+      "161": {
+        "ID": 161,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group10",
+        "CommandType": "EDS_CommandType::Group10",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288161
+        }
+      },
+      "162": {
+        "ID": 162,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group10",
+        "CommandType": "EDS_CommandType::Group10",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288162
+        }
+      },
+      "163": {
+        "ID": 163,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::Group10",
+        "CommandType": "EDS_CommandType::Group10",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288163
+        }
+      },
+      "171": {
+        "ID": 171,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::WhisperReply",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288171
+        }
+      },
+      "172": {
+        "ID": 172,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::WhisperReply",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288172
+        }
+      },
+      "173": {
+        "ID": 173,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::WhisperReply",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288173
+        }
+      },
+      "174": {
+        "ID": 174,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::WhisperReply",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288174
+        }
+      },
+      "181": {
+        "ID": 181,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyInvite",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288181
+        }
+      },
+      "182": {
+        "ID": 182,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyInvite",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288182
+        }
+      },
+      "183": {
+        "ID": 183,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyInvite",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288183
+        }
+      },
+      "184": {
+        "ID": 184,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyInvite",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288184
+        }
+      },
+      "191": {
+        "ID": 191,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyKick",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288191
+        }
+      },
+      "192": {
+        "ID": 192,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyKick",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288192
+        }
+      },
+      "193": {
+        "ID": 193,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyKick",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288193
+        }
+      },
+      "194": {
+        "ID": 194,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyKick",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288194
+        }
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyLeave",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288201
+        }
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyLeave",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288202
+        }
+      },
+      "203": {
+        "ID": 203,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyLeave",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288203
+        }
+      },
+      "204": {
+        "ID": 204,
+        "DataStage": 23,
+        "CommandCategoryType": "EDS_CommandCategoryType::None",
+        "ChattingType": "EDS_ChattingType::None",
+        "CommandType": "EDS_CommandType::PartyLeave",
+        "ID_CommandName": {
+          "ID": 0
+        },
+        "ID_Command": {
+          "ID": 288204
+        }
+      }
+    }
+  }
+]

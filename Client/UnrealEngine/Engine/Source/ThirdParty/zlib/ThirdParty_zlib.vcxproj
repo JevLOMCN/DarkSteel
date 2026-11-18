@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{5A2C0AC6-A267-5974-9E2B-5F3BC77FC24F}</ProjectGuid><RootNamespace>ThirdParty_zlib</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="zlibstatic.dir\Release\adler32.cpp" />
+    <ClCompile Include="zlibstatic.dir\Release\compress.cpp" />
+    <ClCompile Include="zlibstatic.dir\Release\crc32.cpp" />
+    <ClCompile Include="zlibstatic.dir\Release\deflate.cpp" />
+    <ClCompile Include="zlibstatic.dir\Release\inffast.cpp" />
+    <ClCompile Include="zlibstatic.dir\Release\inflate.cpp" />
+    <ClCompile Include="zlibstatic.dir\Release\inftrees.cpp" />
+    <ClCompile Include="zlibstatic.dir\Release\trees.cpp" />
+    <ClCompile Include="zlibstatic.dir\Release\zutil.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,92 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: MovieScene
+// Functions: 6
+
+// StaticClass @ 146053470
+
+UClass * __cdecl UMovieSceneBlenderSystemSupport::StaticClass(void)
+
+{
+  FUObjectCppClassStaticFunctions local_res8 [4];
+  
+  if (Z_Registration_Info_UClass_UMovieSceneBlenderSystemSupport.InnerSingleton == (UClass *)0x0) {
+    local_res8[0].AddReferencedObjects = UObject::AddReferencedObjects;
+    GetPrivateStaticClassBody
+              (L"/Script/MovieScene",L"MovieSceneBlenderSystemSupport",
+               &Z_Registration_Info_UClass_UMovieSceneBlenderSystemSupport.InnerSingleton,
+               StaticRegisterNativesUMovieSceneBlenderSystemSupport,0x28,8,
+               CLASS_Intrinsic|CLASS_Interface|CLASS_Abstract,CASTCLASS_None,L"Engine",
+               InternalConstructor<UMovieSceneBlenderSystemSupport>,
+               InternalVTableHelperCtorCaller<UMovieSceneBlenderSystemSupport>,local_res8,
+               UInterface::StaticClass,UObject::StaticClass);
+  }
+  return Z_Registration_Info_UClass_UMovieSceneBlenderSystemSupport.InnerSingleton;
+}
+
+// UMovieSceneBlenderSystemSupport @ 146058cd0
+
+UMovieSceneBlenderSystemSupport * __thiscall
+UMovieSceneBlenderSystemSupport::UMovieSceneBlenderSystemSupport
+          (UMovieSceneBlenderSystemSupport *this,FVTableHelper *param_1)
+
+{
+  UInterface::UInterface((UInterface *)this,param_1);
+  *(undefined ***)this = &___7UMovieSceneBlenderSystemSupport__6B_;
+  return this;
+}
+
+// UMovieSceneBlenderSystemSupport @ 146058d00
+
+UMovieSceneBlenderSystemSupport * __thiscall
+UMovieSceneBlenderSystemSupport::UMovieSceneBlenderSystemSupport
+          (UMovieSceneBlenderSystemSupport *this,FObjectInitializer *param_1)
+
+{
+  UInterface::UInterface((UInterface *)this,param_1);
+  *(undefined ***)this = &___7UMovieSceneBlenderSystemSupport__6B_;
+  return this;
+}
+
+// ~UMovieSceneBlenderSystemSupport @ 1460595a0
+
+void __thiscall
+UMovieSceneBlenderSystemSupport::~UMovieSceneBlenderSystemSupport
+          (UMovieSceneBlenderSystemSupport *this)
+
+{
+  *(undefined ***)this = &___7UObject__6B_;
+  UObjectBase::~UObjectBase((UObjectBase *)this);
+  return;
+}
+
+// GetPrivateStaticClass @ 14605b010
+
+UClass * __cdecl UMovieSceneBlenderSystemSupport::GetPrivateStaticClass(void)
+
+{
+  FUObjectCppClassStaticFunctions local_res8 [4];
+  
+  if (Z_Registration_Info_UClass_UMovieSceneBlenderSystemSupport.InnerSingleton == (UClass *)0x0) {
+    local_res8[0].AddReferencedObjects = UObject::AddReferencedObjects;
+    GetPrivateStaticClassBody
+              (L"/Script/MovieScene",L"MovieSceneBlenderSystemSupport",
+               &Z_Registration_Info_UClass_UMovieSceneBlenderSystemSupport.InnerSingleton,
+               StaticRegisterNativesUMovieSceneBlenderSystemSupport,0x28,8,
+               CLASS_Intrinsic|CLASS_Interface|CLASS_Abstract,CASTCLASS_None,L"Engine",
+               InternalConstructor<UMovieSceneBlenderSystemSupport>,
+               InternalVTableHelperCtorCaller<UMovieSceneBlenderSystemSupport>,local_res8,
+               UInterface::StaticClass,UObject::StaticClass);
+  }
+  return Z_Registration_Info_UClass_UMovieSceneBlenderSystemSupport.InnerSingleton;
+}
+
+// StaticRegisterNativesUMovieSceneBlenderSystemSupport @ 14605cf30
+
+void __cdecl
+UMovieSceneBlenderSystemSupport::StaticRegisterNativesUMovieSceneBlenderSystemSupport(void)
+
+{
+  return;
+}
+

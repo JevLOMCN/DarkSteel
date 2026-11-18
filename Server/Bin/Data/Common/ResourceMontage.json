@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceMontage",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceMontage",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceMontageTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "10101": {
+        "ID": 10101,
+        "DataStage": 23,
+        "Version": "*",
+        "MontageGroup": 10100,
+        "ID_CharacterBase": 1,
+        "FilePath": {
+          "AssetPathName": "/Game/Animations/PCs/M_Shape01/Kairos/M_Shape01_Kairos_Lby_UseItemPotion01.M_Shape01_Kairos_Lby_UseItemPotion01",
+          "SubPathString": ""
+        }
+      },
+      "10201": {
+        "ID": 10201,
+        "DataStage": 23,
+        "Version": "*",
+        "MontageGroup": 10200,
+        "ID_CharacterBase": 1,
+        "FilePath": {
+          "AssetPathName": "/Game/Animations/PCs/M_Shape01/Ride/M_Shape01_Kairos_Ride_Taming_Feed.M_Shape01_Kairos_Ride_Taming_Feed",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

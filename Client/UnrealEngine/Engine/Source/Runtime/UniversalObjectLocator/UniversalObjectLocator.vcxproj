@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{A82A05B1-3DEE-5EFC-8239-2B8DD05442D1}</ProjectGuid><RootNamespace>UniversalObjectLocator</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FDirectPathObjectLocator.cpp" />
+    <ClCompile Include="Private\FFragmentType.cpp" />
+    <ClCompile Include="Private\FFragmentTypeHandle.cpp" />
+    <ClCompile Include="Private\FParameterTypeHandle.cpp" />
+    <ClCompile Include="Private\FParseStringResult.cpp" />
+    <ClCompile Include="Private\FRegistry.cpp" />
+    <ClCompile Include="Private\FResolveParameterBuffer.cpp" />
+    <ClCompile Include="Private\FResolveResult.cpp" />
+    <ClCompile Include="Private\FState.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FSubObjectLocator.cpp" />
+    <ClCompile Include="Private\FUniversalObjectLocator.cpp" />
+    <ClCompile Include="Private\FUniversalObjectLocatorEmptyPayload.cpp" />
+    <ClCompile Include="Private\FUniversalObjectLocatorFragment.cpp" />
+    <ClCompile Include="Private\FUniversalObjectLocatorModule.cpp" />
+    <ClCompile Include="Private\IFragmentPayload.cpp" />
+    <ClCompile Include="Private\IUniversalObjectLocatorModule.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDestructorCaller.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TFutureBase.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMoveConstructorCaller.cpp" />
+    <ClCompile Include="Private\TVariant.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.UniversalObjectLocator.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

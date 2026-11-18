@@ -1,0 +1,269 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerSkillBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PlayerSkillBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PlayerSkillBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_PlayerSkillType::Harvesting",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Life",
+        "ID_Category": 1,
+        "Order": 1,
+        "IsVisible": true,
+        "ID_SkillIcon": 180005,
+        "ID_SkillName": {
+          "ID": 440005
+        },
+        "ID_Description": {
+          "ID": 440105
+        },
+        "ID_LevelGroup": 1,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::Harvesting",
+        "EquipItemType": "EDS_ItemType::ToolHarvesting",
+        "IsReset": true
+      },
+      "2": {
+        "ID": "EDS_PlayerSkillType::Mining",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Life",
+        "ID_Category": 1,
+        "Order": 2,
+        "IsVisible": true,
+        "ID_SkillIcon": 180006,
+        "ID_SkillName": {
+          "ID": 440006
+        },
+        "ID_Description": {
+          "ID": 440106
+        },
+        "ID_LevelGroup": 2,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::Mining",
+        "EquipItemType": "EDS_ItemType::ToolMining",
+        "IsReset": true
+      },
+      "3": {
+        "ID": "EDS_PlayerSkillType::Logging",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Life",
+        "ID_Category": 1,
+        "Order": 3,
+        "IsVisible": true,
+        "ID_SkillIcon": 180007,
+        "ID_SkillName": {
+          "ID": 440007
+        },
+        "ID_Description": {
+          "ID": 440107
+        },
+        "ID_LevelGroup": 3,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::Logging",
+        "EquipItemType": "EDS_ItemType::ToolLogging",
+        "IsReset": true
+      },
+      "4": {
+        "ID": "EDS_PlayerSkillType::OpenLocks",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Life",
+        "ID_Category": 1,
+        "Order": 4,
+        "IsVisible": true,
+        "ID_SkillIcon": 180008,
+        "ID_SkillName": {
+          "ID": 440008
+        },
+        "ID_Description": {
+          "ID": 440108
+        },
+        "ID_LevelGroup": 4,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::OpenLocks",
+        "EquipItemType": "EDS_ItemType::ToolOpenLocks",
+        "IsReset": true
+      },
+      "5": {
+        "ID": "EDS_PlayerSkillType::Cooking",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Life",
+        "ID_Category": 1,
+        "Order": 5,
+        "IsVisible": true,
+        "ID_SkillIcon": 180012,
+        "ID_SkillName": {
+          "ID": 440012
+        },
+        "ID_Description": {
+          "ID": 440112
+        },
+        "ID_LevelGroup": 5,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::Cooking",
+        "EquipItemType": "EDS_ItemType::ToolCooking",
+        "IsReset": true
+      },
+      "6": {
+        "ID": "EDS_PlayerSkillType::Ling",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Life",
+        "ID_Category": 1,
+        "Order": 6,
+        "IsVisible": true,
+        "ID_SkillIcon": 180013,
+        "ID_SkillName": {
+          "ID": 440013
+        },
+        "ID_Description": {
+          "ID": 440113
+        },
+        "ID_LevelGroup": 6,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::Linguistics",
+        "EquipItemType": "EDS_ItemType::ToolLing",
+        "IsReset": true
+      },
+      "7": {
+        "ID": "EDS_PlayerSkillType::Archaeology",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Life",
+        "ID_Category": 1,
+        "Order": 7,
+        "IsVisible": true,
+        "ID_SkillIcon": 180014,
+        "ID_SkillName": {
+          "ID": 440015
+        },
+        "ID_Description": {
+          "ID": 440115
+        },
+        "ID_LevelGroup": 7,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::Archaeology",
+        "EquipItemType": "EDS_ItemType::ToolArchaeology",
+        "IsReset": true
+      },
+      "8": {
+        "ID": "EDS_PlayerSkillType::Farming",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Life",
+        "ID_Category": 1,
+        "Order": 8,
+        "IsVisible": true,
+        "ID_SkillIcon": 180017,
+        "ID_SkillName": {
+          "ID": 440020
+        },
+        "ID_Description": {
+          "ID": 440120
+        },
+        "ID_LevelGroup": 8,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::Farming",
+        "EquipItemType": "EDS_ItemType::ToolArchaeology",
+        "IsReset": true
+      },
+      "9": {
+        "ID": "EDS_PlayerSkillType::Ground",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Action",
+        "ID_Category": 2,
+        "Order": 1,
+        "IsVisible": true,
+        "ID_SkillIcon": 180003,
+        "ID_SkillName": {
+          "ID": 440017
+        },
+        "ID_Description": {
+          "ID": 440117
+        },
+        "ID_LevelGroup": 9,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::None",
+        "EquipItemType": "EDS_ItemType::None",
+        "IsReset": false
+      },
+      "10": {
+        "ID": "EDS_PlayerSkillType::Air",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Action",
+        "ID_Category": 2,
+        "Order": 2,
+        "IsVisible": true,
+        "ID_SkillIcon": 180018,
+        "ID_SkillName": {
+          "ID": 440018
+        },
+        "ID_Description": {
+          "ID": 440118
+        },
+        "ID_LevelGroup": 10,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::None",
+        "EquipItemType": "EDS_ItemType::None",
+        "IsReset": false
+      },
+      "11": {
+        "ID": "EDS_PlayerSkillType::Water",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Action",
+        "ID_Category": 2,
+        "Order": 3,
+        "IsVisible": true,
+        "ID_SkillIcon": 180019,
+        "ID_SkillName": {
+          "ID": 440019
+        },
+        "ID_Description": {
+          "ID": 440119
+        },
+        "ID_LevelGroup": 11,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::None",
+        "EquipItemType": "EDS_ItemType::None",
+        "IsReset": false
+      },
+      "12": {
+        "ID": "EDS_PlayerSkillType::Detection",
+        "DataStage": 23,
+        "Version": "*",
+        "SkillCategoryType": "EDS_PlayerSkillCategoryType::Action",
+        "ID_Category": 2,
+        "Order": 4,
+        "IsVisible": true,
+        "ID_SkillIcon": 180016,
+        "ID_SkillName": {
+          "ID": 440016
+        },
+        "ID_Description": {
+          "ID": 440116
+        },
+        "ID_LevelGroup": 12,
+        "MaxLevel": 20,
+        "ID_EquipISlotType": "EDS_EquipSlotType::None",
+        "EquipItemType": "EDS_ItemType::None",
+        "IsReset": false
+      }
+    }
+  }
+]

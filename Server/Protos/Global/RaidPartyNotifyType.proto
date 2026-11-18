@@ -1,0 +1,17 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum RaidPartyNotifyType {
+  RaidPartyNotifyType_Leave = 0;
+  RaidPartyNotifyType_Join = 1;
+  RaidPartyNotifyType_DelegateLeader = 2;
+  RaidPartyNotifyType_Kick = 3;
+  RaidPartyNotifyType_VoteKickReject = 4;
+  RaidPartyNotifyType_VoteKickAgreement = 5;
+  RaidPartyNotifyType_VoteUserLeave = 6;
+  RaidPartyNotifyType_ChangePartyInfo = 7;
+  RaidPartyNotifyType_ChangePartyMemberInfo = 8;
+  RaidPartyNotifyType_ChangePartyChangeSlot = 9;
+  RaidPartyNotifyType_UpdateRaidParty = 10;
+}

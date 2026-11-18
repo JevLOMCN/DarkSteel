@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EnvWeatherRandomData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/EnvWeatherRandomData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_EnvWeatherRandomDataTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 100000,
+        "DurationGameTimeHourMin": 1,
+        "DurationGameTimeHourMax": 3,
+        "ID_Weather": 1001
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 100000,
+        "DurationGameTimeHourMin": 5,
+        "DurationGameTimeHourMax": 8,
+        "ID_Weather": 1001
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 200000,
+        "DurationGameTimeHourMin": 1,
+        "DurationGameTimeHourMax": 3,
+        "ID_Weather": 1001
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 200000,
+        "DurationGameTimeHourMin": 5,
+        "DurationGameTimeHourMax": 8,
+        "ID_Weather": 1001
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 200000,
+        "DurationGameTimeHourMin": 5,
+        "DurationGameTimeHourMax": 8,
+        "ID_Weather": 1002
+      },
+      "1101": {
+        "ID": 1101,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 200000,
+        "DurationGameTimeHourMin": 5,
+        "DurationGameTimeHourMax": 8,
+        "ID_Weather": 1101
+      },
+      "1102": {
+        "ID": 1102,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 200000,
+        "DurationGameTimeHourMin": 5,
+        "DurationGameTimeHourMax": 8,
+        "ID_Weather": 1102
+      },
+      "1103": {
+        "ID": 1103,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 200000,
+        "DurationGameTimeHourMin": 5,
+        "DurationGameTimeHourMax": 8,
+        "ID_Weather": 1103
+      },
+      "1201": {
+        "ID": 1201,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 200000,
+        "DurationGameTimeHourMin": 5,
+        "DurationGameTimeHourMax": 8,
+        "ID_Weather": 1201
+      },
+      "1301": {
+        "ID": 1301,
+        "DataStage": 23,
+        "RandomRateMin": 50000,
+        "RandomRateMax": 200000,
+        "DurationGameTimeHourMin": 5,
+        "DurationGameTimeHourMax": 8,
+        "ID_Weather": 1301
+      }
+    }
+  }
+]

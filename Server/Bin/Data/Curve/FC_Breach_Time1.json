@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "FC_Breach_Time1",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Package": "/Game/Datas/Curve/FC_Breach_Time1",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.7,
+            "Value": -3.1682678E-08,
+            "ArriveTangent": 2.0288134,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 2.0288134,
+            "LeaveTangentWeight": 0.980109
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 2.4,
+            "Value": 1.0,
+            "ArriveTangent": 0.49587598,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.49587598,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

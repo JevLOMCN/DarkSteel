@@ -1,0 +1,401 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SustainDecay",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SustainDecay",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SustainDecayTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1000": {
+        "ID": 1000,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemTime",
+        "DecaySubTypeValue": 0,
+        "DecayConditionValue": 180,
+        "ItemDecayRate": 500000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 100,
+        "ItemDecayTargetSlotCnt": 1,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      },
+      "5000": {
+        "ID": 5000,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemAttacked",
+        "DecaySubTypeValue": 0,
+        "DecayConditionValue": 10,
+        "ItemDecayRate": 500000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 2000,
+        "ItemDecayTargetSlotCnt": 2,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      },
+      "9000": {
+        "ID": 9000,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemPlayerSkillToolUse",
+        "DecaySubTypeValue": 1,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 1000,
+        "ItemDecayTargetSlotCnt": 1,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Harvesting"
+        ]
+      },
+      "9001": {
+        "ID": 9001,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemPlayerSkillToolUse",
+        "DecaySubTypeValue": 2,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 1000,
+        "ItemDecayTargetSlotCnt": 1,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Mining"
+        ]
+      },
+      "9002": {
+        "ID": 9002,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemPlayerSkillToolUse",
+        "DecaySubTypeValue": 3,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 1000,
+        "ItemDecayTargetSlotCnt": 1,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Logging"
+        ]
+      },
+      "9003": {
+        "ID": 9003,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemPlayerSkillToolUse",
+        "DecaySubTypeValue": 4,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 1000,
+        "ItemDecayTargetSlotCnt": 1,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::OpenLocks"
+        ]
+      },
+      "9004": {
+        "ID": 9004,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemPlayerSkillToolUse",
+        "DecaySubTypeValue": 5,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 1000,
+        "ItemDecayTargetSlotCnt": 1,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Cooking"
+        ]
+      },
+      "9005": {
+        "ID": 9005,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemPlayerSkillToolUse",
+        "DecaySubTypeValue": 6,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 1000,
+        "ItemDecayTargetSlotCnt": 1,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Linguistics"
+        ]
+      },
+      "9006": {
+        "ID": 9006,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemPlayerSkillToolUse",
+        "DecaySubTypeValue": 7,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 1000,
+        "ItemDecayTargetSlotCnt": 1,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Archaeology"
+        ]
+      },
+      "9007": {
+        "ID": 9007,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemPlayerSkillToolUse",
+        "DecaySubTypeValue": 8,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::Int",
+        "ItemDecayValue": 1000,
+        "ItemDecayTargetSlotCnt": 1,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Farming"
+        ]
+      },
+      "10000": {
+        "ID": 10000,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemDeath",
+        "DecaySubTypeValue": 1,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::MaxPer",
+        "ItemDecayValue": 50000,
+        "ItemDecayTargetSlotCnt": 5,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      },
+      "10001": {
+        "ID": 10001,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemDeath",
+        "DecaySubTypeValue": 2,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::MaxPer",
+        "ItemDecayValue": 50000,
+        "ItemDecayTargetSlotCnt": 5,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      },
+      "10002": {
+        "ID": 10002,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemDeath",
+        "DecaySubTypeValue": 3,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::MaxPer",
+        "ItemDecayValue": 50000,
+        "ItemDecayTargetSlotCnt": 5,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      },
+      "10003": {
+        "ID": 10003,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemDeath",
+        "DecaySubTypeValue": 4,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::MaxPer",
+        "ItemDecayValue": 10000,
+        "ItemDecayTargetSlotCnt": 5,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      },
+      "10004": {
+        "ID": 10004,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemDeath",
+        "DecaySubTypeValue": 5,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::MaxPer",
+        "ItemDecayValue": 10000,
+        "ItemDecayTargetSlotCnt": 5,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      },
+      "10005": {
+        "ID": 10005,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemDeath",
+        "DecaySubTypeValue": 6,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::MaxPer",
+        "ItemDecayValue": 10000,
+        "ItemDecayTargetSlotCnt": 5,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      },
+      "11000": {
+        "ID": 11000,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemResurrect",
+        "DecaySubTypeValue": 0,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::MaxPer",
+        "ItemDecayValue": 50000,
+        "ItemDecayTargetSlotCnt": 3,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      },
+      "11001": {
+        "ID": 11001,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemResurrect",
+        "DecaySubTypeValue": 1,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 0,
+        "ItemDecayValueType": "EDS_DecayValueType::None",
+        "ItemDecayValue": 0,
+        "ItemDecayTargetSlotCnt": 0,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::None"
+        ]
+      },
+      "11002": {
+        "ID": 11002,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemResurrect",
+        "DecaySubTypeValue": 2,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 0,
+        "ItemDecayValueType": "EDS_DecayValueType::None",
+        "ItemDecayValue": 0,
+        "ItemDecayTargetSlotCnt": 0,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::None"
+        ]
+      },
+      "11003": {
+        "ID": 11003,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemResurrect",
+        "DecaySubTypeValue": 3,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 0,
+        "ItemDecayValueType": "EDS_DecayValueType::None",
+        "ItemDecayValue": 0,
+        "ItemDecayTargetSlotCnt": 0,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::None"
+        ]
+      },
+      "11004": {
+        "ID": 11004,
+        "DataStage": 23,
+        "DecayType": "EDS_DecayType::ItemResurrect",
+        "DecaySubTypeValue": 4,
+        "DecayConditionValue": 0,
+        "ItemDecayRate": 1000000,
+        "ItemDecayValueType": "EDS_DecayValueType::MaxPer",
+        "ItemDecayValue": 30000,
+        "ItemDecayTargetSlotCnt": 3,
+        "ItemDecayTargetEquipSlotType": [
+          "EDS_EquipSlotType::Weapon",
+          "EDS_EquipSlotType::ArmorChest",
+          "EDS_EquipSlotType::ArmorPants",
+          "EDS_EquipSlotType::ArmorGloves",
+          "EDS_EquipSlotType::ArmorShoes",
+          "EDS_EquipSlotType::ArmorHelmet",
+          "EDS_EquipSlotType::Accessory1",
+          "EDS_EquipSlotType::Accessory2",
+          "EDS_EquipSlotType::Accessory3",
+          "EDS_EquipSlotType::Emblem"
+        ]
+      }
+    }
+  }
+]

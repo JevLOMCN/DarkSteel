@@ -1,0 +1,301 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ChattingTab",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ChattingTab",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ChattingTabTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "12": {
+        "ID": "EDS_ChattingTabType::Favorite",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281022
+        },
+        "Order": 1,
+        "IsAlwaysVisible": false,
+        "IsSubTabAvailable": true,
+        "ID_Icon": 601,
+        "ID_Color": 20001,
+        "DefaultChatType": "EDS_ChattingType::None",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::World",
+          "EDS_ChattingType::ZoneGroup",
+          "EDS_ChattingType::Zone",
+          "EDS_ChattingType::Party",
+          "EDS_ChattingType::RaidParty",
+          "EDS_ChattingType::Guild",
+          "EDS_ChattingType::System",
+          "EDS_ChattingType::Whisper",
+          "EDS_ChattingType::Battle",
+          "EDS_ChattingType::Group1",
+          "EDS_ChattingType::Group2",
+          "EDS_ChattingType::Group3",
+          "EDS_ChattingType::Group4",
+          "EDS_ChattingType::Group5",
+          "EDS_ChattingType::Group6",
+          "EDS_ChattingType::Group7",
+          "EDS_ChattingType::Group8",
+          "EDS_ChattingType::Group9",
+          "EDS_ChattingType::Group10"
+        ]
+      },
+      "1": {
+        "ID": "EDS_ChattingTabType::Total",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281010
+        },
+        "Order": 2,
+        "IsAlwaysVisible": true,
+        "IsSubTabAvailable": false,
+        "ID_Icon": 602,
+        "ID_Color": 20002,
+        "DefaultChatType": "EDS_ChattingType::World",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::World",
+          "EDS_ChattingType::ZoneGroup",
+          "EDS_ChattingType::Zone",
+          "EDS_ChattingType::Party",
+          "EDS_ChattingType::RaidParty",
+          "EDS_ChattingType::Guild",
+          "EDS_ChattingType::System",
+          "EDS_ChattingType::Whisper",
+          "EDS_ChattingType::Battle",
+          "EDS_ChattingType::Group1",
+          "EDS_ChattingType::Group2",
+          "EDS_ChattingType::Group3",
+          "EDS_ChattingType::Group4",
+          "EDS_ChattingType::Group5",
+          "EDS_ChattingType::Group6",
+          "EDS_ChattingType::Group7",
+          "EDS_ChattingType::Group8",
+          "EDS_ChattingType::Group9",
+          "EDS_ChattingType::Group10"
+        ]
+      },
+      "2": {
+        "ID": "EDS_ChattingTabType::Custom",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281023
+        },
+        "Order": 3,
+        "IsAlwaysVisible": false,
+        "IsSubTabAvailable": true,
+        "ID_Icon": 603,
+        "ID_Color": 20003,
+        "DefaultChatType": "EDS_ChattingType::None",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::World",
+          "EDS_ChattingType::ZoneGroup",
+          "EDS_ChattingType::Zone",
+          "EDS_ChattingType::Party",
+          "EDS_ChattingType::RaidParty",
+          "EDS_ChattingType::Guild",
+          "EDS_ChattingType::System",
+          "EDS_ChattingType::Whisper",
+          "EDS_ChattingType::Battle",
+          "EDS_ChattingType::Group1",
+          "EDS_ChattingType::Group2",
+          "EDS_ChattingType::Group3",
+          "EDS_ChattingType::Group4",
+          "EDS_ChattingType::Group5",
+          "EDS_ChattingType::Group6",
+          "EDS_ChattingType::Group7",
+          "EDS_ChattingType::Group8",
+          "EDS_ChattingType::Group9",
+          "EDS_ChattingType::Group10"
+        ]
+      },
+      "3": {
+        "ID": "EDS_ChattingTabType::Zone",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281003
+        },
+        "Order": 4,
+        "IsAlwaysVisible": true,
+        "IsSubTabAvailable": false,
+        "ID_Icon": 604,
+        "ID_Color": 20004,
+        "DefaultChatType": "EDS_ChattingType::Zone",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::Zone"
+        ]
+      },
+      "4": {
+        "ID": "EDS_ChattingTabType::ZoneGroup",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281002
+        },
+        "Order": 5,
+        "IsAlwaysVisible": true,
+        "IsSubTabAvailable": false,
+        "ID_Icon": 605,
+        "ID_Color": 20005,
+        "DefaultChatType": "EDS_ChattingType::ZoneGroup",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::ZoneGroup"
+        ]
+      },
+      "5": {
+        "ID": "EDS_ChattingTabType::World",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281001
+        },
+        "Order": 6,
+        "IsAlwaysVisible": true,
+        "IsSubTabAvailable": false,
+        "ID_Icon": 606,
+        "ID_Color": 20006,
+        "DefaultChatType": "EDS_ChattingType::World",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::World"
+        ]
+      },
+      "6": {
+        "ID": "EDS_ChattingTabType::Whisper",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281008
+        },
+        "Order": 7,
+        "IsAlwaysVisible": false,
+        "IsSubTabAvailable": true,
+        "ID_Icon": 607,
+        "ID_Color": 20007,
+        "DefaultChatType": "EDS_ChattingType::Whisper",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::Whisper"
+        ]
+      },
+      "7": {
+        "ID": "EDS_ChattingTabType::Party",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281004
+        },
+        "Order": 8,
+        "IsAlwaysVisible": false,
+        "IsSubTabAvailable": false,
+        "ID_Icon": 608,
+        "ID_Color": 20008,
+        "DefaultChatType": "EDS_ChattingType::Party",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::Party"
+        ]
+      },
+      "13": {
+        "ID": "EDS_ChattingTabType::RaidParty",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281005
+        },
+        "Order": 9,
+        "IsAlwaysVisible": false,
+        "IsSubTabAvailable": false,
+        "ID_Icon": 609,
+        "ID_Color": 20009,
+        "DefaultChatType": "EDS_ChattingType::RaidParty",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::RaidParty"
+        ]
+      },
+      "8": {
+        "ID": "EDS_ChattingTabType::Guild",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281006
+        },
+        "Order": 10,
+        "IsAlwaysVisible": false,
+        "IsSubTabAvailable": false,
+        "ID_Icon": 610,
+        "ID_Color": 20010,
+        "DefaultChatType": "EDS_ChattingType::Guild",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::Guild"
+        ]
+      },
+      "9": {
+        "ID": "EDS_ChattingTabType::Group",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281009
+        },
+        "Order": 11,
+        "IsAlwaysVisible": false,
+        "IsSubTabAvailable": true,
+        "ID_Icon": 611,
+        "ID_Color": 20011,
+        "DefaultChatType": "EDS_ChattingType::Organization",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::Group1",
+          "EDS_ChattingType::Group2",
+          "EDS_ChattingType::Group3",
+          "EDS_ChattingType::Group4",
+          "EDS_ChattingType::Group5",
+          "EDS_ChattingType::Group6",
+          "EDS_ChattingType::Group7",
+          "EDS_ChattingType::Group8",
+          "EDS_ChattingType::Group9",
+          "EDS_ChattingType::Group10"
+        ]
+      },
+      "10": {
+        "ID": "EDS_ChattingTabType::System",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281007
+        },
+        "Order": 12,
+        "IsAlwaysVisible": true,
+        "IsSubTabAvailable": false,
+        "ID_Icon": 612,
+        "ID_Color": 20012,
+        "DefaultChatType": "EDS_ChattingType::World",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::System"
+        ]
+      },
+      "11": {
+        "ID": "EDS_ChattingTabType::Battle",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Name": {
+          "ID": 281011
+        },
+        "Order": 13,
+        "IsAlwaysVisible": true,
+        "IsSubTabAvailable": false,
+        "ID_Icon": 613,
+        "ID_Color": 20013,
+        "DefaultChatType": "EDS_ChattingType::World",
+        "ID_DisplayableChatTypes": [
+          "EDS_ChattingType::Battle"
+        ]
+      }
+    }
+  }
+]

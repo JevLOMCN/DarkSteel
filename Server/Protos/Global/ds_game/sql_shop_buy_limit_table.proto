@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlShopBuyLimitTable {
+  int64 player_uid = 1;
+  int32 shop_list_id = 2;
+  google.protobuf.Timestamp next_dt = 3;
+  int32 quantity = 4;
+}

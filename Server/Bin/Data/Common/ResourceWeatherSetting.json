@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceWeatherSetting",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceWeatherSetting",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceWeatherSettingTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "ResourcePath": {
+          "AssetPathName": "/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Rain_Light.Rain_Light",
+          "SubPathString": ""
+        }
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "ResourcePath": {
+          "AssetPathName": "/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Rain.Rain",
+          "SubPathString": ""
+        }
+      },
+      "1101": {
+        "ID": 1101,
+        "DataStage": 23,
+        "ResourcePath": {
+          "AssetPathName": "/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow_Light.Snow_Light",
+          "SubPathString": ""
+        }
+      },
+      "1102": {
+        "ID": 1102,
+        "DataStage": 23,
+        "ResourcePath": {
+          "AssetPathName": "/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow.Snow",
+          "SubPathString": ""
+        }
+      },
+      "1103": {
+        "ID": 1103,
+        "DataStage": 23,
+        "ResourcePath": {
+          "AssetPathName": "/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow_Blizzard.Snow_Blizzard",
+          "SubPathString": ""
+        }
+      },
+      "1201": {
+        "ID": 1201,
+        "DataStage": 23,
+        "ResourcePath": {
+          "AssetPathName": "/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Rain_Thunderstorm.Rain_Thunderstorm",
+          "SubPathString": ""
+        }
+      },
+      "1301": {
+        "ID": 1301,
+        "DataStage": 23,
+        "ResourcePath": {
+          "AssetPathName": "/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Sand_Dust_Storm.Sand_Dust_Storm",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum RingCmdType {
+  RingCmdType_None = 0;
+  RingCmdType_Item = 1;
+  RingCmdType_Menu = 2;
+  RingCmdType_Action = 3;
+}

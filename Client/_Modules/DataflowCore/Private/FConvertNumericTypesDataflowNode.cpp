@@ -1,0 +1,305 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: DataflowCore
+// Functions: 11
+
+// StaticStruct @ 1443e0c80
+
+UScriptStruct * __cdecl FConvertNumericTypesDataflowNode::StaticStruct(void)
+
+{
+  UPackage *pUVar1;
+  
+  if (Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton ==
+      (UScriptStruct *)0x0) {
+    pUVar1 = Z_Construct_UPackage__Script_DataflowCore();
+    Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton =
+         GetStaticStruct(Z_Construct_UScriptStruct_FConvertNumericTypesDataflowNode,
+                         (UObject *)pUVar1,L"ConvertNumericTypesDataflowNode");
+  }
+  return Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton;
+}
+
+// GetType @ 1443e0cc0
+
+FName __thiscall FConvertNumericTypesDataflowNode::GetType(FConvertNumericTypesDataflowNode *this)
+
+{
+  FName in_RDX;
+  
+  ::FName::FName((FName *)in_RDX,"FConvertNumericTypesDataflowNode");
+  return in_RDX;
+}
+
+// IsA @ 1443e0cf0
+
+bool __thiscall
+FConvertNumericTypesDataflowNode::IsA(FConvertNumericTypesDataflowNode *this,FName param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  FString *pFVar3;
+  FString *pFVar4;
+  bool bVar5;
+  FName local_res10;
+  FName local_res18 [2];
+  FString local_28;
+  FString local_18;
+  
+  local_res10 = param_1;
+  pFVar3 = ::FName::ToString(&local_res10,&local_18);
+  ::FName::FName(local_res18,"FConvertNumericTypesDataflowNode");
+  pFVar4 = ::FName::ToString(local_res18,&local_28);
+  iVar2 = (pFVar3->Data).ArrayNum;
+  iVar1 = (pFVar4->Data).ArrayNum;
+  if (iVar2 == iVar1) {
+    if (1 < iVar2) {
+      iVar2 = wcscmp((wchar_t *)(pFVar3->Data).AllocatorInstance.Data,
+                     (wchar_t *)(pFVar4->Data).AllocatorInstance.Data);
+      bVar5 = iVar2 == 0;
+      goto LAB_1443e0d58;
+    }
+  }
+  else {
+    bVar5 = iVar1 + iVar2 == 1;
+LAB_1443e0d58:
+    if (!bVar5) {
+      bVar5 = FDataflowNode::IsA((FDataflowNode *)this,local_res10);
+      if (!bVar5) {
+        bVar5 = false;
+        goto LAB_1443e0d76;
+      }
+    }
+  }
+  bVar5 = true;
+LAB_1443e0d76:
+  if (local_28.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_28.Data.AllocatorInstance.Data);
+  }
+  if (local_18.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_18.Data.AllocatorInstance.Data);
+  }
+  return bVar5;
+}
+
+// NewStructOnScope @ 1443e0db0
+
+FStructOnScope * __thiscall
+FConvertNumericTypesDataflowNode::NewStructOnScope(FConvertNumericTypesDataflowNode *this)
+
+{
+  FStructOnScope *pFVar1;
+  UPackage *pUVar2;
+  
+  pFVar1 = ::operator_new(0x28);
+  if (pFVar1 != (FStructOnScope *)0x0) {
+    if (Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton ==
+        (UScriptStruct *)0x0) {
+      pUVar2 = Z_Construct_UPackage__Script_DataflowCore();
+      Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton =
+           GetStaticStruct(Z_Construct_UScriptStruct_FConvertNumericTypesDataflowNode,
+                           (UObject *)pUVar2,L"ConvertNumericTypesDataflowNode");
+    }
+    pFVar1 = FStructOnScope::FStructOnScope
+                       (pFVar1,(UStruct *)
+                               Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.
+                               OuterSingleton,(uchar *)this);
+    return pFVar1;
+  }
+  return (FStructOnScope *)0x0;
+}
+
+// SerializeInternal @ 1443e0e30
+
+void __thiscall
+FConvertNumericTypesDataflowNode::SerializeInternal
+          (FConvertNumericTypesDataflowNode *this,FArchive *param_1)
+
+{
+  UPackage *pUVar1;
+  
+  if (Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton ==
+      (UScriptStruct *)0x0) {
+    pUVar1 = Z_Construct_UPackage__Script_DataflowCore();
+    Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton =
+         GetStaticStruct(Z_Construct_UScriptStruct_FConvertNumericTypesDataflowNode,
+                         (UObject *)pUVar1,L"ConvertNumericTypesDataflowNode");
+  }
+  UStruct::SerializeTaggedProperties
+            ((UStruct *)
+             Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton,
+             param_1,(uchar *)this,
+             (UStruct *)
+             Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton,
+             (uchar *)0x0,(UObject *)0x0);
+  (**(code **)(this->_padding_ + 0x88))(this,param_1);
+                    /* WARNING: Could not recover jumptable at 0x0001443e0ead. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (**(code **)(this->_padding_ + 0x90))(this,param_1);
+  return;
+}
+
+// GetDisplayName @ 1443e0ec0
+
+FName __thiscall
+FConvertNumericTypesDataflowNode::GetDisplayName(FConvertNumericTypesDataflowNode *this)
+
+{
+  FName in_RDX;
+  
+  ::FName::FName((FName *)in_RDX,"ConvertNumericTypes");
+  return in_RDX;
+}
+
+// GetCategory @ 1443e0ef0
+
+FName __thiscall
+FConvertNumericTypesDataflowNode::GetCategory(FConvertNumericTypesDataflowNode *this)
+
+{
+  FName in_RDX;
+  
+  ::FName::FName((FName *)in_RDX,"Convert");
+  return in_RDX;
+}
+
+// GetTags @ 1443e0f20
+
+FString * __thiscall
+FConvertNumericTypesDataflowNode::GetTags
+          (FConvertNumericTypesDataflowNode *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,"");
+  return __return_storage_ptr__;
+}
+
+// TypedScriptStruct @ 1443e0f50
+
+UScriptStruct * __thiscall
+FConvertNumericTypesDataflowNode::TypedScriptStruct(FConvertNumericTypesDataflowNode *this)
+
+{
+  UPackage *pUVar1;
+  
+  if (Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton ==
+      (UScriptStruct *)0x0) {
+    pUVar1 = Z_Construct_UPackage__Script_DataflowCore();
+    Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton =
+         GetStaticStruct(Z_Construct_UScriptStruct_FConvertNumericTypesDataflowNode,
+                         (UObject *)pUVar1,L"ConvertNumericTypesDataflowNode");
+  }
+  return Z_Registration_Info_UScriptStruct_FConvertNumericTypesDataflowNode.OuterSingleton;
+}
+
+// Evaluate @ 1443e0f90
+
+void __thiscall
+FConvertNumericTypesDataflowNode::Evaluate
+          (FConvertNumericTypesDataflowNode *this,FContext *param_1,FDataflowOutput *param_2)
+
+{
+  undefined1 *puVar1;
+  double local_res8;
+  FDataflowNumericTypes *local_28;
+  undefined4 local_20;
+  undefined8 local_18;
+  
+  puVar1 = (undefined1 *)(**(code **)(param_2->_padding_ + 0x20))(param_2);
+  if ((FDataflowNumericTypes *)puVar1 == &this->Out) {
+    local_28 = &this->In;
+    local_20 = 0xffffffff;
+    local_18 = 0;
+    local_res8 = FDataflowNode::GetValue<FDataflowNumericTypes>
+                           ((FDataflowNode *)this,param_1,
+                            (TConnectionReference<FDataflowNumericTypes> *)&local_28);
+    FDataflowNode::SetValue<FDataflowNumericTypes>
+              ((FDataflowNode *)this,param_1,&local_res8,&this->Out);
+  }
+  return;
+}
+
+// FConvertNumericTypesDataflowNode @ 14442a7f0
+
+FConvertNumericTypesDataflowNode * __thiscall
+FConvertNumericTypesDataflowNode::FConvertNumericTypesDataflowNode
+          (FConvertNumericTypesDataflowNode *this,FNodeParameters *param_1,FGuid *param_2)
+
+{
+  code *pcVar1;
+  bool bVar2;
+  FDataflowInput *pFVar3;
+  FConvertNumericTypesDataflowNode *pFVar4;
+  FDataflowOutput *pFVar5;
+  FName local_res8;
+  FName local_res18;
+  FGuid local_78;
+  undefined8 local_68;
+  undefined4 local_60;
+  undefined8 local_58;
+  FConnectionReference local_50;
+  FConnectionReference local_38;
+  
+  local_78.A = param_2->A;
+  local_78.B = param_2->B;
+  local_78.C = param_2->C;
+  local_78.D = param_2->D;
+  FDataflowNode::FDataflowNode((FDataflowNode *)this,param_1,&local_78);
+  local_50.Index = -1;
+  local_res8.ComparisonIndex.Value = 0;
+  local_res8.Number = 0;
+  this->_padding_ = (longlong)&___7FConvertNumericTypesDataflowNode__6B_;
+  local_50.Reference = &this->In;
+  (this->Out).Value = 0.0;
+  ((FDataflowNumericTypes *)local_50.Reference)->Value = 0.0;
+  local_50.ContainerReference = (void *)0x0;
+  pFVar3 = FDataflowNode::RegisterInputConnectionInternal
+                     ((FDataflowNode *)this,&local_50,&local_res8);
+  if (pFVar3->_padding_ == 0) {
+    pFVar3->_padding_ =
+         (longlong)
+         &`public:_static_struct_IDataflowTypePolicy*___ptr64___cdecl_TDataflowMultiTypePolicy<double,float,__int64,unsigned___int64,int,unsigned_int,short,unsigned_short,signed_char,unsigned_char>::GetInterface(void)'
+          ::__l2::Instance;
+  }
+  else {
+    bVar2 = UE::Assert::Private::ExecCheckImplInternal
+                      (&bGEnsureHasExecuted<1810835547174732029>,false,
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Experimental\\Dataflow\\Core\\Private\\Dataflow\\DataflowConnection.cpp"
+                       ,0xfd,"TypePolicy == nullptr");
+    if (bVar2) {
+      pcVar1 = (code *)swi(3);
+      pFVar4 = (FConvertNumericTypesDataflowNode *)(*pcVar1)();
+      return pFVar4;
+    }
+  }
+  local_res18.ComparisonIndex.Value = 0;
+  local_res18.Number = 0;
+  local_68 = 0;
+  local_60 = 0xffffffff;
+  local_58 = 0;
+  local_38.Index = -1;
+  local_38.ContainerReference = (void *)0x0;
+  local_38.Reference = &this->Out;
+  pFVar5 = FDataflowNode::RegisterOutputConnectionInternal
+                     ((FDataflowNode *)this,&local_38,&local_res18);
+  if (pFVar5->_padding_ == 0) {
+    pFVar5->_padding_ =
+         (longlong)
+         &`public:_static_struct_IDataflowTypePolicy*___ptr64___cdecl_TDataflowMultiTypePolicy<double,float,__int64,unsigned___int64,int,unsigned_int,short,unsigned_short,signed_char,unsigned_char>::GetInterface(void)'
+          ::__l2::Instance;
+  }
+  else {
+    bVar2 = UE::Assert::Private::ExecCheckImplInternal
+                      (&bGEnsureHasExecuted<1810835547174732029>,false,
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Experimental\\Dataflow\\Core\\Private\\Dataflow\\DataflowConnection.cpp"
+                       ,0xfd,"TypePolicy == nullptr");
+    if (bVar2) {
+      pcVar1 = (code *)swi(3);
+      pFVar4 = (FConvertNumericTypesDataflowNode *)(*pcVar1)();
+      return pFVar4;
+    }
+  }
+  return this;
+}
+

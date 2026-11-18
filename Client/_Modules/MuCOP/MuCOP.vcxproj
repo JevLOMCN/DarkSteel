@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{BFA147EA-043C-53B1-9DA3-C10390277C82}</ProjectGuid><RootNamespace>MuCOP</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FBoolSampler.cpp" />
+    <ClCompile Include="Private\FClassWeightPair.cpp" />
+    <ClCompile Include="Private\FColorCurveUniformSampler.cpp" />
+    <ClCompile Include="Private\FCompressedRichCurve.cpp" />
+    <ClCompile Include="Private\FConstraintRanges.cpp" />
+    <ClCompile Include="Private\FConstraintSampler.cpp" />
+    <ClCompile Include="Private\FCurveSampler.cpp" />
+    <ClCompile Include="Private\FCustomizableObjectPopulationCharacteristic.cpp" />
+    <ClCompile Include="Private\FCustomizableObjectPopulationClassGenerator.cpp" />
+    <ClCompile Include="Private\FCustomizableObjectPopulationConstraint.cpp" />
+    <ClCompile Include="Private\FCustomizableObjectPopulationModule.cpp" />
+    <ClCompile Include="Private\FDiscreteImportanceSampler.cpp" />
+    <ClCompile Include="Private\FFloatUniformSampler.cpp" />
+    <ClCompile Include="Private\FOptionSampler.cpp" />
+    <ClCompile Include="Private\FPopulationClassParameter.cpp" />
+    <ClCompile Include="Private\FPopulationClassParameterOptions.cpp" />
+    <ClCompile Include="Private\FPopulationClassSampler.cpp" />
+    <ClCompile Include="Private\FRangesSampler.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayPrivateFriend.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UCustomizableObjectPopulation.cpp" />
+    <ClCompile Include="Private\UCustomizableObjectPopulationClass.cpp" />
+    <ClCompile Include="Private\UCustomizableObjectPopulationGenerator.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.MuCOP.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

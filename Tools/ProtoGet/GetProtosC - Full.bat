@@ -1,0 +1,1 @@
+python.exe protoget_full.py ProjectDS.exe --protoc

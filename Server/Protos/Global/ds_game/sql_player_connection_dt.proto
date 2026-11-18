@@ -1,0 +1,12 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlPlayerConnectionDt {
+  int64 player_uid = 1;
+  google.protobuf.Timestamp login_dt = 2;
+  google.protobuf.Timestamp logout_dt = 3;
+}

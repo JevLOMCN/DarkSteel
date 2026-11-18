@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ds_config;
+option csharp_namespace = "MirProto.DsConfig";
+
+import "_db.proto";
+import "ContentsBaseType.proto";
+import "ContentsControlTargetType.proto";
+
+message SqlContentsBaseTable {
+  ContentsBaseType index = 1;
+  ContentsControlTargetType control_target = 2;
+  int32 control_target_value = 3;
+}

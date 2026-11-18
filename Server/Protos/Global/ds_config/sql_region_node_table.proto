@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ds_config;
+option csharp_namespace = "MirProto.DsConfig";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlRegionNodeTable {
+  int32 node_uid = 1;
+  google.protobuf.Timestamp expired_dt = 2;
+}

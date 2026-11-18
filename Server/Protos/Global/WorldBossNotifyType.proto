@@ -1,0 +1,12 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum WorldBossNotifyType {
+  WorldBossNotifyType_None = 0;
+  WorldBossNotifyType_PreAppear = 1;
+  WorldBossNotifyType_Appear = 2;
+  WorldBossNotifyType_PreDisAppear = 3;
+  WorldBossNotifyType_DisAppear = 4;
+  WorldBossNotifyType_Dead = 5;
+}

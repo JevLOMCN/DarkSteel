@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{83A448B2-AC65-58D0-B1F7-2E7EF3A17FBD}</ProjectGuid><RootNamespace>LandscapePatch</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\ADEPRECATED_LandscapePatchManager.cpp" />
+    <ClCompile Include="Private\FApplyLandscapeTextureHeightPatchPS.cpp" />
+    <ClCompile Include="Private\FApplyLandscapeTextureWeightPatchPS.cpp" />
+    <ClCompile Include="Private\FConvertBackFromNativeLandscapePatchPS.cpp" />
+    <ClCompile Include="Private\FConvertToNativeLandscapePatchPS.cpp" />
+    <ClCompile Include="Private\FLandscapeCircleHeightPatchPS.cpp" />
+    <ClCompile Include="Private\FLandscapeCircleVisibilityPatchPS.cpp" />
+    <ClCompile Include="Private\FLandscapeHeightPatchConvertToNativeParams.cpp" />
+    <ClCompile Include="Private\FLandscapePatchComponentInstanceData.cpp" />
+    <ClCompile Include="Private\FLandscapePatchModule.cpp" />
+    <ClCompile Include="Private\FLandscapeTexturePatchEncodingSettings.cpp" />
+    <ClCompile Include="Private\FOffsetHeightmapPS.cpp" />
+    <ClCompile Include="Private\FParameters.cpp" />
+    <ClCompile Include="Private\FPixelShaderUtils.cpp" />
+    <ClCompile Include="Private\FRDGBuilder.cpp" />
+    <ClCompile Include="Private\FReinitializeLandscapePatchPS.cpp" />
+    <ClCompile Include="Private\FSimpleTextureCopyPS.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTypeInfo.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TRDGLambdaPass.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\ULandscapeCircleHeightPatch.cpp" />
+    <ClCompile Include="Private\ULandscapeHeightTextureBackedRenderTarget.cpp" />
+    <ClCompile Include="Private\ULandscapePatchComponent.cpp" />
+    <ClCompile Include="Private\ULandscapePatchEditLayer.cpp" />
+    <ClCompile Include="Private\ULandscapeTextureBackedRenderTargetBase.cpp" />
+    <ClCompile Include="Private\ULandscapeTexturePatch.cpp" />
+    <ClCompile Include="Private\ULandscapeWeightPatchTextureInfo.cpp" />
+    <ClCompile Include="Private\ULandscapeWeightTextureBackedRenderTarget.cpp" />
+    <ClCompile Include="Private\_Free\Module.LandscapePatch.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

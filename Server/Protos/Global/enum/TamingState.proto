@@ -1,0 +1,17 @@
+syntax = "proto3";
+package server_msg;
+option csharp_namespace = "MirProto.ServerMsg";
+
+
+enum TamingState {
+  TamingState_MoveToFood = 0;
+  TamingState_ReturnToStart = 1;
+  TamingState_Think = 2;
+  TamingState_Eat = 3;
+  TamingState_Mounting = 4;
+  TamingState_MiniGame = 5;
+  TamingState_FailDismounting = 6;
+  TamingState_SuccessDismounting = 7;
+  TamingState_Success = 8;
+  TamingState_Fail = 9;
+}

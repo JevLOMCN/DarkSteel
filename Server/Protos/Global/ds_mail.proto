@@ -1,0 +1,14 @@
+syntax = "proto3";
+package ds_mail;
+option csharp_namespace = "MirProto.DsMail";
+
+import "_options.proto";
+import "DirtyFlag.proto";
+import "ds_mail/sql_mail.proto";
+
+message DbWorkItem {
+  DirtyFlag dirty_flag = 1000;
+  oneof Item {
+    ds_mail.SqlMailTable Mail = 1;
+  }
+}

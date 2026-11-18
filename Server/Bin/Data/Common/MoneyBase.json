@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MoneyBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MoneyBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MoneyBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_MoneyType::Copper",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MoneyName": {
+          "ID": 200001
+        },
+        "ID_MoneyIcon": 1,
+        "MoneyDescription": {
+          "ID": 9095
+        },
+        "BelongingType": "EDS_BelongingType::Character",
+        "IsTradeAble": false,
+        "MaximumHoldings": 10000000,
+        "SystemMaximumHoldings": 10000000000,
+        "MoneyValue": 20,
+        "VisibleOrder": 1,
+        "VisibleSection": 1
+      },
+      "11": {
+        "ID": "EDS_MoneyType::Gold",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MoneyName": {
+          "ID": 200002
+        },
+        "ID_MoneyIcon": 3,
+        "MoneyDescription": {
+          "ID": 9096
+        },
+        "BelongingType": "EDS_BelongingType::Player",
+        "IsTradeAble": true,
+        "MaximumHoldings": 10000000,
+        "SystemMaximumHoldings": 10000000000,
+        "MoneyValue": 100,
+        "VisibleOrder": 2,
+        "VisibleSection": 2
+      },
+      "12": {
+        "ID": "EDS_MoneyType::NotTradeGold",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MoneyName": {
+          "ID": 200002
+        },
+        "ID_MoneyIcon": 4,
+        "MoneyDescription": {
+          "ID": 9097
+        },
+        "BelongingType": "EDS_BelongingType::Player",
+        "IsTradeAble": false,
+        "MaximumHoldings": 10000000,
+        "SystemMaximumHoldings": 10000000000,
+        "MoneyValue": 50,
+        "VisibleOrder": 3,
+        "VisibleSection": 3
+      },
+      "51": {
+        "ID": "EDS_MoneyType::Mileage",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_MoneyName": {
+          "ID": 200006
+        },
+        "ID_MoneyIcon": 0,
+        "MoneyDescription": {
+          "ID": 0
+        },
+        "BelongingType": "EDS_BelongingType::Player",
+        "IsTradeAble": false,
+        "MaximumHoldings": 5000000,
+        "SystemMaximumHoldings": 10000000000,
+        "MoneyValue": 500,
+        "VisibleOrder": 0,
+        "VisibleSection": 0
+      }
+    }
+  }
+]

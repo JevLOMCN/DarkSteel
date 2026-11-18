@@ -1,0 +1,1644 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CharacterBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CharacterBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CharacterBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 1,
+        "ID_Name": {
+          "ID": 320001
+        },
+        "ID_Title": {
+          "ID": 350001
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Ancient",
+        "ElementType": "EDS_ElementType::EtherType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 101,
+        "ID_ScenarioInfo": {
+          "ID": 340001
+        },
+        "Origin": {
+          "ID": 350001
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 10101,
+        "ID_NormalAttack": [
+          10101,
+          10102,
+          10103,
+          10104,
+          10105,
+          10108,
+          10109
+        ],
+        "ID_DefaultSkill": [
+          10201,
+          10202,
+          10203,
+          10204
+        ],
+        "ID_TraitSkill": 10205,
+        "ID_SpecialSkill": 10206,
+        "ID_JumpSkill": 10109,
+        "ID_AirDashSkill": 10207,
+        "ID_SwitchingSkill": 10301,
+        "ID_SKillList": [
+          10207,
+          10211,
+          10214,
+          10301
+        ],
+        "ID_NotInputRoll": 19011,
+        "ID_InputRoll": 19010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110001,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1000,
+        "InteractionOffset": 20,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 20
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 2,
+        "ID_Name": {
+          "ID": 320002
+        },
+        "ID_Title": {
+          "ID": 350002
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Female",
+        "CharEquipType": "EDS_CharEquipType::Elemental",
+        "ElementType": "EDS_ElementType::WindType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 2,
+        "ID_DefaultSkin": 201,
+        "ID_ScenarioInfo": {
+          "ID": 340002
+        },
+        "Origin": {
+          "ID": 350001
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 20101,
+        "ID_NormalAttack": [
+          20101,
+          20102,
+          20103,
+          20104,
+          20105,
+          20109
+        ],
+        "ID_DefaultSkill": [
+          20201,
+          20202,
+          20203,
+          20204
+        ],
+        "ID_TraitSkill": 20205,
+        "ID_SpecialSkill": 20206,
+        "ID_JumpSkill": 20109,
+        "ID_AirDashSkill": 20207,
+        "ID_SwitchingSkill": 20301,
+        "ID_SKillList": [
+          20207,
+          20301
+        ],
+        "ID_NotInputRoll": 29011,
+        "ID_InputRoll": 29010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 2,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110002,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1010,
+        "InteractionOffset": 8,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 8
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 3,
+        "ID_Name": {
+          "ID": 320003
+        },
+        "ID_Title": {
+          "ID": 350003
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Makina",
+        "ElementType": "EDS_ElementType::EtherType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 301,
+        "ID_ScenarioInfo": {
+          "ID": 340003
+        },
+        "Origin": {
+          "ID": 350001
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 30101,
+        "ID_NormalAttack": [
+          30101,
+          30102,
+          30103,
+          30104,
+          30105,
+          30109
+        ],
+        "ID_DefaultSkill": [
+          30201,
+          30202,
+          30203,
+          30204
+        ],
+        "ID_TraitSkill": 30205,
+        "ID_SpecialSkill": 30206,
+        "ID_JumpSkill": 30109,
+        "ID_AirDashSkill": 30207,
+        "ID_SwitchingSkill": 30301,
+        "ID_SKillList": [
+          30207,
+          30214,
+          30224,
+          30215,
+          30225,
+          30216,
+          30226,
+          30301
+        ],
+        "ID_NotInputRoll": 39011,
+        "ID_InputRoll": 39010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110003,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1020,
+        "InteractionOffset": 26,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 26
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 4,
+        "ID_Name": {
+          "ID": 320004
+        },
+        "ID_Title": {
+          "ID": 350004
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Inhuman",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Elemental",
+        "ElementType": "EDS_ElementType::ElectroType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 401,
+        "ID_ScenarioInfo": {
+          "ID": 340004
+        },
+        "Origin": {
+          "ID": 350002
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 40101,
+        "ID_NormalAttack": [
+          40101,
+          40102,
+          40103,
+          40104,
+          40105,
+          40109
+        ],
+        "ID_DefaultSkill": [
+          40201,
+          40202,
+          40203,
+          40204
+        ],
+        "ID_TraitSkill": 40205,
+        "ID_SpecialSkill": 40206,
+        "ID_JumpSkill": 40109,
+        "ID_AirDashSkill": 40207,
+        "ID_SwitchingSkill": 40301,
+        "ID_SKillList": [
+          40207,
+          40301
+        ],
+        "ID_NotInputRoll": 49011,
+        "ID_InputRoll": 49010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 2,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110004,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1030,
+        "InteractionOffset": 20,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 20
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 5,
+        "ID_Name": {
+          "ID": 320005
+        },
+        "ID_Title": {
+          "ID": 350005
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::HalfVampire",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Makina",
+        "ElementType": "EDS_ElementType::DarkType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 501,
+        "ID_ScenarioInfo": {
+          "ID": 340005
+        },
+        "Origin": {
+          "ID": 350002
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 50101,
+        "ID_NormalAttack": [
+          50101,
+          50102,
+          50103,
+          50104,
+          50105,
+          50109
+        ],
+        "ID_DefaultSkill": [
+          50201,
+          50202,
+          50203,
+          50204
+        ],
+        "ID_TraitSkill": 50205,
+        "ID_SpecialSkill": 50206,
+        "ID_JumpSkill": 50109,
+        "ID_AirDashSkill": 50207,
+        "ID_SwitchingSkill": 50301,
+        "ID_SKillList": [
+          50207,
+          50215,
+          50301
+        ],
+        "ID_NotInputRoll": 59011,
+        "ID_InputRoll": 59010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110005,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1040,
+        "InteractionOffset": 20,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 20
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 6,
+        "ID_Name": {
+          "ID": 320006
+        },
+        "ID_Title": {
+          "ID": 350006
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Ancient",
+        "ElementType": "EDS_ElementType::LightType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 601,
+        "ID_ScenarioInfo": {
+          "ID": 340006
+        },
+        "Origin": {
+          "ID": 350002
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 60101,
+        "ID_NormalAttack": [
+          60101,
+          60102,
+          60103,
+          60104,
+          60105,
+          60109
+        ],
+        "ID_DefaultSkill": [
+          60201,
+          60202,
+          60203,
+          60204
+        ],
+        "ID_TraitSkill": 60205,
+        "ID_SpecialSkill": 60206,
+        "ID_JumpSkill": 60109,
+        "ID_AirDashSkill": 60207,
+        "ID_SwitchingSkill": 60301,
+        "ID_SKillList": [
+          60207,
+          60301
+        ],
+        "ID_NotInputRoll": 69011,
+        "ID_InputRoll": 69010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110006,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1050,
+        "InteractionOffset": 26,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 26
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 8,
+        "ID_Name": {
+          "ID": 320007
+        },
+        "ID_Title": {
+          "ID": 350007
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Female",
+        "CharEquipType": "EDS_CharEquipType::Ancient",
+        "ElementType": "EDS_ElementType::ElectroType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 2,
+        "ID_DefaultSkin": 701,
+        "ID_ScenarioInfo": {
+          "ID": 340007
+        },
+        "Origin": {
+          "ID": 350007
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 70101,
+        "ID_NormalAttack": [
+          70101,
+          70102,
+          70103,
+          70104,
+          70105,
+          70109
+        ],
+        "ID_DefaultSkill": [
+          70201,
+          70202,
+          70203,
+          70204
+        ],
+        "ID_TraitSkill": 70205,
+        "ID_SpecialSkill": 70206,
+        "ID_JumpSkill": 70109,
+        "ID_AirDashSkill": 70207,
+        "ID_SwitchingSkill": 70301,
+        "ID_SKillList": [
+          70207,
+          70301
+        ],
+        "ID_NotInputRoll": 79011,
+        "ID_InputRoll": 79010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 2,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110007,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1010,
+        "InteractionOffset": 8,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 8
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320008
+        },
+        "ID_Title": {
+          "ID": 350008
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Female",
+        "CharEquipType": "EDS_CharEquipType::Elemental",
+        "ElementType": "EDS_ElementType::FireType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 2,
+        "ID_DefaultSkin": 801,
+        "ID_ScenarioInfo": {
+          "ID": 340008
+        },
+        "Origin": {
+          "ID": 350008
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 70101,
+        "ID_NormalAttack": [
+          70101,
+          70102,
+          70103,
+          70104,
+          70105,
+          70109
+        ],
+        "ID_DefaultSkill": [
+          70201,
+          70202,
+          70203,
+          70204
+        ],
+        "ID_TraitSkill": 70205,
+        "ID_SpecialSkill": 70206,
+        "ID_JumpSkill": 70109,
+        "ID_AirDashSkill": 70207,
+        "ID_SwitchingSkill": 70301,
+        "ID_SKillList": [
+          70207,
+          70301
+        ],
+        "ID_NotInputRoll": 79011,
+        "ID_InputRoll": 79010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 2,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110007,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1010,
+        "InteractionOffset": 8,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 8
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320009
+        },
+        "ID_Title": {
+          "ID": 350009
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Female",
+        "CharEquipType": "EDS_CharEquipType::Makina",
+        "ElementType": "EDS_ElementType::DarkType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 2,
+        "ID_DefaultSkin": 901,
+        "ID_ScenarioInfo": {
+          "ID": 340009
+        },
+        "Origin": {
+          "ID": 350009
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 90101,
+        "ID_NormalAttack": [
+          90101,
+          90102,
+          90103,
+          90104,
+          90105,
+          90108
+        ],
+        "ID_DefaultSkill": [
+          90201,
+          90202,
+          90203,
+          90204
+        ],
+        "ID_TraitSkill": 90205,
+        "ID_SpecialSkill": 90206,
+        "ID_JumpSkill": 90109,
+        "ID_AirDashSkill": 90207,
+        "ID_SwitchingSkill": 90301,
+        "ID_SKillList": [
+          90207,
+          90301
+        ],
+        "ID_NotInputRoll": 99011,
+        "ID_InputRoll": 99010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110007,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1010,
+        "InteractionOffset": 8,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 8
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320010
+        },
+        "ID_Title": {
+          "ID": 350010
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Precursor",
+        "GenderType": "EDS_GenderType::Female",
+        "CharEquipType": "EDS_CharEquipType::Ancient",
+        "ElementType": "EDS_ElementType::EtherType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 1001,
+        "ID_ScenarioInfo": {
+          "ID": 340010
+        },
+        "Origin": {
+          "ID": 350010
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 70101,
+        "ID_NormalAttack": [
+          70101,
+          70102,
+          70103,
+          70104,
+          70105,
+          70109
+        ],
+        "ID_DefaultSkill": [
+          70201,
+          70202,
+          70203,
+          70204
+        ],
+        "ID_TraitSkill": 70205,
+        "ID_SpecialSkill": 70206,
+        "ID_JumpSkill": 70109,
+        "ID_AirDashSkill": 70207,
+        "ID_SwitchingSkill": 70301,
+        "ID_SKillList": [
+          70207,
+          70301
+        ],
+        "ID_NotInputRoll": 79011,
+        "ID_InputRoll": 79010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 2,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110007,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1010,
+        "InteractionOffset": 8,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 8
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 9,
+        "ID_Name": {
+          "ID": 320011
+        },
+        "ID_Title": {
+          "ID": 350011
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Inhuman",
+        "GenderType": "EDS_GenderType::Female",
+        "CharEquipType": "EDS_CharEquipType::Elemental",
+        "ElementType": "EDS_ElementType::WaterType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 2,
+        "ID_DefaultSkin": 1101,
+        "ID_ScenarioInfo": {
+          "ID": 340011
+        },
+        "Origin": {
+          "ID": 350011
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::MagicAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 110101,
+        "ID_NormalAttack": [
+          110101,
+          110102,
+          110103,
+          110104,
+          110105,
+          110109
+        ],
+        "ID_DefaultSkill": [
+          110201,
+          110202,
+          110203,
+          110204
+        ],
+        "ID_TraitSkill": 110205,
+        "ID_SpecialSkill": 110206,
+        "ID_JumpSkill": 110109,
+        "ID_AirDashSkill": 110207,
+        "ID_SwitchingSkill": 110301,
+        "ID_SKillList": [
+          110207,
+          110301
+        ],
+        "ID_NotInputRoll": 119011,
+        "ID_InputRoll": 119010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 2,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110008,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1120,
+        "InteractionOffset": 8,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 8
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 7,
+        "ID_Name": {
+          "ID": 320012
+        },
+        "ID_Title": {
+          "ID": 350011
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Precursor",
+        "GenderType": "EDS_GenderType::Female",
+        "CharEquipType": "EDS_CharEquipType::Ancient",
+        "ElementType": "EDS_ElementType::WaterType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 2,
+        "ID_DefaultSkin": 1201,
+        "ID_ScenarioInfo": {
+          "ID": 340012
+        },
+        "Origin": {
+          "ID": 350011
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 120101,
+        "ID_NormalAttack": [
+          120101,
+          120102,
+          120103,
+          120104,
+          120105,
+          10109
+        ],
+        "ID_DefaultSkill": [
+          120201,
+          120202,
+          120203,
+          120204
+        ],
+        "ID_TraitSkill": 120205,
+        "ID_SpecialSkill": 120206,
+        "ID_JumpSkill": 120109,
+        "ID_AirDashSkill": 120207,
+        "ID_SwitchingSkill": 120301,
+        "ID_SKillList": [
+          120207,
+          120215,
+          120225,
+          120301
+        ],
+        "ID_NotInputRoll": 129011,
+        "ID_InputRoll": 129010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 7,
+        "CharConvRewardItem": 160110008,
+        "CharConvRewardItemCnt": 1,
+        "ID_CameraPreset": 1120,
+        "InteractionOffset": 20,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 20
+      },
+      "901": {
+        "ID": 901,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320001
+        },
+        "ID_Title": {
+          "ID": 0
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Precursor",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Ancient",
+        "ElementType": "EDS_ElementType::NormalType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 101,
+        "ID_ScenarioInfo": {
+          "ID": 340001
+        },
+        "Origin": {
+          "ID": 350001
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 10101,
+        "ID_NormalAttack": [
+          10101,
+          10102,
+          10103,
+          10104,
+          10105,
+          10108,
+          10109
+        ],
+        "ID_DefaultSkill": [
+          10201,
+          10202,
+          10203,
+          10204
+        ],
+        "ID_TraitSkill": 0,
+        "ID_SpecialSkill": 10206,
+        "ID_JumpSkill": 10109,
+        "ID_AirDashSkill": 10207,
+        "ID_SwitchingSkill": 10301,
+        "ID_SKillList": [
+          10109,
+          10207
+        ],
+        "ID_NotInputRoll": 19011,
+        "ID_InputRoll": 19010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 0,
+        "CharConvRewardItem": 0,
+        "CharConvRewardItemCnt": 0,
+        "ID_CameraPreset": 1000,
+        "InteractionOffset": 0,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 0
+      },
+      "902": {
+        "ID": 902,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320002
+        },
+        "ID_Title": {
+          "ID": 0
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Female",
+        "CharEquipType": "EDS_CharEquipType::Elemental",
+        "ElementType": "EDS_ElementType::NormalType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 201,
+        "ID_ScenarioInfo": {
+          "ID": 340002
+        },
+        "Origin": {
+          "ID": 350001
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 20101,
+        "ID_NormalAttack": [
+          20101,
+          20102,
+          20103,
+          20104,
+          20105
+        ],
+        "ID_DefaultSkill": [
+          20201,
+          20202,
+          20203,
+          20204
+        ],
+        "ID_TraitSkill": 0,
+        "ID_SpecialSkill": 20206,
+        "ID_JumpSkill": 20105,
+        "ID_AirDashSkill": 20201,
+        "ID_SwitchingSkill": 20301,
+        "ID_SKillList": [],
+        "ID_NotInputRoll": 29011,
+        "ID_InputRoll": 29010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 2,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 0,
+        "CharConvRewardItem": 0,
+        "CharConvRewardItemCnt": 0,
+        "ID_CameraPreset": 1010,
+        "InteractionOffset": 0,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 0
+      },
+      "903": {
+        "ID": 903,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320003
+        },
+        "ID_Title": {
+          "ID": 0
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Makina",
+        "ElementType": "EDS_ElementType::NormalType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 301,
+        "ID_ScenarioInfo": {
+          "ID": 340003
+        },
+        "Origin": {
+          "ID": 350001
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 30101,
+        "ID_NormalAttack": [
+          30101,
+          30102,
+          30103,
+          30104,
+          30105
+        ],
+        "ID_DefaultSkill": [
+          30201,
+          30202,
+          30203,
+          30294
+        ],
+        "ID_TraitSkill": 0,
+        "ID_SpecialSkill": 30296,
+        "ID_JumpSkill": 30105,
+        "ID_AirDashSkill": 30203,
+        "ID_SwitchingSkill": 30301,
+        "ID_SKillList": [
+          30214,
+          30224,
+          30215,
+          30225,
+          30216,
+          30226
+        ],
+        "ID_NotInputRoll": 39011,
+        "ID_InputRoll": 39010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 0,
+        "CharConvRewardItem": 0,
+        "CharConvRewardItemCnt": 0,
+        "ID_CameraPreset": 1020,
+        "InteractionOffset": 0,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 0
+      },
+      "904": {
+        "ID": 904,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320004
+        },
+        "ID_Title": {
+          "ID": 0
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Inhuman",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Elemental",
+        "ElementType": "EDS_ElementType::NormalType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 401,
+        "ID_ScenarioInfo": {
+          "ID": 340004
+        },
+        "Origin": {
+          "ID": 350002
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 40101,
+        "ID_NormalAttack": [
+          40101,
+          40102,
+          40103,
+          40104,
+          40105
+        ],
+        "ID_DefaultSkill": [
+          40201,
+          40202,
+          40203,
+          40204
+        ],
+        "ID_TraitSkill": 0,
+        "ID_SpecialSkill": 40206,
+        "ID_JumpSkill": 40105,
+        "ID_AirDashSkill": 40201,
+        "ID_SwitchingSkill": 40301,
+        "ID_SKillList": [],
+        "ID_NotInputRoll": 49011,
+        "ID_InputRoll": 49010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 2,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 0,
+        "CharConvRewardItem": 0,
+        "CharConvRewardItemCnt": 0,
+        "ID_CameraPreset": 1030,
+        "InteractionOffset": 0,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 0
+      },
+      "905": {
+        "ID": 905,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320005
+        },
+        "ID_Title": {
+          "ID": 0
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Makina",
+        "ElementType": "EDS_ElementType::NormalType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 701,
+        "ID_ScenarioInfo": {
+          "ID": 340005
+        },
+        "Origin": {
+          "ID": 350002
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 10010,
+        "ID_NormalAttack": [
+          10010,
+          10020,
+          10030,
+          10040,
+          10050,
+          10060,
+          10070,
+          10080
+        ],
+        "ID_DefaultSkill": [
+          1102,
+          1103,
+          1111,
+          1112
+        ],
+        "ID_TraitSkill": 0,
+        "ID_SpecialSkill": 1113,
+        "ID_JumpSkill": 10080,
+        "ID_AirDashSkill": 1118,
+        "ID_SwitchingSkill": 50301,
+        "ID_SKillList": [
+          1117,
+          1118,
+          1119,
+          1121
+        ],
+        "ID_NotInputRoll": 19011,
+        "ID_InputRoll": 19010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 0,
+        "CharConvRewardItem": 0,
+        "CharConvRewardItemCnt": 0,
+        "ID_CameraPreset": 1040,
+        "InteractionOffset": 0,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 0
+      },
+      "906": {
+        "ID": 906,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320005
+        },
+        "ID_Title": {
+          "ID": 350005
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::HalfVampire",
+        "GenderType": "EDS_GenderType::Male",
+        "CharEquipType": "EDS_CharEquipType::Makina",
+        "ElementType": "EDS_ElementType::DarkType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 1,
+        "ID_DefaultSkin": 501,
+        "ID_ScenarioInfo": {
+          "ID": 340005
+        },
+        "Origin": {
+          "ID": 350002
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp",
+          "EDS_StatusType::PhysicalAttack",
+          "EDS_StatusType::PhysicalDefense",
+          "EDS_StatusType::MagicDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 50101,
+        "ID_NormalAttack": [
+          50101,
+          50102,
+          50103,
+          50104,
+          50105,
+          50109
+        ],
+        "ID_DefaultSkill": [
+          50208,
+          50218,
+          50228,
+          50204
+        ],
+        "ID_TraitSkill": 50205,
+        "ID_SpecialSkill": 50206,
+        "ID_JumpSkill": 50109,
+        "ID_AirDashSkill": 50207,
+        "ID_SwitchingSkill": 50301,
+        "ID_SKillList": [
+          50207,
+          50215,
+          50301,
+          50238,
+          50208,
+          50218,
+          50228,
+          50248
+        ],
+        "ID_NotInputRoll": 59011,
+        "ID_InputRoll": 59010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 20000,
+        "MoveConGrade": 20000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 1,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 0,
+        "CharConvRewardItem": 0,
+        "CharConvRewardItemCnt": 0,
+        "ID_CameraPreset": 1040,
+        "InteractionOffset": 100,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 100
+      },
+      "10000": {
+        "ID": 10000,
+        "DataStage": 23,
+        "Version": "*",
+        "UIOrder": 0,
+        "ID_Name": {
+          "ID": 320002
+        },
+        "ID_Title": {
+          "ID": 0
+        },
+        "Grade": "EDS_GradeType::None",
+        "RaceType": "EDS_RaceType::Human",
+        "GenderType": "EDS_GenderType::Female",
+        "CharEquipType": "EDS_CharEquipType::Elemental",
+        "ElementType": "EDS_ElementType::NormalType",
+        "DefaultHeightConditionType": "EDS_HeightConditionType::Ground",
+        "ID_ResourcePreset": 10000,
+        "ID_DefaultSkin": 10000,
+        "ID_ScenarioInfo": {
+          "ID": 340002
+        },
+        "Origin": {
+          "ID": 350001
+        },
+        "SummaryStatus": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::RegenHp",
+          "EDS_StatusType::RegenMp"
+        ],
+        "ID_AutoBattleBt": 0,
+        "ID_NormalSkill": 20101,
+        "ID_NormalAttack": [
+          20101,
+          20102,
+          20103,
+          20104,
+          20105
+        ],
+        "ID_DefaultSkill": [
+          20201,
+          20202,
+          20203,
+          20204
+        ],
+        "ID_TraitSkill": 20205,
+        "ID_SpecialSkill": 20206,
+        "ID_JumpSkill": 20105,
+        "ID_AirDashSkill": 20201,
+        "ID_SwitchingSkill": 60301,
+        "ID_SKillList": [],
+        "ID_NotInputRoll": 29011,
+        "ID_InputRoll": 29010,
+        "ID_AirWalkGroup": 1,
+        "WalkSpeed": 200.0,
+        "RunSpeed": 600.0,
+        "BattleRunSpeed": 500.0,
+        "RollSpeed": 1280.0,
+        "MaxAcceleration": 1500.0,
+        "MaxDeceleration": 2048.0,
+        "StateConGrade": 200000,
+        "MoveConGrade": 200000,
+        "MaxLevel": 60,
+        "ID_LevelGroup": 2,
+        "ID_AscendGroup": 1,
+        "MaxEvolution": 0,
+        "CharConvRewardItem": 0,
+        "CharConvRewardItemCnt": 0,
+        "ID_CameraPreset": 1010,
+        "InteractionOffset": 0,
+        "HandlingGradeHold": 1,
+        "HandlingGradeLift": 1,
+        "HandlingGradeHeavyLift": 1,
+        "RealRaidus": 0
+      }
+    }
+  }
+]

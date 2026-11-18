@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{88905651-1519-5A0D-93D2-2E9ABB9EE34A}</ProjectGuid><RootNamespace>Other_oo2core_win64</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="oo2core_win64\cpux86.cpp" />
+    <ClCompile Include="oo2core_win64\ctmf.cpp" />
+    <ClCompile Include="oo2core_win64\ctmf_avx2.cpp" />
+    <ClCompile Include="oo2core_win64\enchuff3_x64_bmi2.cpp" />
+    <ClCompile Include="oo2core_win64\enchuff3_x64_generic.cpp" />
+    <ClCompile Include="oo2core_win64\entropysets.cpp" />
+    <ClCompile Include="oo2core_win64\entropysets_sse4.cpp" />
+    <ClCompile Include="oo2core_win64\histo_x64_generic.cpp" />
+    <ClCompile Include="oo2core_win64\histogram.cpp" />
+    <ClCompile Include="oo2core_win64\kde_profile.cpp" />
+    <ClCompile Include="oo2core_win64\log2table.cpp" />
+    <ClCompile Include="oo2core_win64\longrangematcher.cpp" />
+    <ClCompile Include="oo2core_win64\lzb.cpp" />
+    <ClCompile Include="oo2core_win64\newlz.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_arrays.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_arrays_huff.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_arrays_rle.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_arrays_tans.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_block_coders.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_block_coders_ssse3.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_histo.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_huff6_x64_bmi2.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_huff6_x64_generic.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_huff6_x64_zen2.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_huff_x64_zen2.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_huffx64_bmi2.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_huffx64_generic.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_multiarrays.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_multiarrays_sse4.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_offsets.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_offsets_sse4.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_shared.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_simd.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_simd_sse4.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_speedfit.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_sse4.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_tans.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_tans_x64_bmi2.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_tans_x64_bmi2_rpl.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_tans_x64_generic.cpp" />
+    <ClCompile Include="oo2core_win64\newlz_vtable.cpp" />
+    <ClCompile Include="oo2core_win64\newlzf.cpp" />
+    <ClCompile Include="oo2core_win64\newlzf_sse4.cpp" />
+    <ClCompile Include="oo2core_win64\newlzhc.cpp" />
+    <ClCompile Include="oo2core_win64\newlzhc_sse4.cpp" />
+    <ClCompile Include="oo2core_win64\oodlebase.cpp" />
+    <ClCompile Include="oo2core_win64\oodleconfigvalues.cpp" />
+    <ClCompile Include="oo2core_win64\oodlecoreinit.cpp" />
+    <ClCompile Include="oo2core_win64\oodlecoreplugins.cpp" />
+    <ClCompile Include="oo2core_win64\oodlejob.cpp" />
+    <ClCompile Include="oo2core_win64\oodlelzcompressors.cpp" />
+    <ClCompile Include="oo2core_win64\oodlelzlegacyvtable.cpp" />
+    <ClCompile Include="oo2core_win64\oodlemalloc.cpp" />
+    <ClCompile Include="oo2core_win64\rrbase.cpp" />
+    <ClCompile Include="oo2core_win64\rrbighash.cpp" />
+    <ClCompile Include="oo2core_win64\rrbytepacking.cpp" />
+    <ClCompile Include="oo2core_win64\rrcompressutil.cpp" />
+    <ClCompile Include="oo2core_win64\rrhuffman.cpp" />
+    <ClCompile Include="oo2core_win64\rrhuffmandecode.cpp" />
+    <ClCompile Include="oo2core_win64\rrlog.cpp" />
+    <ClCompile Include="oo2core_win64\rrlogutil.cpp" />
+    <ClCompile Include="oo2core_win64\rrlzh_lzhlw_shared.cpp" />
+    <ClCompile Include="oo2core_win64\rrmath.cpp" />
+    <ClCompile Include="oo2core_win64\rrmemutil.cpp" />
+    <ClCompile Include="oo2core_win64\suffixtrie.cpp" />
+    <ClCompile Include="oo2core_win64\x64_wc_probe.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

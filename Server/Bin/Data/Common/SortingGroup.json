@@ -1,0 +1,110 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SortingGroup",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SortingGroup",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SortingGroupTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_SortingGroupType::Inventory",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::ItemWeight",
+          "EDS_SortingType::Get"
+        ]
+      },
+      "2": {
+        "ID": "EDS_SortingGroupType::Character",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::CharGet",
+          "EDS_SortingType::CharLevel",
+          "EDS_SortingType::CharName"
+        ]
+      },
+      "3": {
+        "ID": "EDS_SortingGroupType::Gacha",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::GachaChar",
+          "EDS_SortingType::GachaItem"
+        ]
+      },
+      "4": {
+        "ID": "EDS_SortingGroupType::Player",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::PlayerIcon"
+        ]
+      },
+      "5": {
+        "ID": "EDS_SortingGroupType::CharacterEquipment",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::CharEquipGet",
+          "EDS_SortingType::CharEquipLevel",
+          "EDS_SortingType::CharEquipName"
+        ]
+      },
+      "6": {
+        "ID": "EDS_SortingGroupType::Mount",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::MountGet",
+          "EDS_SortingType::MountName",
+          "EDS_SortingType::MountSkill",
+          "EDS_SortingType::MountBodyType",
+          "EDS_SortingType::MountMoveSpeed",
+          "EDS_SortingType::MountWeight",
+          "EDS_SortingType::MountGrade"
+        ]
+      },
+      "7": {
+        "ID": "EDS_SortingGroupType::LostList",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::LostListTimeLeft"
+        ]
+      },
+      "8": {
+        "ID": "EDS_SortingGroupType::LostItem",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::LostItemGrade",
+          "EDS_SortingType::LostItemLevel",
+          "EDS_SortingType::LostItemWeight"
+        ]
+      },
+      "9": {
+        "ID": "EDS_SortingGroupType::ItemRepairAll",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::Repair",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level"
+        ]
+      },
+      "10": {
+        "ID": "EDS_SortingGroupType::ItemRepair",
+        "DataStage": 23,
+        "ID_SortingType": [
+          "EDS_SortingType::RepairRestore",
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level"
+        ]
+      }
+    }
+  }
+]

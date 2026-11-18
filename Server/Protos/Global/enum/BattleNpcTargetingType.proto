@@ -1,0 +1,9 @@
+syntax = "proto3";
+package server_msg;
+option csharp_namespace = "MirProto.ServerMsg";
+
+
+enum BattleNpcTargetingType {
+  BattleNpcTargetingType_On = 0;
+  BattleNpcTargetingType_Off = 1;
+}

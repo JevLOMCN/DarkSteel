@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!--
+		Typed C# for the Mir 5 client protocol. Every .proto under Server/Protos/Global (extracted from ProjectDS.exe) is compiled with
+		protoc at build time into obj/Generated, so the server uses the same message classes as the client (ServerMsg.ServerMessages,
+		ClientMsgTwoway.ClientMessagesTwoway, DsGame.DbWorkItem, ErrorCode, ...). Edit the .proto files, not generated code.
+		protoc comes from the Google.Protobuf.Tools package (no separate install).
+	-->
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<GenerateDocumentationFile>false</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);CS1591;CS0612;CS8981;CS0108;CS0109</NoWarn>
+		<ProtoRoot>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\Protos\Global\'))</ProtoRoot>
+		<ProtoGenDir>$(MSBuildThisFileDirectory)obj\Generated\</ProtoGenDir>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Google.Protobuf" Version="3.25.3" />
+		<PackageReference Include="Google.Protobuf.Tools" Version="3.25.3" PrivateAssets="all" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<ProtocToolsDir>$(NuGetPackageRoot)google.protobuf.tools/3.25.3/tools/</ProtocToolsDir>
+		<ProtocExe Condition="$([MSBuild]::IsOSPlatform('Windows'))">$(ProtocToolsDir)windows_x64/protoc.exe</ProtocExe>
+		<ProtocExe Condition="$([MSBuild]::IsOSPlatform('Linux'))">$(ProtocToolsDir)linux_x64/protoc</ProtocExe>
+		<ProtocExe Condition="$([MSBuild]::IsOSPlatform('OSX'))">$(ProtocToolsDir)macosx_x64/protoc</ProtocExe>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProtoSources Include="$(ProtoRoot)**\*.proto" />
+	</ItemGroup>
+
+	<Target Name="GenerateMir5Protos" Inputs="@(ProtoSources)" Outputs="$(ProtoGenDir)ServerMsg.cs">
+		<MakeDir Directories="$(ProtoGenDir)" />
+		<!-- Response file (one argument per line) avoids the command-line length limit with ~200 files. -->
+		<ItemGroup>
+			<ProtocArg Include="--proto_path=$(ProtoRoot)" />
+			<ProtocArg Include="--proto_path=$(ProtocToolsDir)" />
+			<ProtocArg Include="--csharp_out=$(ProtoGenDir)" />
+			<ProtocArg Include="@(ProtoSources->'%(FullPath)')" />
+		</ItemGroup>
+		<WriteLinesToFile File="$(ProtoGenDir)protoc.rsp" Overwrite="true" Lines="@(ProtocArg)" />
+		<Exec Command="&quot;$(ProtocExe)&quot; @&quot;$(ProtoGenDir)protoc.rsp&quot;" />
+	</Target>
+
+	<Target Name="IncludeGeneratedProtos" DependsOnTargets="GenerateMir5Protos" BeforeTargets="CoreCompile">
+		<ItemGroup>
+			<Compile Include="$(ProtoGenDir)**\*.cs" />
+		</ItemGroup>
+	</Target>
+</Project>

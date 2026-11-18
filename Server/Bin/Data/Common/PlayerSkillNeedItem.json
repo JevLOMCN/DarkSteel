@@ -1,0 +1,1862 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerSkillNeedItem",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PlayerSkillNeedItem",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PlayerSkillNeedItemTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "4001": {
+        "ID": 4001,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "4002": {
+        "ID": 4002,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "4003": {
+        "ID": 4003,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "4004": {
+        "ID": 4004,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "4005": {
+        "ID": 4005,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "4006": {
+        "ID": 4006,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "4007": {
+        "ID": 4007,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      "4008": {
+        "ID": 4008,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "4009": {
+        "ID": 4009,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "4010": {
+        "ID": 4010,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "4011": {
+        "ID": 4011,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
+      },
+      "4012": {
+        "ID": 4012,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      },
+      "4013": {
+        "ID": 4013,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ]
+      },
+      "4014": {
+        "ID": 4014,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      },
+      "4015": {
+        "ID": 4015,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
+      },
+      "4016": {
+        "ID": 4016,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "4017": {
+        "ID": 4017,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ]
+      },
+      "4018": {
+        "ID": 4018,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ]
+      },
+      "4019": {
+        "ID": 4019,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ]
+      },
+      "4020": {
+        "ID": 4020,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010,
+          141800010
+        ],
+        "ReqItemCnt": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      "6000": {
+        "ID": 6000,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "6001": {
+        "ID": 6001,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "6002": {
+        "ID": 6002,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "6003": {
+        "ID": 6003,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "6004": {
+        "ID": 6004,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "6005": {
+        "ID": 6005,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "6006": {
+        "ID": 6006,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "6007": {
+        "ID": 6007,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      "6008": {
+        "ID": 6008,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "6009": {
+        "ID": 6009,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "6010": {
+        "ID": 6010,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "6011": {
+        "ID": 6011,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
+      },
+      "6012": {
+        "ID": 6012,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      },
+      "6013": {
+        "ID": 6013,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ]
+      },
+      "6014": {
+        "ID": 6014,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      },
+      "6015": {
+        "ID": 6015,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
+      },
+      "6016": {
+        "ID": 6016,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ]
+      },
+      "6017": {
+        "ID": 6017,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          17,
+          17,
+          17,
+          17,
+          17,
+          17
+        ]
+      },
+      "6018": {
+        "ID": 6018,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          18,
+          18,
+          18,
+          18,
+          18,
+          18
+        ]
+      },
+      "6019": {
+        "ID": 6019,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          19,
+          19,
+          19,
+          19,
+          19,
+          19
+        ]
+      },
+      "6020": {
+        "ID": 6020,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerSkillGrade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "ReqTicketType": [
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint",
+          "EDS_TicketType::ActionPoint"
+        ],
+        "ReqTicketCnt": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "ID_ReqItem": [
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001,
+          280200001
+        ],
+        "ReqItemCnt": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      }
+    }
+  }
+]

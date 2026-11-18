@@ -1,0 +1,21 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: GeometryAlgorithms
+// Functions: 2
+
+// StartupModule @ 1494dc1d0
+
+void __thiscall FGeometryAlgorithmsModule::StartupModule(FGeometryAlgorithmsModule *this)
+
+{
+  return;
+}
+
+// ShutdownModule @ 1494dc1e0
+
+void __thiscall FGeometryAlgorithmsModule::ShutdownModule(FGeometryAlgorithmsModule *this)
+
+{
+  return;
+}
+

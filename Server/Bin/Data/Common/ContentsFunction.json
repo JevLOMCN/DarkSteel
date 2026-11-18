@@ -1,0 +1,706 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ContentsFunction",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ContentsFunction",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ContentsFunctionTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "201501": {
+        "ID": "EDS_ContentsFunctionType::CharacterEvolving",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::CharacterBaseId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5137
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "600101": {
+        "ID": "EDS_ContentsFunctionType::ItemDecomposition",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemBaseItemType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5107
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "600102": {
+        "ID": "EDS_ContentsFunctionType::ItemDismantle",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemBaseItemType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5107
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "601101": {
+        "ID": "EDS_ContentsFunctionType::ItemDestroy",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemBaseItemType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5108
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "602101": {
+        "ID": "EDS_ContentsFunctionType::ItemUse",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemBaseItemType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5109
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "700101": {
+        "ID": "EDS_ContentsFunctionType::ItemEnhance",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemBaseItemType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5132
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "701101": {
+        "ID": "EDS_ContentsFunctionType::ItemFusion",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemBaseItemType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 230008
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "601201": {
+        "ID": "EDS_ContentsFunctionType::ItemRepair",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 230009
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "701201": {
+        "ID": "EDS_ContentsFunctionType::ItemEnchant",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemBaseItemType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 230010
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "900101": {
+        "ID": "EDS_ContentsFunctionType::StuffGatherStart",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::StuffGatherType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5111
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "910101": {
+        "ID": "EDS_ContentsFunctionType::StuffAutoGatherStart",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::StuffGatherType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5112
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1000101": {
+        "ID": "EDS_ContentsFunctionType::ItemCraftComplete",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemCraftListGroupId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5113
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1010102": {
+        "ID": "EDS_ContentsFunctionType::ItemCraft",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemCraftListGroupId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5114
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1200101": {
+        "ID": "EDS_ContentsFunctionType::ItemBuy",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ShopListShopGroupId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5115
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1200202": {
+        "ID": "EDS_ContentsFunctionType::ItemSell",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::ItemBaseItemType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5116
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1500101": {
+        "ID": "EDS_ContentsFunctionType::PkModeChange",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::PkModeId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5117
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1500201": {
+        "ID": "EDS_ContentsFunctionType::ForceAttackAdd",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5118
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1800101": {
+        "ID": "EDS_ContentsFunctionType::PartyCreate",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5139
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1800102": {
+        "ID": "EDS_ContentsFunctionType::PartyJoin",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5139
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1800103": {
+        "ID": "EDS_ContentsFunctionType::PartyInvitation",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5139
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1900301": {
+        "ID": "EDS_ContentsFunctionType::ChatZone",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5122
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1900401": {
+        "ID": "EDS_ContentsFunctionType::ChatArea",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5123
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1900501": {
+        "ID": "EDS_ContentsFunctionType::ChatParty",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5124
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1900601": {
+        "ID": "EDS_ContentsFunctionType::ChatRaidParty",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5125
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1900701": {
+        "ID": "EDS_ContentsFunctionType::ChatGuild",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5126
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1901001": {
+        "ID": "EDS_ContentsFunctionType::ChatWhisper",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5129
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "1900801": {
+        "ID": "EDS_ContentsFunctionType::ChatOrganization",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5130
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "2000101": {
+        "ID": "EDS_ContentsFunctionType::DropZone",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::DropZoneDropZoneGroupId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5131
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "2000201": {
+        "ID": "EDS_ContentsFunctionType::DropNpc",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::NpcBattleIdIdDropGroup",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5131
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "2000301": {
+        "ID": "EDS_ContentsFunctionType::DropFixed",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::NpcBattleIdIdFixedDropGroup",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5131
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "2000401": {
+        "ID": "EDS_ContentsFunctionType::DropStuff",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::StuffBaseId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5131
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "2100101": {
+        "ID": "EDS_ContentsFunctionType::QuestAccept",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::QuestBaseId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 430008
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "2100102": {
+        "ID": "EDS_ContentsFunctionType::QuestComplete",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::QuestBaseId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 430008
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "2001000": {
+        "ID": "EDS_ContentsFunctionType::TicketCharge",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 6007
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "4020101": {
+        "ID": "EDS_ContentsFunctionType::ReturnHomeSave",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5701
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "4020201": {
+        "ID": "EDS_ContentsFunctionType::WarpDeviceActivate",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::WarpDeviceId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5701
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "4020202": {
+        "ID": "EDS_ContentsFunctionType::WarpDeviceTeleport",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::WarpDeviceId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5701
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "5100002": {
+        "ID": "EDS_ContentsFunctionType::GameOption",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 301002
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "6000001": {
+        "ID": "EDS_ContentsFunctionType::RingCmdUpdate",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "6000002": {
+        "ID": "EDS_ContentsFunctionType::RingCmdTotalMenuLock",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::TotalMenuId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 0
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "2200101": {
+        "ID": "EDS_ContentsFunctionType::GachaStart",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::GachaBaseId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 310016
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "5200001": {
+        "ID": "EDS_ContentsFunctionType::DungeonStart",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::DungeonBaseId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5133
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "5200002": {
+        "ID": "EDS_ContentsFunctionType::RaidPartyCreate",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::DungeonBaseId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5133
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "5200003": {
+        "ID": "EDS_ContentsFunctionType::RaidPartyJoin",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::DungeonBaseId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5133
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "800002": {
+        "ID": "EDS_ContentsFunctionType::WaitCompleteType",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::WaitCompleteType",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 305
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "2300101": {
+        "ID": "EDS_ContentsFunctionType::PlayerSkillAscend",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::GachaBaseId",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 5138
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "410101": {
+        "ID": "EDS_ContentsFunctionType::MountManagement",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 300017
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "410102": {
+        "ID": "EDS_ContentsFunctionType::MountLostReclaim",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 300017
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "7000001": {
+        "ID": "EDS_ContentsFunctionType::SummonBoss",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 460001
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "8000001": {
+        "ID": "EDS_ContentsFunctionType::Breach",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 470001
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "9000001": {
+        "ID": "EDS_ContentsFunctionType::Gate",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 480001
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "5000001": {
+        "ID": "EDS_ContentsFunctionType::MailSend",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 300020
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      },
+      "5000002": {
+        "ID": "EDS_ContentsFunctionType::MailRewardGet",
+        "DataStage": 23,
+        "FunctionValueType": "EDS_FunctionValueType::None",
+        "FunctionLockType": "EDS_FunctionLockType::None",
+        "FunctionLockValue": [],
+        "ID_Name": {
+          "ID": 300020
+        },
+        "ID_DoNotUseMessage": {
+          "ID": 1403
+        }
+      }
+    }
+  }
+]

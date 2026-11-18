@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemSetEffectGroup",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemSetEffectGroup",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemSetEffectGroupTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_SetEffect": [
+          1,
+          2,
+          3
+        ],
+        "SetEffectRate": [
+          300000,
+          300000,
+          400000
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ID_SetEffect": [
+          2,
+          3,
+          4
+        ],
+        "SetEffectRate": [
+          300000,
+          300000,
+          400000
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "ID_SetEffect": [
+          3,
+          4,
+          5
+        ],
+        "SetEffectRate": [
+          300000,
+          300000,
+          400000
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "ID_SetEffect": [
+          4,
+          5,
+          1
+        ],
+        "SetEffectRate": [
+          300000,
+          300000,
+          400000
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "ID_SetEffect": [
+          5,
+          1,
+          2
+        ],
+        "SetEffectRate": [
+          300000,
+          300000,
+          400000
+        ]
+      }
+    }
+  }
+]

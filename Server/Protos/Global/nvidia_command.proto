@@ -1,0 +1,34 @@
+syntax = "proto3";
+package nvidia_command;
+option csharp_namespace = "MirProto.NvidiaCommand";
+
+import "_vector.proto";
+
+message NvidiaCommandRequest {
+  uint64 entity = 1;
+  repeated nvidia_command.Command commands = 2;
+}
+message MoveCommand {
+  Vector destination = 1;
+}
+message SkillCommand {
+  int32 skill_id = 1;
+  uint64 target_id = 2;
+  repeated int32 alternative_skill_ids = 3;
+}
+message Command {
+  uint64 command_id = 1;
+  oneof command {
+    nvidia_command.MoveCommand move = 2;
+    nvidia_command.SkillCommand skill = 3;
+    nvidia_command.CheatCommand cheat = 4;
+  }
+}
+message CheatCommand {
+  oneof cheat_action {
+    nvidia_command.CharacterLevelUp level_up = 1;
+  }
+}
+message CharacterLevelUp {
+  int32 level = 1;
+}

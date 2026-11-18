@@ -1,0 +1,15 @@
+syntax = "proto3";
+package ds_config;
+option csharp_namespace = "MirProto.DsConfig";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlFrontEndServerListTable {
+  int32 region_index = 1;
+  int32 server_index = 2;
+  string address = 3;
+  int32 players = 5;
+  int32 server_state = 6;
+  google.protobuf.Timestamp server_refresh_dt = 7;
+}

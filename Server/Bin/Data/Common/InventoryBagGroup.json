@@ -1,0 +1,467 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "InventoryBagGroup",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/InventoryBagGroup",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_InventoryBagGroupTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_BagGroupType::Character",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::Character",
+        "ID_Bag": [
+          "EDS_BagType::CharacterInfoEquip",
+          "EDS_BagType::Weapon",
+          "EDS_BagType::Helmet",
+          "EDS_BagType::Chest",
+          "EDS_BagType::Pants",
+          "EDS_BagType::Glove",
+          "EDS_BagType::Shoes",
+          "EDS_BagType::Necklace",
+          "EDS_BagType::Bracelet",
+          "EDS_BagType::Ring",
+          "EDS_BagType::Emblem",
+          "EDS_BagType::CharGrow"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "2": {
+        "ID": "EDS_BagGroupType::NpcShop",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ShopBagItem",
+        "ID_Bag": [
+          "EDS_BagType::ShopTotalBag",
+          "EDS_BagType::Equipment",
+          "EDS_BagType::Consumables",
+          "EDS_BagType::Materials",
+          "EDS_BagType::Stuff",
+          "EDS_BagType::MountItem"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "3": {
+        "ID": "EDS_BagGroupType::NpcCraft",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemCraftBagItem",
+        "ID_Bag": [
+          "EDS_BagType::CraftTotalBag",
+          "EDS_BagType::Equipment",
+          "EDS_BagType::Consumables",
+          "EDS_BagType::Materials",
+          "EDS_BagType::Stuff"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "4": {
+        "ID": "EDS_BagGroupType::ItemEnhance",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemEnhance",
+        "ID_Bag": [
+          "EDS_BagType::EnTargetTotalBag",
+          "EDS_BagType::EnTargetWeaponBag",
+          "EDS_BagType::EnTargethelmetBag",
+          "EDS_BagType::EnTargetChestBag",
+          "EDS_BagType::EnTargetPantsBag",
+          "EDS_BagType::EnTargetGloveBag",
+          "EDS_BagType::EnTargetShoesBag",
+          "EDS_BagType::EnTargetNecklaceBag",
+          "EDS_BagType::EnTargetBraceletBag",
+          "EDS_BagType::EnTargetRingBag",
+          "EDS_BagType::EnTargetEmblemBag"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "5": {
+        "ID": "EDS_BagGroupType::ItemEnhanceMaterial",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemEnhanceMaterialPossible",
+        "ID_Bag": [
+          "EDS_BagType::EnMaterialTotalBag",
+          "EDS_BagType::EnMaterialGrowBag"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "6": {
+        "ID": "EDS_BagGroupType::ItemGem",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemGem",
+        "ID_Bag": [
+          "EDS_BagType::ItemGem"
+        ],
+        "ID_BagTitle": {
+          "ID": 0
+        },
+        "IsIconShow": false,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "7": {
+        "ID": "EDS_BagGroupType::ItemDismantle",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemDismantle",
+        "ID_Bag": [
+          "EDS_BagType::DismantleAll",
+          "EDS_BagType::DismatleEquipment",
+          "EDS_BagType::DismantleConsumables",
+          "EDS_BagType::DismantleMaterials",
+          "EDS_BagType::DismantleStuff"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "8": {
+        "ID": "EDS_BagGroupType::NpcRelation",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::RelationBagItem",
+        "ID_Bag": [
+          "EDS_BagType::GiftAll",
+          "EDS_BagType::GiftAType",
+          "EDS_BagType::GiftBType",
+          "EDS_BagType::GiftCType"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "11": {
+        "ID": "EDS_BagGroupType::Cooking",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemCooking",
+        "ID_Bag": [
+          "EDS_BagType::CookingAll",
+          "EDS_BagType::Cooking",
+          "EDS_BagType::CookShare"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "12": {
+        "ID": "EDS_BagGroupType::CharMountGear",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::MountGear",
+        "ID_Bag": [
+          "EDS_BagType::CharMountGearAType",
+          "EDS_BagType::CharMountGearBType",
+          "EDS_BagType::CharMountGearCType"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "13": {
+        "ID": "EDS_BagGroupType::CharMountFood",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::MountFood",
+        "ID_Bag": [
+          "EDS_BagType::CharMountFoodAType",
+          "EDS_BagType::CharMountFoodBType",
+          "EDS_BagType::CharMountFoodCType"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "14": {
+        "ID": "EDS_BagGroupType::CharMount",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::CharMount",
+        "ID_Bag": [
+          "EDS_BagType::CharMountAll"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "15": {
+        "ID": "EDS_BagGroupType::MountInventory",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::Mount",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::MountInventory",
+        "ID_Bag": [
+          "EDS_BagType::MountInventory"
+        ],
+        "ID_BagTitle": {
+          "ID": 9019
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::Mount"
+        ]
+      },
+      "16": {
+        "ID": "EDS_BagGroupType::Warehouse",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerWareHouse",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemWarehouse",
+        "ID_Bag": [
+          "EDS_BagType::ShopTotalBag",
+          "EDS_BagType::Equipment",
+          "EDS_BagType::Consumables",
+          "EDS_BagType::Materials",
+          "EDS_BagType::Stuff"
+        ],
+        "ID_BagTitle": {
+          "ID": 9018
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerWareHouse"
+        ]
+      },
+      "17": {
+        "ID": "EDS_BagGroupType::BagWarehouse",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::WarehouseCharBagItem",
+        "ID_Bag": [
+          "EDS_BagType::ShopTotalBag",
+          "EDS_BagType::Equipment",
+          "EDS_BagType::Consumables",
+          "EDS_BagType::Materials",
+          "EDS_BagType::Stuff"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "18": {
+        "ID": "EDS_BagGroupType::MountWarehouse",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::Mount",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::WarehouseMountBagItem",
+        "ID_Bag": [
+          "EDS_BagType::ShopTotalBag",
+          "EDS_BagType::Equipment",
+          "EDS_BagType::Consumables",
+          "EDS_BagType::Materials",
+          "EDS_BagType::Stuff"
+        ],
+        "ID_BagTitle": {
+          "ID": 9019
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::Mount"
+        ]
+      },
+      "19": {
+        "ID": "EDS_BagGroupType::WarehouseNpcCraft",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerWareHouse",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemWarehouse",
+        "ID_Bag": [
+          "EDS_BagType::ShopTotalBag",
+          "EDS_BagType::Equipment",
+          "EDS_BagType::Consumables",
+          "EDS_BagType::Materials",
+          "EDS_BagType::Stuff"
+        ],
+        "ID_BagTitle": {
+          "ID": 9018
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "20": {
+        "ID": "EDS_BagGroupType::ItemRepairInventory",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairInventory",
+        "ID_Bag": [
+          "EDS_BagType::ItemRepairTotalBag",
+          "EDS_BagType::ItemRepairWeaponBag",
+          "EDS_BagType::ItemRepairhelmetBag",
+          "EDS_BagType::ItemRepairChestBag",
+          "EDS_BagType::ItemRepairPantsBag",
+          "EDS_BagType::ItemRepairGloveBag",
+          "EDS_BagType::ItemRepairShoesBag",
+          "EDS_BagType::ItemRepairNecklaceBag",
+          "EDS_BagType::ItemRepairBraceletBag",
+          "EDS_BagType::ItemRepairRingBag",
+          "EDS_BagType::ItemRepairEmblemBag",
+          "EDS_BagType::Materials"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "21": {
+        "ID": "EDS_BagGroupType::ItemRepairRestoreInventory",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::ItemRepairRestoreInventory",
+        "ID_Bag": [
+          "EDS_BagType::ItemRepairTotalBag",
+          "EDS_BagType::ItemRepairWeaponBag",
+          "EDS_BagType::ItemRepairhelmetBag",
+          "EDS_BagType::ItemRepairChestBag",
+          "EDS_BagType::ItemRepairPantsBag",
+          "EDS_BagType::ItemRepairGloveBag",
+          "EDS_BagType::ItemRepairShoesBag",
+          "EDS_BagType::ItemRepairNecklaceBag",
+          "EDS_BagType::ItemRepairBraceletBag",
+          "EDS_BagType::ItemRepairEmblemBag",
+          "EDS_BagType::Materials"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "22": {
+        "ID": "EDS_BagGroupType::ItemEnchant",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantTargetList",
+        "ID_Bag": [
+          "EDS_BagType::EnchantTotalBag",
+          "EDS_BagType::EnchantWeaponBag",
+          "EDS_BagType::EnchanthelmetBag",
+          "EDS_BagType::EnchantChestBag",
+          "EDS_BagType::EnchantPantsBag",
+          "EDS_BagType::EnchantGloveBag",
+          "EDS_BagType::EnchantShoesBag",
+          "EDS_BagType::EnchantNecklaceBag",
+          "EDS_BagType::EnchantBraceletBag",
+          "EDS_BagType::EnchantRingBag"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "23": {
+        "ID": "EDS_BagGroupType::ItemEnchantScroll",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::EnchantScrollList",
+        "ID_Bag": [
+          "EDS_BagType::EnchantScrollBag"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "24": {
+        "ID": "EDS_BagGroupType::PlayerSkillTool",
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ItemSlotState": "EDS_ItemSlotStateType::PlayerSkillToolList",
+        "ID_Bag": [
+          "EDS_BagType::PlayerSkillToolAll",
+          "EDS_BagType::Harvesting",
+          "EDS_BagType::Mining",
+          "EDS_BagType::Logging",
+          "EDS_BagType::OpenLock",
+          "EDS_BagType::Cook",
+          "EDS_BagType::Linguistic",
+          "EDS_BagType::Archaeology",
+          "EDS_BagType::Farming"
+        ],
+        "ID_BagTitle": {
+          "ID": 9015
+        },
+        "IsIconShow": true,
+        "BagGroupInfo": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      }
+    }
+  }
+]

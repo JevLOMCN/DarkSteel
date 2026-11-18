@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{3AA58719-0FB7-52ED-83C3-3921791D7A5D}</ProjectGuid><RootNamespace>ThirdParty_NGX</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="_out\wddm_amd64_release_dynamic_release_vs2015\common_lib.cpp" />
+    <ClCompile Include="_out\wddm_amd64_release_dynamic_release_vs2015\nvsdk_ngx_d3d11_lib.cpp" />
+    <ClCompile Include="_out\wddm_amd64_release_dynamic_release_vs2015\nvsdk_ngx_d3d12_lib.cpp" />
+    <ClCompile Include="_out\wddm_amd64_release_dynamic_release_vs2015\nvsdk_ngx_lib_windows.cpp" />
+    <ClCompile Include="_out\wddm_amd64_release_dynamic_release_vs2015\nvsdk_ngx_parameters_lib.cpp" />
+    <ClCompile Include="_out\wddm_amd64_release_dynamic_release_vs2015\nvsdk_ngx_vulkan_lib.cpp" />
+    <ClCompile Include="_out\wddm_amd64_release_dynamic_release_vs2015\util-drs.cpp" />
+    <ClCompile Include="_out\wddm_amd64_release_dynamic_release_vs2015\util-err.cpp" />
+    <ClCompile Include="_out\wddm_amd64_release_dynamic_release_vs2015\util-log.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlMountInvenInfoTable {
+  int64 player_uid = 1;
+  int32 extended_slot_count = 2;
+  int64 selected_mount_uid = 3;
+}

@@ -1,0 +1,373 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: Core
+// Functions: 10
+
+// GetTestFlags @ 141bcbd10
+
+EAutomationTestFlags __thiscall FFColorSmokeTest::GetTestFlags(FFColorSmokeTest *this)
+
+{
+  return this->TestFlags;
+}
+
+// IsStressTest @ 141bcbd70
+
+bool __thiscall FFColorSmokeTest::IsStressTest(FFColorSmokeTest *this)
+
+{
+  return false;
+}
+
+// GetRequiredDeviceNum @ 141bcbd80
+
+uint __thiscall FFColorSmokeTest::GetRequiredDeviceNum(FFColorSmokeTest *this)
+
+{
+  return 1;
+}
+
+// GetTestSourceFileName @ 141bcbd90
+
+FString * __thiscall
+FFColorSmokeTest::GetTestSourceFileName(FFColorSmokeTest *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,
+                     "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Tests\\Math\\ColorTests.cpp"
+                    );
+  return __return_storage_ptr__;
+}
+
+// GetTestSourceFileLine @ 141bcbdc0
+
+int __thiscall FFColorSmokeTest::GetTestSourceFileLine(FFColorSmokeTest *this)
+
+{
+  return 0x28;
+}
+
+// GetTests @ 141bcbdd0
+
+/* WARNING: Removing unreachable block (ram,0x000141bcbf4e) */
+
+void __thiscall
+FFColorSmokeTest::GetTests
+          (FFColorSmokeTest *this,TArray<FString,TSizedDefaultAllocator<32>_> *param_1,
+          TArray<FString,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FString *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  FScriptContainerElement *pFVar5;
+  undefined8 local_18;
+  undefined8 local_10;
+  
+  pFVar1 = &this->PrettyNameDotNotation;
+  pFVar5 = (param_1->AllocatorInstance).Data;
+  if (((pFVar5 <= pFVar1) && (pFVar1 < pFVar5 + (longlong)param_1->ArrayMax * 0x10)) &&
+     (bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                         ,0x7a5,
+                         L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                        ), bVar3)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  iVar4 = param_1->ArrayNum;
+  if (iVar4 == param_1->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x810,&param_1->AllocatorInstance,&param_1->ArrayMax);
+  }
+  param_1->ArrayNum = iVar4 + 1;
+  ::FString::FString((FString *)((param_1->AllocatorInstance).Data + (longlong)iVar4 * 0x10),pFVar1)
+  ;
+  pFVar5 = (param_2->AllocatorInstance).Data;
+  local_18 = 0;
+  local_10 = 0;
+  if (((pFVar5 <= (FScriptContainerElement *)&local_18) &&
+      ((FScriptContainerElement *)&local_18 < pFVar5 + (longlong)param_2->ArrayMax * 0x10)) &&
+     (bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                         ,0x7a5,
+                         L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                        ), bVar3)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x810,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar5 = (param_2->AllocatorInstance).Data + (longlong)iVar4 * 0x10;
+  *(undefined8 *)pFVar5 = 0;
+  *(undefined8 *)pFVar5 = local_18;
+  *(undefined4 *)(pFVar5 + 8) = (undefined4)local_10;
+  *(undefined4 *)(pFVar5 + 0xc) = local_10._4_4_;
+  return;
+}
+
+// RunTest @ 141bcbf70
+
+bool __thiscall FFColorSmokeTest::RunTest(FFColorSmokeTest *this,FString *param_1)
+
+{
+  bool bVar1;
+  
+  TestBody(this,param_1);
+  bVar1 = FAutomationTestBase::HasAnyErrors((FAutomationTestBase *)this);
+  return !bVar1;
+}
+
+// GetBeautifiedTestName @ 141bcbfa0
+
+FString * __thiscall
+FFColorSmokeTest::GetBeautifiedTestName(FFColorSmokeTest *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,&this->PrettyNameDotNotation);
+  return __return_storage_ptr__;
+}
+
+// FFColorSmokeTest @ 141be2710
+
+FFColorSmokeTest * __thiscall
+FFColorSmokeTest::FFColorSmokeTest(FFColorSmokeTest *this,FString *param_1)
+
+{
+  FString *pFVar1;
+  FScriptContainerElement *pFVar2;
+  EAutomationTestFlags EVar3;
+  FString *pFVar4;
+  FAutomationTestFramework *this_00;
+  longlong lVar5;
+  FString local_28;
+  FString local_18;
+  
+  FAutomationTestBase::FAutomationTestBase((FAutomationTestBase *)this,param_1,false);
+  this->_padding_ = (longlong)&___7FFColorSmokeTest__6B_;
+  pFVar1 = &this->PrettyNameDotNotation;
+  (pFVar1->Data).AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  (this->PrettyNameDotNotation).Data.ArrayNum = 0;
+  (this->PrettyNameDotNotation).Data.ArrayMax = 0;
+  pFVar4 = ::FString::FString(&local_18,"[Core][Math][SmokeFilter]");
+  EVar3 = FAutomationTestBase::ExtractAutomationTestFlags((FAutomationTestBase *)this,pFVar4);
+  this->TestFlags = EVar3;
+  pFVar4 = ::FString::FString(&local_28,"System::Core::Math::FColor::Smoke Test");
+  pFVar4 = ::FString::Replace(pFVar4,&local_18,L"::",L".",IgnoreCase);
+  if (pFVar1 != pFVar4) {
+    pFVar2 = (pFVar1->Data).AllocatorInstance.Data;
+    if (pFVar2 != (FScriptContainerElement *)0x0) {
+      FMemory::Free(pFVar2);
+    }
+    (pFVar1->Data).AllocatorInstance.Data = (pFVar4->Data).AllocatorInstance.Data;
+    (pFVar4->Data).AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+    (this->PrettyNameDotNotation).Data.ArrayNum = (pFVar4->Data).ArrayNum;
+    (this->PrettyNameDotNotation).Data.ArrayMax = (pFVar4->Data).ArrayMax;
+    (pFVar4->Data).ArrayNum = 0;
+    (pFVar4->Data).ArrayMax = 0;
+  }
+  if (local_18.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_18.Data.AllocatorInstance.Data);
+  }
+  if (local_28.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_28.Data.AllocatorInstance.Data);
+  }
+  EVar3 = this->TestFlags;
+  if ((EVar3 & (ProgramContext|CommandletContext|ServerContext|ClientContext|EditorContext)) == None
+     ) {
+    EVar3 = EVar3 | (ProgramContext|CommandletContext|ServerContext|ClientContext|EditorContext);
+    this->TestFlags = EVar3;
+  }
+  if ((EVar3 & (NegativeFilter|StressFilter|PerfFilter|ProductFilter|EngineFilter|SmokeFilter)) ==
+      None) {
+    this->TestFlags = EVar3 | EngineFilter;
+  }
+  this_00 = FAutomationTestFramework::Get();
+  ::FString::FString(&local_18,"[Core][Math][SmokeFilter]");
+  local_28.Data.ArrayNum = (this->PrettyNameDotNotation).Data.ArrayNum;
+  lVar5 = (longlong)local_28.Data.ArrayNum;
+  pFVar2 = (pFVar1->Data).AllocatorInstance.Data;
+  local_28.Data.AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  if (local_28.Data.ArrayNum == 0) {
+    local_28.Data.ArrayMax = 0;
+  }
+  else {
+    UE::Core::Private::ReallocForCopy<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+              (2,2,local_28.Data.ArrayNum,0,(ForAnyElementType *)&local_28,local_28.Data.ArrayNum,
+               &local_28.Data.ArrayMax);
+    memcpy(local_28.Data.AllocatorInstance.Data,pFVar2,lVar5 * 2);
+  }
+  FAutomationTestFramework::RegisterAutomationTestTags(this_00,&local_28,&local_18,true);
+  if (local_28.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_28.Data.AllocatorInstance.Data);
+  }
+  if (local_18.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_18.Data.AllocatorInstance.Data);
+  }
+  return this;
+}
+
+// TestBody @ 141c13240
+
+void __thiscall FFColorSmokeTest::TestBody(FFColorSmokeTest *this,FString *param_1)
+
+{
+  FAutomationTestBase *pFVar1;
+  code *pcVar2;
+  FColor FVar3;
+  FAutomationTestFramework *pFVar4;
+  FColor_u_0 local_res18 [2];
+  FColor_u_0 local_res20 [2];
+  FColor_u_0 local_48;
+  FColor_u_0 local_44;
+  FString local_40;
+  
+  pFVar4 = FAutomationTestFramework::Get();
+  pFVar1 = pFVar4->CurrentTest;
+  pcVar2 = *(code **)(pFVar1->_padding_ + 0x50);
+  ::FString::FString(&local_40,L"FColor");
+  (*pcVar2)(pFVar1,&local_40,0,0);
+  if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_40.Data.AllocatorInstance.Data);
+  }
+  FVar3.field0_0x0 = FColor::Red.field0_0x0;
+  local_44 = FColor::Red.field0_0x0;
+  if (FColor::Red.field0_0x0._2_1_ != -1) {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  if (FVar3.field0_0x0._1_1_ != '\0') {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  if (FVar3.field0_0x0._0_1_ != '\0') {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  if (local_44._3_1_ != 0xff) {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  if (FVar3.field0_0x0 != FColor::Red.field0_0x0) {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  if (FVar3.field0_0x0 == FColor::Green.field0_0x0) {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  ::FString::FString(&local_40,"FFFF00FF");
+  FColor::FromHex((FString *)&local_res18[0]._s_0);
+  if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_40.Data.AllocatorInstance.Data);
+  }
+  ::FString::FString(&local_40,"00FF00FF");
+  FColor::FromHex((FString *)&local_48._s_0);
+  if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_40.Data.AllocatorInstance.Data);
+  }
+  ::FString::FString(&local_40,"0000FFFF");
+  FColor::FromHex((FString *)&local_res20[0]._s_0);
+  if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_40.Data.AllocatorInstance.Data);
+  }
+  if ((FColor_u_0)local_res18[0].Bits != FColor::Yellow.field0_0x0) {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  if ((FColor_u_0)local_48.Bits != FColor::Green.field0_0x0) {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  if ((FColor_u_0)local_res20[0].Bits != FColor::Blue.field0_0x0) {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  if (local_res20[0].Bits == local_res18[0].Bits) {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  if (local_48.Bits == local_res18[0].Bits) {
+    pFVar4 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar4->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::FString(&local_40,L"Condition failed");
+    (*pcVar2)(pFVar1,&local_40,0);
+    if (local_40.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_40.Data.AllocatorInstance.Data);
+    }
+  }
+  return;
+}
+

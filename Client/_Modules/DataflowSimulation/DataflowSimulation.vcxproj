@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{976ABCD7-7BBD-5A86-AF27-4EC2FA4A1ED2}</ProjectGuid><RootNamespace>DataflowSimulation</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAdvancePhysicsSolversDataflowNode.cpp" />
+    <ClCompile Include="Private\FContext.cpp" />
+    <ClCompile Include="Private\FContextCacheElementBase.cpp" />
+    <ClCompile Include="Private\FContextCacheElementUStruct.cpp" />
+    <ClCompile Include="Private\FDataflowCollisionObjectProxy.cpp" />
+    <ClCompile Include="Private\FDataflowConstraintObjectProxy.cpp" />
+    <ClCompile Include="Private\FDataflowExecutionNode.cpp" />
+    <ClCompile Include="Private\FDataflowInput.cpp" />
+    <ClCompile Include="Private\FDataflowInvalidNode.cpp" />
+    <ClCompile Include="Private\FDataflowNode.cpp" />
+    <ClCompile Include="Private\FDataflowPhysicsObjectProxy.cpp" />
+    <ClCompile Include="Private\FDataflowPhysicsSolverProxy.cpp" />
+    <ClCompile Include="Private\FDataflowSimulationAsset.cpp" />
+    <ClCompile Include="Private\FDataflowSimulationData.cpp" />
+    <ClCompile Include="Private\FDataflowSimulationNode.cpp" />
+    <ClCompile Include="Private\FDataflowSimulationProperty.cpp" />
+    <ClCompile Include="Private\FDataflowSimulationProxy.cpp" />
+    <ClCompile Include="Private\FDataflowSimulationTask.cpp" />
+    <ClCompile Include="Private\FDataflowSimulationTime.cpp" />
+    <ClCompile Include="Private\FFilterSimulationProxiesDataflowNode.cpp" />
+    <ClCompile Include="Private\FGetPhysicsSolversDataflowNode.cpp" />
+    <ClCompile Include="Private\FGetSimulationTimeDataflowNode.cpp" />
+    <ClCompile Include="Private\FNodeFactory.cpp" />
+    <ClCompile Include="Private\FSimulationProxiesTerminalDataflowNode.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IDataflowCollisionObjectInterface.cpp" />
+    <ClCompile Include="Private\IDataflowConstraintObjectInterface.cpp" />
+    <ClCompile Include="Private\IDataflowPhysicsObjectInterface.cpp" />
+    <ClCompile Include="Private\IDataflowPhysicsSolverInterface.cpp" />
+    <ClCompile Include="Private\IDataflowSimulationActor.cpp" />
+    <ClCompile Include="Private\IDataflowSimulationInterface.cpp" />
+    <ClCompile Include="Private\IDataflowSimulationPlugin.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseStructureBase.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TContextCacheElement.cpp" />
+    <ClCompile Include="Private\TGraphTask.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSimulationContext.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UDataflowCollisionObjectInterface.cpp" />
+    <ClCompile Include="Private\UDataflowConstraintObjectInterface.cpp" />
+    <ClCompile Include="Private\UDataflowGeometryCachable.cpp" />
+    <ClCompile Include="Private\UDataflowPhysicsObjectInterface.cpp" />
+    <ClCompile Include="Private\UDataflowPhysicsSolverInterface.cpp" />
+    <ClCompile Include="Private\UDataflowSimulationActor.cpp" />
+    <ClCompile Include="Private\UDataflowSimulationInterface.cpp" />
+    <ClCompile Include="Private\UDataflowSimulationManager.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UWorld.cpp" />
+    <ClCompile Include="Private\_Free\Module.DataflowSimulation.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

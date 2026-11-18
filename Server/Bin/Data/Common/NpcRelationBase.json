@@ -1,0 +1,249 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcRelationBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcRelationBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcRelationBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "900073": {
+        "ID": 900073,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcRelationGrade": 102,
+        "ID_NpcRealtionItem": 100,
+        "MaxGrade": "EDS_GradeType::Rare",
+        "EvolveGrade": [
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None"
+        ],
+        "EvolveConditionType": [
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None"
+        ],
+        "EvolveConditionValue": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "900072": {
+        "ID": 900072,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcRelationGrade": 102,
+        "ID_NpcRealtionItem": 100,
+        "MaxGrade": "EDS_GradeType::Rare",
+        "EvolveGrade": [
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None"
+        ],
+        "EvolveConditionType": [
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None"
+        ],
+        "EvolveConditionValue": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "900068": {
+        "ID": 900068,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcRelationGrade": 103,
+        "ID_NpcRealtionItem": 200,
+        "MaxGrade": "EDS_GradeType::Epic",
+        "EvolveGrade": [
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None"
+        ],
+        "EvolveConditionType": [
+          "EDS_Template::None",
+          "EDS_Template::Quest",
+          "EDS_Template::Quest",
+          "EDS_Template::None",
+          "EDS_Template::None"
+        ],
+        "EvolveConditionValue": [
+          0,
+          2991061,
+          2991062,
+          0,
+          0
+        ]
+      },
+      "900069": {
+        "ID": 900069,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcRelationGrade": 104,
+        "ID_NpcRealtionItem": 300,
+        "MaxGrade": "EDS_GradeType::Legendary",
+        "EvolveGrade": [
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::None"
+        ],
+        "EvolveConditionType": [
+          "EDS_Template::Quest",
+          "EDS_Template::Quest",
+          "EDS_Template::Quest",
+          "EDS_Template::Quest",
+          "EDS_Template::None"
+        ],
+        "EvolveConditionValue": [
+          2991066,
+          2991067,
+          2991068,
+          2991069,
+          0
+        ]
+      },
+      "900067": {
+        "ID": 900067,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcRelationGrade": 105,
+        "ID_NpcRealtionItem": 200,
+        "MaxGrade": "EDS_GradeType::Myth",
+        "EvolveGrade": [
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "EvolveConditionType": [
+          "EDS_Template::Quest",
+          "EDS_Template::Quest",
+          "EDS_Template::Quest",
+          "EDS_Template::Quest",
+          "EDS_Template::Quest"
+        ],
+        "EvolveConditionValue": [
+          2991070,
+          2991071,
+          2991072,
+          2991073,
+          2991074
+        ]
+      },
+      "20100064": {
+        "ID": 20100064,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcRelationGrade": 102,
+        "ID_NpcRealtionItem": 401,
+        "MaxGrade": "EDS_GradeType::High",
+        "EvolveGrade": [
+          "EDS_GradeType::High",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None"
+        ],
+        "EvolveConditionType": [
+          "EDS_Template::Quest",
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None"
+        ],
+        "EvolveConditionValue": [
+          2024005,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "20100065": {
+        "ID": 20100065,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcRelationGrade": 102,
+        "ID_NpcRealtionItem": 402,
+        "MaxGrade": "EDS_GradeType::High",
+        "EvolveGrade": [
+          "EDS_GradeType::High",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None"
+        ],
+        "EvolveConditionType": [
+          "EDS_Template::Quest",
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None"
+        ],
+        "EvolveConditionValue": [
+          2024006,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "20100066": {
+        "ID": 20100066,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_NpcRelationGrade": 102,
+        "ID_NpcRealtionItem": 404,
+        "MaxGrade": "EDS_GradeType::Rare",
+        "EvolveGrade": [
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None",
+          "EDS_GradeType::None"
+        ],
+        "EvolveConditionType": [
+          "EDS_Template::None",
+          "EDS_Template::Quest",
+          "EDS_Template::None",
+          "EDS_Template::None",
+          "EDS_Template::None"
+        ],
+        "EvolveConditionValue": [
+          0,
+          2024007,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  }
+]

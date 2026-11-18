@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{8BFA9BB2-AA0C-59E3-8E61-1A9BB086C955}</ProjectGuid><RootNamespace>MoviePlayer</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FArguments.cpp" />
+    <ClCompile Include="Private\FDefaultGameMoviePlayer.cpp" />
+    <ClCompile Include="Private\FLoadingScreenAttributes.cpp" />
+    <ClCompile Include="Private\FMoviePlayerWidgetRenderer.cpp" />
+    <ClCompile Include="Private\FNullGameMoviePlayer.cpp" />
+    <ClCompile Include="Private\FSlateLoadingSynchronizationMechanism.cpp" />
+    <ClCompile Include="Private\FSlateLoadingThreadTask.cpp" />
+    <ClCompile Include="Private\IGameMoviePlayer.cpp" />
+    <ClCompile Include="Private\SDefaultMovieBorder.cpp" />
+    <ClCompile Include="Private\SLoadingScreenTestWidget.cpp" />
+    <ClCompile Include="Private\TAttribute.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseSPMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSharedFromThis.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSlateDecl.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMoviePlayerSettings.cpp" />
+    <ClCompile Include="Private\_Free\Module.MoviePlayer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

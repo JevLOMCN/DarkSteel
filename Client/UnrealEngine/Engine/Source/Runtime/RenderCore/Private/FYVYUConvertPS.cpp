@@ -1,0 +1,526 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: RenderCore
+// Functions: 9
+
+// ConstructCompiledInstance @ 145d17f70
+
+/* WARNING: Enum "EShaderFrequency": Some values do not have unique names */
+/* WARNING: Enum "EHandshakeVersion": Some values do not have unique names */
+/* WARNING: Enum "ELightComponentType": Some values do not have unique names */
+/* WARNING: Enum "Type": Some values do not have unique names */
+/* WARNING: Enum "ERHIPipeline": Some values do not have unique names */
+/* WARNING: Enum "ERHIAccess": Some values do not have unique names */
+/* WARNING: Enum "EResourceTransitionFlags": Some values do not have unique names */
+/* WARNING: Enum "ETranslucencyType": Some values do not have unique names */
+/* WARNING: Enum "EStreamingSourcePriority": Some values do not have unique names */
+/* WARNING: Enum "EPingType": Some values do not have unique names */
+/* WARNING: Enum "EPrimitiveIdMode": Some values do not have unique names */
+/* WARNING: Enum "EShaderPlatform": Some values do not have unique names */
+
+FShader * __cdecl
+FYVYUConvertPS::ConstructCompiledInstance(FShaderCompiledShaderInitializerType *param_1)
+
+{
+  FShader *this;
+  
+  this = ::operator_new(0xe0);
+  if (this != (FShader *)0x0) {
+    FShader::FShader(this,param_1);
+    return this;
+  }
+  return (FShader *)0x0;
+}
+
+// ConstructSerializedInstance @ 145d1aca0
+
+/* WARNING: Enum "EShaderFrequency": Some values do not have unique names */
+/* WARNING: Enum "EHandshakeVersion": Some values do not have unique names */
+/* WARNING: Enum "ELightComponentType": Some values do not have unique names */
+/* WARNING: Enum "Type": Some values do not have unique names */
+/* WARNING: Enum "ERHIPipeline": Some values do not have unique names */
+/* WARNING: Enum "ERHIAccess": Some values do not have unique names */
+/* WARNING: Enum "EResourceTransitionFlags": Some values do not have unique names */
+/* WARNING: Enum "ETranslucencyType": Some values do not have unique names */
+/* WARNING: Enum "EStreamingSourcePriority": Some values do not have unique names */
+/* WARNING: Enum "EPingType": Some values do not have unique names */
+/* WARNING: Enum "EPrimitiveIdMode": Some values do not have unique names */
+/* WARNING: Enum "EShaderPlatform": Some values do not have unique names */
+
+FShader * __cdecl FYVYUConvertPS::ConstructSerializedInstance(void)
+
+{
+  FShader *this;
+  
+  this = ::operator_new(0xe0);
+  if (this != (FShader *)0x0) {
+    FShader::FShader(this);
+    return this;
+  }
+  return (FShader *)0x0;
+}
+
+// GetStaticType @ 145d3cb60
+
+/* WARNING: Enum "EShaderFrequency": Some values do not have unique names */
+/* WARNING: Enum "EHandshakeVersion": Some values do not have unique names */
+/* WARNING: Enum "ELightComponentType": Some values do not have unique names */
+/* WARNING: Enum "Type": Some values do not have unique names */
+/* WARNING: Enum "ERHIPipeline": Some values do not have unique names */
+/* WARNING: Enum "ERHIAccess": Some values do not have unique names */
+/* WARNING: Enum "EResourceTransitionFlags": Some values do not have unique names */
+/* WARNING: Enum "ETranslucencyType": Some values do not have unique names */
+/* WARNING: Enum "EStreamingSourcePriority": Some values do not have unique names */
+/* WARNING: Enum "EPingType": Some values do not have unique names */
+/* WARNING: Enum "EPrimitiveIdMode": Some values do not have unique names */
+/* WARNING: Enum "EShaderPlatform": Some values do not have unique names */
+
+FGlobalShaderType * __cdecl FYVYUConvertPS::GetStaticType(void)
+
+{
+  code *pcVar1;
+  bool bVar2;
+  int iVar3;
+  FTypeLayoutDesc *pFVar4;
+  FString *pFVar5;
+  FGlobalShaderType *pFVar6;
+  wchar_t *pwVar7;
+  FString local_28;
+  FString local_18;
+  
+  if (*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) +
+              0x9d4c) < ::_TSS0) {
+    _Init_thread_header(&::_TSS0);
+    if (::_TSS0 == -1) {
+      pFVar4 = StaticGetTypeLayout();
+      FShaderType::FShaderType
+                ((FShaderType *)&::StaticType,Global,pFVar4,L"FYVYUConvertPS",
+                 L"/Engine/Private/MediaShaders.usf",L"YVYUConvertPS",3,1,
+                 ConstructSerializedInstance,ConstructCompiledInstance,ShouldCompilePermutationImpl,
+                 ShouldPrecachePermutationImpl,FShader::GetRayTracingPayloadType,
+                 FShader::GetShaderBindingLayout,0xe0,(FShaderParametersMetadata *)0x0);
+      ::StaticType._0_8_ = FGlobalShaderType::vftable;
+      ::FString::FString(&local_28,L"/Engine/Private/MediaShaders.usf");
+      pFVar5 = FPaths::GetExtension(&local_18,&local_28,false);
+      if ((pFVar5->Data).ArrayNum == 0) {
+        pwVar7 = L"";
+      }
+      else {
+        pwVar7 = (wchar_t *)(pFVar5->Data).AllocatorInstance.Data;
+      }
+      iVar3 = FGenericPlatformStricmp::Stricmp(pwVar7,L"usf");
+      if (local_18.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+        FMemory::Free(local_18.Data.AllocatorInstance.Data);
+      }
+      if (local_28.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+        FMemory::Free(local_28.Data.AllocatorInstance.Data);
+      }
+      if (iVar3 != 0) {
+        bVar2 = ::FDebug::CheckVerifyFailedImpl2
+                          ("FPaths::GetExtension(InSourceFilename) == L\"usf\"",
+                           "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\RenderCore\\Public\\GlobalShader.h"
+                           ,0x5d,
+                           L"Incorrect virtual shader path extension for %s \'%s\': Only .usf files should be compiled."
+                          );
+        if (bVar2) {
+          pcVar1 = (code *)swi(3);
+          pFVar6 = (FGlobalShaderType *)(*pcVar1)();
+          return pFVar6;
+        }
+      }
+      atexit(`FYVYUConvertPS::GetStaticType'::__l2::_dynamic_atexit_destructor_for__StaticType__);
+      _Init_thread_footer(&::_TSS0);
+      return &::StaticType;
+    }
+  }
+  return &::StaticType;
+}
+
+// GetTypeLayout @ 145d40fa0
+
+FTypeLayoutDesc * __thiscall FYVYUConvertPS::GetTypeLayout(FYVYUConvertPS *this)
+
+{
+  if ((::TypeBuffer[0x67] & 2) == 0) {
+    ::TypeBuffer[0x67] = ::TypeBuffer[0x67] | 2;
+    ::TypeBuffer[0x58] = 0xe0;
+    ::TypeBuffer[0x59] = '\0';
+    ::TypeBuffer[0x5a] = '\0';
+    ::TypeBuffer[0x5b] = '\0';
+    ::TypeBuffer._8_8_ = u_FYVYUConvertPS;
+    ::TypeBuffer._32_8_ = Freeze::DefaultWriteMemoryImage;
+    ::TypeBuffer._40_8_ = Freeze::DefaultUnfrozenCopy;
+    ::TypeBuffer._48_8_ = Freeze::DefaultAppendHash;
+    ::TypeBuffer._56_8_ = Freeze::DefaultGetTargetAlignment;
+    ::TypeBuffer._64_8_ = Freeze::DefaultToString;
+    ::TypeBuffer._24_8_ = InternalDestroy;
+    ::TypeBuffer._72_8_ = TGetDefaultObjectHelper<FYVYUConvertPS,0>::Do;
+    ::FieldBuffer._0_8_ = u_BASE;
+    ::TypeBuffer[0x60] = '\b';
+    ::TypeBuffer[0x61] = '\0';
+    ::TypeBuffer[0x62] = '\0';
+    ::TypeBuffer[99] = '\0';
+    ::TypeBuffer[100] = '\0';
+    ::TypeBuffer[0x5c] = 0xff;
+    ::TypeBuffer[0x5d] = 0xff;
+    ::TypeBuffer[0x5e] = 0xff;
+    ::TypeBuffer[0x5f] = 0xff;
+    ::FieldBuffer[0x2a] = '\x04';
+    ::FieldBuffer._8_8_ = FGlobalShader::StaticGetTypeLayout();
+    ::TypeBuffer[0x65] = ::TypeBuffer[0x65] + '\x01';
+    ::FieldBuffer._24_8_ = Freeze::DefaultWriteMemoryImageField;
+    ::FieldBuffer[0x10] = ::TypeBuffer[0x10];
+    ::FieldBuffer[0x11] = ::TypeBuffer[0x11];
+    ::FieldBuffer[0x12] = ::TypeBuffer[0x12];
+    ::FieldBuffer[0x13] = ::TypeBuffer[0x13];
+    ::FieldBuffer[0x14] = ::TypeBuffer[0x14];
+    ::FieldBuffer[0x15] = ::TypeBuffer[0x15];
+    ::FieldBuffer[0x16] = ::TypeBuffer[0x16];
+    ::FieldBuffer[0x17] = ::TypeBuffer[0x17];
+    ::TypeBuffer._16_8_ = ::FieldBuffer;
+    ::FieldBuffer[0x20] = '\0';
+    ::FieldBuffer[0x21] = '\0';
+    ::FieldBuffer[0x22] = '\0';
+    ::FieldBuffer[0x23] = '\0';
+    ::FieldBuffer[0x24] = '\x01';
+    ::FieldBuffer[0x25] = '\0';
+    ::FieldBuffer[0x26] = '\0';
+    ::FieldBuffer[0x27] = '\0';
+    if (((FTypeLayoutDesc *)::FieldBuffer._8_8_)->Interface != NonVirtual) {
+      ::TypeBuffer[0x66] = ::TypeBuffer[0x66] + '\x01';
+    }
+    FTypeLayoutDesc::Initialize((FTypeLayoutDesc *)::TypeBuffer);
+    return (FTypeLayoutDesc *)::TypeBuffer;
+  }
+  return (FTypeLayoutDesc *)::TypeBuffer;
+}
+
+// InternalDestroy @ 145d43fb0
+
+/* WARNING: Enum "EShaderFrequency": Some values do not have unique names */
+/* WARNING: Enum "EHandshakeVersion": Some values do not have unique names */
+/* WARNING: Enum "ELightComponentType": Some values do not have unique names */
+/* WARNING: Enum "Type": Some values do not have unique names */
+/* WARNING: Enum "ERHIPipeline": Some values do not have unique names */
+/* WARNING: Enum "ERHIAccess": Some values do not have unique names */
+/* WARNING: Enum "EResourceTransitionFlags": Some values do not have unique names */
+/* WARNING: Enum "ETranslucencyType": Some values do not have unique names */
+/* WARNING: Enum "EStreamingSourcePriority": Some values do not have unique names */
+/* WARNING: Enum "EPingType": Some values do not have unique names */
+/* WARNING: Enum "EPrimitiveIdMode": Some values do not have unique names */
+/* WARNING: Enum "EShaderPlatform": Some values do not have unique names */
+
+void __cdecl
+FYVYUConvertPS::InternalDestroy
+          (void *param_1,FTypeLayoutDesc *param_2,FPointerTableBase *param_3,bool param_4)
+
+{
+  if (!param_4) {
+    FShader::~FShader(param_1);
+  }
+  memset(param_1,0xfe,0xe0);
+  return;
+}
+
+// SetParameters @ 145d4e630
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* WARNING: Enum "Type": Some values do not have unique names */
+/* WARNING: Enum "ERHIAccess": Some values do not have unique names */
+/* WARNING: Enum "ERHIPipeline": Some values do not have unique names */
+/* WARNING: Enum "ERenderTargetLoadAction": Some values do not have unique names */
+/* WARNING: Enum "ERenderTargetStoreAction": Some values do not have unique names */
+/* WARNING: Enum "EShaderFrequency": Some values do not have unique names */
+/* WARNING: Enum "EHandshakeVersion": Some values do not have unique names */
+/* WARNING: Enum "ELightComponentType": Some values do not have unique names */
+/* WARNING: Enum "EResourceTransitionFlags": Some values do not have unique names */
+/* WARNING: Enum "ETranslucencyType": Some values do not have unique names */
+/* WARNING: Enum "EStreamingSourcePriority": Some values do not have unique names */
+/* WARNING: Enum "EPingType": Some values do not have unique names */
+/* WARNING: Enum "EPrimitiveIdMode": Some values do not have unique names */
+/* WARNING: Enum "EShaderPlatform": Some values do not have unique names */
+
+void __thiscall
+FYVYUConvertPS::SetParameters
+          (FYVYUConvertPS *this,FRHIBatchedShaderParameters *param_1,
+          TRefCountPtr<FRHITexture> param_2,TMatrix<double> *param_3,TVector<double> *param_4,
+          bool param_5)
+
+{
+  double dVar1;
+  double dVar2;
+  double dVar3;
+  FRHIUniformBuffer *this_00;
+  FRHIUniformBufferLayout *pFVar4;
+  code *pcVar5;
+  double dVar6;
+  double dVar7;
+  double dVar8;
+  bool bVar9;
+  longlong lVar10;
+  FShaderParametersMetadata *pFVar11;
+  TRefCountPtr<FRHIUniformBuffer> TVar12;
+  FHashedName FVar13;
+  FShaderUniformBufferParameter *pFVar14;
+  wchar_t *pwVar15;
+  wchar_t *pwVar16;
+  undefined1 auStack_1d8 [32];
+  FScriptContainerElement *local_1b8;
+  FScriptContainerElement *local_1b0;
+  FRHIResource *local_1a8;
+  FHashedName local_1a0;
+  FHashedName local_198 [2];
+  double local_188;
+  double dStack_180;
+  undefined1 local_178 [16];
+  double local_168;
+  double dStack_160;
+  undefined1 local_158 [16];
+  double local_148;
+  double dStack_140;
+  undefined1 local_138 [16];
+  double local_128;
+  double dStack_120;
+  undefined1 local_118 [16];
+  float local_108;
+  float fStack_104;
+  float fStack_100;
+  float fStack_fc;
+  float local_f8;
+  float fStack_f4;
+  float fStack_f0;
+  float fStack_ec;
+  float local_e8;
+  float fStack_e4;
+  float fStack_e0;
+  float fStack_dc;
+  float local_d8;
+  float fStack_d4;
+  float fStack_d0;
+  float fStack_cc;
+  uint local_c8;
+  int local_c4;
+  ForAnyElementType local_c0;
+  FRHISamplerState *local_b8;
+  ForAnyElementType local_b0;
+  ulonglong local_a8;
+  
+  local_a8 = __security_cookie.value ^ (ulonglong)auStack_1d8;
+  local_188 = param_3->M[0][0];
+  dStack_180 = param_3->M[0][1];
+  local_168 = param_3->M[1][0];
+  dStack_160 = param_3->M[1][1];
+  dVar6 = param_3->M[0][2];
+  dVar1 = *(double *)&param_4->field0_0x0;
+  dVar2 = *(double *)((longlong)&param_4->field0_0x0 + 8);
+  dVar3 = *(double *)((longlong)&param_4->field0_0x0 + 0x10);
+  local_c0.Data = (FScriptContainerElement *)(param_2.Reference)->_padding_;
+  dVar7 = param_3->M[1][2];
+  fStack_100 = (float)dVar6;
+  fStack_fc = (float)dVar1;
+  local_b8 = TStaticStateRHI<TStaticSamplerState<1,1,1,1,0,1,0,0>,TRefCountPtr<FRHISamplerState>,FRHISamplerState_*>
+             ::StaticResource.StateRHI.Reference;
+  local_b0.Data =
+       (FScriptContainerElement *)
+       TStaticStateRHI<TStaticSamplerState<0,1,1,1,0,1,0,0>,TRefCountPtr<FRHISamplerState>,FRHISamplerState_*>
+       ::StaticResource.StateRHI.Reference;
+  local_c8 = (uint)param_5;
+  local_148 = param_3->M[2][0];
+  dStack_140 = param_3->M[2][1];
+  local_108 = (float)local_188;
+  fStack_104 = (float)dStack_180;
+  dVar8 = param_3->M[2][2];
+  local_178._8_4_ = SUB84(dVar1,0);
+  local_178._0_8_ = dVar6;
+  local_178._12_4_ = (int)((ulonglong)dVar1 >> 0x20);
+  local_f8 = (float)local_168;
+  fStack_f4 = (float)dStack_160;
+  fStack_f0 = (float)dVar7;
+  fStack_ec = (float)dVar2;
+  fStack_e0 = (float)dVar8;
+  fStack_dc = (float)dVar3;
+  local_128 = param_3->M[3][0];
+  dStack_120 = param_3->M[3][1];
+  dVar1 = param_3->M[3][2];
+  local_e8 = (float)local_148;
+  fStack_e4 = (float)dStack_140;
+  local_d8 = (float)local_128;
+  fStack_d4 = (float)dStack_120;
+  fStack_d0 = (float)dVar1;
+  fStack_cc = (float)__real_3ff0000000000000;
+  local_158._8_4_ = SUB84(dVar2,0);
+  local_158._0_8_ = dVar7;
+  local_158._12_4_ = (int)((ulonglong)dVar2 >> 0x20);
+  local_138._8_4_ = SUB84(dVar3,0);
+  local_138._0_8_ = dVar8;
+  local_138._12_4_ = (int)((ulonglong)dVar3 >> 0x20);
+  local_118._8_4_ = SUB84(__real_3ff0000000000000,0);
+  local_118._0_8_ = dVar1;
+  local_118._12_4_ = (int)((ulonglong)__real_3ff0000000000000 >> 0x20);
+  lVar10 = (**(code **)(*(longlong *)local_c0.Data + 0x20))();
+  local_c4 = *(int *)(lVar10 + 0x24);
+  pFVar11 = FYVYUConvertUB::GetStructMetadata();
+  pwVar16 = L"";
+  if (((pFVar11->Layout).Reference == (FRHIUniformBufferLayout *)0x0) &&
+     (bVar9 = ::FDebug::CheckVerifyFailedImpl2
+                        ("IsLayoutInitialized()",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\RenderCore\\Public\\ShaderParameterMetadata.h"
+                         ,0x17c,L""), bVar9)) {
+    pcVar5 = (code *)swi(3);
+    (*pcVar5)();
+    return;
+  }
+  local_1b8 = (FScriptContainerElement *)CONCAT44(local_1b8._4_4_,1);
+  TVar12 = RHICreateUniformBuffer
+                     (&local_1a8,(FRHIUniformBufferLayout *)&local_108,
+                      (EUniformBufferUsage)(pFVar11->Layout).Reference,ValidateResources);
+  this_00 = (FRHIUniformBuffer *)(TVar12.Reference)->_padding_;
+  if (this_00 != (FRHIUniformBuffer *)0x0) {
+    FRHIResource::AddRef((FRHIResource *)this_00);
+    pFVar11 = FYVYUConvertUB::GetStructMetadata();
+    if (((pFVar11->Layout).Reference == (FRHIUniformBufferLayout *)0x0) &&
+       (bVar9 = ::FDebug::CheckVerifyFailedImpl2
+                          ("IsLayoutInitialized()",
+                           "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\RenderCore\\Public\\ShaderParameterMetadata.h"
+                           ,0x17c,L""), bVar9)) {
+      pcVar5 = (code *)swi(3);
+      (*pcVar5)();
+      return;
+    }
+    pFVar4 = (this_00->Layout).Reference;
+    if ((pFVar11->Layout).Reference != pFVar4) {
+      if ((pFVar4->Name).Data.ArrayNum == 0) {
+        pwVar15 = L"";
+      }
+      else {
+        pwVar15 = (wchar_t *)(pFVar4->Name).Data.AllocatorInstance.Data;
+      }
+      pFVar11 = FYVYUConvertUB::GetStructMetadata();
+      if (((pFVar11->Layout).Reference == (FRHIUniformBufferLayout *)0x0) &&
+         (bVar9 = ::FDebug::CheckVerifyFailedImpl2
+                            ("IsLayoutInitialized()",
+                             "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\RenderCore\\Public\\ShaderParameterMetadata.h"
+                             ,0x177,L""), bVar9)) {
+        pcVar5 = (code *)swi(3);
+        (*pcVar5)();
+        return;
+      }
+      pFVar4 = (pFVar11->Layout).Reference;
+      if ((pFVar4->Name).Data.ArrayNum != 0) {
+        pwVar16 = (wchar_t *)(pFVar4->Name).Data.AllocatorInstance.Data;
+      }
+      local_1b8 = (FScriptContainerElement *)pwVar16;
+      local_1b0 = (FScriptContainerElement *)pwVar15;
+      bVar9 = ::FDebug::CheckVerifyFailedImpl2
+                        ("!InRHIRef || TUniformBufferMetadataHelper<TBufferStruct>::GetStructMetadata()->GetLayoutPtr() == InRHIRef->GetLayoutPtr()"
+                         ,
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\RenderCore\\Public\\ShaderParameterMacros.h"
+                         ,0x96,
+                         L"Attempted to create a uniform buffer of type \'%s\' from uniform buffer pointer of type \'%s\'"
+                        );
+      if (bVar9) {
+        pcVar5 = (code *)swi(3);
+        (*pcVar5)();
+        return;
+      }
+    }
+  }
+  if (local_1a8 != (FRHIResource *)0x0) {
+    FRHIResource::Release(local_1a8);
+  }
+  pFVar11 = FYVYUConvertUB::GetStructMetadata();
+  FHashedName::FHashedName(&local_1a0,&pFVar11->ShaderVariableHashedName);
+  FVar13.Hash = (ulong64)FHashedName::FHashedName(local_198,&local_1a0);
+  pFVar14 = FShader::GetUniformBufferParameter((FShader *)this,FVar13);
+  if (pFVar14->BaseIndex != 0xffff) {
+    SetUniformBufferParameter(param_1,pFVar14,this_00);
+  }
+  if (this_00 != (FRHIUniformBuffer *)0x0) {
+    FRHIResource::Release((FRHIResource *)this_00);
+  }
+  if ((FRHIResource *)(param_2.Reference)->_padding_ != (FRHIResource *)0x0) {
+    FRHIResource::Release((FRHIResource *)(param_2.Reference)->_padding_);
+  }
+  return;
+}
+
+// ShouldCompilePermutationImpl @ 145d4fef0
+
+/* WARNING: Enum "EShaderPlatform": Some values do not have unique names */
+
+bool __cdecl FYVYUConvertPS::ShouldCompilePermutationImpl(FShaderPermutationParameters *param_1)
+
+{
+  return true;
+}
+
+// ShouldPrecachePermutationImpl @ 145d50890
+
+/* WARNING: Enum "EShaderPlatform": Some values do not have unique names */
+
+EShaderPermutationPrecacheRequest __cdecl
+FYVYUConvertPS::ShouldPrecachePermutationImpl(FShaderPermutationParameters *param_1)
+
+{
+  return Precached;
+}
+
+// StaticGetTypeLayout @ 145d5f3e0
+
+FTypeLayoutDesc * __cdecl FYVYUConvertPS::StaticGetTypeLayout(void)
+
+{
+  if ((::TypeBuffer[0x67] & 2) == 0) {
+    ::TypeBuffer[0x67] = ::TypeBuffer[0x67] | 2;
+    ::TypeBuffer[0x58] = 0xe0;
+    ::TypeBuffer[0x59] = '\0';
+    ::TypeBuffer[0x5a] = '\0';
+    ::TypeBuffer[0x5b] = '\0';
+    ::TypeBuffer._8_8_ = u_FYVYUConvertPS;
+    ::TypeBuffer._32_8_ = Freeze::DefaultWriteMemoryImage;
+    ::TypeBuffer._40_8_ = Freeze::DefaultUnfrozenCopy;
+    ::TypeBuffer._48_8_ = Freeze::DefaultAppendHash;
+    ::TypeBuffer._56_8_ = Freeze::DefaultGetTargetAlignment;
+    ::TypeBuffer._64_8_ = Freeze::DefaultToString;
+    ::TypeBuffer._24_8_ = InternalDestroy;
+    ::TypeBuffer._72_8_ = TGetDefaultObjectHelper<FYVYUConvertPS,0>::Do;
+    ::FieldBuffer._0_8_ = u_BASE;
+    ::TypeBuffer[0x60] = '\b';
+    ::TypeBuffer[0x61] = '\0';
+    ::TypeBuffer[0x62] = '\0';
+    ::TypeBuffer[99] = '\0';
+    ::TypeBuffer[100] = '\0';
+    ::TypeBuffer[0x5c] = 0xff;
+    ::TypeBuffer[0x5d] = 0xff;
+    ::TypeBuffer[0x5e] = 0xff;
+    ::TypeBuffer[0x5f] = 0xff;
+    ::FieldBuffer[0x2a] = '\x04';
+    ::FieldBuffer._8_8_ = FGlobalShader::StaticGetTypeLayout();
+    ::TypeBuffer[0x65] = ::TypeBuffer[0x65] + '\x01';
+    ::FieldBuffer._24_8_ = Freeze::DefaultWriteMemoryImageField;
+    ::FieldBuffer[0x10] = ::TypeBuffer[0x10];
+    ::FieldBuffer[0x11] = ::TypeBuffer[0x11];
+    ::FieldBuffer[0x12] = ::TypeBuffer[0x12];
+    ::FieldBuffer[0x13] = ::TypeBuffer[0x13];
+    ::FieldBuffer[0x14] = ::TypeBuffer[0x14];
+    ::FieldBuffer[0x15] = ::TypeBuffer[0x15];
+    ::FieldBuffer[0x16] = ::TypeBuffer[0x16];
+    ::FieldBuffer[0x17] = ::TypeBuffer[0x17];
+    ::TypeBuffer._16_8_ = ::FieldBuffer;
+    ::FieldBuffer[0x20] = '\0';
+    ::FieldBuffer[0x21] = '\0';
+    ::FieldBuffer[0x22] = '\0';
+    ::FieldBuffer[0x23] = '\0';
+    ::FieldBuffer[0x24] = '\x01';
+    ::FieldBuffer[0x25] = '\0';
+    ::FieldBuffer[0x26] = '\0';
+    ::FieldBuffer[0x27] = '\0';
+    if (((FTypeLayoutDesc *)::FieldBuffer._8_8_)->Interface != NonVirtual) {
+      ::TypeBuffer[0x66] = ::TypeBuffer[0x66] + '\x01';
+    }
+    FTypeLayoutDesc::Initialize((FTypeLayoutDesc *)::TypeBuffer);
+    return (FTypeLayoutDesc *)::TypeBuffer;
+  }
+  return (FTypeLayoutDesc *)::TypeBuffer;
+}
+

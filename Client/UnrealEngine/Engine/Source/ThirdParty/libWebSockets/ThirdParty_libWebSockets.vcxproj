@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{A2874865-05F8-5D0E-B910-24F043921ED7}</ProjectGuid><RootNamespace>ThirdParty_libWebSockets</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="websockets.dir\Release\alloc.cpp" />
+    <ClCompile Include="websockets.dir\Release\base64-decode.cpp" />
+    <ClCompile Include="websockets.dir\Release\client-handshake.cpp" />
+    <ClCompile Include="websockets.dir\Release\client-parser-ws.cpp" />
+    <ClCompile Include="websockets.dir\Release\client-ws.cpp" />
+    <ClCompile Include="websockets.dir\Release\client.cpp" />
+    <ClCompile Include="websockets.dir\Release\context.cpp" />
+    <ClCompile Include="websockets.dir\Release\gettimeofday.cpp" />
+    <ClCompile Include="websockets.dir\Release\header.cpp" />
+    <ClCompile Include="websockets.dir\Release\libwebsockets.cpp" />
+    <ClCompile Include="websockets.dir\Release\lws-plat-win.cpp" />
+    <ClCompile Include="websockets.dir\Release\openssl-client.cpp" />
+    <ClCompile Include="websockets.dir\Release\openssl-server.cpp" />
+    <ClCompile Include="websockets.dir\Release\ops-h1.cpp" />
+    <ClCompile Include="websockets.dir\Release\ops-listen.cpp" />
+    <ClCompile Include="websockets.dir\Release\ops-pipe.cpp" />
+    <ClCompile Include="websockets.dir\Release\ops-raw.cpp" />
+    <ClCompile Include="websockets.dir\Release\ops-ws.cpp" />
+    <ClCompile Include="websockets.dir\Release\output.cpp" />
+    <ClCompile Include="websockets.dir\Release\parsers.cpp" />
+    <ClCompile Include="websockets.dir\Release\pollfd.cpp" />
+    <ClCompile Include="websockets.dir\Release\server-ws.cpp" />
+    <ClCompile Include="websockets.dir\Release\server.cpp" />
+    <ClCompile Include="websockets.dir\Release\service.cpp" />
+    <ClCompile Include="websockets.dir\Release\sha-1.cpp" />
+    <ClCompile Include="websockets.dir\Release\ssl.cpp" />
+    <ClCompile Include="websockets.dir\Release\tls-client.cpp" />
+    <ClCompile Include="websockets.dir\Release\tls-server.cpp" />
+    <ClCompile Include="websockets.dir\Release\tls.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,11 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum ResurrectType {
+  ResurrectType_Base = 0;
+  ResurrectType_Instant = 1;
+  ResurrectType_System = 2;
+  ResurrectType_Buff = 3;
+  ResurrectType_Inn = 4;
+}

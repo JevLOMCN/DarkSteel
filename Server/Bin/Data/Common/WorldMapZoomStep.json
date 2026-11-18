@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WorldMapZoomStep",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/WorldMapZoomStep",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_WorldMapZoomStepTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "WheelCount": 3
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "WheelCount": 6
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "WheelCount": 9
+      }
+    }
+  }
+]

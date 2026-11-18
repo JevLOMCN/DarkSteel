@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{1602258F-87B0-5B52-8F69-DD3536E9BCA9}</ProjectGuid><RootNamespace>AudioAnalyzer</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAnalyzerFacade.cpp" />
+    <ClCompile Include="Private\FAnalyzerNRTFacade.cpp" />
+    <ClCompile Include="Private\FAsyncTask.cpp" />
+    <ClCompile Include="Private\FAudioAnalyzeTask.cpp" />
+    <ClCompile Include="Private\FAudioAnalyzerModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IAnalyzerFactory.cpp" />
+    <ClCompile Include="Private\IAnalyzerNRTFactory.cpp" />
+    <ClCompile Include="Private\IAnalyzerSettings.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\UAudioAnalyzer.cpp" />
+    <ClCompile Include="Private\UAudioAnalyzerAssetBase.cpp" />
+    <ClCompile Include="Private\UAudioAnalyzerNRT.cpp" />
+    <ClCompile Include="Private\UAudioAnalyzerNRTSettings.cpp" />
+    <ClCompile Include="Private\UAudioAnalyzerSettings.cpp" />
+    <ClCompile Include="Private\UAudioAnalyzerSubsystem.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.AudioAnalyzer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

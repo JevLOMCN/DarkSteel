@@ -1,0 +1,15 @@
+syntax = "proto3";
+package ds_guild;
+option csharp_namespace = "MirProto.DsGuild";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlGuildJoinRequestTable {
+  int64 player_uid = 1;
+  int64 guild_uid = 2;
+  int32 join_type = 3;
+  google.protobuf.Timestamp expired_time = 10;
+  google.protobuf.Timestamp reg_time = 11;
+  google.protobuf.Timestamp update_time = 12;
+}

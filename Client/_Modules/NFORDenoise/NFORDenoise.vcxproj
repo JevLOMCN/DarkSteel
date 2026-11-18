@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{4F8DC26E-B1DD-5609-989F-B9BDA042283A}</ProjectGuid><RootNamespace>NFORDenoise</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAccumulateBufferToTextureCS.cpp" />
+    <ClCompile Include="Private\FAdjustFeatureRangeCS.cpp" />
+    <ClCompile Include="Private\FClassifyPreAlbedoDivideMaskIdCS.cpp" />
+    <ClCompile Include="Private\FCombineFilteredImageCS.cpp" />
+    <ClCompile Include="Private\FComputeShaderUtils.cpp" />
+    <ClCompile Include="Private\FCopyTexturePS.cpp" />
+    <ClCompile Include="Private\FCopyTextureSingleChannelCS.cpp" />
+    <ClCompile Include="Private\FCopyTextureToBufferCS.cpp" />
+    <ClCompile Include="Private\FExternalFrameCache.cpp" />
+    <ClCompile Include="Private\FFirstOrderRegressionParameters.cpp" />
+    <ClCompile Include="Private\FGenerateSelectionMapCS.cpp" />
+    <ClCompile Include="Private\FHistory.cpp" />
+    <ClCompile Include="Private\FInPlaceBatchedMatrixMultiplicationCS.cpp" />
+    <ClCompile Include="Private\FLinearSolverBuildIndirectDispatchArgsCS.cpp" />
+    <ClCompile Include="Private\FLinearSolverCS.cpp" />
+    <ClCompile Include="Private\FLinearSolverIndirectCS.cpp" />
+    <ClCompile Include="Private\FLinearSolverParameters.cpp" />
+    <ClCompile Include="Private\FMSEEstimationCS.cpp" />
+    <ClCompile Include="Private\FNFORDenoiseModule.cpp" />
+    <ClCompile Include="Private\FNFORDenoiser.cpp" />
+    <ClCompile Include="Private\FNFORLinearSolve.cpp" />
+    <ClCompile Include="Private\FNonLocalMeanFilteringCS.cpp" />
+    <ClCompile Include="Private\FNonLocalMeanGetSqauredDistanceToAtlasCS.cpp" />
+    <ClCompile Include="Private\FNonLocalMeanParameters.cpp" />
+    <ClCompile Include="Private\FNonLocalMeanReshapeBufferCS.cpp" />
+    <ClCompile Include="Private\FNonLocalMeanSeperableFilterPatchSqauredDistanceCS.cpp" />
+    <ClCompile Include="Private\FNonLocalMeanWeightAtlasDispatchParameters.cpp" />
+    <ClCompile Include="Private\FNonLocalMeanWeightsCS.cpp" />
+    <ClCompile Include="Private\FNormalizeRadianceVarianceByAlbedoCS.cpp" />
+    <ClCompile Include="Private\FNormalizeTextureCS.cpp" />
+    <ClCompile Include="Private\FParameters.cpp" />
+    <ClCompile Include="Private\FPixelShaderUtils.cpp" />
+    <ClCompile Include="Private\FRDGAllocator.cpp" />
+    <ClCompile Include="Private\FRDGBuilder.cpp" />
+    <ClCompile Include="Private\FRDGFrameCache.cpp" />
+    <ClCompile Include="Private\FRHIBreadcrumbAllocator.cpp" />
+    <ClCompile Include="Private\FReconstructSpatialTemporalImage.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTextureAccumulateCS.cpp" />
+    <ClCompile Include="Private\FTextureAccumulateConstantCS.cpp" />
+    <ClCompile Include="Private\FTextureDivideCS.cpp" />
+    <ClCompile Include="Private\FTextureMultiplyCS.cpp" />
+    <ClCompile Include="Private\FTypeInfo.cpp" />
+    <ClCompile Include="Private\IHistory.cpp" />
+    <ClCompile Include="Private\IPathTracingSpatialTemporalDenoiser.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TRDGLambdaPass.cpp" />
+    <ClCompile Include="Private\TRHIBreadcrumb.cpp" />
+    <ClCompile Include="Private\TShaderMapRef.cpp" />
+    <ClCompile Include="Private\TShaderRefBase.cpp" />
+    <ClCompile Include="Private\TVariant.cpp" />
+    <ClCompile Include="Private\_Free\Module.NFORDenoise.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

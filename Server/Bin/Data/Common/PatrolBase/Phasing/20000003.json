@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "20000003",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PatrolBase/Phasing/20000003",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PatrolBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "20000": {
+        "ID": 20000,
+        "DataStage": 23,
+        "DataStageString": "",
+        "PatrolDesc": "호위테스트",
+        "PatrolPath": [
+          {
+            "X": -2839057.2,
+            "Y": -2724175.0,
+            "Z": 530.46875
+          },
+          {
+            "X": -2836705.8,
+            "Y": -2722474.5,
+            "Z": 530.46875
+          },
+          {
+            "X": -2837599.2,
+            "Y": -2719713.2,
+            "Z": 530.46875
+          },
+          {
+            "X": -2840510.5,
+            "Y": -2719707.0,
+            "Z": 530.46875
+          },
+          {
+            "X": -2841418.2,
+            "Y": -2722463.5,
+            "Z": 530.46875
+          }
+        ],
+        "Location": {
+          "X": -2839057.2,
+          "Y": -2724175.0,
+          "Z": 480.46884
+        },
+        "RotateYaw": 32.6683,
+        "PatrolStepGID": 20000,
+        "ID_PatrolFormation": 1,
+        "PatrolType": "EDS_PatrolType::OneWay",
+        "PatrolEscortValue1": 500,
+        "PatrolEscortValue2": 1
+      }
+    }
+  }
+]

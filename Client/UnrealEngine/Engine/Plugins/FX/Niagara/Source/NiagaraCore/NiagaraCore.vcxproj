@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{99BA53EF-EA43-559F-A1C6-6D99C70AA12F}</ProjectGuid><RootNamespace>NiagaraCore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FNiagaraCompileHash.cpp" />
+    <ClCompile Include="Private\FNiagaraCustomVersion.cpp" />
+    <ClCompile Include="Private\FNiagaraDataInterfaceParametersCS.cpp" />
+    <ClCompile Include="Private\FNiagaraVariableCommonReference.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TIndexedPtrBase.cpp" />
+    <ClCompile Include="Private\TStaticGetTypeLayoutHelper.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UNiagaraDataInterfaceBase.cpp" />
+    <ClCompile Include="Private\UNiagaraMergeable.cpp" />
+    <ClCompile Include="Private\UNiagaraNotifyOnChanged.cpp" />
+    <ClCompile Include="Private\_Free\Module.NiagaraCore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

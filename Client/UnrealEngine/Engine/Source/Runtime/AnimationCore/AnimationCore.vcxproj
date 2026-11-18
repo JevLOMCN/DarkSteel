@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{39CEBE2D-14DF-5E0C-B548-9F99BE804468}</ProjectGuid><RootNamespace>AnimationCore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAimConstraintDescription.cpp" />
+    <ClCompile Include="Private\FAxis.cpp" />
+    <ClCompile Include="Private\FBoneWeight.cpp" />
+    <ClCompile Include="Private\FBoneWeightTestBasic.cpp" />
+    <ClCompile Include="Private\FBoneWeights.cpp" />
+    <ClCompile Include="Private\FBoneWeightsSettingsTest.cpp" />
+    <ClCompile Include="Private\FBoneWeightsTestBasic.cpp" />
+    <ClCompile Include="Private\FBoneWeightsTestBlend.cpp" />
+    <ClCompile Include="Private\FBoneWeightsTestCreate.cpp" />
+    <ClCompile Include="Private\FCCDIKChainLink.cpp" />
+    <ClCompile Include="Private\FComponentBlendHelper.cpp" />
+    <ClCompile Include="Private\FConstraintData.cpp" />
+    <ClCompile Include="Private\FConstraintDescription.cpp" />
+    <ClCompile Include="Private\FConstraintDescriptionEx.cpp" />
+    <ClCompile Include="Private\FConstraintDescriptor.cpp" />
+    <ClCompile Include="Private\FConstraintOffset.cpp" />
+    <ClCompile Include="Private\FEulerTransform.cpp" />
+    <ClCompile Include="Private\FFABRIKChainLink.cpp" />
+    <ClCompile Include="Private\FFilterOptionPerAxis.cpp" />
+    <ClCompile Include="Private\FInterpCurve.cpp" />
+    <ClCompile Include="Private\FMath.cpp" />
+    <ClCompile Include="Private\FMultiTransformBlendHelper.cpp" />
+    <ClCompile Include="Private\FNodeChain.cpp" />
+    <ClCompile Include="Private\FNodeHierarchyData.cpp" />
+    <ClCompile Include="Private\FNodeHierarchyWithUserData.cpp" />
+    <ClCompile Include="Private\FNodeObject.cpp" />
+    <ClCompile Include="Private\FTransformConstraint.cpp" />
+    <ClCompile Include="Private\FTransformConstraintDescription.cpp" />
+    <ClCompile Include="Private\FTransformFilter.cpp" />
+    <ClCompile Include="Private\FTransformNoScale.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayAdapter.cpp" />
+    <ClCompile Include="Private\TBoneWeights.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TThreadSingleton.cpp" />
+    <ClCompile Include="Private\UAnimationDataSourceRegistry.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.AnimationCore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

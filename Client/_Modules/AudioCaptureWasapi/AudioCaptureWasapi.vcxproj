@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{AF0A29EF-FEB0-5092-AF1F-A9A3990F0B21}</ProjectGuid><RootNamespace>AudioCaptureWasapi</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAudioCaptureWasapiFactory.cpp" />
+    <ClCompile Include="Private\FAudioCaptureWasapiModule.cpp" />
+    <ClCompile Include="Private\FAudioCaptureWasapiStream.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWasapiCaptureRunnable.cpp" />
+    <ClCompile Include="Private\FWasapiCaptureThread.cpp" />
+    <ClCompile Include="Private\FWasapiDeviceEnumeration.cpp" />
+    <ClCompile Include="Private\FWasapiInputStream.cpp" />
+    <ClCompile Include="Private\FWasapiStreamManager.cpp" />
+    <ClCompile Include="Private\IAudioCaptureFactory.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\_Free\Module.AudioCaptureWasapi.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

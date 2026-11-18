@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CustomizingCategoryGroup",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CustomizingCategoryGroup",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CustomizingCategoryGroupTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "CustomizingSceneType": "EDS_CustomizingSceneType::AllPreset",
+        "ID_CustomizingCategory": [
+          101,
+          102,
+          103,
+          104
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "CustomizingSceneType": "EDS_CustomizingSceneType::DetailCustom",
+        "ID_CustomizingCategory": [
+          105,
+          106,
+          107,
+          108
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "CustomizingSceneType": "EDS_CustomizingSceneType::AllPreset",
+        "ID_CustomizingCategory": [
+          201,
+          202,
+          203,
+          204
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "CustomizingSceneType": "EDS_CustomizingSceneType::DetailCustom",
+        "ID_CustomizingCategory": [
+          205,
+          206,
+          207,
+          208
+        ]
+      }
+    }
+  }
+]

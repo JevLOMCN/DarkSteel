@@ -1,0 +1,14 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum GuildRoleType {
+  GuildRoleType_None = 0;
+  GuildRoleType_Master = 1;
+  GuildRoleType_SubMaster = 2;
+  GuildRoleType_Member = 3;
+  GuildRoleType_JoinRequest = 4;
+  GuildRoleType_Manager = 5;
+  GuildRoleType_Newcomer = 6;
+  GuildRoleType_System = 100;
+}

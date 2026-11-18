@@ -1,0 +1,36 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: AssetRegistry
+// Functions: 2
+
+// Serialize @ 142b1cf50
+
+void __thiscall
+UE::AssetDataGather::Private::FChecksumArchiveReader::Serialize
+          (FChecksumArchiveReader *this,void *param_1,long64 param_2)
+
+{
+  TMemoryView<void> local_18;
+  
+  local_18.Data = param_1;
+  local_18.Size = param_2;
+  FChecksumArchiveBase::Load((FChecksumArchiveBase *)this,&local_18);
+  return;
+}
+
+// Tell @ 142b22ee0
+
+long64 __thiscall
+UE::AssetDataGather::Private::FChecksumArchiveReader::Tell(FChecksumArchiveReader *this)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  longlong lVar3;
+  
+  lVar1 = *(longlong *)&this->field_0xa8;
+  lVar2 = *(longlong *)&this->field_0xa0;
+  lVar3 = (**(code **)(**(longlong **)&this->field_0x90 + 0x28))();
+  return lVar3 - (lVar1 - lVar2);
+}
+

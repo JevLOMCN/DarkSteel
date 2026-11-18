@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MailContent",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MailContent",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MailContentTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "MailType": "EDS_MailType::System",
+        "ID_MailSenderName": 1,
+        "ID_MailTitle": 11,
+        "ID_MailContents": 101,
+        "ID_MailBg": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ServerInfoTimeZone",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ServerInfoTimeZone",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ServerInfoTimeZoneTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "Version": "*",
+        "DataStage": 1,
+        "RegionList": [
+          1010,
+          1020,
+          1030
+        ],
+        "EventHubsConnectionString": "",
+        "EventHubsLogName": "",
+        "ServiceBusString": "",
+        "ServiceBusResourceGroup": "",
+        "ServiceBusNamespace": ""
+      },
+      "2": {
+        "ID": 2,
+        "Version": "*",
+        "DataStage": 1,
+        "RegionList": [
+          2010,
+          2020,
+          2030
+        ],
+        "EventHubsConnectionString": "",
+        "EventHubsLogName": "",
+        "ServiceBusString": "",
+        "ServiceBusResourceGroup": "",
+        "ServiceBusNamespace": ""
+      },
+      "3": {
+        "ID": 3,
+        "Version": "*",
+        "DataStage": 1,
+        "RegionList": [
+          3010,
+          3020,
+          3030
+        ],
+        "EventHubsConnectionString": "",
+        "EventHubsLogName": "",
+        "ServiceBusString": "",
+        "ServiceBusResourceGroup": "",
+        "ServiceBusNamespace": ""
+      },
+      "4": {
+        "ID": 4,
+        "Version": "*",
+        "DataStage": 1,
+        "RegionList": [
+          4010,
+          4020,
+          4030,
+          4040,
+          4050,
+          4060
+        ],
+        "EventHubsConnectionString": "",
+        "EventHubsLogName": "",
+        "ServiceBusString": "",
+        "ServiceBusResourceGroup": "",
+        "ServiceBusNamespace": ""
+      }
+    }
+  }
+]

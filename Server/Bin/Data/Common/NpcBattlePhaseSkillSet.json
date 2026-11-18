@@ -1,0 +1,280 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcBattlePhaseSkillSet",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcBattlePhaseSkillSet",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcBattlePhaseSkillSetTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1000201": {
+        "ID": 1000201,
+        "DataStage": 23,
+        "NormalAttackRate": [
+          50,
+          50
+        ],
+        "NormalAttackLevel": [
+          1,
+          1
+        ],
+        "SkillAttackRate": [
+          50,
+          50,
+          0
+        ],
+        "SkillLevel": [
+          1,
+          1,
+          1
+        ],
+        "RangedAttackRate": 0,
+        "RangedSkillAttackRate": [
+          0
+        ],
+        "RangedSkillLevel": [
+          1
+        ]
+      },
+      "1000202": {
+        "ID": 1000202,
+        "DataStage": 23,
+        "NormalAttackRate": [
+          100,
+          0
+        ],
+        "NormalAttackLevel": [
+          1,
+          1
+        ],
+        "SkillAttackRate": [
+          50,
+          50,
+          0
+        ],
+        "SkillLevel": [
+          1,
+          1,
+          1
+        ],
+        "RangedAttackRate": 1000000,
+        "RangedSkillAttackRate": [
+          100
+        ],
+        "RangedSkillLevel": [
+          1
+        ]
+      },
+      "1000203": {
+        "ID": 1000203,
+        "DataStage": 23,
+        "NormalAttackRate": [
+          0,
+          100
+        ],
+        "NormalAttackLevel": [
+          1,
+          1
+        ],
+        "SkillAttackRate": [
+          0,
+          30,
+          70
+        ],
+        "SkillLevel": [
+          1,
+          1,
+          1
+        ],
+        "RangedAttackRate": 1000000,
+        "RangedSkillAttackRate": [
+          100
+        ],
+        "RangedSkillLevel": [
+          1
+        ]
+      },
+      "1010101": {
+        "ID": 1010101,
+        "DataStage": 23,
+        "NormalAttackRate": [
+          50,
+          50
+        ],
+        "NormalAttackLevel": [
+          1,
+          1
+        ],
+        "SkillAttackRate": [
+          0,
+          0,
+          100,
+          0
+        ],
+        "SkillLevel": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "RangedAttackRate": 0,
+        "RangedSkillAttackRate": [],
+        "RangedSkillLevel": []
+      },
+      "1010102": {
+        "ID": 1010102,
+        "DataStage": 23,
+        "NormalAttackRate": [
+          0,
+          100
+        ],
+        "NormalAttackLevel": [
+          1,
+          1
+        ],
+        "SkillAttackRate": [
+          0,
+          0,
+          0,
+          100
+        ],
+        "SkillLevel": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "RangedAttackRate": 0,
+        "RangedSkillAttackRate": [],
+        "RangedSkillLevel": []
+      },
+      "1010201": {
+        "ID": 1010201,
+        "DataStage": 23,
+        "NormalAttackRate": [
+          60,
+          40
+        ],
+        "NormalAttackLevel": [
+          1,
+          1
+        ],
+        "SkillAttackRate": [
+          33,
+          33,
+          34
+        ],
+        "SkillLevel": [
+          1,
+          1,
+          1
+        ],
+        "RangedAttackRate": 0,
+        "RangedSkillAttackRate": [],
+        "RangedSkillLevel": []
+      },
+      "11043101": {
+        "ID": 11043101,
+        "DataStage": 23,
+        "NormalAttackRate": [
+          35,
+          35,
+          10,
+          10,
+          10
+        ],
+        "NormalAttackLevel": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "SkillAttackRate": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          14,
+          14,
+          14,
+          14,
+          15,
+          15
+        ],
+        "SkillLevel": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "RangedAttackRate": 0,
+        "RangedSkillAttackRate": [],
+        "RangedSkillLevel": []
+      },
+      "800301": {
+        "ID": 800301,
+        "DataStage": 23,
+        "NormalAttackRate": [
+          35,
+          35,
+          15,
+          15
+        ],
+        "NormalAttackLevel": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "SkillAttackRate": [],
+        "SkillLevel": [],
+        "RangedAttackRate": 0,
+        "RangedSkillAttackRate": [],
+        "RangedSkillLevel": []
+      },
+      "800302": {
+        "ID": 800302,
+        "DataStage": 23,
+        "NormalAttackRate": [
+          35,
+          35,
+          15,
+          15
+        ],
+        "NormalAttackLevel": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "SkillAttackRate": [],
+        "SkillLevel": [],
+        "RangedAttackRate": 0,
+        "RangedSkillAttackRate": [],
+        "RangedSkillLevel": []
+      }
+    }
+  }
+]

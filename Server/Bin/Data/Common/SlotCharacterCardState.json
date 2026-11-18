@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SlotCharacterCardState",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SlotCharacterCardState",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SlotCharacterCardStateTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_SlotCharCardStateType::MyCharacterList",
+        "DataStage": 23,
+        "IsCharLevel": true,
+        "IsEvolutionLevel": true,
+        "IsCurrentChar": true,
+        "IsReserveChar": true,
+        "IsFormationNum": false,
+        "IsSelectEquip": false,
+        "IsOtherEquip": false
+      },
+      "2": {
+        "ID": "EDS_SlotCharCardStateType::QuickChanger",
+        "DataStage": 23,
+        "IsCharLevel": true,
+        "IsEvolutionLevel": true,
+        "IsCurrentChar": false,
+        "IsReserveChar": false,
+        "IsFormationNum": true,
+        "IsSelectEquip": false,
+        "IsOtherEquip": false
+      },
+      "4": {
+        "ID": "EDS_SlotCharCardStateType::QuickChangerOneCharSelect",
+        "DataStage": 23,
+        "IsCharLevel": true,
+        "IsEvolutionLevel": true,
+        "IsCurrentChar": false,
+        "IsReserveChar": false,
+        "IsFormationNum": false,
+        "IsSelectEquip": false,
+        "IsOtherEquip": false
+      },
+      "3": {
+        "ID": "EDS_SlotCharCardStateType::RaidParty",
+        "DataStage": 23,
+        "IsCharLevel": true,
+        "IsEvolutionLevel": true,
+        "IsCurrentChar": false,
+        "IsReserveChar": false,
+        "IsFormationNum": false,
+        "IsSelectEquip": false,
+        "IsOtherEquip": false
+      },
+      "100": {
+        "ID": "EDS_SlotCharCardStateType::GachaResult",
+        "DataStage": 23,
+        "IsCharLevel": true,
+        "IsEvolutionLevel": true,
+        "IsCurrentChar": false,
+        "IsReserveChar": false,
+        "IsFormationNum": false,
+        "IsSelectEquip": false,
+        "IsOtherEquip": false
+      },
+      "5": {
+        "ID": "EDS_SlotCharCardStateType::QuickChangerItemEquip",
+        "DataStage": 23,
+        "IsCharLevel": true,
+        "IsEvolutionLevel": true,
+        "IsCurrentChar": false,
+        "IsReserveChar": false,
+        "IsFormationNum": false,
+        "IsSelectEquip": true,
+        "IsOtherEquip": true
+      }
+    }
+  }
+]

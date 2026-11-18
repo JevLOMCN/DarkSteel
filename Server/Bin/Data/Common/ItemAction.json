@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemAction",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemAction",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemActionTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_StringUi": {
+          "ID": 203031
+        },
+        "SuccessMessage": {
+          "ID": 0
+        },
+        "ActionTime": 5.0,
+        "ActionEndTime": 1.0,
+        "ApplyTime": 1.0,
+        "IsMove": true,
+        "ID_ActionBuff": 8500,
+        "ActionBuffTime": 0.0,
+        "ActionAni": 10100,
+        "MeshSocketName": "",
+        "AttachedMeshPath": ""
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "SuccessMessage": {
+          "ID": 352001
+        },
+        "ActionTime": 1.33,
+        "ActionEndTime": 0.0,
+        "ApplyTime": 0.73,
+        "IsMove": false,
+        "ID_ActionBuff": 0,
+        "ActionBuffTime": 0.0,
+        "ActionAni": 10200,
+        "MeshSocketName": "Weapon_Hand_R_01",
+        "AttachedMeshPath": "/Game/Characters/NPCs/Object/NPC_Object_MountFood_Meat_11/SK_NPC_Object_MountFood_Meat_11"
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "ID_StringUi": {
+          "ID": 0
+        },
+        "SuccessMessage": {
+          "ID": 352001
+        },
+        "ActionTime": 1.33,
+        "ActionEndTime": 0.0,
+        "ApplyTime": 0.73,
+        "IsMove": false,
+        "ID_ActionBuff": 0,
+        "ActionBuffTime": 0.0,
+        "ActionAni": 10200,
+        "MeshSocketName": "Weapon_Hand_R_01",
+        "AttachedMeshPath": "/Game/Characters/NPCs/Object/NPC_Object_MountFood_Vegetable_11/SK_NPC_Object_MountFood_Vegetable_11"
+      }
+    }
+  }
+]

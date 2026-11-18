@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{C159DF4E-A616-5D67-8AF5-21FDF0CF99E5}</ProjectGuid><RootNamespace>Constraints</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AActor.cpp" />
+    <ClCompile Include="Private\AConstraintsActor.cpp" />
+    <ClCompile Include="Private\FAnimationEvaluationCache.cpp" />
+    <ClCompile Include="Private\FAnimationEvaluationContext.cpp" />
+    <ClCompile Include="Private\FAnimationEvaluator.cpp" />
+    <ClCompile Include="Private\FComponentEvaluationGraphBinding.cpp" />
+    <ClCompile Include="Private\FConstraintAndActiveChannel.cpp" />
+    <ClCompile Include="Private\FConstraintCycleChecker.cpp" />
+    <ClCompile Include="Private\FConstraintDependencyScope.cpp" />
+    <ClCompile Include="Private\FConstraintNode.cpp" />
+    <ClCompile Include="Private\FConstraintTickFunction.cpp" />
+    <ClCompile Include="Private\FConstraintsEvaluationGraph.cpp" />
+    <ClCompile Include="Private\FConstraintsInWorld.cpp" />
+    <ClCompile Include="Private\FConstraintsInteractionCache.cpp" />
+    <ClCompile Include="Private\FConstraintsManagerController.cpp" />
+    <ClCompile Include="Private\FConstraintsModule.cpp" />
+    <ClCompile Include="Private\FDependencyBuilder.cpp" />
+    <ClCompile Include="Private\FEvaluationForCachingScope.cpp" />
+    <ClCompile Include="Private\FGraphBuildHelper.cpp" />
+    <ClCompile Include="Private\FHandleDependencyChecker.cpp" />
+    <ClCompile Include="Private\FMovieSceneBoolChannel.cpp" />
+    <ClCompile Include="Private\FMovieSceneChannelProxy.cpp" />
+    <ClCompile Include="Private\FMovieSceneConstraintChannel.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTickFunction.cpp" />
+    <ClCompile Include="Private\FTransformConstraintUtils.cpp" />
+    <ClCompile Include="Private\FTransformableRegistry.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseStaticDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TInlineComponentArray.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UConstraintSubsystem.cpp" />
+    <ClCompile Include="Private\UConstraintsManager.cpp" />
+    <ClCompile Include="Private\UConstraintsScriptingLibrary.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UTickableConstraint.cpp" />
+    <ClCompile Include="Private\UTickableLookAtConstraint.cpp" />
+    <ClCompile Include="Private\UTickableParentConstraint.cpp" />
+    <ClCompile Include="Private\UTickableRotationConstraint.cpp" />
+    <ClCompile Include="Private\UTickableScaleConstraint.cpp" />
+    <ClCompile Include="Private\UTickableTransformConstraint.cpp" />
+    <ClCompile Include="Private\UTickableTranslationConstraint.cpp" />
+    <ClCompile Include="Private\UTransformableComponentHandle.cpp" />
+    <ClCompile Include="Private\UTransformableHandle.cpp" />
+    <ClCompile Include="Private\UWorld.cpp" />
+    <ClCompile Include="Private\_Free\Module.Constraints.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

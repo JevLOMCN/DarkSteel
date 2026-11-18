@@ -1,0 +1,24 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+import "_options.proto";
+
+message PkData {
+  int32 char_id = 1;
+  string nickname = 2;
+  int64 guild_uid = 3;
+  int32 guild_icon = 4;
+  string guild_name = 5;
+  int32 char_level = 6;
+  float combat_power = 7;
+  int32 pk_state = 8;
+  int64 create_time = 9;
+}
+message PkHistory {
+  int64 player_uid = 1;
+  int32 kill_count = 2;
+  int32 death_count = 3;
+  repeated PkData pk_data = 4;
+  string id = 5;
+  int32 region_index = 6;
+}

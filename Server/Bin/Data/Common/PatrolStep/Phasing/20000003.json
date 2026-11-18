@@ -1,0 +1,132 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "20000003",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PatrolStep/Phasing/20000003",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PatrolStepTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "20000001": {
+        "ID": 20000001,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 1,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          1
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [],
+        "ActionValue4": [],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20000002": {
+        "ID": 20000002,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 2,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          2
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [],
+        "ActionValue4": [],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20000003": {
+        "ID": 20000003,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 3,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          3
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [],
+        "ActionValue4": [],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20000004": {
+        "ID": 20000004,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 4,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Move",
+        "ActionValue1": [
+          4
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [],
+        "ActionValue4": [],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      },
+      "20000005": {
+        "ID": 20000005,
+        "DataStage": 23,
+        "DataStageString": "",
+        "GroupID": 20000,
+        "Step": 5,
+        "StepDesc": "",
+        "IsPrevPlay": false,
+        "PatrolActionType": "EDS_PatrolActionType::Suicide",
+        "ActionValue1": [
+          5
+        ],
+        "ActionValue2": [
+          100
+        ],
+        "ActionValue3": [],
+        "ActionValue4": [],
+        "MoveSpeed": 200.0,
+        "WaitingTime": 0.0,
+        "PlayMember": [
+          1
+        ]
+      }
+    }
+  }
+]

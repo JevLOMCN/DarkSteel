@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{FD88B91E-2BB7-558F-AB05-14985F1A9AF8}</ProjectGuid><RootNamespace>AutomationMessages</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAutomationMessagesModule.cpp" />
+    <ClCompile Include="Private\FAutomationScreenshotMetadata.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerFindWorkers.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerFindWorkersResponse.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerImageComparisonResults.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerMessageBase.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerNextNetworkCommandReply.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerPerformanceDataRequest.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerPerformanceDataResponse.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerPing.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerPong.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerRequestNextNetworkCommand.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerRequestTests.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerRequestTestsReplyComplete.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerRunTests.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerRunTestsReply.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerScreenImage.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerSingleTestReply.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerStartTestSession.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerStopTestSession.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerStopTests.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerTelemetryData.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerTelemetryItem.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerTestDataRequest.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerTestDataResponse.cpp" />
+    <ClCompile Include="Private\FAutomationWorkerWorkerOffline.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.AutomationMessages.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

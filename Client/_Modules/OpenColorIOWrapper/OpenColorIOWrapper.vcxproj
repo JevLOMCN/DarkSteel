@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{DC86F61E-4A2C-52D5-85F9-DD593A6A915C}</ProjectGuid><RootNamespace>OpenColorIOWrapper</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FImageCore.cpp" />
+    <ClCompile Include="Private\FOpenColorIOGPUProcessorPimpl.cpp" />
+    <ClCompile Include="Private\FOpenColorIOTransferFunctionsTest.cpp" />
+    <ClCompile Include="Private\FOpenColorIOWrapperConfig.cpp" />
+    <ClCompile Include="Private\FOpenColorIOWrapperEngineConfig.cpp" />
+    <ClCompile Include="Private\FOpenColorIOWrapperGPUProcessor.cpp" />
+    <ClCompile Include="Private\FOpenColorIOWrapperModule.cpp" />
+    <ClCompile Include="Private\FOpenColorIOWrapperProcessor.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IOpenColorIOWrapperModule.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.OpenColorIOWrapper.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

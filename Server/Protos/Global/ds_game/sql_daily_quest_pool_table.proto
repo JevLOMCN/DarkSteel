@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlDailyQuestPoolTable {
+  int64 player_uid = 1;
+  int32 pool_index = 2;
+  int32 suggest_id = 3;
+  repeated int32 quest_id = 5;
+  repeated bool is_complete = 6;
+}

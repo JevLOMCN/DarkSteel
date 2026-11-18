@@ -1,0 +1,5297 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerSkillLevel",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PlayerSkillLevel",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PlayerSkillLevelTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1006": {
+        "ID": 1006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1007": {
+        "ID": 1007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1008": {
+        "ID": 1008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1009": {
+        "ID": 1009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1010": {
+        "ID": 1010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1011": {
+        "ID": 1011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1012": {
+        "ID": 1012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1013": {
+        "ID": 1013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1014": {
+        "ID": 1014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1015": {
+        "ID": 1015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1016": {
+        "ID": 1016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1017": {
+        "ID": 1017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1018": {
+        "ID": 1018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1019": {
+        "ID": 1019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "1020": {
+        "ID": 1020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 1,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000002
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2001": {
+        "ID": 2001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2002": {
+        "ID": 2002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2003": {
+        "ID": 2003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2004": {
+        "ID": 2004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2005": {
+        "ID": 2005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2006": {
+        "ID": 2006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2007": {
+        "ID": 2007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2008": {
+        "ID": 2008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2009": {
+        "ID": 2009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2010": {
+        "ID": 2010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2011": {
+        "ID": 2011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2012": {
+        "ID": 2012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2013": {
+        "ID": 2013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2014": {
+        "ID": 2014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2015": {
+        "ID": 2015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2016": {
+        "ID": 2016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2017": {
+        "ID": 2017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2018": {
+        "ID": 2018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2019": {
+        "ID": 2019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "2020": {
+        "ID": 2020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 2,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000003
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3001": {
+        "ID": 3001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3002": {
+        "ID": 3002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3003": {
+        "ID": 3003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3004": {
+        "ID": 3004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3005": {
+        "ID": 3005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3006": {
+        "ID": 3006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3007": {
+        "ID": 3007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3008": {
+        "ID": 3008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3009": {
+        "ID": 3009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3010": {
+        "ID": 3010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3011": {
+        "ID": 3011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3012": {
+        "ID": 3012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3013": {
+        "ID": 3013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3014": {
+        "ID": 3014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3015": {
+        "ID": 3015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3016": {
+        "ID": 3016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3017": {
+        "ID": 3017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3018": {
+        "ID": 3018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3019": {
+        "ID": 3019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "3020": {
+        "ID": 3020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 3,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000004
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4001": {
+        "ID": 4001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4002": {
+        "ID": 4002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4003": {
+        "ID": 4003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4004": {
+        "ID": 4004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4005": {
+        "ID": 4005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4006": {
+        "ID": 4006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4007": {
+        "ID": 4007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4008": {
+        "ID": 4008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4009": {
+        "ID": 4009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4010": {
+        "ID": 4010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4011": {
+        "ID": 4011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4012": {
+        "ID": 4012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4013": {
+        "ID": 4013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4014": {
+        "ID": 4014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4015": {
+        "ID": 4015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4016": {
+        "ID": 4016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4017": {
+        "ID": 4017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4018": {
+        "ID": 4018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4019": {
+        "ID": 4019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "4020": {
+        "ID": 4020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 4,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000005
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5001": {
+        "ID": 5001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5002": {
+        "ID": 5002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5003": {
+        "ID": 5003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5004": {
+        "ID": 5004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5005": {
+        "ID": 5005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5006": {
+        "ID": 5006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5007": {
+        "ID": 5007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5008": {
+        "ID": 5008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5009": {
+        "ID": 5009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5010": {
+        "ID": 5010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5011": {
+        "ID": 5011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5012": {
+        "ID": 5012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5013": {
+        "ID": 5013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5014": {
+        "ID": 5014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5015": {
+        "ID": 5015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5016": {
+        "ID": 5016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5017": {
+        "ID": 5017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5018": {
+        "ID": 5018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5019": {
+        "ID": 5019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "5020": {
+        "ID": 5020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 5,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6001": {
+        "ID": 6001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6002": {
+        "ID": 6002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6003": {
+        "ID": 6003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6004": {
+        "ID": 6004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6005": {
+        "ID": 6005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6006": {
+        "ID": 6006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6007": {
+        "ID": 6007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6008": {
+        "ID": 6008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6009": {
+        "ID": 6009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6010": {
+        "ID": 6010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6011": {
+        "ID": 6011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6012": {
+        "ID": 6012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6013": {
+        "ID": 6013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6014": {
+        "ID": 6014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6015": {
+        "ID": 6015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6016": {
+        "ID": 6016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6017": {
+        "ID": 6017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6018": {
+        "ID": 6018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6019": {
+        "ID": 6019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "6020": {
+        "ID": 6020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 6,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000006
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7001": {
+        "ID": 7001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7002": {
+        "ID": 7002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7003": {
+        "ID": 7003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7004": {
+        "ID": 7004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7005": {
+        "ID": 7005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7006": {
+        "ID": 7006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7007": {
+        "ID": 7007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7008": {
+        "ID": 7008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7009": {
+        "ID": 7009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7010": {
+        "ID": 7010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7011": {
+        "ID": 7011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7012": {
+        "ID": 7012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7013": {
+        "ID": 7013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7014": {
+        "ID": 7014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7015": {
+        "ID": 7015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7016": {
+        "ID": 7016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7017": {
+        "ID": 7017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7018": {
+        "ID": 7018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7019": {
+        "ID": 7019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "7020": {
+        "ID": 7020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 7,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000008
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8001": {
+        "ID": 8001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8002": {
+        "ID": 8002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8003": {
+        "ID": 8003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8004": {
+        "ID": 8004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8005": {
+        "ID": 8005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8006": {
+        "ID": 8006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8007": {
+        "ID": 8007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8008": {
+        "ID": 8008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8009": {
+        "ID": 8009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8010": {
+        "ID": 8010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8011": {
+        "ID": 8011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8012": {
+        "ID": 8012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8013": {
+        "ID": 8013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8014": {
+        "ID": 8014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8015": {
+        "ID": 8015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8016": {
+        "ID": 8016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8017": {
+        "ID": 8017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8018": {
+        "ID": 8018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8019": {
+        "ID": 8019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "8020": {
+        "ID": 8020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 8,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 1,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9001": {
+        "ID": 9001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9002": {
+        "ID": 9002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9003": {
+        "ID": 9003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9004": {
+        "ID": 9004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9005": {
+        "ID": 9005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9006": {
+        "ID": 9006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9007": {
+        "ID": 9007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9008": {
+        "ID": 9008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9009": {
+        "ID": 9009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9010": {
+        "ID": 9010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9011": {
+        "ID": 9011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9012": {
+        "ID": 9012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9013": {
+        "ID": 9013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9014": {
+        "ID": 9014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9015": {
+        "ID": 9015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9016": {
+        "ID": 9016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9017": {
+        "ID": 9017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9018": {
+        "ID": 9018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9019": {
+        "ID": 9019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "9020": {
+        "ID": 9020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 9,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10001": {
+        "ID": 10001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10002": {
+        "ID": 10002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10003": {
+        "ID": 10003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10004": {
+        "ID": 10004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10005": {
+        "ID": 10005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10006": {
+        "ID": 10006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10007": {
+        "ID": 10007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10008": {
+        "ID": 10008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10009": {
+        "ID": 10009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10010": {
+        "ID": 10010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10011": {
+        "ID": 10011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10012": {
+        "ID": 10012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10013": {
+        "ID": 10013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10014": {
+        "ID": 10014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10015": {
+        "ID": 10015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10016": {
+        "ID": 10016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10017": {
+        "ID": 10017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10018": {
+        "ID": 10018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10019": {
+        "ID": 10019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "10020": {
+        "ID": 10020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 10,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000000
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11001": {
+        "ID": 11001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11002": {
+        "ID": 11002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11003": {
+        "ID": 11003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11004": {
+        "ID": 11004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11005": {
+        "ID": 11005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11006": {
+        "ID": 11006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11007": {
+        "ID": 11007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11008": {
+        "ID": 11008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11009": {
+        "ID": 11009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11010": {
+        "ID": 11010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11011": {
+        "ID": 11011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11012": {
+        "ID": 11012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11013": {
+        "ID": 11013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11014": {
+        "ID": 11014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11015": {
+        "ID": 11015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11016": {
+        "ID": 11016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11017": {
+        "ID": 11017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11018": {
+        "ID": 11018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11019": {
+        "ID": 11019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "11020": {
+        "ID": 11020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 11,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000001
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12001": {
+        "ID": 12001,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 1,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12002": {
+        "ID": 12002,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 2,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12003": {
+        "ID": 12003,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 3,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12004": {
+        "ID": 12004,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 4,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12005": {
+        "ID": 12005,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 5,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12006": {
+        "ID": 12006,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 6,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12007": {
+        "ID": 12007,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 7,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12008": {
+        "ID": 12008,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 8,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12009": {
+        "ID": 12009,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 9,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12010": {
+        "ID": 12010,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 10,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12011": {
+        "ID": 12011,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 11,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1100,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12012": {
+        "ID": 12012,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 12,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1200,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12013": {
+        "ID": 12013,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 13,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1300,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12014": {
+        "ID": 12014,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 14,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1400,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12015": {
+        "ID": 12015,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 15,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1500,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12016": {
+        "ID": 12016,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 16,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1600,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12017": {
+        "ID": 12017,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 17,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1700,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12018": {
+        "ID": 12018,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 18,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1800,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12019": {
+        "ID": 12019,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 19,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 1900,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      },
+      "12020": {
+        "ID": 12020,
+        "DataStage": 23,
+        "Version": "*",
+        "Group": 12,
+        "SkillLevel": 20,
+        "SkillLevelUpHaloPointCount": 0,
+        "ID_LevelUpItem": [
+          250000007
+        ],
+        "LevelUpItemCount": [
+          1
+        ],
+        "ResetMoenyType": "EDS_MoneyType::Gold",
+        "ResetMoenyCount": 2000,
+        "ID_ResetItem": [
+          250200001
+        ],
+        "ResetItemCount": [
+          1
+        ]
+      }
+    }
+  }
+]

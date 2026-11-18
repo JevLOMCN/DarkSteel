@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "RingCommandCreate",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/RingCommandCreate",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_RingCommandCreateTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "RingCmdDeckOrder": 0,
+        "RingCmdSlotNumber": 0,
+        "RingCmdContentsType": "EDS_RingCmdType::Menu",
+        "RingCmdSlotContentsValue": 202
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "RingCmdDeckOrder": 0,
+        "RingCmdSlotNumber": 1,
+        "RingCmdContentsType": "EDS_RingCmdType::Menu",
+        "RingCmdSlotContentsValue": 301
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "RingCmdDeckOrder": 0,
+        "RingCmdSlotNumber": 2,
+        "RingCmdContentsType": "EDS_RingCmdType::Item",
+        "RingCmdSlotContentsValue": 100110001
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "RingCmdDeckOrder": 0,
+        "RingCmdSlotNumber": 3,
+        "RingCmdContentsType": "EDS_RingCmdType::Item",
+        "RingCmdSlotContentsValue": 100210001
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "RingCmdDeckOrder": 0,
+        "RingCmdSlotNumber": 4,
+        "RingCmdContentsType": "EDS_RingCmdType::Action",
+        "RingCmdSlotContentsValue": 2
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "RingCmdDeckOrder": 0,
+        "RingCmdSlotNumber": 5,
+        "RingCmdContentsType": "EDS_RingCmdType::Action",
+        "RingCmdSlotContentsValue": 3
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "RingCmdDeckOrder": 0,
+        "RingCmdSlotNumber": 6,
+        "RingCmdContentsType": "EDS_RingCmdType::None",
+        "RingCmdSlotContentsValue": 0
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "RingCmdDeckOrder": 0,
+        "RingCmdSlotNumber": 7,
+        "RingCmdContentsType": "EDS_RingCmdType::Action",
+        "RingCmdSlotContentsValue": 1
+      }
+    }
+  }
+]

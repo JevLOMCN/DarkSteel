@@ -1,0 +1,103 @@
+syntax = "proto3";
+package api_config;
+option csharp_namespace = "MirProto.ApiConfig";
+
+import "_api_common.proto";
+import "ds_config/sql_node_table.proto";
+import "ds_config/sql_contents_base_table.proto";
+import "ds_config/sql_contents_function_table.proto";
+import "ds_config/sql_game_server_list_table.proto";
+import "ds_config/sql_front_end_server_list_table.proto";
+import "ds_config/sql_db_agent_server_list_table.proto";
+import "ds_config/sql_region_server_list_table.proto";
+import "ds_config/sql_guild_server_list_table.proto";
+import "google/protobuf/timestamp.proto";
+
+message NodeIndexRequest {
+}
+message NodeIndexResponse {
+  ResponseBase response_base = 1;
+  ds_config.SqlNodeTable table = 2;
+}
+message NodeHeartBeatRequest {
+  int32 node_uid = 1;
+}
+message NodeHeartBeatResponse {
+  ResponseBase response_base = 1;
+  ds_config.SqlNodeTable table = 2;
+}
+message ServerListRequest {
+}
+message ServerListResponse {
+  ResponseBase response_base = 1;
+  repeated ds_config.SqlGameServerListTable game_server_list = 2;
+  repeated ds_config.SqlFrontEndServerListTable front_end_server_list = 3;
+  repeated ds_config.SqlDbAgentServerListTable db_agent_server_list = 4;
+  repeated ds_config.SqlRegionServerListTable region_server_list = 5;
+  repeated ds_config.SqlGuildServerListTable guild_server_list = 6;
+}
+message GameServerRefreshDateRequest {
+  int32 region_index = 1;
+  int32 world_id = 2;
+  int32 server_type = 3;
+  int32 pc_count = 4;
+  google.protobuf.Timestamp refresh_date = 5;
+  string address = 7;
+  int64 world_name_id = 8;
+  string grpc_address = 9;
+  int32 timezone_index = 10;
+  int32 server_index = 11;
+  string json = 12;
+}
+message GameServerRefreshDateResponse {
+  int32 world_id = 1;
+}
+message GetContentsDataRequest {
+  int32 timezone_index = 1;
+  int32 region_index = 2;
+  int32 world_id = 3;
+}
+message GetContentsDataResponse {
+  ResponseBase response_base = 1;
+  repeated ds_config.SqlContentsBaseTable base_table = 3;
+  repeated ds_config.SqlContentsFunctionTable function_table = 4;
+}
+message FrontEndServerRefreshDateRequest {
+  int32 region_index = 1;
+  int32 players = 2;
+  string address = 4;
+  google.protobuf.Timestamp refresh_date = 5;
+  int32 server_index = 6;
+}
+message FrontEndServerRefreshDateResponse {
+  int32 region_index = 1;
+}
+message DbAgentServerRefreshDateRequest {
+  int32 world_id = 1;
+  int32 region_index = 2;
+  string address = 3;
+  string database_address = 4;
+  string database_user = 5;
+  string database_name = 6;
+  google.protobuf.Timestamp refresh_date = 7;
+}
+message DbAgentServerRefreshDateResponse {
+  int32 world_id = 1;
+}
+message RegionServerRefreshDateRequest {
+  int32 region_index = 1;
+  string service_bus_string = 2;
+  string address = 4;
+  google.protobuf.Timestamp refresh_date = 5;
+}
+message RegionServerRefreshDateResponse {
+  int32 region_index = 1;
+}
+message GuildServerRefreshDateRequest {
+  int32 server_index = 1;
+  string address = 3;
+  google.protobuf.Timestamp refresh_date = 4;
+}
+message GuildServerRefreshDateResponse {
+  int32 server_index = 1;
+}

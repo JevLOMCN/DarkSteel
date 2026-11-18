@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{5C96A7E2-2DEA-5630-AD15-0DE9C2A7DD00}</ProjectGuid><RootNamespace>MotionWarping</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AActor.cpp" />
+    <ClCompile Include="Private\FAnimSequenceTrackContainer.cpp" />
+    <ClCompile Include="Private\FAttributeBasedRootMotionComponentPrePhysicsTickFunction.cpp" />
+    <ClCompile Include="Private\FMotionDeltaTrack.cpp" />
+    <ClCompile Include="Private\FMotionDeltaTrackContainer.cpp" />
+    <ClCompile Include="Private\FMotionWarpingModule.cpp" />
+    <ClCompile Include="Private\FMotionWarpingTarget.cpp" />
+    <ClCompile Include="Private\FMotionWarpingUpdateContext.cpp" />
+    <ClCompile Include="Private\FMotionWarpingWindowData.cpp" />
+    <ClCompile Include="Private\FOnRootMotionModifierDelegate.cpp" />
+    <ClCompile Include="Private\FPrecomputedWarpCurve.cpp" />
+    <ClCompile Include="Private\FPrecomputedWarpSteeringSettings.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FSwitchOffConditionData.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseDynamicDelegate.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TContainerElementTypeCompatibility_DefaultOperatorFunc.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UAnimNotifyState_MotionWarping.cpp" />
+    <ClCompile Include="Private\UAttributeBasedRootMotionComponent.cpp" />
+    <ClCompile Include="Private\UDEPRECATED_RootMotionModifier_SimpleWarp.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMotionWarpingBaseAdapter.cpp" />
+    <ClCompile Include="Private\UMotionWarpingCharacterAdapter.cpp" />
+    <ClCompile Include="Private\UMotionWarpingComponent.cpp" />
+    <ClCompile Include="Private\UMotionWarpingFunctionLibrary.cpp" />
+    <ClCompile Include="Private\UMotionWarpingSwitchOffAngleToTargetCondition.cpp" />
+    <ClCompile Include="Private\UMotionWarpingSwitchOffBlueprintableCondition.cpp" />
+    <ClCompile Include="Private\UMotionWarpingSwitchOffCompositeCondition.cpp" />
+    <ClCompile Include="Private\UMotionWarpingSwitchOffCondition.cpp" />
+    <ClCompile Include="Private\UMotionWarpingSwitchOffDistanceCondition.cpp" />
+    <ClCompile Include="Private\UMotionWarpingUtilities.cpp" />
+    <ClCompile Include="Private\URootMotionModifier.cpp" />
+    <ClCompile Include="Private\URootMotionModifier_AdjustmentBlendWarp.cpp" />
+    <ClCompile Include="Private\URootMotionModifier_PrecomputedWarp.cpp" />
+    <ClCompile Include="Private\URootMotionModifier_Scale.cpp" />
+    <ClCompile Include="Private\URootMotionModifier_SkewWarp.cpp" />
+    <ClCompile Include="Private\URootMotionModifier_Warp.cpp" />
+    <ClCompile Include="Private\_Free\Module.MotionWarping.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

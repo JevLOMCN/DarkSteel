@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{9C165D03-E62E-58A6-9D93-7BEBC0B68477}</ProjectGuid><RootNamespace>WaveTable</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FImporter.cpp" />
+    <ClCompile Include="Private\FModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWaveTable.cpp" />
+    <ClCompile Include="Private\FWaveTableBankAssetProxy.cpp" />
+    <ClCompile Include="Private\FWaveTableBankEntry.cpp" />
+    <ClCompile Include="Private\FWaveTableData.cpp" />
+    <ClCompile Include="Private\FWaveTableSampler.cpp" />
+    <ClCompile Include="Private\FWaveTableSettings.cpp" />
+    <ClCompile Include="Private\FWaveTableTransform.cpp" />
+    <ClCompile Include="Private\FWaveTableView.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TProxyData.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UWaveTableBank.cpp" />
+    <ClCompile Include="Private\_Free\Module.WaveTable.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

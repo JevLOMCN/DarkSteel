@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Volume",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/Volume",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_VolumeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "VolumeType": "EDS_VolumeType::Sphere",
+        "Distance": 200,
+        "Width": 0,
+        "Height": 0,
+        "Offset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "RotationOffset": 0,
+        "IsCheckPC": true,
+        "IsCheckNPC": false
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "VolumeType": "EDS_VolumeType::Sphere",
+        "Distance": 200,
+        "Width": 0,
+        "Height": 0,
+        "Offset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "RotationOffset": 0,
+        "IsCheckPC": false,
+        "IsCheckNPC": true
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "VolumeType": "EDS_VolumeType::Sphere",
+        "Distance": 200,
+        "Width": 0,
+        "Height": 0,
+        "Offset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "RotationOffset": 0,
+        "IsCheckPC": true,
+        "IsCheckNPC": true
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "VolumeType": "EDS_VolumeType::Cube",
+        "Distance": 200,
+        "Width": 200,
+        "Height": 200,
+        "Offset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "RotationOffset": 0,
+        "IsCheckPC": true,
+        "IsCheckNPC": false
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "VolumeType": "EDS_VolumeType::Cube",
+        "Distance": 200,
+        "Width": 200,
+        "Height": 200,
+        "Offset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "RotationOffset": 0,
+        "IsCheckPC": false,
+        "IsCheckNPC": true
+      },
+      "1006": {
+        "ID": 1006,
+        "DataStage": 23,
+        "VolumeType": "EDS_VolumeType::Cube",
+        "Distance": 200,
+        "Width": 200,
+        "Height": 200,
+        "Offset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "RotationOffset": 0,
+        "IsCheckPC": true,
+        "IsCheckNPC": true
+      },
+      "1007": {
+        "ID": 1007,
+        "DataStage": 23,
+        "VolumeType": "EDS_VolumeType::Cube",
+        "Distance": 200,
+        "Width": 200,
+        "Height": 200,
+        "Offset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "RotationOffset": 90,
+        "IsCheckPC": true,
+        "IsCheckNPC": true
+      }
+    }
+  }
+]

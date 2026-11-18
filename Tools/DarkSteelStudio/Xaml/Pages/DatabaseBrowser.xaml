@@ -1,0 +1,81 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Theme merged relative to this file for the XAML designer; the runtime
+         loader sets ParserContext.BaseUri so the relative Source resolves. -->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <!-- Workbench-style browser: schemas -> tables/views/procedures/functions on the left,
+         the selected object's data / columns / indexes / DDL on the right.
+         Logic: MainWindow.cpp (PopulateBrowserPage) + DbBrowser. -->
+    <DockPanel>
+        <TextBlock x:Name="BrowserStatusText" DockPanel.Dock="Bottom" Style="{StaticResource MutedTextStyle}"
+                   Margin="0,8,0,0" TextWrapping="Wrap" Text="Loading schemas..."/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="320" MinWidth="220"/>
+                <ColumnDefinition Width="6"/>
+                <ColumnDefinition Width="*" MinWidth="400"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Navigator -->
+            <Border Grid.Column="0" Style="{StaticResource CardStyle}" Margin="0" Padding="10">
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" Text="SCHEMAS" Style="{StaticResource CardTitleStyle}"/>
+                    <DockPanel DockPanel.Dock="Top" Margin="0,0,0,8">
+                        <Button x:Name="BrowserRefreshButton" DockPanel.Dock="Right" Content="Refresh" Margin="8,0,0,0"/>
+                        <TextBox x:Name="BrowserFilterBox" ToolTip="Filter table / view / procedure names"/>
+                    </DockPanel>
+                    <TreeView x:Name="BrowserTree" BorderThickness="0" Background="Transparent"/>
+                </DockPanel>
+            </Border>
+
+            <GridSplitter Grid.Column="1" Width="6" HorizontalAlignment="Stretch" Background="Transparent"/>
+
+            <!-- Object view -->
+            <DockPanel Grid.Column="2">
+                <StackPanel DockPanel.Dock="Top" Margin="0,0,0,8">
+                    <TextBlock x:Name="BrowserTitleText" Style="{StaticResource HeadingTextStyle}" Text="Select a table"/>
+                    <TextBlock x:Name="BrowserInfoText" Style="{StaticResource MutedTextStyle}" FontSize="11.5"/>
+                </StackPanel>
+                <TabControl x:Name="BrowserTabs" SelectedIndex="0">
+                    <TabItem Header="Data" x:Name="BrowserDataTab">
+                        <DockPanel Margin="0,10,0,0">
+                            <DockPanel DockPanel.Dock="Top" Margin="0,0,0,8">
+                                <TextBlock Style="{StaticResource MutedTextStyle}" FontSize="11.5" VerticalAlignment="Center" TextTrimming="CharacterEllipsis"
+                                           Text="Double-click a cell to edit. Enter saves it to the database. Type NULL for SQL NULL, Esc cancels."/>
+                                <Button x:Name="BrowserNextButton" DockPanel.Dock="Right" Content="Next" Margin="8,0,0,0"/>
+                                <TextBlock x:Name="BrowserPageText" DockPanel.Dock="Right" Style="{StaticResource MutedTextStyle}"
+                                           VerticalAlignment="Center" Margin="8,0,0,0" MinWidth="130" TextAlignment="Center"/>
+                                <Button x:Name="BrowserPrevButton" DockPanel.Dock="Right" Content="Prev" Margin="8,0,0,0"/>
+                            </DockPanel>
+                            <DataGrid x:Name="BrowserDataGrid" AutoGenerateColumns="True" IsReadOnly="False" CanUserDeleteRows="False"
+                                      CanUserAddRows="False" EnableRowVirtualization="True" EnableColumnVirtualization="True"
+                                      ClipboardCopyMode="IncludeHeader" ColumnWidth="SizeToHeader" MaxColumnWidth="420"/>
+                        </DockPanel>
+                    </TabItem>
+                    <TabItem Header="Columns" x:Name="BrowserColumnsTab">
+                        <DataGrid x:Name="BrowserColumnsGrid" Margin="0,10,0,0" AutoGenerateColumns="True" IsReadOnly="True"
+                                  CanUserAddRows="False" ClipboardCopyMode="IncludeHeader"/>
+                    </TabItem>
+                    <TabItem Header="Indexes" x:Name="BrowserIndexesTab">
+                        <DataGrid x:Name="BrowserIndexesGrid" Margin="0,10,0,0" AutoGenerateColumns="True" IsReadOnly="True"
+                                  CanUserAddRows="False" ClipboardCopyMode="IncludeHeader"/>
+                    </TabItem>
+                    <TabItem Header="DDL" x:Name="BrowserDdlTab">
+                        <DockPanel Margin="0,10,0,0">
+                            <Button x:Name="BrowserCopyDdlButton" DockPanel.Dock="Top" Content="Copy" HorizontalAlignment="Left" Margin="0,0,0,8"/>
+                            <TextBox x:Name="BrowserDdlBox" IsReadOnly="True" FontFamily="Consolas" FontSize="12.5"
+                                     AcceptsReturn="True" TextWrapping="NoWrap"
+                                     VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+                        </DockPanel>
+                    </TabItem>
+                </TabControl>
+            </DockPanel>
+        </Grid>
+    </DockPanel>
+</UserControl>

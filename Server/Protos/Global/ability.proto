@@ -1,0 +1,7 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+message Damage {
+  int32 amount = 1;
+}

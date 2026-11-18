@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum InstanceQuestGraceType {
+  InstanceQuestGraceType_None = 0;
+  InstanceQuestGraceType_Start = 1;
+  InstanceQuestGraceType_Remain = 2;
+  InstanceQuestGraceType_Expire = 3;
+}

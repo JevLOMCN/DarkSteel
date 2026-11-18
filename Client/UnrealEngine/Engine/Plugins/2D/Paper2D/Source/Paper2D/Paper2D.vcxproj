@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{A87C13B3-682C-59E4-8F81-BB2D4486B3DD}</ProjectGuid><RootNamespace>Paper2D</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\APaperCharacter.cpp" />
+    <ClCompile Include="Private\APaperFlipbookActor.cpp" />
+    <ClCompile Include="Private\APaperGroupedSpriteActor.cpp" />
+    <ClCompile Include="Private\APaperSpriteActor.cpp" />
+    <ClCompile Include="Private\APaperTerrainActor.cpp" />
+    <ClCompile Include="Private\APaperTileMapActor.cpp" />
+    <ClCompile Include="Private\FGroupedSpriteSceneProxy.cpp" />
+    <ClCompile Include="Private\FIntMargin.cpp" />
+    <ClCompile Include="Private\FObjectFinder.cpp" />
+    <ClCompile Include="Private\FPaper2DModule.cpp" />
+    <ClCompile Include="Private\FPaperFlipbookKeyFrame.cpp" />
+    <ClCompile Include="Private\FPaperFlipbookSceneProxy.cpp" />
+    <ClCompile Include="Private\FPaperRenderSceneProxy.cpp" />
+    <ClCompile Include="Private\FPaperRenderSceneProxy_SpriteBase.cpp" />
+    <ClCompile Include="Private\FPaperSpriteAtlasSlot.cpp" />
+    <ClCompile Include="Private\FPaperSpriteSceneProxy.cpp" />
+    <ClCompile Include="Private\FPaperSpriteSocket.cpp" />
+    <ClCompile Include="Private\FPaperSpriteTangents.cpp" />
+    <ClCompile Include="Private\FPaperSpriteVertexBuffer.cpp" />
+    <ClCompile Include="Private\FPaperSpriteVertexFactory.cpp" />
+    <ClCompile Include="Private\FPaperTerrainMaterialRule.cpp" />
+    <ClCompile Include="Private\FPaperTerrainSceneProxy.cpp" />
+    <ClCompile Include="Private\FPaperTileInfo.cpp" />
+    <ClCompile Include="Private\FPaperTileLayerToBodySetupBuilder.cpp" />
+    <ClCompile Include="Private\FPaperTileMapRenderSceneProxy.cpp" />
+    <ClCompile Include="Private\FPaperTileMetadata.cpp" />
+    <ClCompile Include="Private\FPaperTileSetTerrain.cpp" />
+    <ClCompile Include="Private\FSpriteAssetInitParameters.cpp" />
+    <ClCompile Include="Private\FSpriteDrawCallRecord.cpp" />
+    <ClCompile Include="Private\FSpriteGeometryCollection.cpp" />
+    <ClCompile Include="Private\FSpriteGeometryCollisionBuilderBase.cpp" />
+    <ClCompile Include="Private\FSpriteGeometryShape.cpp" />
+    <ClCompile Include="Private\FSpriteInstanceData.cpp" />
+    <ClCompile Include="Private\FSpriteRenderSection.cpp" />
+    <ClCompile Include="Private\FSpriteTextureOverrideRenderProxy.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTerrainRuleHelper.cpp" />
+    <ClCompile Include="Private\FTerrainSegment.cpp" />
+    <ClCompile Include="Private\FTerrainSpriteStamp.cpp" />
+    <ClCompile Include="Private\ISlateTextureAtlasInterface.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMaterialExpressionSpriteTextureSampler.cpp" />
+    <ClCompile Include="Private\UPaperFlipbook.cpp" />
+    <ClCompile Include="Private\UPaperFlipbookComponent.cpp" />
+    <ClCompile Include="Private\UPaperGroupedSpriteComponent.cpp" />
+    <ClCompile Include="Private\UPaperRuntimeSettings.cpp" />
+    <ClCompile Include="Private\UPaperSprite.cpp" />
+    <ClCompile Include="Private\UPaperSpriteAtlas.cpp" />
+    <ClCompile Include="Private\UPaperSpriteBlueprintLibrary.cpp" />
+    <ClCompile Include="Private\UPaperSpriteComponent.cpp" />
+    <ClCompile Include="Private\UPaperTerrainComponent.cpp" />
+    <ClCompile Include="Private\UPaperTerrainMaterial.cpp" />
+    <ClCompile Include="Private\UPaperTerrainSplineComponent.cpp" />
+    <ClCompile Include="Private\UPaperTileLayer.cpp" />
+    <ClCompile Include="Private\UPaperTileMap.cpp" />
+    <ClCompile Include="Private\UPaperTileMapComponent.cpp" />
+    <ClCompile Include="Private\UPaperTileSet.cpp" />
+    <ClCompile Include="Private\UTileMapBlueprintLibrary.cpp" />
+    <ClCompile Include="Private\_Free\Module.Paper2D.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

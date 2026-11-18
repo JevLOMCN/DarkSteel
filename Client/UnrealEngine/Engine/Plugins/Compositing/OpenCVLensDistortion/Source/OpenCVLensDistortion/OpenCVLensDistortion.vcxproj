@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{240D82B3-C2DD-58AE-8575-972184F4C683}</ProjectGuid><RootNamespace>OpenCVLensDistortion</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FLensDistortionDisplacementMapGenerationPS.cpp" />
+    <ClCompile Include="Private\FLensDistortionDisplacementMapGenerationShader.cpp" />
+    <ClCompile Include="Private\FLensDistortionDisplacementMapGenerationVS.cpp" />
+    <ClCompile Include="Private\FOpenCVCameraViewInfo.cpp" />
+    <ClCompile Include="Private\FOpenCVLensDistortionModule.cpp" />
+    <ClCompile Include="Private\FOpenCVLensDistortionParameters.cpp" />
+    <ClCompile Include="Private\FOpenCVLensDistortionParametersBase.cpp" />
+    <ClCompile Include="Private\FRHIBreadcrumbAllocator.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IOpenCVLensDistortionModule.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGetDefaultObjectHelper.cpp" />
+    <ClCompile Include="Private\TRHIBreadcrumb.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TShaderRefBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UOpenCVLensDistortionBlueprintLibrary.cpp" />
+    <ClCompile Include="Private\_Free\Module.OpenCVLensDistortion.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

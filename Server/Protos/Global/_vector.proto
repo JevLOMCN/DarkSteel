@@ -1,0 +1,19 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+import "_options.proto";
+
+message Vector {
+  double x = 1;
+  double y = 2;
+  double z = 3;
+}
+message Vector2 {
+  double x = 1;
+  double y = 2;
+}
+message VectorF {
+  float x = 1;
+  float y = 2;
+  float z = 3;
+}

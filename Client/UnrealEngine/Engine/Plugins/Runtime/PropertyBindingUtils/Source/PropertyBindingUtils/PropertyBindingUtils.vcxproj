@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{C1511A82-932E-52C1-A711-594B58F45795}</ProjectGuid><RootNamespace>PropertyBindingUtils</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FInstancedStructContainer.cpp" />
+    <ClCompile Include="Private\FPropertyBindingBindableStructDescriptor.cpp" />
+    <ClCompile Include="Private\FPropertyBindingBinding.cpp" />
+    <ClCompile Include="Private\FPropertyBindingBindingCollection.cpp" />
+    <ClCompile Include="Private\FPropertyBindingCopyInfo.cpp" />
+    <ClCompile Include="Private\FPropertyBindingCopyInfoBatch.cpp" />
+    <ClCompile Include="Private\FPropertyBindingIndex16.cpp" />
+    <ClCompile Include="Private\FPropertyBindingPath.cpp" />
+    <ClCompile Include="Private\FPropertyBindingPathSegment.cpp" />
+    <ClCompile Include="Private\FPropertyBindingPropertyIndirection.cpp" />
+    <ClCompile Include="Private\FPropertyBindingUtilsModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UEnum.cpp" />
+    <ClCompile Include="Private\UPropertyBindingBindingCollectionOwner.cpp" />
+    <ClCompile Include="Private\_Free\Module.PropertyBindingUtils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

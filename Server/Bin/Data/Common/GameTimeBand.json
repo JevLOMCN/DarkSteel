@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GameTimeBand",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/GameTimeBand",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_GameTimeBandTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "GameTimeBandType": "EDS_GameTimeBandType::SunRise",
+        "ID_NextGameTimeBand": 2,
+        "GameTimeBandStartGameTimeSec": 0,
+        "GameTimeBandEndGameTimeSec": 3600
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "GameTimeBandType": "EDS_GameTimeBandType::Daytime",
+        "ID_NextGameTimeBand": 3,
+        "GameTimeBandStartGameTimeSec": 3600,
+        "GameTimeBandEndGameTimeSec": 54000
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "GameTimeBandType": "EDS_GameTimeBandType::Sunset",
+        "ID_NextGameTimeBand": 4,
+        "GameTimeBandStartGameTimeSec": 54000,
+        "GameTimeBandEndGameTimeSec": 57600
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "GameTimeBandType": "EDS_GameTimeBandType::Night",
+        "ID_NextGameTimeBand": 1,
+        "GameTimeBandStartGameTimeSec": 57600,
+        "GameTimeBandEndGameTimeSec": 86400
+      }
+    }
+  }
+]

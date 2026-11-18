@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{06AF8EF7-D2B0-5AB6-AB36-34BF5E6B5E52}</ProjectGuid><RootNamespace>ThirdParty_BLAKE3</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="BLAKE3.dir\Release\blake3.cpp" />
+    <ClCompile Include="BLAKE3.dir\Release\blake3_avx2_x86-64_windows_msvc.cpp" />
+    <ClCompile Include="BLAKE3.dir\Release\blake3_avx512_x86-64_windows_msvc.cpp" />
+    <ClCompile Include="BLAKE3.dir\Release\blake3_dispatch.cpp" />
+    <ClCompile Include="BLAKE3.dir\Release\blake3_portable.cpp" />
+    <ClCompile Include="BLAKE3.dir\Release\blake3_sse2_x86-64_windows_msvc.cpp" />
+    <ClCompile Include="BLAKE3.dir\Release\blake3_sse41_x86-64_windows_msvc.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

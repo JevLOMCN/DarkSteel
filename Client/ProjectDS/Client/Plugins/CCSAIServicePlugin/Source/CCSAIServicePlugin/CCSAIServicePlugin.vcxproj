@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{01C8FE57-99B6-542E-A001-7AD2822E2D78}</ProjectGuid><RootNamespace>CCSAIServicePlugin</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\ACCSAIService.cpp" />
+    <ClCompile Include="Private\FCCSAIServicePluginModule.cpp" />
+    <ClCompile Include="Private\FCCSAITCPClient.cpp" />
+    <ClCompile Include="Private\FCCS_AICmd.cpp" />
+    <ClCompile Include="Private\FCCS_AICommandRequest.cpp" />
+    <ClCompile Include="Private\FCCS_AIInput.cpp" />
+    <ClCompile Include="Private\FCCS_AIRequest.cpp" />
+    <ClCompile Include="Private\FCCS_CharEntityRegistrationRequest.cpp" />
+    <ClCompile Include="Private\FCCS_CharEntityRegistrationResponse.cpp" />
+    <ClCompile Include="Private\FCCS_LoginRequest.cpp" />
+    <ClCompile Include="Private\FCCS_LogoutRequest.cpp" />
+    <ClCompile Include="Private\FJsonObjectConverter.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TQueue.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.CCSAIServicePlugin.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

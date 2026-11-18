@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestDailyGroup",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestDailyGroup",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestDailyGroupTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "QuestGroup": 1001,
+        "QuestGroupRate": 1000000,
+        "QuestGroupCount": 15,
+        "ID_QuestDaily": [
+          5011008,
+          5011009,
+          5011025,
+          5011026,
+          5011027,
+          5011028,
+          5012006,
+          5012007,
+          5012018,
+          5012019,
+          5012020,
+          5012021,
+          5015007,
+          5015008,
+          5015020,
+          5016011,
+          5016012,
+          5016034,
+          5016035,
+          5016036,
+          5016037
+        ]
+      }
+    }
+  }
+]

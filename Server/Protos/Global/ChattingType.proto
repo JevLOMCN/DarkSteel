@@ -1,0 +1,28 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum ChattingType {
+  ChattingType_None = 0;
+  ChattingType_World = 1;
+  ChattingType_ZoneGroup = 2;
+  ChattingType_Zone = 3;
+  ChattingType_Party = 5;
+  ChattingType_RaidParty = 6;
+  ChattingType_Guild = 7;
+  ChattingType_System = 9;
+  ChattingType_Whisper = 10;
+  ChattingType_Organization = 11;
+  ChattingType_Total = 12;
+  ChattingType_Battle = 13;
+  ChattingType_Group1 = 14;
+  ChattingType_Group2 = 15;
+  ChattingType_Group3 = 16;
+  ChattingType_Group4 = 17;
+  ChattingType_Group5 = 18;
+  ChattingType_Group6 = 19;
+  ChattingType_Group7 = 20;
+  ChattingType_Group8 = 21;
+  ChattingType_Group9 = 22;
+  ChattingType_Group10 = 23;
+}

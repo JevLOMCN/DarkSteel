@@ -1,0 +1,644 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ContentsTotalMenu",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ContentsTotalMenu",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ContentsTotalMenuTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": "EDS_TotalMenuId::CashShop",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 1,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300001
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "101": {
+        "ID": "EDS_TotalMenuId::Event",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 2,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300002
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "102": {
+        "ID": "EDS_TotalMenuId::BattlePass",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 3,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300003
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "103": {
+        "ID": "EDS_TotalMenuId::AttendanceBook",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 4,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300004
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "201": {
+        "ID": "EDS_TotalMenuId::Ascender",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 5,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5036,
+        "ID_Name": {
+          "ID": 6
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::PlayerSkill",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::PlayerSkill_Life",
+        "IsRingCmdAble": true
+      },
+      "202": {
+        "ID": "EDS_TotalMenuId::Character",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 6,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5037,
+        "ID_Name": {
+          "ID": 300006
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterEquipBattle",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::Character",
+        "IsRingCmdAble": true
+      },
+      "301": {
+        "ID": "EDS_TotalMenuId::Inventory",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 7,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5040,
+        "ID_Name": {
+          "ID": 300009
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterInventory",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::Inventory",
+        "IsRingCmdAble": true
+      },
+      "303": {
+        "ID": "EDS_TotalMenuId::FoundryNexus",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 8,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300011
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "401": {
+        "ID": "EDS_TotalMenuId::Quest",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 9,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5043,
+        "ID_Name": {
+          "ID": 5702
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::QuestMain",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::QuestMain",
+        "IsRingCmdAble": true
+      },
+      "402": {
+        "ID": "EDS_TotalMenuId::HeroesChronicle",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 10,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300014
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "403": {
+        "ID": "EDS_TotalMenuId::LegacyoftheLand",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 11,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300015
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "404": {
+        "ID": "EDS_TotalMenuId::Achieve",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 12,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5035,
+        "ID_Name": {
+          "ID": 300016
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::Achievement",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::Achievement_Adventure",
+        "IsRingCmdAble": true
+      },
+      "502": {
+        "ID": "EDS_TotalMenuId::Guild",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 13,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5011,
+        "ID_Name": {
+          "ID": 300018
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::GuildList",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GuildJoinList",
+        "IsRingCmdAble": false
+      },
+      "503": {
+        "ID": "EDS_TotalMenuId::Friend",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 14,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300019
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "304": {
+        "ID": "EDS_TotalMenuId::Market",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 15,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300012
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "504": {
+        "ID": "EDS_TotalMenuId::Mail",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 16,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5047,
+        "ID_Name": {
+          "ID": 300020
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::Mail",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::MailSystem",
+        "IsRingCmdAble": false
+      },
+      "601": {
+        "ID": "EDS_TotalMenuId::Map",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 17,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5041,
+        "ID_Name": {
+          "ID": 300021
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::Map",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::Map",
+        "IsRingCmdAble": false
+      },
+      "603": {
+        "ID": "EDS_TotalMenuId::Dungeon",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 18,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5038,
+        "ID_Name": {
+          "ID": 300033
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::NormalDungeon",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::NormalDungeon",
+        "IsRingCmdAble": true
+      },
+      "604": {
+        "ID": "EDS_TotalMenuId::MagicCircle",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 19,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300024
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "602": {
+        "ID": "EDS_TotalMenuId::Calendar",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 20,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300022
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "701": {
+        "ID": "EDS_TotalMenuId::GuildClash",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 21,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300025
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "702": {
+        "ID": "EDS_TotalMenuId::Siege",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 22,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300026
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "703": {
+        "ID": "EDS_TotalMenuId::DomainWar",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 23,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300027
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "704": {
+        "ID": "EDS_TotalMenuId::GateofPassage",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 24,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300028
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "801": {
+        "ID": "EDS_TotalMenuId::BattleArena",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 25,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300029
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "802": {
+        "ID": "EDS_TotalMenuId::TowerofTrials",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 26,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300030
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "803": {
+        "ID": "EDS_TotalMenuId::Ranking",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 27,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300031
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "605": {
+        "ID": "EDS_TotalMenuId::WorldBoss",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Main",
+        "Order": 28,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 300032
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::WorldBoss",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::WorldBoss",
+        "IsRingCmdAble": false
+      },
+      "10001": {
+        "ID": "EDS_TotalMenuId::RingCmdSetting",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Function",
+        "Order": 1,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5045,
+        "ID_Name": {
+          "ID": 301001
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::RingCmdSetting",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::RingCmd_Setting_Item",
+        "IsRingCmdAble": true
+      },
+      "10002": {
+        "ID": "EDS_TotalMenuId::GameOption",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Function",
+        "Order": 2,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5509,
+        "ID_Name": {
+          "ID": 301002
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::GameOptionGame",
+        "IsRingCmdAble": true
+      },
+      "10003": {
+        "ID": "EDS_TotalMenuId::Coupon",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Function",
+        "Order": 3,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5001,
+        "ID_Name": {
+          "ID": 301003
+        },
+        "IsActivate": false,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "10004": {
+        "ID": "EDS_TotalMenuId::Exit",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Function",
+        "Order": 4,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5032,
+        "ID_Name": {
+          "ID": 301004
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::None",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      },
+      "20001": {
+        "ID": "EDS_TotalMenuId::HudMenu",
+        "DataStage": 23,
+        "Version": "*",
+        "Type": "EDS_TotalMenuType::Hud",
+        "Order": 1,
+        "ID_Group": "EDS_TotalMenuId::None",
+        "ID_Icon": 5501,
+        "ID_Name": {
+          "ID": 302004
+        },
+        "IsActivate": true,
+        "ID_DisabledMessage": {
+          "ID": 80001
+        },
+        "ID_ContentsBase": "EDS_ContentsBaseType::HudMenu",
+        "ID_ContentsTabFrame": "EDS_ContentsTabFrameType::None",
+        "IsRingCmdAble": false
+      }
+    }
+  }
+]

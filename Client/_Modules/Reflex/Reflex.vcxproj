@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{E636762E-5675-55F3-8A0F-BC15DE315D57}</ProjectGuid><RootNamespace>Reflex</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FReflexLatencyMarkers.cpp" />
+    <ClCompile Include="Private\FReflexMaxTickRateHandler.cpp" />
+    <ClCompile Include="Private\FReflexModule.cpp" />
+    <ClCompile Include="Private\FReflexStatsLatencyMarkers.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\IModularFeatures.cpp" />
+    <ClCompile Include="Private\UReflexBlueprintLibrary.cpp" />
+    <ClCompile Include="Private\_Free\Module.Reflex.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,12 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlPlayerGradeTable {
+  int64 player_uid = 1;
+  int32 player_grade = 2;
+  int32 player_grade_cap = 3;
+  int64 exp = 4;
+}

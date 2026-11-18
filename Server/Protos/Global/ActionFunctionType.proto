@@ -1,0 +1,13 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum ActionFunctionType {
+  ActionFunctionType_None = 0;
+  ActionFunctionType_ReturnHome = 1;
+  ActionFunctionType_PartyCreate = 2;
+  ActionFunctionType_OpenMap = 3;
+  ActionFunctionType_Camp = 4;
+  ActionFunctionType_Detection = 5;
+  ActionFunctionType_Mount = 6;
+}

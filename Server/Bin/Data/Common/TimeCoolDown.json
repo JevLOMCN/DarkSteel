@@ -1,0 +1,329 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TimeCoolDown",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/TimeCoolDown",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_TimeCoolDownTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_CoolDownType::ItemPotionHp",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "2": {
+        "ID": "EDS_CoolDownType::ItemPotionMp",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 4.0
+      },
+      "3": {
+        "ID": "EDS_CoolDownType::ItemPotionSp",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      },
+      "4": {
+        "ID": "EDS_CoolDownType::ItemPotionBuff",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      },
+      "5": {
+        "ID": "EDS_CoolDownType::ItemFunctionHeartStone",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 90.0
+      },
+      "1000": {
+        "ID": "EDS_CoolDownType::ActionReturnHome",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      },
+      "1001": {
+        "ID": "EDS_CoolDownType::ActionPartyCreate",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 0.0
+      },
+      "1002": {
+        "ID": "EDS_CoolDownType::ActionOpenMap",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 0.0
+      },
+      "10401": {
+        "ID": "EDS_CoolDownType::ActionCamp",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 2.0
+      },
+      "1003": {
+        "ID": "EDS_CoolDownType::ActionDetection",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      },
+      "10001": {
+        "ID": "EDS_CoolDownType::LevelCapExpAlarm",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3600.0
+      },
+      "10011": {
+        "ID": "EDS_CoolDownType::CharSelectUIInfoUpdateTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 600.0
+      },
+      "10021": {
+        "ID": "EDS_CoolDownType::PkUnusableBuffRemoveTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 10.0
+      },
+      "10031": {
+        "ID": "EDS_CoolDownType::AttackSafetyMsgTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "10101": {
+        "ID": "EDS_CoolDownType::ReForceAttackCoolTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "10102": {
+        "ID": "EDS_CoolDownType::ForceAttackValidTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 60.0
+      },
+      "10111": {
+        "ID": "EDS_CoolDownType::PcAttackValidTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 60.0
+      },
+      "10201": {
+        "ID": "EDS_CoolDownType::CharacterChangeCoolTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 20.0
+      },
+      "10202": {
+        "ID": "EDS_CoolDownType::CharacterChangeGlobalCoolTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 1.0
+      },
+      "10206": {
+        "ID": "EDS_CoolDownType::ChangeCancelGlobalCoolTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 10.0
+      },
+      "10301": {
+        "ID": "EDS_CoolDownType::CommonSystemCoolTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 2.0
+      },
+      "20001": {
+        "ID": "EDS_CoolDownType::ChattingRegion",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20002": {
+        "ID": "EDS_CoolDownType::ChattingWorld",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20003": {
+        "ID": "EDS_CoolDownType::ChattingZone",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20004": {
+        "ID": "EDS_CoolDownType::ChattingArea",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20005": {
+        "ID": "EDS_CoolDownType::ChattingParty",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20006": {
+        "ID": "EDS_CoolDownType::ChattingContents",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20007": {
+        "ID": "EDS_CoolDownType::ChattingGuild",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20008": {
+        "ID": "EDS_CoolDownType::ChattingUnion",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20009": {
+        "ID": "EDS_CoolDownType::ChattingSystem",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 0.0
+      },
+      "20010": {
+        "ID": "EDS_CoolDownType::ChattingWhisper",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20011": {
+        "ID": "EDS_CoolDownType::ChattingOrganization",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "20012": {
+        "ID": "EDS_CoolDownType::ChattingTotal",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 0.0
+      },
+      "20013": {
+        "ID": "EDS_CoolDownType::ChattingBattle",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 0.0
+      },
+      "20014": {
+        "ID": "EDS_CoolDownType::ChattingRaidParty",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "30001": {
+        "ID": "EDS_CoolDownType::SendMail",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      },
+      "30002": {
+        "ID": "EDS_CoolDownType::Search",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      },
+      "40001": {
+        "ID": "EDS_CoolDownType::PartyInvitationWaitingTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 15.0
+      },
+      "40002": {
+        "ID": "EDS_CoolDownType::PartyRequestRallyCoolTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 30.0
+      },
+      "40003": {
+        "ID": "EDS_CoolDownType::PartyRequestRallyWaitingTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 15.0
+      },
+      "40004": {
+        "ID": "EDS_CoolDownType::PartyRequestRallyMessageDelayTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 3.0
+      },
+      "10203": {
+        "ID": "EDS_CoolDownType::PlayerGradeCapAlarm",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 10.0
+      },
+      "10204": {
+        "ID": "EDS_CoolDownType::PlayerExpCapAlarm",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 10.0
+      },
+      "10205": {
+        "ID": "EDS_CoolDownType::PlayerActionPointChargeTerm",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 480.0
+      },
+      "40100": {
+        "ID": "EDS_CoolDownType::RaidPartyFindAddTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 1.0
+      },
+      "40101": {
+        "ID": "EDS_CoolDownType::DungeonEntryWaitTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 30.0
+      },
+      "40102": {
+        "ID": "EDS_CoolDownType::RaidPartyFindRefreshTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      },
+      "50001": {
+        "ID": "EDS_CoolDownType::ActionLing",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 1.0
+      },
+      "1004": {
+        "ID": "EDS_CoolDownType::ActionMount",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 4.0
+      },
+      "10501": {
+        "ID": "EDS_CoolDownType::ChangeMountNameCoolTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      },
+      "10502": {
+        "ID": "EDS_CoolDownType::ChangeMountRegisterCoolTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      },
+      "10503": {
+        "ID": "EDS_CoolDownType::ChangeMountReleaseCoolTime",
+        "DataStage": 23,
+        "Version": "*",
+        "CoolTime": 5.0
+      }
+    }
+  }
+]

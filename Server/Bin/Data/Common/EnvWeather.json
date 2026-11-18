@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "EnvWeather",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/EnvWeather",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_EnvWeatherTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "WeatherType": "EDS_WeatherType::Rain",
+        "WeatherValue": 10,
+        "ID_WeatherCharBuff": 110003,
+        "ID_WeatherMountBuff": 110004,
+        "ID_WeatherPreset": 1001
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "WeatherType": "EDS_WeatherType::Rain",
+        "WeatherValue": 20,
+        "ID_WeatherCharBuff": 110003,
+        "ID_WeatherMountBuff": 110004,
+        "ID_WeatherPreset": 1002
+      },
+      "1101": {
+        "ID": 1101,
+        "DataStage": 23,
+        "WeatherType": "EDS_WeatherType::Snow",
+        "WeatherValue": 10,
+        "ID_WeatherCharBuff": 110003,
+        "ID_WeatherMountBuff": 110004,
+        "ID_WeatherPreset": 1101
+      },
+      "1102": {
+        "ID": 1102,
+        "DataStage": 23,
+        "WeatherType": "EDS_WeatherType::Snow",
+        "WeatherValue": 20,
+        "ID_WeatherCharBuff": 110003,
+        "ID_WeatherMountBuff": 110004,
+        "ID_WeatherPreset": 1102
+      },
+      "1103": {
+        "ID": 1103,
+        "DataStage": 23,
+        "WeatherType": "EDS_WeatherType::Snow",
+        "WeatherValue": 30,
+        "ID_WeatherCharBuff": 110003,
+        "ID_WeatherMountBuff": 110004,
+        "ID_WeatherPreset": 1103
+      },
+      "1201": {
+        "ID": 1201,
+        "DataStage": 23,
+        "WeatherType": "EDS_WeatherType::RainStorm",
+        "WeatherValue": 10,
+        "ID_WeatherCharBuff": 110003,
+        "ID_WeatherMountBuff": 110004,
+        "ID_WeatherPreset": 1201
+      },
+      "1301": {
+        "ID": 1301,
+        "DataStage": 23,
+        "WeatherType": "EDS_WeatherType::SandStorm",
+        "WeatherValue": 10,
+        "ID_WeatherCharBuff": 110003,
+        "ID_WeatherMountBuff": 110004,
+        "ID_WeatherPreset": 1301
+      }
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GachaBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/GachaBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_GachaBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Title": {
+          "ID": 420001
+        },
+        "ID_Description": {
+          "ID": 425001
+        },
+        "ID_BackGround": 30001,
+        "MoneyType": "EDS_MoneyType::Gold",
+        "MoneyValue": 100,
+        "ID_GachaGroup": 1000
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Title": {
+          "ID": 420002
+        },
+        "ID_Description": {
+          "ID": 425002
+        },
+        "ID_BackGround": 30001,
+        "MoneyType": "EDS_MoneyType::Gold",
+        "MoneyValue": 200,
+        "ID_GachaGroup": 2000
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Title": {
+          "ID": 420003
+        },
+        "ID_Description": {
+          "ID": 425003
+        },
+        "ID_BackGround": 30001,
+        "MoneyType": "EDS_MoneyType::Gold",
+        "MoneyValue": 100,
+        "ID_GachaGroup": 3000
+      }
+    }
+  }
+]

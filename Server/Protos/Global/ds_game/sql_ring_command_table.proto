@@ -1,0 +1,14 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "RingCmdType.proto";
+
+message SqlRingCommandTable {
+  int64 player_uid = 1;
+  int32 deck_index = 2;
+  int32 slot_index = 3;
+  RingCmdType cmd_type = 4;
+  int32 cmd_value = 5;
+}

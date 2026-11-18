@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SlotDeck",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SlotDeck",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SlotDeckTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_SlotType::QuickSkill",
+        "DataStage": 23,
+        "SlotCntMax": 4,
+        "DeckBaseCnt": 1,
+        "DeckCntMax": 1,
+        "DeckSectionMin": [],
+        "DeckSectionMax": [],
+        "ID_DeckCostTemplate": [],
+        "DeckCostValue": [],
+        "DeckCostMoney": [],
+        "DeckCostMoneyValue": [],
+        "ID_DeckCostItem": [],
+        "DeckCostItemCnt": []
+      },
+      "2": {
+        "ID": "EDS_SlotType::QuickEtc",
+        "DataStage": 23,
+        "SlotCntMax": 4,
+        "DeckBaseCnt": 1,
+        "DeckCntMax": 1,
+        "DeckSectionMin": [],
+        "DeckSectionMax": [],
+        "ID_DeckCostTemplate": [],
+        "DeckCostValue": [],
+        "DeckCostMoney": [],
+        "DeckCostMoneyValue": [],
+        "ID_DeckCostItem": [],
+        "DeckCostItemCnt": []
+      },
+      "41": {
+        "ID": "EDS_SlotType::CharCommon",
+        "DataStage": 23,
+        "SlotCntMax": 3,
+        "DeckBaseCnt": 5,
+        "DeckCntMax": 5,
+        "DeckSectionMin": [],
+        "DeckSectionMax": [],
+        "ID_DeckCostTemplate": [],
+        "DeckCostValue": [],
+        "DeckCostMoney": [],
+        "DeckCostMoneyValue": [],
+        "ID_DeckCostItem": [],
+        "DeckCostItemCnt": []
+      },
+      "11": {
+        "ID": "EDS_SlotType::EquipBattle",
+        "DataStage": 23,
+        "SlotCntMax": 10,
+        "DeckBaseCnt": 1,
+        "DeckCntMax": 1,
+        "DeckSectionMin": [],
+        "DeckSectionMax": [],
+        "ID_DeckCostTemplate": [],
+        "DeckCostValue": [],
+        "DeckCostMoney": [],
+        "DeckCostMoneyValue": [],
+        "ID_DeckCostItem": [],
+        "DeckCostItemCnt": []
+      },
+      "31": {
+        "ID": "EDS_SlotType::RingCmd",
+        "DataStage": 23,
+        "SlotCntMax": 8,
+        "DeckBaseCnt": 3,
+        "DeckCntMax": 3,
+        "DeckSectionMin": [],
+        "DeckSectionMax": [],
+        "ID_DeckCostTemplate": [],
+        "DeckCostValue": [],
+        "DeckCostMoney": [],
+        "DeckCostMoneyValue": [],
+        "ID_DeckCostItem": [],
+        "DeckCostItemCnt": []
+      },
+      "21": {
+        "ID": "EDS_SlotType::EquipTool",
+        "DataStage": 23,
+        "SlotCntMax": 5,
+        "DeckBaseCnt": 1,
+        "DeckCntMax": 1,
+        "DeckSectionMin": [],
+        "DeckSectionMax": [],
+        "ID_DeckCostTemplate": [],
+        "DeckCostValue": [],
+        "DeckCostMoney": [],
+        "DeckCostMoneyValue": [],
+        "ID_DeckCostItem": [],
+        "DeckCostItemCnt": []
+      },
+      "51": {
+        "ID": "EDS_SlotType::MountGear",
+        "DataStage": 23,
+        "SlotCntMax": 3,
+        "DeckBaseCnt": 1,
+        "DeckCntMax": 1,
+        "DeckSectionMin": [],
+        "DeckSectionMax": [],
+        "ID_DeckCostTemplate": [],
+        "DeckCostValue": [],
+        "DeckCostMoney": [],
+        "DeckCostMoneyValue": [],
+        "ID_DeckCostItem": [],
+        "DeckCostItemCnt": []
+      }
+    }
+  }
+]

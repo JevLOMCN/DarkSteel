@@ -1,0 +1,86 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Theme merged relative to this file for the XAML designer; the runtime
+         loader sets ParserContext.BaseUri so the relative Source resolves. -->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <!-- Accounts roster (like ReMir's admin Accounts) read straight from the game DB.
+         Logic: PlayerAdmin.cpp (ShowAccounts). -->
+    <DockPanel>
+        <TextBlock x:Name="AccStatusText" DockPanel.Dock="Bottom" Style="{StaticResource MutedTextStyle}"
+                   Margin="0,8,0,0" TextWrapping="Wrap" Text="Loading accounts..."/>
+
+        <!-- Search / sort bar -->
+        <DockPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+            <TextBlock x:Name="AccCountText" DockPanel.Dock="Right" Style="{StaticResource MutedTextStyle}" VerticalAlignment="Center" Margin="12,0,0,0"/>
+            <Button x:Name="AccRefreshButton" DockPanel.Dock="Right" Content="Refresh" Margin="8,0,0,0"/>
+            <ComboBox x:Name="AccSortBox" DockPanel.Dock="Right" Width="200" Margin="8,0,0,0" SelectedIndex="0">
+                <ComboBoxItem Content="Sort: Highest CP" Tag="cp"/>
+                <ComboBoxItem Content="Sort: Most characters" Tag="chars"/>
+                <ComboBoxItem Content="Sort: Name A-Z" Tag="name"/>
+                <ComboBoxItem Content="Sort: Account UID" Tag="uid"/>
+            </ComboBox>
+            <Button x:Name="AccSearchButton" DockPanel.Dock="Right" Content="Search" Style="{StaticResource PrimaryButtonStyle}" Margin="8,0,0,0"/>
+            <TextBox x:Name="AccSearchBox" ToolTip="Account name, account UID, character name or character UID. Enter searches."/>
+        </DockPanel>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MinWidth="360"/>
+                <ColumnDefinition Width="6"/>
+                <ColumnDefinition Width="440" MinWidth="340"/>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid x:Name="AccountsGrid" Grid.Column="0" AutoGenerateColumns="True" IsReadOnly="True"
+                      SelectionMode="Single" SelectionUnit="FullRow" CanUserAddRows="False"
+                      ColumnWidth="SizeToHeader" MaxColumnWidth="260" ClipboardCopyMode="IncludeHeader"/>
+
+            <GridSplitter Grid.Column="1" Width="6" HorizontalAlignment="Stretch" Background="Transparent"/>
+
+            <!-- Selected account -->
+            <Border Grid.Column="2" Style="{StaticResource CardStyle}" Margin="0" Padding="12">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel>
+                        <TextBlock x:Name="AccDetailTitle" Style="{StaticResource HeadingTextStyle}" Text="Select an account"/>
+                        <TextBlock x:Name="AccDetailMeta" Style="{StaticResource MutedTextStyle}" FontSize="11.5" TextWrapping="Wrap" Margin="0,2,0,10"/>
+
+                        <TextBlock Text="CHARACTERS" Style="{StaticResource CardTitleStyle}"/>
+                        <DataGrid x:Name="AccCharsGrid" AutoGenerateColumns="True" IsReadOnly="True" MaxHeight="230"
+                                  SelectionMode="Single" SelectionUnit="FullRow" CanUserAddRows="False"
+                                  ToolTip="Double-click a character to open it on the Characters tab"/>
+                        <Button x:Name="AccOpenCharButton" Content="Open character" HorizontalAlignment="Left" Margin="0,8,0,0"/>
+
+                        <TextBlock Text="DELETED" Style="{StaticResource CardTitleStyle}" Margin="0,14,0,4"/>
+                        <DataGrid x:Name="AccDeletedGrid" AutoGenerateColumns="True" IsReadOnly="True" MaxHeight="150"
+                                  CanUserAddRows="False"/>
+
+                        <TextBlock Text="ACCOUNT GRADE" Style="{StaticResource CardTitleStyle}" Margin="0,14,0,4"/>
+                        <DockPanel>
+                            <Button x:Name="AccGradeButton" DockPanel.Dock="Right" Content="Set grade" Margin="8,0,0,0"/>
+                            <ComboBox x:Name="AccGradeBox" ToolTip="Account role: 0 = Player, 1 = Gamemaster, 2 = Developer">
+                                <ComboBoxItem Content="0 - Player" Tag="0"/>
+                                <ComboBoxItem Content="1 - Gamemaster" Tag="1"/>
+                                <ComboBoxItem Content="2 - Developer" Tag="2"/>
+                            </ComboBox>
+                        </DockPanel>
+
+                        <TextBlock Text="BLOCK" Style="{StaticResource CardTitleStyle}" Margin="0,14,0,4"/>
+                        <TextBox x:Name="AccBlockReasonBox" ToolTip="Reason shown to the player (max 64 characters)" Margin="0,0,0,6"/>
+                        <DockPanel>
+                            <Button x:Name="AccUnblockButton" DockPanel.Dock="Right" Content="Unblock" Margin="8,0,0,0"/>
+                            <Button x:Name="AccBlockButton" DockPanel.Dock="Right" Content="Block" Margin="8,0,0,0"/>
+                            <TextBlock Text="Days" DockPanel.Dock="Left" Style="{StaticResource MutedTextStyle}" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                            <TextBox x:Name="AccBlockDaysBox" Width="70" HorizontalAlignment="Left"
+                                     ToolTip="Number of days; leave empty or 0 for a permanent block"/>
+                        </DockPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </Border>
+        </Grid>
+    </DockPanel>
+</UserControl>

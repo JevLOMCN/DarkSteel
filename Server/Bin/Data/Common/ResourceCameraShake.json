@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceCameraShake",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceCameraShake",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceCameraShakeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ShakePath": {
+          "AssetPathName": "/Game/Cameras/BP_CameraShake01.BP_CameraShake01_C",
+          "SubPathString": ""
+        }
+      },
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Version": "*",
+        "ShakePath": {
+          "AssetPathName": "/Game/Cameras/BP_CameraShake03.BP_CameraShake03_C",
+          "SubPathString": ""
+        }
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Version": "*",
+        "ShakePath": {
+          "AssetPathName": "/Game/Cameras/BP_CameraShakeHit01.BP_CameraShakeHit01_C",
+          "SubPathString": ""
+        }
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "Version": "*",
+        "ShakePath": {
+          "AssetPathName": "/Game/Cameras/BP_CameraShakeHHit001.BP_CameraShakeHHit001_C",
+          "SubPathString": ""
+        }
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "Version": "*",
+        "ShakePath": {
+          "AssetPathName": "/Game/Cameras/BP_CameraShakeHHit002.BP_CameraShakeHHit002_C",
+          "SubPathString": ""
+        }
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "Version": "*",
+        "ShakePath": {
+          "AssetPathName": "/Game/Cameras/BP_CameraShakeHHit003.BP_CameraShakeHHit003_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

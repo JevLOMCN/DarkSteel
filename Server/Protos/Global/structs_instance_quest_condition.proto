@@ -1,0 +1,19 @@
+syntax = "proto3";
+package ds_proto;
+option csharp_namespace = "MirProto.DsProto";
+
+
+message InstanceQuestCondition {
+  oneof Item {
+    ds_proto.NpcSpawn npc_spawn = 1;
+    ds_proto.StuffSpawn stuff_spawn = 2;
+  }
+}
+message NpcSpawn {
+  int32 spawn_id = 1;
+  int32 npc_id = 2;
+}
+message StuffSpawn {
+  int32 spawn_id = 1;
+  int32 stuff_id = 2;
+}

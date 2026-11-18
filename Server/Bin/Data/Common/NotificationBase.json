@@ -1,0 +1,224 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NotificationBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NotificationBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NotificationBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_NotificationType::CharLevelUp",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Character",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGrowth",
+        "ID_NotiString": {
+          "ID": 19101
+        }
+      },
+      "2": {
+        "ID": "EDS_NotificationType::WeaponLevelUp",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Equipment",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGrowth",
+        "ID_NotiString": {
+          "ID": 19102
+        }
+      },
+      "3": {
+        "ID": "EDS_NotificationType::CharAscend",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Character",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGrowth",
+        "ID_NotiString": {
+          "ID": 19103
+        }
+      },
+      "4": {
+        "ID": "EDS_NotificationType::WeaponAscend",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Equipment",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGrowth",
+        "ID_NotiString": {
+          "ID": 19104
+        }
+      },
+      "5": {
+        "ID": "EDS_NotificationType::SkillLevelUp",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Skill",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGrowth",
+        "ID_NotiString": {
+          "ID": 19105
+        }
+      },
+      "6": {
+        "ID": "EDS_NotificationType::AchvReward",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Achievement",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGet",
+        "ID_NotiString": {
+          "ID": 19106
+        }
+      },
+      "7": {
+        "ID": "EDS_NotificationType::GuildAccepted",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::None",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiInfo",
+        "ID_NotiString": {
+          "ID": 19107
+        }
+      },
+      "10": {
+        "ID": "EDS_NotificationType::GuildDeclined",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::None",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiInfo",
+        "ID_NotiString": {
+          "ID": 19108
+        }
+      },
+      "8": {
+        "ID": "EDS_NotificationType::FriendRespond",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::None",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiInfo",
+        "ID_NotiString": {
+          "ID": 19109
+        }
+      },
+      "9": {
+        "ID": "EDS_NotificationType::BuildComplete",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::None",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiEtc",
+        "ID_NotiString": {
+          "ID": 19110
+        }
+      },
+      "11": {
+        "ID": "EDS_NotificationType::PlayerIconUnLock",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::None",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiEtc",
+        "ID_NotiString": {
+          "ID": 19111
+        }
+      },
+      "12": {
+        "ID": "EDS_NotificationType::EquipAble",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Character",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGrowth",
+        "ID_NotiString": {
+          "ID": 19112
+        }
+      },
+      "13": {
+        "ID": "EDS_NotificationType::PlayerSkillLevelUp",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::PlayerSkill",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGrowth",
+        "ID_NotiString": {
+          "ID": 19105
+        }
+      },
+      "14": {
+        "ID": "EDS_NotificationType::QuestMainReward",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::QuestMain",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGet",
+        "ID_NotiString": {
+          "ID": 19114
+        }
+      },
+      "15": {
+        "ID": "EDS_NotificationType::QuestLocalReward",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::QuestLocal",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGet",
+        "ID_NotiString": {
+          "ID": 19115
+        }
+      },
+      "16": {
+        "ID": "EDS_NotificationType::QuestRepeatReward",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::QuestRepeat",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGet",
+        "ID_NotiString": {
+          "ID": 19116
+        }
+      },
+      "17": {
+        "ID": "EDS_NotificationType::QuestWeeklyReward",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::QuestWeekly",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGet",
+        "ID_NotiString": {
+          "ID": 19117
+        }
+      },
+      "18": {
+        "ID": "EDS_NotificationType::QuestMonthlyReward",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::QuestMonthly",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiGet",
+        "ID_NotiString": {
+          "ID": 19118
+        }
+      },
+      "19": {
+        "ID": "EDS_NotificationType::QuestLocalAccept",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::QuestLocal",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiEtc",
+        "ID_NotiString": {
+          "ID": 19119
+        }
+      },
+      "20": {
+        "ID": "EDS_NotificationType::MailHasUnread",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::MailSystem",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiInfo",
+        "ID_NotiString": {
+          "ID": 19120
+        }
+      },
+      "21": {
+        "ID": "EDS_NotificationType::MailHasReward",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::MailSystem",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiInfo",
+        "ID_NotiString": {
+          "ID": 19121
+        }
+      },
+      "22": {
+        "ID": "EDS_NotificationType::GuildJoinApproved",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::GuildMain",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiInfo",
+        "ID_NotiString": {
+          "ID": 19122
+        }
+      },
+      "23": {
+        "ID": "EDS_NotificationType::GuildInvite",
+        "DataStage": 23,
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::GuildInviteList",
+        "NotiOptionGroup": "EDS_GameOptionType::GameOptionNotiInfo",
+        "ID_NotiString": {
+          "ID": 19123
+        }
+      }
+    }
+  }
+]

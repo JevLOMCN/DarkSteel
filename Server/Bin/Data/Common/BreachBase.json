@@ -1,0 +1,809 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BreachBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/BreachBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_BreachBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470002
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mining",
+        "MapIndex": "EDS_MapIndexType::BreachMining",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2814986.8,
+          "Y": -2689209.0,
+          "Z": 480.0
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470003
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::BreachBattleNormal",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2806992.0,
+          "Y": -2689219.0,
+          "Z": 480.0
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470004
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::BreachBattleNormal",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2802414.5,
+          "Y": -2689219.0,
+          "Z": 480.0
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470005
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Gather",
+        "MapIndex": "EDS_MapIndexType::BreachGather",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2797321.2,
+          "Y": -2689219.0,
+          "Z": 480.0
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470006
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleWave",
+        "MapIndex": "EDS_MapIndexType::BreachBattleWave",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2792260.2,
+          "Y": -2689219.0,
+          "Z": 480.0
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470007
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mixed",
+        "MapIndex": "EDS_MapIndexType::BreachMixed",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2786965.2,
+          "Y": -2689219.0,
+          "Z": 480.0
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 480002
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Gate",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::Gate",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2893599.0,
+          "Y": -2688086.8,
+          "Z": 456.76474
+        },
+        "ID_EffectActive": 90001,
+        "ID_EffectDeactive": 90101
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 480003
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Gate",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::Gate",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2887923.0,
+          "Y": -2688086.8,
+          "Z": 456.76474
+        },
+        "ID_EffectActive": 90001,
+        "ID_EffectDeactive": 90101
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 480004
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Gate",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::Gate",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2882248.8,
+          "Y": -2688086.8,
+          "Z": 456.76474
+        },
+        "ID_EffectActive": 90001,
+        "ID_EffectDeactive": 90101
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 480005
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Gate",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::Gate",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2876402.5,
+          "Y": -2688086.8,
+          "Z": 456.76474
+        },
+        "ID_EffectActive": 90001,
+        "ID_EffectDeactive": 90101
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 480006
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Gate",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::Gate",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2870467.0,
+          "Y": -2688086.8,
+          "Z": 456.76474
+        },
+        "ID_EffectActive": 90001,
+        "ID_EffectDeactive": 90101
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 480007
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Gate",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::Gate",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100,
+        "ID_RewardRepeat": 101,
+        "Location": {
+          "X": -2864531.0,
+          "Y": -2688086.8,
+          "Z": 456.76474
+        },
+        "ID_EffectActive": 90001,
+        "ID_EffectDeactive": 90101
+      },
+      "101001": {
+        "ID": 101001,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470002
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleBoss",
+        "MapIndex": "EDS_MapIndexType::BreachBattleBoss",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100000,
+        "ID_RewardRepeat": 200000,
+        "Location": {
+          "X": -72274.164,
+          "Y": -639632.75,
+          "Z": 25734.713
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101002": {
+        "ID": 101002,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470003
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleWave",
+        "MapIndex": "EDS_MapIndexType::BreachBattleWave",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100001,
+        "ID_RewardRepeat": 200001,
+        "Location": {
+          "X": -208626.34,
+          "Y": -626141.4,
+          "Z": 30026.604
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101003": {
+        "ID": 101003,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470004
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleBoss",
+        "MapIndex": "EDS_MapIndexType::BreachBattleBoss",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100002,
+        "ID_RewardRepeat": 200002,
+        "Location": {
+          "X": -160214.6,
+          "Y": -578965.25,
+          "Z": 21652.46
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101004": {
+        "ID": 101004,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470005
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mixed",
+        "MapIndex": "EDS_MapIndexType::BreachMixed",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100003,
+        "ID_RewardRepeat": 200003,
+        "Location": {
+          "X": -231282.88,
+          "Y": -544367.25,
+          "Z": 28415.322
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101005": {
+        "ID": 101005,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470006
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Gather",
+        "MapIndex": "EDS_MapIndexType::BreachGather",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100004,
+        "ID_RewardRepeat": 200004,
+        "Location": {
+          "X": -267074.4,
+          "Y": -547529.56,
+          "Z": 35330.336
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101006": {
+        "ID": 101006,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470007
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mixed",
+        "MapIndex": "EDS_MapIndexType::BreachMixed",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100005,
+        "ID_RewardRepeat": 200005,
+        "Location": {
+          "X": -287939.2,
+          "Y": -484984.25,
+          "Z": 27073.736
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101007": {
+        "ID": 101007,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470008
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::BreachBattleNormal",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100006,
+        "ID_RewardRepeat": 200006,
+        "Location": {
+          "X": -264409.66,
+          "Y": -444408.88,
+          "Z": 17813.385
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101008": {
+        "ID": 101008,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470009
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleWave",
+        "MapIndex": "EDS_MapIndexType::BreachBattleWave",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100007,
+        "ID_RewardRepeat": 200007,
+        "Location": {
+          "X": -259515.0,
+          "Y": -438484.0,
+          "Z": 16415.0
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101009": {
+        "ID": 101009,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470008
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Gather",
+        "MapIndex": "EDS_MapIndexType::BreachGather",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100006,
+        "ID_RewardRepeat": 200006,
+        "Location": {
+          "X": -126352.52,
+          "Y": -521234.44,
+          "Z": 16709.773
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101010": {
+        "ID": 101010,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470008
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Gather",
+        "MapIndex": "EDS_MapIndexType::BreachGather",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100006,
+        "ID_RewardRepeat": 200006,
+        "Location": {
+          "X": -151263.48,
+          "Y": -581403.0,
+          "Z": 22248.684
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "101011": {
+        "ID": 101011,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470008
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mixed",
+        "MapIndex": "EDS_MapIndexType::BreachMixed",
+        "DaliyPlayLimitCount": 99,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100006,
+        "ID_RewardRepeat": 200006,
+        "Location": {
+          "X": -169782.83,
+          "Y": -593460.06,
+          "Z": 24000.604
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "102001": {
+        "ID": 102001,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470010
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleWave",
+        "MapIndex": "EDS_MapIndexType::BreachBattleWave",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100008,
+        "ID_RewardRepeat": 200008,
+        "Location": {
+          "X": -26649.941,
+          "Y": -439706.06,
+          "Z": 16721.898
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "102002": {
+        "ID": 102002,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470011
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Gather",
+        "MapIndex": "EDS_MapIndexType::BreachGather",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100009,
+        "ID_RewardRepeat": 200009,
+        "Location": {
+          "X": 11428.604,
+          "Y": -378079.47,
+          "Z": 17934.297
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "102003": {
+        "ID": 102003,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470012
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::BreachBattleNormal",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100010,
+        "ID_RewardRepeat": 200010,
+        "Location": {
+          "X": 39193.133,
+          "Y": -390002.25,
+          "Z": 18009.588
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "102004": {
+        "ID": 102004,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470013
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleBoss",
+        "MapIndex": "EDS_MapIndexType::BreachBattleBoss",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100011,
+        "ID_RewardRepeat": 200011,
+        "Location": {
+          "X": -10926.23,
+          "Y": -268382.5,
+          "Z": 18539.506
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "102005": {
+        "ID": 102005,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470014
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mixed",
+        "MapIndex": "EDS_MapIndexType::BreachMixed",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100012,
+        "ID_RewardRepeat": 200012,
+        "Location": {
+          "X": 51212.184,
+          "Y": -249703.69,
+          "Z": 23084.678
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "102006": {
+        "ID": 102006,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470015
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mixed",
+        "MapIndex": "EDS_MapIndexType::BreachMixed",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100013,
+        "ID_RewardRepeat": 200013,
+        "Location": {
+          "X": 1882.6715,
+          "Y": -219323.03,
+          "Z": 21251.707
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "102007": {
+        "ID": 102007,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470020
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mixed",
+        "MapIndex": "EDS_MapIndexType::BreachMixed",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100013,
+        "ID_RewardRepeat": 200013,
+        "Location": {
+          "X": -48389.43,
+          "Y": -220478.48,
+          "Z": 14848.936
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "103001": {
+        "ID": 103001,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470016
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::BattleBoss",
+        "MapIndex": "EDS_MapIndexType::BreachBattleBoss",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100014,
+        "ID_RewardRepeat": 200014,
+        "Location": {
+          "X": -153673.92,
+          "Y": -227490.73,
+          "Z": 20330.531
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "103002": {
+        "ID": 103002,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470017
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Gather",
+        "MapIndex": "EDS_MapIndexType::BreachGather",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100015,
+        "ID_RewardRepeat": 200015,
+        "Location": {
+          "X": -160175.1,
+          "Y": -245625.86,
+          "Z": 19551.652
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "103003": {
+        "ID": 103003,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470018
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mixed",
+        "MapIndex": "EDS_MapIndexType::BreachMixed",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100016,
+        "ID_RewardRepeat": 200016,
+        "Location": {
+          "X": -205669.12,
+          "Y": -277331.47,
+          "Z": 19637.193
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "103004": {
+        "ID": 103004,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 470019
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Breach",
+        "BreachDetailType": "EDS_BreachType::Mixed",
+        "MapIndex": "EDS_MapIndexType::BreachMixed",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 100017,
+        "ID_RewardRepeat": 200017,
+        "Location": {
+          "X": -257339.45,
+          "Y": -265723.4,
+          "Z": 22951.291
+        },
+        "ID_EffectActive": 80001,
+        "ID_EffectDeactive": 80101
+      },
+      "20101001": {
+        "ID": 20101001,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 480011
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Gate",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::Gate",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 300000,
+        "ID_RewardRepeat": 400000,
+        "Location": {
+          "X": -142127.7,
+          "Y": -533789.2,
+          "Z": 22054.049
+        },
+        "ID_EffectActive": 90001,
+        "ID_EffectDeactive": 90101
+      },
+      "20101002": {
+        "ID": 20101002,
+        "DataStage": 23,
+        "Versionp": "*",
+        "ID_Name": {
+          "ID": 480012
+        },
+        "BreachContentsType": "EDS_BreachContentsType::Gate",
+        "BreachDetailType": "EDS_BreachType::BattleNormal",
+        "MapIndex": "EDS_MapIndexType::Gate",
+        "DaliyPlayLimitCount": 3,
+        "ID_DailyLimitCountResetTime": 40201,
+        "ID_RewardFirst": 300000,
+        "ID_RewardRepeat": 400000,
+        "Location": {
+          "X": -2811152.0,
+          "Y": -2722930.0,
+          "Z": 531.29114
+        },
+        "ID_EffectActive": 90001,
+        "ID_EffectDeactive": 90101
+      }
+    }
+  }
+]

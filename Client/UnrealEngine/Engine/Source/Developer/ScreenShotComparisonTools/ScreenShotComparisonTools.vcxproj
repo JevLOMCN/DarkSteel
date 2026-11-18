@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{4B3B6318-970C-59BA-A232-45F7D8712898}</ProjectGuid><RootNamespace>ScreenShotComparisonTools</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAutomationScreenshotMetadata.cpp" />
+    <ClCompile Include="Private\FComparableImage.cpp" />
+    <ClCompile Include="Private\FComparisonReport.cpp" />
+    <ClCompile Include="Private\FImageComparer.cpp" />
+    <ClCompile Include="Private\FImageComparisonResult.cpp" />
+    <ClCompile Include="Private\FImageDelta.cpp" />
+    <ClCompile Include="Private\FImageTolerance.cpp" />
+    <ClCompile Include="Private\FJsonObjectConverter.cpp" />
+    <ClCompile Include="Private\FModuleManager.cpp" />
+    <ClCompile Include="Private\FPixelOperations.cpp" />
+    <ClCompile Include="Private\FScreenShotManager.cpp" />
+    <ClCompile Include="Private\FScreenShotToolsModule.cpp" />
+    <ClCompile Include="Private\FScreenshotFallbackEntry.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FText.cpp" />
+    <ClCompile Include="Private\IScreenShotManager.cpp" />
+    <ClCompile Include="Private\IScreenShotToolsModule.cpp" />
+    <ClCompile Include="Private\TAsyncGraphTask.cpp" />
+    <ClCompile Include="Private\TAsyncQueuedWork.cpp" />
+    <ClCompile Include="Private\TAsyncRunnable.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TGraphTask.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UScreenShotComparisonSettings.cpp" />
+    <ClCompile Include="Private\_Free\Module.ScreenShotComparisonTools.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PlayerTicketCharge",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PlayerTicketCharge",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PlayerTicketChargeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ChargeGroup": 2,
+        "IsChargeCountAble": true,
+        "ChargeCount": 1,
+        "ReqMoney": "EDS_MoneyType::Gold",
+        "CostValue": 100,
+        "ID_MoneyExchange": 210,
+        "ID_ChargeTicketItem": [],
+        "TicketChargeValue": 10
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ChargeGroup": 2,
+        "IsChargeCountAble": true,
+        "ChargeCount": 2,
+        "ReqMoney": "EDS_MoneyType::Gold",
+        "CostValue": 200,
+        "ID_MoneyExchange": 210,
+        "ID_ChargeTicketItem": [],
+        "TicketChargeValue": 10
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "ChargeGroup": 2,
+        "IsChargeCountAble": true,
+        "ChargeCount": 3,
+        "ReqMoney": "EDS_MoneyType::Gold",
+        "CostValue": 500,
+        "ID_MoneyExchange": 210,
+        "ID_ChargeTicketItem": [],
+        "TicketChargeValue": 10
+      }
+    }
+  }
+]

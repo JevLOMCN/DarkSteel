@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{5DE6D600-3B24-5FE2-9F1A-50E02E962D31}</ProjectGuid><RootNamespace>MeshUtilitiesCommon</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAllocator2D.cpp" />
+    <ClCompile Include="Private\FChartFinder.cpp" />
+    <ClCompile Include="Private\FChartPacker.cpp" />
+    <ClCompile Include="Private\FDisjointSet.cpp" />
+    <ClCompile Include="Private\FLayoutUV.cpp" />
+    <ClCompile Include="Private\FMD5.cpp" />
+    <ClCompile Include="Private\FOverlappingCorners.cpp" />
+    <ClCompile Include="Private\FOverlappingCornersArrayMeshView.cpp" />
+    <ClCompile Include="Private\IMeshView.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\_Free\Module.MeshUtilitiesCommon.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

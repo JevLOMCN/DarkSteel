@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{E7C5EA88-5729-52B0-B0CA-DB142A33A053}</ProjectGuid><RootNamespace>Networking</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FIPv4Address.cpp" />
+    <ClCompile Include="Private\FIPv4AddressTest.cpp" />
+    <ClCompile Include="Private\FIPv4Endpoint.cpp" />
+    <ClCompile Include="Private\FIPv4Subnet.cpp" />
+    <ClCompile Include="Private\FIPv4SubnetMask.cpp" />
+    <ClCompile Include="Private\FNetworkingModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FSteamEndpoint.cpp" />
+    <ClCompile Include="Private\_Free\Module.Networking.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "AirWalk_PowerJump",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Package": "/Game/Datas/Curve/AirWalk_PowerJump",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 2.7216169E-08,
+            "ArriveTangent": 2.954684,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 2.954684,
+            "LeaveTangentWeight": 0.083333336
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.2777778,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.1388889
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 0.0,
+            "ArriveTangent": -2.9088778,
+            "ArriveTangentWeight": 0.083333336,
+            "LeaveTangent": -2.9088778,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

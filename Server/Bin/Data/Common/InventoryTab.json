@@ -1,0 +1,437 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "InventoryTab",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/InventoryTab",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_InventoryTabTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190001,
+        "ID_TabName": {
+          "ID": 310001
+        },
+        "TabOrder": 1,
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact",
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorPants",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes",
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2",
+          "EDS_ItemType::Accessory3",
+          "EDS_ItemType::TokenEquipTalisman",
+          "EDS_ItemType::Emblem",
+          "EDS_ItemType::ToolPickax",
+          "EDS_ItemType::ToolHoe",
+          "EDS_ItemType::ToolAxe",
+          "EDS_ItemType::ActionGearFlying",
+          "EDS_ItemType::ActionGearDiving",
+          "EDS_ItemType::JewelRainbow",
+          "EDS_ItemType::JewelRed",
+          "EDS_ItemType::JewelBlue",
+          "EDS_ItemType::JewelGreen",
+          "EDS_ItemType::JewelYellow",
+          "EDS_ItemType::ToolMining",
+          "EDS_ItemType::ToolHarvesting",
+          "EDS_ItemType::ToolLogging",
+          "EDS_ItemType::ToolDetection",
+          "EDS_ItemType::ToolLing",
+          "EDS_ItemType::ToolArchaeology",
+          "EDS_ItemType::ActionGearCamp",
+          "EDS_ItemType::ToolOpenLocks",
+          "EDS_ItemType::ToolCooking"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::EquipTab",
+        "IsQuickSlotBtn": false,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      },
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190002,
+        "ID_TabName": {
+          "ID": 310003
+        },
+        "TabOrder": 2,
+        "ItemType": [
+          "EDS_ItemType::ConsumeHpPotion",
+          "EDS_ItemType::ConsumeMpPotion",
+          "EDS_ItemType::ConsumeSpPotion",
+          "EDS_ItemType::ConsumeApPotion",
+          "EDS_ItemType::ConsumeBuffPotion",
+          "EDS_ItemType::ConsumeRecipe",
+          "EDS_ItemType::TicketSpeedUp",
+          "EDS_ItemType::TicketEntry",
+          "EDS_ItemType::TicketInventory",
+          "EDS_ItemType::OpenBoxRandom",
+          "EDS_ItemType::OpenBoxPackage",
+          "EDS_ItemType::OpenBoxSelect",
+          "EDS_ItemType::AccelItemCraft",
+          "EDS_ItemType::AccelItemAscend",
+          "EDS_ItemType::AccelChrAscend",
+          "EDS_ItemType::AccelSkillAscend",
+          "EDS_ItemType::AccelChrEvolve",
+          "EDS_ItemType::AccelItemFusion",
+          "EDS_ItemType::AccelPlayerSkillAscend",
+          "EDS_ItemType::AccelAll",
+          "EDS_ItemType::PlayerIcon",
+          "EDS_ItemType::PlayerSkillDetection",
+          "EDS_ItemType::PlayerSkillLing",
+          "EDS_ItemType::PlayerSkillCamp",
+          "EDS_ItemType::PlayerSkillArchaeology",
+          "EDS_ItemType::PlayerSkillOpenLocks",
+          "EDS_ItemType::PlayerSkillCooking",
+          "EDS_ItemType::PlayerSkillCookingShare",
+          "EDS_ItemType::SummonBoss",
+          "EDS_ItemType::MountTamingFood",
+          "EDS_ItemType::MaterialRepairItem",
+          "EDS_ItemType::ScrollPrefix",
+          "EDS_ItemType::ScrollSetEffect",
+          "EDS_ItemType::SkillBookChar",
+          "EDS_ItemType::JewelMod",
+          "EDS_ItemType::RandomReroll"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::ConsumablesTab",
+        "IsQuickSlotBtn": true,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190003,
+        "ID_TabName": {
+          "ID": 310004
+        },
+        "TabOrder": 3,
+        "ItemType": [
+          "EDS_ItemType::MaterialMake",
+          "EDS_ItemType::CurrencyDarkSteel",
+          "EDS_ItemType::Token",
+          "EDS_ItemType::MaterialGrow",
+          "EDS_ItemType::MaterialEnhance",
+          "EDS_ItemType::EXPCharacter",
+          "EDS_ItemType::EXPItem",
+          "EDS_ItemType::CharEvolve"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::MaterialsTab",
+        "IsQuickSlotBtn": false,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190004,
+        "ID_TabName": {
+          "ID": 310006
+        },
+        "TabOrder": 4,
+        "ItemType": [
+          "EDS_ItemType::Garbage",
+          "EDS_ItemType::GiftAType",
+          "EDS_ItemType::GiftBType",
+          "EDS_ItemType::GiftCType"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::StuffTab",
+        "IsQuickSlotBtn": false,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      },
+      "104": {
+        "ID": 104,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerQuest",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190005,
+        "ID_TabName": {
+          "ID": 5702
+        },
+        "TabOrder": 5,
+        "ItemType": [
+          "EDS_ItemType::QuestUse",
+          "EDS_ItemType::QuestDelivery"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::QuestTab",
+        "IsQuickSlotBtn": false,
+        "IsExtendBtn": false,
+        "IsWeight": false
+      },
+      "105": {
+        "ID": 105,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerNormal",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190006,
+        "ID_TabName": {
+          "ID": 300017
+        },
+        "TabOrder": 6,
+        "ItemType": [
+          "EDS_ItemType::MountGearAType",
+          "EDS_ItemType::MountGearBType",
+          "EDS_ItemType::MountGearCType",
+          "EDS_ItemType::MountRegister",
+          "EDS_ItemType::MountFoodAType",
+          "EDS_ItemType::MountFoodBType",
+          "EDS_ItemType::MountFoodCType"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::MountTab",
+        "IsQuickSlotBtn": false,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      },
+      "200": {
+        "ID": 200,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerWareHouse",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190001,
+        "ID_TabName": {
+          "ID": 310001
+        },
+        "TabOrder": 1,
+        "ItemType": [
+          "EDS_ItemType::WeaponArtifact",
+          "EDS_ItemType::ArmorHelmet",
+          "EDS_ItemType::ArmorChest",
+          "EDS_ItemType::ArmorPants",
+          "EDS_ItemType::ArmorGlobe",
+          "EDS_ItemType::ArmorShoes",
+          "EDS_ItemType::Accessory1",
+          "EDS_ItemType::Accessory2",
+          "EDS_ItemType::Accessory3",
+          "EDS_ItemType::TokenEquipTalisman",
+          "EDS_ItemType::Emblem",
+          "EDS_ItemType::ToolPickax",
+          "EDS_ItemType::ToolHoe",
+          "EDS_ItemType::ToolAxe",
+          "EDS_ItemType::ActionGearFlying",
+          "EDS_ItemType::ActionGearDiving",
+          "EDS_ItemType::JewelRainbow",
+          "EDS_ItemType::JewelRed",
+          "EDS_ItemType::JewelBlue",
+          "EDS_ItemType::JewelGreen",
+          "EDS_ItemType::JewelYellow",
+          "EDS_ItemType::ToolMining",
+          "EDS_ItemType::ToolHarvesting",
+          "EDS_ItemType::ToolLogging",
+          "EDS_ItemType::ToolDetection",
+          "EDS_ItemType::ToolLing",
+          "EDS_ItemType::ToolArchaeology",
+          "EDS_ItemType::ActionGearCamp",
+          "EDS_ItemType::ToolOpenLocks",
+          "EDS_ItemType::ToolCooking"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Level",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::EquipTab",
+        "IsQuickSlotBtn": false,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerWareHouse",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190002,
+        "ID_TabName": {
+          "ID": 310003
+        },
+        "TabOrder": 2,
+        "ItemType": [
+          "EDS_ItemType::ConsumeHpPotion",
+          "EDS_ItemType::ConsumeMpPotion",
+          "EDS_ItemType::ConsumeSpPotion",
+          "EDS_ItemType::ConsumeApPotion",
+          "EDS_ItemType::ConsumeBuffPotion",
+          "EDS_ItemType::ConsumeRecipe",
+          "EDS_ItemType::TicketSpeedUp",
+          "EDS_ItemType::TicketEntry",
+          "EDS_ItemType::TicketInventory",
+          "EDS_ItemType::OpenBoxRandom",
+          "EDS_ItemType::OpenBoxPackage",
+          "EDS_ItemType::OpenBoxSelect",
+          "EDS_ItemType::AccelItemCraft",
+          "EDS_ItemType::AccelItemAscend",
+          "EDS_ItemType::AccelChrAscend",
+          "EDS_ItemType::AccelSkillAscend",
+          "EDS_ItemType::AccelChrEvolve",
+          "EDS_ItemType::AccelItemFusion",
+          "EDS_ItemType::AccelPlayerSkillAscend",
+          "EDS_ItemType::AccelAll",
+          "EDS_ItemType::PlayerIcon",
+          "EDS_ItemType::PlayerSkillDetection",
+          "EDS_ItemType::PlayerSkillLing",
+          "EDS_ItemType::PlayerSkillCamp",
+          "EDS_ItemType::PlayerSkillArchaeology",
+          "EDS_ItemType::PlayerSkillOpenLocks",
+          "EDS_ItemType::PlayerSkillCooking",
+          "EDS_ItemType::PlayerSkillCookingShare",
+          "EDS_ItemType::SummonBoss",
+          "EDS_ItemType::MountTamingFood",
+          "EDS_ItemType::MaterialRepairItem",
+          "EDS_ItemType::ScrollPrefix",
+          "EDS_ItemType::ScrollSetEffect",
+          "EDS_ItemType::SkillBookChar",
+          "EDS_ItemType::JewelMod",
+          "EDS_ItemType::RandomReroll"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Equip",
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::ConsumablesTab",
+        "IsQuickSlotBtn": true,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerWareHouse",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190003,
+        "ID_TabName": {
+          "ID": 310004
+        },
+        "TabOrder": 3,
+        "ItemType": [
+          "EDS_ItemType::MaterialMake",
+          "EDS_ItemType::CurrencyDarkSteel",
+          "EDS_ItemType::Token",
+          "EDS_ItemType::MaterialGrow",
+          "EDS_ItemType::MaterialEnhance",
+          "EDS_ItemType::EXPCharacter",
+          "EDS_ItemType::EXPItem",
+          "EDS_ItemType::CharEvolve"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::MaterialsTab",
+        "IsQuickSlotBtn": false,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      },
+      "203": {
+        "ID": 203,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerWareHouse",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190004,
+        "ID_TabName": {
+          "ID": 310006
+        },
+        "TabOrder": 4,
+        "ItemType": [
+          "EDS_ItemType::Garbage",
+          "EDS_ItemType::GiftAType",
+          "EDS_ItemType::GiftBType",
+          "EDS_ItemType::GiftCType"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::StuffTab",
+        "IsQuickSlotBtn": false,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      },
+      "205": {
+        "ID": 205,
+        "DataStage": 23,
+        "ID_InventoryType": "EDS_InventoryType::PlayerWareHouse",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Inventory",
+        "ID_TabIcon": 190006,
+        "ID_TabName": {
+          "ID": 300017
+        },
+        "TabOrder": 6,
+        "ItemType": [
+          "EDS_ItemType::MountGearAType",
+          "EDS_ItemType::MountGearBType",
+          "EDS_ItemType::MountGearCType",
+          "EDS_ItemType::MountRegister",
+          "EDS_ItemType::MountFoodAType",
+          "EDS_ItemType::MountFoodBType",
+          "EDS_ItemType::MountFoodCType"
+        ],
+        "ID_OrderGroup": 1,
+        "ID_Sorting": [
+          "EDS_SortingType::Grade",
+          "EDS_SortingType::Get"
+        ],
+        "ID_Filter": "EDS_FilterType::MountTab",
+        "IsQuickSlotBtn": false,
+        "IsExtendBtn": true,
+        "IsWeight": true
+      }
+    }
+  }
+]

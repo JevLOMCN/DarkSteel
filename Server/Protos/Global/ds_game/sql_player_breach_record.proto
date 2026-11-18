@@ -1,0 +1,14 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlPlayerBreachRecordTable {
+  int64 player_uid = 1;
+  int32 zone_id = 2;
+  int32 breach_id = 3;
+  int32 reward_count = 4;
+  google.protobuf.Timestamp last_update_dt = 5;
+}

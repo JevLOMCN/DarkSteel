@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{FDA27C3B-65CA-5C39-89E8-3D3EDBD39005}</ProjectGuid><RootNamespace>ThirdParty_LibTiff</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="tiff.dir\Release\tif_aux.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_close.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_codec.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_color.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_compress.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_dir.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_dirinfo.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_dirread.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_dirwrite.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_dumpmode.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_error.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_extension.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_fax3.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_flush.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_getimage.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_jpeg.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_luv.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_lzw.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_next.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_ojpeg.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_open.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_packbits.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_pixarlog.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_predict.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_read.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_strip.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_swab.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_thunder.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_tile.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_warning.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_win32.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_write.cpp" />
+    <ClCompile Include="tiff.dir\Release\tif_zip.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

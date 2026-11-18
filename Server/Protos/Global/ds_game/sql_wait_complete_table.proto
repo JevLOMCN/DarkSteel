@@ -1,0 +1,19 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "WaitCompleteType.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlWaitCompleteTable {
+  int64 player_uid = 1;
+  int64 wait_complete_uid = 2;
+  WaitCompleteType wait_complete_type = 3;
+  int64 param1 = 4;
+  int64 param2 = 5;
+  int64 param3 = 6;
+  google.protobuf.Timestamp begin_dt = 7;
+  google.protobuf.Timestamp complete_dt = 8;
+  int32 accel_seconds = 9;
+}

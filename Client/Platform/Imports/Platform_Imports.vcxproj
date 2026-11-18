@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{8E6A1F04-CC08-55F9-8193-80EEEA8079A5}</ProjectGuid><RootNamespace>Platform_Imports</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="ADVAPI32.dll.cpp" />
+    <ClCompile Include="COMDLG32.dll.cpp" />
+    <ClCompile Include="CRYPT32.dll.cpp" />
+    <ClCompile Include="DSOUND.dll.cpp" />
+    <ClCompile Include="DirectML.dll.cpp" />
+    <ClCompile Include="GDI32.dll.cpp" />
+    <ClCompile Include="GFSDK_Aftermath_Lib.x64.dll.cpp" />
+    <ClCompile Include="IMM32.dll.cpp" />
+    <ClCompile Include="IPHLPAPI.DLL.cpp" />
+    <ClCompile Include="ImSDK.dll.cpp" />
+    <ClCompile Include="KERNEL32.dll.cpp" />
+    <ClCompile Include="MF.dll.cpp" />
+    <ClCompile Include="MFPlat.DLL.cpp" />
+    <ClCompile Include="MFReadWrite.dll.cpp" />
+    <ClCompile Include="MSVCP140.dll.cpp" />
+    <ClCompile Include="MSWSOCK.dll.cpp" />
+    <ClCompile Include="NETAPI32.dll.cpp" />
+    <ClCompile Include="OLEAUT32.dll.cpp" />
+    <ClCompile Include="OPENGL32.dll.cpp" />
+    <ClCompile Include="POWRPROF.dll.cpp" />
+    <ClCompile Include="PROPSYS.dll.cpp" />
+    <ClCompile Include="SETUPAPI.dll.cpp" />
+    <ClCompile Include="SHELL32.dll.cpp" />
+    <ClCompile Include="SHLWAPI.dll.cpp" />
+    <ClCompile Include="UIAutomationCore.DLL.cpp" />
+    <ClCompile Include="USER32.dll.cpp" />
+    <ClCompile Include="UxTheme.dll.cpp" />
+    <ClCompile Include="VCRUNTIME140.dll.cpp" />
+    <ClCompile Include="VCRUNTIME140_1.dll.cpp" />
+    <ClCompile Include="VERSION.dll.cpp" />
+    <ClCompile Include="WINHTTP.dll.cpp" />
+    <ClCompile Include="WINMM.dll.cpp" />
+    <ClCompile Include="WS2_32.dll.cpp" />
+    <ClCompile Include="WinPixEventRuntime.dll.cpp" />
+    <ClCompile Include="XAudio2_9Redist.dll.cpp" />
+    <ClCompile Include="XINPUT1_4.dll.cpp" />
+    <ClCompile Include="api-ms-win-core-synch-l1-2-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-conio-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-convert-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-environment-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-filesystem-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-heap-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-locale-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-math-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-multibyte-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-runtime-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-stdio-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-string-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-time-l1-1-0.dll.cpp" />
+    <ClCompile Include="api-ms-win-crt-utility-l1-1-0.dll.cpp" />
+    <ClCompile Include="bcrypt.dll.cpp" />
+    <ClCompile Include="d3d11.dll.cpp" />
+    <ClCompile Include="d3d12.dll.cpp" />
+    <ClCompile Include="dbghelp.dll.cpp" />
+    <ClCompile Include="dvp.dll.cpp" />
+    <ClCompile Include="dwmapi.dll.cpp" />
+    <ClCompile Include="dxgi.dll.cpp" />
+    <ClCompile Include="libogg_64.dll.cpp" />
+    <ClCompile Include="libvorbis_64.dll.cpp" />
+    <ClCompile Include="libvorbisfile_64.dll.cpp" />
+    <ClCompile Include="ole32.dll.cpp" />
+    <ClCompile Include="opencv_world455.dll.cpp" />
+    <ClCompile Include="pdh.dll.cpp" />
+    <ClCompile Include="tbbmalloc.dll.cpp" />
+    <ClCompile Include="tbs.dll.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

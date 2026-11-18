@@ -1,0 +1,624 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: Renderer
+// Functions: 10
+
+// FShadowProjectionPassParameters @ 1455768e0
+
+/* WARNING: Enum "ERHIAccess": Some values do not have unique names */
+/* WARNING: Enum "EResourceTransitionFlags": Some values do not have unique names */
+/* WARNING: Enum "ERenderTargetLoadAction": Some values do not have unique names */
+/* WARNING: Enum "Type": Some values do not have unique names */
+
+FShadowProjectionPassParameters * __thiscall
+FShadowProjectionPassParameters::FShadowProjectionPassParameters
+          (FShadowProjectionPassParameters *this)
+
+{
+  (this->View).View.field_0x8 = 1;
+  *(undefined8 *)&(this->View).View = 0;
+  *(undefined8 *)&(this->View).InstancedView = 0;
+  *(undefined8 *)&this->HairStrands = 0;
+  *(undefined8 *)&this->Substrate = 0;
+  *(undefined8 *)&(this->SceneTextures).SceneTextures = 0;
+  *(undefined8 *)&(this->SceneTextures).MobileSceneTextures = 0;
+  *(undefined8 *)&(this->InstanceCullingDrawParams).DrawIndirectArgsBuffer = 0;
+  (this->View).InstancedView.field_0x8 = 1;
+  (this->HairStrands).field_0x8 = 1;
+  (this->Substrate).field_0x8 = 1;
+  (this->SceneTextures).SceneTextures.field_0x8 = 1;
+  (this->SceneTextures).MobileSceneTextures.field_0x8 = 1;
+  *(undefined4 *)&(this->InstanceCullingDrawParams).DrawIndirectArgsBuffer.field_0x8 = 4;
+  *(undefined8 *)&(this->InstanceCullingDrawParams).InstanceIdOffsetBuffer = 0;
+  *(undefined4 *)&(this->InstanceCullingDrawParams).InstanceIdOffsetBuffer.field_0x8 = 8;
+  *(undefined8 *)&(this->InstanceCullingDrawParams).InstanceCulling = 0;
+  (this->InstanceCullingDrawParams).InstanceCulling.field_0x8 = 1;
+  *(undefined8 *)&(this->InstanceCullingDrawParams).Scene = 0;
+  (this->InstanceCullingDrawParams).Scene.field_0x8 = 1;
+  *(undefined8 *)&(this->InstanceCullingDrawParams).BatchedPrimitive = 0;
+  (this->InstanceCullingDrawParams).BatchedPrimitive.field_0x8 = 1;
+  *(undefined8 *)&this->ShadowTexture0 = 0;
+  *(undefined4 *)&(this->ShadowTexture0).field_0x8 = 0;
+  *(undefined8 *)&(this->ShadowTexture0).field_0xc = 0;
+  *(undefined8 *)&this->ShadowTexture1 = 0;
+  *(undefined4 *)&(this->ShadowTexture1).field_0x8 = 0;
+  *(undefined8 *)&(this->ShadowTexture1).field_0xc = 0;
+  FRenderTargetBindingSlots::FRenderTargetBindingSlots(&this->RenderTargets);
+  return this;
+}
+
+// zzAppendMemberGetPrev @ 1455f8930
+
+void * __cdecl
+FShadowProjectionPassParameters::zzAppendMemberGetPrev
+          (zzFirstMemberId param_1,
+          TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  return (void *)0x0;
+}
+
+// zzAppendMemberGetPrev @ 1455f8940
+
+void * __cdecl
+FShadowProjectionPassParameters::zzAppendMemberGetPrev
+          (zzNextMemberIdHairStrands param_1,
+          TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FScriptContainerElement *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  void *pvVar5;
+  longlong lVar6;
+  wchar_t *local_38;
+  wchar_t *pwStack_30;
+  undefined4 local_28;
+  undefined4 uStack_24;
+  undefined2 uStack_20;
+  undefined2 uStack_1e;
+  undefined4 uStack_1c;
+  undefined8 local_18;
+  FShaderParametersMetadata *pFStack_10;
+  
+  pFStack_10 = FHairStrandsViewUniformParameters::GetStructMetadata();
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  local_38 = L"HairStrands";
+  pwStack_30 = L"FHairStrandsViewUniformParameters";
+  local_28 = 0x4a4;
+  uStack_24 = 0x20;
+  uStack_20 = 0x13;
+  uStack_1c = 1;
+  local_18 = 1;
+  if ((pFVar1 <= (FScriptContainerElement *)&local_38) &&
+     ((FScriptContainerElement *)&local_38 < pFVar1 + (longlong)param_2->ArrayMax * 0x30)) {
+    bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                      ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                       ,0x7a5,
+                       L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                      );
+    if (bVar3) {
+      pcVar2 = (code *)swi(3);
+      pvVar5 = (void *)(*pcVar2)();
+      return pvVar5;
+    }
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x830,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  lVar6 = (longlong)iVar4;
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30) = local_38;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30 + 8) = pwStack_30;
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10) = CONCAT44(uStack_24,local_28);
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10 + 8) =
+       CONCAT44(uStack_1c,CONCAT22(uStack_1e,uStack_20));
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20) = local_18;
+  *(FShaderParametersMetadata **)(pFVar1 + lVar6 * 0x30 + 0x20 + 8) = pFStack_10;
+  return zzAppendMemberGetPrev;
+}
+
+// zzAppendMemberGetPrev @ 1455f8a70
+
+void * __cdecl
+FShadowProjectionPassParameters::zzAppendMemberGetPrev
+          (zzNextMemberIdInstanceCullingDrawParams param_1,
+          TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FScriptContainerElement *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  void *pvVar5;
+  longlong lVar6;
+  wchar_t *local_38;
+  wchar_t *pwStack_30;
+  undefined4 local_28;
+  undefined4 uStack_24;
+  undefined2 uStack_20;
+  undefined2 uStack_1e;
+  undefined4 uStack_1c;
+  undefined8 local_18;
+  FShaderParametersMetadata *pFStack_10;
+  
+  pFStack_10 = FInstanceCullingDrawParams::FTypeInfo::GetStructMetadata();
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  local_38 = L"InstanceCullingDrawParams";
+  pwStack_30 = L"FInstanceCullingDrawParams";
+  local_28 = 0x4a7;
+  uStack_24 = 0x60;
+  uStack_20 = 0x15;
+  uStack_1c = 1;
+  local_18 = 1;
+  if ((pFVar1 <= (FScriptContainerElement *)&local_38) &&
+     ((FScriptContainerElement *)&local_38 < pFVar1 + (longlong)param_2->ArrayMax * 0x30)) {
+    bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                      ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                       ,0x7a5,
+                       L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                      );
+    if (bVar3) {
+      pcVar2 = (code *)swi(3);
+      pvVar5 = (void *)(*pcVar2)();
+      return pvVar5;
+    }
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x830,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  lVar6 = (longlong)iVar4;
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30) = local_38;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30 + 8) = pwStack_30;
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10) = CONCAT44(uStack_24,local_28);
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10 + 8) =
+       CONCAT44(uStack_1c,CONCAT22(uStack_1e,uStack_20));
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20) = local_18;
+  *(FShaderParametersMetadata **)(pFVar1 + lVar6 * 0x30 + 0x20 + 8) = pFStack_10;
+  return zzAppendMemberGetPrev;
+}
+
+// zzAppendMemberGetPrev @ 1455f8ba0
+
+void * __cdecl
+FShadowProjectionPassParameters::zzAppendMemberGetPrev
+          (zzNextMemberIdRenderTargets param_1,
+          TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FScriptContainerElement *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  void *pvVar5;
+  longlong lVar6;
+  wchar_t *local_38;
+  wchar_t *pwStack_30;
+  undefined4 local_28;
+  undefined4 uStack_24;
+  undefined2 uStack_20;
+  undefined2 uStack_1e;
+  undefined4 uStack_1c;
+  undefined8 local_18;
+  undefined8 uStack_10;
+  
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  local_38 = L"RenderTargets";
+  pwStack_30 = L"";
+  local_28 = 0x4aa;
+  uStack_24 = 0xf0;
+  uStack_20 = 0x17;
+  uStack_1c = 1;
+  uStack_10 = 0;
+  local_18 = 1;
+  if ((pFVar1 <= (FScriptContainerElement *)&local_38) &&
+     ((FScriptContainerElement *)&local_38 < pFVar1 + (longlong)param_2->ArrayMax * 0x30)) {
+    bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                      ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                       ,0x7a5,
+                       L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                      );
+    if (bVar3) {
+      pcVar2 = (code *)swi(3);
+      pvVar5 = (void *)(*pcVar2)();
+      return pvVar5;
+    }
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x830,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  lVar6 = (longlong)iVar4;
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30) = local_38;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30 + 8) = pwStack_30;
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10) = CONCAT44(uStack_24,local_28);
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10 + 8) =
+       CONCAT44(uStack_1c,CONCAT22(uStack_1e,uStack_20));
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20) = local_18;
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20 + 8) = uStack_10;
+  return zzAppendMemberGetPrev;
+}
+
+// zzAppendMemberGetPrev @ 1455f8cc0
+
+/* WARNING: Enum "EUniformBufferBaseType": Some values do not have unique names */
+
+void * __cdecl
+FShadowProjectionPassParameters::zzAppendMemberGetPrev
+          (zzNextMemberIdSceneTextures param_1,
+          TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FScriptContainerElement *pFVar1;
+  bool bVar2;
+  int iVar3;
+  void *pvVar4;
+  longlong lVar5;
+  code *pcVar6;
+  undefined1 local_res10;
+  TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> local_58;
+  wchar_t *local_48;
+  wchar_t *pwStack_40;
+  undefined4 local_38;
+  undefined4 uStack_34;
+  undefined2 uStack_30;
+  undefined2 uStack_2e;
+  undefined4 uStack_2c;
+  undefined8 local_28;
+  FShaderParametersMetadata *pFStack_20;
+  
+  if (*(int *)(*(longlong *)((longlong)ThreadLocalStoragePointer + (ulonglong)_tls_index * 8) +
+              0x9d4c) <
+      `public:_static_class_FShaderParametersMetadata_const*___ptr64___cdecl_FSceneTextureShaderParameters::FTypeInfo::GetStructMetadata(void)'
+      ::__l2::_thread_safe_static_guard_0__) {
+    _Init_thread_header(&`public:_static_class_FShaderParametersMetadata_const*___ptr64___cdecl_FSceneTextureShaderParameters::FTypeInfo::GetStructMetadata(void)'
+                         ::__l2::_thread_safe_static_guard_0__);
+    if (`public:_static_class_FShaderParametersMetadata_const*___ptr64___cdecl_FSceneTextureShaderParameters::FTypeInfo::GetStructMetadata(void)'
+        ::__l2::_thread_safe_static_guard_0__ == -1) {
+      pcVar6 = FSceneTextureShaderParameters::zzAppendMemberGetPrev;
+      local_58.AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+      local_58.ArrayNum = 0;
+      local_58.ArrayMax = 0;
+      do {
+        pcVar6 = (code *)(*pcVar6)(local_res10,&local_58);
+      } while (pcVar6 != (code *)0x0);
+      AlgoImpl::Reverse<FShaderParametersMetadata::FMember>
+                ((FMember *)local_58.AllocatorInstance.Data,local_58.ArrayNum);
+      FShaderParametersMetadata::FShaderParametersMetadata
+                (&`public:_static_class_FShaderParametersMetadata_const*___ptr64___cdecl_FSceneTextureShaderParameters::FTypeInfo::GetStructMetadata(void)'
+                  ::__l2::StaticStructMetadata,ShaderParameterStruct,Shader,
+                 L"FSceneTextureShaderParameters",L"FSceneTextureShaderParameters",(wchar_t *)0x0,
+                 (wchar_t *)0x0,
+                 "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Engine\\Public\\SceneTexturesConfig.h"
+                 ,0x48,0x20,&local_58,false,(FRHIUniformBufferLayoutInitializer *)0x0,None);
+      if ((FMember *)local_58.AllocatorInstance.Data != (FMember *)0x0) {
+        FMemory::Free(local_58.AllocatorInstance.Data);
+      }
+      atexit(`FSceneTextureShaderParameters::FTypeInfo::GetStructMetadata'::__l2::
+             _dynamic_atexit_destructor_for__StaticStructMetadata__);
+      _Init_thread_footer(&`public:_static_class_FShaderParametersMetadata_const*___ptr64___cdecl_FSceneTextureShaderParameters::FTypeInfo::GetStructMetadata(void)'
+                           ::__l2::_thread_safe_static_guard_0__);
+    }
+  }
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  local_48 = L"SceneTextures";
+  pwStack_40 = L"FSceneTextureShaderParameters";
+  pFStack_20 = &`public:_static_class_FShaderParametersMetadata_const*___ptr64___cdecl_FSceneTextureShaderParameters::FTypeInfo::GetStructMetadata(void)'
+                ::__l2::StaticStructMetadata;
+  local_38 = 0x4a6;
+  uStack_34 = 0x40;
+  uStack_30 = 0x15;
+  uStack_2c = 1;
+  local_28 = 1;
+  if ((pFVar1 <= (FScriptContainerElement *)&local_48) &&
+     ((FScriptContainerElement *)&local_48 < pFVar1 + (longlong)param_2->ArrayMax * 0x30)) {
+    bVar2 = ::FDebug::CheckVerifyFailedImpl2
+                      ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                       ,0x7a5,
+                       L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                      );
+    if (bVar2) {
+      pcVar6 = (code *)swi(3);
+      pvVar4 = (void *)(*pcVar6)();
+      return pvVar4;
+    }
+  }
+  iVar3 = param_2->ArrayNum;
+  if (iVar3 == param_2->ArrayMax) {
+    iVar3 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x830,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  lVar5 = (longlong)iVar3;
+  param_2->ArrayNum = iVar3 + 1;
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  *(wchar_t **)(pFVar1 + lVar5 * 0x30) = local_48;
+  *(wchar_t **)(pFVar1 + lVar5 * 0x30 + 8) = pwStack_40;
+  *(ulonglong *)(pFVar1 + lVar5 * 0x30 + 0x10) = CONCAT44(uStack_34,local_38);
+  *(ulonglong *)(pFVar1 + lVar5 * 0x30 + 0x10 + 8) =
+       CONCAT44(uStack_2c,CONCAT22(uStack_2e,uStack_30));
+  *(undefined8 *)(pFVar1 + lVar5 * 0x30 + 0x20) = local_28;
+  *(FShaderParametersMetadata **)(pFVar1 + lVar5 * 0x30 + 0x20 + 8) = pFStack_20;
+  return zzAppendMemberGetPrev;
+}
+
+// zzAppendMemberGetPrev @ 1455f8f20
+
+void * __cdecl
+FShadowProjectionPassParameters::zzAppendMemberGetPrev
+          (zzNextMemberIdShadowTexture0 param_1,
+          TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FScriptContainerElement *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  void *pvVar5;
+  longlong lVar6;
+  wchar_t *local_38;
+  wchar_t *pwStack_30;
+  undefined4 local_28;
+  undefined4 uStack_24;
+  undefined2 uStack_20;
+  undefined2 uStack_1e;
+  undefined4 uStack_1c;
+  undefined8 local_18;
+  undefined8 uStack_10;
+  
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  local_38 = L"ShadowTexture0";
+  pwStack_30 = L"";
+  local_28 = 0x4a8;
+  uStack_24 = 0xc0;
+  uStack_20 = 10;
+  uStack_1c = 1;
+  uStack_10 = 0;
+  local_18 = 1;
+  if ((pFVar1 <= (FScriptContainerElement *)&local_38) &&
+     ((FScriptContainerElement *)&local_38 < pFVar1 + (longlong)param_2->ArrayMax * 0x30)) {
+    bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                      ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                       ,0x7a5,
+                       L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                      );
+    if (bVar3) {
+      pcVar2 = (code *)swi(3);
+      pvVar5 = (void *)(*pcVar2)();
+      return pvVar5;
+    }
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x830,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  lVar6 = (longlong)iVar4;
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30) = local_38;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30 + 8) = pwStack_30;
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10) = CONCAT44(uStack_24,local_28);
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10 + 8) =
+       CONCAT44(uStack_1c,CONCAT22(uStack_1e,uStack_20));
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20) = local_18;
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20 + 8) = uStack_10;
+  return zzAppendMemberGetPrev;
+}
+
+// zzAppendMemberGetPrev @ 1455f9040
+
+void * __cdecl
+FShadowProjectionPassParameters::zzAppendMemberGetPrev
+          (zzNextMemberIdShadowTexture1 param_1,
+          TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FScriptContainerElement *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  void *pvVar5;
+  longlong lVar6;
+  wchar_t *local_38;
+  wchar_t *pwStack_30;
+  undefined4 local_28;
+  undefined4 uStack_24;
+  undefined2 uStack_20;
+  undefined2 uStack_1e;
+  undefined4 uStack_1c;
+  undefined8 local_18;
+  undefined8 uStack_10;
+  
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  local_38 = L"ShadowTexture1";
+  pwStack_30 = L"";
+  local_28 = 0x4a9;
+  uStack_24 = 0xd8;
+  uStack_20 = 10;
+  uStack_1c = 1;
+  uStack_10 = 0;
+  local_18 = 1;
+  if ((pFVar1 <= (FScriptContainerElement *)&local_38) &&
+     ((FScriptContainerElement *)&local_38 < pFVar1 + (longlong)param_2->ArrayMax * 0x30)) {
+    bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                      ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                       ,0x7a5,
+                       L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                      );
+    if (bVar3) {
+      pcVar2 = (code *)swi(3);
+      pvVar5 = (void *)(*pcVar2)();
+      return pvVar5;
+    }
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x830,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  lVar6 = (longlong)iVar4;
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30) = local_38;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30 + 8) = pwStack_30;
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10) = CONCAT44(uStack_24,local_28);
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10 + 8) =
+       CONCAT44(uStack_1c,CONCAT22(uStack_1e,uStack_20));
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20) = local_18;
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20 + 8) = uStack_10;
+  return zzAppendMemberGetPrev;
+}
+
+// zzAppendMemberGetPrev @ 1455f9160
+
+void * __cdecl
+FShadowProjectionPassParameters::zzAppendMemberGetPrev
+          (zzNextMemberIdSubstrate param_1,
+          TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FScriptContainerElement *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  void *pvVar5;
+  longlong lVar6;
+  wchar_t *local_38;
+  wchar_t *pwStack_30;
+  undefined4 local_28;
+  undefined4 uStack_24;
+  undefined2 uStack_20;
+  undefined2 uStack_1e;
+  undefined4 uStack_1c;
+  undefined8 local_18;
+  FShaderParametersMetadata *pFStack_10;
+  
+  pFStack_10 = FSubstrateGlobalUniformParameters::GetStructMetadata();
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  local_38 = L"Substrate";
+  pwStack_30 = L"FSubstrateGlobalUniformParameters";
+  local_28 = 0x4a5;
+  uStack_24 = 0x30;
+  uStack_20 = 0x13;
+  uStack_1c = 1;
+  local_18 = 1;
+  if ((pFVar1 <= (FScriptContainerElement *)&local_38) &&
+     ((FScriptContainerElement *)&local_38 < pFVar1 + (longlong)param_2->ArrayMax * 0x30)) {
+    bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                      ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                       ,0x7a5,
+                       L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                      );
+    if (bVar3) {
+      pcVar2 = (code *)swi(3);
+      pvVar5 = (void *)(*pcVar2)();
+      return pvVar5;
+    }
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x830,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  lVar6 = (longlong)iVar4;
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30) = local_38;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30 + 8) = pwStack_30;
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10) = CONCAT44(uStack_24,local_28);
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10 + 8) =
+       CONCAT44(uStack_1c,CONCAT22(uStack_1e,uStack_20));
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20) = local_18;
+  *(FShaderParametersMetadata **)(pFVar1 + lVar6 * 0x30 + 0x20 + 8) = pFStack_10;
+  return zzAppendMemberGetPrev;
+}
+
+// zzAppendMemberGetPrev @ 1455f9290
+
+void * __cdecl
+FShadowProjectionPassParameters::zzAppendMemberGetPrev
+          (zzNextMemberIdView param_1,
+          TArray<FShaderParametersMetadata::FMember,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FScriptContainerElement *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  void *pvVar5;
+  longlong lVar6;
+  wchar_t *local_38;
+  wchar_t *pwStack_30;
+  undefined8 local_28;
+  undefined2 uStack_20;
+  undefined2 uStack_1e;
+  undefined4 uStack_1c;
+  undefined8 local_18;
+  FShaderParametersMetadata *pFStack_10;
+  
+  pFStack_10 = FViewShaderParameters::FTypeInfo::GetStructMetadata();
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  local_38 = L"View";
+  pwStack_30 = L"FViewShaderParameters";
+  local_28 = 0x4a3;
+  uStack_20 = 0x15;
+  uStack_1c = 1;
+  local_18 = 1;
+  if ((pFVar1 <= (FScriptContainerElement *)&local_38) &&
+     ((FScriptContainerElement *)&local_38 < pFVar1 + (longlong)param_2->ArrayMax * 0x30)) {
+    bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                      ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                       "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                       ,0x7a5,
+                       L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                      );
+    if (bVar3) {
+      pcVar2 = (code *)swi(3);
+      pvVar5 = (void *)(*pcVar2)();
+      return pvVar5;
+    }
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x830,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  lVar6 = (longlong)iVar4;
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar1 = (param_2->AllocatorInstance).Data;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30) = local_38;
+  *(wchar_t **)(pFVar1 + lVar6 * 0x30 + 8) = pwStack_30;
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x10) = local_28;
+  *(ulonglong *)(pFVar1 + lVar6 * 0x30 + 0x10 + 8) =
+       CONCAT44(uStack_1c,CONCAT22(uStack_1e,uStack_20));
+  *(undefined8 *)(pFVar1 + lVar6 * 0x30 + 0x20) = local_18;
+  *(FShaderParametersMetadata **)(pFVar1 + lVar6 * 0x30 + 0x20 + 8) = pFStack_10;
+  return zzAppendMemberGetPrev;
+}
+

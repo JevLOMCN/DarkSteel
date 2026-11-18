@@ -1,0 +1,30 @@
+syntax = "proto3";
+package ds_config;
+option csharp_namespace = "MirProto.DsConfig";
+
+import "_options.proto";
+import "DirtyFlag.proto";
+import "ds_config/sql_node_table.proto";
+import "ds_config/sql_region_node_table.proto";
+import "ds_config/sql_game_server_list_table.proto";
+import "ds_config/sql_front_end_server_list_table.proto";
+import "ds_config/sql_contents_base_table.proto";
+import "ds_config/sql_contents_function_table.proto";
+import "ds_config/sql_db_agent_server_list_table.proto";
+import "ds_config/sql_region_server_list_table.proto";
+import "ds_config/sql_guild_server_list_table.proto";
+
+message DbWorkItem {
+  DirtyFlag dirty_flag = 1;
+  oneof Item {
+    ds_config.SqlNodeTable Node = 2;
+    ds_config.SqlGameServerListTable GameServerList = 3;
+    ds_config.SqlFrontEndServerListTable FrontEndServerList = 4;
+    ds_config.SqlContentsBaseTable ContentsBase = 5;
+    ds_config.SqlContentsFunctionTable ContentsFunction = 6;
+    ds_config.SqlDbAgentServerListTable DbAgentServerList = 7;
+    ds_config.SqlRegionServerListTable RegionServerList = 8;
+    ds_config.SqlGuildServerListTable GuildServerList = 9;
+    ds_config.SqlRegionNodeTable RegionNode = 10;
+  }
+}

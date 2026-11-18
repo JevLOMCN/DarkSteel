@@ -1,0 +1,94 @@
+# Global:
+.idea
+.vs
+ipch
+enc_temp_folder
+Win64
+Thumbs.db
+dlldata.c
+*_i.c
+*_p.c
+*_i.h
+*.dll
+*.suo
+*.sdf
+*.opensdf
+*.aps
+*.ncb
+*.scc
+*.cachefile
+*.dep
+*.idb
+*.ilk
+*.pch
+*.ipch
+*.ipdb
+*.iobj
+*.pgc
+*.pgd
+*.pdb
+*.map
+*.dbg
+*.bak
+*.old
+*.tmp
+*.log
+*.tlog
+*.nfo
+*.plg
+*.opt
+*.svclog
+*.vspscc
+*.vssscc
+*.scc
+*.mdf
+*.ldf
+*.ndf
+*.exe
+*.Pvs-Studio.*
+*.user
+*.vscode
+*.env
+
+# Build caches / artifacts
+**/.vs/
+**/[Dd]ebug/
+**/[Tt]est[Rr]esults/
+**/artifacts/
+**/BenchmarkDotNet.Artifacts/
+*.cache
+*.cache.json
+project.assets.json
+project.nuget.cache
+.dotnet-home/
+**/.dotnet-home/
+
+# /:
+Common/*
+
+# PVS-Studio
+**doc
+**/obj
+**/bin
+/packages
+**/dist
+**node_modules
+*.code-workspace
+*/tmp_build
+Release/
+# ---- Server/Bin is tracked on purpose (build output + game data), added 22 Oct 2026 ----
+# `**/bin` above hides every bin folder; these later rules bring Server/Bin back.
+!Server/Bin/
+!Server/Bin/**
+# ...except things that must not be published:
+# Config holds settings.json (Discord token, JWT keys, DB passwords) and the dev TLS certificate/private key.
+Server/Bin/Config/
+# runtime logs
+Server/Bin/**/logs/
+Server/Bin/**/*.log
+
+# Tools/ExtractImages build output
+Tools/ExtractImages/out/
+*.pdb
+# ClientLauncher build output
+Tools/ClientLauncher/out/

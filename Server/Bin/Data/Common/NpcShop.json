@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcShop",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcShop",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcShopTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_ShopName": {
+          "ID": 20001
+        },
+        "ID_Icon": 0,
+        "ID_ShopGroup": 100,
+        "ID_Bag": "EDS_BagType::NpcShop",
+        "ID_BagGroup": "EDS_BagGroupType::NpcShop"
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "ID_ShopName": {
+          "ID": 20002
+        },
+        "ID_Icon": 0,
+        "ID_ShopGroup": 200,
+        "ID_Bag": "EDS_BagType::NpcShop",
+        "ID_BagGroup": "EDS_BagGroupType::NpcShop"
+      },
+      "5000000": {
+        "ID": 5000000,
+        "DataStage": 23,
+        "ID_ShopName": {
+          "ID": 20001
+        },
+        "ID_Icon": 0,
+        "ID_ShopGroup": 1000000,
+        "ID_Bag": "EDS_BagType::NpcShop",
+        "ID_BagGroup": "EDS_BagGroupType::NpcShop"
+      },
+      "5010000": {
+        "ID": 5010000,
+        "DataStage": 23,
+        "ID_ShopName": {
+          "ID": 20057
+        },
+        "ID_Icon": 0,
+        "ID_ShopGroup": 1010000,
+        "ID_Bag": "EDS_BagType::NpcShop",
+        "ID_BagGroup": "EDS_BagGroupType::NpcShop"
+      },
+      "5010001": {
+        "ID": 5010001,
+        "DataStage": 23,
+        "ID_ShopName": {
+          "ID": 20058
+        },
+        "ID_Icon": 0,
+        "ID_ShopGroup": 1010001,
+        "ID_Bag": "EDS_BagType::NpcShop",
+        "ID_BagGroup": "EDS_BagGroupType::NpcShop"
+      },
+      "5010002": {
+        "ID": 5010002,
+        "DataStage": 23,
+        "ID_ShopName": {
+          "ID": 20059
+        },
+        "ID_Icon": 0,
+        "ID_ShopGroup": 1010002,
+        "ID_Bag": "EDS_BagType::NpcShop",
+        "ID_BagGroup": "EDS_BagGroupType::NpcShop"
+      },
+      "5010003": {
+        "ID": 5010003,
+        "DataStage": 23,
+        "ID_ShopName": {
+          "ID": 20003
+        },
+        "ID_Icon": 0,
+        "ID_ShopGroup": 1010003,
+        "ID_Bag": "EDS_BagType::NpcShop",
+        "ID_BagGroup": "EDS_BagGroupType::NpcShop"
+      }
+    }
+  }
+]

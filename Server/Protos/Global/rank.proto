@@ -1,0 +1,46 @@
+syntax = "proto3";
+package rank;
+option csharp_namespace = "MirProto.Rank";
+
+import "_options.proto";
+import "ds_rank/sql_raw_rank_table.proto";
+
+message RankingData {
+  string nickname = 1;
+  int32 main_char_level = 2;
+  float main_char_combat_power = 3;
+  int32 world_id = 4;
+  string id = 5;
+  int32 region_index = 6;
+}
+message RankingList {
+  repeated rank.RankingData rank = 1;
+}
+message SendRawRankDataRequest {
+  int32 world_id = 1;
+  repeated ds_rank.SqlRawRankTable raw_data = 2;
+}
+message ServiceBusRankRewardRequest {
+  int32 world_id = 1;
+  int32 game_server_index = 2;
+  uint64 entity_id = 3;
+  int64 player_uid = 4;
+  int32 rank_type = 5;
+  int64 unique_param = 6;
+  string period = 7;
+}
+message ServiceBusRankRewardResponse {
+  uint64 entity_id = 1;
+  int64 current_score = 2;
+  int64 current_rank = 3;
+  int64 total_rank_count = 4;
+  bool is_fail = 5;
+}
+message ServiceBusRankResponse {
+  string server_name = 100;
+  oneof item {
+    rank.ServiceBusRankRewardRequest ServiceBusRankRewardReq = 1;
+    rank.ServiceBusRankRewardResponse ServiceBusRankRewardRes = 2;
+    rank.SendRawRankDataRequest SendRawRankDataReq = 3;
+  }
+}

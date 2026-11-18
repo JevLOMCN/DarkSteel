@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PartyBonusExp",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/PartyBonusExp",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_PartyBonusExpTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 0,
+        "CharacterExpBonusRate": 0
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 50000,
+        "CharacterExpBonusRate": 100000
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 100000,
+        "CharacterExpBonusRate": 200000
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 150000,
+        "CharacterExpBonusRate": 300000
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 200000,
+        "CharacterExpBonusRate": 400000
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 250000,
+        "CharacterExpBonusRate": 500000
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 300000,
+        "CharacterExpBonusRate": 600000
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 350000,
+        "CharacterExpBonusRate": 700000
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 400000,
+        "CharacterExpBonusRate": 800000
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 450000,
+        "CharacterExpBonusRate": 900000
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 500000,
+        "CharacterExpBonusRate": 1000000
+      },
+      "12": {
+        "ID": 12,
+        "DataStage": 23,
+        "Version": "*",
+        "PlayerExpBonusRate": 600000,
+        "CharacterExpBonusRate": 1200000
+      }
+    }
+  }
+]

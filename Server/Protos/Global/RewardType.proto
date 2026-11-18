@@ -1,0 +1,28 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum RewardType {
+  RewardType_None = 0;
+  RewardType_LevelUp = 1;
+  RewardType_StuffGather = 2;
+  RewardType_QuestComplete = 3;
+  RewardType_Cheat = 4;
+  RewardType_Drop = 5;
+  RewardType_DropLucky = 6;
+  RewardType_StuffGather_Lucky = 7;
+  RewardType_DungeonClear = 8;
+  RewardType_DungeonClear_Lucky = 9;
+  RewardType_AchievementComplete = 10;
+  RewardType_QuestMissionComplete = 11;
+  RewardType_DungeonFirstClear_inventory = 15;
+  RewardType_DungeonFirstClear_Mail = 16;
+  RewardType_ItemCraft = 17;
+  RewardType_ItemDismantle = 18;
+  RewardType_AccelWait = 19;
+  RewardType_Breach = 20;
+  RewardType_Gate = 21;
+  RewardType_ItemRestore = 22;
+  RewardType_Mail = 23;
+  RewardType_OpenBox = 24;
+}

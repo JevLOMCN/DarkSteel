@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{C94C22E9-1281-5DC0-BDFD-DF940B55ED84}</ProjectGuid><RootNamespace>MovieRenderPipelineMP4Encoder</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FMP4CodecWriter.cpp" />
+    <ClCompile Include="Private\FMoviePipelineMP4Encoder.cpp" />
+    <ClCompile Include="Private\FMovieRenderPipelineMP4EncoderModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSampleBuffer.cpp" />
+    <ClCompile Include="Private\UMovieGraphMP4EncoderNode.cpp" />
+    <ClCompile Include="Private\UMoviePipelineMP4EncoderOutput.cpp" />
+    <ClCompile Include="Private\_Free\Module.MovieRenderPipelineMP4Encoder.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

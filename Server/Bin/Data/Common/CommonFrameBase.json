@@ -1,0 +1,617 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommonFrameBase",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CommonFrameBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CommonFrameBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Character",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterEquipBattle",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Character",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 1
+      },
+      "200": {
+        "ID": 200,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Inventory",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterInventory",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Equipment",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 2
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Inventory",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterInventory",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Expendables",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 2
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Inventory",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterInventory",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Material",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 2
+      },
+      "203": {
+        "ID": 203,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Inventory",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterInventory",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Quest",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 2
+      },
+      "204": {
+        "ID": 204,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Inventory",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterInventory",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Stuff",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 2
+      },
+      "300": {
+        "ID": 300,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Skill",
+        "ID_ContentsBase": "EDS_ContentsBaseType::CharacterCombatSkill",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Skill",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 3
+      },
+      "400": {
+        "ID": 400,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::GameOption",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 4
+      },
+      "401": {
+        "ID": 401,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::OptionMenu",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::GameOption_Notification",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 4
+      },
+      "402": {
+        "ID": 402,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::OptionMenu",
+        "ID_ContentsBase": "EDS_ContentsBaseType::GameOption",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::GameOption_Graphic",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 4
+      },
+      "500": {
+        "ID": 500,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::QuestLocal",
+        "ID_ContentsBase": "EDS_ContentsBaseType::QuestLocal",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::QuestLocal",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 5
+      },
+      "550": {
+        "ID": 550,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::QuestMain",
+        "ID_ContentsBase": "EDS_ContentsBaseType::QuestMain",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::QuestMain",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 6
+      },
+      "600": {
+        "ID": 600,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Dungeon",
+        "ID_ContentsBase": "EDS_ContentsBaseType::NormalDungeon",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::NormalDungeon",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 7
+      },
+      "601": {
+        "ID": 601,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Dungeon",
+        "ID_ContentsBase": "EDS_ContentsBaseType::HeroicDungeon",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::HeroicDungeon",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 7
+      },
+      "602": {
+        "ID": 602,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Dungeon",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RaidDungeon",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::RaidDungeon",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 7
+      },
+      "603": {
+        "ID": 603,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::FindDungeon",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::FindDungeon",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 8
+      },
+      "604": {
+        "ID": 604,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::RaidPartyFind",
+        "ID_ContentsBase": "EDS_ContentsBaseType::FindDungeon",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::FindDungeon_Normal",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 8
+      },
+      "605": {
+        "ID": 605,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::RaidPartyFind",
+        "ID_ContentsBase": "EDS_ContentsBaseType::FindDungeon",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::FindDungeon_Heroic",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 8
+      },
+      "606": {
+        "ID": 606,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::RaidPartyFind",
+        "ID_ContentsBase": "EDS_ContentsBaseType::FindDungeon",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::FindDungeon_Raid",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 8
+      },
+      "700": {
+        "ID": 700,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::None",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RingCmdSetting",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::RingCmd_Setting",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 9
+      },
+      "701": {
+        "ID": 701,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::RingCommandSetting",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RingCmdSetting",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::RingCmd_Setting_Item",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 9
+      },
+      "702": {
+        "ID": 702,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::RingCommandSetting",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RingCmdSetting",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::RingCmd_Setting_Menu",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 9
+      },
+      "703": {
+        "ID": 703,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::RingCommandSetting",
+        "ID_ContentsBase": "EDS_ContentsBaseType::RingCmdSetting",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::RingCmd_Setting_Skill",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 9
+      },
+      "800": {
+        "ID": 800,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::ContentsTab",
+        "ID_WindowBase": "EDS_WindowWidget::Gacha",
+        "ID_ContentsBase": "EDS_ContentsBaseType::Gacha",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::Gacha",
+        "ID_NPCid": 0,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 10
+      },
+      "10000": {
+        "ID": 10000,
+        "DataStage": 23,
+        "FrameType": "EDS_FrameType::NPC",
+        "ID_WindowBase": "EDS_WindowWidget::NpcShop",
+        "ID_ContentsBase": "EDS_ContentsBaseType::NpcShopBuy",
+        "ID_ContentsTab": "EDS_ContentsTabFrameType::None",
+        "ID_NPCid": 510101,
+        "IsCloseBtnDisplay": true,
+        "IsDisplayMoney": true,
+        "DisplayMoney": [
+          "EDS_MoneyType::Copper",
+          "EDS_MoneyType::Gold",
+          "EDS_MoneyType::None"
+        ],
+        "DisplayKey": [
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None",
+          "EDS_KeyActionType::None"
+        ],
+        "HistoryBackGroup": 0
+      }
+    }
+  }
+]

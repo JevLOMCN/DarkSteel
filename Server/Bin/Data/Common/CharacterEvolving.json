@@ -1,0 +1,3125 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CharacterEvolving",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CharacterEvolving",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CharacterEvolvingTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "ID_Char": 1,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 360101
+        },
+        "ID_Icon": 10101,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 5000,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "ID_Char": 1,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 101,
+        "ID_Name": {
+          "ID": 360102
+        },
+        "ID_Icon": 10102,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 15000,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "ID_Char": 1,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 102,
+        "ID_Name": {
+          "ID": 360103
+        },
+        "ID_Icon": 10103,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 30000,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "104": {
+        "ID": 104,
+        "DataStage": 23,
+        "ID_Char": 1,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 103,
+        "ID_Name": {
+          "ID": 360104
+        },
+        "ID_Icon": 10104,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 50000,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "105": {
+        "ID": 105,
+        "DataStage": 23,
+        "ID_Char": 1,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 104,
+        "ID_Name": {
+          "ID": 360105
+        },
+        "ID_Icon": 10105,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 10,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100000,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "106": {
+        "ID": 106,
+        "DataStage": 23,
+        "ID_Char": 1,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 105,
+        "ID_Name": {
+          "ID": 360106
+        },
+        "ID_Icon": 10106,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 15,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200000,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "107": {
+        "ID": 107,
+        "DataStage": 23,
+        "ID_Char": 1,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 106,
+        "ID_Name": {
+          "ID": 360107
+        },
+        "ID_Icon": 10107,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 20,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500000,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "ID_Char": 2,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 360201
+        },
+        "ID_Icon": 10201,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 5000,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "ID_Char": 2,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 201,
+        "ID_Name": {
+          "ID": 360202
+        },
+        "ID_Icon": 10202,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 15000,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "203": {
+        "ID": 203,
+        "DataStage": 23,
+        "ID_Char": 2,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 202,
+        "ID_Name": {
+          "ID": 360203
+        },
+        "ID_Icon": 10203,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 30000,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "204": {
+        "ID": 204,
+        "DataStage": 23,
+        "ID_Char": 2,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 203,
+        "ID_Name": {
+          "ID": 360204
+        },
+        "ID_Icon": 10204,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 50000,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "205": {
+        "ID": 205,
+        "DataStage": 23,
+        "ID_Char": 2,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 204,
+        "ID_Name": {
+          "ID": 360205
+        },
+        "ID_Icon": 10205,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 10,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100000,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "206": {
+        "ID": 206,
+        "DataStage": 23,
+        "ID_Char": 2,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 205,
+        "ID_Name": {
+          "ID": 360206
+        },
+        "ID_Icon": 10206,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 15,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200000,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "207": {
+        "ID": 207,
+        "DataStage": 23,
+        "ID_Char": 2,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 206,
+        "ID_Name": {
+          "ID": 360207
+        },
+        "ID_Icon": 10207,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 20,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500000,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "301": {
+        "ID": 301,
+        "DataStage": 23,
+        "ID_Char": 3,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 360301
+        },
+        "ID_Icon": 10301,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 5000,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "302": {
+        "ID": 302,
+        "DataStage": 23,
+        "ID_Char": 3,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 301,
+        "ID_Name": {
+          "ID": 360302
+        },
+        "ID_Icon": 10302,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 15000,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "303": {
+        "ID": 303,
+        "DataStage": 23,
+        "ID_Char": 3,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 302,
+        "ID_Name": {
+          "ID": 360303
+        },
+        "ID_Icon": 10303,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 30000,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "304": {
+        "ID": 304,
+        "DataStage": 23,
+        "ID_Char": 3,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 303,
+        "ID_Name": {
+          "ID": 360304
+        },
+        "ID_Icon": 10304,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 50000,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "305": {
+        "ID": 305,
+        "DataStage": 23,
+        "ID_Char": 3,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 304,
+        "ID_Name": {
+          "ID": 360305
+        },
+        "ID_Icon": 10305,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 10,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100000,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "306": {
+        "ID": 306,
+        "DataStage": 23,
+        "ID_Char": 3,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 305,
+        "ID_Name": {
+          "ID": 360306
+        },
+        "ID_Icon": 10306,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 15,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200000,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "307": {
+        "ID": 307,
+        "DataStage": 23,
+        "ID_Char": 3,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 306,
+        "ID_Name": {
+          "ID": 360307
+        },
+        "ID_Icon": 10301,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 20,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500000,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "401": {
+        "ID": 401,
+        "DataStage": 23,
+        "ID_Char": 4,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 360401
+        },
+        "ID_Icon": 10401,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 5000,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "402": {
+        "ID": 402,
+        "DataStage": 23,
+        "ID_Char": 4,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 401,
+        "ID_Name": {
+          "ID": 360402
+        },
+        "ID_Icon": 10402,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 15000,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "403": {
+        "ID": 403,
+        "DataStage": 23,
+        "ID_Char": 4,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 402,
+        "ID_Name": {
+          "ID": 360403
+        },
+        "ID_Icon": 10403,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 30000,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "404": {
+        "ID": 404,
+        "DataStage": 23,
+        "ID_Char": 4,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 403,
+        "ID_Name": {
+          "ID": 360404
+        },
+        "ID_Icon": 10404,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 50000,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "405": {
+        "ID": 405,
+        "DataStage": 23,
+        "ID_Char": 4,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 404,
+        "ID_Name": {
+          "ID": 360405
+        },
+        "ID_Icon": 10405,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 10,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100000,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "406": {
+        "ID": 406,
+        "DataStage": 23,
+        "ID_Char": 4,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 405,
+        "ID_Name": {
+          "ID": 360406
+        },
+        "ID_Icon": 10406,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 15,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200000,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "407": {
+        "ID": 407,
+        "DataStage": 23,
+        "ID_Char": 4,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 406,
+        "ID_Name": {
+          "ID": 360407
+        },
+        "ID_Icon": 10401,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 20,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500000,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "501": {
+        "ID": 501,
+        "DataStage": 23,
+        "ID_Char": 5,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 360501
+        },
+        "ID_Icon": 19001,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 5000,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "502": {
+        "ID": 502,
+        "DataStage": 23,
+        "ID_Char": 5,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 501,
+        "ID_Name": {
+          "ID": 360502
+        },
+        "ID_Icon": 19002,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 15000,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "503": {
+        "ID": 503,
+        "DataStage": 23,
+        "ID_Char": 5,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 502,
+        "ID_Name": {
+          "ID": 360503
+        },
+        "ID_Icon": 19003,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 30000,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "504": {
+        "ID": 504,
+        "DataStage": 23,
+        "ID_Char": 5,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 503,
+        "ID_Name": {
+          "ID": 360504
+        },
+        "ID_Icon": 19004,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 50000,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "505": {
+        "ID": 505,
+        "DataStage": 23,
+        "ID_Char": 5,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 504,
+        "ID_Name": {
+          "ID": 360505
+        },
+        "ID_Icon": 19005,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 10,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100000,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "506": {
+        "ID": 506,
+        "DataStage": 23,
+        "ID_Char": 5,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 505,
+        "ID_Name": {
+          "ID": 360506
+        },
+        "ID_Icon": 19006,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 15,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200000,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "507": {
+        "ID": 507,
+        "DataStage": 23,
+        "ID_Char": 5,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 506,
+        "ID_Name": {
+          "ID": 360507
+        },
+        "ID_Icon": 19007,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 20,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500000,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "601": {
+        "ID": 601,
+        "DataStage": 23,
+        "ID_Char": 6,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 360601
+        },
+        "ID_Icon": 19001,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "602": {
+        "ID": 602,
+        "DataStage": 23,
+        "ID_Char": 6,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 601,
+        "ID_Name": {
+          "ID": 360602
+        },
+        "ID_Icon": 19002,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 2,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "603": {
+        "ID": 603,
+        "DataStage": 23,
+        "ID_Char": 6,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 602,
+        "ID_Name": {
+          "ID": 360603
+        },
+        "ID_Icon": 19003,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 300,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "604": {
+        "ID": 604,
+        "DataStage": 23,
+        "ID_Char": 6,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 603,
+        "ID_Name": {
+          "ID": 360604
+        },
+        "ID_Icon": 19004,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 4,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 400,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "605": {
+        "ID": 605,
+        "DataStage": 23,
+        "ID_Char": 6,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 604,
+        "ID_Name": {
+          "ID": 360605
+        },
+        "ID_Icon": 19005,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "606": {
+        "ID": 606,
+        "DataStage": 23,
+        "ID_Char": 6,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 605,
+        "ID_Name": {
+          "ID": 360606
+        },
+        "ID_Icon": 19006,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 6,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 600,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "607": {
+        "ID": 607,
+        "DataStage": 23,
+        "ID_Char": 6,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 606,
+        "ID_Name": {
+          "ID": 360607
+        },
+        "ID_Icon": 19007,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 700,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "701": {
+        "ID": 701,
+        "DataStage": 23,
+        "ID_Char": 7,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 360701
+        },
+        "ID_Icon": 19001,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "702": {
+        "ID": 702,
+        "DataStage": 23,
+        "ID_Char": 7,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 701,
+        "ID_Name": {
+          "ID": 360702
+        },
+        "ID_Icon": 19002,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 2,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "703": {
+        "ID": 703,
+        "DataStage": 23,
+        "ID_Char": 7,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 702,
+        "ID_Name": {
+          "ID": 360703
+        },
+        "ID_Icon": 19003,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 300,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "704": {
+        "ID": 704,
+        "DataStage": 23,
+        "ID_Char": 7,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 703,
+        "ID_Name": {
+          "ID": 360704
+        },
+        "ID_Icon": 19004,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 4,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 400,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "705": {
+        "ID": 705,
+        "DataStage": 23,
+        "ID_Char": 7,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 704,
+        "ID_Name": {
+          "ID": 360705
+        },
+        "ID_Icon": 19005,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "706": {
+        "ID": 706,
+        "DataStage": 23,
+        "ID_Char": 7,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 705,
+        "ID_Name": {
+          "ID": 360706
+        },
+        "ID_Icon": 19006,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 6,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 600,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "707": {
+        "ID": 707,
+        "DataStage": 23,
+        "ID_Char": 7,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 706,
+        "ID_Name": {
+          "ID": 360707
+        },
+        "ID_Icon": 19007,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 700,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "801": {
+        "ID": 801,
+        "DataStage": 23,
+        "ID_Char": 8,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 360801
+        },
+        "ID_Icon": 19001,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "802": {
+        "ID": 802,
+        "DataStage": 23,
+        "ID_Char": 8,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 801,
+        "ID_Name": {
+          "ID": 360802
+        },
+        "ID_Icon": 19002,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 2,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "803": {
+        "ID": 803,
+        "DataStage": 23,
+        "ID_Char": 8,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 802,
+        "ID_Name": {
+          "ID": 360803
+        },
+        "ID_Icon": 19003,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 300,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "804": {
+        "ID": 804,
+        "DataStage": 23,
+        "ID_Char": 8,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 803,
+        "ID_Name": {
+          "ID": 360804
+        },
+        "ID_Icon": 19004,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 4,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 400,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "805": {
+        "ID": 805,
+        "DataStage": 23,
+        "ID_Char": 8,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 804,
+        "ID_Name": {
+          "ID": 360805
+        },
+        "ID_Icon": 19005,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "806": {
+        "ID": 806,
+        "DataStage": 23,
+        "ID_Char": 8,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 805,
+        "ID_Name": {
+          "ID": 360806
+        },
+        "ID_Icon": 19006,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 6,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 600,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "807": {
+        "ID": 807,
+        "DataStage": 23,
+        "ID_Char": 8,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 806,
+        "ID_Name": {
+          "ID": 360807
+        },
+        "ID_Icon": 19007,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 700,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "901": {
+        "ID": 901,
+        "DataStage": 23,
+        "ID_Char": 9,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 360901
+        },
+        "ID_Icon": 19001,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "902": {
+        "ID": 902,
+        "DataStage": 23,
+        "ID_Char": 9,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 901,
+        "ID_Name": {
+          "ID": 360902
+        },
+        "ID_Icon": 19002,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 2,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "903": {
+        "ID": 903,
+        "DataStage": 23,
+        "ID_Char": 9,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 902,
+        "ID_Name": {
+          "ID": 360903
+        },
+        "ID_Icon": 19003,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 300,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "904": {
+        "ID": 904,
+        "DataStage": 23,
+        "ID_Char": 9,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 903,
+        "ID_Name": {
+          "ID": 360904
+        },
+        "ID_Icon": 19004,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 4,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 400,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "905": {
+        "ID": 905,
+        "DataStage": 23,
+        "ID_Char": 9,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 904,
+        "ID_Name": {
+          "ID": 360905
+        },
+        "ID_Icon": 19005,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "906": {
+        "ID": 906,
+        "DataStage": 23,
+        "ID_Char": 9,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 905,
+        "ID_Name": {
+          "ID": 360906
+        },
+        "ID_Icon": 19006,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 6,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 600,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "907": {
+        "ID": 907,
+        "DataStage": 23,
+        "ID_Char": 9,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 906,
+        "ID_Name": {
+          "ID": 360907
+        },
+        "ID_Icon": 19007,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 700,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "ID_Char": 10,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 361001
+        },
+        "ID_Icon": 19001,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "ID_Char": 10,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 1001,
+        "ID_Name": {
+          "ID": 361002
+        },
+        "ID_Icon": 19002,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 2,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "ID_Char": 10,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 1002,
+        "ID_Name": {
+          "ID": 361003
+        },
+        "ID_Icon": 19003,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 300,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "ID_Char": 10,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 1003,
+        "ID_Name": {
+          "ID": 361004
+        },
+        "ID_Icon": 19004,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 4,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 400,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "ID_Char": 10,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 1004,
+        "ID_Name": {
+          "ID": 361005
+        },
+        "ID_Icon": 19005,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "1006": {
+        "ID": 1006,
+        "DataStage": 23,
+        "ID_Char": 10,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 1005,
+        "ID_Name": {
+          "ID": 361006
+        },
+        "ID_Icon": 19006,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 6,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 600,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "1007": {
+        "ID": 1007,
+        "DataStage": 23,
+        "ID_Char": 10,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 1006,
+        "ID_Name": {
+          "ID": 361007
+        },
+        "ID_Icon": 19007,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 700,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "1101": {
+        "ID": 1101,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 361101
+        },
+        "ID_Icon": 19001,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "1102": {
+        "ID": 1102,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 1101,
+        "ID_Name": {
+          "ID": 361102
+        },
+        "ID_Icon": 19002,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 2,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "1103": {
+        "ID": 1103,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 1102,
+        "ID_Name": {
+          "ID": 361103
+        },
+        "ID_Icon": 19003,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 300,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "1104": {
+        "ID": 1104,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 1103,
+        "ID_Name": {
+          "ID": 361104
+        },
+        "ID_Icon": 19004,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 4,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 400,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "1105": {
+        "ID": 1105,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 1104,
+        "ID_Name": {
+          "ID": 361105
+        },
+        "ID_Icon": 19005,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "1106": {
+        "ID": 1106,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 1105,
+        "ID_Name": {
+          "ID": 361106
+        },
+        "ID_Icon": 19006,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 6,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 600,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "1107": {
+        "ID": 1107,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 1106,
+        "ID_Name": {
+          "ID": 361107
+        },
+        "ID_Icon": 19007,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 700,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      },
+      "1201": {
+        "ID": 1201,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 1,
+        "ID_ReqEvolving": 0,
+        "ID_Name": {
+          "ID": 361201
+        },
+        "ID_Icon": 19001,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 1,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 100,
+        "EvolveProcessTime": 10.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          500,
+          250,
+          160,
+          80,
+          120,
+          60,
+          60,
+          30
+        ],
+        "ID_Passive": []
+      },
+      "1202": {
+        "ID": 1202,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 2,
+        "ID_ReqEvolving": 1201,
+        "ID_Name": {
+          "ID": 361202
+        },
+        "ID_Icon": 19002,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 2,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 200,
+        "EvolveProcessTime": 60.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1000,
+          500,
+          320,
+          160,
+          240,
+          120,
+          120,
+          60
+        ],
+        "ID_Passive": []
+      },
+      "1203": {
+        "ID": 1203,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 3,
+        "ID_ReqEvolving": 1202,
+        "ID_Name": {
+          "ID": 361203
+        },
+        "ID_Icon": 19003,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 3,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 300,
+        "EvolveProcessTime": 300.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          1500,
+          750,
+          480,
+          240,
+          360,
+          180,
+          180,
+          90
+        ],
+        "ID_Passive": []
+      },
+      "1204": {
+        "ID": 1204,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 4,
+        "ID_ReqEvolving": 1203,
+        "ID_Name": {
+          "ID": 361204
+        },
+        "ID_Icon": 19004,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 4,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 400,
+        "EvolveProcessTime": 1800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2000,
+          1000,
+          640,
+          320,
+          480,
+          240,
+          240,
+          120
+        ],
+        "ID_Passive": []
+      },
+      "1205": {
+        "ID": 1205,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 5,
+        "ID_ReqEvolving": 1204,
+        "ID_Name": {
+          "ID": 361205
+        },
+        "ID_Icon": 19005,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 5,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 500,
+        "EvolveProcessTime": 3600.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          2500,
+          1250,
+          800,
+          400,
+          600,
+          300,
+          300,
+          150
+        ],
+        "ID_Passive": []
+      },
+      "1206": {
+        "ID": 1206,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 6,
+        "ID_ReqEvolving": 1205,
+        "ID_Name": {
+          "ID": 361206
+        },
+        "ID_Icon": 19006,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 6,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 600,
+        "EvolveProcessTime": 10800.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3000,
+          1500,
+          960,
+          480,
+          720,
+          360,
+          360,
+          180
+        ],
+        "ID_Passive": []
+      },
+      "1207": {
+        "ID": 1207,
+        "DataStage": 23,
+        "ID_Char": 11,
+        "EvolveLevel": 7,
+        "ID_ReqEvolving": 1206,
+        "ID_Name": {
+          "ID": 361207
+        },
+        "ID_Icon": 19007,
+        "ID_ReqItem": 310000004,
+        "ReqItemCnt": 7,
+        "ReqMoneyType": "EDS_MoneyType::Copper",
+        "ReqMoneyValue": 700,
+        "EvolveProcessTime": 18000.0,
+        "StatusType": [
+          "EDS_StatusType::Hp",
+          "EDS_StatusType::Mp",
+          "EDS_StatusType::AllAttack",
+          "EDS_StatusType::AllDefense",
+          "EDS_StatusType::Accuracy",
+          "EDS_StatusType::Dodge",
+          "EDS_StatusType::Critical",
+          "EDS_StatusType::AvoidCritical"
+        ],
+        "StatusValue": [
+          3500,
+          1750,
+          1120,
+          560,
+          840,
+          420,
+          420,
+          210
+        ],
+        "ID_Passive": []
+      }
+    }
+  }
+]

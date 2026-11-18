@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{9F956AD1-60D4-55F0-9D54-5669F0C3D0A7}</ProjectGuid><RootNamespace>UIParticle</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FArguments.cpp" />
+    <ClCompile Include="Private\FChildEmitter.cpp" />
+    <ClCompile Include="Private\FEasyParticleChildEmitterArray.cpp" />
+    <ClCompile Include="Private\FEasyParticleGroupState.cpp" />
+    <ClCompile Include="Private\FEasyParticleRootState.cpp" />
+    <ClCompile Include="Private\FEasyParticleState.cpp" />
+    <ClCompile Include="Private\FEasyParticleStatePool.cpp" />
+    <ClCompile Include="Private\FLerpKeyColor.cpp" />
+    <ClCompile Include="Private\FLerpKeyVector2D.cpp" />
+    <ClCompile Include="Private\FPosotion_Vector2DCurve.cpp" />
+    <ClCompile Include="Private\FRange_Float.cpp" />
+    <ClCompile Include="Private\FRange_FloatCurve.cpp" />
+    <ClCompile Include="Private\FRange_LinearColorCurve.cpp" />
+    <ClCompile Include="Private\FRange_Vector2D.cpp" />
+    <ClCompile Include="Private\FScalarParamCurve.cpp" />
+    <ClCompile Include="Private\FScalarParamFloat.cpp" />
+    <ClCompile Include="Private\FSize_Vector2DCurve.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTickParticleTask.cpp" />
+    <ClCompile Include="Private\FUIParticleEmitterInfo.cpp" />
+    <ClCompile Include="Private\FUIParticleFactory.cpp" />
+    <ClCompile Include="Private\FUIParticleFloatCurve.cpp" />
+    <ClCompile Include="Private\FUIParticleLinearColorCurve.cpp" />
+    <ClCompile Include="Private\FUIParticleModule.cpp" />
+    <ClCompile Include="Private\FUIParticleProperty.cpp" />
+    <ClCompile Include="Private\FUIParticleTrail.cpp" />
+    <ClCompile Include="Private\PCH.UIParticle.h.cpp" />
+    <ClCompile Include="Private\SUIParticle.cpp" />
+    <ClCompile Include="Private\SUIParticleEmitter.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TGraphTask.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TRingBuffer.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSlateDecl.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UUIParticle.cpp" />
+    <ClCompile Include="Private\UUIParticleAsset.cpp" />
+    <ClCompile Include="Private\UUIParticleEmitter.cpp" />
+    <ClCompile Include="Private\UUIParticleEmitterAsset.cpp" />
+    <ClCompile Include="Private\UUIParticleUtility.cpp" />
+    <ClCompile Include="Private\_Free\Module.UIParticle.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

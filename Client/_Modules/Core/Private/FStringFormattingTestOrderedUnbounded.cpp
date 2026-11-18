@@ -1,0 +1,323 @@
+// Reconstructed from decompiler output (Ghidra 12.1.4, ProjectDS.exe + PDB symbols).
+// Functions are grouped by the class/object file recovered from the PDB. This is NOT compilable source.
+// Module: Core
+// Functions: 10
+
+// GetTestFlags @ 141cbc570
+
+EAutomationTestFlags __thiscall
+FStringFormattingTestOrderedUnbounded::GetTestFlags(FStringFormattingTestOrderedUnbounded *this)
+
+{
+  return this->TestFlags;
+}
+
+// IsStressTest @ 141cbc580
+
+bool __thiscall
+FStringFormattingTestOrderedUnbounded::IsStressTest(FStringFormattingTestOrderedUnbounded *this)
+
+{
+  return false;
+}
+
+// GetRequiredDeviceNum @ 141cbc590
+
+uint __thiscall
+FStringFormattingTestOrderedUnbounded::GetRequiredDeviceNum
+          (FStringFormattingTestOrderedUnbounded *this)
+
+{
+  return 1;
+}
+
+// GetTestSourceFileName @ 141cbc5a0
+
+FString * __thiscall
+FStringFormattingTestOrderedUnbounded::GetTestSourceFileName
+          (FStringFormattingTestOrderedUnbounded *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,
+                     "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Tests\\String\\FormatTest.cpp"
+                    );
+  return __return_storage_ptr__;
+}
+
+// GetTestSourceFileLine @ 141cbc5d0
+
+int __thiscall
+FStringFormattingTestOrderedUnbounded::GetTestSourceFileLine
+          (FStringFormattingTestOrderedUnbounded *this)
+
+{
+  return 0x97;
+}
+
+// GetTests @ 141cbc5e0
+
+/* WARNING: Removing unreachable block (ram,0x000141cbc75e) */
+
+void __thiscall
+FStringFormattingTestOrderedUnbounded::GetTests
+          (FStringFormattingTestOrderedUnbounded *this,
+          TArray<FString,TSizedDefaultAllocator<32>_> *param_1,
+          TArray<FString,TSizedDefaultAllocator<32>_> *param_2)
+
+{
+  FString *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  FScriptContainerElement *pFVar5;
+  undefined8 local_18;
+  undefined8 local_10;
+  
+  pFVar1 = &this->PrettyNameDotNotation;
+  pFVar5 = (param_1->AllocatorInstance).Data;
+  if (((pFVar5 <= pFVar1) && (pFVar1 < pFVar5 + (longlong)param_1->ArrayMax * 0x10)) &&
+     (bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                         ,0x7a5,
+                         L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                        ), bVar3)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  iVar4 = param_1->ArrayNum;
+  if (iVar4 == param_1->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x810,&param_1->AllocatorInstance,&param_1->ArrayMax);
+  }
+  param_1->ArrayNum = iVar4 + 1;
+  ::FString::FString((FString *)((param_1->AllocatorInstance).Data + (longlong)iVar4 * 0x10),pFVar1)
+  ;
+  pFVar5 = (param_2->AllocatorInstance).Data;
+  local_18 = 0;
+  local_10 = 0;
+  if (((pFVar5 <= (FScriptContainerElement *)&local_18) &&
+      ((FScriptContainerElement *)&local_18 < pFVar5 + (longlong)param_2->ArrayMax * 0x10)) &&
+     (bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                        ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                         "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                         ,0x7a5,
+                         L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                        ), bVar3)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  iVar4 = param_2->ArrayNum;
+  if (iVar4 == param_2->ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x810,&param_2->AllocatorInstance,&param_2->ArrayMax);
+  }
+  param_2->ArrayNum = iVar4 + 1;
+  pFVar5 = (param_2->AllocatorInstance).Data + (longlong)iVar4 * 0x10;
+  *(undefined8 *)pFVar5 = 0;
+  *(undefined8 *)pFVar5 = local_18;
+  *(undefined4 *)(pFVar5 + 8) = (undefined4)local_10;
+  *(undefined4 *)(pFVar5 + 0xc) = local_10._4_4_;
+  return;
+}
+
+// RunTest @ 141cbc780
+
+bool __thiscall
+FStringFormattingTestOrderedUnbounded::RunTest
+          (FStringFormattingTestOrderedUnbounded *this,FString *param_1)
+
+{
+  bool bVar1;
+  
+  TestBody(this,param_1);
+  bVar1 = FAutomationTestBase::HasAnyErrors((FAutomationTestBase *)this);
+  return !bVar1;
+}
+
+// GetBeautifiedTestName @ 141cbc7b0
+
+FString * __thiscall
+FStringFormattingTestOrderedUnbounded::GetBeautifiedTestName
+          (FStringFormattingTestOrderedUnbounded *this,FString *__return_storage_ptr__)
+
+{
+  ::FString::FString(__return_storage_ptr__,&this->PrettyNameDotNotation);
+  return __return_storage_ptr__;
+}
+
+// FStringFormattingTestOrderedUnbounded @ 141cece00
+
+FStringFormattingTestOrderedUnbounded * __thiscall
+FStringFormattingTestOrderedUnbounded::FStringFormattingTestOrderedUnbounded
+          (FStringFormattingTestOrderedUnbounded *this,FString *param_1)
+
+{
+  FString *pFVar1;
+  FScriptContainerElement *pFVar2;
+  EAutomationTestFlags EVar3;
+  FString *pFVar4;
+  FAutomationTestFramework *this_00;
+  longlong lVar5;
+  FString local_28;
+  FString local_18;
+  
+  FAutomationTestBase::FAutomationTestBase((FAutomationTestBase *)this,param_1,false);
+  this->_padding_ = (longlong)&___7FStringFormattingTestOrderedUnbounded__6B_;
+  pFVar1 = &this->PrettyNameDotNotation;
+  (pFVar1->Data).AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  (this->PrettyNameDotNotation).Data.ArrayNum = 0;
+  (this->PrettyNameDotNotation).Data.ArrayMax = 0;
+  pFVar4 = ::FString::FString(&local_18,"[Core][String][EditorContext][SmokeFilter]");
+  EVar3 = FAutomationTestBase::ExtractAutomationTestFlags((FAutomationTestBase *)this,pFVar4);
+  this->TestFlags = EVar3;
+  pFVar4 = ::FString::FString(&local_28,"System::Core::String Formatting::Unbounded (Ordered)");
+  pFVar4 = ::FString::Replace(pFVar4,&local_18,L"::",L".",IgnoreCase);
+  if (pFVar1 != pFVar4) {
+    pFVar2 = (pFVar1->Data).AllocatorInstance.Data;
+    if (pFVar2 != (FScriptContainerElement *)0x0) {
+      FMemory::Free(pFVar2);
+    }
+    (pFVar1->Data).AllocatorInstance.Data = (pFVar4->Data).AllocatorInstance.Data;
+    (pFVar4->Data).AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+    (this->PrettyNameDotNotation).Data.ArrayNum = (pFVar4->Data).ArrayNum;
+    (this->PrettyNameDotNotation).Data.ArrayMax = (pFVar4->Data).ArrayMax;
+    (pFVar4->Data).ArrayNum = 0;
+    (pFVar4->Data).ArrayMax = 0;
+  }
+  if (local_18.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_18.Data.AllocatorInstance.Data);
+  }
+  if (local_28.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_28.Data.AllocatorInstance.Data);
+  }
+  EVar3 = this->TestFlags;
+  if ((EVar3 & (ProgramContext|CommandletContext|ServerContext|ClientContext|EditorContext)) == None
+     ) {
+    EVar3 = EVar3 | (ProgramContext|CommandletContext|ServerContext|ClientContext|EditorContext);
+    this->TestFlags = EVar3;
+  }
+  if ((EVar3 & (NegativeFilter|StressFilter|PerfFilter|ProductFilter|EngineFilter|SmokeFilter)) ==
+      None) {
+    this->TestFlags = EVar3 | EngineFilter;
+  }
+  this_00 = FAutomationTestFramework::Get();
+  ::FString::FString(&local_18,"[Core][String][EditorContext][SmokeFilter]");
+  local_28.Data.ArrayNum = (this->PrettyNameDotNotation).Data.ArrayNum;
+  lVar5 = (longlong)local_28.Data.ArrayNum;
+  pFVar2 = (pFVar1->Data).AllocatorInstance.Data;
+  local_28.Data.AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  if (local_28.Data.ArrayNum == 0) {
+    local_28.Data.ArrayMax = 0;
+  }
+  else {
+    UE::Core::Private::ReallocForCopy<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+              (2,2,local_28.Data.ArrayNum,0,(ForAnyElementType *)&local_28,local_28.Data.ArrayNum,
+               &local_28.Data.ArrayMax);
+    memcpy(local_28.Data.AllocatorInstance.Data,pFVar2,lVar5 * 2);
+  }
+  FAutomationTestFramework::RegisterAutomationTestTags(this_00,&local_28,&local_18,true);
+  if (local_28.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_28.Data.AllocatorInstance.Data);
+  }
+  if (local_18.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_18.Data.AllocatorInstance.Data);
+  }
+  return this;
+}
+
+// TestBody @ 141d45390
+
+void __thiscall
+FStringFormattingTestOrderedUnbounded::TestBody
+          (FStringFormattingTestOrderedUnbounded *this,FString *param_1)
+
+{
+  FAutomationTestBase *pFVar1;
+  code *pcVar2;
+  bool bVar3;
+  int iVar4;
+  FAutomationTestFramework *pFVar5;
+  FStringFormatArg *this_00;
+  ForAnyElementType _Str2;
+  ForAnyElementType FVar6;
+  TArray<FStringFormatArg,TSizedDefaultAllocator<32>_> local_68;
+  FString local_58;
+  FString local_48;
+  FString local_38;
+  FStringFormatArg local_28;
+  
+  local_68.AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  local_68.ArrayNum = 0;
+  local_68.ArrayMax = 0;
+  FStringFormatArg::FStringFormatArg(&local_28,L"Replacement 1");
+  if (((local_68.AllocatorInstance.Data <= &local_28) &&
+      (&local_28 <
+       (FStringFormatArg *)(local_68.AllocatorInstance.Data + (longlong)local_68.ArrayMax * 0x20)))
+     && (bVar3 = ::FDebug::CheckVerifyFailedImpl2
+                           ("Addr < GetData() || Addr >= (GetData() + ArrayMax)",
+                            "C:\\Workspace\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h"
+                            ,0x7a5,
+                            L"Attempting to use a container element (%p) which already comes from the container being modified (%p, ArrayMax: %lld, ArrayNum: %lld, SizeofElement: %zu)!"
+                           ), bVar3)) {
+    pcVar2 = (code *)swi(3);
+    (*pcVar2)();
+    return;
+  }
+  iVar4 = local_68.ArrayNum;
+  if (local_68.ArrayNum == local_68.ArrayMax) {
+    iVar4 = UE::Core::Private::
+            ReallocGrow1_DoAlloc_Tiny<3,TSizedHeapAllocator<32,FMemory>::ForAnyElementType>
+                      (0x820,&local_68.AllocatorInstance,&local_68.ArrayMax);
+  }
+  local_68.ArrayNum = iVar4 + 1;
+  this_00 = (FStringFormatArg *)(local_68.AllocatorInstance.Data + (longlong)iVar4 * 0x20);
+  (this_00->StringValue).Data.AllocatorInstance.Data = (FScriptContainerElement *)0x0;
+  (this_00->StringValue).Data.ArrayNum = 0;
+  (this_00->StringValue).Data.ArrayMax = 0;
+  FStringFormatArg::operator=(this_00,&local_28);
+  if (local_28.StringValue.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(local_28.StringValue.Data.AllocatorInstance.Data);
+  }
+  ::FString::FormatImpl(&local_58,L"This is some text containing an unbounded arg, { 0",&local_68);
+  FVar6.Data = local_58.Data.AllocatorInstance.Data;
+  _Str2.Data = (FScriptContainerElement *)L"";
+  if (local_58.Data.ArrayNum != 0) {
+    _Str2.Data = local_58.Data.AllocatorInstance.Data;
+  }
+  iVar4 = wcscmp(L"This is some text containing an unbounded arg, { 0",(wchar_t *)_Str2.Data);
+  if (iVar4 != 0) {
+    pFVar5 = FAutomationTestFramework::Get();
+    pFVar1 = pFVar5->CurrentTest;
+    pcVar2 = *(code **)(pFVar1->_padding_ + 0x28);
+    ::FString::PrintfImpl(&local_48,L"FString::Format failed. Expected: \"%s\", Actual: \"%s\"");
+    FVar6.Data = (FScriptContainerElement *)L"";
+    if (local_48.Data.ArrayNum != 0) {
+      FVar6.Data = local_48.Data.AllocatorInstance.Data;
+    }
+    ::FString::FString(&local_38,(wchar_t *)FVar6.Data);
+    (*pcVar2)(pFVar1,&local_38,0);
+    if (local_38.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_38.Data.AllocatorInstance.Data);
+    }
+    FVar6.Data = local_58.Data.AllocatorInstance.Data;
+    if (local_48.Data.AllocatorInstance.Data != (FScriptContainerElement *)0x0) {
+      FMemory::Free(local_48.Data.AllocatorInstance.Data);
+      FVar6.Data = local_58.Data.AllocatorInstance.Data;
+    }
+  }
+  if (FVar6.Data != (FScriptContainerElement *)0x0) {
+    FMemory::Free(FVar6.Data);
+  }
+  DestructItems<FStringFormatArg,int>
+            ((FStringFormatArg *)local_68.AllocatorInstance.Data,local_68.ArrayNum);
+  if ((FStringFormatArg *)local_68.AllocatorInstance.Data != (FStringFormatArg *)0x0) {
+    FMemory::Free(local_68.AllocatorInstance.Data);
+  }
+  return;
+}
+

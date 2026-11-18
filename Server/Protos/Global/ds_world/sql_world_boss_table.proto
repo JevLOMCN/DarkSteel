@@ -1,0 +1,12 @@
+syntax = "proto3";
+package ds_world;
+option csharp_namespace = "MirProto.DsWorld";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlWorldBossTable {
+  int32 table_id = 1;
+  int64 until_life_time = 2;
+  google.protobuf.Timestamp last_update_dt = 3;
+}

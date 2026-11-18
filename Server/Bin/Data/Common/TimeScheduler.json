@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TimeScheduler",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/TimeScheduler",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_TimeSchedulerTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Local",
+        "RepeatTime": "0 0 4 * * *",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Local",
+        "RepeatTime": "0 0 4 * * MON",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Local",
+        "RepeatTime": "0 0 4 1 * *",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Local",
+        "RepeatTime": "8 * * * * *",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Local",
+        "RepeatTime": "0 0 0 * * *",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "40001": {
+        "ID": 40001,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Utc",
+        "RepeatTime": "0 0 16 * * *",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "40002": {
+        "ID": 40002,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Utc",
+        "RepeatTime": "0 0 16 * * MON",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "40003": {
+        "ID": 40003,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Utc",
+        "RepeatTime": "0 0 16 1 * *",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "40101": {
+        "ID": 40101,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Utc",
+        "RepeatTime": "0 0 0 * * *",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "40102": {
+        "ID": 40102,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Utc",
+        "RepeatTime": "0 0 0 * * *",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "40201": {
+        "ID": 40201,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Utc",
+        "RepeatTime": "0 0 0 * * *",
+        "ScheduleType": "EDS_ScheduleType::None",
+        "WorldBossGroup": 0
+      },
+      "50002": {
+        "ID": 50002,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Utc",
+        "RepeatTime": "0 0 14 * * *",
+        "ScheduleType": "EDS_ScheduleType::WorldBoss",
+        "WorldBossGroup": 1
+      },
+      "50004": {
+        "ID": 50004,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Utc",
+        "RepeatTime": "0 0 16 * * *",
+        "ScheduleType": "EDS_ScheduleType::WorldBoss",
+        "WorldBossGroup": 2
+      },
+      "50005": {
+        "ID": 50005,
+        "DataStage": 23,
+        "TimeType": "EDS_TimeZoneType::Utc",
+        "RepeatTime": "0 */10 * * * *",
+        "ScheduleType": "EDS_ScheduleType::WorldBoss",
+        "WorldBossGroup": 3
+      }
+    }
+  }
+]

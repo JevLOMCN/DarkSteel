@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemCooking",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemCooking",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemCookingTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "IsShare": false
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "IsShare": true
+      }
+    }
+  }
+]

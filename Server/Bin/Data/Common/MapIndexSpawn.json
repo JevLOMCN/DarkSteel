@@ -1,0 +1,437 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MapIndexSpawn",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/MapIndexSpawn",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_MapIndexSpawnTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "17001": {
+        "ID": 17001,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneField",
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -237798.0,
+          "Y": -574690.0,
+          "Z": 0.0
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 111002
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "17002": {
+        "ID": 17002,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneCitadel",
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -168231.23,
+          "Y": -507016.72,
+          "Z": 15848.355
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 112055
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "17003": {
+        "ID": 17003,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneRiver",
+        "ID_Zone": 1003,
+        "Location": {
+          "X": -139037.0,
+          "Y": -440527.56,
+          "Z": 0.0
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 111003
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "17004": {
+        "ID": 17004,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneField",
+        "ID_Zone": 1004,
+        "Location": {
+          "X": -308417.0,
+          "Y": -266519.56,
+          "Z": 0.0
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 111006
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "17005": {
+        "ID": 17005,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneCitadel",
+        "ID_Zone": 1004,
+        "Location": {
+          "X": -104243.08,
+          "Y": -375829.56,
+          "Z": 16911.299
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 112030
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "17006": {
+        "ID": 17006,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneField",
+        "ID_Zone": 1005,
+        "Location": {
+          "X": 94510.0,
+          "Y": -361246.0,
+          "Z": 0.0
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 111007
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "17998": {
+        "ID": 17998,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneField",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2821829.8,
+          "Y": -2747439.8,
+          "Z": 577.6179
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::TextOnly_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::TextOnly_Btn",
+        "MapIndexName": {
+          "ID": 119103
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "17999": {
+        "ID": 17999,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneField",
+        "ID_Zone": 2002,
+        "Location": {
+          "X": -2516416.2,
+          "Y": -2748216.2,
+          "Z": 505.06003
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::TextOnly_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::TextOnly_Btn",
+        "MapIndexName": {
+          "ID": 119104
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "22999": {
+        "ID": 22999,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneIsland",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2823807.8,
+          "Y": -2763781.5,
+          "Z": 577.6187
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::TextOnly_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::TextOnly_Btn",
+        "MapIndexName": {
+          "ID": 110002
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "23999": {
+        "ID": 23999,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ZoneDistrict",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2825211.0,
+          "Y": -2719422.8,
+          "Z": 1078.189
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::TextOnly_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::TextOnly_Btn",
+        "MapIndexName": {
+          "ID": 119117
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "35995": {
+        "ID": 35995,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::Dungeon",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2743187.2,
+          "Y": -2696848.2,
+          "Z": 577.6187
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 119137
+        },
+        "IsEntrable": true,
+        "ArrivedIslandID": 2,
+        "ID_MapIndoorGroup": 2501
+      },
+      "35996": {
+        "ID": 35996,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::Dungeon",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2765368.0,
+          "Y": -2701619.0,
+          "Z": 577.6187
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 119138
+        },
+        "IsEntrable": true,
+        "ArrivedIslandID": 2,
+        "ID_MapIndoorGroup": 2502
+      },
+      "35997": {
+        "ID": 35997,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::Dungeon",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2825828.5,
+          "Y": -2728241.8,
+          "Z": 778.1889
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 119138
+        },
+        "IsEntrable": true,
+        "ArrivedIslandID": 2,
+        "ID_MapIndoorGroup": 2502
+      },
+      "35998": {
+        "ID": 35998,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::Dungeon",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2825450.0,
+          "Y": -2732040.0,
+          "Z": 1531.0391
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconOnly_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconOnly_Btn",
+        "MapIndexName": {
+          "ID": 119138
+        },
+        "IsEntrable": true,
+        "ArrivedIslandID": 2,
+        "ID_MapIndoorGroup": 2502
+      },
+      "35999": {
+        "ID": 35999,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::Dungeon",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2825450.0,
+          "Y": -2742040.0,
+          "Z": 1531.0391
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::TextOnly_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::TextOnly_Btn",
+        "MapIndexName": {
+          "ID": 119138
+        },
+        "IsEntrable": true,
+        "ArrivedIslandID": 2,
+        "ID_MapIndoorGroup": 2502
+      },
+      "42997": {
+        "ID": 42997,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ResurrectionPoint",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2845450.0,
+          "Y": -2722040.0,
+          "Z": 1531.0391
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 119103
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "42998": {
+        "ID": 42998,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ResurrectionPoint",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2825450.0,
+          "Y": -2722040.0,
+          "Z": 1531.0391
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconOnly_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconOnly_Btn",
+        "MapIndexName": {
+          "ID": 119103
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "42999": {
+        "ID": 42999,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::ResurrectionPoint",
+        "ID_Zone": 2002,
+        "Location": {
+          "X": -2515850.0,
+          "Y": -2741930.0,
+          "Z": 1557.3312
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconOnly_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconOnly_Btn",
+        "MapIndexName": {
+          "ID": 119104
+        },
+        "IsEntrable": false,
+        "ArrivedIslandID": 0,
+        "ID_MapIndoorGroup": 0
+      },
+      "78001": {
+        "ID": 78001,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::Inn",
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -151589.3,
+          "Y": -498893.38,
+          "Z": 14984.956
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconOnly_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconOnly_Btn",
+        "MapIndexName": {
+          "ID": 119142
+        },
+        "IsEntrable": true,
+        "ArrivedIslandID": 9,
+        "ID_MapIndoorGroup": 9001
+      },
+      "78002": {
+        "ID": 78002,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::InnEntrance",
+        "ID_Zone": 1002,
+        "Location": {
+          "X": -151589.3,
+          "Y": -498893.38,
+          "Z": 14984.956
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 119142
+        },
+        "IsEntrable": true,
+        "ArrivedIslandID": 9,
+        "ID_MapIndoorGroup": 9001
+      },
+      "78999": {
+        "ID": 78999,
+        "DataStage": 23,
+        "Version": "*",
+        "MapIndex": "EDS_MapIndexType::InnEntrance",
+        "ID_Zone": 2001,
+        "Location": {
+          "X": -2825450.0,
+          "Y": -2712040.0,
+          "Z": 1531.0391
+        },
+        "MapIndexDisplayType": "EDS_MapIndexDisplayType::IconAndText_Btn",
+        "MapIndexSpawnDisplayType": "EDS_MapIndexSpawnDisplayType::IconAndText_Btn",
+        "MapIndexName": {
+          "ID": 119142
+        },
+        "IsEntrable": true,
+        "ArrivedIslandID": 9,
+        "ID_MapIndoorGroup": 9001
+      }
+    }
+  }
+]

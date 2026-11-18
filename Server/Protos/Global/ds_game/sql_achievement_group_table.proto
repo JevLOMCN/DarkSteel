@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlAchievementGroupTable {
+  int64 player_uid = 1;
+  int32 group_id = 2;
+  int32 step = 3;
+  int32 state = 4;
+  int64 total_count = 5;
+}

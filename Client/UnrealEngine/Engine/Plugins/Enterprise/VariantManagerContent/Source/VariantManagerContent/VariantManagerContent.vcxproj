@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{8B0432A1-82D9-514B-B4A2-FCDE99367F26}</ProjectGuid><RootNamespace>VariantManagerContent</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\ALevelVariantSetsActor.cpp" />
+    <ClCompile Include="Private\ASwitchActor.cpp" />
+    <ClCompile Include="Private\FCapturedPropSegment.cpp" />
+    <ClCompile Include="Private\FFunctionCaller.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FVariantDependency.cpp" />
+    <ClCompile Include="Private\FVariantImpl.cpp" />
+    <ClCompile Include="Private\FVariantManagerContentModule.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TContainerElementTypeCompatibility_DefaultOperatorFunc.cpp" />
+    <ClCompile Include="Private\TFieldPath.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSoftObjectPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\ULevelVariantSets.cpp" />
+    <ClCompile Include="Private\ULevelVariantSetsFunctionDirector.cpp" />
+    <ClCompile Include="Private\UPropertyValue.cpp" />
+    <ClCompile Include="Private\UPropertyValueColor.cpp" />
+    <ClCompile Include="Private\UPropertyValueMaterial.cpp" />
+    <ClCompile Include="Private\UPropertyValueOption.cpp" />
+    <ClCompile Include="Private\UPropertyValueSoftObject.cpp" />
+    <ClCompile Include="Private\UPropertyValueTransform.cpp" />
+    <ClCompile Include="Private\UPropertyValueVisibility.cpp" />
+    <ClCompile Include="Private\UVariant.cpp" />
+    <ClCompile Include="Private\UVariantObjectBinding.cpp" />
+    <ClCompile Include="Private\UVariantSet.cpp" />
+    <ClCompile Include="Private\_Free\Module.VariantManagerContent.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

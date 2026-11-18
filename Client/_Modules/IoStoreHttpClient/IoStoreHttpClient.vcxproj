@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{F9655DEA-9989-5E14-9674-E8DF4709DF40}</ProjectGuid><RootNamespace>IoStoreHttpClient</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FActivity.cpp" />
+    <ClCompile Include="Private\FActivityList.cpp" />
+    <ClCompile Include="Private\FActivityNode.cpp" />
+    <ClCompile Include="Private\FBase.cpp" />
+    <ClCompile Include="Private\FBody.cpp" />
+    <ClCompile Include="Private\FBuffer.cpp" />
+    <ClCompile Include="Private\FCertRoots.cpp" />
+    <ClCompile Include="Private\FConnectionPool.cpp" />
+    <ClCompile Include="Private\FCpuProfilerEventBatchFields.cpp" />
+    <ClCompile Include="Private\FDriverHeaders.cpp" />
+    <ClCompile Include="Private\FDriverNg.cpp" />
+    <ClCompile Include="Private\FEstate.cpp" />
+    <ClCompile Include="Private\FEventLoop.cpp" />
+    <ClCompile Include="Private\FHost.cpp" />
+    <ClCompile Include="Private\FHostGroup.cpp" />
+    <ClCompile Include="Private\FHttpPeer.cpp" />
+    <ClCompile Include="Private\FImpl.cpp" />
+    <ClCompile Include="Private\FLane.cpp" />
+    <ClCompile Include="Private\FLoctight.cpp" />
+    <ClCompile Include="Private\FLogScope.cpp" />
+    <ClCompile Include="Private\FOutcome.cpp" />
+    <ClCompile Include="Private\FParams.cpp" />
+    <ClCompile Include="Private\FPeer.cpp" />
+    <ClCompile Include="Private\FPeerGroup.cpp" />
+    <ClCompile Include="Private\FPoller.cpp" />
+    <ClCompile Include="Private\FRequest.cpp" />
+    <ClCompile Include="Private\FResponse.cpp" />
+    <ClCompile Include="Private\FScope.cpp" />
+    <ClCompile Include="Private\FScopeBuffer.cpp" />
+    <ClCompile Include="Private\FScopeBufferTs.cpp" />
+    <ClCompile Include="Private\FSocket.cpp" />
+    <ClCompile Include="Private\FStatusHeaders.cpp" />
+    <ClCompile Include="Private\FStopwatch.cpp" />
+    <ClCompile Include="Private\FTaskHandle.cpp" />
+    <ClCompile Include="Private\FThrottler.cpp" />
+    <ClCompile Include="Private\FTicketPerf.cpp" />
+    <ClCompile Include="Private\FTicketStatus.cpp" />
+    <ClCompile Include="Private\FTlsPeer.cpp" />
+    <ClCompile Include="Private\FTraceThreadInfoFields.cpp" />
+    <ClCompile Include="Private\FTransactRef.cpp" />
+    <ClCompile Include="Private\FTransaction.cpp" />
+    <ClCompile Include="Private\FWaitable.cpp" />
+    <ClCompile Include="Private\FWaiter.cpp" />
+    <ClCompile Include="Private\FWorkQueue.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TExecutableTaskBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TStringBuilderBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.IoStoreHttpClient.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

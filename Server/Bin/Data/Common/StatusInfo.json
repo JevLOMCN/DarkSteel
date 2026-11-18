@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "StatusInfo",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/StatusInfo",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_StatusInfoTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": "EDS_StatusContentsInfo::Player_Level",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 8
+        },
+        "IsViewContents": true,
+        "Order": 1
+      },
+      "101": {
+        "ID": "EDS_StatusContentsInfo::Player_Skill",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 5138
+        },
+        "IsViewContents": true,
+        "Order": 2
+      },
+      "201": {
+        "ID": "EDS_StatusContentsInfo::Character_Level",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 5901
+        },
+        "IsViewContents": true,
+        "Order": 3
+      },
+      "202": {
+        "ID": "EDS_StatusContentsInfo::Character_Evolution",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 5137
+        },
+        "IsViewContents": true,
+        "Order": 4
+      },
+      "301": {
+        "ID": "EDS_StatusContentsInfo::Item_Basic",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::Item_Level"
+        ],
+        "ID_Name": {
+          "ID": 5902
+        },
+        "IsViewContents": true,
+        "Order": 5
+      },
+      "304": {
+        "ID": "EDS_StatusContentsInfo::Item_Level",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 5903
+        },
+        "IsViewContents": false,
+        "Order": 6
+      },
+      "307": {
+        "ID": "EDS_StatusContentsInfo::Item_Evolution",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::Item_Fusion"
+        ],
+        "ID_Name": {
+          "ID": 5904
+        },
+        "IsViewContents": true,
+        "Order": 7
+      },
+      "310": {
+        "ID": "EDS_StatusContentsInfo::Item_Gem",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 5905
+        },
+        "IsViewContents": true,
+        "Order": 8
+      },
+      "313": {
+        "ID": "EDS_StatusContentsInfo::Item_Fusion",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 230008
+        },
+        "IsViewContents": false,
+        "Order": 9
+      },
+      "316": {
+        "ID": "EDS_StatusContentsInfo::Item_Set",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 5906
+        },
+        "IsViewContents": true,
+        "Order": 10
+      },
+      "317": {
+        "ID": "EDS_StatusContentsInfo::Item_PreFix",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 5908
+        },
+        "IsViewContents": true,
+        "Order": 11
+      },
+      "401": {
+        "ID": "EDS_StatusContentsInfo::System_Buff",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_AddStatusContents": [
+          "EDS_StatusContentsInfo::None"
+        ],
+        "ID_Name": {
+          "ID": 5907
+        },
+        "IsViewContents": true,
+        "Order": 12
+      }
+    }
+  }
+]

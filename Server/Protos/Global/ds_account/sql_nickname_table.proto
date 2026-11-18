@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ds_account;
+option csharp_namespace = "MirProto.DsAccount";
+
+import "_db.proto";
+
+message SqlNicknameTable {
+  int64 player_uid = 1;
+  string nickname = 2;
+  int32 world_id = 3;
+}

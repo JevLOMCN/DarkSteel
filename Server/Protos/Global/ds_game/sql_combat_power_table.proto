@@ -1,0 +1,10 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+
+message SqlCombatPowerTable {
+  int64 player_uid = 1;
+  float combat_power = 3;
+}

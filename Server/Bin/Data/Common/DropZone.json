@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DropZone",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/DropZone",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_DropZoneTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "DropZoneGroupID": 1001,
+        "ID_DropGroup": 500000000,
+        "NpcBattleType": "EDS_NpcBattleType::Default",
+        "NpcBattleGrade": "EDS_NpcBattleGrade::Normal",
+        "NpcMinLevel": 1,
+        "NpcMaxLevel": 2
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "DropZoneGroupID": 1001,
+        "ID_DropGroup": 500000000,
+        "NpcBattleType": "EDS_NpcBattleType::Default",
+        "NpcBattleGrade": "EDS_NpcBattleGrade::Normal",
+        "NpcMinLevel": 3,
+        "NpcMaxLevel": 4
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "DropZoneGroupID": 201,
+        "ID_DropGroup": 500000000,
+        "NpcBattleType": "EDS_NpcBattleType::Default",
+        "NpcBattleGrade": "EDS_NpcBattleGrade::Normal",
+        "NpcMinLevel": 1,
+        "NpcMaxLevel": 20
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "DropZoneGroupID": 202,
+        "ID_DropGroup": 500000000,
+        "NpcBattleType": "EDS_NpcBattleType::Default",
+        "NpcBattleGrade": "EDS_NpcBattleGrade::Normal",
+        "NpcMinLevel": 1,
+        "NpcMaxLevel": 20
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "DropZoneGroupID": 203,
+        "ID_DropGroup": 500000000,
+        "NpcBattleType": "EDS_NpcBattleType::Default",
+        "NpcBattleGrade": "EDS_NpcBattleGrade::Normal",
+        "NpcMinLevel": 1,
+        "NpcMaxLevel": 20
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "DropZoneGroupID": 204,
+        "ID_DropGroup": 500000000,
+        "NpcBattleType": "EDS_NpcBattleType::Default",
+        "NpcBattleGrade": "EDS_NpcBattleGrade::Normal",
+        "NpcMinLevel": 1,
+        "NpcMaxLevel": 20
+      },
+      "1006": {
+        "ID": 1006,
+        "DataStage": 23,
+        "DropZoneGroupID": 205,
+        "ID_DropGroup": 500000000,
+        "NpcBattleType": "EDS_NpcBattleType::Default",
+        "NpcBattleGrade": "EDS_NpcBattleGrade::Normal",
+        "NpcMinLevel": 1,
+        "NpcMaxLevel": 20
+      },
+      "1007": {
+        "ID": 1007,
+        "DataStage": 23,
+        "DropZoneGroupID": 206,
+        "ID_DropGroup": 500000000,
+        "NpcBattleType": "EDS_NpcBattleType::Default",
+        "NpcBattleGrade": "EDS_NpcBattleGrade::Normal",
+        "NpcMinLevel": 1,
+        "NpcMaxLevel": 20
+      }
+    }
+  }
+]

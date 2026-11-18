@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{D95265EF-5D7E-5CAD-AE5F-8914F0F16B03}</ProjectGuid><RootNamespace>ThirdParty_FreeType2</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="freetype.dir\Release\autofit.cpp" />
+    <ClCompile Include="freetype.dir\Release\bdf.cpp" />
+    <ClCompile Include="freetype.dir\Release\cff.cpp" />
+    <ClCompile Include="freetype.dir\Release\ftbase.cpp" />
+    <ClCompile Include="freetype.dir\Release\ftbitmap.cpp" />
+    <ClCompile Include="freetype.dir\Release\ftdebug.cpp" />
+    <ClCompile Include="freetype.dir\Release\ftglyph.cpp" />
+    <ClCompile Include="freetype.dir\Release\ftgzip.cpp" />
+    <ClCompile Include="freetype.dir\Release\ftinit.cpp" />
+    <ClCompile Include="freetype.dir\Release\ftlzw.cpp" />
+    <ClCompile Include="freetype.dir\Release\ftstroke.cpp" />
+    <ClCompile Include="freetype.dir\Release\ftsystem.cpp" />
+    <ClCompile Include="freetype.dir\Release\pcf.cpp" />
+    <ClCompile Include="freetype.dir\Release\pfr.cpp" />
+    <ClCompile Include="freetype.dir\Release\psaux.cpp" />
+    <ClCompile Include="freetype.dir\Release\pshinter.cpp" />
+    <ClCompile Include="freetype.dir\Release\psnames.cpp" />
+    <ClCompile Include="freetype.dir\Release\raster.cpp" />
+    <ClCompile Include="freetype.dir\Release\sfnt.cpp" />
+    <ClCompile Include="freetype.dir\Release\smooth.cpp" />
+    <ClCompile Include="freetype.dir\Release\truetype.cpp" />
+    <ClCompile Include="freetype.dir\Release\type1.cpp" />
+    <ClCompile Include="freetype.dir\Release\type1cid.cpp" />
+    <ClCompile Include="freetype.dir\Release\type42.cpp" />
+    <ClCompile Include="freetype.dir\Release\winfnt.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

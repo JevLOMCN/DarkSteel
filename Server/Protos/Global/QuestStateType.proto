@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum QuestStateType {
+  QuestStateType_Progress = 0;
+  QuestStateType_Complete = 1;
+  QuestStateType_Failure = 2;
+  QuestStateType_Rewarded = 3;
+}

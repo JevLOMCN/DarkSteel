@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{7C43571B-96C3-5058-BCCD-3F2C287FA666}</ProjectGuid><RootNamespace>BlendStack</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAnimNodeReference.cpp" />
+    <ClCompile Include="Private\FAnimNode_BlendSpacePlayer_Standalone.cpp" />
+    <ClCompile Include="Private\FAnimNode_BlendStack.cpp" />
+    <ClCompile Include="Private\FAnimNode_BlendStackInput.cpp" />
+    <ClCompile Include="Private\FAnimNode_BlendStack_Standalone.cpp" />
+    <ClCompile Include="Private\FBlendStackAnimEventsFilterContext.cpp" />
+    <ClCompile Include="Private\FBlendStackAnimEventsFilterScope.cpp" />
+    <ClCompile Include="Private\FBlendStackAnimNodeReference.cpp" />
+    <ClCompile Include="Private\FBlendStackAnimPlayer.cpp" />
+    <ClCompile Include="Private\FBlendStackInputAnimNodeReference.cpp" />
+    <ClCompile Include="Private\FBlendStack_SampleGraphExecutionHelper.cpp" />
+    <ClCompile Include="Private\FBlendedCurveUtils.cpp" />
+    <ClCompile Include="Private\FBoneContainer.cpp" />
+    <ClCompile Include="Private\IAnimEventsFilterContext.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TAttributeContainer.cpp" />
+    <ClCompile Include="Private\TBaseBlendedCurve.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TOptionalScopedGraphMessage.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\UBlendStackAnimNodeLibrary.cpp" />
+    <ClCompile Include="Private\UBlendStackInputAnimNodeLibrary.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.BlendStack.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

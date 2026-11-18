@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CommonContentsInfo",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CommonContentsInfo",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CommonContentsInfoTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_CommonContentsType::PlayerExp",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 302
+        },
+        "ID_Icon": 401,
+        "ID_IconBig": 0
+      },
+      "2": {
+        "ID": "EDS_CommonContentsType::PlayerGrade",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 301
+        },
+        "ID_Icon": 401,
+        "ID_IconBig": 0
+      },
+      "3": {
+        "ID": "EDS_CommonContentsType::CharExp",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 303
+        },
+        "ID_Icon": 402,
+        "ID_IconBig": 0
+      },
+      "4": {
+        "ID": "EDS_CommonContentsType::CombatScore",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 304
+        },
+        "ID_Icon": 405,
+        "ID_IconBig": 0
+      },
+      "5": {
+        "ID": "EDS_CommonContentsType::MountStandardSpeed",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 306
+        },
+        "ID_Icon": 407,
+        "ID_IconBig": 0
+      },
+      "6": {
+        "ID": "EDS_CommonContentsType::MountSprintSpeed",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 307
+        },
+        "ID_Icon": 408,
+        "ID_IconBig": 0
+      },
+      "7": {
+        "ID": "EDS_CommonContentsType::MountInventorySlot",
+        "DataStage": 23,
+        "ID_Name": {
+          "ID": 308
+        },
+        "ID_Icon": 409,
+        "ID_IconBig": 0
+      }
+    }
+  }
+]

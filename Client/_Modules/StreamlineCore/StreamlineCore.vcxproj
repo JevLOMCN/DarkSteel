@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{83236517-3987-5BEB-B80C-E721C175F5DB}</ProjectGuid><RootNamespace>StreamlineCore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FLateUpdateState.cpp" />
+    <ClCompile Include="Private\FRDGAllocator.cpp" />
+    <ClCompile Include="Private\FRDGBuilder.cpp" />
+    <ClCompile Include="Private\FSLDeepDVCShaderParameters.cpp" />
+    <ClCompile Include="Private\FSLSetStateShaderParameters.cpp" />
+    <ClCompile Include="Private\FSLShaderParameters.cpp" />
+    <ClCompile Include="Private\FSLUIHintTagShaderParameters.cpp" />
+    <ClCompile Include="Private\FSceneTextures.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FStreamlineCameraManager.cpp" />
+    <ClCompile Include="Private\FStreamlineCoreModule.cpp" />
+    <ClCompile Include="Private\FStreamlineLatencyBase.cpp" />
+    <ClCompile Include="Private\FStreamlineLatencyMarkers.cpp" />
+    <ClCompile Include="Private\FStreamlineMaxTickRateHandler.cpp" />
+    <ClCompile Include="Private\FStreamlineViewExtension.cpp" />
+    <ClCompile Include="Private\FTrackedView.cpp" />
+    <ClCompile Include="Private\FTypeInfo.cpp" />
+    <ClCompile Include="Private\IConsoleVariable.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseStaticDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TRDGLambdaPass.cpp" />
+    <ClCompile Include="Private\TRHIBreadcrumb.cpp" />
+    <ClCompile Include="Private\TRHILambdaCommand.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSizedInlineAllocator.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.StreamlineCore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,347 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "2",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcSpawnQuest/Island/2",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcSpawnQuestTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "22001076": {
+        "ID": 22001076,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000005,
+        "ShowCoordinate": {
+          "X": -2812760.0,
+          "Y": -2736780.0,
+          "Z": 480.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::Walk",
+        "ShowDelayTime": 2.0,
+        "HideCoordinate": {
+          "X": -2811750.0,
+          "Y": -2736890.0,
+          "Z": 480.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::Run",
+        "HideDelayTime": 2.0
+      },
+      "22001077": {
+        "ID": 22001077,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000001,
+        "ID_NpcHideQuest": 1000002,
+        "ShowCoordinate": {
+          "X": -2812760.0,
+          "Y": -2737280.0,
+          "Z": 480.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::Walk",
+        "ShowDelayTime": 2.0,
+        "HideCoordinate": {
+          "X": -2811750.0,
+          "Y": -2737310.0,
+          "Z": 480.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::Run",
+        "HideDelayTime": 2.0
+      },
+      "22001078": {
+        "ID": 22001078,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000001,
+        "ID_NpcHideQuest": 1000002,
+        "ShowCoordinate": {
+          "X": -2812760.0,
+          "Y": -2737750.0,
+          "Z": 480.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::Walk",
+        "ShowDelayTime": 2.0,
+        "HideCoordinate": {
+          "X": -2811750.0,
+          "Y": -2738060.0,
+          "Z": 480.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::Run",
+        "HideDelayTime": 2.0
+      },
+      "22001079": {
+        "ID": 22001079,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::Progress",
+        "ID_NpcShowQuest": 1000003,
+        "ID_NpcHideQuest": 1000003,
+        "ShowCoordinate": {
+          "X": -2812760.0,
+          "Y": -2738190.0,
+          "Z": 480.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::Walk",
+        "ShowDelayTime": 2.0,
+        "HideCoordinate": {
+          "X": -2811750.0,
+          "Y": -2738060.0,
+          "Z": 480.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::Run",
+        "HideDelayTime": 2.0
+      },
+      "22001080": {
+        "ID": 22001080,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::AbleComplete",
+        "ID_NpcShowQuest": 1000004,
+        "ID_NpcHideQuest": 1000004,
+        "ShowCoordinate": {
+          "X": -2812760.0,
+          "Y": -2738620.0,
+          "Z": 480.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::Walk",
+        "ShowDelayTime": 2.0,
+        "HideCoordinate": {
+          "X": -2811750.0,
+          "Y": -2738440.0,
+          "Z": 480.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::Run",
+        "HideDelayTime": 2.0
+      },
+      "22001081": {
+        "ID": 22001081,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": -2811730.0,
+          "Y": -2736780.0,
+          "Z": 480.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": -2810930.0,
+          "Y": -2736780.0,
+          "Z": 480.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      },
+      "22001082": {
+        "ID": 22001082,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      },
+      "22001083": {
+        "ID": 22001083,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      },
+      "22001084": {
+        "ID": 22001084,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      },
+      "22001085": {
+        "ID": 22001085,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      },
+      "22001086": {
+        "ID": 22001086,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      },
+      "22001087": {
+        "ID": 22001087,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      },
+      "22001088": {
+        "ID": 22001088,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      },
+      "22001089": {
+        "ID": 22001089,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      },
+      "22001090": {
+        "ID": 22001090,
+        "DataStage": 16,
+        "DataStageString": "",
+        "ShowQuestConditionType": "EDS_QuestSpawnConditionType::ProgressSegment",
+        "ID_NpcShowQuest": 1000000,
+        "ID_NpcHideQuest": 1000014,
+        "ShowCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ShowMoveAnimType": "EDS_MoveAnimType::None",
+        "ShowDelayTime": 0.0,
+        "HideCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "HideMoveAnimType": "EDS_MoveAnimType::None",
+        "HideDelayTime": 0.0
+      }
+    }
+  }
+]

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{6C7EAA1D-4EF6-5198-A40B-7B4991042E26}</ProjectGuid><RootNamespace>ChaosCaching</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AChaosCacheManager.cpp" />
+    <ClCompile Include="Private\AChaosCachePlayer.cpp" />
+    <ClCompile Include="Private\FAdapterUtil.cpp" />
+    <ClCompile Include="Private\FBreakingEvent.cpp" />
+    <ClCompile Include="Private\FCacheEvaluationResult.cpp" />
+    <ClCompile Include="Private\FCacheEventBase.cpp" />
+    <ClCompile Include="Private\FCacheEventTrack.cpp" />
+    <ClCompile Include="Private\FCacheSpawnableTemplate.cpp" />
+    <ClCompile Include="Private\FChaosCacheExecutionToken.cpp" />
+    <ClCompile Include="Private\FChaosCacheObjectSpawner.cpp" />
+    <ClCompile Include="Private\FCollisionEvent.cpp" />
+    <ClCompile Include="Private\FComponentCacheAdapter.cpp" />
+    <ClCompile Include="Private\FCompressedRichCurves.cpp" />
+    <ClCompile Include="Private\FEnableStateEvent.cpp" />
+    <ClCompile Include="Private\FGeometryCollectionCacheAdapter.cpp" />
+    <ClCompile Include="Private\FHandle.cpp" />
+    <ClCompile Include="Private\FMovieSceneChaosCacheParams.cpp" />
+    <ClCompile Include="Private\FMovieSceneChaosCacheSectionTemplate.cpp" />
+    <ClCompile Include="Private\FMovieSceneChaosCacheSectionTemplateParameters.cpp" />
+    <ClCompile Include="Private\FMovieSceneExecutionTokens.cpp" />
+    <ClCompile Include="Private\FObservedComponent.cpp" />
+    <ClCompile Include="Private\FParticleTransformTrack.cpp" />
+    <ClCompile Include="Private\FPendingFrameWrite.cpp" />
+    <ClCompile Include="Private\FPerParticleCacheData.cpp" />
+    <ClCompile Include="Private\FPerSolverData.cpp" />
+    <ClCompile Include="Private\FPreAnimatedChaosCacheTokenProducer.cpp" />
+    <ClCompile Include="Private\FRichCurves.cpp" />
+    <ClCompile Include="Private\FStaticMeshCacheAdapter.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FThreadSafeStaticStatInner.cpp" />
+    <ClCompile Include="Private\FToken.cpp" />
+    <ClCompile Include="Private\FTrailingEvent.cpp" />
+    <ClCompile Include="Private\IChaosCachingPlugin.cpp" />
+    <ClCompile Include="Private\IModularFeatures.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TQueue.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TRawEventHandler.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UChaosCache.cpp" />
+    <ClCompile Include="Private\UChaosCacheCollection.cpp" />
+    <ClCompile Include="Private\UChaosCacheData.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UMovieSceneChaosCacheSection.cpp" />
+    <ClCompile Include="Private\UMovieSceneChaosCacheTrack.cpp" />
+    <ClCompile Include="Private\UMovieSceneSpawnableChaosCacheBinding.cpp" />
+    <ClCompile Include="Private\_Free\Module.ChaosCaching.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

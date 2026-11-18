@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{61F3C800-9996-5E7D-82EF-32B3ABCCE4A4}</ProjectGuid><RootNamespace>Other_oo2net_win64</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="oo2net_win64\cpux86.cpp" />
+    <ClCompile Include="oo2net_win64\histogram.cpp" />
+    <ClCompile Include="oo2net_win64\log2table.cpp" />
+    <ClCompile Include="oo2net_win64\longrangematcher.cpp" />
+    <ClCompile Include="oo2net_win64\newlz_simd.cpp" />
+    <ClCompile Include="oo2net_win64\newlz_simd_sse4.cpp" />
+    <ClCompile Include="oo2net_win64\oodlebase.cpp" />
+    <ClCompile Include="oo2net_win64\oodlecoreplugins.cpp" />
+    <ClCompile Include="oo2net_win64\oodlejob.cpp" />
+    <ClCompile Include="oo2net_win64\oodlemalloc.cpp" />
+    <ClCompile Include="oo2net_win64\oodlestaticlzp.cpp" />
+    <ClCompile Include="oo2net_win64\rrarithcoder.cpp" />
+    <ClCompile Include="oo2net_win64\rrbase.cpp" />
+    <ClCompile Include="oo2net_win64\rrcompressutil.cpp" />
+    <ClCompile Include="oo2net_win64\rrlog.cpp" />
+    <ClCompile Include="oo2net_win64\rrlogutil.cpp" />
+    <ClCompile Include="oo2net_win64\rrmath.cpp" />
+    <ClCompile Include="oo2net_win64\rrmemutil.cpp" />
+    <ClCompile Include="oo2net_win64\rrrand.cpp" />
+    <ClCompile Include="oo2net_win64\rrtans.cpp" />
+    <ClCompile Include="oo2net_win64\suffixtriematcher.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

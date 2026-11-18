@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcRelationPoint",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcRelationPoint",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcRelationPointTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "101": {
+        "ID": 101,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "FavorType": "EDS_FavorType::Favorite",
+        "ID_Grade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "RewardGradePoint": [
+          150,
+          225,
+          300,
+          375,
+          450,
+          525
+        ]
+      },
+      "102": {
+        "ID": 102,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "FavorType": "EDS_FavorType::Normal",
+        "ID_Grade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "RewardGradePoint": [
+          100,
+          150,
+          200,
+          250,
+          300,
+          350
+        ]
+      },
+      "103": {
+        "ID": 103,
+        "DataStage": 23,
+        "Version": "*",
+        "SeasonGroup": 1,
+        "FavorType": "EDS_FavorType::Unfavorite",
+        "ID_Grade": [
+          "EDS_GradeType::Normal",
+          "EDS_GradeType::High",
+          "EDS_GradeType::Rare",
+          "EDS_GradeType::Epic",
+          "EDS_GradeType::Legendary",
+          "EDS_GradeType::Myth"
+        ],
+        "RewardGradePoint": [
+          50,
+          75,
+          100,
+          125,
+          150,
+          175
+        ]
+      }
+    }
+  }
+]

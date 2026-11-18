@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WindowGroup",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/WindowGroup",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_WindowGroupTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_WindowWidgetGroup::HUD",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowWidget": [
+          "EDS_WindowWidget::RingCommandQuickSlot",
+          "EDS_WindowWidget::SkillSlot",
+          "EDS_WindowWidget::GaugeCharacter",
+          "EDS_WindowWidget::GaugeAction",
+          "EDS_WindowWidget::BtnPopupSkill",
+          "EDS_WindowWidget::TargetInfoMain",
+          "EDS_WindowWidget::DropItemNormal",
+          "EDS_WindowWidget::TrackerList",
+          "EDS_WindowWidget::MiniMap",
+          "EDS_WindowWidget::Chatting",
+          "EDS_WindowWidget::CheatKeyBtn",
+          "EDS_WindowWidget::MyParty",
+          "EDS_WindowWidget::GroupParty",
+          "EDS_WindowWidget::BtnParty",
+          "EDS_WindowWidget::HUDCrossHair",
+          "EDS_WindowWidget::MessageNotification",
+          "EDS_WindowWidget::QuestNavigation",
+          "EDS_WindowWidget::SmallTalk",
+          "EDS_WindowWidget::HUDPhasingTimer",
+          "EDS_WindowWidget::HUDTotalMenu",
+          "EDS_WindowWidget::InstanceTrackerList",
+          "EDS_WindowWidget::ScreenOffIndicator"
+        ],
+        "TestID": 0
+      },
+      "5": {
+        "ID": "EDS_WindowWidgetGroup::ItemCraft",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_WindowWidget": [
+          "EDS_WindowWidget::ItemCraft",
+          "EDS_WindowWidget::Chatting"
+        ],
+        "TestID": 0
+      }
+    }
+  }
+]

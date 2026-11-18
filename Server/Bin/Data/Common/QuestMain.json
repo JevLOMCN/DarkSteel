@@ -1,0 +1,401 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestMain",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestMain",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestMainTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1000000": {
+        "ID": 1000000,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000000,
+        "ChapterIndex": 1001,
+        "ID_AutoAcceptQuestId": 1000001,
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_CompleteNpc": 210161,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812150.0,
+          "Y": -2736890.0,
+          "Z": 480.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 1000000004
+        },
+        "ID_SectionStory": {
+          "ID": 1000000019
+        }
+      },
+      "1000001": {
+        "ID": 1000001,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000000,
+        "ChapterIndex": 1001,
+        "ID_AutoAcceptQuestId": 1000002,
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_CompleteNpc": 210162,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812150.0,
+          "Y": -2737320.0,
+          "Z": 480.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 0
+        },
+        "ID_SectionStory": {
+          "ID": 0
+        }
+      },
+      "1000002": {
+        "ID": 1000002,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000002,
+        "ChapterIndex": 1001,
+        "ID_AutoAcceptQuestId": 1000003,
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_CompleteNpc": 210163,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812150.0,
+          "Y": -2737710.0,
+          "Z": 480.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 1000000005
+        },
+        "ID_SectionStory": {
+          "ID": 1000000020
+        }
+      },
+      "1000003": {
+        "ID": 1000003,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000002,
+        "ChapterIndex": 1001,
+        "ID_AutoAcceptQuestId": 1000004,
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_CompleteNpc": 210164,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812150.0,
+          "Y": -2738060.0,
+          "Z": 480.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 0
+        },
+        "ID_SectionStory": {
+          "ID": 0
+        }
+      },
+      "1000004": {
+        "ID": 1000004,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000004,
+        "ChapterIndex": 1001,
+        "ID_AutoAcceptQuestId": 1000005,
+        "CompleteType": "EDS_CompleteType::Manual",
+        "ID_CompleteNpc": 210165,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2812150.0,
+          "Y": -2738400.0,
+          "Z": 480.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 1000000006
+        },
+        "ID_SectionStory": {
+          "ID": 1000000021
+        }
+      },
+      "1000005": {
+        "ID": 1000005,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000005,
+        "ChapterIndex": 1002,
+        "ID_AutoAcceptQuestId": 1000006,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210166,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2827590.0,
+          "Y": -2724760.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 1000000009
+        },
+        "ID_SectionStory": {
+          "ID": 1000000024
+        }
+      },
+      "1000006": {
+        "ID": 1000006,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000005,
+        "ChapterIndex": 1002,
+        "ID_AutoAcceptQuestId": 1000007,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210167,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2827590.0,
+          "Y": -2725190.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 0
+        },
+        "ID_SectionStory": {
+          "ID": 0
+        }
+      },
+      "1000007": {
+        "ID": 1000007,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000007,
+        "ChapterIndex": 1002,
+        "ID_AutoAcceptQuestId": 1000008,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210168,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2827590.0,
+          "Y": -2725580.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 1000000011
+        },
+        "ID_SectionStory": {
+          "ID": 1000000026
+        }
+      },
+      "1000008": {
+        "ID": 1000008,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000007,
+        "ChapterIndex": 1002,
+        "ID_AutoAcceptQuestId": 1000009,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210169,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2827590.0,
+          "Y": -2725930.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 0
+        },
+        "ID_SectionStory": {
+          "ID": 0
+        }
+      },
+      "1000009": {
+        "ID": 1000009,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000009,
+        "ChapterIndex": 1002,
+        "ID_AutoAcceptQuestId": 1000010,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210170,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2827590.0,
+          "Y": -2726270.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 1000000013
+        },
+        "ID_SectionStory": {
+          "ID": 1000000028
+        }
+      },
+      "1000010": {
+        "ID": 1000010,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000010,
+        "ChapterIndex": 1003,
+        "ID_AutoAcceptQuestId": 1000011,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210171,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2826930.0,
+          "Y": -2724760.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 1000000,
+        "ID_SectionTitle": {
+          "ID": 1000000014
+        },
+        "ID_SectionStory": {
+          "ID": 1000000029
+        }
+      },
+      "1000011": {
+        "ID": 1000011,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000010,
+        "ChapterIndex": 1003,
+        "ID_AutoAcceptQuestId": 1000012,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210172,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2826930.0,
+          "Y": -2725190.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 1000001,
+        "ID_SectionTitle": {
+          "ID": 0
+        },
+        "ID_SectionStory": {
+          "ID": 0
+        }
+      },
+      "1000012": {
+        "ID": 1000012,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000012,
+        "ChapterIndex": 1003,
+        "ID_AutoAcceptQuestId": 1000013,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210173,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2826930.0,
+          "Y": -2725580.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 1000000016
+        },
+        "ID_SectionStory": {
+          "ID": 1000000031
+        }
+      },
+      "1000013": {
+        "ID": 1000013,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000012,
+        "ChapterIndex": 1003,
+        "ID_AutoAcceptQuestId": 1000014,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210174,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2826930.0,
+          "Y": -2725930.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 0
+        },
+        "ID_SectionStory": {
+          "ID": 0
+        }
+      },
+      "1000014": {
+        "ID": 1000014,
+        "DataStage": 16,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000014,
+        "ChapterIndex": 1003,
+        "ID_AutoAcceptQuestId": 1000000,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 210175,
+        "ID_ResourceSequence": 1010010,
+        "ID_CompleteZone": 2001,
+        "CompleteCoordinate": {
+          "X": -2826930.0,
+          "Y": -2726270.0,
+          "Z": 680.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 1000000018
+        },
+        "ID_SectionStory": {
+          "ID": 1000000033
+        }
+      },
+      "1000015": {
+        "ID": 1000015,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_QuestMainInfoId": 1000015,
+        "ChapterIndex": 2001,
+        "ID_AutoAcceptQuestId": 1000000,
+        "CompleteType": "EDS_CompleteType::Auto",
+        "ID_CompleteNpc": 0,
+        "ID_ResourceSequence": 1,
+        "ID_CompleteZone": 6003,
+        "CompleteCoordinate": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ID_CompleteQuestFunction": 0,
+        "ID_SectionTitle": {
+          "ID": 1010100005
+        },
+        "ID_SectionStory": {
+          "ID": 1010100100
+        }
+      }
+    }
+  }
+]

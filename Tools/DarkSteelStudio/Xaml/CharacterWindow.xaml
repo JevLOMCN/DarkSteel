@@ -1,0 +1,40 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Character" Width="1180" Height="800" MinWidth="760" MinHeight="480"
+        WindowStartupLocation="CenterOwner" FontFamily="Segoe UI" FontSize="13"
+        Background="{DynamicResource Brush.Window}" Foreground="{DynamicResource Brush.Text}">
+    <!-- Full character profile (everything the game DB holds for one character, laid out like ReMir's
+         /character page). The tabs and their tables are created in CharacterWindow.cpp. -->
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <Border DockPanel.Dock="Top" Background="{StaticResource Brush.Sidebar}"
+                BorderBrush="{StaticResource Brush.Border}" BorderThickness="0,0,0,1" Padding="16,10">
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button x:Name="CwRefreshButton" Content="Refresh" ToolTip="Reload every table that has been opened"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Border Width="48" Height="48" Margin="0,0,12,0" VerticalAlignment="Center" CornerRadius="6"
+                            Background="#FF1A1B20" Padding="4">
+                        <Image x:Name="CwClassIcon" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    </Border>
+                    <StackPanel VerticalAlignment="Center">
+                    <TextBlock x:Name="CwTitleText" Style="{StaticResource PageTitleStyle}" Text="Character"/>
+                    <TextBlock x:Name="CwSubtitleText" Style="{StaticResource MutedTextStyle}" FontSize="12" Margin="0,2,0,0"/>
+                    </StackPanel>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+        <Border DockPanel.Dock="Bottom" Background="{StaticResource Brush.Sidebar}"
+                BorderBrush="{StaticResource Brush.Border}" BorderThickness="0,1,0,0" Padding="16,6">
+            <TextBlock x:Name="CwStatusText" Style="{StaticResource MutedTextStyle}" TextWrapping="Wrap" Text="Loading..."/>
+        </Border>
+        <TabControl x:Name="CwTabs" Margin="12"/>
+    </DockPanel>
+</Window>

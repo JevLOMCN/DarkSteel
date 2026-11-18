@@ -1,0 +1,239 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TransportBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/TransportBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_TransportBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::Elevator",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600002,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 400.0,
+        "ID_LogoutWarpLocation": [
+          9999
+        ],
+        "BoardingRange": [
+          1,
+          1,
+          1
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::SpaceShip",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600001,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 1500.0,
+        "ID_LogoutWarpLocation": [
+          9999,
+          19992
+        ],
+        "BoardingRange": [
+          4000,
+          2500,
+          1500
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::SpaceShip",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600001,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 1500.0,
+        "ID_LogoutWarpLocation": [
+          9999,
+          19992
+        ],
+        "BoardingRange": [
+          4000,
+          2500,
+          1500
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::Elevator",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600002,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 400.0,
+        "ID_LogoutWarpLocation": [
+          9999
+        ],
+        "BoardingRange": [
+          1,
+          1,
+          1
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::Elevator",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600002,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 400.0,
+        "ID_LogoutWarpLocation": [
+          19992
+        ],
+        "BoardingRange": [
+          1,
+          1,
+          1
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::Elevator",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600002,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 400.0,
+        "ID_LogoutWarpLocation": [
+          19992
+        ],
+        "BoardingRange": [
+          1,
+          1,
+          1
+        ]
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::Elevator",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600002,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 850.0,
+        "ID_LogoutWarpLocation": [
+          40001
+        ],
+        "BoardingRange": [
+          1,
+          1,
+          1
+        ]
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::Elevator",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600002,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 500.0,
+        "ID_LogoutWarpLocation": [
+          19992
+        ],
+        "BoardingRange": [
+          1,
+          1,
+          1
+        ]
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::Ship",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600003,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 350.0,
+        "ID_LogoutWarpLocation": [
+          9008
+        ],
+        "BoardingRange": [
+          4000,
+          2500,
+          1500
+        ]
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::Ship",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600004,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 400.0,
+        "ID_LogoutWarpLocation": [
+          9008
+        ],
+        "BoardingRange": [
+          4000,
+          2500,
+          1500
+        ]
+      },
+      "11": {
+        "ID": 11,
+        "DataStage": 16,
+        "Version": "*",
+        "TransportType": "EDS_TransportType::Ship",
+        "ID_Name": 1,
+        "ID_Resource": 0,
+        "ID_ResourcePreset": 600004,
+        "ID_BpLink": 40001,
+        "IsOperate": false,
+        "Speed": 280.0,
+        "ID_LogoutWarpLocation": [
+          9008
+        ],
+        "BoardingRange": [
+          4000,
+          2500,
+          1500
+        ]
+      }
+    }
+  }
+]

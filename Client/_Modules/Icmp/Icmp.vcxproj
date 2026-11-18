@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{031A69FF-6DF1-52ED-A6FF-7F537CC2DAF5}</ProjectGuid><RootNamespace>Icmp</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FIcmp.cpp" />
+    <ClCompile Include="Private\FIcmpAsyncResult.cpp" />
+    <ClCompile Include="Private\FIcmpModule.cpp" />
+    <ClCompile Include="Private\FProgress.cpp" />
+    <ClCompile Include="Private\FProgressKey.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FUDPPing.cpp" />
+    <ClCompile Include="Private\FUDPPingAsyncResult.cpp" />
+    <ClCompile Include="Private\FUdpPingBody.cpp" />
+    <ClCompile Include="Private\FUdpPingHeader.cpp" />
+    <ClCompile Include="Private\FUdpPingManyAsync.cpp" />
+    <ClCompile Include="Private\FUdpPingPacket.cpp" />
+    <ClCompile Include="Private\FUdpPingWorker.cpp" />
+    <ClCompile Include="Private\TAsyncGraphTask.cpp" />
+    <ClCompile Include="Private\TAsyncQueuedWork.cpp" />
+    <ClCompile Include="Private\TAsyncRunnable.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TFunctionRefBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TFutureBase.cpp" />
+    <ClCompile Include="Private\TFutureState.cpp" />
+    <ClCompile Include="Private\TGraphTask.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TPromise.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTupleBase.cpp" />
+    <ClCompile Include="Private\UDPPing.cpp" />
+    <ClCompile Include="Private\_Free\Module.Icmp.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

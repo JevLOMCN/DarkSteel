@@ -1,0 +1,21 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum GimmickActionType {
+  GimmickActionType_GimmickStdStateType = 0;
+  GimmickActionType_OpenState = 1;
+  GimmickActionType_CloseState = 2;
+  GimmickActionType_SendEvent = 3;
+  GimmickActionType_Die = 4;
+  GimmickActionType_Disappear = 5;
+  GimmickActionType_EventSkill = 6;
+  GimmickActionType_BuffID = 7;
+  GimmickActionType_OnState = 8;
+  GimmickActionType_OffState = 9;
+  GimmickActionType_SealAwake = 10;
+  GimmickActionType_Enable = 11;
+  GimmickActionType_Disable = 12;
+  GimmickActionType_DisplayShow = 13;
+  GimmickActionType_DisplayHide = 14;
+}

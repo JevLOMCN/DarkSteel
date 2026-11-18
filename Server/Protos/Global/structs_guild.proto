@@ -1,0 +1,15 @@
+syntax = "proto3";
+package ds_proto;
+option csharp_namespace = "MirProto.DsProto";
+
+
+message GuildInfo {
+  oneof Item {
+    string guild_name = 1;
+    int32 title = 2;
+    int32 icon = 3;
+    string desc = 4;
+    bool auto_accept = 5;
+    int32 combat_power_restrict = 6;
+  }
+}

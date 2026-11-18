@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "QuestDailySuggest",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/QuestDailySuggest",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_QuestDailySuggestTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "AscenderLevel": 1,
+        "ID_StuffBase": 1000000,
+        "ID_QuestDailyGroup": 1001
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "AscenderLevel": 7,
+        "ID_StuffBase": 1000001,
+        "ID_QuestDailyGroup": 1001
+      }
+    }
+  }
+]

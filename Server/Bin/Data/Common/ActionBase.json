@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ActionBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ActionBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ActionBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_ActionFunctionType::ReturnHome",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Icon": 5003,
+        "ID_Name": {
+          "ID": 5701
+        },
+        "ID_Description": {
+          "ID": 5801
+        },
+        "ID_RequestQuest": 0,
+        "RequestPlayerLevel": 0,
+        "Order": 1,
+        "ID_TimeCoolDown": "EDS_CoolDownType::ActionReturnHome"
+      },
+      "2": {
+        "ID": "EDS_ActionFunctionType::PartyCreate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Icon": 5704,
+        "ID_Name": {
+          "ID": 5704
+        },
+        "ID_Description": {
+          "ID": 5804
+        },
+        "ID_RequestQuest": 0,
+        "RequestPlayerLevel": 0,
+        "Order": 2,
+        "ID_TimeCoolDown": "EDS_CoolDownType::ActionPartyCreate"
+      },
+      "3": {
+        "ID": "EDS_ActionFunctionType::OpenMap",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Icon": 5705,
+        "ID_Name": {
+          "ID": 5705
+        },
+        "ID_Description": {
+          "ID": 5805
+        },
+        "ID_RequestQuest": 0,
+        "RequestPlayerLevel": 0,
+        "Order": 3,
+        "ID_TimeCoolDown": "EDS_CoolDownType::ActionOpenMap"
+      },
+      "5": {
+        "ID": "EDS_ActionFunctionType::Detection",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Icon": 180016,
+        "ID_Name": {
+          "ID": 440016
+        },
+        "ID_Description": {
+          "ID": 440116
+        },
+        "ID_RequestQuest": 0,
+        "RequestPlayerLevel": 0,
+        "Order": 5,
+        "ID_TimeCoolDown": "EDS_CoolDownType::ActionDetection"
+      },
+      "6": {
+        "ID": "EDS_ActionFunctionType::Mount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_Icon": 5707,
+        "ID_Name": {
+          "ID": 440003
+        },
+        "ID_Description": {
+          "ID": 440103
+        },
+        "ID_RequestQuest": 0,
+        "RequestPlayerLevel": 0,
+        "Order": 6,
+        "ID_TimeCoolDown": "EDS_CoolDownType::ActionMount"
+      }
+    }
+  }
+]

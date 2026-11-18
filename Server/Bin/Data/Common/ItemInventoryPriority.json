@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ItemInventoryPriority",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ItemInventoryPriority",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ItemInventoryPriorityTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_ItemInvenPriorityType::GetNormal",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::PlayerNormal"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "3": {
+        "ID": "EDS_ItemInvenPriorityType::GetPlayerInvenOnly",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::PlayerNormal"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "2": {
+        "ID": "EDS_ItemInvenPriorityType::GetUi",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::PlayerNormal"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "11": {
+        "ID": "EDS_ItemInvenPriorityType::RemoveNormal",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::PlayerNormal"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "12": {
+        "ID": "EDS_ItemInvenPriorityType::RemoveUseItem",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::PlayerNormal"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "13": {
+        "ID": "EDS_ItemInvenPriorityType::RemoveDirectResistItem",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::PlayerNormal"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "14": {
+        "ID": "EDS_ItemInvenPriorityType::RemovePlayerInvenOnly",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::PlayerNormal"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "21": {
+        "ID": "EDS_ItemInvenPriorityType::PlayerInventory",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::PlayerNormal"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::PlayerNormal"
+        ]
+      },
+      "22": {
+        "ID": "EDS_ItemInvenPriorityType::MountInventory",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::Mount"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::Mount"
+        ]
+      },
+      "23": {
+        "ID": "EDS_ItemInvenPriorityType::WareHouse",
+        "DataStage": 23,
+        "InventoryPriorityType01": [
+          "EDS_InventoryType::PlayerWareHouse"
+        ],
+        "InventoryPriorityType02": [
+          "EDS_InventoryType::PlayerWareHouse"
+        ]
+      }
+    }
+  }
+]

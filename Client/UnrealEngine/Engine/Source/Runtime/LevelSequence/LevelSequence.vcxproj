@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{49D03E95-E7CF-5BAA-B2E2-060B5AC292C6}</ProjectGuid><RootNamespace>LevelSequence</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\ALevelSequenceActor.cpp" />
+    <ClCompile Include="Private\ALevelSequenceMediaController.cpp" />
+    <ClCompile Include="Private\AReplicatedLevelSequenceActor.cpp" />
+    <ClCompile Include="Private\FBoundActorProxy.cpp" />
+    <ClCompile Include="Private\FCameraCutPlaybackCapability.cpp" />
+    <ClCompile Include="Private\FLegacyLazyObjectPtrFragment.cpp" />
+    <ClCompile Include="Private\FLevelSequenceActorSpawner.cpp" />
+    <ClCompile Include="Private\FLevelSequenceAnimSequenceLinkItem.cpp" />
+    <ClCompile Include="Private\FLevelSequenceBindingReference.cpp" />
+    <ClCompile Include="Private\FLevelSequenceBindingReferenceArray.cpp" />
+    <ClCompile Include="Private\FLevelSequenceBindingReferences.cpp" />
+    <ClCompile Include="Private\FLevelSequenceCameraSettings.cpp" />
+    <ClCompile Include="Private\FLevelSequenceLegacyObjectReference.cpp" />
+    <ClCompile Include="Private\FLevelSequenceModule.cpp" />
+    <ClCompile Include="Private\FLevelSequenceObject.cpp" />
+    <ClCompile Include="Private\FLevelSequenceObjectReferenceMap.cpp" />
+    <ClCompile Include="Private\FLevelSequencePlayerSnapshot.cpp" />
+    <ClCompile Include="Private\FLevelSequenceSpawnRegister.cpp" />
+    <ClCompile Include="Private\FPlaybackCapabilitiesImpl.cpp" />
+    <ClCompile Include="Private\FResolveParameterBuffer.cpp" />
+    <ClCompile Include="Private\FSharedPlaybackState.cpp" />
+    <ClCompile Include="Private\FSoftClassPath.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FUniversalObjectLocator.cpp" />
+    <ClCompile Include="Private\FUniversalObjectLocatorFragment.cpp" />
+    <ClCompile Include="Private\FUpgradedLevelSequenceBindingReferences.cpp" />
+    <ClCompile Include="Private\IMovieSceneBindingOwnerInterface.cpp" />
+    <ClCompile Include="Private\IMovieSceneCustomClockSource.cpp" />
+    <ClCompile Include="Private\IMovieSceneObjectSpawner.cpp" />
+    <ClCompile Include="Private\IMovieScenePlaybackClient.cpp" />
+    <ClCompile Include="Private\IMovieSceneTransformOrigin.cpp" />
+    <ClCompile Include="Private\IUniversalObjectLocatorModule.cpp" />
+    <ClCompile Include="Private\IWorldPartitionObjectResolver.cpp" />
+    <ClCompile Include="Private\TBaseDynamicDelegate.cpp" />
+    <ClCompile Include="Private\TBaseDynamicMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TBaseStaticDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TPlaybackCapabilityDestructor.cpp" />
+    <ClCompile Include="Private\TPlaybackCapabilityInterfaceCast.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UAnimSequenceLevelSequenceLink.cpp" />
+    <ClCompile Include="Private\UBlueprint.cpp" />
+    <ClCompile Include="Private\UDefaultLevelSequenceInstanceData.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\ULegacyLevelSequenceDirectorBlueprint.cpp" />
+    <ClCompile Include="Private\ULevelSequence.cpp" />
+    <ClCompile Include="Private\ULevelSequenceAnimSequenceLink.cpp" />
+    <ClCompile Include="Private\ULevelSequenceBurnIn.cpp" />
+    <ClCompile Include="Private\ULevelSequenceBurnInInitSettings.cpp" />
+    <ClCompile Include="Private\ULevelSequenceBurnInOptions.cpp" />
+    <ClCompile Include="Private\ULevelSequenceDirector.cpp" />
+    <ClCompile Include="Private\ULevelSequencePlayer.cpp" />
+    <ClCompile Include="Private\ULevelSequenceProjectSettings.cpp" />
+    <ClCompile Include="Private\ULevelSequenceShotMetaDataLibrary.cpp" />
+    <ClCompile Include="Private\_Free\Module.LevelSequence.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

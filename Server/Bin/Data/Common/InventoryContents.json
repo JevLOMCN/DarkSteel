@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "InventoryContents",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/InventoryContents",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_InventoryContentsTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "ID_CategoryIcon": [],
+        "ID_CategoryName": [],
+        "ItemType": [],
+        "ID_Item": []
+      }
+    }
+  }
+]

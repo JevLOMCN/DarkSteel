@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ReturnHome",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ReturnHome",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ReturnHomeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ReturnName": {
+          "ID": 112055
+        },
+        "ID_WarpLacation": [
+          50001,
+          50002,
+          50003,
+          50004,
+          50005
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "ID_ReturnName": {
+          "ID": 119103
+        },
+        "ID_WarpLacation": [
+          50011,
+          50012,
+          50013,
+          50014,
+          50015
+        ]
+      }
+    }
+  }
+]

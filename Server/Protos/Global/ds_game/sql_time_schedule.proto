@@ -1,0 +1,12 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "google/protobuf/timestamp.proto";
+
+message SqlTimeScheduleTable {
+  int64 player_uid = 1;
+  int32 schedule_id = 3;
+  google.protobuf.Timestamp last_update_dt = 4;
+}

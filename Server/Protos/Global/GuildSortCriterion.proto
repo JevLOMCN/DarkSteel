@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum GuildSortCriterion {
+  GuildSortCriterion_UNSPECIFIED = 0;
+  GuildSortCriterion_LEVEL = 1;
+  GuildSortCriterion_MEMBER_COUNT = 2;
+  GuildSortCriterion_CREATED_AT = 3;
+}

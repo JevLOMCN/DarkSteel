@@ -1,0 +1,636 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "BubbleTalkBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/BubbleTalkBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_BubbleTalkBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 10001,
+        "BubbleTalkGroupCooltime": 5.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70004,
+          70005
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0,
+          0
+        ]
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 10001,
+        "BubbleTalkGroupCooltime": 5.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70001,
+          70002,
+          70003,
+          70004
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 10002,
+        "BubbleTalkGroupCooltime": 5.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70001,
+          70002,
+          70003,
+          70004
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 20001,
+        "BubbleTalkGroupCooltime": 5.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Random",
+        "ID_StringDialogue": [
+          70004,
+          70006
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          50,
+          50
+        ]
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 20002,
+        "BubbleTalkGroupCooltime": 5.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70001,
+          70005
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 20003,
+        "BubbleTalkGroupCooltime": 5.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70004
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "13": {
+        "ID": 13,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 510101,
+        "BubbleTalkGroupCooltime": 30.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70007,
+          70008
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0,
+          0
+        ]
+      },
+      "14": {
+        "ID": 14,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 510102,
+        "BubbleTalkGroupCooltime": 30.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70009,
+          70011
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0,
+          0
+        ]
+      },
+      "15": {
+        "ID": 15,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 510103,
+        "BubbleTalkGroupCooltime": 30.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70013,
+          70015
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0,
+          0
+        ]
+      },
+      "16": {
+        "ID": 16,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 510104,
+        "BubbleTalkGroupCooltime": 30.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70016,
+          70018
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0,
+          0
+        ]
+      },
+      "17": {
+        "ID": 17,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 510105,
+        "BubbleTalkGroupCooltime": 30.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70019,
+          70020,
+          70021
+        ],
+        "BubbleTalkAnimation": [
+          0,
+          0,
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0,
+          5.0,
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0,
+          0,
+          0
+        ]
+      },
+      "70101001": {
+        "ID": 70101001,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 70101001,
+        "BubbleTalkGroupCooltime": 15.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70101001
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "70101002": {
+        "ID": 70101002,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 70101002,
+        "BubbleTalkGroupCooltime": 15.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70101002
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "70101003": {
+        "ID": 70101003,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 70101003,
+        "BubbleTalkGroupCooltime": 15.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70101003
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "70101011": {
+        "ID": 70101011,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 70101011,
+        "BubbleTalkGroupCooltime": 15.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70101011
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "70101012": {
+        "ID": 70101012,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 70101012,
+        "BubbleTalkGroupCooltime": 15.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70101012
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "70101013": {
+        "ID": 70101013,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 70101013,
+        "BubbleTalkGroupCooltime": 15.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70101013
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "70101014": {
+        "ID": 70101014,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 70101014,
+        "BubbleTalkGroupCooltime": 15.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70101014
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "70101015": {
+        "ID": 70101015,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 70101015,
+        "BubbleTalkGroupCooltime": 15.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70101015
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      },
+      "70101016": {
+        "ID": 70101016,
+        "DataStage": 23,
+        "Version": "*",
+        "BubbleTalkGroupID": 70101016,
+        "BubbleTalkGroupCooltime": 20.0,
+        "BubbleTalkConditionType": [
+          "EDS_BubbleTalkConditionType::All",
+          "EDS_BubbleTalkConditionType::None"
+        ],
+        "BubbleTalkConditionValue": [
+          0,
+          0
+        ],
+        "BubbleTalkType": "EDS_BubbleTalkType::Sequential",
+        "ID_StringDialogue": [
+          70101016
+        ],
+        "BubbleTalkAnimation": [
+          0
+        ],
+        "BubbleTalkKeepTime": [
+          5.0
+        ],
+        "BubbleTalkRate": [
+          0
+        ]
+      }
+    }
+  }
+]

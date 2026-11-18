@@ -1,0 +1,14 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum PkModeType {
+  PkModeType_None = 0;
+  PkModeType_Peace = 1;
+  PkModeType_Justice = 2;
+  PkModeType_Wanted = 3;
+  PkModeType_GuildEnemy = 4;
+  PkModeType_Lawless = 5;
+  PkModeType_Duel = 11;
+  PkModeType_TeamMode = 12;
+}

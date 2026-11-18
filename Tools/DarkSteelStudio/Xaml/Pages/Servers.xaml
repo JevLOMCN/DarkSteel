@@ -1,0 +1,88 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Theme merged relative to this file for the XAML designer; the runtime
+         loader sets ParserContext.BaseUri so the relative Source resolves. -->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <DockPanel>
+        <!-- Server control: logic in MainWindow.cpp (PopulateServersPage) + ServerControl -->
+        <WrapPanel DockPanel.Dock="Top" Margin="0,0,0,8">
+            <Button x:Name="SrvStartAllButton" Content="Start All" Style="{StaticResource PrimaryButtonStyle}" Margin="0,0,8,8"
+                    ToolTip="Starts Maestro, the Gateway and the Game Server, in that order"/>
+            <Button x:Name="SrvStopAllButton" Content="Stop All" Margin="0,0,8,8"
+                    ToolTip="Stops the Game Server, Gateway and Maestro"/>
+            <Button x:Name="SrvStartButton" Content="Start Selected" Margin="0,0,8,8"/>
+            <Button x:Name="SrvStopButton" Content="Stop Selected" Margin="0,0,8,8"/>
+            <Button x:Name="SrvRestartButton" Content="Restart Selected" Margin="0,0,8,8"/>
+            <Button x:Name="SrvConfigButton" Content="Open Settings" Margin="0,0,8,8"
+                    ToolTip="Edit Server\Bin\Config\settings.json, the one file all services share"/>
+            <Button x:Name="SrvRefreshButton" Content="Refresh" Margin="0,0,8,8"/>
+            <ComboBox x:Name="SrvLaunchModeBox" Width="150" Margin="0,0,8,8" SelectedIndex="0"
+                      ToolTip="External: each server opens its own console window. Internal: started hidden (watch the log panel below).">
+                <ComboBoxItem Content="Open External" Tag="0"/>
+                <ComboBoxItem Content="Open Internal" Tag="1"/>
+            </ComboBox>
+        </WrapPanel>
+        <TextBlock x:Name="SrvStatusText" DockPanel.Dock="Top" Style="{StaticResource MutedTextStyle}" Margin="0,0,0,10"
+                   TextWrapping="Wrap" Text="Reading server status..."/>
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" MinHeight="120"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="2*" MinHeight="140"/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="ServersGrid" Grid.Row="0" AutoGenerateColumns="False" IsReadOnly="True"
+                  SelectionMode="Extended" SelectionUnit="FullRow" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Server" Width="190" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Process" Width="170" Binding="{Binding ProcessName}"/>
+                <DataGridTextColumn Header="Status" Width="110" Binding="{Binding Status}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="FontWeight" Value="SemiBold"/>
+                            <Setter Property="Foreground" Value="{StaticResource Brush.TextMuted}"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Status}" Value="Running">
+                                    <Setter Property="Foreground" Value="{StaticResource Brush.Ok}"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Status}" Value="Stopped">
+                                    <Setter Property="Foreground" Value="{StaticResource Brush.Error}"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="PID" Width="110" Binding="{Binding Pid}"/>
+                <DataGridTextColumn Header="Uptime" Width="120" Binding="{Binding Uptime}"/>
+                <DataGridTextColumn Header="Memory" Width="*" Binding="{Binding Memory}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <GridSplitter Grid.Row="1" Height="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent"/>
+
+        <!-- Log of the selected server: newest log file, tail only, refreshed with the status poll -->
+        <Border Grid.Row="2" Style="{StaticResource CardStyle}" Margin="0" Padding="10">
+            <DockPanel>
+                <DockPanel DockPanel.Dock="Top" Margin="0,0,0,8">
+                    <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
+                        <CheckBox x:Name="LogFollowCheck" Content="Follow" IsChecked="True" Margin="0,0,12,0" VerticalAlignment="Center"
+                                  ToolTip="Keep the view scrolled to the newest line"/>
+                        <Button x:Name="LogOpenFileButton" Content="Open file" Margin="0,0,8,0"/>
+                        <Button x:Name="LogOpenFolderButton" Content="Open folder"/>
+                    </StackPanel>
+                    <TextBlock x:Name="LogTitleText" Style="{StaticResource CardTitleStyle}" VerticalAlignment="Center"
+                               TextTrimming="CharacterEllipsis" Text="LOG - select a server above"/>
+                </DockPanel>
+                <TextBox x:Name="LogTextBox" IsReadOnly="True" FontFamily="Consolas" FontSize="12"
+                         TextWrapping="NoWrap" AcceptsReturn="True"
+                         VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+            </DockPanel>
+        </Border>
+        </Grid>
+    </DockPanel>
+</UserControl>

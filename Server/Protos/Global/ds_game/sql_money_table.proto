@@ -1,0 +1,12 @@
+syntax = "proto3";
+package ds_game;
+option csharp_namespace = "MirProto.DsGame";
+
+import "_db.proto";
+import "MoneyType.proto";
+
+message SqlMoneyTable {
+  int64 player_uid = 1;
+  MoneyType money_id = 2;
+  int64 quantity = 3;
+}

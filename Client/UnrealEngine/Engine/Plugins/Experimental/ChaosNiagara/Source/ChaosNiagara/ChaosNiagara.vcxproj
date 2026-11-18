@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{1378623B-7597-5694-804B-5C4DB4879762}</ProjectGuid><RootNamespace>ChaosNiagara</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FChaosDestructionEvent.cpp" />
+    <ClCompile Include="Private\FChaosNiagaraModule.cpp" />
+    <ClCompile Include="Private\FEventManager.cpp" />
+    <ClCompile Include="Private\FNDIChaosDestruction_InstanceData.cpp" />
+    <ClCompile Include="Private\FNDIGeometryCollectionArrays.cpp" />
+    <ClCompile Include="Private\FNDIGeometryCollectionBuffer.cpp" />
+    <ClCompile Include="Private\FNDIGeometryCollectionData.cpp" />
+    <ClCompile Include="Private\FNDIGeometryCollectionProxy.cpp" />
+    <ClCompile Include="Private\FNDIPhysicsFieldData.cpp" />
+    <ClCompile Include="Private\FNDIPhysicsFieldProxy.cpp" />
+    <ClCompile Include="Private\FNiagaraDIChaosDestruction_GPUData.cpp" />
+    <ClCompile Include="Private\FNiagaraDataInterfaceProxyChaosDestruction.cpp" />
+    <ClCompile Include="Private\FResolvedNiagaraGeometryCollection.cpp" />
+    <ClCompile Include="Private\FShaderGlobalParameters.cpp" />
+    <ClCompile Include="Private\FShaderInstanceParameters.cpp" />
+    <ClCompile Include="Private\FShaderParameters.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FUserPtrHandler.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayView.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TContainerElementTypeCompatibility_DefaultOperatorFunc.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TKeyInitializer.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TNDIParamBinder.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TRawEventHandler.cpp" />
+    <ClCompile Include="Private\TRenderCommandTag.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TShaderParameterStructTypeInfo.cpp" />
+    <ClCompile Include="Private\TSoftObjectPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetAngularVelocityBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetColorBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetDensityBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetExtentMaxBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetExtentMinBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetFrictionBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetNormalBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetParticleIdsToSpawnAtTimeBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetPointTypeBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetPositionBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetRestitutionBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetSizeBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetSolverTimeBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetSurfaceTypeBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetVelocityBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfaceChaosDestruction_GetVolumeBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfacePhysicsField_GetPhysicsFieldResolutionBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfacePhysicsField_SamplePhysicsIntegerFieldBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfacePhysicsField_SamplePhysicsScalarFieldBinder.cpp" />
+    <ClCompile Include="Private\TUNiagaraDataInterfacePhysicsField_SamplePhysicsVectorFieldBinder.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UNiagaraDataInterfaceChaosDestruction.cpp" />
+    <ClCompile Include="Private\UNiagaraDataInterfaceGeometryCollection.cpp" />
+    <ClCompile Include="Private\UNiagaraDataInterfacePhysicsField.cpp" />
+    <ClCompile Include="Private\_Free\Module.ChaosNiagara.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,155 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "NpcRoleType",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/NpcRoleType",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_NpcRoleTypeTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": "EDS_RoleType::Dealer",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 40004
+      },
+      "2": {
+        "ID": "EDS_RoleType::Craftsman",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 40004
+      },
+      "3": {
+        "ID": "EDS_RoleType::Trader",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 40004
+      },
+      "4": {
+        "ID": "EDS_RoleType::ReturnHome",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 40005
+      },
+      "5": {
+        "ID": "EDS_RoleType::Camp",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 0
+      },
+      "6": {
+        "ID": "EDS_RoleType::NpcTaming",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 221001
+      },
+      "7": {
+        "ID": "EDS_RoleType::RepeatQuest",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 70008
+      },
+      "8": {
+        "ID": "EDS_RoleType::Mount",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 0
+      },
+      "9": {
+        "ID": "EDS_RoleType::Warehouse",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 40011
+      },
+      "10": {
+        "ID": "EDS_RoleType::MountManagement",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 40109
+      },
+      "11": {
+        "ID": "EDS_RoleType::StuffStone",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 50001
+      },
+      "12": {
+        "ID": "EDS_RoleType::StuffPlant",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 50003
+      },
+      "13": {
+        "ID": "EDS_RoleType::StuffTree",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 50002
+      },
+      "14": {
+        "ID": "EDS_RoleType::StuffBox",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 50004
+      },
+      "15": {
+        "ID": "EDS_RoleType::StuffUnderWaterStuff",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 50003
+      },
+      "16": {
+        "ID": "EDS_RoleType::StuffArchaeology",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 180301
+      },
+      "17": {
+        "ID": "EDS_RoleType::StuffBreach",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 0
+      },
+      "18": {
+        "ID": "EDS_RoleType::StuffGate",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 0
+      },
+      "19": {
+        "ID": "EDS_RoleType::StuffInn",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 0
+      },
+      "20": {
+        "ID": "EDS_RoleType::StuffQuestBoard",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 70501
+      },
+      "21": {
+        "ID": "EDS_RoleType::StuffWarpDevice",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 50005
+      },
+      "22": {
+        "ID": "EDS_RoleType::QuestInteraction",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 70500
+      },
+      "23": {
+        "ID": "EDS_RoleType::Detect",
+        "DataStage": 23,
+        "Version": "*",
+        "ID_RoleIcon": 180016
+      }
+    }
+  }
+]

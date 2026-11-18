@@ -1,0 +1,476 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AchievementDefine",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/AchievementDefine",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_AchievementDefineTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "100": {
+        "ID": 100,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::PlayerConnection",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "110": {
+        "ID": 110,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::PlayerDying",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "140": {
+        "ID": 140,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::PlayerGrade",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "201": {
+        "ID": 201,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::GatheringType",
+        "AchievementDefineValue1": 1,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "202": {
+        "ID": 202,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::GatheringType",
+        "AchievementDefineValue1": 2,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "203": {
+        "ID": 203,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::GatheringType",
+        "AchievementDefineValue1": 3,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "204": {
+        "ID": 204,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::GatheringType",
+        "AchievementDefineValue1": 4,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "250": {
+        "ID": 250,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::ItemTypeUse",
+        "AchievementDefineValue1": 1001,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "251": {
+        "ID": 251,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::ItemTypeUse",
+        "AchievementDefineValue1": 1002,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "300": {
+        "ID": 300,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::MonsterKillAll",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "320": {
+        "ID": 320,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::MonsterKillZone",
+        "AchievementDefineValue1": 1002,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "330": {
+        "ID": 330,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::MonsterKillGradeType",
+        "AchievementDefineValue1": 1,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "331": {
+        "ID": 331,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::MonsterKillGradeType",
+        "AchievementDefineValue1": 2,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "332": {
+        "ID": 332,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::MonsterKillGradeType",
+        "AchievementDefineValue1": 3,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "333": {
+        "ID": 333,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::MonsterKillGradeType",
+        "AchievementDefineValue1": 4,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "334": {
+        "ID": 334,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::MonsterKillGradeType",
+        "AchievementDefineValue1": 5,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "335": {
+        "ID": 335,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::MonsterKillGradeType",
+        "AchievementDefineValue1": 6,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "350": {
+        "ID": 350,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::MonsterKillZoneGroup",
+        "AchievementDefineValue1": 1,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "510": {
+        "ID": 510,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::QuestCompleteType",
+        "AchievementDefineValue1": 1,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "511": {
+        "ID": 511,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::QuestCompleteType",
+        "AchievementDefineValue1": 2,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "512": {
+        "ID": 512,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::QuestCompleteType",
+        "AchievementDefineValue1": 5,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "513": {
+        "ID": 513,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::QuestCompleteType",
+        "AchievementDefineValue1": 6,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "514": {
+        "ID": 514,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::QuestCompleteType",
+        "AchievementDefineValue1": 7,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "600": {
+        "ID": 600,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::BreachClearAll",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "601": {
+        "ID": 601,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::BreachClearZone",
+        "AchievementDefineValue1": 2001,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "700": {
+        "ID": 700,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::GateClearAll",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "701": {
+        "ID": 701,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::GateClearZone",
+        "AchievementDefineValue1": 2001,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "800": {
+        "ID": 800,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::BreachTypeDiscovery",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "801": {
+        "ID": 801,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::GateTypeDiscovery",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "1000": {
+        "ID": 1000,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::CharacterLevelUpAppoint",
+        "AchievementDefineValue1": 1,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "1001": {
+        "ID": 1001,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::CharacterLevelUpAppoint",
+        "AchievementDefineValue1": 2,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "1002": {
+        "ID": 1002,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::CharacterLevelUpAppoint",
+        "AchievementDefineValue1": 3,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "1003": {
+        "ID": 1003,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::CharacterLevelUpAppoint",
+        "AchievementDefineValue1": 4,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "1004": {
+        "ID": 1004,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::CharacterLevelUpAppoint",
+        "AchievementDefineValue1": 5,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "1005": {
+        "ID": 1005,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::CharacterLevelUpAppoint",
+        "AchievementDefineValue1": 6,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "1300": {
+        "ID": 1300,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::DungeonClearType",
+        "AchievementDefineValue1": 1,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "1301": {
+        "ID": 1301,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::DungeonClearType",
+        "AchievementDefineValue1": 2,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "1302": {
+        "ID": 1302,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::DungeonClearType",
+        "AchievementDefineValue1": 3,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "2000": {
+        "ID": 2000,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::NpcRelationGrade",
+        "AchievementDefineValue1": 900067,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "3000": {
+        "ID": 3000,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::TamingSuccess",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "3001": {
+        "ID": 3001,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::TamingFail",
+        "AchievementDefineValue1": 0,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "4000": {
+        "ID": 4000,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::PlayerSkillLevelUp",
+        "AchievementDefineValue1": 12,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "4001": {
+        "ID": 4001,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::PlayerSkillLevelUp",
+        "AchievementDefineValue1": 7,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "4050": {
+        "ID": 4050,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::PlayerSkillUse",
+        "AchievementDefineValue1": 12,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "4051": {
+        "ID": 4051,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::PlayerSkillUse",
+        "AchievementDefineValue1": 7,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Add"
+      },
+      "5100": {
+        "ID": 5100,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::SkillGrowLevel",
+        "AchievementDefineValue1": 10201,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "5101": {
+        "ID": 5101,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::SkillGrowLevel",
+        "AchievementDefineValue1": 10202,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "5102": {
+        "ID": 5102,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::SkillGrowLevel",
+        "AchievementDefineValue1": 10203,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "5103": {
+        "ID": 5103,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::SkillGrowLevel",
+        "AchievementDefineValue1": 10204,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "5104": {
+        "ID": 5104,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::SkillGrowLevel",
+        "AchievementDefineValue1": 10205,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      },
+      "5105": {
+        "ID": 5105,
+        "DataStage": 23,
+        "Version": "*",
+        "AchievementDefine": "EDS_AchievementDefineType::SkillGrowLevel",
+        "AchievementDefineValue1": 10206,
+        "AchievementDefineValue2": 0,
+        "OperationType": "EDS_OperationType::Set"
+      }
+    }
+  }
+]

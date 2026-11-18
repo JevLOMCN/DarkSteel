@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{180E9256-D6EA-59F6-A3AB-90AF939928E5}</ProjectGuid><RootNamespace>PCGGeometryScriptInterop</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FPCGAppendMeshesFromPointsElement.cpp" />
+    <ClCompile Include="Private\FPCGBooleanOperationElement.cpp" />
+    <ClCompile Include="Private\FPCGContext.cpp" />
+    <ClCompile Include="Private\FPCGCreateEmptyDynamicMeshElement.cpp" />
+    <ClCompile Include="Private\FPCGDataCollection.cpp" />
+    <ClCompile Include="Private\FPCGDynamicMeshTransformElement.cpp" />
+    <ClCompile Include="Private\FPCGGeometryScriptInteropModule.cpp" />
+    <ClCompile Include="Private\FPCGMergeDynamicMeshesElement.cpp" />
+    <ClCompile Include="Private\FPCGMeshSamplerContext.cpp" />
+    <ClCompile Include="Private\FPCGMeshSamplerElement.cpp" />
+    <ClCompile Include="Private\FPCGMetadataAttribute.cpp" />
+    <ClCompile Include="Private\FPCGPrimitiveCrossSectionElement.cpp" />
+    <ClCompile Include="Private\FPCGSaveDynamicMeshToAssetElement.cpp" />
+    <ClCompile Include="Private\FPCGSpawnDynamicMeshElement.cpp" />
+    <ClCompile Include="Private\FPCGSplineToMeshElement.cpp" />
+    <ClCompile Include="Private\FPCGStaticMeshToDynamicMeshElement.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTriangulateCurvesOp.cpp" />
+    <ClCompile Include="Private\IPCGDynamicMeshBaseElement.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TDefaultDelete.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UPCGAppendMeshesFromPointsSettings.cpp" />
+    <ClCompile Include="Private\UPCGBooleanOperationSettings.cpp" />
+    <ClCompile Include="Private\UPCGCreateEmptyDynamicMeshSettings.cpp" />
+    <ClCompile Include="Private\UPCGDynamicMeshBaseSettings.cpp" />
+    <ClCompile Include="Private\UPCGDynamicMeshManagedComponent.cpp" />
+    <ClCompile Include="Private\UPCGDynamicMeshTransformSettings.cpp" />
+    <ClCompile Include="Private\UPCGGeometryBlueprintElement.cpp" />
+    <ClCompile Include="Private\UPCGGetDynamicMeshDataSettings.cpp" />
+    <ClCompile Include="Private\UPCGMergeDynamicMeshesSettings.cpp" />
+    <ClCompile Include="Private\UPCGMeshSamplerSettings.cpp" />
+    <ClCompile Include="Private\UPCGPrimitiveCrossSectionSettings.cpp" />
+    <ClCompile Include="Private\UPCGSaveDynamicMeshToAssetSettings.cpp" />
+    <ClCompile Include="Private\UPCGSpawnDynamicMeshSettings.cpp" />
+    <ClCompile Include="Private\UPCGSplineToMeshSettings.cpp" />
+    <ClCompile Include="Private\UPCGStaticMeshToDynamicMeshSettings.cpp" />
+    <ClCompile Include="Private\_Free\Module.PCGGeometryScriptInterop.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

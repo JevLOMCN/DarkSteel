@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{A356FBE2-733C-5557-A161-DEDD0CBE6E79}</ProjectGuid><RootNamespace>HairStrandsDeformer</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FGroomDataflowSettings.cpp" />
+    <ClCompile Include="Private\FGroomExecDataInterfaceParameters.cpp" />
+    <ClCompile Include="Private\FGroupElements.cpp" />
+    <ClCompile Include="Private\FHairStrandsDeformerModule.cpp" />
+    <ClCompile Include="Private\FHairStrandsInstanceInterpolationParameters.cpp" />
+    <ClCompile Include="Private\FManagedArrayCollection.cpp" />
+    <ClCompile Include="Private\FOptimusGroomAttributeReadParameters.cpp" />
+    <ClCompile Include="Private\FOptimusGroomAttributeReadProviderProxy.cpp" />
+    <ClCompile Include="Private\FOptimusGroomCollisionReadDataProviderProxy.cpp" />
+    <ClCompile Include="Private\FOptimusGroomCollisionReadParameters.cpp" />
+    <ClCompile Include="Private\FOptimusGroomExecDataProviderProxy.cpp" />
+    <ClCompile Include="Private\FOptimusGroomGuidesReadDataProviderProxy.cpp" />
+    <ClCompile Include="Private\FOptimusGroomGuidesReadParameters.cpp" />
+    <ClCompile Include="Private\FOptimusGroomGuidesWriteParameters.cpp" />
+    <ClCompile Include="Private\FOptimusGroomGuidesWriteProviderProxy.cpp" />
+    <ClCompile Include="Private\FOptimusGroomMeshesReadDataProviderProxy.cpp" />
+    <ClCompile Include="Private\FOptimusGroomMeshesReadParameters.cpp" />
+    <ClCompile Include="Private\FOptimusGroomSolverReadDataProviderProxy.cpp" />
+    <ClCompile Include="Private\FOptimusGroomSolverReadParameters.cpp" />
+    <ClCompile Include="Private\FOptimusGroomStrandsReadParameters.cpp" />
+    <ClCompile Include="Private\FOptimusGroomStrandsReadProviderProxy.cpp" />
+    <ClCompile Include="Private\FOptimusGroomStrandsWriteParameters.cpp" />
+    <ClCompile Include="Private\FOptimusGroomStrandsWriteProviderProxy.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTuple.cpp" />
+    <ClCompile Include="Private\TTupleBase.cpp" />
+    <ClCompile Include="Private\TTupleBaseElement.cpp" />
+    <ClCompile Include="Private\TVariant.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UOptimusGroomAssetComponentSource.cpp" />
+    <ClCompile Include="Private\UOptimusGroomAttributeReadDataInterface.cpp" />
+    <ClCompile Include="Private\UOptimusGroomAttributeReadDataProvider.cpp" />
+    <ClCompile Include="Private\UOptimusGroomCollisionComponentSource.cpp" />
+    <ClCompile Include="Private\UOptimusGroomCollisionReadDataInterface.cpp" />
+    <ClCompile Include="Private\UOptimusGroomCollisionReadDataProvider.cpp" />
+    <ClCompile Include="Private\UOptimusGroomExecDataInterface.cpp" />
+    <ClCompile Include="Private\UOptimusGroomExecDataProvider.cpp" />
+    <ClCompile Include="Private\UOptimusGroomGuidesReadDataInterface.cpp" />
+    <ClCompile Include="Private\UOptimusGroomGuidesReadDataProvider.cpp" />
+    <ClCompile Include="Private\UOptimusGroomGuidesWriteDataInterface.cpp" />
+    <ClCompile Include="Private\UOptimusGroomGuidesWriteDataProvider.cpp" />
+    <ClCompile Include="Private\UOptimusGroomMeshesReadDataInterface.cpp" />
+    <ClCompile Include="Private\UOptimusGroomMeshesReadDataProvider.cpp" />
+    <ClCompile Include="Private\UOptimusGroomSolverComponentSource.cpp" />
+    <ClCompile Include="Private\UOptimusGroomSolverReadDataInterface.cpp" />
+    <ClCompile Include="Private\UOptimusGroomSolverReadDataProvider.cpp" />
+    <ClCompile Include="Private\UOptimusGroomStrandsReadDataInterface.cpp" />
+    <ClCompile Include="Private\UOptimusGroomStrandsReadDataProvider.cpp" />
+    <ClCompile Include="Private\UOptimusGroomStrandsWriteDataInterface.cpp" />
+    <ClCompile Include="Private\UOptimusGroomStrandsWriteDataProvider.cpp" />
+    <ClCompile Include="Private\_Free\Module.HairStrandsDeformer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

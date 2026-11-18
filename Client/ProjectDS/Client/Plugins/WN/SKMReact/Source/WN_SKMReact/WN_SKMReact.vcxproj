@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{A0D60685-EB78-51B8-B455-AC6390BE4D49}</ProjectGuid><RootNamespace>WN_SKMReact</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FWN_SKMReact.cpp" />
+    <ClCompile Include="Private\FWN_SKMReactInfo.cpp" />
+    <ClCompile Include="Private\FWN_SKMReactModule.cpp" />
+    <ClCompile Include="Private\FWN_SKMReact_AnimNotifySetting.cpp" />
+    <ClCompile Include="Private\FWN_SKMReact_BoneTraceInfo.cpp" />
+    <ClCompile Include="Private\FWN_SKMReact_Consumer.cpp" />
+    <ClCompile Include="Private\FWN_SKMReact_Particle.cpp" />
+    <ClCompile Include="Private\FWN_SKMReact_TableRow.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UDataTable.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UWN_AnimNotify_SKMReact.cpp" />
+    <ClCompile Include="Private\UWN_SKMReactComponent.cpp" />
+    <ClCompile Include="Private\_Free\Module.WN_SKMReact.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

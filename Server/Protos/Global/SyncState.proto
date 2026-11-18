@@ -1,0 +1,19 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum SyncState {
+  SyncState_None = 0;
+  SyncState_Land = 1;
+  SyncState_FallingHigher = 2;
+  SyncState_Mining = 3;
+  SyncState_Harvesting = 4;
+  SyncState_Condensing = 5;
+  SyncState_Logging = 6;
+  SyncState_BoxOpen = 7;
+  SyncState_Dead = 8;
+  SyncState_FallingHigherLand = 9;
+  SyncState_MountOwnAction = 10;
+  SyncState_ReturnHomeCasting = 30;
+  SyncState_DeviceCasting = 31;
+}

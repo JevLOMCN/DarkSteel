@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{4AAF4FEE-F25E-56A5-8443-638C6BC31400}</ProjectGuid><RootNamespace>PhysicsControl</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\APhysicsControlActor.cpp" />
+    <ClCompile Include="Private\FAnimNodeReference.cpp" />
+    <ClCompile Include="Private\FAnimNode_RigidBodyWithControl.cpp" />
+    <ClCompile Include="Private\FBoneData.cpp" />
+    <ClCompile Include="Private\FCSPose.cpp" />
+    <ClCompile Include="Private\FInitialBodyModifier.cpp" />
+    <ClCompile Include="Private\FInitialCharacterControls.cpp" />
+    <ClCompile Include="Private\FInitialPhysicsControl.cpp" />
+    <ClCompile Include="Private\FPhysicsBodyModifier.cpp" />
+    <ClCompile Include="Private\FPhysicsBodyModifierCreationData.cpp" />
+    <ClCompile Include="Private\FPhysicsControl.cpp" />
+    <ClCompile Include="Private\FPhysicsControlAndBodyModifierCreationDatas.cpp" />
+    <ClCompile Include="Private\FPhysicsControlCharacterSetupData.cpp" />
+    <ClCompile Include="Private\FPhysicsControlControlAndModifierParameters.cpp" />
+    <ClCompile Include="Private\FPhysicsControlControlAndModifierUpdates.cpp" />
+    <ClCompile Include="Private\FPhysicsControlCreationData.cpp" />
+    <ClCompile Include="Private\FPhysicsControlData.cpp" />
+    <ClCompile Include="Private\FPhysicsControlLimbBones.cpp" />
+    <ClCompile Include="Private\FPhysicsControlLimbSetupData.cpp" />
+    <ClCompile Include="Private\FPhysicsControlModifierData.cpp" />
+    <ClCompile Include="Private\FPhysicsControlModifierSparseData.cpp" />
+    <ClCompile Include="Private\FPhysicsControlModule.cpp" />
+    <ClCompile Include="Private\FPhysicsControlMultiplier.cpp" />
+    <ClCompile Include="Private\FPhysicsControlNameRecords.cpp" />
+    <ClCompile Include="Private\FPhysicsControlNamedControlMultiplierParameters.cpp" />
+    <ClCompile Include="Private\FPhysicsControlNamedControlParameters.cpp" />
+    <ClCompile Include="Private\FPhysicsControlNamedModifierParameters.cpp" />
+    <ClCompile Include="Private\FPhysicsControlNames.cpp" />
+    <ClCompile Include="Private\FPhysicsControlPoseData.cpp" />
+    <ClCompile Include="Private\FPhysicsControlRecord.cpp" />
+    <ClCompile Include="Private\FPhysicsControlSetUpdate.cpp" />
+    <ClCompile Include="Private\FPhysicsControlSetUpdates.cpp" />
+    <ClCompile Include="Private\FPhysicsControlSparseData.cpp" />
+    <ClCompile Include="Private\FPhysicsControlSparseMultiplier.cpp" />
+    <ClCompile Include="Private\FPhysicsControlTarget.cpp" />
+    <ClCompile Include="Private\FPosQuat.cpp" />
+    <ClCompile Include="Private\FRigidBodyControlRecord.cpp" />
+    <ClCompile Include="Private\FRigidBodyControlTarget.cpp" />
+    <ClCompile Include="Private\FRigidBodyControlTargets.cpp" />
+    <ClCompile Include="Private\FRigidBodyKinematicTarget.cpp" />
+    <ClCompile Include="Private\FRigidBodyKinematicTargets.cpp" />
+    <ClCompile Include="Private\FRigidBodyModifierRecord.cpp" />
+    <ClCompile Include="Private\FRigidBodyPoseData.cpp" />
+    <ClCompile Include="Private\FRigidBodyWithControlReference.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FThreadSafeStaticStatInner.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TExecutableTaskBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TIntrusiveReferenceController.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMap.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSoftObjectPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TSparseArrayBase.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UPhysicsControlAsset.cpp" />
+    <ClCompile Include="Private\UPhysicsControlBPLibrary.cpp" />
+    <ClCompile Include="Private\UPhysicsControlComponent.cpp" />
+    <ClCompile Include="Private\UPhysicsControlInitializerComponent.cpp" />
+    <ClCompile Include="Private\_Free\Module.PhysicsControl.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

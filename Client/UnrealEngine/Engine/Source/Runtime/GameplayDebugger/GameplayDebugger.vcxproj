@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{541A5935-7712-5C8C-A524-73AAC9B9D74E}</ProjectGuid><RootNamespace>GameplayDebugger</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\AGameplayDebuggerCategoryReplicator.cpp" />
+    <ClCompile Include="Private\AGameplayDebuggerPlayerManager.cpp" />
+    <ClCompile Include="Private\FBitReader.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerAddonBase.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerAddonManager.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerCanvasContext.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerCategory.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerCategoryConfig.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerCategoryData.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerCompositeSceneProxy.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerConsoleCommands.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerDataPack.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerDataPackHeader.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerDataPackRPCParams.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerDebugActor.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerDebugDrawDelegateHelper.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerExtension.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerExtensionConfig.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerExtension_HUD.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerExtension_Spectator.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerInputConfig.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerInputHandler.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerInputHandlerConfig.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerModule.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerNetPack.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerPlayerData.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerShape.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerUtils.cpp" />
+    <ClCompile Include="Private\FGameplayDebuggerVisLogSync.cpp" />
+    <ClCompile Include="Private\FInputActionUnifiedDelegate.cpp" />
+    <ClCompile Include="Private\FInputKeyBinding.cpp" />
+    <ClCompile Include="Private\FNetFastCategoryBaseState.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FTaggedStringParser.cpp" />
+    <ClCompile Include="Private\FTimerManager.cpp" />
+    <ClCompile Include="Private\INetDeltaBaseState.cpp" />
+    <ClCompile Include="Private\TActorIteratorBase.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TArrayPrivateFriend.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseStaticDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseUObjectMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTupleBase.cpp" />
+    <ClCompile Include="Private\TWeakObjectPtr.cpp" />
+    <ClCompile Include="Private\UClass.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\UGameplayDebuggerConfig.cpp" />
+    <ClCompile Include="Private\UGameplayDebuggerLocalController.cpp" />
+    <ClCompile Include="Private\UGameplayDebuggerRenderingComponent.cpp" />
+    <ClCompile Include="Private\UGameplayDebuggerUserSettings.cpp" />
+    <ClCompile Include="Private\UInputComponent.cpp" />
+    <ClCompile Include="Private\_Free\Module.GameplayDebugger.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

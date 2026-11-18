@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{1B05A20E-4A07-5BDE-A110-264FCB790DCE}</ProjectGuid><RootNamespace>GLTFCore</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\FAccessor.cpp" />
+    <ClCompile Include="Private\FAsset.cpp" />
+    <ClCompile Include="Private\FAttributeAccessors.cpp" />
+    <ClCompile Include="Private\FBinaryFileReader.cpp" />
+    <ClCompile Include="Private\FExtensionsHandler.cpp" />
+    <ClCompile Include="Private\FFileReader.cpp" />
+    <ClCompile Include="Private\FGLTFCoreModule.cpp" />
+    <ClCompile Include="Private\FIndices.cpp" />
+    <ClCompile Include="Private\FMaterial.cpp" />
+    <ClCompile Include="Private\FMaterialElement.cpp" />
+    <ClCompile Include="Private\FMaterialExpression.cpp" />
+    <ClCompile Include="Private\FMaterialExpressionColor.cpp" />
+    <ClCompile Include="Private\FMaterialExpressionFunctionCall.cpp" />
+    <ClCompile Include="Private\FMaterialExpressionGeneric.cpp" />
+    <ClCompile Include="Private\FMaterialExpressionInput.cpp" />
+    <ClCompile Include="Private\FMaterialExpressionParameter.cpp" />
+    <ClCompile Include="Private\FMaterialExpressionTexture.cpp" />
+    <ClCompile Include="Private\FMaterialExpressionTextureCoordinate.cpp" />
+    <ClCompile Include="Private\FMaterialFactory.cpp" />
+    <ClCompile Include="Private\FMaterialFactoryImpl.cpp" />
+    <ClCompile Include="Private\FMesh.cpp" />
+    <ClCompile Include="Private\FMeshFactory.cpp" />
+    <ClCompile Include="Private\FMeshFactoryImpl.cpp" />
+    <ClCompile Include="Private\FMetadata.cpp" />
+    <ClCompile Include="Private\FMorphTarget.cpp" />
+    <ClCompile Include="Private\FNode.cpp" />
+    <ClCompile Include="Private\FPBRMapFactory.cpp" />
+    <ClCompile Include="Private\FPrimitive.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FText.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TJsonReader.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.GLTFCore.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

@@ -1,0 +1,20 @@
+syntax = "proto3";
+option csharp_namespace = "MirProto";
+
+
+enum Shape {
+  Shape_Capsule = 0;
+  Shape_Box = 1;
+  Shape_Sphere = 2;
+}
+enum Color {
+  Color_Gray = 0;
+  Color_Red = 1;
+  Color_Green = 2;
+  Color_Blue = 3;
+  Color_Yellow = 4;
+}
+enum CollisionEventType {
+  CollisionEventType_Attack = 0;
+  CollisionEventType_Move = 1;
+}

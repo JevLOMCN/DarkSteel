@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GameTimeData",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/GameTimeData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_GameTimeDataTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "GameTimeStartTime": {
+          "Ticks": 638396640000000000
+        },
+        "OneGameDaySec": 14400.0,
+        "SunriseTimeSec": 3000.0,
+        "SunVisibleDurationSec": 9600.0,
+        "MoonriseTimeSec": 12000.0,
+        "MoonVisibleDurationSec": 6000.0
+      }
+    }
+  }
+]

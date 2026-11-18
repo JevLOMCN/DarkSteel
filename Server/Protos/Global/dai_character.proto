@@ -1,0 +1,165 @@
+syntax = "proto3";
+package dai_character;
+option csharp_namespace = "MirProto.DaiCharacter";
+
+import "_unique_id.proto";
+import "_api_common.proto";
+import "structs_character.proto";
+import "ErrorCode.proto";
+import "ds_game.proto";
+import "ds_world.proto";
+import "service_bus_response.proto";
+import "api_player.proto";
+import "AccountAuthority.proto";
+import "messages.proto";
+
+message DuplicatePlayerSessionRequest {
+  UniqueId player_session_uid = 1;
+  int64 player_uid = 2;
+  string nickname = 3;
+  AccountAuthority authority = 4;
+  int32 world_id = 6;
+}
+message DuplicatePlayerSessionResponse {
+  ResponseBase response_base = 1;
+}
+message RemovePlayerSessionRequest {
+  UniqueId player_session_uid = 1;
+}
+message RemovePlayerSessionResponse {
+  ResponseBase response_base = 1;
+}
+message CreateCharacterRequest {
+  UniqueId player_session_uid = 1;
+  int32 char_id = 2;
+  string nickname = 6;
+  int64 player_uid = 7;
+}
+message CreateCharacterResponse {
+  ResponseBase response_base = 1;
+  CharacterInfo character_info = 2;
+}
+message GetAllCharactersRequest {
+  UniqueId player_session_uid = 1;
+}
+message GetAllCharactersResponse {
+  ResponseBase response_base = 1;
+  string nickname = 2;
+  repeated CharacterInfo character_infos = 3;
+}
+message RemovePlayerRequest {
+  UniqueId player_session_uid = 1;
+  int64 player_uid = 2;
+}
+message RemovePlayerResponse {
+  ResponseBase response_base = 1;
+}
+message GetPlayerInfoRequest {
+  string queue_name = 10;
+  string nickname = 11;
+  uint64 player_entity = 12;
+  int64 player_uid = 13;
+  bool is_create_player = 14;
+  optional int32 character_create_choice_weapon = 15;
+}
+message GetPlayerInfoResponse {
+  ResponseBase response_base = 1;
+  repeated ds_game.DbWorkItem db_work_items = 2;
+  string queue_name = 10;
+  string nickname = 11;
+  uint64 player_entity = 12;
+  int64 player_uid = 13;
+  bool is_create_player = 14;
+  optional int32 character_create_choice_weapon = 15;
+}
+message SetPlayerInfoRequest {
+  UniqueId player_session_uid = 1;
+  int64 player_uid = 2;
+  repeated ds_game.DbWorkItem db_work_items = 3;
+}
+message SetPlayerInfoResponse {
+  ResponseBase response_base = 1;
+}
+message GetCharacterProfileRequest {
+  UniqueId player_session_uid = 1;
+  int64 player_uid = 2;
+}
+message GetCharacterProfileResponse {
+  ResponseBase response_base = 1;
+  CharacterProfile character_profile = 2;
+}
+message GetCharacterConnectRequest {
+  UniqueId player_session_uid = 1;
+  int64 player_uid = 2;
+}
+message GetCharacterConnectResponse {
+  ResponseBase response_base = 1;
+  CharacterConnect character_connect = 2;
+}
+message ValidateCharacterConnectRequest {
+  UniqueId player_session_uid = 1;
+  CharacterConnect character_connect = 2;
+  bool ignore_session_uid = 3;
+}
+message ValidateCharacterConnectResponse {
+  ResponseBase response_base = 1;
+}
+message RemoveCharacterConnectRequest {
+  UniqueId player_session_uid = 1;
+  int64 player_uid = 2;
+}
+message RemoveCharacterConnectResponse {
+  ResponseBase response_base = 1;
+}
+message SetGameServerRequest {
+  int32 server_index = 1;
+  string end_point = 2;
+}
+message SetGameServerResponse {
+  ErrorCode error_code = 1;
+}
+message DbAgentServer {
+  ServiceBusResponse service_bus_response = 1;
+  oneof item {
+    int32 heartbeat = 2;
+    dai_character.SetPlayerInfoRequest set_player_info_request = 10;
+    CreateNicknameServiceBusResponse create_nickname_res = 11;
+    dai_character.WorldDbDataRequest world_db_data_req = 13;
+    dai_character.GetPlayerInfoRequest get_player_info_req = 14;
+    dai_character.CreateNicknameDaiRequest create_nickname_req = 15;
+  }
+}
+message GetPlayerRequest {
+  UniqueId player_session_uid = 1;
+  int64 player_uid = 2;
+}
+message CreateNicknameDaiRequest {
+  string queue_name = 10;
+  int64 player_uid = 11;
+  string nickname = 12;
+  int32 game_server_index = 13;
+  int32 weapon = 14;
+  string custom = 15;
+  int32 region_index = 17;
+  int32 world_id = 18;
+  uint64 player_entity = 19;
+}
+message CreateNicknameDaiFailureResponse {
+  ErrorCode error_code = 1;
+  string queue_name = 10;
+  int64 player_uid = 11;
+  string nickname = 12;
+  int32 game_server_index = 13;
+  int32 region_index = 17;
+  int32 world_id = 18;
+  uint64 player_entity = 19;
+}
+message WorldDbDataRequest {
+  string queue_name = 2;
+  ds_world.WorldDbWorkItem db_work_item = 3;
+}
+message WorldDbDataResponse {
+  ErrorCode error_code = 1;
+  string queue_name = 2;
+  repeated ds_world.WorldDbWorkItem db_work_item = 3;
+}

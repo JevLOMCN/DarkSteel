@@ -1,0 +1,20 @@
+syntax = "proto3";
+package ds_world;
+option csharp_namespace = "MirProto.DsWorld";
+
+import "_options.proto";
+import "DirtyFlag.proto";
+import "ds_world/sql_breach_history.proto";
+import "ds_world/sql_world_boss_table.proto";
+import "ds_world/sql_zone_weather_table.proto";
+import "ds_world/sql_district_weather_table.proto";
+
+message WorldDbWorkItem {
+  DirtyFlag dirty_flag = 1000;
+  oneof Item {
+    ds_world.SqlBreachHistoryTable BreachHistory = 1;
+    ds_world.SqlWorldBossTable WorldBoss = 2;
+    ds_world.SqlZoneWeatherTable ZoneWeather = 3;
+    ds_world.SqlDistrictWeatherTable DistrictWeather = 4;
+  }
+}

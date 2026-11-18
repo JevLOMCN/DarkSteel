@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SummonNpc",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/SummonNpc",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_SummonNpcTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "SummonTargetType": "EDS_SummonTargetType::AITarget",
+        "SummonRange": 500,
+        "SummonType": "EDS_SummonType::NpcID",
+        "SummonTypeValue": 110106,
+        "SummonCount": 1,
+        "SummonLevel": 0,
+        "FactionType": "EDS_FactionType::BattleNpc",
+        "IsSummonerDieCheck": true,
+        "IsSummonerComeBackCheck": true,
+        "Lifetime": 20.0
+      }
+    }
+  }
+]

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{4FA5A43A-B9B6-5B5C-9AA1-B912357A006F}</ProjectGuid><RootNamespace>Projects</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="Private\EHostType.cpp" />
+    <ClCompile Include="Private\ELoadingPhase.cpp" />
+    <ClCompile Include="Private\ELocalizationConfigGenerationPolicy.cpp" />
+    <ClCompile Include="Private\ELocalizationTargetDescriptorLoadingPolicy.cpp" />
+    <ClCompile Include="Private\EVerseScope.cpp" />
+    <ClCompile Include="Private\FConfigurePluginResultInfo.cpp" />
+    <ClCompile Include="Private\FCustomBuildSteps.cpp" />
+    <ClCompile Include="Private\FFindPluginsInDirectory_Visitor.cpp" />
+    <ClCompile Include="Private\FJsonObjectArrayUpdater.cpp" />
+    <ClCompile Include="Private\FLocalizationTargetDescriptor.cpp" />
+    <ClCompile Include="Private\FManifestVisitor.cpp" />
+    <ClCompile Include="Private\FModuleDescriptor.cpp" />
+    <ClCompile Include="Private\FPakFileSearchVisitor.cpp" />
+    <ClCompile Include="Private\FParallelExecutor.cpp" />
+    <ClCompile Include="Private\FPlugin.cpp" />
+    <ClCompile Include="Private\FPluginDescriptor.cpp" />
+    <ClCompile Include="Private\FPluginDisallowedDescriptor.cpp" />
+    <ClCompile Include="Private\FPluginManager.cpp" />
+    <ClCompile Include="Private\FPluginManifest.cpp" />
+    <ClCompile Include="Private\FPluginReferenceDescriptor.cpp" />
+    <ClCompile Include="Private\FProjectDescriptor.cpp" />
+    <ClCompile Include="Private\FProjectEditorRecord.cpp" />
+    <ClCompile Include="Private\FProjectManager.cpp" />
+    <ClCompile Include="Private\FProjectsLoadingPluginDescriptorTests.cpp" />
+    <ClCompile Include="Private\FProjectsLoadingProjectDescriptorTests.cpp" />
+    <ClCompile Include="Private\FProjectsLoadingRapidJsonPluginLoading.cpp" />
+    <ClCompile Include="Private\FProjectsModule.cpp" />
+    <ClCompile Include="Private\FStaticallyLinkedModuleRegistrant.cpp" />
+    <ClCompile Include="Private\FText.cpp" />
+    <ClCompile Include="Private\IPlugin.cpp" />
+    <ClCompile Include="Private\IPluginManager.cpp" />
+    <ClCompile Include="Private\IProjectManager.cpp" />
+    <ClCompile Include="Private\TArray.cpp" />
+    <ClCompile Include="Private\TBaseFunctorDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseRawMethodDelegateInstance.cpp" />
+    <ClCompile Include="Private\TBaseStaticDelegateInstance.cpp" />
+    <ClCompile Include="Private\TCheckedPointerIterator.cpp" />
+    <ClCompile Include="Private\TCommonDelegateInstanceState.cpp" />
+    <ClCompile Include="Private\TDelegate.cpp" />
+    <ClCompile Include="Private\TFunctionRefBase.cpp" />
+    <ClCompile Include="Private\TFunctionRefCaller.cpp" />
+    <ClCompile Include="Private\TFunction_OwnedObject.cpp" />
+    <ClCompile Include="Private\TIterator.cpp" />
+    <ClCompile Include="Private\TJsonSerializer.cpp" />
+    <ClCompile Include="Private\TJsonWriter.cpp" />
+    <ClCompile Include="Private\TMapBase.cpp" />
+    <ClCompile Include="Private\TMulticastDelegate.cpp" />
+    <ClCompile Include="Private\TMulticastDelegateRegistration.cpp" />
+    <ClCompile Include="Private\TOptional.cpp" />
+    <ClCompile Include="Private\TPairInitializer.cpp" />
+    <ClCompile Include="Private\TRangedForConstIterator.cpp" />
+    <ClCompile Include="Private\TRangedForIterator.cpp" />
+    <ClCompile Include="Private\TReferenceControllerWithDeleter.cpp" />
+    <ClCompile Include="Private\TSet.cpp" />
+    <ClCompile Include="Private\TSharedPtr.cpp" />
+    <ClCompile Include="Private\TSharedRef.cpp" />
+    <ClCompile Include="Private\TSparseArray.cpp" />
+    <ClCompile Include="Private\TTaskDelegateImpl.cpp" />
+    <ClCompile Include="Private\TTuple.cpp" />
+    <ClCompile Include="Private\UE.cpp" />
+    <ClCompile Include="Private\_Free\Module.Projects.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

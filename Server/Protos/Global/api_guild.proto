@@ -1,0 +1,455 @@
+syntax = "proto3";
+package api_guild;
+option csharp_namespace = "MirProto.ApiGuild";
+
+import "ErrorCode.proto";
+import "ds_guild/sql_guild.proto";
+import "ds_guild/sql_guild_member.proto";
+import "ds_guild/sql_guild_join_request.proto";
+import "GuildMemberGradeType.proto";
+import "google/protobuf/timestamp.proto";
+import "structs_guild.proto";
+import "GuildSortCriterion.proto";
+import "DirtyFlag.proto";
+
+message GuildFullInfoResponse {
+  api_guild.GuildRes guild_res = 1;
+  repeated api_guild.GuildMemberRes guild_member_res = 2;
+}
+message GuildRes {
+  ds_guild.SqlGuildTable guild = 1;
+}
+message GuildMemberRes {
+  ds_guild.SqlGuildMemberTable guild_member = 1;
+  int32 invite_permission = 2;
+  int32 setting_permission = 3;
+  int32 guild_money_permission = 4;
+}
+message GetGuildListRequest {
+  optional string cursor = 1;
+  optional int32 size = 2;
+  optional GuildSortCriterion guild_sort_criterion = 3;
+}
+message GetGuildListResponse {
+  ErrorCode error_code = 1;
+  repeated ds_guild.SqlGuildTable guild_infos = 2;
+  string cursor = 3;
+}
+message AllGuildInfoRequest {
+}
+message AllGuildInfoResponse {
+  ErrorCode error_code = 1;
+  repeated ds_guild.SqlGuildTable guild_infos = 2;
+}
+message GuildInfoRequest {
+  int64 guild_uid = 1;
+  bool system_update = 2;
+}
+message GuildInfoResponse {
+  ErrorCode error_code = 1;
+  ds_guild.SqlGuildTable guild_info = 2;
+}
+message CreateGuildRequest {
+  ds_guild.SqlGuildTable guild_info = 1;
+  ds_guild.SqlGuildMemberTable guild_member_info = 2;
+}
+message CreateGuildResponse {
+  ErrorCode error_code = 1;
+  ds_guild.SqlGuildTable guild_info = 2;
+  ds_guild.SqlGuildMemberTable guild_member_info = 3;
+}
+message UpdateGuildRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+}
+message UpdateGuildMarkRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  ds_guild.SqlGuildTable sql_guild_table = 3;
+}
+message UpdateGuildMarkResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  string mark_info = 3;
+}
+message UpdateGuildNameRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  string cur_guild_name = 3;
+  string new_guild_name = 4;
+}
+message UpdateGuildNameResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  string guild_name = 3;
+}
+message UpdateGuildSettingRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  ds_guild.SqlGuildTable sql_guild_table = 3;
+}
+message UpdateGuildSettingResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  ds_guild.SqlGuildTable sql_guild_table = 3;
+}
+message UpdateGuildResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int32 request_type = 3;
+  oneof action {
+    string update_name = 5;
+    string update_mark = 6;
+    ds_guild.SqlGuildTable update_setting = 7;
+  }
+}
+message DeleteGuildRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  bool system_update = 3;
+}
+message DeleteGuildResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 player_uid = 3;
+  bool system_update = 4;
+}
+message AllGuildMemberInfoRequest {
+}
+message AllGuildMemberInfoResponse {
+  ErrorCode error_code = 1;
+  repeated ds_guild.SqlGuildMemberTable guild_member_infos = 2;
+}
+message GuildMemberInfosRequest {
+  int64 guild_uid = 1;
+}
+message GuildMemberInfosResponse {
+  ErrorCode error_code = 1;
+  repeated ds_guild.SqlGuildMemberTable guild_member_infos = 2;
+}
+message JoinGuildRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  int32 max_member_count = 3;
+  google.protobuf.Timestamp reg_time = 4;
+}
+message JoinGuildResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 player_uid = 3;
+  oneof result_data {
+    api_guild.PendingResult pending_result = 10;
+    api_guild.JoinedResult joined_result = 11;
+  }
+}
+message InviteGuildRequest {
+  int64 guild_uid = 1;
+  int64 req_player_uid = 2;
+  int64 dest_player_uid = 3;
+  int32 max_member_count = 4;
+  google.protobuf.Timestamp reg_time = 10;
+}
+message InviteGuildResponse {
+  ErrorCode error_code = 1;
+  int64 dest_player_uid = 3;
+}
+message AcceptGuildInvitationRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  bool accept_flag = 3;
+  int32 max_member_count = 4;
+}
+message AcceptGuildInvitationResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 player_uid = 3;
+  bool accept_flag = 4;
+  ds_guild.SqlGuildTable guild_info = 5;
+  ds_guild.SqlGuildMemberTable guild_member_info = 6;
+}
+message PendingResult {
+}
+message JoinedResult {
+  ds_guild.SqlGuildTable guild_info = 1;
+  ds_guild.SqlGuildMemberTable guild_member_info = 2;
+}
+message ApproveJoinGuildRequest {
+  int64 guild_uid = 1;
+  int64 req_player_uid = 2;
+  int64 dest_player_uid = 3;
+  bool approve_flag = 4;
+  int32 member_max_count = 5;
+  google.protobuf.Timestamp guild_join_dt = 10;
+}
+message ApproveJoinGuildResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 req_player_uid = 3;
+  int64 dest_player_uid = 4;
+  bool approve_flag = 5;
+  ds_guild.SqlGuildTable guild_info = 6;
+  ds_guild.SqlGuildMemberTable member_info = 7;
+}
+message DelegateGuildMasterRequest {
+  int64 guild_uid = 1;
+  int64 req_player_uid = 2;
+  int64 dest_player_uid = 3;
+  bool system_update = 5;
+}
+message DelegateGuildMasterResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 req_player_uid = 3;
+  int64 dest_player_uid = 4;
+  bool system_update = 5;
+}
+message ChangeGuildMemberGradeRequest {
+  int64 guild_uid = 1;
+  int64 req_player_uid = 2;
+  repeated api_guild.ChangeGuildMemberGradeInfo changed_member_grade_list = 4;
+}
+message ChangeGuildMemberGradeResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 req_player_uid = 3;
+  repeated api_guild.ChangeGuildMemberGradeInfo changed_member_grade_list = 4;
+}
+message ChangeGuildMemberGradeInfo {
+  int64 player_uid = 1;
+  GuildMemberGradeType new_grade = 2;
+}
+message DeleteGuildMemberRequest {
+  int64 guild_uid = 1;
+  int64 req_player_uid = 2;
+  int64 dest_player_uid = 3;
+  bool system_update = 5;
+}
+message DeleteGuildMemberResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 req_player_uid = 3;
+  int64 dest_player_uid = 4;
+}
+message GetGuildMemberInfoRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  bool system_update = 3;
+}
+message GetGuildMemberInfoResponse {
+  ErrorCode error_code = 1;
+  ds_guild.SqlGuildMemberTable guild_member_info = 2;
+}
+message LeaveGuildRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+}
+message LeaveGuildResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 player_uid = 3;
+}
+message GetMyPendingListRequest {
+  int64 player_uid = 1;
+  int32 join_type = 3;
+}
+message GetMyPendingListResponse {
+  ErrorCode error_code = 1;
+  int32 join_type = 2;
+  repeated ds_guild.SqlGuildJoinRequestTable guild_join_request_list = 3;
+}
+message GetGuildPendingListRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+  int32 join_type = 3;
+}
+message GetGuildPendingListResponse {
+  ErrorCode error_code = 1;
+  int32 join_type = 2;
+  repeated ds_guild.SqlGuildJoinRequestTable guild_join_request_list = 3;
+}
+message GuildPendingInfo {
+  int64 player_uid = 2;
+  google.protobuf.Timestamp expired_time = 6;
+}
+message GuildPendingInfoList {
+  repeated api_guild.GuildPendingInfo guild_pending_list = 1;
+}
+message PlayerPendingInfo {
+  ds_guild.SqlGuildTable guild_info = 1;
+  google.protobuf.Timestamp expired_time = 5;
+}
+message PlayerPendingInfoList {
+  repeated api_guild.PlayerPendingInfo player_pending_list = 1;
+}
+message CancelGuildInvitationRequest {
+  int64 guild_uid = 1;
+  int64 req_player_uid = 2;
+  int64 dest_player_uid = 3;
+}
+message CancelGuildInvitationResponse {
+  ErrorCode error_code = 1;
+  int64 player_uid = 2;
+}
+message CancelJoinGuildRequest {
+  int64 guild_uid = 1;
+  int64 player_uid = 2;
+}
+message CancelJoinGuildResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+}
+message ChangeGuildMoneyRequest {
+  int64 guild_uid = 1;
+  int64 money = 3;
+}
+message ChangeGuildMoneyResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 money = 3;
+}
+message ChangeGuildCombatPowerRequest {
+  int64 guild_uid = 1;
+  float combat_power = 2;
+}
+message ChangeGuildCombatPowerResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  float combat_power = 3;
+}
+message ChangeGuildExpRequest {
+  int64 guild_uid = 1;
+  int64 add_exp = 2;
+}
+message ChangeGuildExpResponse {
+  ErrorCode error_code = 1;
+  int64 guild_uid = 2;
+  int64 exp = 3;
+  int32 level = 4;
+}
+message GuildServerResponse {
+  oneof item {
+    api_guild.AllGuildInfoResponse all_guild_info_res = 1;
+    api_guild.GuildInfoResponse guild_info_res = 2;
+    api_guild.CreateGuildResponse create_guild_res = 3;
+    api_guild.UpdateGuildResponse update_guild_res = 4;
+    api_guild.DeleteGuildResponse delete_guild_res = 5;
+    api_guild.AllGuildMemberInfoResponse all_guild_member_info_res = 6;
+    api_guild.GuildMemberInfosResponse guild_member_infos_res = 7;
+    api_guild.JoinGuildResponse join_guild_res = 8;
+    api_guild.ApproveJoinGuildResponse approve_join_guild_res = 9;
+    api_guild.DelegateGuildMasterResponse delegate_guild_master_res = 10;
+    api_guild.ChangeGuildMemberGradeResponse change_guild_member_role_res = 11;
+    api_guild.DeleteGuildMemberResponse delete_guild_member_res = 12;
+    api_guild.GetMyPendingListResponse get_my_pending_list_res = 13;
+    api_guild.GetGuildPendingListResponse get_guild_pending_list_res = 14;
+  }
+}
+message ServiceBusGuildServerRequest {
+  uint64 entity = 1;
+  string server_name = 31;
+  uint32 game_server_index = 32;
+  oneof item {
+    api_guild.ChangeGuildMoneyRequest change_guild_money = 2;
+    api_guild.ChangeGuildCombatPowerRequest change_guild_combat_power = 3;
+    api_guild.ChangeGuildExpRequest change_guild_exp = 4;
+    api_guild.GuildInfoRequest get_guild_info = 5;
+    api_guild.DeleteGuildRequest delete_guild = 6;
+    api_guild.GetGuildMemberInfoRequest get_guild_member_info = 7;
+    api_guild.DeleteGuildMemberRequest delete_guild_member = 8;
+    api_guild.CreateGuildRequest create_guild = 9;
+    api_guild.JoinGuildRequest join_guild = 10;
+    api_guild.ApproveJoinGuildRequest approve_join_guild = 11;
+    api_guild.LeaveGuildRequest leave_guild = 12;
+    api_guild.InviteGuildRequest invite_guild = 13;
+    api_guild.AcceptGuildInvitationRequest accept_guild_invitation = 14;
+    api_guild.GetMyPendingListRequest get_my_pending_list = 16;
+    api_guild.GetGuildPendingListRequest get_guild_pending_list = 17;
+    api_guild.CancelGuildInvitationRequest cancel_guild_invitation = 18;
+    api_guild.CancelJoinGuildRequest cancel_join_guild = 19;
+    api_guild.UpdateGuildRequest update_guild_request = 20;
+    api_guild.UpdateGuildMarkRequest update_guild_mark = 21;
+    api_guild.UpdateGuildNameRequest update_guild_name = 22;
+    api_guild.UpdateGuildSettingRequest update_guild_setting = 23;
+    api_guild.ChangeGuildMemberGradeRequest change_guild_member_grade = 24;
+    api_guild.CosmosGuildMessage cosmos_guild_message = 30;
+  }
+}
+message ServiceBusGuildServerResponse {
+  uint64 entity = 1;
+  uint32 game_server_index = 33;
+  oneof item {
+    api_guild.CreateGuildResponse create_guild_res = 2;
+    api_guild.UpdateGuildResponse update_guild_res = 3;
+    api_guild.DeleteGuildResponse delete_guild_res = 4;
+    api_guild.GuildInfoResponse get_guild_info = 5;
+    api_guild.JoinGuildResponse join_guild_res = 10;
+    api_guild.ApproveJoinGuildResponse approve_join_guild_res = 11;
+    api_guild.DelegateGuildMasterResponse delegate_guild_master_res = 12;
+    api_guild.ChangeGuildMemberGradeResponse change_guild_member_grade_res = 13;
+    api_guild.DeleteGuildMemberResponse delete_guild_member_res = 14;
+    api_guild.GetGuildMemberInfoResponse get_guild_member_info_res = 15;
+    api_guild.LeaveGuildResponse leave_guild_res = 16;
+    api_guild.InviteGuildResponse invite_guild_res = 17;
+    api_guild.AcceptGuildInvitationResponse accept_guild_invitation_res = 18;
+    api_guild.GetMyPendingListResponse get_my_pending_list_res = 19;
+    api_guild.GetGuildPendingListResponse get_guild_pending_list_res = 20;
+    api_guild.CancelGuildInvitationResponse cancel_guild_invitation_res = 21;
+    api_guild.CancelJoinGuildResponse cancel_join_guild_res = 22;
+    api_guild.UpdateGuildMarkResponse update_guild_mark_res = 23;
+    api_guild.UpdateGuildNameResponse update_guild_name_res = 24;
+    api_guild.UpdateGuildSettingResponse update_guild_setting_res = 25;
+    api_guild.ChangeGuildMoneyResponse change_guild_money_res = 30;
+    api_guild.ChangeGuildCombatPowerResponse change_guild_combat_power_res = 31;
+    api_guild.ChangeGuildExpResponse change_guild_exp_res = 32;
+  }
+}
+message CosmosGuildType {
+  oneof item {
+    string nickname = 2;
+    int32 level = 3;
+    uint32 zone_id = 4;
+    bool is_logged_in = 5;
+    google.protobuf.Timestamp logout_dt = 6;
+  }
+}
+message CosmosGuildTypeList {
+  int64 player_uid = 1;
+  repeated api_guild.CosmosGuildType list = 2;
+}
+message CosmosGuildMessage {
+  DirtyFlag dirty_flag = 1;
+  int64 guild_uid = 2;
+  bool is_disband = 3;
+  repeated api_guild.CosmosGuildTypeList values = 5;
+}
+message NotifyGuildMessage {
+  oneof item {
+    api_guild.NotifyCreateGuildMessage notify_create_guild_msg = 1;
+    api_guild.NotifyGuildMemberAddMessage notify_guild_member_add_msg = 10;
+    api_guild.NotifyJoinGuildMessage notify_join_guild_msg = 11;
+    api_guild.NotifyGuildMemberRemoveMessage notify_guild_member_remove_msg = 12;
+    api_guild.NotifyGuildUpdateMessage notify_guild_update_msg = 13;
+    api_guild.NotifyGuildMemberUpdateMessage notify_guild_member_update_msg = 14;
+  }
+}
+message NotifyCreateGuildMessage {
+  api_guild.GuildRes guild_res = 1;
+  api_guild.GuildMemberRes guild_member_res = 2;
+}
+message NotifyGuildMemberAddMessage {
+  api_guild.GuildRes guild_res = 1;
+  api_guild.GuildMemberRes guild_member_res = 2;
+}
+message NotifyJoinGuildMessage {
+  api_guild.GuildRes guild_res = 1;
+  api_guild.GuildMemberRes guild_member_res = 2;
+}
+message NotifyGuildMemberRemoveMessage {
+  api_guild.GuildMemberRes guild_member_res = 2;
+}
+message NotifyGuildUpdateMessage {
+  api_guild.GuildRes guild_res = 1;
+}
+message NotifyGuildMemberUpdateMessage {
+  repeated api_guild.GuildMemberRes guild_member_res_list = 1;
+}

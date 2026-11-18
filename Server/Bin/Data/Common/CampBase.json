@@ -1,0 +1,237 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "CampBase",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/CampBase",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_CampBaseTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Level": 1,
+        "ID_NpcBase": 9001,
+        "Duration": 300,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220001
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1000.0,
+        "UseChair": true,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01/NPC_Object_Camp01_Lby_PreInt.NPC_Object_Camp01_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Level": 1,
+        "ID_NpcBase": 9002,
+        "Duration": 300,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220001
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1000.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01_Camp11/NPC_Object_Camp01_Camp11_Lby_PreInt.NPC_Object_Camp01_Camp11_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "3": {
+        "ID": 3,
+        "DataStage": 23,
+        "Level": 3,
+        "ID_NpcBase": 9003,
+        "Duration": 340,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220001,
+          220101
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1000.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01/NPC_Object_Camp01_Lby_PreInt.NPC_Object_Camp01_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "4": {
+        "ID": 4,
+        "DataStage": 23,
+        "Level": 4,
+        "ID_NpcBase": 9003,
+        "Duration": 360,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220001,
+          220101
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1000.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01/NPC_Object_Camp01_Lby_PreInt.NPC_Object_Camp01_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "5": {
+        "ID": 5,
+        "DataStage": 23,
+        "Level": 5,
+        "ID_NpcBase": 9003,
+        "Duration": 380,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220002,
+          220101
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1100.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01/NPC_Object_Camp01_Lby_PreInt.NPC_Object_Camp01_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "6": {
+        "ID": 6,
+        "DataStage": 23,
+        "Level": 6,
+        "ID_NpcBase": 9003,
+        "Duration": 400,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220002,
+          220102
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1100.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01/NPC_Object_Camp01_Lby_PreInt.NPC_Object_Camp01_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "7": {
+        "ID": 7,
+        "DataStage": 23,
+        "Level": 7,
+        "ID_NpcBase": 9003,
+        "Duration": 420,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220003,
+          220102
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1100.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01/NPC_Object_Camp01_Lby_PreInt.NPC_Object_Camp01_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "8": {
+        "ID": 8,
+        "DataStage": 23,
+        "Level": 8,
+        "ID_NpcBase": 9003,
+        "Duration": 440,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220003,
+          220102,
+          9001
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1200.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01/NPC_Object_Camp01_Lby_PreInt.NPC_Object_Camp01_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "9": {
+        "ID": 9,
+        "DataStage": 23,
+        "Level": 9,
+        "ID_NpcBase": 9003,
+        "Duration": 460,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220003,
+          220103,
+          9001
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1200.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01/NPC_Object_Camp01_Lby_PreInt.NPC_Object_Camp01_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "10": {
+        "ID": 10,
+        "DataStage": 23,
+        "Level": 10,
+        "ID_NpcBase": 9003,
+        "Duration": 480,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220003,
+          220103,
+          9001
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1200.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01/NPC_Object_Camp01_Lby_PreInt.NPC_Object_Camp01_Lby_PreInt",
+          "SubPathString": ""
+        }
+      },
+      "99": {
+        "ID": 99,
+        "DataStage": 23,
+        "Level": 1,
+        "ID_NpcBase": 30047,
+        "Duration": 300,
+        "MaxSeat": 4,
+        "AttachBuff": [
+          220001
+        ],
+        "CampRadius": 100.0,
+        "CampInstallableDistance": 1000.0,
+        "UseChair": false,
+        "ID_ResourceMesh": 201002,
+        "PreviewAniPath": {
+          "AssetPathName": "/Game/Animations/NPCs/Object/NPC_Object_Camp01_Camp11/NPC_Object_Camp01_Camp11_Lby_PreInt.NPC_Object_Camp01_Camp11_Lby_PreInt",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

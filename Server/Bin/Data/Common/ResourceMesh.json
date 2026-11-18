@@ -1,0 +1,2708 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "ResourceMesh",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Datas/Common/ResourceMesh",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DS_ResourceMeshTableRow'",
+        "ObjectPath": "/Script/ProjectDS"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ID": 1,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/M/COI_M.COI_M",
+          "SubPathString": ""
+        }
+      },
+      "2": {
+        "ID": 2,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/F/COI_F.COI_F",
+          "SubPathString": ""
+        }
+      },
+      "110": {
+        "ID": 110,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/War_M/Meshes/SK_War_M_fullbody_01.SK_War_M_fullbody_01",
+          "SubPathString": ""
+        }
+      },
+      "111": {
+        "ID": 111,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/War_M/Meshes/SK_War_soul.SK_War_soul",
+          "SubPathString": ""
+        }
+      },
+      "221": {
+        "ID": 221,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/Fig_M/Meshes/SK_Fig_soul.SK_Fig_soul",
+          "SubPathString": ""
+        }
+      },
+      "312": {
+        "ID": 312,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "432": {
+        "ID": 432,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "512": {
+        "ID": 512,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "11100": {
+        "ID": 11100,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/SM_Wpn_War_04.SM_Wpn_War_04",
+          "SubPathString": ""
+        }
+      },
+      "11101": {
+        "ID": 11101,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/SM_War_Battle_Weapon_M_001.SM_War_Battle_Weapon_M_001",
+          "SubPathString": ""
+        }
+      },
+      "11102": {
+        "ID": 11102,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/War_M_Shield_soul.War_M_Shield_soul",
+          "SubPathString": ""
+        }
+      },
+      "11103": {
+        "ID": 11103,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/War_M/Meshes/SK_War_Battle_Helmet_M_002.SK_War_Battle_Helmet_M_002",
+          "SubPathString": ""
+        }
+      },
+      "11104": {
+        "ID": 11104,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/War_M/Meshes/SK_War_Battle_Chest_M_002.SK_War_Battle_Chest_M_002",
+          "SubPathString": ""
+        }
+      },
+      "11105": {
+        "ID": 11105,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/War_M/Meshes/SK_War_Battle_Gloves_M_002.SK_War_Battle_Gloves_M_002",
+          "SubPathString": ""
+        }
+      },
+      "11106": {
+        "ID": 11106,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/War_M/Meshes/SK_War_Battle_Shoes_M_002.SK_War_Battle_Shoes_M_002",
+          "SubPathString": ""
+        }
+      },
+      "11107": {
+        "ID": 11107,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/War_M/Meshes/SK_War_Battle_Cape_M_002.SK_War_Battle_Cape_M_002",
+          "SubPathString": ""
+        }
+      },
+      "11108": {
+        "ID": 11108,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/War_M/Meshes/SK_War_Battle_Pants_M_002.SK_War_Battle_Pants_M_002",
+          "SubPathString": ""
+        }
+      },
+      "11109": {
+        "ID": 11109,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/Weapon/SwordShield/01/SK_PC_W_Sword_01.SK_PC_W_Sword_01",
+          "SubPathString": ""
+        }
+      },
+      "11110": {
+        "ID": 11110,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/Weapon/SwordShield/01/SK_PC_W_Shield01.SK_PC_W_Shield01",
+          "SubPathString": ""
+        }
+      },
+      "22101": {
+        "ID": 22101,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/Fig_M/Meshes/SM_Fig_Battle_WeaponR_M_001.SM_Fig_Battle_WeaponR_M_001",
+          "SubPathString": ""
+        }
+      },
+      "22102": {
+        "ID": 22102,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "22103": {
+        "ID": 22103,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/Fig_M/Meshes/SK_Fig_Battle_Helmet_M_001.SK_Fig_Battle_Helmet_M_001",
+          "SubPathString": ""
+        }
+      },
+      "22104": {
+        "ID": 22104,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/Fig_M/Meshes/SK_Fig_Battle_Chest_M_001.SK_Fig_Battle_Chest_M_001",
+          "SubPathString": ""
+        }
+      },
+      "22105": {
+        "ID": 22105,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/Fig_M/Meshes/SK_Fig_Battle_Gloves_M_001.SK_Fig_Battle_Gloves_M_001",
+          "SubPathString": ""
+        }
+      },
+      "22106": {
+        "ID": 22106,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/Fig_M/Meshes/SK_Fig_Battle_Shoes_M_001.SK_Fig_Battle_Shoes_M_001",
+          "SubPathString": ""
+        }
+      },
+      "22107": {
+        "ID": 22107,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/Fig_M/Meshes/SK_Fig_Battle_Cape_M_001.SK_Fig_Battle_Cape_M_001",
+          "SubPathString": ""
+        }
+      },
+      "22108": {
+        "ID": 22108,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/Fig_M/Meshes/SK_Fig_Battle_Pants_M_001.SK_Fig_Battle_Pants_M_001",
+          "SubPathString": ""
+        }
+      },
+      "22109": {
+        "ID": 22109,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/Fig_M/Meshes/SM_Fig_Battle_WeaponL_M_001.SM_Fig_Battle_WeaponL_M_001",
+          "SubPathString": ""
+        }
+      },
+      "100001": {
+        "ID": 100001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/DoNotPackages/Client/Characters/Monsters/Mon_OmaCrimson01.Mon_OmaCrimson01",
+          "SubPathString": ""
+        }
+      },
+      "100002": {
+        "ID": 100002,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/Stuff_Gather_11_DarkSteel_01_soul.Stuff_Gather_11_DarkSteel_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "100003": {
+        "ID": 100003,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Ether_01/Stuff_Gather_11_Ether_01_soul.Stuff_Gather_11_Ether_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "100004": {
+        "ID": 100004,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Herb_WildGrass_01/Stuff_Gather_11_Herb_WildGrass_01_soul.Stuff_Gather_11_Herb_WildGrass_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "100005": {
+        "ID": 100005,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Ore_Stones_01/Stuff_Gather_11_Ore_Stones_01_soul.Stuff_Gather_11_Ore_Stones_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "100006": {
+        "ID": 100006,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_TreasureBox_01/Stuff_Gather_11_TreasureBox_01.Stuff_Gather_11_TreasureBox_01",
+          "SubPathString": ""
+        }
+      },
+      "100007": {
+        "ID": 100007,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Tree_FieldTree_01/Stuff_Gather_11_Tree_FieldTree_01_soul.Stuff_Gather_11_Tree_FieldTree_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "100008": {
+        "ID": 100008,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Water_CoralReef_01/Stuff_Gather_11_Water_CoralReef_01_soul.Stuff_Gather_11_Water_CoralReef_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "100009": {
+        "ID": 100009,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/Stuff_Transport_Airship_Dragona_01_soul.Stuff_Transport_Airship_Dragona_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "100010": {
+        "ID": 100010,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Elevator_Dragona_01/Stuff_Transport_Elevator_Dragona_01_soul.Stuff_Transport_Elevator_Dragona_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "100011": {
+        "ID": 100011,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/Stuff_Warpdevice_Dragona_01_soul.Stuff_Warpdevice_Dragona_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "100012": {
+        "ID": 100012,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Stuff_Portal_01/SK_Stuff_Stuff_Portal_01_soul.SK_Stuff_Stuff_Portal_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "200001": {
+        "ID": 200001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Uma_11_01/SK_NPC_Uma_11_01.SK_NPC_Uma_11_01",
+          "SubPathString": ""
+        }
+      },
+      "200002": {
+        "ID": 200002,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Dondon_31_01/SK_NPC_Dondon_31_01.SK_NPC_Dondon_31_01",
+          "SubPathString": ""
+        }
+      },
+      "200003": {
+        "ID": 200003,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Bor_1_N_01/SK_NPC_Ani_Bor_1_N_01.SK_NPC_Ani_Bor_1_N_01",
+          "SubPathString": ""
+        }
+      },
+      "200004": {
+        "ID": 200004,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Juma_72_01/SK_NPC_Juma_72_01.SK_NPC_Juma_72_01",
+          "SubPathString": ""
+        }
+      },
+      "200005": {
+        "ID": 200005,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_War_M_01/SK_NPC_War_M_01.SK_NPC_War_M_01",
+          "SubPathString": ""
+        }
+      },
+      "200006": {
+        "ID": 200006,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Fig_M_01/SK_NPC_Fig_M_01.SK_NPC_Fig_M_01",
+          "SubPathString": ""
+        }
+      },
+      "200007": {
+        "ID": 200007,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Chicken_01/SK_NPC_Animal_11_Chicken_01.SK_NPC_Animal_11_Chicken_01",
+          "SubPathString": ""
+        }
+      },
+      "200008": {
+        "ID": 200008,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Totems/NPC_Tot_Bas_1_N_01/SK_NPC_Tot_Bas_1_N_01.SK_NPC_Tot_Bas_1_N_01",
+          "SubPathString": ""
+        }
+      },
+      "200009": {
+        "ID": 200009,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Bor_1_N_02/SK_NPC_Ani_Bor_1_N_02.SK_NPC_Ani_Bor_1_N_02",
+          "SubPathString": ""
+        }
+      },
+      "200010": {
+        "ID": 200010,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Bor_1_N_03/SK_NPC_Ani_Bor_1_N_03.SK_NPC_Ani_Bor_1_N_03",
+          "SubPathString": ""
+        }
+      },
+      "200011": {
+        "ID": 200011,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_HuW_HuW_1_M_01/SK_NPC_HuW_HuW_1_M_01.SK_NPC_HuW_HuW_1_M_01",
+          "SubPathString": ""
+        }
+      },
+      "200012": {
+        "ID": 200012,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_HuW_HuW_1_M_01/SK_NPC_HuW_HuW_1_M_02.SK_NPC_HuW_HuW_1_M_02",
+          "SubPathString": ""
+        }
+      },
+      "200013": {
+        "ID": 200013,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_HuW_HuW_1_M_01/SK_NPC_HuW_HuW_1_M_03.SK_NPC_HuW_HuW_1_M_03",
+          "SubPathString": ""
+        }
+      },
+      "200014": {
+        "ID": 200014,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_HuW_HuW_1_M_01/SK_NPC_HuW_HuW_1_M_04.SK_NPC_HuW_HuW_1_M_04",
+          "SubPathString": ""
+        }
+      },
+      "200015": {
+        "ID": 200015,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_HuW_HuW_1_M_01/SK_NPC_HuW_HuW_1_M_05.SK_NPC_HuW_HuW_1_M_05",
+          "SubPathString": ""
+        }
+      },
+      "200016": {
+        "ID": 200016,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_HuW_Bas_1_W_01/SK_NPC_HuW_Bas_1_W_01.SK_NPC_HuW_Bas_1_W_01",
+          "SubPathString": ""
+        }
+      },
+      "200017": {
+        "ID": 200017,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_HuW_HuW_1_F_01/SK_NPC_HuW_HuW_1_F_01.SK_NPC_HuW_HuW_1_F_01",
+          "SubPathString": ""
+        }
+      },
+      "200018": {
+        "ID": 200018,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_War_M_01/SK_NPC_War_M_02.SK_NPC_War_M_02",
+          "SubPathString": ""
+        }
+      },
+      "200019": {
+        "ID": 200019,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_War_M_01/SK_NPC_War_M_03.SK_NPC_War_M_03",
+          "SubPathString": ""
+        }
+      },
+      "200020": {
+        "ID": 200020,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Fig_M_01/SK_NPC_Fig_M_02.SK_NPC_Fig_M_02",
+          "SubPathString": ""
+        }
+      },
+      "200021": {
+        "ID": 200021,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Chicken_02/SKM_NPC_Animal_11_Chi_1_N_02.SKM_NPC_Animal_11_Chi_1_N_02",
+          "SubPathString": ""
+        }
+      },
+      "200022": {
+        "ID": 200022,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Chicken_03/SKM_NPC_Animal_11_Chi_1_N_03.SKM_NPC_Animal_11_Chi_1_N_03",
+          "SubPathString": ""
+        }
+      },
+      "200023": {
+        "ID": 200023,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Chital_1_F_01/SK_NPC_Animal_11_Chital_1_F_01.SK_NPC_Animal_11_Chital_1_F_01",
+          "SubPathString": ""
+        }
+      },
+      "200024": {
+        "ID": 200024,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Chital_1_M_01/SK_NPC_Animal_11_Chital_1_M_01.SK_NPC_Animal_11_Chital_1_M_01",
+          "SubPathString": ""
+        }
+      },
+      "200025": {
+        "ID": 200025,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Duc_1_N_01/SK_NPC_Animal_11_Duc_1_N_01.SK_NPC_Animal_11_Duc_1_N_01",
+          "SubPathString": ""
+        }
+      },
+      "200026": {
+        "ID": 200026,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Duc_1_N_02/SK_NPC_Animal_11_Duc_1_N_02.SK_NPC_Animal_11_Duc_1_N_02",
+          "SubPathString": ""
+        }
+      },
+      "200027": {
+        "ID": 200027,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Pig_1_N_01/SK_NPC_Animal_11_Pig_1_N_01.SK_NPC_Animal_11_Pig_1_N_01",
+          "SubPathString": ""
+        }
+      },
+      "200028": {
+        "ID": 200028,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Pig_1_N_02/SK_NPC_Animal_11_Pig_1_N_02.SK_NPC_Animal_11_Pig_1_N_02",
+          "SubPathString": ""
+        }
+      },
+      "200029": {
+        "ID": 200029,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Animal_11_Rav_1_N_01/SK_NPC_Animal_11_Rav_1_N_01.SK_NPC_Animal_11_Rav_1_N_01",
+          "SubPathString": ""
+        }
+      },
+      "200030": {
+        "ID": 200030,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Liz_1_N_01/SK_NPC_Ani_Liz_1_N_01.SK_NPC_Ani_Liz_1_N_01",
+          "SubPathString": ""
+        }
+      },
+      "200031": {
+        "ID": 200031,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Liz_1_N_02/SK_NPC_Ani_Liz_1_N_02.SK_NPC_Ani_Liz_1_N_02",
+          "SubPathString": ""
+        }
+      },
+      "200032": {
+        "ID": 200032,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Liz_1_N_03/SK_NPC_Ani_Liz_1_N_03.SK_NPC_Ani_Liz_1_N_03",
+          "SubPathString": ""
+        }
+      },
+      "200033": {
+        "ID": 200033,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Animals/NPC_Ani_Altherion01/SK_NPC_Ani_Altherion01.SK_NPC_Ani_Altherion01",
+          "SubPathString": ""
+        }
+      },
+      "200034": {
+        "ID": 200034,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Althelikin11/SK_NPC_Demon_Althelikin11.SK_NPC_Demon_Althelikin11",
+          "SubPathString": ""
+        }
+      },
+      "200035": {
+        "ID": 200035,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Althelikin11/SK_NPC_Demon_Althelikin11.SK_NPC_Demon_Althelikin11",
+          "SubPathString": ""
+        }
+      },
+      "200036": {
+        "ID": 200036,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Althelikin12/SK_NPC_Demon_Althelikin12.SK_NPC_Demon_Althelikin12",
+          "SubPathString": ""
+        }
+      },
+      "200037": {
+        "ID": 200037,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Althelikin12/SK_NPC_Demon_Althelikin12.SK_NPC_Demon_Althelikin12",
+          "SubPathString": ""
+        }
+      },
+      "200038": {
+        "ID": 200038,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_M_Shape01/SK_NPC_Human_Normal_NM01.SK_NPC_Human_Normal_NM01",
+          "SubPathString": ""
+        }
+      },
+      "200039": {
+        "ID": 200039,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_M_Shape02/SK_NPC_Human_Normal_BM01.SK_NPC_Human_Normal_BM01",
+          "SubPathString": ""
+        }
+      },
+      "200040": {
+        "ID": 200040,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_F_Shape01/SK_NPC_Human_Normal_NF01.SK_NPC_Human_Normal_NF01",
+          "SubPathString": ""
+        }
+      },
+      "200041": {
+        "ID": 200041,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_WildBoar_NA11/NPC_Beast_WildBoar_NA11.NPC_Beast_WildBoar_NA11",
+          "SubPathString": ""
+        }
+      },
+      "200042": {
+        "ID": 200042,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Human_ThievesScoutSword_NM11/SK_NPC_Human_ThievesScoutSword_NM11.SK_NPC_Human_ThievesScoutSword_NM11",
+          "SubPathString": ""
+        }
+      },
+      "200043": {
+        "ID": 200043,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Human_ThievesScoutSword_NM12/SK_NPC_Human_ThievesScoutSword_NM12.SK_NPC_Human_ThievesScoutSword_NM12",
+          "SubPathString": ""
+        }
+      },
+      "200044": {
+        "ID": 200044,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Human_ArchinaMagiStaff_NM11/SK_NPC_Human_ArchinaMagiStaff_NM11.SK_NPC_Human_ArchinaMagiStaff_NM11",
+          "SubPathString": ""
+        }
+      },
+      "200045": {
+        "ID": 200045,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Human_DrerasResident_NM11/SK_NPC_Human_DrerasResident_NM11.SK_NPC_Human_DrerasResident_NM11",
+          "SubPathString": ""
+        }
+      },
+      "200046": {
+        "ID": 200046,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Human_NuminusContingentMaceShield_BM11/SK_NPC_Human_NuminusContingentMaceShield_BM11.SK_NPC_Human_NuminusContingentMaceShield_BM11",
+          "SubPathString": ""
+        }
+      },
+      "200047": {
+        "ID": 200047,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Human_CargoCourierAxe11/SK_NPC_Human_CargoCourierAxe_BM11.SK_NPC_Human_CargoCourierAxe_BM11",
+          "SubPathString": ""
+        }
+      },
+      "200048": {
+        "ID": 200048,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Human_VictoriaVereen_NF11/SK_NPC_Human_VictoriaVereen_NF11.SK_NPC_Human_VictoriaVereen_NF11",
+          "SubPathString": ""
+        }
+      },
+      "200049": {
+        "ID": 200049,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Human_NuminusPaladinFSpearShield_NF11/SK_NPC_Human_NuminusPaladinFSpearShield_NF11.SK_NPC_Human_NuminusPaladinFSpearShield_NF11",
+          "SubPathString": ""
+        }
+      },
+      "200050": {
+        "ID": 200050,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Beast/NPC_Beast_BattleAnt_NA11/SK_NPC_Beast_BattleAnt_NA11.SK_NPC_Beast_BattleAnt_NA11",
+          "SubPathString": ""
+        }
+      },
+      "200051": {
+        "ID": 200051,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_Dreadspawn01_Uarthas11/SK_NPC_Demon_Dreadspawn01_Uarthas11.SK_NPC_Demon_Dreadspawn01_Uarthas11",
+          "SubPathString": ""
+        }
+      },
+      "200052": {
+        "ID": 200052,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Demon/NPC_Demon_WindSlime_NA11/SK_NPC_Demon_WindSlime_NA11.SK_NPC_Demon_WindSlime_NA11",
+          "SubPathString": ""
+        }
+      },
+      "200053": {
+        "ID": 200053,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Humans/NPC_Human_ProxyApostleSpear_NM11/SK_NPC_Human_ProxyApostleSpear_NM11.SK_NPC_Human_ProxyApostleSpear_NM11",
+          "SubPathString": ""
+        }
+      },
+      "400001": {
+        "ID": 400001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Stuff_Warpdevice_01/SK_Stuff_Stuff_Warpdevice_01.SK_Stuff_Stuff_Warpdevice_01",
+          "SubPathString": ""
+        }
+      },
+      "400002": {
+        "ID": 400002,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Stuff_Portal_01/SK_Stuff_Stuff_Portal_01_soul.SK_Stuff_Stuff_Portal_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "400003": {
+        "ID": 400003,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Portal_Breach_01/SK_Stuff_Portal_Breach_01.SK_Stuff_Portal_Breach_01",
+          "SubPathString": ""
+        }
+      },
+      "400004": {
+        "ID": 400004,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Portal_Gate_01/SK_Stuff_Portal_Gate_01.SK_Stuff_Portal_Gate_01",
+          "SubPathString": ""
+        }
+      },
+      "410001": {
+        "ID": 410001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Quest/Stuff_Quest_Vergence_01/SK_Stuff_Quest_Vergence_01.SK_Stuff_Quest_Vergence_01",
+          "SubPathString": ""
+        }
+      },
+      "500001": {
+        "ID": 500001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Plants/Stuff_Gather_Plants_TundraBerry_11/SK_Stuff_Gather_Plants_TundraBerry_11.SK_Stuff_Gather_Plants_TundraBerry_11",
+          "SubPathString": ""
+        }
+      },
+      "500002": {
+        "ID": 500002,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Tree_FieldTree_01/Stuff_Gather_11_Tree_FieldTree_01.Stuff_Gather_11_Tree_FieldTree_01",
+          "SubPathString": ""
+        }
+      },
+      "500003": {
+        "ID": 500003,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_TreasureBox_01/Stuff_Gather_Box_TreasureBox_01_soul.Stuff_Gather_Box_TreasureBox_01_soul",
+          "SubPathString": ""
+        }
+      },
+      "500004": {
+        "ID": 500004,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Herb_WildGrass_01/Stuff_Gather_11_Herb_WildGrass_01.Stuff_Gather_11_Herb_WildGrass_01",
+          "SubPathString": ""
+        }
+      },
+      "500005": {
+        "ID": 500005,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_Ore_Stones_12/Stuff_Gather_Ore_Stones_12.Stuff_Gather_Ore_Stones_12",
+          "SubPathString": ""
+        }
+      },
+      "500006": {
+        "ID": 500006,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_Tree_FieldTree_12/Stuff_Gather_Tree_FieldTree_12.Stuff_Gather_Tree_FieldTree_12",
+          "SubPathString": ""
+        }
+      },
+      "500007": {
+        "ID": 500007,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_Box_TreasureBox_12/Stuff_Gather_Box_TreasureBox_12.Stuff_Gather_Box_TreasureBox_12",
+          "SubPathString": ""
+        }
+      },
+      "500008": {
+        "ID": 500008,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_Herb_WildGrass_12/Stuff_Gather_Herb_WildGrass_12.Stuff_Gather_Herb_WildGrass_12",
+          "SubPathString": ""
+        }
+      },
+      "500010": {
+        "ID": 500010,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Quest_QuestBoard_01/SK_Stuff_Quest_QuestBoard_01.SK_Stuff_Quest_QuestBoard_01",
+          "SubPathString": ""
+        }
+      },
+      "500011": {
+        "ID": 500011,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Quest_Bloodstain_01/SK_Stuff_Quest_Bloodstain_01.SK_Stuff_Quest_Bloodstain_01",
+          "SubPathString": ""
+        }
+      },
+      "500012": {
+        "ID": 500012,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Portal_Inn_01/SK_Stuff_Portal_Inn_01.SK_Stuff_Portal_Inn_01",
+          "SubPathString": ""
+        }
+      },
+      "500013": {
+        "ID": 500013,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Plants/Stuff_Gather_Plants_TundraBerry_11/SK_Stuff_Gather_Plants_TundraBerry_11.SK_Stuff_Gather_Plants_TundraBerry_11",
+          "SubPathString": ""
+        }
+      },
+      "500014": {
+        "ID": 500014,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Ore/Stuff_Gather_Ore_Gneiss_11/SK_NPC_Stuff_Gather_Ore_Gneiss_11.SK_NPC_Stuff_Gather_Ore_Gneiss_11",
+          "SubPathString": ""
+        }
+      },
+      "500015": {
+        "ID": 500015,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Tree/Stuff_Gather_Tree_Birchtree_11/SK_Stuff_Gather_Tree_Birchtree_11.SK_Stuff_Gather_Tree_Birchtree_11",
+          "SubPathString": ""
+        }
+      },
+      "500016": {
+        "ID": 500016,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/UnderWater/Stuff_Gather_UnderWater_Shell_11/SK_Stuff_Gather_UnderWater_Shell_11.SK_Stuff_Gather_UnderWater_Shell_11",
+          "SubPathString": ""
+        }
+      },
+      "500017": {
+        "ID": 500017,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Box/Stuff_Gather_Box_TundraBox_11/SK_Stuff_Gather_Box_TundraBox_11.SK_Stuff_Gather_Box_TundraBox_11",
+          "SubPathString": ""
+        }
+      },
+      "500018": {
+        "ID": 500018,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Arch/Stuff_Gather_Arch_TundraDirt_11/SK_Stuff_Gather_Arch_TundraDirt_11.SK_Stuff_Gather_Arch_TundraDirt_11",
+          "SubPathString": ""
+        }
+      },
+      "500019": {
+        "ID": 500019,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Arch/Stuff_Gather_DigSite_11/SK_Stuff_Gather_DigSite_11.SK_Stuff_Gather_DigSite_11",
+          "SubPathString": ""
+        }
+      },
+      "500020": {
+        "ID": 500020,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Breach/Stuff_Breach_StoneTablet_01/SK_Stuff_Breach_StoneTablet_01.SK_Stuff_Breach_StoneTablet_01",
+          "SubPathString": ""
+        }
+      },
+      "500021": {
+        "ID": 500021,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Portal_Breach_01/SK_Stuff_Portal_Breach_01.SK_Stuff_Portal_Breach_01",
+          "SubPathString": ""
+        }
+      },
+      "500022": {
+        "ID": 500022,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Breach/Stuff_Breach_SmallAltar_01/SK_Stuff_Breach_SmallAltar_01.SK_Stuff_Breach_SmallAltar_01",
+          "SubPathString": ""
+        }
+      },
+      "500023": {
+        "ID": 500023,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Portal_Breach_01/SK_Stuff_Portal_Breach_01.SK_Stuff_Portal_Breach_01",
+          "SubPathString": ""
+        }
+      },
+      "500024": {
+        "ID": 500024,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Breach/Stuff_Breach_StoneTower_01/SK_Stuff_Breach_StoneTower_01.SK_Stuff_Breach_StoneTower_01",
+          "SubPathString": ""
+        }
+      },
+      "500025": {
+        "ID": 500025,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Gather/Tree/Stuff_Gather_Tree_Birchtree_11/SM_Stuff_Gather_Tree_Birchtree_11.SM_Stuff_Gather_Tree_Birchtree_11",
+          "SubPathString": ""
+        }
+      },
+      "800001": {
+        "ID": 800001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/NPCs/Object/NPC_Object_Camp01/SM_DR_CampChair_001_A_SZ.SM_DR_CampChair_001_A_SZ",
+          "SubPathString": ""
+        }
+      },
+      "900001": {
+        "ID": 900001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_LDown02.weapon_sld_LDown02",
+          "SubPathString": ""
+        }
+      },
+      "900002": {
+        "ID": 900002,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_LDown01.weapon_sld_LDown01",
+          "SubPathString": ""
+        }
+      },
+      "900003": {
+        "ID": 900003,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_middle_02.weapon_sld_middle_02",
+          "SubPathString": ""
+        }
+      },
+      "900004": {
+        "ID": 900004,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_LDown03.weapon_sld_LDown03",
+          "SubPathString": ""
+        }
+      },
+      "900005": {
+        "ID": 900005,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_LDown04.weapon_sld_LDown04",
+          "SubPathString": ""
+        }
+      },
+      "900006": {
+        "ID": 900006,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_LUp01.weapon_sld_LUp01",
+          "SubPathString": ""
+        }
+      },
+      "900007": {
+        "ID": 900007,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_LUp02.weapon_sld_LUp02",
+          "SubPathString": ""
+        }
+      },
+      "900008": {
+        "ID": 900008,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_middle_01.weapon_sld_middle_01",
+          "SubPathString": ""
+        }
+      },
+      "900009": {
+        "ID": 900009,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_RDown04.weapon_sld_RDown04",
+          "SubPathString": ""
+        }
+      },
+      "900010": {
+        "ID": 900010,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_RUp01.weapon_sld_RUp01",
+          "SubPathString": ""
+        }
+      },
+      "900011": {
+        "ID": 900011,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_RUp02.weapon_sld_RUp02",
+          "SubPathString": ""
+        }
+      },
+      "900012": {
+        "ID": 900012,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_middle_03.weapon_sld_middle_03",
+          "SubPathString": ""
+        }
+      },
+      "900013": {
+        "ID": 900013,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_middle_04.weapon_sld_middle_04",
+          "SubPathString": ""
+        }
+      },
+      "900014": {
+        "ID": 900014,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_middle_05.weapon_sld_middle_05",
+          "SubPathString": ""
+        }
+      },
+      "900015": {
+        "ID": 900015,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_RDown01.weapon_sld_RDown01",
+          "SubPathString": ""
+        }
+      },
+      "900016": {
+        "ID": 900016,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_RDown02.weapon_sld_RDown02",
+          "SubPathString": ""
+        }
+      },
+      "900017": {
+        "ID": 900017,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/Weapons/War_M/Meshes/Static_War_M_Shield_01/staticMeshGroup/weapon_sld_RDown03.weapon_sld_RDown03",
+          "SubPathString": ""
+        }
+      },
+      "1000001": {
+        "ID": 1000001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1000002": {
+        "ID": 1000002,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SM_Tool_Pickax_001.SM_Tool_Pickax_001",
+          "SubPathString": ""
+        }
+      },
+      "1000011": {
+        "ID": 1000011,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1000012": {
+        "ID": 1000012,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SM_Tool_GourdBottle_001.SM_Tool_GourdBottle_001",
+          "SubPathString": ""
+        }
+      },
+      "1000021": {
+        "ID": 1000021,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1000022": {
+        "ID": 1000022,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SM_Tool_Hoe_001.SM_Tool_Hoe_001",
+          "SubPathString": ""
+        }
+      },
+      "1000031": {
+        "ID": 1000031,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1000032": {
+        "ID": 1000032,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/PCs/ETC/Meshes/SM_Tool_Axe_001.SM_Tool_Axe_001",
+          "SubPathString": ""
+        }
+      },
+      "1100001": {
+        "ID": 1100001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Full_LV01_01.DarkSteel_01_Full_LV01_01",
+          "SubPathString": ""
+        }
+      },
+      "1100002": {
+        "ID": 1100002,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Middle_LV02_01.DarkSteel_01_Middle_LV02_01",
+          "SubPathString": ""
+        }
+      },
+      "1100003": {
+        "ID": 1100003,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Middle_LV02B_01.DarkSteel_01_Middle_LV02B_01",
+          "SubPathString": ""
+        }
+      },
+      "1100004": {
+        "ID": 1100004,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Middle_LV02B_02.DarkSteel_01_Middle_LV02B_02",
+          "SubPathString": ""
+        }
+      },
+      "1100005": {
+        "ID": 1100005,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Middle_LV02B_03.DarkSteel_01_Middle_LV02B_03",
+          "SubPathString": ""
+        }
+      },
+      "1100006": {
+        "ID": 1100006,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Middle_LV02B_04.DarkSteel_01_Middle_LV02B_04",
+          "SubPathString": ""
+        }
+      },
+      "1100007": {
+        "ID": 1100007,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Middle_LV02B_05.DarkSteel_01_Middle_LV02B_05",
+          "SubPathString": ""
+        }
+      },
+      "1100008": {
+        "ID": 1100008,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Middle_LV02B_06.DarkSteel_01_Middle_LV02B_06",
+          "SubPathString": ""
+        }
+      },
+      "1100009": {
+        "ID": 1100009,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Middle_LV02B_07.DarkSteel_01_Middle_LV02B_07",
+          "SubPathString": ""
+        }
+      },
+      "1100010": {
+        "ID": 1100010,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03_01.DarkSteel_01_Low_LV03_01",
+          "SubPathString": ""
+        }
+      },
+      "1100011": {
+        "ID": 1100011,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_01.DarkSteel_01_Low_LV03B_01",
+          "SubPathString": ""
+        }
+      },
+      "1100012": {
+        "ID": 1100012,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_02.DarkSteel_01_Low_LV03B_02",
+          "SubPathString": ""
+        }
+      },
+      "1100013": {
+        "ID": 1100013,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_03.DarkSteel_01_Low_LV03B_03",
+          "SubPathString": ""
+        }
+      },
+      "1100014": {
+        "ID": 1100014,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_04.DarkSteel_01_Low_LV03B_04",
+          "SubPathString": ""
+        }
+      },
+      "1100015": {
+        "ID": 1100015,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_05.DarkSteel_01_Low_LV03B_05",
+          "SubPathString": ""
+        }
+      },
+      "1100016": {
+        "ID": 1100016,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_06.DarkSteel_01_Low_LV03B_06",
+          "SubPathString": ""
+        }
+      },
+      "1100017": {
+        "ID": 1100017,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_07.DarkSteel_01_Low_LV03B_07",
+          "SubPathString": ""
+        }
+      },
+      "1100018": {
+        "ID": 1100018,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_08.DarkSteel_01_Low_LV03B_08",
+          "SubPathString": ""
+        }
+      },
+      "1100019": {
+        "ID": 1100019,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_09.DarkSteel_01_Low_LV03B_09",
+          "SubPathString": ""
+        }
+      },
+      "1100020": {
+        "ID": 1100020,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_10.DarkSteel_01_Low_LV03B_10",
+          "SubPathString": ""
+        }
+      },
+      "1100021": {
+        "ID": 1100021,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_11.DarkSteel_01_Low_LV03B_11",
+          "SubPathString": ""
+        }
+      },
+      "1100022": {
+        "ID": 1100022,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Low_LV03B_12.DarkSteel_01_Low_LV03B_12",
+          "SubPathString": ""
+        }
+      },
+      "1100023": {
+        "ID": 1100023,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04_01.DarkSteel_01_Die_LV04_01",
+          "SubPathString": ""
+        }
+      },
+      "1100024": {
+        "ID": 1100024,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_01.DarkSteel_01_Die_LV04B_01",
+          "SubPathString": ""
+        }
+      },
+      "1100025": {
+        "ID": 1100025,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_02.DarkSteel_01_Die_LV04B_02",
+          "SubPathString": ""
+        }
+      },
+      "1100026": {
+        "ID": 1100026,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_03.DarkSteel_01_Die_LV04B_03",
+          "SubPathString": ""
+        }
+      },
+      "1100027": {
+        "ID": 1100027,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_04.DarkSteel_01_Die_LV04B_04",
+          "SubPathString": ""
+        }
+      },
+      "1100028": {
+        "ID": 1100028,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_05.DarkSteel_01_Die_LV04B_05",
+          "SubPathString": ""
+        }
+      },
+      "1100029": {
+        "ID": 1100029,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_06.DarkSteel_01_Die_LV04B_06",
+          "SubPathString": ""
+        }
+      },
+      "1100030": {
+        "ID": 1100030,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_07.DarkSteel_01_Die_LV04B_07",
+          "SubPathString": ""
+        }
+      },
+      "1100031": {
+        "ID": 1100031,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_08.DarkSteel_01_Die_LV04B_08",
+          "SubPathString": ""
+        }
+      },
+      "1100032": {
+        "ID": 1100032,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_09.DarkSteel_01_Die_LV04B_09",
+          "SubPathString": ""
+        }
+      },
+      "1100033": {
+        "ID": 1100033,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_10.DarkSteel_01_Die_LV04B_10",
+          "SubPathString": ""
+        }
+      },
+      "1100034": {
+        "ID": 1100034,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_11.DarkSteel_01_Die_LV04B_11",
+          "SubPathString": ""
+        }
+      },
+      "1100035": {
+        "ID": 1100035,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_12.DarkSteel_01_Die_LV04B_12",
+          "SubPathString": ""
+        }
+      },
+      "1100036": {
+        "ID": 1100036,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_DarkSteel_01/sm_group/DarkSteel_01_Die_LV04B_13.DarkSteel_01_Die_LV04B_13",
+          "SubPathString": ""
+        }
+      },
+      "1100037": {
+        "ID": 1100037,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_TreasureBox_01/sm_group/sm_box_01.sm_box_01",
+          "SubPathString": ""
+        }
+      },
+      "1100038": {
+        "ID": 1100038,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_TreasureBox_01/sm_group/sm_box_02.sm_box_02",
+          "SubPathString": ""
+        }
+      },
+      "1100039": {
+        "ID": 1100039,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_TreasureBox_01/sm_group/sm_box_03.sm_box_03",
+          "SubPathString": ""
+        }
+      },
+      "1100040": {
+        "ID": 1100040,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_TreasureBox_01/sm_group/sm_box_04.sm_box_04",
+          "SubPathString": ""
+        }
+      },
+      "1100041": {
+        "ID": 1100041,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_TreasureBox_01/sm_group/sm_box_05.sm_box_05",
+          "SubPathString": ""
+        }
+      },
+      "1100042": {
+        "ID": 1100042,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_TreasureBox_01/sm_group/sm_box_06.sm_box_06",
+          "SubPathString": ""
+        }
+      },
+      "1100043": {
+        "ID": 1100043,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_TreasureBox_01/sm_group/sm_box_07.sm_box_07",
+          "SubPathString": ""
+        }
+      },
+      "1100044": {
+        "ID": 1100044,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Ether_01/sm_group/sm_Stuff_Gather_11_Ether_01_sm_Stuff_Gather_11_Ether_01.sm_Stuff_Gather_11_Ether_01_sm_Stuff_Gather_11_Ether_01",
+          "SubPathString": ""
+        }
+      },
+      "1100045": {
+        "ID": 1100045,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Herb_WildGrass_01/sm_group/sm_Stuff_Gather_11_Herb_WildGrass_01.sm_Stuff_Gather_11_Herb_WildGrass_01",
+          "SubPathString": ""
+        }
+      },
+      "1100046": {
+        "ID": 1100046,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Ore_Stones_01/sm_group/sm_Stuff_Gather_11_Ore_Stones_01.sm_Stuff_Gather_11_Ore_Stones_01",
+          "SubPathString": ""
+        }
+      },
+      "1100047": {
+        "ID": 1100047,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Tree_FieldTree_01/sm_group/sm_Stuff_Gather_11_Tree_FieldTree_01.sm_Stuff_Gather_11_Tree_FieldTree_01",
+          "SubPathString": ""
+        }
+      },
+      "1100048": {
+        "ID": 1100048,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Water_CoralReef_01/sm_group/Stuff_Gather_11_Water_CoralReef_01_sm01.Stuff_Gather_11_Water_CoralReef_01_sm01",
+          "SubPathString": ""
+        }
+      },
+      "1100049": {
+        "ID": 1100049,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Gather_11_Water_CoralReef_01/sm_group/Stuff_Gather_11_Water_CoralReef_01_sm02.Stuff_Gather_11_Water_CoralReef_01_sm02",
+          "SubPathString": ""
+        }
+      },
+      "1200001": {
+        "ID": 1200001,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__Stuff_Warpdevice_01.Stuff__Stuff_Warpdevice_01",
+          "SubPathString": ""
+        }
+      },
+      "1200002": {
+        "ID": 1200002,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__Stuff_Warpdevice_pillar_01.Stuff__Stuff_Warpdevice_pillar_01",
+          "SubPathString": ""
+        }
+      },
+      "1200003": {
+        "ID": 1200003,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__Stuff_Warpdevice_pillar_02.Stuff__Stuff_Warpdevice_pillar_02",
+          "SubPathString": ""
+        }
+      },
+      "1200004": {
+        "ID": 1200004,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__Stuff_Warpdevice_pillar_03.Stuff__Stuff_Warpdevice_pillar_03",
+          "SubPathString": ""
+        }
+      },
+      "1200005": {
+        "ID": 1200005,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__Stuff_Warpdevice_pillar_04.Stuff__Stuff_Warpdevice_pillar_04",
+          "SubPathString": ""
+        }
+      },
+      "1200006": {
+        "ID": 1200006,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_eye_01.Stuff__warpdevice_eye_01",
+          "SubPathString": ""
+        }
+      },
+      "1200007": {
+        "ID": 1200007,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_01.Stuff__warpdevice_inner01_01",
+          "SubPathString": ""
+        }
+      },
+      "1200008": {
+        "ID": 1200008,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_02.Stuff__warpdevice_inner01_02",
+          "SubPathString": ""
+        }
+      },
+      "1200009": {
+        "ID": 1200009,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_03.Stuff__warpdevice_inner01_03",
+          "SubPathString": ""
+        }
+      },
+      "1200010": {
+        "ID": 1200010,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_04.Stuff__warpdevice_inner01_04",
+          "SubPathString": ""
+        }
+      },
+      "1200011": {
+        "ID": 1200011,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_05.Stuff__warpdevice_inner01_05",
+          "SubPathString": ""
+        }
+      },
+      "1200012": {
+        "ID": 1200012,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_06.Stuff__warpdevice_inner01_06",
+          "SubPathString": ""
+        }
+      },
+      "1200013": {
+        "ID": 1200013,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_07.Stuff__warpdevice_inner01_07",
+          "SubPathString": ""
+        }
+      },
+      "1200014": {
+        "ID": 1200014,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_08.Stuff__warpdevice_inner01_08",
+          "SubPathString": ""
+        }
+      },
+      "1200015": {
+        "ID": 1200015,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_09.Stuff__warpdevice_inner01_09",
+          "SubPathString": ""
+        }
+      },
+      "1200016": {
+        "ID": 1200016,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_10.Stuff__warpdevice_inner01_10",
+          "SubPathString": ""
+        }
+      },
+      "1200017": {
+        "ID": 1200017,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_11.Stuff__warpdevice_inner01_11",
+          "SubPathString": ""
+        }
+      },
+      "1200018": {
+        "ID": 1200018,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_12.Stuff__warpdevice_inner01_12",
+          "SubPathString": ""
+        }
+      },
+      "1200019": {
+        "ID": 1200019,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_13.Stuff__warpdevice_inner01_13",
+          "SubPathString": ""
+        }
+      },
+      "1200020": {
+        "ID": 1200020,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_14.Stuff__warpdevice_inner01_14",
+          "SubPathString": ""
+        }
+      },
+      "1200021": {
+        "ID": 1200021,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_15.Stuff__warpdevice_inner01_15",
+          "SubPathString": ""
+        }
+      },
+      "1200022": {
+        "ID": 1200022,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_16.Stuff__warpdevice_inner01_16",
+          "SubPathString": ""
+        }
+      },
+      "1200023": {
+        "ID": 1200023,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_17.Stuff__warpdevice_inner01_17",
+          "SubPathString": ""
+        }
+      },
+      "1200024": {
+        "ID": 1200024,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_18.Stuff__warpdevice_inner01_18",
+          "SubPathString": ""
+        }
+      },
+      "1200025": {
+        "ID": 1200025,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_19.Stuff__warpdevice_inner01_19",
+          "SubPathString": ""
+        }
+      },
+      "1200026": {
+        "ID": 1200026,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_20.Stuff__warpdevice_inner01_20",
+          "SubPathString": ""
+        }
+      },
+      "1200027": {
+        "ID": 1200027,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_21.Stuff__warpdevice_inner01_21",
+          "SubPathString": ""
+        }
+      },
+      "1200028": {
+        "ID": 1200028,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_22.Stuff__warpdevice_inner01_22",
+          "SubPathString": ""
+        }
+      },
+      "1200029": {
+        "ID": 1200029,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_23.Stuff__warpdevice_inner01_23",
+          "SubPathString": ""
+        }
+      },
+      "1200030": {
+        "ID": 1200030,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner01_24.Stuff__warpdevice_inner01_24",
+          "SubPathString": ""
+        }
+      },
+      "1200031": {
+        "ID": 1200031,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_01.Stuff__warpdevice_inner02_01",
+          "SubPathString": ""
+        }
+      },
+      "1200032": {
+        "ID": 1200032,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_02.Stuff__warpdevice_inner02_02",
+          "SubPathString": ""
+        }
+      },
+      "1200033": {
+        "ID": 1200033,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_03.Stuff__warpdevice_inner02_03",
+          "SubPathString": ""
+        }
+      },
+      "1200034": {
+        "ID": 1200034,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_04.Stuff__warpdevice_inner02_04",
+          "SubPathString": ""
+        }
+      },
+      "1200035": {
+        "ID": 1200035,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_05.Stuff__warpdevice_inner02_05",
+          "SubPathString": ""
+        }
+      },
+      "1200036": {
+        "ID": 1200036,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_06.Stuff__warpdevice_inner02_06",
+          "SubPathString": ""
+        }
+      },
+      "1200037": {
+        "ID": 1200037,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_07.Stuff__warpdevice_inner02_07",
+          "SubPathString": ""
+        }
+      },
+      "1200038": {
+        "ID": 1200038,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_08.Stuff__warpdevice_inner02_08",
+          "SubPathString": ""
+        }
+      },
+      "1200039": {
+        "ID": 1200039,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_09.Stuff__warpdevice_inner02_09",
+          "SubPathString": ""
+        }
+      },
+      "1200040": {
+        "ID": 1200040,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_10.Stuff__warpdevice_inner02_10",
+          "SubPathString": ""
+        }
+      },
+      "1200041": {
+        "ID": 1200041,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_11.Stuff__warpdevice_inner02_11",
+          "SubPathString": ""
+        }
+      },
+      "1200042": {
+        "ID": 1200042,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_12.Stuff__warpdevice_inner02_12",
+          "SubPathString": ""
+        }
+      },
+      "1200043": {
+        "ID": 1200043,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_13.Stuff__warpdevice_inner02_13",
+          "SubPathString": ""
+        }
+      },
+      "1200044": {
+        "ID": 1200044,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_14.Stuff__warpdevice_inner02_14",
+          "SubPathString": ""
+        }
+      },
+      "1200045": {
+        "ID": 1200045,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_15.Stuff__warpdevice_inner02_15",
+          "SubPathString": ""
+        }
+      },
+      "1200046": {
+        "ID": 1200046,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner02_16.Stuff__warpdevice_inner02_16",
+          "SubPathString": ""
+        }
+      },
+      "1200047": {
+        "ID": 1200047,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner03_01.Stuff__warpdevice_inner03_01",
+          "SubPathString": ""
+        }
+      },
+      "1200048": {
+        "ID": 1200048,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner03_02.Stuff__warpdevice_inner03_02",
+          "SubPathString": ""
+        }
+      },
+      "1200049": {
+        "ID": 1200049,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner03_03.Stuff__warpdevice_inner03_03",
+          "SubPathString": ""
+        }
+      },
+      "1200050": {
+        "ID": 1200050,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner03_04.Stuff__warpdevice_inner03_04",
+          "SubPathString": ""
+        }
+      },
+      "1200051": {
+        "ID": 1200051,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner03_05.Stuff__warpdevice_inner03_05",
+          "SubPathString": ""
+        }
+      },
+      "1200052": {
+        "ID": 1200052,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner03_06.Stuff__warpdevice_inner03_06",
+          "SubPathString": ""
+        }
+      },
+      "1200053": {
+        "ID": 1200053,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner03_07.Stuff__warpdevice_inner03_07",
+          "SubPathString": ""
+        }
+      },
+      "1200054": {
+        "ID": 1200054,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner03_08.Stuff__warpdevice_inner03_08",
+          "SubPathString": ""
+        }
+      },
+      "1200055": {
+        "ID": 1200055,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner04_01.Stuff__warpdevice_inner04_01",
+          "SubPathString": ""
+        }
+      },
+      "1200056": {
+        "ID": 1200056,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner04_02.Stuff__warpdevice_inner04_02",
+          "SubPathString": ""
+        }
+      },
+      "1200057": {
+        "ID": 1200057,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner04_03.Stuff__warpdevice_inner04_03",
+          "SubPathString": ""
+        }
+      },
+      "1200058": {
+        "ID": 1200058,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner04_04.Stuff__warpdevice_inner04_04",
+          "SubPathString": ""
+        }
+      },
+      "1200059": {
+        "ID": 1200059,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner04_05.Stuff__warpdevice_inner04_05",
+          "SubPathString": ""
+        }
+      },
+      "1200060": {
+        "ID": 1200060,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner04_06.Stuff__warpdevice_inner04_06",
+          "SubPathString": ""
+        }
+      },
+      "1200061": {
+        "ID": 1200061,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner04_07.Stuff__warpdevice_inner04_07",
+          "SubPathString": ""
+        }
+      },
+      "1200062": {
+        "ID": 1200062,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner04_08.Stuff__warpdevice_inner04_08",
+          "SubPathString": ""
+        }
+      },
+      "1200063": {
+        "ID": 1200063,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_01.Stuff__warpdevice_inner05_01",
+          "SubPathString": ""
+        }
+      },
+      "1200064": {
+        "ID": 1200064,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_02.Stuff__warpdevice_inner05_02",
+          "SubPathString": ""
+        }
+      },
+      "1200065": {
+        "ID": 1200065,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_03.Stuff__warpdevice_inner05_03",
+          "SubPathString": ""
+        }
+      },
+      "1200066": {
+        "ID": 1200066,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_04.Stuff__warpdevice_inner05_04",
+          "SubPathString": ""
+        }
+      },
+      "1200067": {
+        "ID": 1200067,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_05.Stuff__warpdevice_inner05_05",
+          "SubPathString": ""
+        }
+      },
+      "1200068": {
+        "ID": 1200068,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_06.Stuff__warpdevice_inner05_06",
+          "SubPathString": ""
+        }
+      },
+      "1200069": {
+        "ID": 1200069,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_07.Stuff__warpdevice_inner05_07",
+          "SubPathString": ""
+        }
+      },
+      "1200070": {
+        "ID": 1200070,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_08.Stuff__warpdevice_inner05_08",
+          "SubPathString": ""
+        }
+      },
+      "1200071": {
+        "ID": 1200071,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_09.Stuff__warpdevice_inner05_09",
+          "SubPathString": ""
+        }
+      },
+      "1200072": {
+        "ID": 1200072,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_10.Stuff__warpdevice_inner05_10",
+          "SubPathString": ""
+        }
+      },
+      "1200073": {
+        "ID": 1200073,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_11.Stuff__warpdevice_inner05_11",
+          "SubPathString": ""
+        }
+      },
+      "1200074": {
+        "ID": 1200074,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_12.Stuff__warpdevice_inner05_12",
+          "SubPathString": ""
+        }
+      },
+      "1200075": {
+        "ID": 1200075,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_13.Stuff__warpdevice_inner05_13",
+          "SubPathString": ""
+        }
+      },
+      "1200076": {
+        "ID": 1200076,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_14.Stuff__warpdevice_inner05_14",
+          "SubPathString": ""
+        }
+      },
+      "1200077": {
+        "ID": 1200077,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_15.Stuff__warpdevice_inner05_15",
+          "SubPathString": ""
+        }
+      },
+      "1200078": {
+        "ID": 1200078,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner05_16.Stuff__warpdevice_inner05_16",
+          "SubPathString": ""
+        }
+      },
+      "1200079": {
+        "ID": 1200079,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_inner06_01.Stuff__warpdevice_inner06_01",
+          "SubPathString": ""
+        }
+      },
+      "1200080": {
+        "ID": 1200080,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_out_01.Stuff__warpdevice_out_01",
+          "SubPathString": ""
+        }
+      },
+      "1200081": {
+        "ID": 1200081,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_out_02.Stuff__warpdevice_out_02",
+          "SubPathString": ""
+        }
+      },
+      "1200082": {
+        "ID": 1200082,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_out_03.Stuff__warpdevice_out_03",
+          "SubPathString": ""
+        }
+      },
+      "1200083": {
+        "ID": 1200083,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_out_04.Stuff__warpdevice_out_04",
+          "SubPathString": ""
+        }
+      },
+      "1200084": {
+        "ID": 1200084,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_out_05.Stuff__warpdevice_out_05",
+          "SubPathString": ""
+        }
+      },
+      "1200085": {
+        "ID": 1200085,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_out_06.Stuff__warpdevice_out_06",
+          "SubPathString": ""
+        }
+      },
+      "1200086": {
+        "ID": 1200086,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_out_07.Stuff__warpdevice_out_07",
+          "SubPathString": ""
+        }
+      },
+      "1200087": {
+        "ID": 1200087,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__warpdevice_out_08.Stuff__warpdevice_out_08",
+          "SubPathString": ""
+        }
+      },
+      "1200088": {
+        "ID": 1200088,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__Warpdevice_step_01.Stuff__Warpdevice_step_01",
+          "SubPathString": ""
+        }
+      },
+      "1200089": {
+        "ID": 1200089,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__Warpdevice_step_02.Stuff__Warpdevice_step_02",
+          "SubPathString": ""
+        }
+      },
+      "1200090": {
+        "ID": 1200090,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Warpdevice_Dragona_01/sm_group/Stuff__Warpdevice_step_03.Stuff__Warpdevice_step_03",
+          "SubPathString": ""
+        }
+      },
+      "1200091": {
+        "ID": 1200091,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_wing_00_r.SM_wing_00_r",
+          "SubPathString": ""
+        }
+      },
+      "1200092": {
+        "ID": 1200092,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_mainbody.SM_mainbody",
+          "SubPathString": ""
+        }
+      },
+      "1200093": {
+        "ID": 1200093,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_tail.SM_tail",
+          "SubPathString": ""
+        }
+      },
+      "1200094": {
+        "ID": 1200094,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_tailCircle02.SM_tailCircle02",
+          "SubPathString": ""
+        }
+      },
+      "1200095": {
+        "ID": 1200095,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_wing_00_l.SM_wing_00_l",
+          "SubPathString": ""
+        }
+      },
+      "1200096": {
+        "ID": 1200096,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_wing_l.SM_wing_l",
+          "SubPathString": ""
+        }
+      },
+      "1200097": {
+        "ID": 1200097,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_wing_r.SM_wing_r",
+          "SubPathString": ""
+        }
+      },
+      "1200098": {
+        "ID": 1200098,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_wing_01_r.SM_wing_01_r",
+          "SubPathString": ""
+        }
+      },
+      "1200099": {
+        "ID": 1200099,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_wing_03_l.SM_wing_03_l",
+          "SubPathString": ""
+        }
+      },
+      "1200100": {
+        "ID": 1200100,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_wing_03_r.SM_wing_03_r",
+          "SubPathString": ""
+        }
+      },
+      "1200101": {
+        "ID": 1200101,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Airship_Dragona_01/sm_group/SM_wing_01_l.SM_wing_01_l",
+          "SubPathString": ""
+        }
+      },
+      "1200102": {
+        "ID": 1200102,
+        "DataStage": 23,
+        "Version": "*",
+        "MeshPath": {
+          "AssetPathName": "/Game/Characters/BGs/Stuffs/Stuff_Transport_Elevator_Dragona_01/Stuff_Transport_Elevator_Dragona_01_Static.Stuff_Transport_Elevator_Dragona_01_Static",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

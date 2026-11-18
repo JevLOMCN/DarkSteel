@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations"><ProjectConfiguration Include="Development|x64"><Configuration>Development</Configuration><Platform>x64</Platform></ProjectConfiguration></ItemGroup>
+  <PropertyGroup Label="Globals"><ProjectGuid>{9EE76676-0469-5E4D-8FB3-595A2EC9BA07}</ProjectGuid><RootNamespace>ThirdParty_libPNG</RootNamespace></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration"><ConfigurationType>StaticLibrary</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemGroup>
+    <ClCompile Include="CMakeFiles\png_static.dir\intel\filter_sse2_intrinsics.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\intel\intel_init.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\png.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngerror.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngget.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngmem.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngread.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngrio.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngrtran.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngrutil.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngset.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngtrans.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngwio.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngwrite.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngwtran.c.cpp" />
+    <ClCompile Include="CMakeFiles\png_static.dir\pngwutil.c.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
