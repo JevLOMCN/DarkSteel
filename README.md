@@ -272,10 +272,11 @@ DarkSteel Studio's **Client** page does steps 3 and 4 for you (writes `Engine.in
 
 ---
 
-<h2 align="center">
-  <img src="https://www.lomcn.net/forum/styles/uix/images/logo2024_100.png" width="32">
-  Other Projects
-</h2>
+## Other projects
+
+<div align="center">
+  <img src="https://www.lomcn.net/forum/data/assets/logo/favicon2019_Xf.png" width="32" alt="LOMCN">
+</div>
 
 <table align="center" width="100%">
 
@@ -345,8 +346,7 @@ DarkSteel Studio's **Client** page does steps 3 and 4 for you (writes `Engine.in
     </td>
     <td>
       <b>Mir 3D</b> •
-      <a href="https://github.com/mir-ethernity/mir-eternal">Moon Spirit</a> •
-      <a href="https://github.com/JevLOMCN/Eternal-Legend">Holy Cow</a><br>
+      <a href="https://github.com/JevLOMCN/CQYH">Project</a><br> •
       Remake of Shanda Games' 2016 <i>Legend Eternal</i>
     </td>
   </tr>
@@ -372,10 +372,10 @@ DarkSteel Studio's **Client** page does steps 3 and 4 for you (writes `Engine.in
     </td>
     <td>
       <b>Mir 5</b> •
-      <a href="https://github.com/JevLOMCN/mir5-private">Project</a> •
+      <a href="https://github.com/JevLOMCN/DarkSteel">Project</a> •
       <a href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/">Leaked Files</a> •
       <a href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/Mir5%20Alpha%202.mkv">Gameplay Video (24m)</a><br>
-      A massive 2TB development leak from the currently unreleased Mir 5. Includes server/client builds, internal documentation, and a 24-minute video showing <a href="https://github.com/JevLOMCN">Jev</a> connecting a leaked client to Wemade's official development server—since removed from YouTube with two copyright strikes. Preserved for historical and research purposes.
+      Remake of Wemade Entertainment's unreleased <i>Mir 5</i>
     </td>
   </tr>
 
