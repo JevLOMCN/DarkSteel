@@ -1,5 +1,9 @@
 # Legend of Mir 5 – DarkSteel
 
+<p align="center">
+  <img src="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/Splash.bmp" alt="Legend of Mir 5 – DarkSteel" width="100%">
+</p>
+
 C# server implementation, database, data tables and tooling for **Legend of Mir 5 DarkSteel** (Unreal Engine 5.7.1 client).
 
 [Website](https://LOMCN.net) · [Client](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%205/Leaks/Client%2031.12.25.7z)
